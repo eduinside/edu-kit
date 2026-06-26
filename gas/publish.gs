@@ -29,27 +29,59 @@ function onOpen() {
     .addToUi();
 }
 
-/** 버튼/메뉴에 연결되는 진입점 */
+/** 버튼/메뉴에 연결되는 진입점. 결과를 'log' 시트에 한 줄로 기록한다. */
 function 발행() {
-  var token = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
-  if (!token) throw new Error('스크립트 속성 GITHUB_TOKEN 이 필요합니다.');
+  var user = '';
+  try { user = Session.getActiveUser().getEmail() || ''; } catch (e) {}
 
-  // 빈 id 칸에 shortId 자동 부여 후 시트에 되써서 영구 고정(URL 안정)
-  var newIds = ensureKitIds_();
+  try {
+    var token = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
+    if (!token) throw new Error('스크립트 속성 GITHUB_TOKEN 이 필요합니다.');
 
-  var changed = [];
-  CONFIG.tabs.forEach(function (tab) {
-    var json = JSON.stringify(tabToRows(tab), null, 2) + '\n';
-    if (commitFile(token, CONFIG.dir + '/' + tab + '.json', json, '발행: ' + tab)) {
-      changed.push(tab);
-    }
-  });
+    // 빈 id 칸에 shortId 자동 부여 후 시트에 되써서 영구 고정(URL 안정)
+    var newIds = ensureKitIds_();
 
-  var msg = changed.length
-    ? '발행 커밋 완료: ' + changed.join(', ') + '\n(수 분 후 사이트에 반영)'
-    : '변경 사항이 없습니다.';
-  if (newIds.length) msg = 'shortId 자동 부여: ' + newIds.join(', ') + '\n' + msg;
-  try { SpreadsheetApp.getUi().alert(msg); } catch (e) { Logger.log(msg); }
+    var changed = [];
+    CONFIG.tabs.forEach(function (tab) {
+      var json = JSON.stringify(tabToRows(tab), null, 2) + '\n';
+      if (commitFile(token, CONFIG.dir + '/' + tab + '.json', json, '발행: ' + tab)) {
+        changed.push(tab);
+      }
+    });
+
+    var detail =
+      (newIds.length ? 'id부여[' + newIds.join(',') + '] ' : '') +
+      (changed.length ? '커밋[' + changed.join(',') + ']' : '변경없음');
+    logRow_(user, changed.length ? '성공' : '변경없음', detail);
+
+    var msg = changed.length
+      ? '발행 커밋 완료: ' + changed.join(', ') + '\n(수 분 후 사이트에 반영)'
+      : '변경 사항이 없습니다.';
+    if (newIds.length) msg = 'shortId 자동 부여: ' + newIds.join(', ') + '\n' + msg;
+    try { SpreadsheetApp.getUi().alert(msg); } catch (e) { Logger.log(msg); }
+  } catch (err) {
+    var emsg = String((err && err.message) || err);
+    logRow_(user, '실패', emsg);
+    try { SpreadsheetApp.getUi().alert('발행 실패\n' + emsg); } catch (e) { Logger.log(emsg); }
+    throw err;
+  }
+}
+
+/** 'log' 시트에 발행 기록 한 줄 추가(없으면 생성). */
+function logRow_(user, status, detail) {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheetByName('log');
+  if (!sheet) {
+    sheet = ss.insertSheet('log');
+    sheet.appendRow(['시각', '실행자', '상태', '내용']);
+    sheet.getRange('A1:D1').setFontWeight('bold').setBackground('#1f7af0').setFontColor('#ffffff');
+    sheet.setFrozenRows(1);
+    sheet.setColumnWidths(1, 4, 160);
+    sheet.setColumnWidth(4, 420);
+  }
+  var tz = Session.getScriptTimeZone() || 'Asia/Seoul';
+  var ts = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd HH:mm:ss');
+  sheet.appendRow([ts, user, status, detail]);
 }
 
 /** kits 탭의 빈 id 칸에 base31 4자 shortId를 부여하고 시트에 되쓴다. 부여한 id 목록 반환. */
