@@ -34,6 +34,9 @@ function 발행() {
   var token = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
   if (!token) throw new Error('스크립트 속성 GITHUB_TOKEN 이 필요합니다.');
 
+  // 빈 id 칸에 shortId 자동 부여 후 시트에 되써서 영구 고정(URL 안정)
+  var newIds = ensureKitIds_();
+
   var changed = [];
   CONFIG.tabs.forEach(function (tab) {
     var json = JSON.stringify(tabToRows(tab), null, 2) + '\n';
@@ -45,7 +48,52 @@ function 발행() {
   var msg = changed.length
     ? '발행 커밋 완료: ' + changed.join(', ') + '\n(수 분 후 사이트에 반영)'
     : '변경 사항이 없습니다.';
+  if (newIds.length) msg = 'shortId 자동 부여: ' + newIds.join(', ') + '\n' + msg;
   try { SpreadsheetApp.getUi().alert(msg); } catch (e) { Logger.log(msg); }
+}
+
+/** kits 탭의 빈 id 칸에 base31 4자 shortId를 부여하고 시트에 되쓴다. 부여한 id 목록 반환. */
+function ensureKitIds_() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('kits');
+  if (!sheet) throw new Error('kits 탭을 찾을 수 없습니다.');
+  var values = sheet.getDataRange().getValues();
+  if (values.length < 2) return [];
+  var headers = values[0].map(function (h) { return String(h).trim(); });
+  var idCol = headers.indexOf('id');
+  if (idCol < 0) throw new Error('kits 탭에 id 컬럼이 필요합니다.');
+
+  var existing = {};
+  for (var r = 1; r < values.length; r++) {
+    var v = String(values[r][idCol] || '').trim();
+    if (v) existing[v] = true;
+  }
+
+  var assigned = [];
+  for (var r = 1; r < values.length; r++) {
+    var rowHasContent = values[r].some(function (c) { return c !== '' && c !== null; });
+    if (!rowHasContent) continue;                 // 빈 행 건너뜀
+    var cur = String(values[r][idCol] || '').trim();
+    if (cur) continue;                            // 이미 id 있음
+    var id = genShortId_(existing);
+    existing[id] = true;
+    sheet.getRange(r + 1, idCol + 1).setValue(id); // 시트에 되쓰기(영구 고정)
+    assigned.push(id);
+  }
+  if (assigned.length) SpreadsheetApp.flush();
+  return assigned;
+}
+
+/** 혼동 문자 제외 base31, 충돌 회피 */
+function genShortId_(existing) {
+  var a = '23456789abcdefghijkmnpqrstuvwxyz';
+  for (var len = 4; len <= 6; len++) {
+    for (var t = 0; t < 100; t++) {
+      var s = '';
+      for (var i = 0; i < len; i++) s += a.charAt(Math.floor(Math.random() * a.length));
+      if (!existing[s]) return s;
+    }
+  }
+  throw new Error('shortId 생성 실패');
 }
 
 /** 한 탭을 [{헤더:값,...}, ...] 배열로 변환. 빈 행/빈 셀 제거. */

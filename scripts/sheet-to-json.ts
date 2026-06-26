@@ -16,6 +16,7 @@ import {
 } from "./field-map.ts";
 import { markdownToHtml } from "./markdown.ts";
 import { assertSafeHtml } from "./sanitize.ts";
+import { generateUniqueId } from "./shortid.ts";
 import type { Kit, Item, StageMeta } from "./types.ts";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -86,7 +87,16 @@ function fail(msg: string): never {
 }
 
 function buildKits(): Kit[] {
-  return readRaw("kits.json").map((r, idx) => {
+  const rows = readRaw("kits.json");
+  // 빈 id 자동 부여(안전망). 발행 시엔 GAS가 시트에 부여하므로 보통 여기 안 탐.
+  const ids = new Set<string>(rows.map((r) => String(r.id ?? "").trim()).filter(Boolean));
+  return rows.map((r, idx) => {
+    if (!r.id) {
+      const id = generateUniqueId(ids);
+      ids.add(id);
+      r.id = id;
+      console.warn(`⚠ kits[${idx}] id 비어 자동 생성: ${id} — 영구 안정 위해 발행(GAS)으로 시트에 부여 권장`);
+    }
     const parsed = {
       ...r,
       grade: toInt(r.grade),

@@ -6,8 +6,8 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/k/:kitId" element={<ViewerPage />} />
-      <Route path="/k/:kitId/:itemId" element={<ViewerPage />} />
+      <Route path="/:kitId" element={<ViewerPage />} />
+      <Route path="/:kitId/:itemId" element={<ViewerPage />} />
       <Route path="*" element={<HomePage />} />
     </Routes>
   );

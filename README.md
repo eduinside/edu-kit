@@ -53,7 +53,7 @@ npm run build    # prebuild=sync → vite build → dist/
 ## 다음 단계 (Phase 3 — 카운터·공유)
 
 - `functions/api/kits/[id]/{stats,view,like}.ts` + D1(`edu-link-db`, `edukit_*`) — 조회수 dedupe·좋아요 멱등, 낙관적 UI 연동(현재 표시값은 시드).
-- kit별 prerender + 동적 OG 이미지(빌드 생성), 단축링크 `kit.dgedu.link/<id>` → `/k/<id>` 리라이트.
+- kit별 prerender + 동적 OG 이미지(빌드 생성). 경로는 `/<id>`이며 단축 도메인 `kit.dgedu.link/<id>`도 동일 경로라 리라이트 불필요.
 - 클라 DOMPurify(본문 이중 방어), 이미지 R2 업로드.
 
 ## 배포

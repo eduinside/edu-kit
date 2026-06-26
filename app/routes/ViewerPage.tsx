@@ -72,7 +72,7 @@ export default function ViewerPage() {
       <div style={{ flex: 1, minHeight: 0, display: "flex", position: "relative" }}>
         {sidebarOpen && sel && (
           <Sidebar groups={groups} selKey={sel.item.item_key} flowLabel={flowLabel(kit?.flow ?? "activity")}
-            onSelect={(k) => navigate(`/k/${kitId}/${k}`)} onClose={() => setSidebarOpen(false)} />
+            onSelect={(k) => navigate(`/${kitId}/${k}`)} onClose={() => setSidebarOpen(false)} />
         )}
 
         <div className="sk-scroll" style={{ flex: 1, minWidth: 0, overflowY: "auto", background: "var(--color-paper)" }}>

@@ -111,7 +111,7 @@ export default function HomePage() {
         {shown.length > 0 ? (
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(252px, 1fr))", gap: 18 }}>
             {shown.map((k) => (
-              <KitCard key={k.id} kit={k} onOpen={() => navigate(`/k/${k.id}`)} />
+              <KitCard key={k.id} kit={k} onOpen={() => navigate(`/${k.id}`)} />
             ))}
           </div>
         ) : (
