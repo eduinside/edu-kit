@@ -2,7 +2,7 @@
   // 수업꾸러미 — Cloudflare Pages (정적 + Functions). 카운터는 공유 D1 'edu-link-db'.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "edu-kit",
-  "compatibility_date": "2026-05-25",
+  "compatibility_date": "2026-05-03",
   "compatibility_flags": ["nodejs_compat"],
   "pages_build_output_dir": "./dist",
 

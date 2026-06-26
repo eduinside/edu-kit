@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { ChevronLeft, Link2, Eye, Heart, Menu } from "lucide-react";
 import Sidebar from "../components/viewer/Sidebar.tsx";
@@ -6,13 +6,29 @@ import ContentPane from "../components/viewer/ContentPane.tsx";
 import { getKit, getGroups, flatItems } from "../lib/data.ts";
 import { stageColor, flowLabel } from "../lib/design.ts";
 import { statsFor } from "../lib/stats.ts";
+import { postView, postLike, type Stats } from "../lib/api.ts";
 
 export default function ViewerPage() {
   const { kitId = "", itemId } = useParams();
   const navigate = useNavigate();
   const [sidebarOpen, setSidebarOpen] = useState(true);
-  const [liked, setLiked] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [stats, setStats] = useState<Stats>(() => ({ ...statsFor(kitId), liked: false }));
+
+  // 진입 시 조회수 집계 + 라이브 stats 수신. Functions 미가동(dev)이면 시드 유지.
+  useEffect(() => {
+    setStats({ ...statsFor(kitId), liked: false });
+    let cancelled = false;
+    postView(kitId).then((s) => { if (!cancelled) setStats(s); }).catch(() => { /* 시드 폴백 */ });
+    return () => { cancelled = true; };
+  }, [kitId]);
+
+  async function toggleLike() {
+    const next = !stats.liked;
+    const prev = stats;
+    setStats({ ...stats, liked: next, likes: Math.max(0, stats.likes + (next ? 1 : -1)) }); // 낙관적
+    try { setStats(await postLike(kitId, next)); } catch { setStats(prev); } // 실패 시 롤백
+  }
 
   const kit = getKit(kitId);
   const groups = getGroups(kitId);
@@ -26,8 +42,6 @@ export default function ViewerPage() {
   }
   if (!sel && groups[0]?.items[0]) sel = { group: groups[0], item: groups[0].items[0] };
 
-  const base = statsFor(kitId);
-  const likes = base.likes + (liked ? 1 : 0);
   const crumb = kit ? `초등 ${kit.grade}학년 · ${kit.sem} · ${kit.subject}` : "";
 
   function copyLink() {
@@ -54,16 +68,16 @@ export default function ViewerPage() {
             <Link2 size={13} style={{ color: "var(--color-slate-400)" }} />
             <span style={{ fontSize: 11.5, fontWeight: 800, color: "var(--color-brand-600)" }}>{copied ? "복사됨!" : "링크 복사"}</span>
           </button>
-          <span style={{ display: "inline-flex", alignItems: "center", gap: 6, height: 34, padding: "0 12px", borderRadius: 9999, background: "var(--color-slate-50)", fontSize: 12, fontWeight: 700, color: "var(--color-slate-500)" }} aria-label={`조회수 ${base.views}회`}>
-            <Eye size={14} /> {base.views}
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 6, height: 34, padding: "0 12px", borderRadius: 9999, background: "var(--color-slate-50)", fontSize: 12, fontWeight: 700, color: "var(--color-slate-500)" }} aria-label={`조회수 ${stats.views}회`}>
+            <Eye size={14} /> {stats.views}
           </span>
-          <button type="button" onClick={() => setLiked((v) => !v)} aria-pressed={liked} aria-label="좋아요"
+          <button type="button" onClick={toggleLike} aria-pressed={stats.liked} aria-label="좋아요"
             style={{ display: "inline-flex", alignItems: "center", gap: 6, height: 34, padding: "0 13px", borderRadius: 9999, cursor: "pointer", fontSize: 12, fontWeight: 800, transition: "all .2s ease",
-              border: `1px solid ${liked ? "var(--color-danger-100)" : "var(--color-slate-200)"}`, background: liked ? "var(--color-danger-50)" : "#fff", color: liked ? "var(--color-danger)" : "var(--color-slate-500)" }}>
-            <span className={liked ? "sk-pop" : undefined} style={{ display: "inline-flex" }}>
-              <Heart size={15} fill={liked ? "var(--color-danger)" : "none"} />
+              border: `1px solid ${stats.liked ? "var(--color-danger-100)" : "var(--color-slate-200)"}`, background: stats.liked ? "var(--color-danger-50)" : "#fff", color: stats.liked ? "var(--color-danger)" : "var(--color-slate-500)" }}>
+            <span className={stats.liked ? "sk-pop" : undefined} style={{ display: "inline-flex" }}>
+              <Heart size={15} fill={stats.liked ? "var(--color-danger)" : "none"} />
             </span>
-            {likes}
+            {stats.likes}
           </button>
         </div>
       </div>

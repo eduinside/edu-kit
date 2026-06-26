@@ -50,11 +50,15 @@ npm run build    # prebuild=sync → vite build → dist/
 - 디자인은 프로토타입 토큰/마크업에 충실. 컴포넌트 라이브러리는 경량 자체 구현(SegmentedControl/Modal) — HeroUI 컴포넌트로 점진 교체 가능(§7.3).
 - 배포는 **Vite SPA + Pages SPA 폴백**(`public/_redirects`). 경로기반 prerender/OG 메타는 Phase 3에서 추가(현재 OG는 정적 메타).
 
-## 다음 단계 (Phase 3 — 카운터·공유)
+## 라이브 카운터 (Phase 3 — 구현·검증됨)
 
-- `functions/api/kits/[id]/{stats,view,like}.ts` + D1(`edu-link-db`, `edukit_*`) — 조회수 dedupe·좋아요 멱등, 낙관적 UI 연동(현재 표시값은 시드).
-- kit별 prerender + 동적 OG 이미지(빌드 생성). 경로는 `/<id>`이며 단축 도메인 `kit.dgedu.link/<id>`도 동일 경로라 리라이트 불필요.
-- 클라 DOMPurify(본문 이중 방어), 이미지 R2 업로드.
+- `functions/api/kits/[id]/{stats,view,like}.ts` + `functions/_shared.ts` → 공유 D1 `edu-link-db`(`edukit_*`). 조회 1인1일 dedupe·원자 증가, 좋아요 멱등 토글, 방문자 쿠키.
+- 뷰어(`app/lib/api.ts`): 진입 시 view 집계 + stats 수신, 좋아요 낙관적 업데이트(실패 롤백, dev에선 시드 폴백).
+- 검증: `wrangler pages dev` + 로컬 D1 e2e 통과(증가·dedupe·멱등·방문자별 분리). 경로 `/<id>` = 단축 도메인 동일.
+
+## 다음 단계 (Phase 3 후속)
+
+- kit별 prerender + 동적 OG 이미지, 홈 카드 라이브 카운트(배치 stats), lite-youtube 파사드, 본문 클라 DOMPurify, 이미지 R2 업로드, Pages 배포·`kit.dgedu.link` 연결 → [docs/DEPLOY.md](docs/DEPLOY.md).
 
 ## 배포
 

@@ -34,3 +34,6 @@ Thumbs.db
 /data/items.json
 /data/stage_meta.json
 /db/seed-stats.sql
+
+# Cloudflare 로컬 상태(wrangler/pages dev)
+.wrangler/
