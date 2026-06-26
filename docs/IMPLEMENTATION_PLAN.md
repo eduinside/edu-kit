@@ -9,10 +9,11 @@
 | # | 결정 | 값 | 영향 |
 |---|---|---|---|
 | **C1** | 콘텐츠 저작·딜리버리 | **Google Sheet → 정적 JSON → GitHub → Cloudflare Pages 자동 배포** | 콘텐츠는 빌드 산출물(정적 JSON). 런타임 콘텐츠 DB·어드민 UI 불필요. ISR 불필요(변경 시 재빌드로 신선도 달성) |
-| **C5** | 발행 트리거 | **시트 안 "발행" 버튼(Google Apps Script)** — GitHub Actions 미사용 | GAS는 시트→`data/raw/*.json` GitHub 커밋만(단순). 변환·검증·새니타이즈는 Pages 빌드 스텝(TS). Actions 러너 복잡성 회피 |
-| **C2** | 호스팅·스택 | **Cloudflare(에듀링크 동일 스택)** — Pages + Functions + KV + R2, React Router 7 + Tailwind 4 + HeroUI + lucide-react | edu-link과 인프라·디자인시스템 공유 |
+| **C2** | 호스팅·스택 | **Cloudflare(에듀링크 동일 스택)** — Pages + Functions + **D1**(공유) + R2, React Router 7 + Tailwind 4 + HeroUI + lucide-react | edu-link과 인프라·디자인시스템 공유. **KV 미사용**(C6) |
 | **C3** | 레포 구성 | **단독 레포(현 `eduinside/edu-kit`) + edu-link 디자인시스템 재사용** | ⚠️ edu-link 실측 결과 **모노레포 아님**(npm 단일 앱). 공유 자산은 `edu-link/src/client/index.css`(토큰+HeroUI accent, ~83줄)뿐 → **복사 재사용**. edu-link 변경 없음. 모노레포 전환은 과투자라 미적용(§3.3) |
 | **C4** | 작성 주체·권한 | **중앙 편집팀**(소수 신뢰 편집자) | 인앱 어드민 로그인·교육청 SSO 불필요. 편집 표면 = Google Sheet 공유 + GitHub PR. **이전 초안의 'SSO 연동 차단 리스크'는 소멸** |
+| **C5** | 발행 트리거 | **시트 안 "발행" 버튼(Google Apps Script)** — GitHub Actions 미사용 | GAS는 시트→`data/raw/*.json` GitHub 커밋만(단순). 변환·검증·새니타이즈는 Pages 빌드 스텝(TS). Actions 러너 복잡성 회피 |
+| **C6** | 카운터 저장소·D1 공유 | **조회수·좋아요 = D1, DB는 edu-link과 공유한 `edu-link-db`** (`edukit_` 접두어). **KV 미사용** | KV는 비원자·최종일관이라 카운터 부적합. D1이 원자 증가·1인1표 멱등을 정확히 처리. 별도 D1 안 만들고 `edu-link-db`(id `e5fa6f54-…`, 바인딩 `DB`) 공유. 향후 콘텐츠 이전도 같은 DB |
 
 > **이전 초안 대비 변경 요약**: (구안) D1 런타임 + 어드민 UI + Cloudflare Access/교육청 SSO + Worker SSR → **(확정) 정적 JSON + 시트 파이프라인 + Pages 정적 배포 + 무(無)인앱인증**. D1은 폐기가 아니라 **콘텐츠 논리 스키마이자 향후 이전 타깃**(§5·§12)으로 보존한다.
 > **모노레포 재검토(2026-06-26 실측)**: edu-link은 모노레포가 아닌 **npm 단일 앱**으로 확인됨 → C3을 "모노레포 편입"에서 **"단독 레포 + edu-link 토큰 CSS 재사용"** 으로 정정. 공유 표면이 CSS 한 파일이라 모노레포 전환은 하지 않는다(§3.3).
@@ -30,7 +31,7 @@
 - 프로토타입의 디자인·인터랙션을 에듀링크 스택으로 픽셀에 가깝게 재현한다(모노레포 공유 디자인시스템 사용).
 - 콘텐츠를 코드 하드코딩에서 **Google Sheet 저작 → 정적 JSON 빌드 → Git 버전관리 → Pages 자동 배포** 파이프라인으로 옮겨, 중앙 편집팀이 시트만 고치고 발행하면 사이트가 갱신되게 한다.
 - 짧은 링크 공유와 OG 카드 미리보기를 1급 기능으로 보장한다(빌드 타임 prerender).
-- 조회수·좋아요를 어뷰징에 강건하게 집계한다(런타임 Functions + KV).
+- 조회수·좋아요를 어뷰징에 강건하게 집계한다(런타임 Functions + D1 `edu-link-db`).
 - 공공 서비스로서 웹접근성(KWCAG)과 보안(저장형 XSS 방지)을 처음부터 내장한다.
 
 ### 1.3 핵심 가치
@@ -106,7 +107,7 @@
 | UI 컴포넌트 | **HeroUI** (모노레포 공유 래퍼) | Button/Card/Chip/Input/Modal 등. Modal이 포커스 트랩·Escape·aria-modal 기본 지원 |
 | 아이콘 | **lucide-react** | 프로토타입 인라인 SVG를 개별 import로 트리셰이킹 교체 |
 | 콘텐츠 저장 | **정적 JSON**(`data/*.json`, Git 버전관리) | C1. 런타임 DB 없이 읽기 비용 0, 이력·롤백·PR 검수 |
-| 카운터 저장 | **Cloudflare KV** (조회 dedupe·집계, 좋아요 토글) | 교사 스케일 저QPS에 충분, 인프라 최소. 고QPS 시 Durable Object 승격 |
+| 카운터 저장 | **Cloudflare D1 — 공유 `edu-link-db`**(`edukit_stats`/`edukit_likes`/`edukit_view_dedupe`) | 원자 증가·1인1표 멱등을 정확히 처리. 별도 DB 안 만들고 edu-link DB 공유(C6). 고QPS 시 Durable Object 승격 |
 | 이미지 저장 | **Cloudflare R2 + Images(`/cdn-cgi/image/`)** | 유물 이미지 미러·리사이즈·WebP/AVIF (바이너리는 Git에 안 둠) |
 | 콘텐츠 파이프라인 | **시트 "발행" 버튼(Google Apps Script) → GitHub 커밋 → Pages 빌드** (GitHub Actions 미사용) | 편집자가 시트를 안 떠남, Actions 러너 불필요(복잡성↓). 변환·검증은 Pages 빌드 스텝(TS) |
 | 본문 변환·새니타이즈 | **Pages 빌드 스텝**: 마크다운→HTML(unified/remark) + sanitize(`ultrahtml`/`sanitize-html`) + DOMPurify [클라] | 빌드 타임 정제(GAS 아님) + 렌더 타임 이중 방어 |
@@ -119,11 +120,11 @@
 | 결정 지점 | 채택 | 대안 | 트레이드오프 |
 |---|---|---|---|
 | 콘텐츠 소스 | **정적 JSON(시트→빌드)** | D1 런타임 / 헤드리스 CMS | 콘텐츠가 작고 발행이 가끔이며 편집팀이 시트에 익숙 → 정적이 가장 단순·저비용·이력보존. 운영 규모↑ 시 D1 이전(§12 D-A) |
-| 신선도 | **변경 시 재빌드(Pages)** | Next.js ISR(Vercel·edumaps 방식) / 런타임 KV 스냅샷 | ISR DX는 좋으나 edu-link CF 스택/모노레포와 분리됨. 재빌드(수 분)는 발행 주기에 무해하고 인프라가 단순 |
+| 신선도 | **변경 시 재빌드(Pages)** | Next.js ISR(Vercel·edumaps 방식) / 런타임 DB 스냅샷 | ISR DX는 좋으나 edu-link CF 스택과 분리됨. 재빌드(수 분)는 발행 주기에 무해하고 인프라가 단순 |
 | 배포 | **Cloudflare Pages(Git 연동)** | Workers + Static Assets(`wrangler deploy`) | Pages Git 연동이 push 자동배포·Preview에 가장 직접적. (둘 다 Cloudflare — 추후 Workers Static Assets로 이관 가능) |
 | 저작 표면 | **Google Sheet + GitHub PR** | 인앱 어드민 CRUD / MDX-only | 비개발 편집팀 친숙 + Git 이력·검수. 인앱 어드민은 인증·CRUD·위지윅 구현비 최대(C4로 불채택) |
 | 본문 입력 | **시트 셀에 마크다운 → 빌드 변환** | 셀에 raw HTML / 위지윅 에디터 | 시트에서 HTML 직접 작성은 고통. 마크다운+제한 문법이 편집팀에 현실적, 빌드가 `.sk-rich` HTML로 변환·새니타이즈 |
-| 카운터 | **KV (+Functions)** | D1 / Durable Object | 순수 카운트엔 KV가 최소 인프라. 좋아요 멱등은 per-visitor 키로. 원자성/고QPS 필요 시 DO 승격 |
+| 카운터 | **D1 공유 `edu-link-db` (+Functions)** | KV / Durable Object | KV는 비원자·최종일관이라 카운터 부정확(증가 유실). D1은 원자 증가+UNIQUE 멱등. edu-link-db 공유로 별도 DB 불필요. 고QPS 시 DO 승격 |
 | 라우팅 | **경로 기반 + prerender** | 해시 라우팅 유지 | 해시는 서버 전송 안 됨 → OG 불가. 공유가 핵심이라 경로 전환은 선결 |
 
 ### 3.3 디자인시스템 공유 전략 (C3 — edu-link 실측 반영)
@@ -176,28 +177,30 @@
                               (Bulk Redirects 또는 _redirects / 경량 Function — DB 조회 불필요)
    GET /k/ab12             ─▶ Pages 엣지: 빌드 타임 prerender된 정적 HTML(+OG 메타) 반환 (읽기 비용 0)
                               클라가 data/*.json(또는 인라인 데이터)로 하이드레이트
-   POST /api/kits/ab12/view ─▶ [Pages Function] visitorId 쿠키 → KV dedupe(TTL 12h) → KV views +1
-   POST /api/kits/ab12/like ─▶ [Pages Function] KV like:<kit>:<visitor> 토글(멱등) → KV likes ±1
-   GET  /api/kits/ab12/stats─▶ [Pages Function] KV views/likes 반환 (no-store)
+   POST /api/kits/ab12/view ─▶ [Pages Function] visitorId 쿠키 → D1 INSERT OR IGNORE edukit_view_dedupe
+                              (1인1일) → 신규면 UPDATE edukit_stats SET views=views+1 (원자)
+   POST /api/kits/ab12/like ─▶ [Pages Function] D1 edukit_likes(kit,visitor) UNIQUE 토글(멱등)
+                              → UPDATE edukit_stats SET likes=likes±1
+   GET  /api/kits/ab12/stats─▶ [Pages Function] D1 SELECT edukit_stats 반환 (no-store)
                                             │
-                                      ┌─────▼─────┐        ┌───────────┐
-                                      │    KV     │        │    R2     │
-                                      │ views:*   │        │ 이미지/OG │
-                                      │ likes:*   │        └───────────┘
-                                      │ view:* TTL│
-                                      │ like:* set│
-                                      └───────────┘
+                                      ┌─────▼──────────┐        ┌───────────┐
+                                      │ D1 edu-link-db │        │    R2     │
+                                      │ edukit_stats   │        │ 이미지/OG │
+                                      │ edukit_likes   │        └───────────┘
+                                      │ edukit_view_   │
+                                      │   dedupe       │   (KV 미사용)
+                                      └────────────────┘
 ```
 
 ### 4.3 핵심 원칙
-- **콘텐츠 정적 / 카운트 동적 분리**: 콘텐츠는 빌드 산출물(정적, 캐시 영구), 카운트만 Function + KV(`no-store`). 카운트가 바뀌어도 콘텐츠 캐시는 불변.
+- **콘텐츠 정적 / 카운트 동적 분리**: 콘텐츠는 빌드 산출물(정적, 캐시 영구), 카운트만 Function + D1(`no-store`). 카운트가 바뀌어도 콘텐츠 캐시는 불변.
 - **신선도 = 재빌드**: 시트 변경 → Action → 커밋 → Pages 재배포. ISR/런타임 재검증 불필요.
 - **클라이언트 합성**: 정적 콘텐츠 + 실시간 stats를 합성. 좋아요/조회는 낙관적 업데이트(`likesAdd`/`viewsAdd` 델타) 후 stats로 정정.
 - **이미지/OG 바이너리는 Git 밖**: R2에 두고 URL 참조. OG 이미지는 빌드 타임 생성→R2/정적 자산.
 
 ### 4.4 배포 토폴로지
 - **Cloudflare Pages** 프로젝트 1개(정적 + Functions). 레포 루트 빌드(`pnpm build`).
-- **환경**: Production(main) / Preview(PR마다 자동 URL). 환경별 KV·R2 바인딩 분리.
+- **환경**: Production(main) / Preview(PR마다 자동 URL). R2는 환경별 분리. **D1은 Preview가 프로덕션 `edu-link-db`에 카운트 오염을 일으키지 않도록 Preview용 별도 dev D1 바인딩 또는 카운트 쓰기 no-op 처리.**
 - **단축 도메인**: `kit.dgedu.link` → Pages 프로젝트에 커스텀 도메인 연결. `/<id>`→`/k/<id>` 리라이트.
 - 시크릿: **GitHub PAT는 GAS Script Properties**(발행 커밋용), Pages 환경변수는 런타임 최소(없으면 0). GAS가 시트를 직접 읽으므로 Sheets 서비스계정 키 불필요.
 
@@ -206,6 +209,7 @@
 ## 5. 데이터 모델 & 저장소
 
 > 콘텐츠는 **정적 JSON**이 1차 저장소다. 아래 스키마는 **(a) JSON의 논리 형상**이자 **(b) 향후 D1 이전 시 그대로 쓰는 DDL**이다(§12 D-A). 시트 컬럼 → JSON 필드 정규화는 `scripts/field-map.ts` 한 곳에 둔다.
+> **D1은 공유 `edu-link-db` 사용(C6)**: 런타임 카운터(§5.4)는 처음부터 D1을 쓰며, 콘텐츠를 D1로 이전할 때(D-A)도 같은 `edu-link-db`에 둔다. edu-link 기존 테이블(users/urls/click_logs/…)과 충돌을 막기 위해 **모든 edu-kit 테이블은 `edukit_` 접두어**(`edukit_kits`/`edukit_items`/`edukit_stage_meta`/`edukit_stats`/`edukit_likes`/`edukit_view_dedupe`). 스키마는 공유 `d1_migrations` 트래킹을 건드리지 않도록 **`CREATE TABLE IF NOT EXISTS`(`db/schema.sql`)를 `wrangler d1 execute`로 적용**(edu-link의 `wrangler d1 migrations`와 분리).
 
 ### 5.0 필드명 정본화 (중요)
 프로토타입·DATA_MODEL.md·모달 `itemCols` 명세가 불일치한다. **DATA_MODEL.md를 정본**으로 단일 매핑을 고정한다.
@@ -240,7 +244,7 @@
   "flow": "activity",      // activity|flow
   "sort_order": 1,         // 갤러리 정렬 + 교과 팔레트 회전 인덱스
   "published": true
-  // views/likes는 정적 JSON에 두지 않음 — 런타임 KV (§8). 초기값만 seed 가능
+  // views/likes는 정적 JSON에 두지 않음 — 런타임 D1 edukit_stats (§8). 초기값만 seed 가능
 }
 ```
 ```sql
@@ -292,17 +296,33 @@ CREATE INDEX idx_kits_scope ON kits(grade, sem, subject, unit, sort_order);
 - question은 항목이 아니라 **stage 그룹 속성**이다. 항목마다 중복하면 정합성이 깨지므로 분리.
 - **단원안내 stage는 question=null**(프로토타입 `question=''` → null 정규화). flow형(도입/전개/정리)도 전부 null. question이 채워지는 건 활동형 생각열기/탐구하기/확장하기뿐.
 
-### 5.4 카운터 (KV) — 조회수·좋아요
-콘텐츠가 정적이므로 카운트만 런타임. **KV**에 보관(D1 불필요):
-| 키 | 값 | 용도 |
-|---|---|---|
-| `views:<kitId>` | integer | 누적 조회수 |
-| `likes:<kitId>` | integer | 누적 좋아요 |
-| `view:<kitId>:<visitorId>` | "1" (TTL 12h) | 조회 dedupe |
-| `like:<kitId>:<visitorId>` | "1" | 좋아요 1인 1표(멱등 토글) |
-- 좋아요 ON: `like:*` 키 없으면 생성 + `likes` +1, 있으면 무시. OFF: 키 삭제 + `likes` −1.
-- 초기값: seed 스크립트로 SAMPLE_DATA의 views/likes를 KV에 적재(없으면 0).
-- **원자성/고QPS 주의**: KV는 최종일관성. 교사 스케일 저QPS엔 충분하나, 동시 쓰기 경합/정확 카운트가 필요해지면 **Durable Object**(카운터)로 승격(§12 R-카운터).
+### 5.4 카운터 (D1 공유 `edu-link-db`) — 조회수·좋아요
+콘텐츠가 정적이므로 카운트만 런타임. **KV가 아니라 D1**(원자·정확)을 쓰고, DB는 edu-link과 공유한 `edu-link-db`에 `edukit_` 접두어 테이블로 둔다(C6).
+```sql
+-- 멱등 적용(공유 d1_migrations 트래킹 회피 위해 IF NOT EXISTS, db/schema.sql)
+CREATE TABLE IF NOT EXISTS edukit_stats (
+  kit_id TEXT PRIMARY KEY,
+  views  INTEGER NOT NULL DEFAULT 0,
+  likes  INTEGER NOT NULL DEFAULT 0
+);
+CREATE TABLE IF NOT EXISTS edukit_likes (          -- 좋아요 1인 1표(멱등)
+  kit_id     TEXT NOT NULL,
+  visitor_id TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  PRIMARY KEY (kit_id, visitor_id)
+);
+CREATE TABLE IF NOT EXISTS edukit_view_dedupe (    -- 조회 dedupe(1인 1일 1회)
+  kit_id     TEXT NOT NULL,
+  visitor_id TEXT NOT NULL,
+  viewed_on  TEXT NOT NULL,                        -- 'YYYY-MM-DD'
+  PRIMARY KEY (kit_id, visitor_id, viewed_on)
+);
+```
+- **조회**: `INSERT OR IGNORE INTO edukit_view_dedupe(...) ` → `changes()=1`(신규)이면 `UPDATE edukit_stats SET views=views+1`. (TTL 자동만료 대신 날짜 컬럼으로 1인1일 dedupe; dedupe 행은 주기 정리 선택)
+- **좋아요 ON**: `INSERT OR IGNORE INTO edukit_likes` → 신규면 `likes+1`. **OFF**: `DELETE` → `changes()=1`이면 `likes-1`. 연타·중복 무효(원자).
+- **초기값**: `db/seed-stats.ts`로 SAMPLE_DATA의 views/likes를 `edukit_stats`에 적재(없으면 0).
+- **고QPS 승격**: D1 쓰기 한계를 넘으면 **Durable Object**(원자 직렬화) 카운터로 승격(§12 R-카운터). KV는 부정확이라 승격 대상 아님.
+- **KV 미사용**: 콘텐츠 정적 + 카운터 D1이면 edu-kit에 KV 바인딩이 필요 없다(edu-link의 `URL_CACHE` KV는 edu-link 단축링크 캐시용으로 무관).
 
 ### 5.5 shortId 발급 규칙
 > **동일성**: `kits.id` == `shortId` == 라우트 `:kitId` 는 모두 같은 값(별도 단축링크 테이블·리졸버 없음). `kit.dgedu.link/<id>` ↔ `/k/<id>`.
@@ -456,27 +476,27 @@ CREATE INDEX idx_kits_scope ON kits(grade, sem, subject, unit, sort_order);
 
 ---
 
-## 8. 조회수·좋아요 런타임 (Pages Functions + KV)
+## 8. 조회수·좋아요 런타임 (Pages Functions + D1 `edu-link-db`)
 
 ### 8.1 조회수
 1. 뷰어 진입 → 클라 `POST /api/kits/:id/view`.
-2. Function: `visitorId` 쿠키(없으면 발급, HttpOnly·Secure·SameSite=Lax) → KV `view:<kitId>:<visitorId>` 확인.
-3. 없으면 KV에 TTL 12h 기록 + `views:<kitId>` +1. 있으면 스킵.
-4. per-visitor rate limit(분당 N회 KV) + `cf.botManagement.score` 봇 1차 필터.
+2. Function: `visitorId` 쿠키(없으면 발급, HttpOnly·Secure·SameSite=Lax).
+3. `INSERT OR IGNORE INTO edukit_view_dedupe(kit_id, visitor_id, viewed_on)` → `changes()=1`(오늘 첫 조회)이면 `UPDATE edukit_stats SET views=views+1`(원자). 이미 있으면 스킵.
+4. 봇 1차 필터(`cf.botManagement.score`) + (선택) Cloudflare WAF rate limiting. KV 없이 dedupe 테이블 자체가 1인1일로 과집계를 억제.
 5. 클라는 `viewsAdd` 낙관적 +1, stats 응답으로 정정.
 
 ### 8.2 좋아요
 1. 토글 → 즉시 `liked`/`likesAdd` 낙관적 반영.
 2. `POST /api/kits/:id/like {on}`.
-3. Function: `like:<kitId>:<visitorId>` 멱등 토글 → `likes:<kitId>` ±1.
+3. Function: ON=`INSERT OR IGNORE INTO edukit_likes` → 신규면 `likes+1`; OFF=`DELETE` → `changes()=1`이면 `likes-1`. `UNIQUE(kit_id, visitor_id)`로 멱등.
 4. 충돌 시 클라 롤백.
 
 ### 8.3 어뷰징 방지
-- **dedupe 정본 키 = `visitorId` 단일**(KV TTL 12h). IP/UA는 dedupe 키가 아니라 rate-limit·봇 점수 보조 신호로만(쿠키 차단/시크릿 모드 과집계·과소집계 방지).
-- 좋아요: per-visitor 키로 1인 1표(연타 무효).
+- **dedupe 정본 키 = `(kit_id, visitor_id, viewed_on)`**(D1, 1인1일). IP/UA는 dedupe 키가 아니라 봇 점수(`cf.botManagement.score`)·WAF rate-limit 보조 신호로만(쿠키 차단/시크릿 모드 과·과소집계 방지).
+- 좋아요: `edukit_likes` UNIQUE로 1인 1표(연타 무효).
 - 봇 폭주 우려 시 의심 트래픽에 adaptive Turnstile(invisible).
-- raw 이벤트(Analytics Engine)와 집계(KV) 분리 → 사후 보정 가능.
-- **원자성 한계**: KV 최종일관성 — 동시 증가 누락 가능. 저QPS엔 허용, 정확/고QPS 필요 시 Durable Object 카운터로 승격.
+- raw 이벤트(Analytics Engine)와 집계(`edukit_stats`) 분리 → 사후 보정 가능.
+- **정확성**: D1 원자 `UPDATE … +1`이라 KV 같은 증가 유실 없음. D1 쓰기 한계를 넘는 고QPS에서만 Durable Object 카운터로 승격.
 
 ---
 
@@ -512,14 +532,14 @@ CREATE INDEX idx_kits_scope ON kits(grade, sem, subject, unit, sort_order);
 - **파이프라인 테스트**: 잘못된 시트(enum 위반/필수 누락/XSS body)에서 빌드 실패하는지.
 - **접근성(axe-core)** CI 회귀 차단.
 - **관측**: 프런트 Sentry, Pages/Workers Logpush, Analytics Engine(꾸러미별 열람·체류). 개인정보 비수집.
-- **백업**: 콘텐츠는 Git이 곧 백업. KV 카운터는 주기 export(Function/cron) → R2.
+- **백업**: 콘텐츠는 Git이 곧 백업. 카운터(D1 `edu-link-db`)는 edu-link과 공유하는 D1 백업·Time Travel(PITR)로 커버(edu-kit 별도 백업 불필요). 필요 시 `edukit_*` 테이블만 `wrangler d1 export`.
 
 ---
 
 ## 10. 개발 단계 & 마일스톤
 
 ### Phase 0 — 부트스트랩 (1주)
-- 단독 레포(현 edu-kit) 스캐폴드: RR7+Vite, **edu-link `src/client/index.css` 토큰 복사**(@theme + HeroUI accent override + gemini/glassmorphism) + 단계 색·교과 팔레트 추가, 동일 dep 버전 핀(HeroUI 3 / RR7 7.15 / Tailwind 4 / lucide 1.16), Pretendard, Cloudflare Pages 프로젝트 + 바인딩(KV/R2), CI 골격.
+- 단독 레포(현 edu-kit) 스캐폴드: RR7+Vite, **edu-link `src/client/index.css` 토큰 복사**(@theme + HeroUI accent override + gemini/glassmorphism) + 단계 색·교과 팔레트 추가, 동일 dep 버전 핀(HeroUI 3 / RR7 7.15 / Tailwind 4 / lucide 1.16), Pretendard, Cloudflare Pages 프로젝트 + 바인딩(**D1 `edu-link-db`** / R2), `db/schema.sql`(`edukit_*` IF NOT EXISTS) 적용, CI 골격.
 - 완료: Pages Preview에 빈 홈 렌더, CI 그린, 프로토타입 토큰과 색 일치 확인.
 
 ### Phase 1 — 읽기 앱 MVP (2~3주)
@@ -531,11 +551,11 @@ CREATE INDEX idx_kits_scope ON kits(grade, sem, subject, unit, sort_order);
 - 완료: 편집자가 시트 수정→버튼 클릭→Pages 빌드(검증·새니타이즈)→배포로 콘텐츠 갱신. 잘못된 시트는 빌드 실패.
 
 ### Phase 3 — 카운트 + 공유 강화 (1~2주)
-- view/like Functions + KV(dedupe·멱등·rate limit), 낙관적 UI, 링크 복사, **동적 OG 이미지**(빌드 생성), lite-youtube 파사드, 이미지 R2 미러.
+- view/like Functions + **D1 `edu-link-db`**(`edukit_stats`/`edukit_likes`/`edukit_view_dedupe`, dedupe·멱등), 낙관적 UI, 링크 복사, **동적 OG 이미지**(빌드 생성), lite-youtube 파사드, 이미지 R2 미러.
 - 완료: 조회수/좋아요 어뷰징 방지 동작, 카카오톡/슬랙 OG 카드 표시, LCP/INP 목표.
 
 ### Phase 4 — 품질·운영 강화 (지속)
-- 접근성 전수(axe), 성능 예산(Lighthouse CI), Sentry/Analytics/Logpush, KV 백업 cron, E2E·파이프라인 테스트 스위트.
+- 접근성 전수(axe), 성능 예산(Lighthouse CI), Sentry/Analytics/Logpush, D1 백업은 edu-link-db Time Travel 공유, E2E·파이프라인 테스트 스위트.
 - 완료: KWCAG 점검 통과, 관측·백업·테스트 파이프라인 안정.
 
 > **MVP 경계**: Phase 0~1 = 시연 가능한 읽기 앱(시드 콘텐츠). Phase 2 = 운영 가능(편집팀 자가 발행). Phase 3 = 공유·지표 완성.
@@ -568,7 +588,9 @@ edu-kit/  (현 eduinside/edu-kit — 단독 레포)
 ├─ scripts/
 │  ├─ sheet-to-json.ts         # ETL prebuild(raw→검증·새니타이즈·정본 JSON)
 │  ├─ field-map.ts             # 프로토타입/시트→정본 컬럼 매핑(단일 소스)
-│  └─ seed-kv.ts               # 초기 views/likes KV 적재
+│  └─ seed-stats.ts            # 초기 views/likes를 D1 edukit_stats에 적재
+├─ db/
+│  └─ schema.sql               # edukit_* (IF NOT EXISTS) — wrangler d1 execute (edu-link-db)
 ├─ gas/                        # Google Apps Script 소스(시트 "발행" 버튼 → GitHub 커밋)
 │  └─ publish.gs               # ~50줄: 3탭 직렬화 + Contents API PUT
 ├─ tests/                      # unit / integration(miniflare) / e2e(Playwright+axe)
@@ -576,7 +598,7 @@ edu-kit/  (현 eduinside/edu-kit — 단독 레포)
 ├─ _prototype/                 # (참고) 디자인 핸드오프 원본
 ├─ .github/workflows/ci.yml    # (선택) lint/typecheck/test on PR. 발행용 Action 없음 — 발행은 GAS 버튼
 ├─ docs/IMPLEMENTATION_PLAN.md # 본 문서
-├─ wrangler.jsonc              # Pages/Functions 바인딩(KV/R2)
+├─ wrangler.jsonc              # Pages/Functions 바인딩(D1=edu-link-db, R2). Preview는 별도 dev D1
 └─ package.json                # HeroUI 3 / RR7 7.15 / Tailwind 4 / lucide 1.16 (edu-link과 동일 버전 핀)
 ```
 > 향후 토큰 단일 출처가 필요하면 `app/styles/tokens.css`를 `@eduinside/design-tokens` 패키지로 추출해 edu-link과 공유(§3.3·§12 D-모노레포). 현 시점엔 복사가 더 단순.
@@ -591,10 +613,10 @@ edu-kit/  (현 eduinside/edu-kit — 단독 레포)
 | 프로토타입↔명세 필드명 불일치(dae/ready/html/vTitle…) | DATA_MODEL.md 정본 + `field-map.ts` 단일 매핑(§5.0). stage는 `단원안내`(공백 없음) |
 | **시트 셀에 위지윅/긴 본문 관리 한계** | 본문은 **마크다운 in 셀 → 빌드 변환**(§6.4)으로 raw HTML 작성 회피. 항목·본문이 폭증하면 D1+본문 MDX/Git 이전(D-A) |
 | 위지윅 body 저장형 XSS | 빌드 새니타이즈 + 클라 DOMPurify 이중 + CSP. a 태그 http(s)·rel=noopener. 시드도 변환 후 정제(§5.7) |
-| **발행 지연(발행=빌드 수 분)** | 중앙 편집팀 발행 주기에 무해. 즉시성이 필요해지면 런타임 KV 스냅샷/D1 경로로 보완(D-A) |
+| **발행 지연(발행=빌드 수 분)** | 중앙 편집팀 발행 주기에 무해. 즉시성이 필요해지면 런타임 D1(`edu-link-db`) 콘텐츠 경로로 보완(D-A) |
 | 시트가 진실원본인데 누군가 JSON 직접 수정 → 드리프트 | **JSON은 생성물**(수기 편집 금지, 헤더 주석 명시). 시트가 SoT. 비상 시 직접 수정은 즉시 시트 반영 |
-| 카운터 어뷰징(봇·연타) | visitorId+KV TTL dedupe, rate limit, 좋아요 1인1표, adaptive Turnstile, raw 이벤트 분리 |
-| KV 최종일관성으로 카운트 누락/부정확 | 저QPS 허용. 정확/고QPS 필요 시 Durable Object 카운터 승격 |
+| 카운터 어뷰징(봇·연타) | visitorId+D1 dedupe(1인1일), WAF rate limit, 좋아요 UNIQUE 1인1표, adaptive Turnstile, raw 이벤트 분리 |
+| **공유 `edu-link-db` 결합**(edu-kit이 edu-link 프로덕션 DB에 기록) | `edukit_` 접두어로 테이블 충돌 차단 + `CREATE TABLE IF NOT EXISTS`로 공유 `d1_migrations` 비간섭(§5.0). Preview는 별도 dev D1로 프로덕션 카운트 오염 방지. 백업·쿼터·Time Travel 공유(동일 소유라 수용). 고QPS 시 Durable Object 승격 |
 | 해시 라우팅 유지 시 OG 전부 빈/동일 | 경로 라우팅 + kit별 prerender OG 메타 |
 | 영상 다수 즉시 임베드로 LCP/INP 악화 | lite-youtube 파사드 + 선택 항목만 iframe + nocookie + lazy |
 | 모달·키보드·iframe title·색대비(KWCAG) | HeroUI Modal, button/role+키, aria-*, axe CI |
@@ -608,7 +630,7 @@ edu-kit/  (현 eduinside/edu-kit — 단독 레포)
 | **D-검수** | 발행 시 검수 단계 | (a) main 직접 커밋 + 빌드 게이트(단순) / (b) content 브랜치→Preview→머지 | **(a)** — 중앙 편집팀 신뢰 + 빌드 검증이 안전망. 시각적 사전검수가 필요하면 (b) |
 | **D-GAS권한** | GAS 실행 권한 | (a) 편집자 계정으로 실행 / (b) 설치형 트리거(시트 소유자 권한) | GAS가 시트를 직접 읽으므로 서비스계정/CSV 공개 불필요. 버튼 클릭 시 권한 동의 1회 |
 | **D-본문문법** | 본문 입력 문법 | (a) 마크다운+콜아웃 디렉티브 / (b) 셀 raw HTML(신뢰) / (c) 별도 미니 에디터(후속) | **(a)** — 시트 친화 + XSS 표면 최소 |
-| **D-카운터** | 카운터 저장소 | (a) KV / (b) Durable Object / (c) D1 | **(a) 초기** — 최소 인프라. 정확/고QPS 시 (b) 승격 |
+| **D-카운터** | 카운터 저장소 (✅ 확정 C6) | (a) D1 공유 `edu-link-db` / (b) Durable Object / (c) KV | **(a) 확정** — 원자·정확, edu-link-db 공유로 별도 DB 불필요. 고QPS 시 (b) 승격. (c) KV는 부정확이라 제외 |
 | **D-A(이전)** | 콘텐츠 정적 JSON의 한계 도달 시 | (a) 시트 유지(현행) / (b) D1+본문 MDX/Git 이전 | **(a) 유지**, 항목/본문 폭증·동시편집·즉시성 요구 시 (b)로 단계 이전(§5 DDL이 타깃) |
 | **D-도메인** | `kit.dgedu.link` 연결 | Pages 커스텀 도메인 + `/<id>`→`/k/<id>` 리라이트 | Bulk Redirects 또는 `_redirects`/catchall Function. DNS·도메인 소유 확인 필요 |
 
