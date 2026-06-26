@@ -11,10 +11,11 @@
 | **C1** | 콘텐츠 저작·딜리버리 | **Google Sheet → 정적 JSON → GitHub → Cloudflare Pages 자동 배포** | 콘텐츠는 빌드 산출물(정적 JSON). 런타임 콘텐츠 DB·어드민 UI 불필요. ISR 불필요(변경 시 재빌드로 신선도 달성) |
 | **C5** | 발행 트리거 | **시트 안 "발행" 버튼(Google Apps Script)** — GitHub Actions 미사용 | GAS는 시트→`data/raw/*.json` GitHub 커밋만(단순). 변환·검증·새니타이즈는 Pages 빌드 스텝(TS). Actions 러너 복잡성 회피 |
 | **C2** | 호스팅·스택 | **Cloudflare(에듀링크 동일 스택)** — Pages + Functions + KV + R2, React Router 7 + Tailwind 4 + HeroUI + lucide-react | edu-link과 인프라·디자인시스템 공유 |
-| **C3** | 레포 구성 | **edu-link 모노레포 편입** (디자인 토큰·UI·인프라 공유) | `apps/edu-kit`로 입주, 공유 패키지 소비. pnpm workspaces + Turborepo 전제 |
+| **C3** | 레포 구성 | **단독 레포(현 `eduinside/edu-kit`) + edu-link 디자인시스템 재사용** | ⚠️ edu-link 실측 결과 **모노레포 아님**(npm 단일 앱). 공유 자산은 `edu-link/src/client/index.css`(토큰+HeroUI accent, ~83줄)뿐 → **복사 재사용**. edu-link 변경 없음. 모노레포 전환은 과투자라 미적용(§3.3) |
 | **C4** | 작성 주체·권한 | **중앙 편집팀**(소수 신뢰 편집자) | 인앱 어드민 로그인·교육청 SSO 불필요. 편집 표면 = Google Sheet 공유 + GitHub PR. **이전 초안의 'SSO 연동 차단 리스크'는 소멸** |
 
 > **이전 초안 대비 변경 요약**: (구안) D1 런타임 + 어드민 UI + Cloudflare Access/교육청 SSO + Worker SSR → **(확정) 정적 JSON + 시트 파이프라인 + Pages 정적 배포 + 무(無)인앱인증**. D1은 폐기가 아니라 **콘텐츠 논리 스키마이자 향후 이전 타깃**(§5·§12)으로 보존한다.
+> **모노레포 재검토(2026-06-26 실측)**: edu-link은 모노레포가 아닌 **npm 단일 앱**으로 확인됨 → C3을 "모노레포 편입"에서 **"단독 레포 + edu-link 토큰 CSS 재사용"** 으로 정정. 공유 표면이 CSS 한 파일이라 모노레포 전환은 하지 않는다(§3.3).
 
 ---
 
@@ -46,7 +47,7 @@
 - 콘텐츠 타입: intro / video / image / text(위지윅 HTML).
 - 콘텐츠 논리 스키마(JSON 형상), 시트→JSON ETL/검증/새니타이즈, shortId, 조회수·좋아요 런타임 집계.
 - 짧은 링크 라우팅 + OG 메타/이미지, 보안·성능·접근성·관측·CI/CD.
-- 모노레포 입주 및 공유 디자인시스템 소비.
+- 단독 레포 + edu-link 디자인 토큰(CSS) 재사용으로 디자인시스템 일치.
 
 **Out of scope (현 단계)**
 - **인앱 어드민 UI / 교육청 SSO / 교사별 계정**(C4 — 저작은 Google Sheet + GitHub PR로 수행).
@@ -112,7 +113,7 @@
 | 폰트 | **Pretendard (woff2 subset)** | 디자인 시스템 단일 패밀리 |
 | 테스트 | **Vitest + @cloudflare/vitest-pool-workers + Playwright + axe-core** | 단위/통합(Functions)/E2E/접근성 |
 | 관측 | **Sentry + Workers Analytics Engine + Pages/Logpush** | 에러·사용통계·로그 |
-| 모노레포 | **pnpm workspaces + Turborepo** (edu-link 전제) | 공유 패키지 소비, 증분 빌드 캐시 |
+| 레포/디자인 공유 | **단독 레포 + edu-link `index.css` 토큰 복사 재사용** (모노레포 미사용 — edu-link은 npm 단일 앱) | 공유 면이 작아 모노레포 과투자. 동일 dep 버전 핀으로 동작 일치(§3.3) |
 
 ### 3.2 대안과 트레이드오프
 | 결정 지점 | 채택 | 대안 | 트레이드오프 |
@@ -125,15 +126,19 @@
 | 카운터 | **KV (+Functions)** | D1 / Durable Object | 순수 카운트엔 KV가 최소 인프라. 좋아요 멱등은 per-visitor 키로. 원자성/고QPS 필요 시 DO 승격 |
 | 라우팅 | **경로 기반 + prerender** | 해시 라우팅 유지 | 해시는 서버 전송 안 됨 → OG 불가. 공유가 핵심이라 경로 전환은 선결 |
 
-### 3.3 모노레포 입주 (C3)
-- **위치**: `apps/edu-kit` (edu-link 모노레포). 빌드 루트를 이 하위로 지정, Turborepo 필터(`--filter=edu-kit`)로 증분 빌드.
-- **소비할 공유 패키지(추정 — edu-link 실제 구조 확인 필요, §12 D-모노레포)**:
-  - `@edulink/design-tokens` — `@theme` CSS 변수(brand/neutral/semantic/교과 팔레트/stage 색).
-  - `@edulink/ui` — HeroUI 기반 공통 컴포넌트(Button/Card/Chip/SegmentedControl/Modal/Input).
-  - `@edulink/icons` (선택) — lucide 프리셋/래퍼.
-  - 공통 ESLint/TS/Tailwind preset, Cloudflare 배포 컨벤션.
-- **Pages 빌드**: content 브랜치의 JSON 커밋이 들어오면 Pages가 `apps/edu-kit`만 재빌드(Turbo 캐시로 타 앱 영향 없음).
-- **트레이드오프**: 토큰·디자인시스템을 공유해 드리프트 제거 + 인프라/컨벤션 재사용 ↔ 모노레포 빌드·CI 결합도↑. 토큰·UI 공유 비중이 크므로 모노레포가 유리(단독 레포는 토큰 복제·동기화 부담).
+### 3.3 디자인시스템 공유 전략 (C3 — edu-link 실측 반영)
+> **실측 결과(2026-06-26)**: `D:/Hwan/Documents/Web/edu-link`은 **모노레포가 아니라 npm 단일 앱**이다(`pnpm-workspace.yaml`/`turbo.json` 없음, `package-lock.json`, `src/client`+`src/server` 구조, Hono+Cloudflare Workers). 따라서 "모노레포 편입(pnpm+Turbo)"은 **불성립** — 운영 중인 edu-link을 모노레포로 전환하지 않는다.
+
+- **edu-link 스택(실측)**: React 19, `react-router-dom` 7.15, Tailwind 4(`@tailwindcss/vite`), **HeroUI 3**(`@heroui/react`·`@heroui/styles`), `lucide-react` 1.16, `framer-motion`, Hono, Cloudflare Workers(`@cloudflare/vite-plugin`+wrangler). → 프로토타입이 말한 "에듀링크 스택"과 동일.
+- **실제 공유 자산 = CSS 한 파일**: `edu-link/src/client/index.css`(~83줄):
+  - `@import "tailwindcss"` + `@import "@heroui/styles"`
+  - `@theme` 토큰: `--color-brand-50…900`(brand-500 `#3692ff`/brand-600 `#1f7af0`), `--color-primary #1f7af0`, `--color-ink/-soft/-faint`, `--color-paper #f3f5f9`, `--color-line #e2e6ee`, Pretendard `--font-sans/-display`. (토큰 출처: `school-portal-r2`)
+  - **HeroUI v3 accent override**: `:root{--accent:#1f7af0; --accent-hover:#1763d0}` → 모든 HeroUI primary 표면을 Codeit blue로 리브랜드.
+  - 유틸: `.gemini-gradient-bg`, `.glassmorphism(-dark)`, 스크롤바.
+  - → **프로토타입 토큰(§7.4)과 정확히 일치**(brand-600 `#1f7af0`, paper `#f3f5f9`, gemini gradient, glassmorphism 모두 확인).
+- **전략(권장)**: edu-kit은 **단독 레포**(현 `eduinside/edu-kit`)로 두고, 위 `index.css`를 **복사 재사용** + 동일 dependency 버전 핀(HeroUI 3 / RR7 / Tailwind 4 / lucide 1.16) + 단계 색·교과 팔레트(§7.4) 추가. HeroUI accent override 패턴 그대로 사용.
+- **edu-link 변경: 없음**(읽기만). 공유 면이 CSS 한 파일이라 모노레포 전환은 과투자.
+- **향후**: 공유 컴포넌트가 늘어 드리프트가 부담되면 토큰/테마를 작은 패키지(`@eduinside/design-tokens`)로 추출해 양쪽이 의존(모노레포 없이도 단일 출처 확보). §12 D-모노레포.
 
 ---
 
@@ -150,7 +155,7 @@
       │  - GitHub Contents API로 data/raw/{kits,items,stage_meta}.json 커밋
       │    (PAT는 Script Properties에 보관, 변환·검증 로직 없음 → GAS 단순)
       ▼
-[GitHub repo (apps/edu-kit/data/raw/*.json)]  ← 원본 스냅샷 버전관리(이력·롤백)
+[GitHub repo (data/raw/*.json)]  ← 원본 스냅샷 버전관리(이력·롤백)
       │  ② push 감지 → Pages 빌드 시작
       ▼
 [Cloudflare Pages 빌드 (prebuild = scripts/sheet-to-json.ts, TS)]
@@ -191,7 +196,7 @@
 - **이미지/OG 바이너리는 Git 밖**: R2에 두고 URL 참조. OG 이미지는 빌드 타임 생성→R2/정적 자산.
 
 ### 4.4 배포 토폴로지
-- **Cloudflare Pages** 프로젝트 1개(정적 + Functions). `apps/edu-kit` 빌드 루트.
+- **Cloudflare Pages** 프로젝트 1개(정적 + Functions). 레포 루트 빌드(`pnpm build`).
 - **환경**: Production(main) / Preview(PR마다 자동 URL). 환경별 KV·R2 바인딩 분리.
 - **단축 도메인**: `kit.dgedu.link` → Pages 프로젝트에 커스텀 도메인 연결. `/<id>`→`/k/<id>` 리라이트.
 - 시크릿: **GitHub PAT는 GAS Script Properties**(발행 커밋용), Pages 환경변수는 런타임 최소(없으면 0). GAS가 시트를 직접 읽으므로 Sheets 서비스계정 키 불필요.
@@ -344,7 +349,7 @@ CREATE INDEX idx_kits_scope ON kits(grade, sem, subject, unit, sort_order);
 
 1. **시트 버튼(GAS)** — 시트에 그림/이미지 버튼 + 스크립트 할당(또는 커스텀 메뉴 `발행`). 클릭 시 Apps Script가:
    - `kits`/`items`/`stage_meta` 3탭을 그대로 직렬화(원본 스냅샷, 변환 없음).
-   - **GitHub Contents API**(PUT)로 `apps/edu-kit/data/raw/*.json` 커밋. 기존 파일 `sha` 조회 후 갱신.
+   - **GitHub Contents API**(PUT)로 `data/raw/*.json` 커밋. 기존 파일 `sha` 조회 후 갱신.
    - GitHub PAT(fine-grained, contents:write)는 GAS **Script Properties**에 보관. 스크립트는 ~50줄로 단순(파서·새니타이저 불필요).
 2. **Pages 빌드 스텝(`scripts/sheet-to-json.ts`, prebuild)** — push 감지 후 Pages 빌드가 자동 실행:
    - `data/raw/*.json` 읽기 → `field-map` 정규화 → **zod 검증(실패 시 빌드 중단=배포 안 됨)** → concepts 분할 → 흐름형 매핑(§5.2) → 마크다운→HTML(.sk-rich)→새니타이즈(§9.1) → 검증·정제된 `data/*.json` 산출.
@@ -385,7 +390,7 @@ CREATE INDEX idx_kits_scope ON kits(grade, sem, subject, unit, sort_order);
 
 ### 7.2 컴포넌트 트리
 ```
-<App> (RR7 root, 헤더/토큰/폰트)  — 토큰·UI는 @edulink/* 공유 패키지
+<App> (RR7 root, 헤더/토큰/폰트)  — 토큰은 edu-link index.css 복사(app/styles/tokens.css)
 ├── <HomeRoute>                          # /
 │   ├── <Header>                         # 좌:로고+워드마크+kit.dgedu.link / 우:'데이터 구조' 버튼만 (교육청 라벨 없음 — README 25행)
 │   ├── <IntroBlock>                     # pill 배지 + h1 + 서브카피
@@ -419,7 +424,7 @@ CREATE INDEX idx_kits_scope ON kits(grade, sem, subject, unit, sort_order);
 | 버튼(링크복사/좋아요/뒤로) | HeroUI Button + `aria-pressed`/`aria-label` |
 | 아이콘 | lucide-react 개별 import(eye, heart, link, chevron-left, chevrons-left, menu, x, play, image, landmark, flask-conical) |
 
-### 7.4 디자인 토큰 (Tailwind 4 `@theme`, `@edulink/design-tokens` 공유)
+### 7.4 디자인 토큰 (Tailwind 4 `@theme`, edu-link `index.css` 복사 + 추가)
 | 토큰 | 값 | 용도 |
 |---|---|---|
 | `--color-brand-50` | `#eff6ff` | 배경 약 |
@@ -513,9 +518,9 @@ CREATE INDEX idx_kits_scope ON kits(grade, sem, subject, unit, sort_order);
 
 ## 10. 개발 단계 & 마일스톤
 
-### Phase 0 — 모노레포 입주 & 부트스트랩 (1주)
-- edu-link 모노레포에 `apps/edu-kit` 추가, 공유 패키지(`@edulink/design-tokens`,`@edulink/ui`) 연결, RR7+Vite, Tailwind 4 `@theme`, Pretendard, lucide, Cloudflare Pages 프로젝트 + 바인딩(KV/R2), Turbo 빌드, CI 골격.
-- 완료: Pages Preview에 빈 홈 렌더, CI 그린, `apps/edu-kit`만 증분 빌드 확인.
+### Phase 0 — 부트스트랩 (1주)
+- 단독 레포(현 edu-kit) 스캐폴드: RR7+Vite, **edu-link `src/client/index.css` 토큰 복사**(@theme + HeroUI accent override + gemini/glassmorphism) + 단계 색·교과 팔레트 추가, 동일 dep 버전 핀(HeroUI 3 / RR7 7.15 / Tailwind 4 / lucide 1.16), Pretendard, Cloudflare Pages 프로젝트 + 바인딩(KV/R2), CI 골격.
+- 완료: Pages Preview에 빈 홈 렌더, CI 그린, 프로토타입 토큰과 색 일치 확인.
 
 ### Phase 1 — 읽기 앱 MVP (2~3주)
 - 시드 `data/*.json`(SAMPLE_DATA + t8jo/tDangun 변환), 홈 갤러리(필터·카드·빈 상태), 뷰어(목차·4타입 본문), 데이터 모달, 경로 라우팅 + kit별 prerender + OG 메타, 단축링크 리라이트.
@@ -537,50 +542,44 @@ CREATE INDEX idx_kits_scope ON kits(grade, sem, subject, unit, sort_order);
 
 ---
 
-## 11. 제안 디렉터리 구조 (모노레포 입주)
+## 11. 제안 디렉터리 구조 (단독 레포)
 
 ```
-edu-link/  (기존 모노레포)
-├─ apps/
-│  └─ edu-kit/                    # ← 본 앱
-│     ├─ app/                     # React Router 7 (framework mode)
-│     │  ├─ root.tsx              # 루트 레이아웃, CSP, 폰트
-│     │  ├─ routes/
-│     │  │  ├─ _index.tsx         # / 홈 갤러리
-│     │  │  └─ k.$kitId.($itemId).tsx   # /k/:kitId/:itemId? 뷰어 (prerender + OG)
-│     │  ├─ components/
-│     │  │  ├─ home/              # Header, FilterCard, UnitChips, KitCard, KitGrid, EmptyState
-│     │  │  ├─ viewer/            # ViewerTopbar, Sidebar, StageGroup, ItemButton, ContentPane
-│     │  │  ├─ content/           # IntroContent, VideoContent(lite-yt), ImageContent, TextContent
-│     │  │  └─ common/            # DataModal
-│     │  └─ lib/                  # sanitize.client(DOMPurify), youtube(video_id), filters
-│     ├─ functions/               # Cloudflare Pages Functions
-│     │  └─ api/kits/[id]/        # stats.ts, view.ts, like.ts  (+ 단축링크 [[catchall]] 또는 _redirects)
-│     ├─ data/
-│     │  ├─ raw/                  # ← GAS "발행" 버튼이 커밋한 시트 원본 스냅샷
-│     │  │  ├─ kits.json items.json stage_meta.json
-│     │  └─ (kits/items/stage_meta.json = 빌드 산출, gitignore 가능)
-│     ├─ scripts/
-│     │  ├─ sheet-to-json.ts      # ETL prebuild(raw→검증·새니타이즈·정본 JSON)
-│     │  ├─ field-map.ts          # 프로토타입/시트→정본 컬럼 매핑(단일 소스)
-│     │  └─ seed-kv.ts            # 초기 views/likes KV 적재
-│     ├─ gas/                     # Google Apps Script 소스(시트 "발행" 버튼 → GitHub 커밋)
-│     │  └─ publish.gs            # ~50줄: 3탭 직렬화 + Contents API PUT
-│     ├─ tests/                   # unit / integration(miniflare) / e2e(Playwright+axe)
-│     ├─ public/                  # 정적 자산
-│     ├─ wrangler.jsonc / pages 설정
-│     └─ package.json             # @edulink/* 의존
-├─ packages/
-│  ├─ design-tokens/              # @theme CSS 변수(공유)
-│  ├─ ui/                         # HeroUI 래퍼(Button/Card/Chip/SegmentedControl/Modal)
-│  └─ (icons, config presets…)
-├─ .github/workflows/
-│  └─ edu-kit-ci.yml              # (선택) lint/typecheck/test on PR. 발행용 Action 없음 — 발행은 GAS 버튼
-├─ _prototype/                    # (참고) 디자인 핸드오프 원본
-├─ turbo.json / pnpm-workspace.yaml
-└─ docs/IMPLEMENTATION_PLAN.md    # 본 문서
+edu-kit/  (현 eduinside/edu-kit — 단독 레포)
+├─ app/                        # React Router 7 (framework mode)
+│  ├─ root.tsx                 # 루트 레이아웃, CSP, 폰트
+│  ├─ routes/
+│  │  ├─ _index.tsx            # / 홈 갤러리
+│  │  └─ k.$kitId.($itemId).tsx   # /k/:kitId/:itemId? 뷰어 (prerender + OG)
+│  ├─ components/
+│  │  ├─ home/                 # Header, FilterCard, UnitChips, KitCard, KitGrid, EmptyState
+│  │  ├─ viewer/               # ViewerTopbar, Sidebar, StageGroup, ItemButton, ContentPane
+│  │  ├─ content/              # IntroContent, VideoContent(lite-yt), ImageContent, TextContent
+│  │  └─ common/               # DataModal
+│  ├─ styles/
+│  │  └─ tokens.css            # ← edu-link/src/client/index.css 복사 + 단계색·교과팔레트 추가
+│  └─ lib/                     # sanitize.client(DOMPurify), youtube(video_id), filters
+├─ functions/                  # Cloudflare Pages Functions
+│  └─ api/kits/[id]/           # stats.ts, view.ts, like.ts  (+ 단축링크 [[catchall]] 또는 _redirects)
+├─ data/
+│  ├─ raw/                     # ← GAS "발행" 버튼이 커밋한 시트 원본 스냅샷
+│  │  └─ kits.json items.json stage_meta.json
+│  └─ (kits/items/stage_meta.json = 빌드 산출, gitignore 가능)
+├─ scripts/
+│  ├─ sheet-to-json.ts         # ETL prebuild(raw→검증·새니타이즈·정본 JSON)
+│  ├─ field-map.ts             # 프로토타입/시트→정본 컬럼 매핑(단일 소스)
+│  └─ seed-kv.ts               # 초기 views/likes KV 적재
+├─ gas/                        # Google Apps Script 소스(시트 "발행" 버튼 → GitHub 커밋)
+│  └─ publish.gs               # ~50줄: 3탭 직렬화 + Contents API PUT
+├─ tests/                      # unit / integration(miniflare) / e2e(Playwright+axe)
+├─ public/                     # 정적 자산(Pretendard 등)
+├─ _prototype/                 # (참고) 디자인 핸드오프 원본
+├─ .github/workflows/ci.yml    # (선택) lint/typecheck/test on PR. 발행용 Action 없음 — 발행은 GAS 버튼
+├─ docs/IMPLEMENTATION_PLAN.md # 본 문서
+├─ wrangler.jsonc              # Pages/Functions 바인딩(KV/R2)
+└─ package.json                # HeroUI 3 / RR7 7.15 / Tailwind 4 / lucide 1.16 (edu-link과 동일 버전 핀)
 ```
-> edu-link 실제 구조(패키지명·경로)는 입주 시 확인해 조정(§12 D-모노레포). 단독 레포로 시작했다가 추후 편입하는 것도 가능하나, 토큰/UI 공유 이점을 일찍 얻으려면 처음부터 입주 권장.
+> 향후 토큰 단일 출처가 필요하면 `app/styles/tokens.css`를 `@eduinside/design-tokens` 패키지로 추출해 edu-link과 공유(§3.3·§12 D-모노레포). 현 시점엔 복사가 더 단순.
 
 ---
 
@@ -604,7 +603,7 @@ edu-link/  (기존 모노레포)
 ### 12.2 사용자 결정 필요 사항
 | # | 항목 | 선택지 | 추천 |
 |---|---|---|---|
-| **D-모노레포** | edu-link 실제 워크스페이스 구조·공유 패키지명 | edu-link 구조 확인 후 패키지 경로/이름 확정 | edu-link 레포 구조 공유 필요 — `apps/edu-kit` 입주 + `@edulink/design-tokens`·`@edulink/ui` 소비(가정) |
+| **D-모노레포** | 디자인시스템 공유 방식 (✅ 실측 완료) | (a) 단독 레포 + `index.css` 복사 / (b) `@eduinside/design-tokens` 패키지 추출 / (c) edu-link 모노레포 전환 | **(a) 현행** — edu-link은 npm 단일 앱이라 (c)는 과투자. 공유 면 커지면 (b)로 단일 출처화. edu-link 변경 없음 |
 | **D-트리거** | 발행 트리거 방식 | (a) **GAS 시트 "발행" 버튼**→GitHub 커밋 / (b) GitHub Action / (c) 개발자 `pnpm sync` | **(a) 확정** — 편집자가 시트를 안 떠남, Actions 복잡성 회피. 변환·검증은 Pages 빌드(TS). PAT은 GAS Script Properties |
 | **D-검수** | 발행 시 검수 단계 | (a) main 직접 커밋 + 빌드 게이트(단순) / (b) content 브랜치→Preview→머지 | **(a)** — 중앙 편집팀 신뢰 + 빌드 검증이 안전망. 시각적 사전검수가 필요하면 (b) |
 | **D-GAS권한** | GAS 실행 권한 | (a) 편집자 계정으로 실행 / (b) 설치형 트리거(시트 소유자 권한) | GAS가 시트를 직접 읽으므로 서비스계정/CSV 공개 불필요. 버튼 클릭 시 권한 동의 1회 |
