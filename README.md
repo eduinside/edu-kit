@@ -37,11 +37,24 @@ npm run typecheck
 - `db/schema.sql` — `edukit_*` 카운터 테이블(IF NOT EXISTS, edu-link-db 공유)
 - `data/raw/*.json` — 시드(ab12 활동형, cd34 흐름형)
 
-## 다음 단계 (Phase 1 — 읽기 앱 UI)
+## 읽기 앱 UI (Phase 1 — 구현·빌드 검증됨)
 
-React Router 7 + Tailwind 4 + HeroUI로 홈 갤러리·뷰어·데이터 모달 구현,
-경로 라우팅 + kit별 prerender/OG, 단축링크 리라이트, 카운터 Functions.
-(앱 의존성은 `package.json` 주석 참고 — 이번 단계에서 추가)
+```bash
+npm run dev      # vite 개발 서버 (predev=sync)
+npm run build    # prebuild=sync → vite build → dist/
+```
+
+- React 19 + React Router 7(`react-router-dom`, SPA) + Tailwind 4 + lucide-react.
+- 홈 갤러리(필터 SegmentedControl·단원 칩·카드 그리드·빈 상태·데이터 모달), 뷰어(상단바·목차 사이드바·4타입 본문 intro/video/image/text·접기/펼치기), URL 쿼리 필터 딥링크.
+- `app/routes/*` · `app/components/*` · `app/lib/{data,design,stats}.ts`. 토큰은 `app/styles/tokens.css`.
+- 디자인은 프로토타입 토큰/마크업에 충실. 컴포넌트 라이브러리는 경량 자체 구현(SegmentedControl/Modal) — HeroUI 컴포넌트로 점진 교체 가능(§7.3).
+- 배포는 **Vite SPA + Pages SPA 폴백**(`public/_redirects`). 경로기반 prerender/OG 메타는 Phase 3에서 추가(현재 OG는 정적 메타).
+
+## 다음 단계 (Phase 3 — 카운터·공유)
+
+- `functions/api/kits/[id]/{stats,view,like}.ts` + D1(`edu-link-db`, `edukit_*`) — 조회수 dedupe·좋아요 멱등, 낙관적 UI 연동(현재 표시값은 시드).
+- kit별 prerender + 동적 OG 이미지(빌드 생성), 단축링크 `kit.dgedu.link/<id>` → `/k/<id>` 리라이트.
+- 클라 DOMPurify(본문 이중 방어), 이미지 R2 업로드.
 
 ## 배포
 

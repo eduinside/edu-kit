@@ -6,17 +6,33 @@
   "scripts": {
     "sync": "tsx scripts/sheet-to-json.ts",
     "seed:stats": "tsx scripts/seed-stats.ts",
+    "predev": "npm run sync",
+    "dev": "vite",
     "prebuild": "npm run sync",
     "build": "vite build",
-    "dev": "vite",
+    "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "test": "vitest"
   },
+  "dependencies": {
+    "@heroui/react": "^3.0.5",
+    "@heroui/styles": "^3.0.5",
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^1.16.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router-dom": "^7.15.1"
+  },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.3.0",
     "@types/node": "^22.10.0",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "tailwindcss": "^4.3.0",
     "tsx": "^4.22.0",
     "typescript": "^5.7.0",
+    "vite": "^8.0.14",
     "zod": "^3.24.0"
-  },
-  "comment": "앱(UI/배포) 의존성은 Phase 0~1에서 추가: react·react-dom·react-router(+dev)·@heroui/react·@heroui/styles·framer-motion·lucide-react·tailwindcss·@tailwindcss/vite·vite·wrangler·@cloudflare/vite-plugin·sanitize-html. edu-link과 동일 버전 핀."
+  }
 }

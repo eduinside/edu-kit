@@ -95,6 +95,17 @@
 .sk-callout--warn { background: var(--color-warning-50); border: 1px solid var(--color-warning-100); color: var(--color-warning-700); }
 .sk-callout--info { background: var(--color-success-50); border: 1px solid var(--color-success-100); color: var(--color-success-700); }
 
+/* 컴포넌트 인터랙션 */
+.kit-card { transition: box-shadow .2s ease, border-color .2s ease, transform .2s ease; }
+.kit-card:hover { box-shadow: 0 8px 24px rgba(15,23,42,.1); border-color: var(--color-brand-200); transform: translateY(-3px); }
+.kit-card:focus-visible { outline: 2px solid var(--color-brand-500); outline-offset: 2px; }
+.icon-btn { transition: background .15s ease, border-color .15s ease, color .15s ease; }
+.icon-btn:hover { background: var(--color-slate-50); }
+.toc-item { transition: background .15s ease; }
+.toc-item:hover { background: var(--color-slate-50); }
+.unit-chip { transition: border-color .15s ease, color .15s ease; }
+.unit-chip:hover { border-color: var(--color-slate-300); color: var(--color-slate-700); }
+
 /* Scrollbar */
 .sk-scroll::-webkit-scrollbar { width: 8px; height: 8px; }
 .sk-scroll::-webkit-scrollbar-track { background: transparent; }
