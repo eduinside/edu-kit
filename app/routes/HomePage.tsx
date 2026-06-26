@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import SegmentedControl from "../components/SegmentedControl.tsx";
 import KitCard from "../components/KitCard.tsx";
-import DataModal from "../components/DataModal.tsx";
+import UsageGuide from "../components/UsageGuide.tsx";
 import { KITS } from "../lib/data.ts";
 import type { Grade, Semester, Subject } from "../lib/data.ts";
 
@@ -16,7 +16,7 @@ const divider = { width: 1, height: 24, background: "var(--color-slate-100)" } a
 export default function HomePage() {
   const navigate = useNavigate();
   const [params, setParams] = useSearchParams();
-  const [showData, setShowData] = useState(false);
+  const [showGuide, setShowGuide] = useState(false);
 
   const grade = Number(params.get("grade") ?? 5) as Grade;
   const sem = (params.get("sem") ?? "2학기") as Semester;
@@ -49,7 +49,7 @@ export default function HomePage() {
             <span style={{ fontSize: 10, fontWeight: 700, color: "var(--color-brand-600)", fontFamily: "var(--font-mono)" }}>kit.dgedu.link</span>
           </div>
         </div>
-        <button type="button" onClick={() => setShowData(true)} style={{ height: 32, padding: "0 14px", border: "none", borderRadius: 8, background: "var(--color-slate-100)", color: "var(--color-slate-700)", fontSize: 13, fontWeight: 700, cursor: "pointer" }}>데이터 구조</button>
+        <button type="button" onClick={() => setShowGuide(true)} style={{ height: 32, padding: "0 14px", border: "none", borderRadius: 8, background: "var(--color-slate-100)", color: "var(--color-slate-700)", fontSize: 13, fontWeight: 700, cursor: "pointer" }}>활용 안내</button>
       </div>
 
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "34px 28px 64px" }}>
@@ -127,7 +127,7 @@ export default function HomePage() {
         )}
       </div>
 
-      <DataModal open={showData} onClose={() => setShowData(false)} />
+      <UsageGuide open={showGuide} onClose={() => setShowGuide(false)} />
     </div>
   );
 }

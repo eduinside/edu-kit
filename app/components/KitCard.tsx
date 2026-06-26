@@ -52,7 +52,6 @@ export default function KitCard({ kit, onOpen }: { kit: Kit; onOpen: () => void 
         <div style={{ display: "flex", alignItems: "center", gap: 13, marginTop: 11, paddingTop: 11, borderTop: "1px solid var(--color-slate-100)" }}>
           <span style={{ display: "inline-flex", alignItems: "center", gap: 5, fontSize: 11, fontWeight: 700, color: "var(--color-slate-500)" }}><Eye size={14} /> {s.views}</span>
           <span style={{ display: "inline-flex", alignItems: "center", gap: 5, fontSize: 11, fontWeight: 700, color: "var(--color-slate-500)" }}><Heart size={13} /> {s.likes}</span>
-          <span style={{ marginLeft: "auto", fontSize: 10, fontWeight: 800, color: "var(--color-brand-600)", fontFamily: "var(--font-mono)" }}>/{kit.id}</span>
         </div>
       </div>
     </div>
