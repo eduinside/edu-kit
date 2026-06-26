@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { ChevronLeft, Link2, Eye, Heart, Menu } from "lucide-react";
+import { ChevronLeft, ChevronRight, Link2, Eye, Heart, Menu } from "lucide-react";
+
+const NARROW_Q = "(max-width: 860px)";
 import Sidebar from "../components/viewer/Sidebar.tsx";
 import ContentPane from "../components/viewer/ContentPane.tsx";
 import { getKit, getGroups, flatItems } from "../lib/data.ts";
+import type { Item } from "../lib/data.ts";
 import { stageColor, flowLabel } from "../lib/design.ts";
 import { statsFor } from "../lib/stats.ts";
 import { postView, postLike, type Stats } from "../lib/api.ts";
@@ -11,9 +14,24 @@ import { postView, postLike, type Stats } from "../lib/api.ts";
 export default function ViewerPage() {
   const { kitId = "", itemId } = useParams();
   const navigate = useNavigate();
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const initialNarrow = typeof window !== "undefined" && window.matchMedia(NARROW_Q).matches;
+  const [isNarrow, setIsNarrow] = useState(initialNarrow);
+  const [sidebarOpen, setSidebarOpen] = useState(!initialNarrow); // 모바일/탭에선 기본 숨김
   const [copied, setCopied] = useState(false);
   const [stats, setStats] = useState<Stats>(() => ({ ...statsFor(kitId), liked: false }));
+
+  // 화면 폭 변화 → 좁으면 사이드바 숨김(오버레이), 넓으면 표시
+  useEffect(() => {
+    const mq = window.matchMedia(NARROW_Q);
+    const on = () => { setIsNarrow(mq.matches); setSidebarOpen(!mq.matches); };
+    mq.addEventListener("change", on);
+    return () => mq.removeEventListener("change", on);
+  }, []);
+
+  function selectItem(k: string) {
+    navigate(`/${kitId}/${k}`);
+    if (isNarrow) setSidebarOpen(false); // 모바일: 선택 후 목차 닫기
+  }
 
   // 진입 시 조회수 집계 + 라이브 stats 수신. Functions 미가동(dev)이면 시드 유지.
   useEffect(() => {
@@ -41,6 +59,10 @@ export default function ViewerPage() {
     if (it) { sel = { group: g, item: it }; break; }
   }
   if (!sel && groups[0]?.items[0]) sel = { group: groups[0], item: groups[0].items[0] };
+
+  const curIdx = flat.findIndex((i) => i.item_key === (sel?.item.item_key ?? selKey));
+  const prevItem = curIdx > 0 ? flat[curIdx - 1] : null;
+  const nextItem = curIdx >= 0 && curIdx < flat.length - 1 ? flat[curIdx + 1] : null;
 
   const crumb = kit ? `초등 ${kit.grade}학년 · ${kit.sem} · ${kit.subject}` : "";
 
@@ -84,15 +106,23 @@ export default function ViewerPage() {
 
       {/* 본문 */}
       <div style={{ flex: 1, minHeight: 0, display: "flex", position: "relative" }}>
+        {sidebarOpen && sel && isNarrow && (
+          // 모바일/탭: 오버레이 + scrim (본문을 밀지 않음)
+          <div onClick={() => setSidebarOpen(false)} style={{ position: "absolute", inset: 0, zIndex: 20, background: "rgba(15,23,42,.4)" }} />
+        )}
         {sidebarOpen && sel && (
-          <Sidebar groups={groups} selKey={sel.item.item_key} flowLabel={flowLabel(kit?.flow ?? "activity")}
-            onSelect={(k) => navigate(`/${kitId}/${k}`)} onClose={() => setSidebarOpen(false)} />
+          <div style={isNarrow
+            ? { position: "absolute", left: 0, top: 0, bottom: 0, zIndex: 21, boxShadow: "4px 0 24px rgba(15,23,42,.18)" }
+            : { display: "contents" }}>
+            <Sidebar groups={groups} selKey={sel.item.item_key} flowLabel={flowLabel(kit?.flow ?? "activity")}
+              onSelect={selectItem} onClose={() => setSidebarOpen(false)} />
+          </div>
         )}
 
         <div className="sk-scroll" style={{ flex: 1, minWidth: 0, overflowY: "auto", background: "var(--color-paper)" }}>
           {/* sticky 서브헤더 */}
-          <div style={{ position: "sticky", top: 0, zIndex: 5, background: "rgba(243,245,249,.86)", backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)", borderBottom: "1px solid var(--color-slate-100)", padding: "16px 32px" }}>
-            <div style={{ maxWidth: 1080, margin: "0 auto" }}>
+          <div style={{ position: "sticky", top: 0, zIndex: 5, background: "rgba(243,245,249,.86)", backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)", borderBottom: "1px solid var(--color-slate-100)", padding: "16px 24px" }}>
+            <div style={{ maxWidth: 1280, margin: "0 auto" }}>
               <div style={{ display: "flex", alignItems: "center", gap: 9, marginBottom: 6 }}>
                 {!sidebarOpen && (
                   <button type="button" className="icon-btn" onClick={() => setSidebarOpen(true)} aria-label="목차 펼치기" style={{ display: "inline-flex", alignItems: "center", gap: 6, height: 28, padding: "0 11px", border: "1px solid var(--color-slate-200)", borderRadius: 9999, background: "#fff", cursor: "pointer", color: "var(--color-slate-600)", fontSize: 11.5, fontWeight: 700, flexShrink: 0 }}>
@@ -109,11 +139,48 @@ export default function ViewerPage() {
             </div>
           </div>
 
-          <div style={{ maxWidth: 1080, margin: "0 auto", padding: "26px 32px 80px" }}>
+          <div style={{ maxWidth: 1280, margin: "0 auto", padding: "26px 24px 80px" }}>
             <ContentPane item={sel?.item ?? null} stage={sel?.group.stage ?? "단원안내"} />
+            {sel && (prevItem || nextItem) && (
+              <div style={{ display: "flex", gap: 12, marginTop: 28 }}>
+                <NavButton dir="prev" item={prevItem} onSelect={selectItem} />
+                <NavButton dir="next" item={nextItem} onSelect={selectItem} />
+              </div>
+            )}
           </div>
         </div>
       </div>
     </div>
+  );
+}
+
+function NavButton({ dir, item, onSelect }: { dir: "prev" | "next"; item: Item | null; onSelect: (k: string) => void }) {
+  const isPrev = dir === "prev";
+  const enabled = !!item;
+  return (
+    <button
+      type="button"
+      disabled={!enabled}
+      onClick={() => item && onSelect(item.item_key)}
+      style={{
+        flex: 1, minWidth: 0, display: "flex", alignItems: "center", gap: 10,
+        justifyContent: isPrev ? "flex-start" : "flex-end",
+        padding: "13px 16px", borderRadius: 14,
+        border: "1px solid var(--color-slate-100)",
+        background: enabled ? "#fff" : "transparent",
+        boxShadow: enabled ? "0 1px 2px rgba(15,23,42,.06)" : "none",
+        cursor: enabled ? "pointer" : "default", opacity: enabled ? 1 : 0.55,
+        transition: "box-shadow .15s ease, border-color .15s ease",
+      }}
+    >
+      {isPrev && <ChevronLeft size={18} style={{ color: "var(--color-slate-400)", flexShrink: 0 }} />}
+      <span style={{ minWidth: 0, textAlign: isPrev ? "left" : "right" }}>
+        <span style={{ display: "block", fontSize: 11, fontWeight: 700, color: "var(--color-slate-400)" }}>{isPrev ? "이전" : "다음"}</span>
+        <span style={{ display: "block", fontSize: 13.5, fontWeight: 700, color: "var(--color-ink)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+          {item ? item.title : isPrev ? "처음입니다" : "마지막입니다"}
+        </span>
+      </span>
+      {!isPrev && <ChevronRight size={18} style={{ color: "var(--color-slate-400)", flexShrink: 0 }} />}
+    </button>
   );
 }
