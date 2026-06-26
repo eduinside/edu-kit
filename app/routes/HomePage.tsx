@@ -41,7 +41,7 @@ export default function HomePage() {
       {/* 헤더 */}
       <div className="glassmorphism" style={{ position: "sticky", top: 0, zIndex: 30, height: 58, display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0 24px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 11 }}>
-          <img src="/logo.svg" width={30} height={30} alt="수업꾸러미 로고" style={{ display: "block", borderRadius: 8, boxShadow: "var(--shadow-primary-soft)" }} />
+          <img src="/logo.png" width={30} height={30} alt="수업꾸러미 로고" style={{ display: "block", borderRadius: 8 }} />
           <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.05 }}>
             <span style={{ fontWeight: 900, fontSize: 18, letterSpacing: "-.02em" }}>수업꾸러미</span>
             <span style={{ fontSize: 10, fontWeight: 700, color: "var(--color-brand-600)", fontFamily: "var(--font-mono)" }}>kit.dgedu.link</span>

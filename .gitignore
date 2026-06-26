@@ -37,3 +37,6 @@ Thumbs.db
 
 # Cloudflare 로컬 상태(wrangler/pages dev)
 .wrangler/
+
+# 로고 원본(크롭 전) — public/의 생성물만 커밋. 재생성: scripts/crop-logo.py
+ChatGPT Image*.png
