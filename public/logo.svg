@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#cfe0ff"/><stop offset="1" stop-color="#dcd6ff"/>
+    </linearGradient>
+    <linearGradient id="cBlue" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#5b9bff"/><stop offset="1" stop-color="#2f6df0"/></linearGradient>
+    <linearGradient id="cViolet" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#9b8bf4"/><stop offset="1" stop-color="#6d5ae0"/></linearGradient>
+    <linearGradient id="cCyan" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#46c9f0"/><stop offset="1" stop-color="#12a2e6"/></linearGradient>
+    <linearGradient id="box" x1="0" y1="38" x2="0" y2="58" gradientUnits="userSpaceOnUse"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#eaf0fb"/></linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bg)"/>
+
+  <!-- 카드 3장 (영상 / 문서 / 이미지) -->
+  <g transform="rotate(-13 26 32)">
+    <rect x="18.5" y="22" width="14" height="20.5" rx="3.2" fill="url(#cBlue)"/>
+    <path d="M23.5 28.2 L29.6 32 L23.5 35.8 Z" fill="#fff"/>
+  </g>
+  <g transform="rotate(15 39 32)">
+    <rect x="33" y="22" width="14" height="20.5" rx="3.2" fill="url(#cCyan)"/>
+    <circle cx="37.6" cy="28.4" r="1.7" fill="#fff"/>
+    <path d="M34.6 36.4 L39 30.4 L43.4 36.4 Z" fill="#fff"/>
+  </g>
+  <g transform="rotate(2 32.5 30)">
+    <rect x="25.5" y="17.5" width="15" height="24" rx="3.2" fill="url(#cViolet)"/>
+    <rect x="29" y="24" width="9" height="1.9" rx="0.95" fill="#fff"/>
+    <rect x="29" y="28" width="9" height="1.9" rx="0.95" fill="#fff"/>
+    <rect x="29" y="32" width="6" height="1.9" rx="0.95" fill="#fff"/>
+  </g>
+
+  <!-- 상자 -->
+  <path d="M16 41 H48 L45.3 57 H18.7 Z" fill="url(#box)"/>
+  <rect x="14.5" y="37.5" width="35" height="6" rx="3" fill="#ffffff"/>
+  <!-- 상자 앞면 엠블럼(리더) -->
+  <rect x="27.6" y="45" width="8.8" height="10.4" rx="2.4" fill="#2f6df0"/>
+  <rect x="30" y="47.4" width="4" height="5.6" rx="1" fill="#fff"/>
+
+  <!-- 반짝임 -->
+  <path d="M40 11 l1.15 2.7 2.7 1.15 -2.7 1.15 -1.15 2.7 -1.15 -2.7 -2.7 -1.15 2.7 -1.15 Z" fill="#6d8bff"/>
+  <path d="M47.6 13.6 l0.85 2 2 0.85 -2 0.85 -0.85 2 -0.85 -2 -2 -0.85 2 -0.85 Z" fill="#ffd23f"/>
+  <path d="M21.8 13.6 l0.75 1.75 1.75 0.75 -1.75 0.75 -0.75 1.75 -0.75 -1.75 -1.75 -0.75 1.75 -0.75 Z" fill="#9b8bf4"/>
+  <circle cx="46.4" cy="22" r="1.45" fill="#46c9f0"/>
+</svg>
