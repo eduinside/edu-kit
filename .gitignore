@@ -25,3 +25,6 @@ Thumbs.db
 # Misc
 .cache/
 *.tmp
+
+# Handoff archive (unzipped into _prototype/)
+*.zip
