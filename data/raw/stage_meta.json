@@ -1,9 +1,40 @@
 [
-  { "kit_id": "ab12", "stage": "단원안내", "question": "", "sort_order": 1 },
-  { "kit_id": "ab12", "stage": "생각열기", "question": "도구가 달라지면 삶도 달라질까?", "sort_order": 2 },
-  { "kit_id": "ab12", "stage": "탐구하기", "question": "고조선은 어떻게 세워지고 무엇을 남겼을까?", "sort_order": 3 },
-  { "kit_id": "ab12", "stage": "확장하기", "question": "우리 역사의 첫 국가는 어떤 의미가 있을까?", "sort_order": 4 },
-  { "kit_id": "cd34", "stage": "도입", "question": "", "sort_order": 1 },
-  { "kit_id": "cd34", "stage": "전개", "question": "", "sort_order": 2 },
-  { "kit_id": "cd34", "stage": "정리", "question": "", "sort_order": 3 }
+  {
+    "kit_id": "ab12",
+    "stage": "단원안내",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "ab12",
+    "stage": "생각열기",
+    "question": "도구가 달라지면 삶도 달라질까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "ab12",
+    "stage": "탐구하기",
+    "question": "고조선은 어떻게 세워지고 무엇을 남겼을까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "ab12",
+    "stage": "확장하기",
+    "question": "우리 역사의 첫 국가는 어떤 의미가 있을까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "cd34",
+    "stage": "도입",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "cd34",
+    "stage": "전개",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "cd34",
+    "stage": "정리",
+    "sort_order": 3
+  }
 ]
