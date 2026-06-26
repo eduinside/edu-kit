@@ -21,14 +21,16 @@ const kits: { id: string }[] = JSON.parse(
   readFileSync(resolve(ROOT, "data/kits.json"), "utf8")
 );
 
-const lines = ["-- 자동 생성(seed-stats.ts). 최초 1회 적용용.", "BEGIN TRANSACTION;"];
+// 명시적 BEGIN/COMMIT 없이 INSERT만 — Cloudflare D1(remote)은 SQL 트랜잭션을 거부한다.
+// INSERT OR IGNORE라 중복 적용해도 안전(이미 카운트가 있으면 무시).
+const lines = ["-- 자동 생성(seed-stats.ts). 최초 1회 적용용. INSERT OR IGNORE."];
 for (const { id } of kits) {
   const [views, likes] = SEED[id] ?? [0, 0];
   lines.push(
     `INSERT OR IGNORE INTO edukit_stats (kit_id, views, likes) VALUES ('${id}', ${views}, ${likes});`
   );
 }
-lines.push("COMMIT;\n");
+lines.push("");
 
 writeFileSync(resolve(ROOT, "db/seed-stats.sql"), lines.join("\n"));
 console.log(`✓ db/seed-stats.sql 생성 (${kits.length}행)`);

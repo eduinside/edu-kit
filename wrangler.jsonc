@@ -13,14 +13,9 @@
       "database_name": "edu-link-db",
       "database_id": "e5fa6f54-6063-48f9-9cf3-0517381dd005"
     }
-  ],
-
-  // 이미지/OG 미디어
-  "r2_buckets": [
-    { "binding": "MEDIA", "bucket_name": "edu-kit-media" }
   ]
 
-  // Preview 환경은 프로덕션 edu-link-db 카운트 오염 방지를 위해
-  // 별도 dev D1을 바인딩한다(대시보드 Pages > Settings > Functions, 또는 [env.preview]).
-  // 예: edu-kit-db-dev. R2도 dev 버킷 권장.
+  // 이미지/OG R2(MEDIA)는 R2 사용(이미지 업로드) 구현 시 추가:
+  //   "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "edu-kit-media" }]
+  // Preview 환경은 프로덕션 edu-link-db 카운트 오염 방지를 위해 별도 dev D1 바인딩 권장.
 }
