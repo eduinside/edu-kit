@@ -1,0 +1,26 @@
+{
+  // 수업꾸러미 — Cloudflare Pages (정적 + Functions). 카운터는 공유 D1 'edu-link-db'.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "edu-kit",
+  "compatibility_date": "2026-05-25",
+  "compatibility_flags": ["nodejs_compat"],
+  "pages_build_output_dir": "./dist",
+
+  // 공유 D1 (C6) — edu-link과 동일 DB. 테이블은 edukit_ 접두어(db/schema.sql).
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "edu-link-db",
+      "database_id": "e5fa6f54-6063-48f9-9cf3-0517381dd005"
+    }
+  ],
+
+  // 이미지/OG 미디어
+  "r2_buckets": [
+    { "binding": "MEDIA", "bucket_name": "edu-kit-media" }
+  ]
+
+  // Preview 환경은 프로덕션 edu-link-db 카운트 오염 방지를 위해
+  // 별도 dev D1을 바인딩한다(대시보드 Pages > Settings > Functions, 또는 [env.preview]).
+  // 예: edu-kit-db-dev. R2도 dev 버킷 권장.
+}

@@ -28,3 +28,9 @@ Thumbs.db
 
 # Handoff archive (unzipped into _prototype/)
 *.zip
+
+# 빌드 생성물 (원본은 data/raw/, prebuild=sheet-to-json이 재생성)
+/data/kits.json
+/data/items.json
+/data/stage_meta.json
+/db/seed-stats.sql

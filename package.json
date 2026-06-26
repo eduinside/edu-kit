@@ -1,0 +1,22 @@
+{
+  "name": "edu-kit",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "tsx scripts/sheet-to-json.ts",
+    "seed:stats": "tsx scripts/seed-stats.ts",
+    "prebuild": "npm run sync",
+    "build": "vite build",
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.22.0",
+    "typescript": "^5.7.0",
+    "zod": "^3.24.0"
+  },
+  "comment": "앱(UI/배포) 의존성은 Phase 0~1에서 추가: react·react-dom·react-router(+dev)·@heroui/react·@heroui/styles·framer-motion·lucide-react·tailwindcss·@tailwindcss/vite·vite·wrangler·@cloudflare/vite-plugin·sanitize-html. edu-link과 동일 버전 핀."
+}

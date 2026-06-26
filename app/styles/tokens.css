@@ -1,0 +1,102 @@
+/* 수업꾸러미 디자인 토큰 — edu-link/src/client/index.css 복사 + 단계색·교과팔레트·semantic 추가.
+   토큰 출처: school-portal-r2 / Codeit blue. 프로토타입(수업꾸러미.dc.html)과 일치. */
+@import "tailwindcss";
+@import "@heroui/styles";
+
+@theme {
+  /* Typography — Pretendard */
+  --font-sans: "Pretendard Variable", Pretendard, -apple-system,
+    "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --font-display: var(--font-sans);
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+
+  /* Brand — Codeit blue #3692ff */
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #e7f1ff;
+  --color-brand-200: #c7e0ff;
+  --color-brand-300: #9ccaff;
+  --color-brand-400: #5fa8ff;
+  --color-brand-500: #3692ff;
+  --color-brand-600: #1f7af0; /* primary */
+  --color-brand-700: #1763d0; /* hover */
+  --color-brand-800: #184fa6;
+  --color-brand-900: #1a4382;
+  --color-primary: #1f7af0;
+
+  /* Neutral */
+  --color-ink: #1f2937;
+  --color-ink-soft: #56617a;
+  --color-ink-faint: #9aa4b5;
+  --color-paper: #f3f5f9;
+  --color-line: #e2e6ee;
+
+  /* Semantic (base = 프로토타입 값) */
+  --color-success-50: #ecfdf5; --color-success-100: #d1fae5;
+  --color-success-500: #10b981; --color-success-600: #059669; --color-success-700: #047857;
+  --color-success: #059669;
+  --color-danger-50: #fff1f2; --color-danger-100: #ffe4e6;
+  --color-danger-500: #f43f5e; --color-danger-600: #e11d48; --color-danger-700: #be123c;
+  --color-danger: #e11d48;
+  --color-warning-50: #fffbeb; --color-warning-100: #fef3c7;
+  --color-warning-500: #f59e0b; --color-warning-600: #d97706; --color-warning-700: #b45309;
+  --color-warning: #d97706;
+  --color-info-50: #f0f9ff; --color-info-100: #e0f2fe;
+  --color-info-500: #0ea5e9; --color-info-600: #0284c7; --color-info-700: #0369a1;
+  --color-info: #0284c7;
+  --color-violet-50: #f5f3ff; --color-violet-100: #ede9fe;
+  --color-violet-500: #8b5cf6; --color-violet-600: #7c3aed; --color-violet-700: #6d28d9;
+  --color-violet: #7c3aed;
+
+  /* Brand gradient (워드마크/로고 타일) */
+  --gradient-wordmark: linear-gradient(135deg, #3692ff 0%, #1f7af0 60%, #1763d0 100%);
+  --gradient-page: linear-gradient(135deg, #e0f2fe 0%, #e7f1ff 40%, #faf5ff 70%, #ffffff 100%);
+
+  /* Shadow */
+  --shadow-primary-soft: 0 6px 18px rgba(31, 122, 240, 0.2);
+}
+
+/* HeroUI v3 accent override → Codeit blue (edu-link과 동일 패턴) */
+:root,
+[data-theme="light"],
+[data-theme="default"] {
+  --accent: #1f7af0;
+  --accent-foreground: #ffffff;
+  --accent-hover: #1763d0;
+}
+
+/* 커스텀 배경/유틸 (edu-link 계승) */
+.gemini-gradient-bg { background: var(--gradient-page); }
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.74);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+/* 애니메이션 (프로토타입 sk-rise / sk-pop) */
+@keyframes sk-pop { 0% { transform: scale(1); } 40% { transform: scale(1.35); } 100% { transform: scale(1); } }
+@keyframes sk-rise { from { transform: translateY(8px); } to { transform: translateY(0); } }
+.sk-rise { animation: sk-rise 0.3s ease-out; }
+.sk-pop { animation: sk-pop 0.4s ease; }
+
+/* 위지윅 본문 (.sk-rich) + 강조 박스 (.sk-callout) — body HTML 렌더용 */
+.sk-rich { font-size: 14.5px; line-height: 1.8; color: var(--color-ink-soft); }
+.sk-rich h3 { font-size: 17px; font-weight: 800; color: var(--color-ink); margin: 0 0 10px; letter-spacing: -0.01em; }
+.sk-rich h4 { font-size: 15px; font-weight: 800; color: var(--color-ink); margin: 18px 0 8px; }
+.sk-rich p { margin: 0 0 14px; }
+.sk-rich strong { color: var(--color-ink); }
+.sk-rich ul, .sk-rich ol { margin: 0 0 14px; padding-left: 22px; }
+.sk-rich a { color: var(--color-brand-600); text-decoration: underline; }
+.sk-rich table { width: 100%; border-collapse: collapse; margin: 0 0 18px; font-size: 14px; }
+.sk-rich th { text-align: left; padding: 11px 14px; background: var(--color-brand-50); color: var(--color-brand-700); font-weight: 800; border: 1px solid var(--color-line); }
+.sk-rich td { padding: 11px 14px; color: var(--color-ink-soft); border: 1px solid var(--color-line); }
+.sk-callout { display: flex; gap: 11px; padding: 15px 16px; border-radius: 12px; margin: 0 0 14px; font-size: 13px; line-height: 1.7; }
+.sk-callout p { margin: 0; }
+.sk-callout--warn { background: var(--color-warning-50); border: 1px solid var(--color-warning-100); color: var(--color-warning-700); }
+.sk-callout--info { background: var(--color-success-50); border: 1px solid var(--color-success-100); color: var(--color-success-700); }
+
+/* Scrollbar */
+.sk-scroll::-webkit-scrollbar { width: 8px; height: 8px; }
+.sk-scroll::-webkit-scrollbar-track { background: transparent; }
+.sk-scroll::-webkit-scrollbar-thumb { background: rgba(148, 163, 184, 0.35); border-radius: 8px; }
+.sk-scroll::-webkit-scrollbar-thumb:hover { background: rgba(148, 163, 184, 0.55); }
