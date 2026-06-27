@@ -45,8 +45,9 @@ export interface Item {
   core_idea?: string;
   core_question?: string;
   concepts?: string[];
-  standard_code?: string;
-  standard_text?: string;
+  standard_code?: string; // 시트 원본(복수면 ' ; ' 구분). 화면은 아래 standards 사용.
+  standard_text?: string; // 시트 원본(복수면 ' ; ' 구분, code와 순서로 짝)
+  standards?: { code: string; text: string }[]; // 빌드 산출: code/text를 ;로 분리·짝지은 성취기준 목록
 
   // video 전용
   video_url?: string;

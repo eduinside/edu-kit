@@ -93,6 +93,19 @@ function warn(msg: string): void {
   console.warn(`⚠ [sheet-to-json] ${msg}`);
 }
 
+// 성취기준: code/text를 ';'로 분리해 순서대로 짝지음(복수 성취기준 지원). 짝이 안 맞으면 있는 쪽만.
+function parseStandards(code: unknown, text: unknown): { code: string; text: string }[] {
+  const codes = String(code ?? "").split(";").map((s) => s.trim());
+  const texts = String(text ?? "").split(";").map((s) => s.trim());
+  const n = Math.max(codes.length, texts.length);
+  const out: { code: string; text: string }[] = [];
+  for (let i = 0; i < n; i++) {
+    const c = codes[i] ?? "", t = texts[i] ?? "";
+    if (c || t) out.push({ code: c, text: t });
+  }
+  return out;
+}
+
 function buildKits(): Kit[] {
   const rows = readRaw("kits.json");
   const ids = new Set<string>(rows.map((r) => String(r.id ?? "").trim()).filter(Boolean));
@@ -189,7 +202,8 @@ function buildItems(kits: Kit[]): Item[] {
     if (seen.has(key0)) { warn(`중복 item_key ${key0} → 건너뜀`); return null; }
     seen.add(key0);
 
-    return { id: `${item.kit_id}_${item.item_key}`, ...item } as Item;
+    const standards = parseStandards(item.standard_code, item.standard_text);
+    return { id: `${item.kit_id}_${item.item_key}`, ...item, ...(standards.length ? { standards } : {}) } as Item;
   });
 
   return items.filter((x): x is Item => x !== null);

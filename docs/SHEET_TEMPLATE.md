@@ -38,6 +38,10 @@
 | type | 추가 컬럼 |
 |---|---|
 | `intro` | `core_idea`, `core_question`, `concepts`(`;`로 구분), `standard_code`, `standard_text` |
+
+> **성취기준 복수 입력**: 한 단원에 성취기준이 여러 개면 `standard_code`와 `standard_text`를 각각 ` ; `(세미콜론)로 구분해 **같은 순서로** 적는다. 빌드가 순서대로 짝지어 여러 줄로 보여준다.
+> 예) `standard_code` = `[4사03-01] ; [4사03-02]` , `standard_text` = `…양상과 특징을 파악한다. ; …생활 모습을 조사한다.`
+> (한 개면 그냥 한 개만 적으면 됨. 성취기준 본문에는 세미콜론을 쓰지 말 것 — 구분자로 쓰임.)
 | `video` | `video_url`(전체 유튜브 URL), `start_sec`, `end_sec`, `video_title`, `video_desc`, `video_license`, `caption` |
 | `image` | `image_url`(R2 업로드 URL), `image_label`, `image_sub`, `image_source`*, `image_license`*, `caption` |
 | `text` | `body`(아래 마크다운) |
