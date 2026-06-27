@@ -2,10 +2,10 @@
   {
     "kit_id": "so3211",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-1. 사회 변화로 달라진 생활 모습",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "최근의 사회 변화가 현상과 특징을 파악하고, 그로 인해 달라진 우리 생활 모습의 변화를 탐색하는 단원입니다.",
     "core_question": "사회 변화는 우리의 생활 모습과 문화를 어떻게 바꾸며, 우리는 서로 다른 문화를 어떻게 대해야 할까?",
@@ -35,7 +35,7 @@
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=xDOmYTr_hdE",
     "video_title": "초등학교의 변화 모습",
-    "video_desc": "영상자료로 알아보는 초등학교의 변화 모습 알아보기"
+    "video_desc": "영상 자료로 알아보는 초등학교의 변화 모습 알아보기"
   },
   {
     "kit_id": "so3211",
@@ -59,7 +59,7 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=SLabqoXn4gk",
     "video_title": "통계로 알아보는 우리나라 인구변화",
-    "video_desc": "통계로 알아보는 우리나라의 인구변화 모습"
+    "video_desc": "통계로 알아보는 우리나라의 인구 변화 모습"
   },
   {
     "kit_id": "so3211",
@@ -71,7 +71,7 @@
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=s4Og1UQwtSQ",
     "video_title": "인구피라미드로 알아보는 우리나라 인구변화",
-    "video_desc": "저출산, 고령화 문제를 인구피라미드로 이해하는 데 도움을 주는 영상"
+    "video_desc": "저출산, 고령화 문제를 인구 피라미드로 이해하는 데 도움을 주는 영상"
   },
   {
     "kit_id": "so3211",
@@ -82,8 +82,10 @@
     "description": "수업 전",
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=In0atFJvY9Y",
+    "start_sec": 0,
+    "end_sec": 268,
     "video_title": "대구경북의 저출산율",
-    "video_desc": "(처음~4:28) 대구와 경북 지역의 저출산 현상을 정리"
+    "video_desc": "대구와 경북 지역의 저출산 현상을 정리"
   },
   {
     "kit_id": "so3211",
@@ -118,8 +120,10 @@
     "description": "수업 중",
     "sort_order": 6,
     "video_url": "https://www.youtube.com/watch?v=Hu4uvcOSznE",
+    "start_sec": 0,
+    "end_sec": 650,
     "video_title": "저출생 문제 해결을 위한 지역의 노력 사례",
-    "video_desc": "(처음~10:52) 지역의 저출생 문제 해결을 위한 자치단체의 노력"
+    "video_desc": "지역의 저출생 문제 해결을 위한 자치단체의 노력"
   },
   {
     "kit_id": "so3211",
@@ -203,7 +207,7 @@
     "sort_order": 7,
     "video_url": "https://www.youtube.com/watch?v=BZJ047fnCT0",
     "video_title": "AI 돌봄 로봇",
-    "video_desc": "홀로 사는 어르신들을 위해 말벗과 건강관리를 돕는 AI 로봇 소개 영상"
+    "video_desc": "홀로 사는 어르신들을 위해 말벗과 건강 관리를 돕는 AI 로봇 소개 영상"
   },
   {
     "kit_id": "so3211",
@@ -251,7 +255,7 @@
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=HIT7ZgOEpoI",
     "video_title": "스마트폰 과의존, 이렇게 해결해요",
-    "video_desc": "스마트폰 과의존 문제를 예방과 해결에 도움이 되는 영상"
+    "video_desc": "스마트폰 과의존 문제를 예방하고 해결하는 데 도움이 되는 영상"
   },
   {
     "kit_id": "so3211",
@@ -268,10 +272,10 @@
   {
     "kit_id": "so3212",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-2. 다양한 문화에 대한 이해와 존중",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "최근 우리 사회에서 증가하는 여러 현상들의 긍정적 효과와 사회문제를 알아보고, 나와 다른 사람의 삶의 방식이나 문화를 존중하는 태도를 기를 수 있도록 구성된 단원입니다.",
     "core_question": "사회 변화는 우리의 생활 모습과 문화를 어떻게 바꾸며, 우리는 서로 다른 문화를 어떻게 대해야 할까?",
@@ -289,7 +293,7 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=e-6iIjNmxN0",
     "video_title": "전통 인사예절",
-    "video_desc": "공수와 큰절 방법 등 전통 인사예절을 배울 수 있는 영상"
+    "video_desc": "공수와 큰절 방법 등 전통 인사 예절을 배울 수 있는 영상"
   },
   {
     "kit_id": "so3212",
@@ -313,7 +317,7 @@
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=H906X1tC8Mc",
     "video_title": "올바른 식사예절을 알아볼까요?",
-    "video_desc": "올바른 식사 예절을 OX퀴즈로 재미있게 알아보는 영상"
+    "video_desc": "올바른 식사 예절을 OX 퀴즈로 재미있게 알아보는 영상"
   },
   {
     "kit_id": "so3212",
@@ -472,7 +476,7 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=PfRORpG3vHk",
     "video_title": "슬기로운 반려동물 가족 탐구생활",
-    "video_desc": "반려동물과 함께 하는 생활과 반려동물 에티켓을 소개하는 영상"
+    "video_desc": "반려동물과 함께하는 생활과 반려동물 에티켓을 소개하는 영상"
   },
   {
     "kit_id": "so3212",
@@ -496,7 +500,7 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=MOclk6hvJsE",
     "video_title": "만화로 쉽게 배우는 문화 다양성",
-    "video_desc": "다양한 음식과 언어, 생김새처럼 서로 다양한 문화들이 새로운 조화를 이루어내고 있음을 전하는 영상"
+    "video_desc": "다양한 음식과 언어, 생김새처럼 서로 다양한 문화들이 새로운 조화를 이루어 내고 있음을 전하는 영상"
   },
   {
     "kit_id": "so3212",
@@ -513,10 +517,10 @@
   {
     "kit_id": "so3221",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-1. 옛날과 오늘날의 달라진 풍습",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "옛날의 풍습을 놀이와 세시 풍속으로 나누어 살펴보며 옛날 사람들의 생활과 생각을 이해하고, 옛날과 오늘날의 풍습을 비교해 그 변화상을 파악할 수 있도록 구성된 단원입니다.",
     "core_question": "옛날과 오늘날을 비교하면 사람들의 생활 모습은 어떻게 달라졌으며, 그렇게 변화한 까닭은 무엇일까?",
@@ -632,7 +636,7 @@
     "start_sec": 289,
     "end_sec": 434,
     "video_title": "단오",
-    "video_desc": "(4:49~7:14) 단오의 유래와 음식"
+    "video_desc": "단오의 유래와 음식"
   },
   {
     "kit_id": "so3221",
@@ -670,7 +674,7 @@
     "start_sec": 436,
     "end_sec": 483,
     "video_title": "백성들의 모습을 그린 단원 김홍도",
-    "video_desc": "(7:16~8:03) 씨름도를 중심으로 옛날 사람들의 생활 모습을 그림으로 알아보는 영상"
+    "video_desc": "씨름도를 중심으로 옛날 사람들의 생활 모습을 그림으로 알아보는 영상"
   },
   {
     "kit_id": "so3221",
@@ -753,8 +757,10 @@
     "description": "수업 후",
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=VfEOBrbmmfk",
+    "start_sec": 0,
+    "end_sec": 252,
     "video_title": "윷놀이의 유래",
-    "video_desc": "(처음~4:12) 도개걸윷모 이름의 의미, 윷놀이의 유래를 소개하는 영상"
+    "video_desc": "도개걸윷모 이름의 의미, 윷놀이의 유래를 소개하는 영상"
   },
   {
     "kit_id": "so3221",
@@ -771,10 +777,10 @@
   {
     "kit_id": "so3222",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-2. 교통의 변화와 달라진 생활 모습",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "옛날과 오늘날의 교통수단을 살펴보고, 교통의 변화에 따라 사람들의 이동과 생활 모습이 어떻게 달라졌는지 알아보도록 구성된 단원입니다.",
     "core_question": "옛날과 오늘날을 비교하면 사람들의 생활 모습은 어떻게 달라졌으며, 그렇게 변화한 까닭은 무엇일까?",
@@ -993,10 +999,10 @@
   {
     "kit_id": "so3223",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-3. 통신 수단의 변화와 달라진 생활 모습",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "옛날과 오늘날의 통신수단을 살펴보고, 통신수단의 변화에 따라 사람들의 정보 교류와 의사소통 방식이 어떻게 달라졌는지 알아보는 단원입니다.",
     "core_question": "옛날과 오늘날을 비교하면 사람들의 생활 모습은 어떻게 달라졌으며, 그렇게 변화한 까닭은 무엇일까?",
@@ -1169,16 +1175,18 @@
     "description": "수업 후",
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=BDwvmPkWXFI",
+    "start_sec": 0,
+    "end_sec": 240,
     "video_title": "인공지능 로봇, 이렇게까지 발전했다고?",
-    "video_desc": "(처음~4:00) 인공지능 로봇이 서빙하는 식당부터 스스로 학습하는 로봇까지 발전한 모습"
+    "video_desc": "인공지능 로봇이 서빙하는 식당부터 스스로 학습하는 로봇까지 발전한 모습"
   },
   {
     "kit_id": "sc3211",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1. 물체와 물질",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "학생들이 일상에서 자주 접하는 다양한 물체와 그 구성 재료인 물질, 물질의 여러 성질, 그리고 고체·액체·기체와 같은 상태에 대해 자연스럽게 이해할 수 있도록 하는 단원입니다. 교실, 가정 등의 주변에서 흔히 볼 수 있는 물체를 중심으로 학생들이 물체와 물질의 개념을 보다 친근하고 흥미롭게 받아들일 수 있도록 합니다.",
     "core_question": "물체를 이루는 물질은 저마다 어떤 성질을 지니며, 우리는 그 성질을 이용해 물체를 어떻게 만들까?",
@@ -1417,10 +1425,10 @@
   {
     "kit_id": "sc3221",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2. 지구와 바다",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "우리가 살아가는 지구와 바다의 모습을 이해하고, 그 중요성과 특성을 알아보는 단원입니다. 지구를 둘러싸고 있는 대기, 육지와 바다의 크기, 바닷물의 특성 및 바다에서 볼 수 있는 다양한 지형들, 밀물과 썰물의 차이, 갯벌의 가치와 보전의 필요성 등을 탐구하며 지구 환경에 대한 관심과 이해를 높여 봅니다.",
     "core_question": "지구의 육지와 바다는 어떤 특징을 지니며, 우리는 그 가치를 어떻게 지켜 가야 할까?",
@@ -1486,7 +1494,7 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=YHMkUR7UtYg",
     "video_title": "지구에 산소는 어떻게 생겨나게 되었을까?",
-    "video_desc": "지구가 처음 탄생했을 때는 산소가 거의 없었지만, 수식억년 전 고대의 생물이 빛으로 에너지를 얻기 시작하면서 노폐물을 생산하기 시작하는데, 그 노폐물이 바로 산소입니다."
+    "video_desc": "지구가 처음 탄생했을 때는 산소가 거의 없었지만, 수십억년 전 고대의 생물이 빛으로 에너지를 얻기 시작하면서 노폐물을 생산하기 시작하는데, 그 노폐물이 바로 산소입니다."
   },
   {
     "kit_id": "sc3221",
@@ -1671,10 +1679,10 @@
   {
     "kit_id": "sc3231",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3. 소리의 성질",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "일상에서 자주 접하는 소리에 대한 흥미와 관심을 바탕으로 소리의 성질을 이해할 수 있도록 하는 단원입니다. 다양한 물체에서 나는 소리를 관찰하고, 소리의 발생 원리를 알아보며, 소리의 세기와 높낮이를 구별하고, 소리가 어떻게 전달되는지 살펴봅니다. 더 나아가 주변의 소음을 인식하고 이를 줄이기 위한 방법을 찾아 실천함으로써, 건강하고 쾌적한 생활 환경을 만들기 위한 태도와 실천력을 함양하도록 합니다.",
     "core_question": "소리는 어떻게 만들어지고 전달되며, 우리는 소음 문제를 어떻게 해결할 수 있을까?",
@@ -1889,10 +1897,10 @@
   {
     "kit_id": "sc3241",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "4. 감염병과 건강한 생활",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "감염병에 대한 이해를 바탕으로 건강한 생활 습관을 기를 수 있도록 하는 단원입니다. 생활 속에서 발생할 수 있는 감염병의 사례를 조사하고 감염이 이루어지는 과정을 살펴보며 감염병 예방을 위한 개인의 실천 방안뿐 아니라 사회적 노력과 역할에 대해 살펴봅니다. 이를 통해 감염병 예방을 실천할 수 있는 태도를 기릅니다.",
     "core_question": "감염병은 어떻게 퍼지며, 건강한 생활을 위해 우리는 무엇을 실천해야 할까?",
@@ -2119,10 +2127,10 @@
   {
     "kit_id": "so3111",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-1. 우리 주변의 여러 장소",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "학생들이 학교, 집, 공원 등 생활이 이루어지는 주변 여러 장소에서 경험하며 느낀 점을 바탕으로 자신의 장소감을 표현하고 공유한다.",
     "core_question": "우리가 살아가는 장소들은 어떤 의미가 있으며, 더 살기 좋은 곳으로 만들려면 무엇이 필요할까?",
@@ -2319,10 +2327,10 @@
   {
     "kit_id": "so3112",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-2. 살기 좋은 우리 지역",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "사람들이 편리한 생활을 하는 데 도움을 주는 주요 장소 및 시설이나 기관을 살펴본다. 학생들의 관점에서 살기 좋은 곳의 조건을 생각하면서 우리가 사는 곳에 관심을 가지도록 하는 데 중점을 둔다.",
     "core_question": "우리가 살아가는 장소들은 어떤 의미가 있으며, 더 살기 좋은 곳으로 만들려면 무엇이 필요할까?",
@@ -2525,10 +2533,10 @@
   {
     "kit_id": "so3121",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-1. 시간의 흐름 속에서 만나는 역사",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "일상 속의 주변 사례를 활용해 과거와 현재의 거리감 등 시간의 흐름을 경험하며 역사의 시간 개념을 이해한다.",
     "core_question": "오래된 물건과 자료는 과거에 대해 무엇을 알려 주며, 우리 지역의 생활 모습은 시간에 따라 어떻게 달라졌을까?",
@@ -2707,10 +2715,10 @@
   {
     "kit_id": "so3122",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-2. 물건과 자료로 살펴보는 과거",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "주변의 오래된 물건이나 자료 등이 과거의 모습을 보여 주는 증거 역할을 한다는 것을 이해하도록 한다. 학생의 애장품을 비롯해 생활 주변에서 볼 수 있는 오래된 물건이나 자료(신문 기사, 편지, 일기, 노래 가사, 사진 등)을 활용해 과거의 모습을 살펴본다.",
     "core_question": "오래된 물건과 자료는 과거에 대해 무엇을 알려 주며, 우리 지역의 생활 모습은 시간에 따라 어떻게 달라졌을까?",
@@ -2763,7 +2771,7 @@
     "description": "수업 중",
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=Ws0NL1MH6ak",
-    "video_title": "아빠, 바나나 우유 하나만\"\" 1970~90년대 목욕탕 모습",
+    "video_title": "\"아빠, 바나나 우유 하나만\" 1970~90년대 목욕탕 모습",
     "video_desc": "과거 공중 목욕탕의 모습"
   },
   {
@@ -2790,7 +2798,7 @@
     "start_sec": 108,
     "end_sec": 180,
     "video_title": "20년 전 교실의 모습은 지금과 어떻게 다를까?",
-    "video_desc": "(1:48~3:00) 20년 전, 초등학교 생활 모습 살펴보기"
+    "video_desc": "20년 전, 초등학교 생활 모습 살펴보기"
   },
   {
     "kit_id": "so3122",
@@ -2972,7 +2980,7 @@
     "start_sec": 64,
     "end_sec": 420,
     "video_title": "옛날 사람들의 생각을 들여다 볼 수 있는 노래 가사들!",
-    "video_desc": "(1:04~7:00) 노래 가사에서 찾아볼 수 있는 옛날 사람들의 생각 들여다보기"
+    "video_desc": "노래 가사에서 찾아볼 수 있는 옛날 사람들의 생각 들여다보기"
   },
   {
     "kit_id": "so3122",
@@ -3001,10 +3009,10 @@
   {
     "kit_id": "so3123",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-3. 역사 자료로 본 지역의 달라진 생활 모습",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "대구의 유래와 관련된 이야기, 대구의 변화를 알려 주는 사진이나 영상 등의 역사 자료를 활용해 우리 대구 지역 사람들의 생활이 어떻게 달라졌는지 살펴본다. 이를 통해 역사의 변화와 지속을 이해한다.",
     "core_question": "오래된 물건과 자료는 과거에 대해 무엇을 알려 주며, 우리 지역의 생활 모습은 시간에 따라 어떻게 달라졌을까?",
@@ -3531,10 +3539,10 @@
   {
     "kit_id": "sc3111",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1. 힘과 우리 생활",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "물체를 밀거나 당길 때의 변화를 관찰하고 수평 잡기와 저울을 이용해 무게를 비교하며 일상생활에서 사용하는 도구의 쓰임새를 탐구한다.",
     "core_question": "힘은 물체에 어떤 변화를 일으키며, 우리는 도구를 이용해 힘을 어떻게 이롭게 활용할까?",
@@ -3811,10 +3819,10 @@
   {
     "kit_id": "sc3121",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2. 동물의 생활",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "동물을 관찰하여 특징에 따라 동물을 분류하고 환경에 따른 동물의 생김새와 생활 방식을 탐구하며 동물의 특징을 활용한 생활용품을 설계해본다.",
     "core_question": "동물의 생김새와 생활 방식은 사는 환경과 어떻게 관련되며, 우리는 그 특징을 어떻게 활용할까?",
@@ -3842,7 +3850,7 @@
     "title": "비둘기는 정말 더러운 동물일까?",
     "description": "배경지식",
     "sort_order": 2,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
+    "video_url": "https://www.youtube.com/watch?v=iRyQiThSK_I",
     "video_title": "비둘기는 정말 더러운 동물일까?",
     "video_desc": "비둘기에 관한 잘못된 상식"
   },
@@ -3854,221 +3862,209 @@
     "title": "개와 고양이는 혀가 반대로 움직인다?",
     "description": "배경지식",
     "sort_order": 3,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
+    "video_url": "https://www.youtube.com/watch?v=nEHzfACdqZo",
     "video_title": "개와 고양이는 혀가 반대로 움직인다?",
     "video_desc": "개와 고양이의 차이점"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v4",
-    "stage": "동물 분류",
+    "stage": "땅에 사는 동물",
     "type": "video",
-    "title": "기준에 따라 동물을 분류해 볼까?",
-    "description": "수업 후",
+    "title": "땅에 사는 동물 초성퀴즈",
+    "description": "수업 중",
     "sort_order": 1,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "기준에 따라 동물을 분류해 볼까?",
-    "video_desc": "여러 가지 기준에 따른 동물의 분류"
+    "video_url": "https://www.youtube.com/watch?v=vJKYToU_DyU",
+    "video_title": "땅에 사는 동물 초성퀴즈",
+    "video_desc": "땅에 사는 세 글자 동물 초성퀴즈"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v5",
     "stage": "땅에 사는 동물",
     "type": "video",
-    "title": "땅에 사는 동물 초성퀴즈",
-    "description": "수업 중",
-    "sort_order": 1,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "땅에 사는 동물 초성퀴즈",
-    "video_desc": "땅에 사는 세 글자 동물 초성퀴즈"
+    "title": "라이언킹은 실화일까?",
+    "description": "배경지식",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=M3IVxn2_Lok",
+    "video_title": "라이언킹은 실화일까?",
+    "video_desc": "미어캣과 사자"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v6",
     "stage": "땅에 사는 동물",
     "type": "video",
-    "title": "라이언킹 실화?",
+    "title": "토끼와 거북이 달리기 대결! 동화가 현실로?",
     "description": "배경지식",
-    "sort_order": 2,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "라이언킹 실화?",
-    "video_desc": "미어캣과 사자"
+    "sort_order": 3,
+    "video_url": "https://www.youtube.com/watch?v=oRHe-dcVI7Y",
+    "video_title": "토끼와 거북이 달리기 대결! 동화가 현실로?",
+    "video_desc": "토끼와 거북이 달리기"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v7",
-    "stage": "땅에 사는 동물",
+    "stage": "물에 사는 동물",
     "type": "video",
-    "title": "토끼와 거북이 달리기 대결! 동화가 현실로?",
-    "description": "배경지식",
-    "sort_order": 3,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "토끼와 거북이 달리기 대결! 동화가 현실로?",
-    "video_desc": "토끼와 거북이 달리기"
+    "title": "계곡에는 어떤 생물이 살까?",
+    "description": "수업 중",
+    "sort_order": 1,
+    "video_url": "https://www.youtube.com/watch?v=bdx-MQfCbqs",
+    "video_title": "계곡에는 어떤 생물이 살까?",
+    "video_desc": "다양한 계곡 생물"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v8",
     "stage": "물에 사는 동물",
     "type": "video",
-    "title": "계곡에는 어떤 생물이 살까?",
-    "description": "수업 중",
-    "sort_order": 1,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "계곡에는 어떤 생물이 살까?",
-    "video_desc": "다양한 계곡 생물"
+    "title": "이것은 외계인? 심해에 사는 해양생물",
+    "description": "배경지식",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=m53CXrJueHA",
+    "video_title": "이것은 외계인? 심해에 사는 해양생물",
+    "video_desc": "심해에 사는 다양한 해양생물"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v9",
     "stage": "물에 사는 동물",
     "type": "video",
-    "title": "이것은 외계인? 심해에 사는 해양생물",
+    "title": "지구에서 가장 큰 동물은?",
     "description": "배경지식",
-    "sort_order": 2,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "이것은 외계인? 심해에 사는 해양생물",
-    "video_desc": "심해에 사는 다양한 해양생물"
+    "sort_order": 3,
+    "video_url": "https://www.youtube.com/watch?v=stDHjjtsXK8",
+    "video_title": "지구에서 가장 큰 동물은?",
+    "video_desc": "지구에서 가장 큰 대왕고래"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v10",
-    "stage": "물에 사는 동물",
+    "stage": "사막에 사는 동물",
     "type": "video",
-    "title": "지구에서 가장 큰 동물은?",
+    "title": "사막여우는 어떻게 사냥할까?",
     "description": "배경지식",
-    "sort_order": 3,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "지구에서 가장 큰 동물은?",
-    "video_desc": "지구에서 가장 큰 대왕고래"
+    "sort_order": 1,
+    "video_url": "https://www.youtube.com/watch?v=TZhUUwyqe-k",
+    "video_title": "사막여우는 어떻게 사냥할까?",
+    "video_desc": "사막여우의 사냥법"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v11",
     "stage": "사막에 사는 동물",
     "type": "video",
-    "title": "사막여우는 어떻게 사냥할까?",
+    "title": "낙타의 혹에는 무엇이 있을까?",
     "description": "배경지식",
-    "sort_order": 1,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "사막여우는 어떻게 사냥할까?",
-    "video_desc": "사막여우의 사냥법"
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=amkOF7RSX_8",
+    "video_title": "낙타의 혹에는 무엇이 있을까?",
+    "video_desc": "낙타의 혹"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v12",
-    "stage": "사막에 사는 동물",
+    "stage": "극지방에 사는 동물",
     "type": "video",
-    "title": "낙타의 혹에는 무엇이 있을까?",
+    "title": "북극곰이 북극에 살게 된 이유는?",
     "description": "배경지식",
-    "sort_order": 2,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "낙타의 혹에는 무엇이 있을까?",
-    "video_desc": "낙타의 혹"
+    "sort_order": 1,
+    "video_url": "https://www.youtube.com/watch?v=Yhvq1w41Nts",
+    "video_title": "북극곰이 북극에 살게 된 이유는?",
+    "video_desc": "북극곰이 북극에 살게 된 이유"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v13",
     "stage": "극지방에 사는 동물",
     "type": "video",
-    "title": "북극곰이 북극에 살게 된 이유는?",
-    "description": "배경지식",
-    "sort_order": 1,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "북극곰이 북극에 살게 된 이유는?",
-    "video_desc": "북극곰이 북극에 살게 된 이유"
+    "title": "내가 선택할 극지 동물은?",
+    "description": "수업 중",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=sbLfHAq82Jw",
+    "video_title": "내가 선택할 극지 동물은?",
+    "video_desc": "다양한 극지방에 사는 동물"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v14",
-    "stage": "극지방에 사는 동물",
+    "stage": "환경에 따른 동물의 모습",
     "type": "video",
-    "title": "내가 선택할 극지 동물은?",
+    "title": "사막여우와 북극여우는 왜 다르게 생겼을까?",
     "description": "수업 중",
-    "sort_order": 2,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "내가 선택할 극지 동물은?",
-    "video_desc": "다양한 극지방에 사는 동물"
+    "sort_order": 1,
+    "video_url": "https://www.youtube.com/watch?v=StsA6Orfo8Y",
+    "video_title": "사막여우와 북극여우는 왜 다르게 생겼을까?",
+    "video_desc": "환경에 적응한 동물"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v15",
     "stage": "환경에 따른 동물의 모습",
     "type": "video",
-    "title": "사막여우와 북극여우는 왜 다르게 생겼을까?",
-    "description": "수업 중",
-    "sort_order": 1,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "사막여우와 북극여우는 왜 다르게 생겼을까?",
-    "video_desc": "환경에 적응한 동물"
+    "title": "기이한 생해생물의 생존법",
+    "description": "배경지식",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=wDCZAxU11Cs",
+    "video_title": "기이한 생해생물의 생존법",
+    "video_desc": "심해생물의 신기한 극한 환경 생존법"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v16",
-    "stage": "환경에 따른 동물의 모습",
+    "stage": "동물의 특징",
     "type": "video",
-    "title": "기이한 생해생물의 생존법",
+    "title": "어서와! 동물은 처음이지?",
     "description": "배경지식",
-    "sort_order": 2,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "기이한 생해생물의 생존법",
-    "video_desc": "심해생물의 신기한 극한 환경 생존법"
+    "sort_order": 1,
+    "video_url": "https://www.youtube.com/watch?v=6n98fFvfhAc",
+    "video_title": "어서와! 동물은 처음이지?",
+    "video_desc": "재미있는 동물 이야기"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v17",
     "stage": "동물의 특징",
     "type": "video",
-    "title": "어서와! 동물은 처음이지?",
+    "title": "귀여운 동물의 특징에 빠져볼래?",
     "description": "배경지식",
-    "sort_order": 1,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "어서와! 동물은 처음이지?",
-    "video_desc": "재미있는 동물 이야기"
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=BbAsHdh9n4s",
+    "video_title": "귀여운 동물의 특징에 빠져볼래?",
+    "video_desc": "귀여운 특징을 갖고 있는 동물"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v18",
-    "stage": "동물의 특징",
+    "stage": "동물 모방",
     "type": "video",
-    "title": "귀여운 동물의 특징에 빠져볼래?",
-    "description": "배경지식",
-    "sort_order": 2,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "귀여운 동물의 특징에 빠져볼래?",
-    "video_desc": "귀여운 특징을 갖고 있는 동물"
+    "title": "곤충을 모방한 로봇이 있을까?",
+    "description": "수업 중",
+    "sort_order": 1,
+    "video_url": "https://www.youtube.com/watch?v=hTP4ty3dQY0",
+    "video_title": "곤충을 모방한 로봇이 있을까?",
+    "video_desc": "대벌레 모방 로봇, 지네 모방 로봇"
   },
   {
     "kit_id": "sc3121",
     "item_key": "v19",
     "stage": "동물 모방",
     "type": "video",
-    "title": "곤충을 모방한 로봇이 있을까?",
-    "description": "수업 중",
-    "sort_order": 1,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
-    "video_title": "곤충을 모방한 로봇이 있을까?",
-    "video_desc": "대벌레 모방 로봇, 지네 모방 로봇"
-  },
-  {
-    "kit_id": "sc3121",
-    "item_key": "v20",
-    "stage": "동물 모방",
-    "type": "video",
     "title": "흡착판과 벨크로는 어디에서 아이디어를 얻었을까?",
     "description": "배경지식",
     "sort_order": 2,
-    "video_url": "https://www.youtube.com/watch?v=mvk6RrwBHf4",
+    "video_url": "https://www.youtube.com/watch?v=aHpZCNHld9Q\r",
     "video_title": "흡착판과 벨크로는 어디에서 아이디어를 얻었을까?",
     "video_desc": "흡착판과 벨크로의 발명 동기"
   },
   {
     "kit_id": "sc3131",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3. 식물의 생활",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "식물을 관찰하여 특징에 따라 식물을 분류하고 환경에 따른 식물의 생김새와 생활 방식을 탐구하며 식물의 특징을 활용한 생활용품을 설계해본다.",
     "core_question": "식물의 생김새와 생활 방식은 사는 환경과 어떻게 관련되며, 우리는 그 특징을 어떻게 활용할까?",
@@ -4136,7 +4132,7 @@
     "start_sec": 285,
     "end_sec": 525,
     "video_title": "잎의 생김새에 따라 식물을 어떻게 분류할까?",
-    "video_desc": "(4:45~8:45) 잎 채집 방법, 잎 관찰 방법, 잎에 따른 분류"
+    "video_desc": "잎 채집 방법, 잎 관찰 방법, 잎에 따른 분류"
   },
   {
     "kit_id": "sc3131",
@@ -4147,8 +4143,10 @@
     "description": "수업 중",
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=l_f12jQtJAo",
+    "start_sec": 0,
+    "end_sec": 300,
     "video_title": "들이나 산에는 어떤 식물이 살까?",
-    "video_desc": "(처음~5:00) 들이나 산에서 사는 다양한 식물"
+    "video_desc": "들이나 산에서 사는 다양한 식물"
   },
   {
     "kit_id": "sc3131",
@@ -4195,8 +4193,10 @@
     "description": "수업 중",
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=bzbQEHpMPL0",
+    "start_sec": 0,
+    "end_sec": 240,
     "video_title": "강이나 연못에는 어떤 식물이 살까?",
-    "video_desc": "(처음~4:00) 강이나 연못에 사는 다양한 식물"
+    "video_desc": "강이나 연못에 사는 다양한 식물"
   },
   {
     "kit_id": "sc3131",
@@ -4222,7 +4222,7 @@
     "start_sec": 51,
     "end_sec": 120,
     "video_title": "물에서 숨을 쉬는 식물?",
-    "video_desc": "(0:51~2:00) 수생식물 연꽃의 통기조직"
+    "video_desc": "수생식물 연꽃의 통기조직"
   },
   {
     "kit_id": "sc3131",
@@ -4281,8 +4281,10 @@
     "description": "배경지식",
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=S3GkHT1GJvE",
+    "start_sec": 0,
+    "end_sec": 80,
     "video_title": "달랑 2개의 잎으로 수천 년을 사는 식물!",
-    "video_desc": "(처음~1:20) 웰위치아의 비밀"
+    "video_desc": "웰위치아의 비밀"
   },
   {
     "kit_id": "sc3131",
@@ -4293,8 +4295,10 @@
     "description": "배경지식",
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=hu2tD6Qk08w",
+    "start_sec": 71,
+    "end_sec": 98,
     "video_title": "연잎의 특징을 활용한다면?",
-    "video_desc": "(1:11~끝) 연잎의 특징을 모방한 제품"
+    "video_desc": "연잎의 특징을 모방한 제품"
   },
   {
     "kit_id": "sc3131",
@@ -4323,10 +4327,10 @@
   {
     "kit_id": "sc3141",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "4. 생물의 한살이",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "동물의 한살이를 관찰하고 실험을 통해 식물의 성장 조건을 탐구하며 생물에 따라 한살이의 유형이 다양함을 이해한다.",
     "core_question": "동물과 식물은 어떤 한살이 과정을 거치며, 생물에 따라 그 모습은 어떻게 다를까?",
@@ -4577,10 +4581,10 @@
   {
     "kit_id": "so4211",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-1. 학교 자치와 민주주의",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "학교 자치 사례를 통해 민주주의의 의미를 알아보고, 학교생활에서 민주주의를 실천하는 능력을 기를 수 있도록 구성되어 있습니다.",
     "core_question": "민주주의는 학교와 지역에서 어떻게 실현되며, 우리는 자치와 참여에 어떻게 함께할 수 있을까?",
@@ -4723,10 +4727,10 @@
   {
     "kit_id": "so4212",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-2. 주민 자치와 주민 참여",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "주민 자치와 주민 참여의 중요성을 알아보고, 지역사회의 문제 해결에 참여하는 태도를 기르는 내용으로 구성되어 있습니다.",
     "core_question": "민주주의는 학교와 지역에서 어떻게 실현되며, 우리는 자치와 참여에 어떻게 함께할 수 있을까?",
@@ -4881,10 +4885,10 @@
   {
     "kit_id": "so4221",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-1. 지역의 문제와 해결",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "생활 주변에서 찾을 수 있는 여러 가지 문제를 파악하고, 그 문제를 합리적으로 해결하는 능력을 기를 수 있는 단원입니다.",
     "core_question": "우리 지역의 문제는 어떻게 해결할 수 있으며, 지역의 가치는 어떻게 알릴 수 있을까?",
@@ -5015,10 +5019,10 @@
   {
     "kit_id": "so4222",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-2. 지역을 알리려는 노력",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "지역의 자연환경, 역사, 문화, 생산물 등을 알리려는 지역사회의 노력을 알고 관심을 가질 수 있도록 구성되었습니다.",
     "core_question": "우리 지역의 문제는 어떻게 해결할 수 있으며, 지역의 가치는 어떻게 알릴 수 있을까?",
@@ -5245,10 +5249,10 @@
   {
     "kit_id": "so4231",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3-1. 여러 지역의 다양한 환경",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "여러 지역을 둘러싼 환경의 특징을 알아보고, 환경의 이용과 개발로 나타난 변화를 탐구하는 단원입니다.",
     "core_question": "지역마다 다른 환경은 사람들의 삶에 어떤 영향을 주며, 도시에서의 생활 모습은 어떻게 나타날까?",
@@ -5424,7 +5428,7 @@
     "start_sec": 1399,
     "end_sec": 1576,
     "video_title": "바다 근처 지역에서 볼 수 있는 인문환경은 무엇이 있을까?",
-    "video_desc": "(23:19~26:16) 통영 욕지도 앞바다의 국내 최대 규모 참다랑어 양식장"
+    "video_desc": "통영 욕지도 앞바다의 국내 최대 규모 참다랑어 양식장"
   },
   {
     "kit_id": "so4231",
@@ -5450,7 +5454,7 @@
     "start_sec": 59,
     "end_sec": 200,
     "video_title": "지역을 개발하는 바람직한 방향은 무엇일까?",
-    "video_desc": "(0:59~3:20) 자연을 보존하며 도시 시설을 활용해 160만평 정원을 조성한 순천"
+    "video_desc": "자연을 보존하며 도시 시설을 활용해 160만평 정원을 조성한 순천"
   },
   {
     "kit_id": "so4231",
@@ -5563,10 +5567,10 @@
   {
     "kit_id": "so4232",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3-2. 도시에서의 삶의 모습",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "여러 도시의 특징과 그곳에서 나타나는 생활 방식을 살펴보고, 도시에서의 다양한 삶의 모습을 알아보는 단원입니다.",
     "core_question": "지역마다 다른 환경은 사람들의 삶에 어떤 영향을 주며, 도시에서의 생활 모습은 어떻게 나타날까?",
@@ -5697,10 +5701,10 @@
   {
     "kit_id": "sc4211",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1. 밤하늘 관찰",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "달의 모양과 표면, 달의 위상 변화 관찰, 태양계를 구성하고 있는 천체들, 별의 정의와 북극성 주변의 별자리를 관찰하는 방법을 알아보고 직접 밤하늘을 관찰하는 내용으로 구성되어 있습니다.",
     "core_question": "밤하늘의 달과 별, 태양계는 어떤 모습이며, 우리는 그것을 어떻게 관찰할 수 있을까?",
@@ -5927,10 +5931,10 @@
   {
     "kit_id": "sc4221",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2. 생물과 환경",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "다양한 생태계의 생물 요소와 비생물 요소를 관찰·조사 하고 분류하며 생물 요소를 생태계 내의 역할에 따라 생산자, 소비자, 분해자로 분류하고, 생물 요소 사이의 먹고 먹히는 관계를 이해하는 단원입니다. 또한 인간 활동이 생태계에 미치는 영향을 조사하고, 생태계 보전을 위한 생태계 구성원으로서 인간의 실천 방안을 토의하는 내용으로 구성되어 있습니다.",
     "core_question": "생태계의 생물 요소와 비생물 요소는 서로 어떻게 영향을 주고받으며, 우리는 생태계를 어떻게 지킬 수 있을까?",
@@ -6034,7 +6038,7 @@
     "start_sec": 885,
     "end_sec": 1058,
     "video_title": "먹고 먹히는 먹이사슬! 큰말똥가리 사냥 구경하기",
-    "video_desc": "(14:45~17:38) 먹고 먹히는 생태계의 먹이사슬. 날카로운 부리로 큰모래쥐 사냥을 시작하는 큰말똥가리"
+    "video_desc": "먹고 먹히는 생태계의 먹이사슬. 날카로운 부리로 큰모래쥐 사냥을 시작하는 큰말똥가리"
   },
   {
     "kit_id": "sc4221",
@@ -6060,7 +6064,7 @@
     "start_sec": 427,
     "end_sec": 705,
     "video_title": "먹고 먹히는 자연의 경이로움",
-    "video_desc": "(7:07~11:45) 독사를 잡아먹는 다람쥐부터, 독사에게 잡아먹히는 새까지 먹고 먹히는 자연의 경이로움을 총망라한 영상"
+    "video_desc": "독사를 잡아먹는 다람쥐부터, 독사에게 잡아먹히는 새까지 먹고 먹히는 자연의 경이로움을 총망라한 영상"
   },
   {
     "kit_id": "sc4221",
@@ -6143,8 +6147,10 @@
     "description": "수업 전",
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=9X2aNlxPaDc",
+    "start_sec": 0,
+    "end_sec": 213,
     "video_title": "먹고 먹히는 관계",
-    "video_desc": "(~3:33) 먹고 먹히는 관계를 보여주는 영상으로, 소비자 개념을 획득하기 위한 수업 전 사전지식을 활성화하는데 활용 가능한 영상"
+    "video_desc": "먹고 먹히는 관계를 보여주는 영상으로, 소비자 개념을 획득하기 위한 수업 전 사전지식을 활성화하는데 활용 가능한 영상"
   },
   {
     "kit_id": "sc4221",
@@ -6163,10 +6169,10 @@
   {
     "kit_id": "sc4231",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3. 여러 가지 기체",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "기체가 무게가 있다는 것과 온도나 압력에 따라 기체의 부피가 달라지는 현상을 실험을 통해 알아보고, 일상생활에서 이용되는 기체의 종류와 성질을 조사합니다. 기체의 성질에 대한 탐구를 통해 기체의 성질을 이용하여 작동시킬 수 있는 장치를 설계하고 만들어 보도록 구성되어 있습니다.",
     "core_question": "기체는 어떤 성질을 지니며, 우리는 그 성질을 생활에서 어떻게 이용할까?",
@@ -6220,7 +6226,7 @@
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=YrFBSn7ZPCk",
     "video_title": "달걀이 깨진 이유는?",
-    "video_desc": "달걀을 삶을 때 껍질이 깨지는 이유를 설명함, 달걀 속 공기의 팽창으로 인해 꺠짐"
+    "video_desc": "달걀을 삶을 때 껍질이 깨지는 이유를 설명함, 달걀 속 공기의 팽창으로 인해 깨짐"
   },
   {
     "kit_id": "sc4231",
@@ -6291,8 +6297,10 @@
     "description": "수업 중",
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=I5_wKnhQ1rU",
+    "start_sec": 0,
+    "end_sec": 126,
     "video_title": "이산화탄소의 무게는?",
-    "video_desc": "(처음~2:06) 이산화탄소의 무게를 알아보는 실험 영상, 이산화탄소도 무게가 있음"
+    "video_desc": "이산화탄소의 무게를 알아보는 실험 영상, 이산화탄소도 무게가 있음"
   },
   {
     "kit_id": "sc4231",
@@ -6357,10 +6365,10 @@
   {
     "kit_id": "sc4241",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "4. 기후 변화와 우리 생활",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "기후변화 현상의 예, 최근 지구의 기온 변화, 기후변화와 인간 활동의 관련성, 기후변화가 우리 생활과 환경에 미치는 영향, 기후변화 대응 방법을 조사하여 일상생활 속에서 실천할 수 있도록 구성되어 있습니다.",
     "core_question": "기후변화는 왜 일어나고 우리 생활에 어떤 영향을 주며, 우리는 어떻게 대응해야 할까?",
@@ -6440,7 +6448,7 @@
     "start_sec": 567,
     "end_sec": 845,
     "video_title": "기후 전문가들이 말하는 기후 재앙, 이대로 괜찮은가?",
-    "video_desc": "(9:27~14:05) 기후 위기 전문가들이 말하는 기후 재앙이야기, 기후와 생태계의 변화 사례를 소개하는 영상"
+    "video_desc": "기후 위기 전문가들이 말하는 기후 재앙이야기, 기후와 생태계의 변화 사례를 소개하는 영상"
   },
   {
     "kit_id": "sc4241",
@@ -6478,7 +6486,7 @@
     "start_sec": 272,
     "end_sec": 579,
     "video_title": "과학자들이 말하는 기후위기의 원인과 대비책은?",
-    "video_desc": "(4:32~9:39) 전세게에서 일어나는 기후변화로 인한 피해, 피해를 막기위한 대응 방안"
+    "video_desc": "전세계에서 일어나는 기후변화로 인한 피해, 피해를 막기위한 대응 방안"
   },
   {
     "kit_id": "sc4241",
@@ -6519,10 +6527,10 @@
   {
     "kit_id": "so4111",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-1. 지도로 본 우리 지역",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "우리 지역을 나타내는 다양한 지도를 살펴보며, 방향(방위), 기호와 범례, 축척, 땅의 높낮이 표현 방법 등 지도의 기본 요소를 이해하는 것을 목표로 합니다. 이를 통해 지도에 대한 이해를 높이고, 일상생활에서 지도를 활용하는 능력을 키울 수 있도록 합니다. 이를 위해 방향 익히기, 기호와 범례 읽기, 축척 막대자로 실제 거리 측정하기, 등고선 모형 만들기 등의 활동을 통해 지도의 기본 요소를 배웁니다. 또한, 지도 애플리케이션을 활용한 체험 학습 계획을 세우면서, 실제 생활에서 지도를 효과적으로 활용하는 방법을 익힙니다.",
     "core_question": "지도를 이용하면 우리 지역의 모습과 정보를 어떻게 파악할 수 있을까?",
@@ -6648,7 +6656,7 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=O1cIsnVMzlc",
     "video_title": "사회 용어 풀이 - 기호",
-    "video_desc": " 4학년 수준에 맞게 기호의 뜻과 전반적인 정보를 다루는 영상"
+    "video_desc": "4학년 수준에 맞게 기호의 뜻과 전반적인 정보를 다루는 영상"
   },
   {
     "kit_id": "so4111",
@@ -6660,7 +6668,7 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=TfFLL2L9skw",
     "video_title": "사회 용어 풀이 - 범례",
-    "video_desc": " 4학년 수준에 맞게 범례의 뜻과 전반적인 정보를 다루는 영상"
+    "video_desc": "4학년 수준에 맞게 범례의 뜻과 전반적인 정보를 다루는 영상"
   },
   {
     "kit_id": "so4111",
@@ -6672,7 +6680,7 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=HSToYlba8j8",
     "video_title": "사회 용어 풀이 - 축척",
-    "video_desc": " 4학년 수준에 맞게 축척의 뜻과 전반적인 정보를 다루는 영상"
+    "video_desc": "4학년 수준에 맞게 축척의 뜻과 전반적인 정보를 다루는 영상"
   },
   {
     "kit_id": "so4111",
@@ -6684,15 +6692,15 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=acj_xUmEsf8",
     "video_title": "사회 용어 풀이 - 등고선",
-    "video_desc": " 4학년 수준에 맞게 등고선의 뜻과 전반적인 정보를 다루는 영상"
+    "video_desc": "4학년 수준에 맞게 등고선의 뜻과 전반적인 정보를 다루는 영상"
   },
   {
     "kit_id": "so4112",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-2. 지도로 살펴보는 우리 지역의 정보",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "위치, 지형, 면적, 인구, 기온, 강수량과 같은 지리 정보의 종류와 의미를 이해하는 것을 목표로 합니다. 또한, 우리 지역의 지리 정보를 다른 지역과 비교하면서 지역의 특징을 탐색하도록 합니다. 이를 위해 위치, 지형, 면적, 인구, 기온, 강수량의 개념을 배우고, 학생들이 직접 지역의 지리 정보를 찾아볼 수 있도록 합니다. 이렇게 얻은 정보를 바탕으로 우리 지역과 다른 지역을 비교하며, 우리 지역만의 특징을 이해하는 데 중점이 있습니다.",
     "core_question": "지도를 이용하면 우리 지역의 모습과 정보를 어떻게 파악할 수 있을까?",
@@ -6883,10 +6891,10 @@
   {
     "kit_id": "so4121",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-1. 국가유산의 의미와 가치",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "지역의 국가유산을 조사하며, 국가유산이 가진 특징과 가치를 이해하고 그 소중함을 깨닫는 것을 목표로 합니다. 먼저, 국가유산이 무엇인지 알아보고, 문화유산과 무형유산으로 나누어 살펴봅니다. 또한, 국가유산에 담긴 가치를 찾으며, 우리 지역의 국가유산을 조사하여 그 의미를 탐색합니다. 마지막으로, 국가유산 속 조상들의 생활 모습을 다양한 방법으로 표현하면서, 지역의 국가유산을 소중히 여기는 태도를 기르도록 합니다.",
     "core_question": "우리 지역의 국가유산과 역사는 어떤 의미와 가치를 지니며, 우리는 그것을 어떻게 지켜 가야 할까?",
@@ -7077,10 +7085,10 @@
   {
     "kit_id": "so4122",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-2. 우리 지역의 역사",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "지역에 있는 박물관, 기념관, 유적지를 방문하며 조상들의 생활 모습과 지혜가 담긴 국가유산을 비롯한 지역의 역사를 이해하는 것을 목표로 합니다. 학생들이 직접 온·오프라인으로 박물관, 기념관, 유적지를 탐방하며 지역의 역사에 대한 지식을 습득하고 해석할 수 있도록 합니다. 또한, 지역의 역사를 소중히 여기고 보존하기 위해 실천하는 태도를 기를 수 있도록 합니다.",
     "core_question": "우리 지역의 국가유산과 역사는 어떤 의미와 가치를 지니며, 우리는 그것을 어떻게 지켜 가야 할까?",
@@ -7109,8 +7117,10 @@
     "description": "수업 중",
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=oTubngc920g",
+    "start_sec": 0,
+    "end_sec": 229,
     "video_title": "대구간송미술관 개관 소식",
-    "video_desc": "(처음~3:49) 대구간송미술관을 소개하는 영상"
+    "video_desc": "대구간송미술관을 소개하는 영상"
   },
   {
     "kit_id": "so4122",
@@ -7427,10 +7437,10 @@
   {
     "kit_id": "so4131",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3-1. 경제활동과 합리적 선택",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "경제활동에서 선택의 문제가 왜 발생하는지 이해하고, 합리적인 선택이 중요한 이유를 배우는 것을 목표로 합니다. 이를 위해 생산과 소비 활동에서 선택이 필요한 이유를 희소성 개념과 연결하여 살펴봅니다. 또한, 일상생활에서 경제활동을 할 때 합리적으로 선택하는 방법을 탐색하며, 실생활에서 적용할 수 있는 능력을 기를 수 있도록 합니다.",
     "core_question": "자원이 한정된 상황에서 우리는 어떻게 합리적으로 선택하며, 지역들은 왜 서로 교류하고 의존할까?",
@@ -7573,10 +7583,10 @@
   {
     "kit_id": "so4132",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3-2. 지역 간 교류와 상호 의존",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "시장에서 사람들의 모습을 통해 생산과 소비의 개념을 이해하는 것을 목표로 합니다. 우리 주변에서 이루어지는 다양한 생산 활동과 소비 활동을 찾아보며, 이 두 활동이 서로 밀접하게 연결되어 있음을 인식하도록 합니다. 또한, 지역 간의 다양한 인적·물적 교류 사례를 살펴보며, 각 지역과 사람들이 서로 의존하며 살아간다는 것을 배우고, 지역 간 교류의 중요성을 깨닫도록 합니다.",
     "core_question": "자원이 한정된 상황에서 우리는 어떻게 합리적으로 선택하며, 지역들은 왜 서로 교류하고 의존할까?",
@@ -7731,10 +7741,10 @@
   {
     "kit_id": "sc4111",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1. 자석의 이용",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "자석과 물체를 가까이 했을 때 나타나는 현상을 관찰하여 자석과 자석에 붙는 물체 사이에 작용하는 힘의 특징에 대해 알아보고, 자석과 자석을 가까이 했을 때 나타나는 현상을 관찰하여 그 특징을 자석의 극과 관련지어 알아본다. 또한 생활 속에서 자석을 이용한 장치를 찾아보고 자석을 이용하여 일상생활을 편리하게 하는 장치를 설계하는 활동을 하도록 구성되었다.",
     "core_question": "자석은 어떤 힘의 특징을 지니며, 우리는 그것을 생활에서 어떻게 이용할까?",
@@ -7754,7 +7764,7 @@
     "start_sec": 531,
     "end_sec": 619,
     "video_title": "공중에 클립을 띄울 수 있다고?",
-    "video_desc": "(8:51~10:19) 자석으로 클립 공중에 띄우기 놀이"
+    "video_desc": "자석으로 클립 공중에 띄우기 놀이"
   },
   {
     "kit_id": "sc4111",
@@ -7768,7 +7778,7 @@
     "start_sec": 30,
     "end_sec": 92,
     "video_title": "자석의 역사는?",
-    "video_desc": "(0:30~1:32) 자석의 역사(발견, 이름 유래)"
+    "video_desc": "자석의 역사(발견, 이름 유래)"
   },
   {
     "kit_id": "sc4111",
@@ -7779,8 +7789,10 @@
     "description": "배경지식",
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=gpZ7RNMVWRw",
+    "start_sec": 0,
+    "end_sec": 147,
     "video_title": "자석은 어떻게 만들까?",
-    "video_desc": "(처음~2:27) 자석을 만드는 방법"
+    "video_desc": "자석을 만드는 방법"
   },
   {
     "kit_id": "sc4111",
@@ -7791,8 +7803,10 @@
     "description": "배경지식",
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=GckO6SQ1LFo",
+    "start_sec": 0,
+    "end_sec": 124,
     "video_title": "자석으로 돌아가는 팽이 만들기",
-    "video_desc": "(처음~2:04) 자석으로 돌아가는 팽이 만들기 실험"
+    "video_desc": "자석으로 돌아가는 팽이 만들기 실험"
   },
   {
     "kit_id": "sc4111",
@@ -7806,7 +7820,7 @@
     "start_sec": 138,
     "end_sec": 340,
     "video_title": "자석이 밀어내는 물질과 끌어당기는 물질은?",
-    "video_desc": "(2:18~5:40) 자석과 플라스틱, 유리, 종이, 알루미늄 캔을 가까이 했을때 나타나는 현상 실험"
+    "video_desc": "자석과 플라스틱, 유리, 종이, 알루미늄 캔을 가까이 했을때 나타나는 현상 실험"
   },
   {
     "kit_id": "sc4111",
@@ -7831,8 +7845,10 @@
     "description": "배경지식",
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=ezAXvZKf-cw",
+    "start_sec": 0,
+    "end_sec": 309,
     "video_title": "자석을 녹이면 어떻게 될까?",
-    "video_desc": "(처음~5:09) 자석을 녹이면 나타나는 현상 실험"
+    "video_desc": "자석을 녹이면 나타나는 현상 실험"
   },
   {
     "kit_id": "sc4111",
@@ -7843,8 +7859,10 @@
     "description": "배경지식",
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=uI6t5HGjHDQ",
+    "start_sec": 0,
+    "end_sec": 132,
     "video_title": "네오디뮴 자석의 힘",
-    "video_desc": "(처음~2:12) 네오디뮴 자석을 가방에 넣어 자석의 힘 실험"
+    "video_desc": "네오디뮴 자석을 가방에 넣어 자석의 힘 실험"
   },
   {
     "kit_id": "sc4111",
@@ -7855,8 +7873,10 @@
     "description": "배경지식",
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=7Rm23-nCcqU",
+    "start_sec": 0,
+    "end_sec": 184,
     "video_title": "막대자석을 자르면 어떻게 될까?",
-    "video_desc": "(처음~3:04) 자석을 자르면 나타나는 현상 실험"
+    "video_desc": "자석을 자르면 나타나는 현상 실험"
   },
   {
     "kit_id": "sc4111",
@@ -7867,8 +7887,10 @@
     "description": "배경지식",
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=_Dd4c_FHmlk",
+    "start_sec": 0,
+    "end_sec": 396,
     "video_title": "N극이 셀까? S극이 셀까?",
-    "video_desc": "(처음~6:36) 자석의 세기를 알아보는 실험"
+    "video_desc": "자석의 세기를 알아보는 실험"
   },
   {
     "kit_id": "sc4111",
@@ -7879,16 +7901,18 @@
     "description": "배경지식",
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=85Dl4q8pqPE",
+    "start_sec": 0,
+    "end_sec": 139,
     "video_title": "고무자석은 왜 뒷면이 안붙을까?",
-    "video_desc": "(처음~2:19) 고무자석의 뒷면이 붙지 않는 이유"
+    "video_desc": "고무자석의 뒷면이 붙지 않는 이유"
   },
   {
     "kit_id": "sc4121",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2. 물의 상태 변화",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "물이 세 가지 상태로 변할 수 있음을 알고 우리 주변에서 물의 상태 변화의 예를 찾고, 물이 얼 때, 얼음이 녹을 때, 물이 증발할 때와 끓을 때, 수증기가 응결할 때의 변화를 관찰하도록 한다. 또한 물의 중요성을 알고 물의 상태 변화를 이용하여 물을 얻을 수 있는 장치를 창의적으로 설계하고 만들도록 구성되었다.",
     "core_question": "물은 상태에 따라 어떻게 변하며, 우리는 그 변화를 생활에서 어떻게 이용할 수 있을까?",
@@ -7916,7 +7940,7 @@
     "stage": "물의 상태 변화",
     "type": "video",
     "title": "물의 상태를 변화해서 식수를 얻을 수 있을까?",
-    "description": "동기유발",
+    "description": "수업 전",
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=1XovzhHDVQo",
     "video_title": "물의 상태를 변화해서 식수를 얻을 수 있을까?",
@@ -7928,7 +7952,7 @@
     "stage": "물의 상태 변화",
     "type": "video",
     "title": "뜨거운 물이 빨리 얼까 차가운 물이 빨리 얼까?",
-    "description": "동기유발",
+    "description": "수업 전",
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=Dj3zI_pNv1E",
     "video_title": "뜨거운 물이 빨리 얼까 차가운 물이 빨리 얼까?",
@@ -7940,7 +7964,7 @@
     "stage": "물의 상태 변화",
     "type": "video",
     "title": "물에 젖은 책을 원상태로 되돌릴 수 있을까?",
-    "description": "동기유발",
+    "description": "수업 전",
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=tStmRSbclbw",
     "start_sec": 73,
@@ -7994,7 +8018,7 @@
     "stage": "물의 상태 변화",
     "type": "video",
     "title": "물의 상태에 따라 성질이 바뀔까?",
-    "description": "동기유발",
+    "description": "수업 전",
     "sort_order": 8,
     "video_url": "https://www.youtube.com/watch?v=wk-ZmsLx_8M",
     "video_title": "물의 상태에 따라 성질이 바뀔까?",
@@ -8006,7 +8030,7 @@
     "stage": "물의 상태 변화",
     "type": "video",
     "title": "얼음, 물, 수증기를 같은 공간에 넣으면?",
-    "description": "동기유발",
+    "description": "수업 전",
     "sort_order": 9,
     "video_url": "https://www.youtube.com/watch?v=rD8i_NxfPlA",
     "video_title": "얼음, 물, 수증기를 같은 공간에 넣으면?",
@@ -8018,7 +8042,7 @@
     "stage": "물의 상태 변화",
     "type": "video",
     "title": "물이 얼면 부피가 어떻게 될까?",
-    "description": "동기유발",
+    "description": "수업 전",
     "sort_order": 10,
     "video_url": "https://www.youtube.com/watch?v=PnB3KsZyV7w",
     "video_title": "물이 얼면 부피가 어떻게 될까?",
@@ -8042,7 +8066,7 @@
     "stage": "응결",
     "type": "video",
     "title": "스스로 물을 만드는 물병이 있다고?",
-    "description": "동기유발",
+    "description": "수업 전",
     "sort_order": 12,
     "video_url": "https://www.youtube.com/watch?v=RhQoWDFavTI",
     "video_title": "스스로 물을 만드는 물병이 있다고?",
@@ -8068,7 +8092,7 @@
     "stage": "응결",
     "type": "video",
     "title": "우리 주변에서 증발의 예를 찾아봐요!",
-    "description": "동기유발",
+    "description": "수업 전",
     "sort_order": 14,
     "video_url": "https://www.youtube.com/watch?v=zFlMO1BkEpo",
     "video_title": "우리 주변에서 증발의 예를 찾아봐요!",
@@ -8104,7 +8128,7 @@
     "stage": "증발",
     "type": "video",
     "title": "온도가 어떨 때 증발이 많을까?",
-    "description": "동기유발",
+    "description": "수업 전",
     "sort_order": 17,
     "video_url": "https://www.youtube.com/watch?v=cd7b6eo4axU",
     "video_title": "온도가 어떨 때 증발이 많을까?",
@@ -8116,7 +8140,7 @@
     "stage": "증발",
     "type": "video",
     "title": "물을 오랜 시간 두면 어떻게 될까?",
-    "description": "동기유발",
+    "description": "수업 전",
     "sort_order": 18,
     "video_url": "https://www.youtube.com/watch?v=65ez4KJQQEk",
     "video_title": "물을 오랜 시간 두면 어떻게 될까?",
@@ -8163,10 +8187,10 @@
   {
     "kit_id": "sc4131",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3. 땅의 변화",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "흐르는 물의 작용과 화산 활동 및 지진을 알아봄으로써 땅의 변화에 대해 호기심과 탐구하려는 태도를 갖도록 한다. 흐르는 물의 작용과 강 주변 지형의 특징을 관련지어 설명할 수 있게 하고, 화산의 의미와 화산 활동으로 나오는 물질을 이해하도록 한다. 화산 활동을 모형으로 표현하도록 하고, 화성암을 관찰한 다음 분류 기준을 정하여 분류하도록 한다. 또 화산 활동과 지진이 우리 생활에 미치는 영향을 조사하여 대처 방법을 실천할 수 있도록 한다.",
     "core_question": "땅은 흐르는 물과 화산·지진으로 어떻게 변하며, 우리는 그 변화에 어떻게 대처해야 할까?",
@@ -8255,8 +8279,10 @@
     "description": "수업 중",
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=GrOZhzrYzAw",
+    "start_sec": 0,
+    "end_sec": 269,
     "video_title": "두 가지 종류의 화산 실험!",
-    "video_desc": "(처음~4:29) 경사가 완만한 화산과 경사가 급한 화산 실험"
+    "video_desc": "경사가 완만한 화산과 경사가 급한 화산 실험"
   },
   {
     "kit_id": "sc4131",
@@ -8565,10 +8591,10 @@
   {
     "kit_id": "sc4141",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "4. 다양한 생물과 우리 생활",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "동물과 식물 이외의 다양한 생물을 학습한다. 균류, 원생생물, 세균 등과 같이 주변에서 쉽게 관찰하기 어려운 다양한 생물들이 있음을 알고, 이들이 우리 생활에 영향을 주고 있음을 이해함으로써 학생들이 생명과학에 관심을 갖도록 한다. 이를 위하여 균류, 원생생물, 세균의 모습을 다양한 방법으로 관찰하고 특징과 사는 곳 우리 생활에 미치는 영향을 조사하며, 생물의 특징을 이용한 생명과학에 관심을 가짐으로써 다양한 생물은 생태계의 구성 요소이고, 생태계에서 물질 순환과 에너지 흐름, 생태계 안정과 유지에 기여하고 있음을 이해하도록 한다.",
     "core_question": "우리 주변의 다양한 생물은 어떤 특징을 지니며, 우리 생활에 어떤 영향을 줄까?",
@@ -8783,10 +8809,10 @@
   {
     "kit_id": "so5111",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-1. 우리나라의 아름다운 지형",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "우리나라 산지, 하천, 해안 지형의 위치를 지도에서 확인하고, 지형의 분포 특징을 탐구해 국토의 아름다움과 생태환경의 중요성을 이해하도록 합니다.",
     "core_question": "우리나라 국토의 지형은 어떤 특징을 지니며, 우리는 우리 땅을 왜 소중히 여기고 지켜야 할까?",
@@ -9001,10 +9027,10 @@
   {
     "kit_id": "so5112",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-2. 우리 땅 독도",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "독도의 지리적 특성을 파악하고 독도에 대한 주요 역사 기록을 분석 및 해석하여 독도가 우리나라 영토임을 확인하고 영토 주권 의식을 기르도록 합니다.",
     "core_question": "우리나라 국토의 지형은 어떤 특징을 지니며, 우리는 우리 땅을 왜 소중히 여기고 지켜야 할까?",
@@ -9198,10 +9224,10 @@
   {
     "kit_id": "so5121",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-1. 우리나라의 계절별 기후와 기후변화",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "다양한 자료를 통해 우리나라의 계절별 기후 특징을 탐구하며, 계절별 기후로 발생하는 자연재해와 기후변화로 심화되는 자연재해의 심각성을 살펴보고 기후 행동에 참여하는 태도를 가집니다.",
     "core_question": "우리나라의 기후와 인구 분포는 어떤 특징을 지니며, 그로 인해 나타나는 문제는 어떻게 해결할 수 있을까?",
@@ -9476,10 +9502,10 @@
   {
     "kit_id": "so5122",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-2. 우리나라의 인구 분포",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "지역별 인구 분포 탐구를 통해 우리나라 인구 분포의 특징을 이해하고, 인구 분포 불균형의 원인, 문제, 그리고 이를 해결하려는 노력을 알아보며 국토 균형 발전의 중요성을 인식하도록 합니다.",
     "core_question": "우리나라의 기후와 인구 분포는 어떤 특징을 지니며, 그로 인해 나타나는 문제는 어떻게 해결할 수 있을까?",
@@ -9718,10 +9744,10 @@
   {
     "kit_id": "so5131",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3-1. 함께 지키는 인권",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "일상생활에서 발생하는 인권 침해 문제를 조사해 보고, 토론 및 조사를 통해 그 해결 방안을 탐색해 보며, 직접 인권을 존중하고 보호하는 활동에 참여하는 기회를 제공함으로써 인권 친화적인 태도를 기릅니다.",
     "core_question": "인권은 왜 소중하며, 법은 우리의 인권과 생활을 어떻게 보호할까?",
@@ -9984,10 +10010,10 @@
   {
     "kit_id": "so5132",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3-2. 법으로 보호하는 우리 생활",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "법이 우리의 행동과 삶에 미치는 영향력을 이해하고, 헌법에 규정된 인권이 일상생활에 적용된 사례를 조사하는 과정을 통해 준법 태도와 인권 의식을 함양합니다.",
     "core_question": "인권은 왜 소중하며, 법은 우리의 인권과 생활을 어떻게 보호할까?",
@@ -10178,10 +10204,10 @@
   {
     "kit_id": "sc5111",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1. 지층과 화석",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "흙, 모래, 자갈 등이 쌓여 만들어진 지층의 특징과 형성 과정을 알아보고, 지층을 이루는 퇴적암의 종류를 탐구하는 단원입니다. 또한, 화석의 생성 원리를 모형으로 설명하고, 화석을 통해 과거 지구의 환경과 생물을 추리해보며 화석의 가치를 인식하도록 합니다.",
     "core_question": "지층과 화석은 어떻게 만들어지며, 우리는 그것으로 과거의 지구를 어떻게 알 수 있을까?",
@@ -10319,7 +10345,7 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=ydIVWP9N4RE",
     "video_title": "둥근 쇠막대에서 열은 어떻게 이동할까?",
-    "video_desc": "둥근모양의 철에서 열이 이동하는 모습"
+    "video_desc": "둥근 모양의 철에서 열이 이동하는 모습"
   },
   {
     "kit_id": "sc5111",
@@ -10429,7 +10455,7 @@
     "start_sec": 107,
     "end_sec": 342,
     "video_title": "한 겨울에 난방 안해도 저절로 따뜻한 에너지 절약 패시브 하우스",
-    "video_desc": "(1:47~5:42) <건축탐구-집의 온도> 첨단 단열 공법으로 지은 패시브 하우스"
+    "video_desc": "<건축탐구-집의 온도> 첨단 단열 공법으로 지은 패시브 하우스"
   },
   {
     "kit_id": "sc5111",
@@ -10446,10 +10472,10 @@
   {
     "kit_id": "sc5121",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2. 빛의 성질",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "우리가 물체를 볼 수 있는 이유와 관련하여 빛의 다양한 성질에 대해 알아보는 단원입니다. 빛의 직진, 반사, 굴절 현상을 관찰하고, 이러한 빛의 성질을 이용한 거울과 렌즈의 쓰임새를 조사하며, 이를 활용한 장치를 창의적으로 설계하고 만들어보는 활동을 통해 빛에 대한 흥미와 이해를 높입니다.",
     "core_question": "빛은 어떤 성질로 나아가며, 우리는 그 성질을 거울과 렌즈에 어떻게 이용할까?",
@@ -10670,10 +10696,10 @@
   {
     "kit_id": "sc5131",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3. 용해와 용액",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "물질이 물에 녹는 용해 현상의 의미를 정확히 이해하고, 용질, 용매, 용액의 개념을 학습합니다. 용질의 종류나 물의 온도에 따라 용해되는 양이 달라지는 것을 비교하고, 용질의 양에 따른 용액의 진하기 변화를 관찰하며 상대적인 진하기를 비교합니다. 또한, 일상생활 속에서 용액이 쓰이는 다양한 사례를 찾아보고 그 중요성을 인식하도록 구성되었습니다.",
     "core_question": "물질은 물에 어떻게 녹으며, 용액의 진하기는 무엇에 따라 달라질까?",
@@ -10777,7 +10803,7 @@
     "start_sec": 161,
     "end_sec": 384,
     "video_title": "사해에서는 물 위에 떠 있는 사람을 볼 수 있다?",
-    "video_desc": "(2:41~6:24) 진한 용액(높은 염분) 때문에 사람 몸이 뜨는 호수 사해"
+    "video_desc": "진한 용액(높은 염분) 때문에 사람 몸이 뜨는 호수 사해"
   },
   {
     "kit_id": "sc5131",
@@ -10878,10 +10904,10 @@
   {
     "kit_id": "sc5141",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "4. 우리 몸의 구조와 기능",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "우리 몸의 움직임을 담당하는 뼈와 근육의 구조와 작동 원리를 학습합니다. 음식물의 소화, 영양소와 산소의 순환, 호흡, 노폐물 배설을 담당하는 소화, 순환, 호흡, 배설 기관의 구조와 기능을 알아보고, 이 기관들이 유기적으로 연결되어 있음을 이해합니다. 더 나아가, 기관 관련 질병을 조사하고 건강한 생활 습관을 실천하는 태도를 기르도록 구성되었습니다.",
     "core_question": "우리 몸의 여러 기관은 어떤 구조와 기능을 지니며, 서로 어떻게 관련되어 작동할까?",
@@ -11108,10 +11134,10 @@
   {
     "kit_id": "so6111",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-1. 분단의 문제점과 평화 통일을 위한 노력",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "분단으로 인한 문제점을 알아보고, 분단의 아픔을 간직한 장소를 평화의 장소로 만들기 위한 노력을 살핀 뒤, 평화 통일을 위해 학생들이 할 수 있는 일을 찾아 실천하려는 태도를 기릅니다.",
     "core_question": "광복 이후 우리나라는 민주화와 산업화를 거치며 어떻게 변화했으며, 평화 통일을 위해 우리는 무엇을 할 수 있을까?",
@@ -11152,8 +11178,10 @@
     "description": "수업 후",
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=XKjD1Sk0_Fc",
+    "start_sec": 158,
+    "end_sec": 253,
     "video_title": "북한이탈주민",
-    "video_desc": "(2:38~) 북한이탈주민의 가족 알아보기"
+    "video_desc": "북한이탈주민의 가족 알아보기"
   },
   {
     "kit_id": "so6111",
@@ -11179,7 +11207,7 @@
     "start_sec": 161,
     "end_sec": 362,
     "video_title": "통일이 필요한 이유",
-    "video_desc": "(2:41~6:02) 통일이 필요한 이유를 다양한 측면에서 설명"
+    "video_desc": "통일이 필요한 이유를 다양한 측면에서 설명"
   },
   {
     "kit_id": "so6111",
@@ -11289,7 +11317,7 @@
     "start_sec": 90,
     "end_sec": 450,
     "video_title": "판문점",
-    "video_desc": "(1:30~7:30) 판문점 자유의 집 소개"
+    "video_desc": "판문점 자유의 집 소개"
   },
   {
     "kit_id": "so6111",
@@ -11318,10 +11346,10 @@
   {
     "kit_id": "so6112",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-2. 민주화와 산업화로 달라진 생활 문화",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "민주화와 산업화 과정에서 나타난 사람들의 노력과 달라진 생활 모습을 이해하고 우리 사회가 안고 있는 문제점을 해결하기 위해 노력하는 태도를 기릅니다.",
     "core_question": "광복 이후 우리나라는 민주화와 산업화를 거치며 어떻게 변화했으며, 평화 통일을 위해 우리는 무엇을 할 수 있을까?",
@@ -11494,8 +11522,10 @@
     "description": "배경지식",
     "sort_order": 8,
     "video_url": "https://www.youtube.com/watch?v=IMeym_B8ROY",
+    "start_sec": 0,
+    "end_sec": 381,
     "video_title": "1987년 6월, 민주항쟁의 기억",
-    "video_desc": "(처음~6:21) 6월 민주항쟁 참여자의 생생한 기억을 담은 영상으로 당시 사람들의 감정을 느끼는데 활용 가능"
+    "video_desc": "6월 민주항쟁 참여자의 생생한 기억을 담은 영상으로 당시 사람들의 감정을 느끼는데 활용 가능"
   },
   {
     "kit_id": "so6112",
@@ -11614,16 +11644,18 @@
     "description": "수업 중",
     "sort_order": 10,
     "video_url": "https://www.youtube.com/watch?v=lACjfRLpO9I",
+    "start_sec": 0,
+    "end_sec": 114,
     "video_title": "2000년대 스마트폰의 보급",
-    "video_desc": "(처음~1:54) 스마트폰 개발 업체의 이야기로 듣는 스마트폰의 발달 모습"
+    "video_desc": "스마트폰 개발 업체의 이야기로 듣는 스마트폰의 발달 모습"
   },
   {
     "kit_id": "so6121",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-1. 민주주의와 선거",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "민주주의에서 시민의 주권 행사의 한 방법으로써 선거의 역할과 중요성을 파악하고, 이를 바탕으로 선거에 주체적으로 참여하는 태도를 기릅니다.",
     "core_question": "민주주의는 선거와 국가기관, 미디어를 통해 어떻게 실현되며, 시민은 어떻게 참여해야 할까?",
@@ -11802,10 +11834,10 @@
   {
     "kit_id": "so6122",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-2. 민주주의를 실현하는 국가기관",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "우리나라의 국가기관인 국회, 행정부, 법원이 하는 일을 이해하고, 이를 바탕으로 국민의 자유와 권리 보장을 위해 각 국가기관의 권력을 분립하는 이유를 파악합니다.",
     "core_question": "민주주의는 선거와 국가기관, 미디어를 통해 어떻게 실현되며, 시민은 어떻게 참여해야 할까?",
@@ -11834,8 +11866,10 @@
     "description": "수업 중",
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=fJG6nTsTAKo",
+    "start_sec": 0,
+    "end_sec": 148,
     "video_title": "민주주의의 견제 장치",
-    "video_desc": "(처음~2:28) 국가 기관 간 상호 견제 방법을 설명하는 영상으로 삼권 분립의 개략적 정리를 하는데 활용 가능"
+    "video_desc": "국가 기관 간 상호 견제 방법을 설명하는 영상으로 삼권 분립의 개략적 정리를 하는데 활용 가능"
   },
   {
     "kit_id": "so6122",
@@ -11960,10 +11994,10 @@
   {
     "kit_id": "so6123",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-3. 민주주의와 미디어",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "민주주의 사회에서 미디어가 어떤 기능을 하고, 왜 중요한지 이해하도록 구성된 단원입니다. 다양한 미디어를 분석하면서 정보의 진위 여부를 판단하고, 허위 조작 정보에 속지 않는 비판적인 태도를 기르며, 서로 다른 관점을 존중하며 올바르게 미디어를 활용하는 방법을 탐구합니다.",
     "core_question": "민주주의는 선거와 국가기관, 미디어를 통해 어떻게 실현되며, 시민은 어떻게 참여해야 할까?",
@@ -12190,10 +12224,10 @@
   {
     "kit_id": "so6131",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3-1. 세계를 표현한 공간 자료",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "세계 여러 지역을 나타내는 다양한 공간 자료의 특징을 이해하고, 지구본과 세계지도를 활용해 위치를 표현하는 방법을 익히도록 구성된 단원입니다. 위도와 경도, 디지털 영상 자료를 활용해 세계를 정확하고 체계적으로 살펴보는 기초적인 공간 감각을 기릅니다.",
     "core_question": "지구본과 세계지도 같은 공간 자료를 이용해 세계의 대륙과 대양, 여러 나라의 위치를 어떻게 파악할 수 있을까?",
@@ -12420,10 +12454,10 @@
   {
     "kit_id": "so6132",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3-2. 세계의 대륙과 대양, 국가들",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "세계의 주요 대륙과 대양을 파악하고, 우리나라와 여러 국가의 위치와 영토의 특징을 이해하도록 구성된 단원입니다. 지구상의 위치 관계를 정확히 파악하고, 국가별 영토의 기본적 특성을 비교하며 세계에 대한 기초적인 공간 이해를 넓혀 갑니다.",
     "core_question": "지구본과 세계지도 같은 공간 자료를 이용해 세계의 대륙과 대양, 여러 나라의 위치를 어떻게 파악할 수 있을까?",
@@ -12677,10 +12711,10 @@
   {
     "kit_id": "sc6111",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1. 산과 염기",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "산성 용액과 염기성 용액의 성질을 비교하고, 두 용액을 섞었을 때의 변화를 실험으로 탐구합니다. 일상 속 산·염기 사례와 환경 문제를 조사하며 산·염기의 특징을 생활과 연결해 이해하도록 합니다.",
     "core_question": "산성 용액과 염기성 용액은 어떤 성질을 지니며, 우리 생활과 환경에 어떻게 이용되고 영향을 줄까?",
@@ -12832,7 +12866,7 @@
     "start_sec": 894,
     "end_sec": 1042,
     "video_title": "산과 염기로 인해 일어나는 신기한 현상과 활용 팁",
-    "video_desc": "(14:54~17:22) 산성과 염기성으로 인해 일어나는 신기한 현상들과 제대로 활용하는 팁"
+    "video_desc": "산성과 염기성으로 인해 일어나는 신기한 현상들과 제대로 활용하는 팁"
   },
   {
     "kit_id": "sc6111",
@@ -12933,10 +12967,10 @@
   {
     "kit_id": "sc6121",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2. 물체의 운동",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "물체의 운동을 좌표와 평면으로 표현하며 빠르기 비교를 통해 속력의 의미를 이해합니다. 이동 거리와 시간을 측정해 속력을 구하고, 속력과 관련된 안전 수칙을 조사하여 생활 속 적용 능력을 기릅니다.",
     "core_question": "물체의 운동은 어떻게 나타내며, 속력을 알면 우리는 생활을 어떻게 더 안전하게 할 수 있을까?",
@@ -12992,7 +13026,7 @@
     "start_sec": 132,
     "end_sec": 203,
     "video_title": "롤러코스터는 어떻게 만들까?",
-    "video_desc": "(2:12~3:23) 롤러코스터에 적용된 과학 원리"
+    "video_desc": "롤러코스터에 적용된 과학 원리"
   },
   {
     "kit_id": "sc6121",
@@ -13018,7 +13052,7 @@
     "start_sec": 59,
     "end_sec": 309,
     "video_title": "과학으로 풀어보는 운동의 원리",
-    "video_desc": "(00:59~5:09) 속도의 두 가지 개념(평균 속도와 순간 속도)과 속력"
+    "video_desc": "속도의 두 가지 개념(평균 속도와 순간 속도)과 속력"
   },
   {
     "kit_id": "sc6121",
@@ -13056,7 +13090,7 @@
     "start_sec": 200,
     "end_sec": 400,
     "video_title": "올림픽 육상 계주, 어느 팀의 속력이 가장 빠를까?",
-    "video_desc": "(3:20~6:40) 2024 파리올림픽 육상 계주를 보며 속력 구하기"
+    "video_desc": "2024 파리올림픽 육상 계주를 보며 속력 구하기"
   },
   {
     "kit_id": "sc6121",
@@ -13157,10 +13191,10 @@
   {
     "kit_id": "sc6131",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3. 식물의 구조와 기능",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "식물이 세포로 이루어진 다세포 생물임을 이해하고, 세포·조직·기관의 구조와 기능을 관찰합니다. 식물의 생태적 가치와 생명 존중의 태도를 기를 수 있도록 탐구합니다.",
     "core_question": "식물은 어떤 구조로 이루어져 있으며, 각 기관은 어떤 기능을 할까?",
@@ -13363,10 +13397,10 @@
   {
     "kit_id": "sc6141",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "4. 지구의 운동",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "하루 동안의 태양과 별의 위치 변화를 지구의 자전과 관련지어 설명하고, 계절에 따라 보이는 별자리가 달라지는 까닭을 지구의 공전과 관련지어 설명하도록 구성되었습니다.",
     "core_question": "지구의 자전과 공전은 낮과 밤, 계절에 따른 별자리 변화와 어떻게 관련될까?",
@@ -13521,10 +13555,10 @@
   {
     "kit_id": "so5211",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-1. 선사 시대와 고조선 사람들의 생활 모습",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "사람들은 유물, 유적, 기록 등 과거의 모습을 보여주는 자료를 통해 시간에 따른 역사의 변화를 이해한다.",
     "core_question": "과거의 모습은 어떻게 알 수 있는가?",
@@ -13535,10 +13569,10 @@
   {
     "kit_id": "so5212",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-2. 고대 사람들의 생각과 생활 모습",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "사람들은 유물, 유적, 기록 등 과거의 모습을 보여주는 자료를 통해 시간에 따른 역사의 변화를 이해한다.",
     "core_question": "과거의 모습은 어떻게 알 수 있는가?",
@@ -13549,10 +13583,10 @@
   {
     "kit_id": "so5213",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-3. 고려 시대의 사회 모습",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "사람들은 유물, 유적, 기록 등 과거의 모습을 보여주는 자료를 통해 시간에 따른 역사의 변화를 이해한다.",
     "core_question": "과거의 모습은 어떻게 알 수 있는가?",
@@ -13563,10 +13597,10 @@
   {
     "kit_id": "so5221",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-1. 조선 시대의 유교 문화",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회·문화적 변화를 반영한다.",
     "core_question": "각 시대 사람들의 생활 모습은 어떠하며 각 시대 생활 모습이 달라지는 까닭은 무엇인가?",
@@ -13577,10 +13611,10 @@
   {
     "kit_id": "so5222",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-2. 조선 후기의 달라진 생활 모습",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회·문화적 변화를 반영한다.",
     "core_question": "각 시대 사람들의 생활 모습은 어떠하며 각 시대 생활 모습이 달라지는 까닭은 무엇인가?",
@@ -13591,10 +13625,10 @@
   {
     "kit_id": "so5231",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3-1. 일제의 식민 통치와 저항",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회·문화적 변화를 반영한다.",
     "core_question": "각 시대 사람들의 생활 모습은 어떠하며 각 시대 생활 모습이 달라지는 까닭은 무엇인가?",
@@ -13605,10 +13639,10 @@
   {
     "kit_id": "so5332",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3-2. 8·15 광복과 6·25 전쟁",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회·문화적 변화를 반영한다.",
     "core_question": "각 시대 사람들의 생활 모습은 어떠하며 각 시대 생활 모습이 달라지는 까닭은 무엇인가?",
@@ -13619,10 +13653,10 @@
   {
     "kit_id": "sc5211",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1. 혼합물의 분리",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "모든 물질은 저마다 고유한 성질을 지니며, 사람들은 그 성질의 차이를 활용하여 원하는 것을 얻는다.",
     "core_question": "물질의 고유한 성질은 우리가 원하는 것을 얻는 데 어떻게 활용될까?",
@@ -13633,10 +13667,10 @@
   {
     "kit_id": "sc5212",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2. 날씨와 우리 생활",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "자연 현상은 여러 요소가 서로 영향을 주고받는 시스템 속에서 나타나며, 인간의 생활과 끊임없이 상호작용한다.",
     "core_question": "서로 영향을 주고받는 자연의 요소들은 우리의 삶과 어떻게 연결될까?",
@@ -13647,10 +13681,10 @@
   {
     "kit_id": "sc5213",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3. 열과 우리 생활",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "에너지는 끊임없이 이동하며 물질의 상태와 환경을 변화시키고, 사람들은 이를 이해하여 생활을 이롭게 만든다.",
     "core_question": "열의 이동을 이해하면 우리는 생활을 어떻게 더 이롭게 바꿀 수 있을까?",
@@ -13661,10 +13695,10 @@
   {
     "kit_id": "sc5214",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "4. 자원과 에너지",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "자원은 유한하며, 이를 책임 있게 이용하려는 노력이 지속가능한 미래로 이어진다.",
     "core_question": "유한한 자원에 대한 우리의 선택은 미래와 어떻게 연결될까?",
@@ -13675,10 +13709,10 @@
   {
     "kit_id": "so6211",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-1. 세계 여러 지역의 지형과 생활 모습",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "지형과 기후 환경은 인간의 생활 방식에 영향을 미치며, 이는 다양한 삶의 모습으로 나타난다.",
     "core_question": "세계의 다양한 지형과 기후 환경은 사람들의 생활 방식에 어떤 영향을 주는가?",
@@ -13689,10 +13723,10 @@
   {
     "kit_id": "so6212",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1-2. 세계의 다양한 기후와 생활 모습",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "지형과 기후 환경은 인간의 생활 방식에 영향을 미치며, 이는 다양한 삶의 모습으로 나타난다.",
     "core_question": "세계의 다양한 지형과 기후 환경은 사람들의 생활 방식에 어떤 영향을 주는가?",
@@ -13703,10 +13737,10 @@
   {
     "kit_id": "so6221",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-1. 경제 주체의 역할과 바람직한 경제활동",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "시장경제에서 가계와 기업은 권리와 책임을 바탕으로 상호 작용하며, 경제 성장과 무역은 생활 수준 향상과 함께 사회 경제적 과제를 만들어내어 이를 해결하기 위한 노력이 필요하다.",
     "core_question": "시장경제에서 가계와 기업의 상호 작용은 어떻게 경제 성장과 무역을 이끌고, 어떤 사회 경제적 과제를 만들어내는가?",
@@ -13717,10 +13751,10 @@
   {
     "kit_id": "so6222",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-2. 우리나라의 경제성장",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "시장경제에서 가계와 기업은 권리와 책임을 바탕으로 상호 작용하며, 경제 성장과 무역은 생활 수준 향상과 함께 사회 경제적 과제를 만들어내어 이를 해결하기 위한 노력이 필요하다.",
     "core_question": "시장경제에서 가계와 기업의 상호 작용은 어떻게 경제 성장과 무역을 이끌고, 어떤 사회 경제적 과제를 만들어내는가?",
@@ -13731,10 +13765,10 @@
   {
     "kit_id": "so6223",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2-3. 무역과 세계 경제",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "시장경제에서 가계와 기업은 권리와 책임을 바탕으로 상호 작용하며, 경제 성장과 무역은 생활 수준 향상과 함께 사회 경제적 과제를 만들어내어 이를 해결하기 위한 노력이 필요하다.",
     "core_question": "시장경제에서 가계와 기업의 상호 작용은 어떻게 경제 성장과 무역을 이끌고, 어떤 사회 경제적 과제를 만들어내는가?",
@@ -13745,10 +13779,10 @@
   {
     "kit_id": "so6231",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3-1. 세계의 인구 분포와 여러 국가의 인구 특징",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "세계의 인구 분포는 자연적·사회적 요인의 상호 작용에 의해 형성되며, 국가마다 다양한 인구 구조와 특성이 나타난다.",
     "core_question": "세계 인구 분포와 구조는 어떤 요인의 상호 작용으로 달라지며, 국가별로 어떤 차이가 있는가?",
@@ -13759,10 +13793,10 @@
   {
     "kit_id": "so6232",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3-2. 지구촌의 문제와 해결",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "지구촌의 지속가능한 미래는 공동의 문제 인식과 협력을 통해 이루어진다.",
     "core_question": "지구촌을 위협하는 문제를 어떻게 해결할까?",
@@ -13773,10 +13807,10 @@
   {
     "kit_id": "sc6211",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "1. 계절의 변화",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "지구의 공전 시스템에 따른 태양 고도의 변화는 지구상의 계절을 만들며, 모든 생명의 지속가능한 삶을 규정한다.",
     "core_question": "태양의 움직임과 지구의 규칙적인 변화는 우리의 생활에 어떤 영향을 줄까?",
@@ -13787,10 +13821,10 @@
   {
     "kit_id": "sc6212",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "2. 물질의 연소",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "물질의 상태 변화 및 화학 반응에는 에너지 출입이 수반되며, 이는 일상생활에 유용하게 활용된다.",
     "core_question": "물질이 연소할 때 일어나는 변화와 생성물은 우리 생활을 어떻게 변화시킬까?",
@@ -13801,10 +13835,10 @@
   {
     "kit_id": "sc6213",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "3. 전기의 이용",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "전하와 전류는 다양한 전기와 자기 현상을 일으키고, 전기와 자기에 대한 성질은 여러 가지 전기 기구의 작동 원리로 활용된다.",
     "core_question": "전기는 어떻게 흐르고, 우리는 그것을 어떻게 활용해야 할까?",
@@ -13815,10 +13849,10 @@
   {
     "kit_id": "sc6214",
     "item_key": "intro",
-    "stage": "이 단원에서 무엇을 배울까요",
+    "stage": "단원안내",
     "type": "intro",
     "title": "4. 과학과 나의 진로",
-    "description": "단원안내",
+    "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "과학기술의 발달은 미래 사회의 모습과 직업에 영향을 미치며, 개인은 이러한 미래 사회의 모습과 새로운 진로를 탐색하며 자신의 삶을 준비한다.",
     "core_question": "과학기술의 발달로 변화하는 미래 사회에서 나는 어떤 진로를 설계하고 준비할 수 있는가?",
