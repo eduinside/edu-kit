@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams, Link } from "react-router-dom";
 import { Search } from "lucide-react";
 import SegmentedControl from "../components/SegmentedControl.tsx";
 import KitCard from "../components/KitCard.tsx";
@@ -138,12 +138,10 @@ export default function HomePage() {
     <div style={{ minHeight: "100vh", background: "var(--gradient-page)", fontFamily: "var(--font-sans)", color: "var(--color-ink)" }}>
       {/* 헤더 */}
       <div className="glassmorphism" style={{ position: "sticky", top: 0, zIndex: 30, height: 58, display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0 24px" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 11 }}>
+        <Link to="/" aria-label="수업꾸러미 홈" style={{ display: "flex", alignItems: "center", gap: 11, textDecoration: "none", color: "inherit" }}>
           <img src="/logo.png" width={30} height={30} alt="수업꾸러미 로고" style={{ display: "block", borderRadius: 8 }} />
-          <div style={{ display: "flex", alignItems: "center" }}>
-            <span style={{ fontWeight: 900, fontSize: 18, letterSpacing: "-.02em" }}>수업꾸러미</span>
-          </div>
-        </div>
+          <span style={{ fontWeight: 900, fontSize: 18, letterSpacing: "-.02em" }}>수업꾸러미</span>
+        </Link>
         <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
           <button type="button" onClick={() => setShowSearch(true)} style={{ display: "inline-flex", alignItems: "center", gap: 6, height: 32, padding: "0 14px", border: "none", borderRadius: 8, background: "var(--color-brand-600)", color: "#fff", fontSize: 13, fontWeight: 700, cursor: "pointer" }}>
             <Search size={15} strokeWidth={2.5} /> 검색
