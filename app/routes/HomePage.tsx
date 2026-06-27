@@ -13,14 +13,59 @@ const SUBJECT_OPTIONS = [{ key: "사회", label: "사회" }, { key: "과학", la
 const labelStyle = { fontSize: 11, fontWeight: 800, color: "var(--color-slate-400)", letterSpacing: ".04em" } as const;
 const divider = { width: 1, height: 24, background: "var(--color-slate-100)" } as const;
 
-// 첫 진입 기본 조건: 자료가 있는(공개된) 조건 중 가장 앞선 것(학년↑ → 1학기 → 사회). 없으면 5/2학기/사회.
-const DEFAULT_SCOPE: { grade: Grade; sem: Semester; subject: Subject } = (() => {
+type Scope = { grade: Grade; sem: Semester; subject: Subject };
+const PREF_KEY = "edukit:lastScope";
+
+// 폴백 기본 조건: 자료가 있는(공개된) 조건 중 가장 앞선 것(학년↑ → 1학기 → 사회). 없으면 5/2학기/사회.
+const DEFAULT_SCOPE: Scope = (() => {
   const rank = (k: { grade: number; sem: Semester; subject: Subject }) =>
     k.grade * 100 + (k.sem === "1학기" ? 0 : 10) + (k.subject === "사회" ? 0 : 1);
   const pub = [...KITS.filter((k) => k.published)].sort((a, b) => rank(a) - rank(b));
   const f = pub[0];
   return f ? { grade: f.grade, sem: f.sem, subject: f.subject } : { grade: 5, sem: "2학기", subject: "사회" };
 })();
+
+// 접속 월 기반 학기: 3~8월 = 1학기, 9~2월 = 2학기.
+function semByMonth(): Semester {
+  const m = new Date().getMonth() + 1;
+  return m >= 3 && m <= 8 ? "1학기" : "2학기";
+}
+
+// 최근 선택 복원(localStorage). 형식이 깨졌거나 없으면 null.
+function loadPref(): Scope | null {
+  try {
+    const raw = localStorage.getItem(PREF_KEY);
+    if (!raw) return null;
+    const p = JSON.parse(raw);
+    const g = Number(p?.grade);
+    if (![3, 4, 5, 6].includes(g)) return null;
+    if (p?.sem !== "1학기" && p?.sem !== "2학기") return null;
+    if (p?.subject !== "사회" && p?.subject !== "과학") return null;
+    return { grade: g as Grade, sem: p.sem, subject: p.subject };
+  } catch {
+    return null;
+  }
+}
+
+// 첫 진입(저장값 없음): 이번 달 학기 + 자료 있는 학년 중 무작위. 사회 우선, 없으면 과학, 그래도 없으면 폴백.
+function randomDefaultByMonth(): Scope {
+  const sem = semByMonth();
+  for (const subject of ["사회", "과학"] as Subject[]) {
+    const grades = [...new Set(KITS.filter((k) => k.published && k.sem === sem && k.subject === subject).map((k) => k.grade))];
+    if (grades.length) return { grade: grades[Math.floor(Math.random() * grades.length)]!, sem, subject };
+  }
+  return DEFAULT_SCOPE;
+}
+
+// 초기 조건: 최근 선택 > (없으면) 월 기반 랜덤. URL 파라미터가 있으면 그것이 최우선(컴포넌트에서 처리).
+function resolveInitialScope(): Scope {
+  return loadPref() ?? randomDefaultByMonth();
+}
+
+// 사용자가 직접 고른 학년·학기·교과만 저장(랜덤 기본값은 저장하지 않음 → 다음 접속 시 다시 랜덤).
+function persistScope(s: Scope) {
+  try { localStorage.setItem(PREF_KEY, JSON.stringify(s)); } catch { /* 비공개 모드 등 */ }
+}
 
 // 빈 상태일 때: 실제 자료가 있는(공개된) 조건 중 현재 선택과 가장 비슷한 것을 추천.
 function recommendScope(grade: Grade, sem: Semester, subject: Subject) {
@@ -44,10 +89,12 @@ export default function HomePage() {
   const navigate = useNavigate();
   const [params, setParams] = useSearchParams();
   const [showGuide, setShowGuide] = useState(false);
+  // 최초 마운트 1회만 결정(랜덤 학년 고정). URL 파라미터가 있으면 그것이 우선.
+  const [initialScope] = useState(resolveInitialScope);
 
-  const grade = Number(params.get("grade") ?? DEFAULT_SCOPE.grade) as Grade;
-  const sem = (params.get("sem") ?? DEFAULT_SCOPE.sem) as Semester;
-  const subject = (params.get("subject") ?? DEFAULT_SCOPE.subject) as Subject;
+  const grade = Number(params.get("grade") ?? initialScope.grade) as Grade;
+  const sem = (params.get("sem") ?? initialScope.sem) as Semester;
+  const subject = (params.get("subject") ?? initialScope.subject) as Subject;
   const unit = params.get("unit") ?? "전체";
 
   function setFilter(patch: Record<string, string>, resetUnit = false) {
@@ -55,6 +102,12 @@ export default function HomePage() {
     for (const [k, v] of Object.entries(patch)) next.set(k, v);
     if (resetUnit) next.set("unit", "전체");
     setParams(next, { replace: true });
+    // 사용자가 고른 조건을 저장 → 다음 접속 시 복원
+    persistScope({
+      grade: Number(next.get("grade") ?? grade) as Grade,
+      sem: (next.get("sem") ?? sem) as Semester,
+      subject: (next.get("subject") ?? subject) as Subject,
+    });
   }
 
   const inScope = [...KITS.filter((k) => k.grade === grade && k.sem === sem && k.subject === subject)]
@@ -149,7 +202,7 @@ export default function HomePage() {
                 <div style={{ fontSize: 13, fontWeight: 500, color: "var(--color-slate-400)", marginTop: 7 }}>
                   대신 <b style={{ color: "var(--color-brand-600)" }}>초등 {rec.grade}학년 · {rec.sem} · {rec.subject}</b>에 {rec.count}개가 준비되어 있어요.
                 </div>
-                <button type="button" onClick={() => setParams(new URLSearchParams({ grade: String(rec.grade), sem: rec.sem, subject: rec.subject, unit: "전체" }), { replace: true })}
+                <button type="button" onClick={() => setFilter({ grade: String(rec.grade), sem: rec.sem, subject: rec.subject }, true)}
                   style={{ marginTop: 18, height: 38, padding: "0 18px", border: "none", borderRadius: 9999, background: "var(--color-brand-600)", color: "#fff", fontSize: 13, fontWeight: 700, cursor: "pointer", boxShadow: "var(--shadow-primary-soft)" }}>
                   초등 {rec.grade}학년 · {rec.sem} · {rec.subject} 보기
                 </button>

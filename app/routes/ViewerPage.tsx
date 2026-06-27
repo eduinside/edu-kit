@@ -89,7 +89,7 @@ export default function ViewerPage() {
             <ChevronLeft size={17} />
           </button>
           <div style={{ minWidth: 0 }}>
-            <div style={{ fontSize: 11, fontWeight: 700, color: "var(--color-slate-400)" }}>{crumb}</div>
+            <div style={{ fontSize: 11, fontWeight: 700, color: "var(--color-slate-400)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{crumb}</div>
             <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{kit ? kit.title : "수업꾸러미"}</div>
           </div>
         </div>
