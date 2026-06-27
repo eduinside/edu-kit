@@ -23,12 +23,27 @@ const kits: Record<string, unknown>[] = [];
 const items: Record<string, unknown>[] = [];
 const stageMeta: Record<string, unknown>[] = [];
 
-guides.forEach((u, idx) => {
-  const KIT = `na${u.packageSn || idx}`;
+// 대단원 묶음: 사회 "N-M. 제목" → 대단원 N(=N단원), 차시 M=정렬 / 과학 "N. 제목" → 각 가이드=대단원 N(그대로)
+function unitInfo(u: Guide): { unit: string; unit_no: string; sort: number } {
+  const t = (u.kitTitle || "").trim();
+  if (u.subject === "사회") {
+    const m = t.match(/^(\d+)\s*-\s*(\d+)/);
+    if (m) return { unit: `${m[1]}단원`, unit_no: m[1]!, sort: Number(m[2]) };
+    return { unit: u.unit_no ? `${u.unit_no}단원` : "[대단원]", unit_no: u.unit_no || "", sort: 1 };
+  }
+  // 과학: "N. 제목" — 가이드 1개 = 대단원 1개(그대로)
+  const m = t.match(/^(\d+)\.\s*(.*)$/);
+  if (m) return { unit: m[2]!.trim() || `${m[1]}단원`, unit_no: m[1]!, sort: 1 };
+  return { unit: t || "[대단원]", unit_no: u.unit_no || "", sort: 1 };
+}
+
+guides.forEach((u) => {
+  const KIT = `na${u.packageSn}`;
+  const ui = unitInfo(u);
   kits.push({
     id: KIT, title: u.kitTitle || "[단원 제목 입력]", grade: u.grade ?? "[학년]", sem: u.sem || "[학기]",
-    subject: u.subject || "[교과]", unit: "[대단원명]", unit_no: u.unit_no || "[번호]",
-    flow: "activity", sort_order: idx + 1, published: false,
+    subject: u.subject || "[교과]", unit: ui.unit, unit_no: ui.unit_no,
+    flow: "activity", sort_order: ui.sort, published: false,
   });
 
   items.push({
@@ -62,9 +77,22 @@ function tsv(cols: string[], rows: Record<string, unknown>[]): string {
   return [cols.join("\t"), ...rows.map((r) => cols.map((c) => cell(r[c])).join("\t"))].join("\n") + "\n";
 }
 
+// CSV(RFC4180): 쉼표·따옴표·줄바꿈 포함 시 따옴표로 감싸고 내부 따옴표는 2개로.
+function csv(cols: string[], rows: Record<string, unknown>[]): string {
+  const cell = (v: unknown) => {
+    const s = String(v ?? "").replace(/\r?\n/g, " ");
+    return /[",]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+  };
+  const body = [cols.join(","), ...rows.map((r) => cols.map((c) => cell(r[c])).join(","))].join("\r\n") + "\r\n";
+  return "﻿" + body; // 한글 깨짐 방지 BOM
+}
+
 writeFileSync(resolve(DIR, "out.kits.tsv"), tsv(KIT_COLS, kits));
 writeFileSync(resolve(DIR, "out.items.tsv"), tsv(ITEM_COLS, items));
 writeFileSync(resolve(DIR, "out.stage_meta.tsv"), tsv(SM_COLS, stageMeta));
+writeFileSync(resolve(DIR, "out.kits.csv"), csv(KIT_COLS, kits));
+writeFileSync(resolve(DIR, "out.items.csv"), csv(ITEM_COLS, items));
+writeFileSync(resolve(DIR, "out.stage_meta.csv"), csv(SM_COLS, stageMeta));
 writeFileSync(resolve(DIR, "out.rows.json"), JSON.stringify({ kits, items, stage_meta: stageMeta }, null, 2) + "\n");
 
 console.log(`✓ 단원 ${kits.length}개 → kits ${kits.length}, items ${items.length}, stage_meta ${stageMeta.length}`);
