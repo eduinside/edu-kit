@@ -145,28 +145,35 @@ export default function ViewerPage() {
           {/* sticky 서브헤더 */}
           <div style={{ position: "sticky", top: 0, zIndex: 5, background: "rgba(243,245,249,.86)", backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)", borderBottom: "1px solid var(--color-slate-100)", padding: "9px 24px 10px" }}>
             <div style={{ maxWidth: 1280, margin: "0 auto" }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 9, marginBottom: 4 }}>
+              {/* 태그 + 제목 한 줄(태그는 제목 앞에 인라인) */}
+              <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
                 {!sidebarOpen && (
                   <button type="button" className="icon-btn" onClick={() => setSidebarOpen(true)} aria-label="목차 펼치기" style={{ display: "inline-flex", alignItems: "center", gap: 6, height: 28, padding: "0 11px", border: "1px solid var(--color-slate-200)", borderRadius: 9999, background: "#fff", cursor: "pointer", color: "var(--color-slate-600)", fontSize: 11.5, fontWeight: 700, flexShrink: 0 }}>
                     <Menu size={13} /> 목차
                   </button>
                 )}
-                {sel && (() => {
-                  const st = stageColor(sel.group.stage, sel.group.sort_order);
-                  return <span style={{ padding: "4px 11px", borderRadius: 9999, background: st.soft, color: st.text, fontSize: 11.5, fontWeight: 800 }}>{sel.group.stage}</span>;
-                })()}
-                {sel?.group.question && <span style={{ fontSize: 11.5, fontWeight: 700, color: "var(--color-slate-400)" }}>탐구질문 · {sel.group.question}</span>}
+                <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.4, minWidth: 0 }}>
+                  {sel && (() => {
+                    const st = stageColor(sel.group.stage, sel.group.sort_order);
+                    return <span style={{ display: "inline-flex", alignItems: "center", verticalAlign: "middle", marginRight: 8, padding: "3px 11px", borderRadius: 9999, background: st.soft, color: st.text, fontSize: 12, fontWeight: 800, lineHeight: 1 }}>{sel.group.stage}</span>;
+                  })()}
+                  {sel ? hi(sel.item.title, hl) : "준비 중"}
+                </div>
               </div>
-              <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.3 }}>{sel ? hi(sel.item.title, hl) : "준비 중"}</div>
+              {sel?.group.question && <div style={{ marginTop: 6, fontSize: 11.5, fontWeight: 700, color: "var(--color-slate-400)" }}>탐구질문 · {sel.group.question}</div>}
             </div>
           </div>
 
           {sel?.item.type === "video" ? (
-            // 영화관 모드: 영상은 스크롤 영역 좌우 꽉 차게(풀폭 밴드), 설명·이동은 아래 본문 폭으로
+            // 순서: (서브헤더)태그+제목 → 설명 → 영상(영화관 풀폭) → 내비게이션
             <>
+              {(sel.item.video_desc || sel.item.caption) && (
+                <div style={{ maxWidth: 1280, margin: "0 auto", padding: "14px 24px 2px" }}>
+                  <VideoMeta it={sel.item} hl={hl} />
+                </div>
+              )}
               <VideoPlayer key={sel.item.id} it={sel.item} />
               <div style={{ maxWidth: 1280, margin: "0 auto", padding: "20px 24px 80px" }}>
-                <VideoMeta it={sel.item} hl={hl} />
                 {navButtons}
               </div>
             </>

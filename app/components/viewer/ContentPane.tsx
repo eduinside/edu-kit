@@ -80,7 +80,7 @@ export function VideoPlayer({ it }: { it: Item }) {
   // 처음부터 항상 존재하는 저해상도 썸네일(hqdefault)을 1회만 로드 — maxres 시도→폴백의 이중 로드 제거.
   return (
     <div style={{ width: "100%", background: "#000", display: "flex", justifyContent: "center" }}>
-      <div style={{ position: "relative", width: "100%", maxWidth: "calc(64vh * 16 / 9)", aspectRatio: "16 / 9" }}>
+      <div style={{ position: "relative", width: "100%", maxWidth: "calc(68vh * 16 / 9)", aspectRatio: "16 / 9" }}>
         {playing ? (
           <iframe src={src} title={it.video_title || it.title} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }} />
         ) : (

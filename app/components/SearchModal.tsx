@@ -32,7 +32,7 @@ export default function SearchModal({ open, onClose }: { open: boolean; onClose:
   }
 
   return (
-    <Modal open={open} onClose={onClose} labelledBy="search-title">
+    <Modal open={open} onClose={onClose} labelledBy="search-title" align="top">
       <div style={{ position: "sticky", top: 0, zIndex: 1, background: "#fff", borderBottom: "1px solid var(--color-slate-100)", padding: "15px 18px", borderRadius: "18px 18px 0 0" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "0 4px" }}>
           <Search size={20} style={{ color: "var(--color-slate-400)", flexShrink: 0 }} />

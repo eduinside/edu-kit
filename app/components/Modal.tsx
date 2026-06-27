@@ -4,11 +4,12 @@ interface Props {
   open: boolean;
   onClose: () => void;
   labelledBy?: string;
+  align?: "center" | "top"; // top: 상단 고정(검색 — 결과가 아래로 확장)
   children: ReactNode;
 }
 
 /** 접근성 모달: scrim, Esc 닫기, 포커스 진입/복귀, 기본 Tab 트랩. */
-export default function Modal({ open, onClose, labelledBy, children }: Props) {
+export default function Modal({ open, onClose, labelledBy, align = "center", children }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const prevFocus = useRef<HTMLElement | null>(null);
 
@@ -57,9 +58,9 @@ export default function Modal({ open, onClose, labelledBy, children }: Props) {
         backdropFilter: "blur(3px)",
         WebkitBackdropFilter: "blur(3px)",
         display: "flex",
-        alignItems: "center",
+        alignItems: align === "top" ? "flex-start" : "center",
         justifyContent: "center",
-        padding: 28,
+        padding: align === "top" ? "8vh 24px 24px" : 28,
       }}
     >
       <div
