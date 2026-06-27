@@ -1,10 +1,10 @@
 import { Landmark, FlaskConical, Eye, Heart } from "lucide-react";
 import type { Kit } from "../lib/data.ts";
-import { kitPalette, thumbStyle } from "../lib/design.ts";
+import { unitPalette, thumbStyle } from "../lib/design.ts";
 import { statsFor } from "../lib/stats.ts";
 
 export default function KitCard({ kit, onOpen }: { kit: Kit; onOpen: () => void }) {
-  const accent = kitPalette(kit.subject, kit.sort_order)[2];
+  const accent = unitPalette(kit.unit_no)[2]; // 단원별 색
   const Icon = kit.subject === "과학" ? FlaskConical : Landmark;
   const s = statsFor(kit.id);
 
@@ -29,7 +29,7 @@ export default function KitCard({ kit, onOpen }: { kit: Kit; onOpen: () => void 
         overflow: "hidden",
       }}
     >
-      <div style={thumbStyle(kit.subject, kit.sort_order)}>
+      <div style={thumbStyle(kit.unit_no)}>
         <div style={{ position: "absolute", top: 12, left: 12, display: "inline-flex", alignItems: "center", gap: 5, padding: "4px 9px", borderRadius: 9999, background: "rgba(255,255,255,.82)" }}>
           <Icon size={11} color={accent} strokeWidth={2.2} />
           <span style={{ fontSize: 10, fontWeight: 800, color: accent }}>{kit.subject} · {kit.unit_no}단원</span>

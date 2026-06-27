@@ -1,28 +1,25 @@
 // 디자인 토큰 매핑 — 교과 팔레트, 단계 색, 항목 타입 배지 (프로토타입 SUBJ/STAGE 계승).
 import type { CSSProperties } from "react";
-import type { ItemType, Stage, Subject } from "../../scripts/types.ts";
+import type { ItemType, Stage } from "../../scripts/types.ts";
 
-// 교과 썸네일 팔레트 [from, to, accent] — sort_order로 회전
-export const SUBJECT_PALETTES: Record<Subject, [string, string, string][]> = {
-  사회: [
-    ["#e0f2fe", "#c7e0ff", "#1f7af0"],
-    ["#eef2ff", "#e0e7ff", "#4f46e5"],
-    ["#ecfeff", "#cffafe", "#0369a1"],
-  ],
-  과학: [
-    ["#d1fae5", "#a7f3d0", "#059669"],
-    ["#f0fdfa", "#ccfbf1", "#0d9488"],
-    ["#f0fdf4", "#dcfce7", "#16a34a"],
-  ],
-};
+// 단원(unit_no)별 썸네일 팔레트 [from, to, accent] — 같은 단원은 같은 색.
+// 1단원 연두 → 2 하늘색 → 3 진한 청색 → 4 연보라 (현행 교육과정: 사회 ≤3단원·과학 ≤4단원, 5~6은 예비)
+export const UNIT_PALETTES: [string, string, string][] = [
+  ["#ecfccb", "#d9f99d", "#4d7c0f"], // 1단원 · 연두(라임)
+  ["#e0f2fe", "#bae6fd", "#0369a1"], // 2단원 · 하늘색
+  ["#bfdbfe", "#93c5fd", "#1e40af"], // 3단원 · 진한 청색
+  ["#ede9fe", "#ddd6fe", "#6d28d9"], // 4단원 · 연보라
+  ["#fbcfe8", "#f9a8d4", "#be185d"], // 5단원 · 분홍(예비)
+  ["#fde68a", "#fcd34d", "#b45309"], // 6단원 · 호박(예비)
+];
 
-export function kitPalette(subject: Subject, sortOrder: number): [string, string, string] {
-  const pals = SUBJECT_PALETTES[subject] ?? SUBJECT_PALETTES["사회"];
-  return pals[(sortOrder - 1) % pals.length]!;
+export function unitPalette(unitNo: number): [string, string, string] {
+  const i = (Math.max(1, Math.floor(unitNo || 1)) - 1) % UNIT_PALETTES.length;
+  return UNIT_PALETTES[i]!;
 }
 
-export function thumbStyle(subject: Subject, sortOrder: number): CSSProperties {
-  const [from, to] = kitPalette(subject, sortOrder);
+export function thumbStyle(unitNo: number): CSSProperties {
+  const [from, to] = unitPalette(unitNo);
   return {
     position: "relative",
     aspectRatio: "16 / 9",
