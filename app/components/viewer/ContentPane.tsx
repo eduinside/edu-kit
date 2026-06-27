@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Play, Image as ImageIcon } from "lucide-react";
 import type { Item, Stage } from "../../lib/data.ts";
 import { stageColor } from "../../lib/design.ts";
+import { hi } from "../Hi.tsx";
 
 const card = { background: "#fff", border: "1px solid var(--color-slate-100)", borderRadius: 14, boxShadow: "0 1px 2px rgba(15,23,42,.06)" } as const;
 
@@ -15,7 +16,7 @@ function IntroHead({ emoji, text }: { emoji: string; text: string }) {
   );
 }
 
-function Intro({ it }: { it: Item }) {
+function Intro({ it, hl }: { it: Item; hl?: string }) {
   const q = it.core_question?.trim();
   const hasConcepts = it.concepts && it.concepts.length > 0;
   // 성취기준: 빌드 산출 standards(복수) 우선, 없으면 단일 code/text 폴백
@@ -30,14 +31,14 @@ function Intro({ it }: { it: Item }) {
       {it.core_idea && (
         <section style={{ marginBottom: 28 }}>
           <IntroHead emoji="📘" text="단원의 목적" />
-          <p style={{ margin: 0, fontSize: 15, fontWeight: 600, lineHeight: 1.85, color: "var(--color-slate-700)" }}>{it.core_idea}</p>
+          <p style={{ margin: 0, fontSize: 15, fontWeight: 600, lineHeight: 1.85, color: "var(--color-slate-700)" }}>{hi(it.core_idea, hl)}</p>
         </section>
       )}
 
       {q && (
         <section style={{ marginBottom: 28 }}>
           <IntroHead emoji="💡" text="핵심 질문" />
-          <p style={{ margin: 0, fontSize: 15, fontWeight: 700, lineHeight: 1.7, color: "var(--color-brand-700)" }}>{q}</p>
+          <p style={{ margin: 0, fontSize: 15, fontWeight: 700, lineHeight: 1.7, color: "var(--color-brand-700)" }}>{hi(q, hl)}</p>
         </section>
       )}
 
@@ -47,8 +48,8 @@ function Intro({ it }: { it: Item }) {
           <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             {standards.map((std, i) => (
               <div key={i} style={{ display: "flex", gap: 13, alignItems: "flex-start", padding: "14px 16px", background: "var(--color-brand-50)", border: "1px solid var(--color-brand-100)", borderRadius: 12 }}>
-                {std.code && <span style={{ flexShrink: 0, padding: "4px 10px", borderRadius: 8, background: "#fff", fontSize: 11.5, fontWeight: 800, color: "var(--color-brand-700)", fontFamily: "var(--font-mono)" }}>{std.code}</span>}
-                {std.text && <p style={{ margin: 0, fontSize: 14, fontWeight: 600, lineHeight: 1.7, color: "var(--color-slate-700)" }}>{std.text}</p>}
+                {std.code && <span style={{ flexShrink: 0, padding: "4px 10px", borderRadius: 8, background: "#fff", fontSize: 11.5, fontWeight: 800, color: "var(--color-brand-700)", fontFamily: "var(--font-mono)" }}>{hi(std.code, hl)}</span>}
+                {std.text && <p style={{ margin: 0, fontSize: 14, fontWeight: 600, lineHeight: 1.7, color: "var(--color-slate-700)" }}>{hi(std.text, hl)}</p>}
               </div>
             ))}
           </div>
@@ -60,7 +61,7 @@ function Intro({ it }: { it: Item }) {
           <IntroHead emoji="🧭" text="단원 핵심 용어" />
           <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
             {it.concepts!.map((c) => (
-              <span key={c} style={{ padding: "8px 14px", borderRadius: 9999, background: "var(--color-brand-50)", color: "var(--color-brand-700)", fontSize: 13.5, fontWeight: 700 }}>{c}</span>
+              <span key={c} style={{ padding: "8px 14px", borderRadius: 9999, background: "var(--color-brand-50)", color: "var(--color-brand-700)", fontSize: 13.5, fontWeight: 700 }}>{hi(c, hl)}</span>
             ))}
           </div>
         </section>
@@ -76,10 +77,7 @@ export function VideoPlayer({ it }: { it: Item }) {
   let src = `https://www.youtube-nocookie.com/embed/${it.video_id}?rel=0&modestbranding=1&autoplay=1`;
   if (it.start_sec) src += `&start=${it.start_sec}`;
   if (it.end_sec) src += `&end=${it.end_sec}`;
-  const hqThumb = `https://i.ytimg.com/vi/${it.video_id}/hqdefault.jpg`;
-  // maxres가 없는 영상은 YouTube가 404가 아니라 120x90 회색 placeholder(200)를 주므로,
-  // onError(404)뿐 아니라 onLoad에서 naturalWidth로 placeholder를 감지해 hqdefault로 폴백.
-  const fallbackHq = (img: HTMLImageElement) => { if (!img.src.endsWith("hqdefault.jpg")) img.src = hqThumb; };
+  // 처음부터 항상 존재하는 저해상도 썸네일(hqdefault)을 1회만 로드 — maxres 시도→폴백의 이중 로드 제거.
   return (
     <div style={{ width: "100%", background: "#000", display: "flex", justifyContent: "center" }}>
       <div style={{ position: "relative", width: "100%", maxWidth: "calc(78vh * 16 / 9)", aspectRatio: "16 / 9" }}>
@@ -88,9 +86,7 @@ export function VideoPlayer({ it }: { it: Item }) {
         ) : (
           <button type="button" onClick={() => setPlaying(true)} aria-label={`재생: ${it.video_title || it.title}`}
             style={{ position: "absolute", inset: 0, width: "100%", height: "100%", padding: 0, border: 0, cursor: "pointer", background: "#000" }}>
-            <img src={`https://i.ytimg.com/vi/${it.video_id}/maxresdefault.jpg`} alt="" loading="lazy" decoding="async"
-              onError={(e) => fallbackHq(e.currentTarget)}
-              onLoad={(e) => { if (e.currentTarget.naturalWidth <= 120) fallbackHq(e.currentTarget); }}
+            <img src={`https://i.ytimg.com/vi/${it.video_id}/hqdefault.jpg`} alt="" loading="lazy" decoding="async"
               style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
             <span aria-hidden style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(0,0,0,.18)" }}>
               <span style={{ display: "flex", alignItems: "center", justifyContent: "center", width: 72, height: 72, borderRadius: "50%", background: "rgba(220,38,38,.95)", boxShadow: "0 6px 20px rgba(0,0,0,.35)" }}>
@@ -105,13 +101,13 @@ export function VideoPlayer({ it }: { it: Item }) {
 }
 
 // 영상 설명·캡션(영화관 밴드 아래 본문 영역에 표시)
-export function VideoMeta({ it }: { it: Item }) {
+export function VideoMeta({ it, hl }: { it: Item; hl?: string }) {
   if (!it.video_desc && !it.caption) return null;
   return (
     <div>
       {it.video_desc && (
         <div style={{ padding: "16px 18px", ...card, borderRadius: 13 }}>
-          <p style={{ margin: 0, fontSize: 14, fontWeight: 500, lineHeight: 1.75, color: "var(--color-slate-600)" }}>{it.video_desc}</p>
+          <p style={{ margin: 0, fontSize: 14, fontWeight: 500, lineHeight: 1.75, color: "var(--color-slate-600)" }}>{hi(it.video_desc, hl)}</p>
         </div>
       )}
       {it.caption && <Caption text={it.caption} />}
@@ -155,7 +151,7 @@ function Text({ it }: { it: Item }) {
   );
 }
 
-export default function ContentPane({ item, stage }: { item: Item | null; stage: Stage }) {
+export default function ContentPane({ item, stage, hl }: { item: Item | null; stage: Stage; hl?: string }) {
   if (!item) {
     return (
       <div style={{ textAlign: "center", padding: "80px 20px" }}>
@@ -164,9 +160,9 @@ export default function ContentPane({ item, stage }: { item: Item | null; stage:
       </div>
     );
   }
-  if (item.type === "intro") return <Intro it={item} />;
+  if (item.type === "intro") return <Intro it={item} hl={hl} />;
   // 영상은 ViewerPage가 영화관 모드(풀폭)로 직접 렌더 — 여기서는 폴백만
-  if (item.type === "video") return <div key={item.id}><VideoPlayer it={item} /><div style={{ marginTop: 14 }}><VideoMeta it={item} /></div></div>;
+  if (item.type === "video") return <div key={item.id}><VideoPlayer it={item} /><div style={{ marginTop: 14 }}><VideoMeta it={item} hl={hl} /></div></div>;
   if (item.type === "image") return <ImageBlock it={item} stage={stage} />;
   return <Text it={item} />;
 }

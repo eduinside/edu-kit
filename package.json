@@ -6,10 +6,6 @@
   "scripts": {
     "sync": "tsx scripts/sheet-to-json.ts",
     "seed:stats": "tsx scripts/seed-stats.ts",
-    "import": "tsx scripts/import-source.ts",
-    "import:edunavi": "tsx scripts/import-edunavi.ts",
-    "edunavi:rows": "tsx scripts/build-edunavi-rows.ts",
-    "reclassify": "tsx scripts/reclassify-by-keyword.ts",
     "og": "python scripts/gen-og.py",
     "predev": "npm run sync",
     "dev": "vite",
@@ -20,9 +16,6 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@heroui/react": "^3.0.5",
-    "@heroui/styles": "^3.0.5",
-    "framer-motion": "^12.40.0",
     "lucide-react": "^1.16.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",

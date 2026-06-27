@@ -72,11 +72,12 @@
   border-bottom: 1px solid rgba(226, 232, 240, 0.8);
 }
 
-/* 애니메이션 (프로토타입 sk-rise / sk-pop) */
+/* 애니메이션 (좋아요 하트 sk-pop) */
 @keyframes sk-pop { 0% { transform: scale(1); } 40% { transform: scale(1.35); } 100% { transform: scale(1); } }
-@keyframes sk-rise { from { transform: translateY(8px); } to { transform: translateY(0); } }
-.sk-rise { animation: sk-rise 0.3s ease-out; }
 .sk-pop { animation: sk-pop 0.4s ease; }
+
+/* 검색어 하이라이트 */
+.sk-hl { background: #fde68a; color: var(--color-ink); border-radius: 3px; padding: 0 2px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 
 /* 위지윅 본문 (.sk-rich) + 강조 박스 (.sk-callout) — body HTML 렌더용 */
 .sk-rich { font-size: 14.5px; line-height: 1.8; color: var(--color-ink-soft); }

@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
+import { Search } from "lucide-react";
 import SegmentedControl from "../components/SegmentedControl.tsx";
 import KitCard from "../components/KitCard.tsx";
 import UsageGuide from "../components/UsageGuide.tsx";
+import SearchModal from "../components/SearchModal.tsx";
 import { KITS } from "../lib/data.ts";
 import type { Grade, Semester, Subject } from "../lib/data.ts";
 
@@ -101,6 +103,7 @@ export default function HomePage() {
   const navigate = useNavigate();
   const [params, setParams] = useSearchParams();
   const [showGuide, setShowGuide] = useState(false);
+  const [showSearch, setShowSearch] = useState(false);
   // 최초 마운트 1회만 결정(랜덤 학년 고정). URL 파라미터가 있으면 그것이 우선.
   const [initialScope] = useState(resolveInitialScope);
   // 히어로 문구도 마운트 시 1회 랜덤 선택(렌더마다 바뀌지 않도록)
@@ -141,7 +144,12 @@ export default function HomePage() {
             <span style={{ fontWeight: 900, fontSize: 18, letterSpacing: "-.02em" }}>수업꾸러미</span>
           </div>
         </div>
-        <button type="button" onClick={() => setShowGuide(true)} style={{ height: 32, padding: "0 14px", border: "none", borderRadius: 8, background: "var(--color-slate-100)", color: "var(--color-slate-700)", fontSize: 13, fontWeight: 700, cursor: "pointer" }}>활용 안내</button>
+        <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+          <button type="button" onClick={() => setShowSearch(true)} style={{ display: "inline-flex", alignItems: "center", gap: 6, height: 32, padding: "0 14px", border: "none", borderRadius: 8, background: "var(--color-brand-600)", color: "#fff", fontSize: 13, fontWeight: 700, cursor: "pointer" }}>
+            <Search size={15} strokeWidth={2.5} /> 검색
+          </button>
+          <button type="button" onClick={() => setShowGuide(true)} style={{ height: 32, padding: "0 14px", border: "none", borderRadius: 8, background: "var(--color-slate-100)", color: "var(--color-slate-700)", fontSize: 13, fontWeight: 700, cursor: "pointer" }}>활용 안내</button>
+        </div>
       </div>
 
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "34px 28px 64px" }}>
@@ -236,6 +244,7 @@ export default function HomePage() {
       </footer>
 
       <UsageGuide open={showGuide} onClose={() => setShowGuide(false)} />
+      <SearchModal open={showSearch} onClose={() => setShowSearch(false)} />
     </div>
   );
 }

@@ -4,63 +4,51 @@
 한 화면에서 영상·이미지·읽기자료·활동을 순서대로 보는 웹 서비스.
 짧은 링크 `kit.dgedu.link/<id>`로 공유, 조회수·좋아요로 활용도 추적.
 
-- 전체 설계: [docs/IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md)
-- 편집팀 저작 가이드: [docs/SHEET_TEMPLATE.md](docs/SHEET_TEMPLATE.md)
-- 디자인 핸드오프 원본: `_prototype/design_handoff_수업꾸러미/`
+**라이브**: https://kit.dgedu.link · 현재 81 꾸러미(공개 59) · 에듀나비 연계 콘텐츠.
 
-## 아키텍처 (요약)
+- 편집팀 저작 가이드: [docs/SHEET_TEMPLATE.md](docs/SHEET_TEMPLATE.md) · 시트 세팅: [docs/SHEET_SETUP.md](docs/SHEET_SETUP.md)
+- 배포: [docs/DEPLOY.md](docs/DEPLOY.md) · 최초 설계(역사): [docs/IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md)
+
+## 아키텍처
 
 ```
-Google Sheet ──[발행 버튼/GAS]──▶ GitHub(data/raw/*.json) ──push──▶ Cloudflare Pages 빌드
-                                                                       │ prebuild: sheet-to-json
-                                                                       │  (검증·마크다운→HTML·새니타이즈)
-                                                                       ▼ 정적 배포 + kit별 prerender/OG
+Google Sheet ──[발행 버튼/GAS]──▶ GitHub(data/raw/*.json) ──push──▶ Cloudflare Pages (Git 연동, 자동 빌드)
+                                                                       │ prebuild: scripts/sheet-to-json.ts
+                                                                       │  (zod 검증·마크다운→HTML·새니타이즈·콘텐츠 수 집계)
+                                                                       ▼ 정적 SPA 배포 + 꾸러미별 OG 메타(_middleware)
 조회수·좋아요만 런타임: Pages Functions + D1(공유 edu-link-db, edukit_* 테이블)
 ```
 
-- 콘텐츠 = 정적 JSON(빌드 산출). 런타임 콘텐츠 DB·어드민 UI·KV 없음.
-- 카운터 = 공유 D1 `edu-link-db`(`edukit_stats`/`edukit_likes`/`edukit_view_dedupe`).
-- 디자인 토큰은 edu-link `index.css`를 복사 재사용(`app/styles/tokens.css`).
+- **콘텐츠 = 정적 JSON**(빌드 산출). 런타임 콘텐츠 DB·어드민 UI 없음. 편집은 구글 시트에서, "발행" 버튼이 GitHub에 커밋 → Pages 자동 빌드/배포.
+- **카운터만 런타임**: 공유 D1 `edu-link-db`(`edukit_stats`/`edukit_likes`/`edukit_view_dedupe`).
+- **꾸러미 두 유형**: `activity`(활동형: 단원안내·생각열기·탐구하기·확장하기) / `flow`(핵심 용어 흐름형: stage가 핵심 용어 자체). 현재 콘텐츠는 전부 흐름형.
 
-## 콘텐츠 파이프라인 (구현 완료 · 검증됨)
+## 개발
 
 ```bash
 npm install
-npm run sync         # data/raw/*.json → 검증·변환·새니타이즈 → data/*.json
-npm run seed:stats   # SAMPLE_DATA 카운트 → db/seed-stats.sql
+npm run sync        # data/raw/*.json → 검증·변환·새니타이즈 → data/*.json (prebuild에서 자동)
+npm run dev         # vite 개발 서버 (predev=sync)
+npm run build       # prebuild=sync → vite build → dist/
 npm run typecheck
 ```
 
-- `scripts/sheet-to-json.ts` — ETL(prebuild). zod 검증, 흐름형 매핑, 마크다운→`.sk-rich` HTML, 새니타이즈 게이트.
-- `scripts/field-map.ts` · `markdown.ts` · `sanitize.ts` · `types.ts`
-- `gas/publish.gs` — 시트 "발행" 버튼(3탭 → GitHub 커밋)
-- `db/schema.sql` — `edukit_*` 카운터 테이블(IF NOT EXISTS, edu-link-db 공유)
-- `data/raw/*.json` — 시드(ab12 활동형, cd34 흐름형)
+### 구조
+- `app/routes/{HomePage,ViewerPage}.tsx` — 홈 갤러리 / 뷰어. ViewerPage는 `React.lazy`로 분리(무거운 items.json 지연 로드).
+- `app/components/*` — KitCard, SearchModal, UsageGuide, Modal, SegmentedControl, viewer/{Sidebar,ContentPane}.
+- `app/lib/` — `data.ts`(kits, 가벼움) · `kit-content.ts`(items/stage_meta, 무거움 → 뷰어·검색만 동적 로드) · `design.ts`(단원색·단계색·교과아이콘) · `search.ts`(통합 검색) · `api.ts`(카운터) · `stats.ts`(시드).
+- `app/styles/tokens.css` — 디자인 토큰(edu-link index.css 계승) + 컴포넌트 스타일.
+- `scripts/` — `sheet-to-json.ts`(ETL) + `field-map`·`markdown`·`sanitize`·`shortid`·`types`. `gen-og.py`(OG 카드) · `gen-sheet-xlsx.py`(시트 템플릿) · `seed-stats.ts`(D1 시드 SQL).
+- `functions/` — `_middleware.ts`(꾸러미별 OG 메타 주입) · `api/kits/[id]/{stats,view,like}.ts` + `_shared.ts`(D1 카운터).
 
-## 읽기 앱 UI (Phase 1 — 구현·빌드 검증됨)
+### 주요 기능
+- **홈**: 학년·학기·교과·단원 필터(URL 쿼리 딥링크). 기본값=접속 월 기준 학기 + 자료 있는 학년 랜덤, 최근 선택 localStorage 복원. 카드 썸네일은 단원(unit_no)별 색. 통합 검색(단원/영상/성취기준 그룹).
+- **뷰어**: 핵심어 그룹 목차 사이드바 + 본문(intro 문서형 / 영상 영화관 모드 + lite-youtube 파사드 / 이미지 / 위지윅). 조회수·좋아요·링크복사. 없는 id는 랜딩으로 리다이렉트.
+- **공유 미리보기(OG)**: 꾸러미별 카드 `public/og/<id>.png`. ⚠️ **콘텐츠(꾸러미 추가/제목 변경) 후 `npm run og` 재실행 + 커밋 필요** — Cloudflare 빌드는 폰트가 없어 생성 못 함.
 
-```bash
-npm run dev      # vite 개발 서버 (predev=sync)
-npm run build    # prebuild=sync → vite build → dist/
-```
-
-- React 19 + React Router 7(`react-router-dom`, SPA) + Tailwind 4 + lucide-react.
-- 홈 갤러리(필터 SegmentedControl·단원 칩·카드 그리드·빈 상태·데이터 모달), 뷰어(상단바·목차 사이드바·4타입 본문 intro/video/image/text·접기/펼치기), URL 쿼리 필터 딥링크.
-- `app/routes/*` · `app/components/*` · `app/lib/{data,design,stats}.ts`. 토큰은 `app/styles/tokens.css`.
-- 디자인은 프로토타입 토큰/마크업에 충실. 컴포넌트 라이브러리는 경량 자체 구현(SegmentedControl/Modal) — HeroUI 컴포넌트로 점진 교체 가능(§7.3).
-- 배포는 **Vite SPA + Pages SPA 폴백**(`public/_redirects`). 경로기반 prerender/OG 메타는 Phase 3에서 추가(현재 OG는 정적 메타).
-
-## 라이브 카운터 (Phase 3 — 구현·검증됨)
-
-- `functions/api/kits/[id]/{stats,view,like}.ts` + `functions/_shared.ts` → 공유 D1 `edu-link-db`(`edukit_*`). 조회 1인1일 dedupe·원자 증가, 좋아요 멱등 토글, 방문자 쿠키.
-- 뷰어(`app/lib/api.ts`): 진입 시 view 집계 + stats 수신, 좋아요 낙관적 업데이트(실패 롤백, dev에선 시드 폴백).
-- 검증: `wrangler pages dev` + 로컬 D1 e2e 통과(증가·dedupe·멱등·방문자별 분리). 경로 `/<id>` = 단축 도메인 동일.
-
-## 다음 단계 (Phase 3 후속)
-
-- kit별 prerender + 동적 OG 이미지, 홈 카드 라이브 카운트(배치 stats), lite-youtube 파사드, 본문 클라 DOMPurify, 이미지 R2 업로드, Pages 배포·`kit.dgedu.link` 연결 → [docs/DEPLOY.md](docs/DEPLOY.md).
+## 콘텐츠 편집(편집팀)
+구글 시트의 `kits`/`items`/`stage_meta` 3개 탭을 채우고 **발행** 버튼(gas/publish.gs) → 자동 배포.
+컬럼·입력 규칙은 [docs/SHEET_TEMPLATE.md](docs/SHEET_TEMPLATE.md) 참조. shortId는 빈 id 칸에 발행 시 자동 부여.
 
 ## 배포
-
-Cloudflare Pages(Git 연동). `wrangler.jsonc`에 D1=`edu-link-db`, R2 바인딩.
-Preview는 프로덕션 카운트 오염 방지를 위해 별도 dev D1 사용.
+Cloudflare Pages(Git 연동, `main` push → 자동 빌드). `wrangler.jsonc`에 D1=`edu-link-db`. 커스텀 도메인 `kit.dgedu.link`. 자세한 절차·D1 시드는 [docs/DEPLOY.md](docs/DEPLOY.md).

@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useParams, Navigate } from "react-router-dom";
+import { useNavigate, useParams, Navigate, useSearchParams } from "react-router-dom";
 import { ChevronLeft, ChevronRight, Link2, Eye, Heart, Menu, Check } from "lucide-react";
 
 const NARROW_Q = "(max-width: 860px)";
 import Sidebar from "../components/viewer/Sidebar.tsx";
 import ContentPane, { VideoPlayer, VideoMeta } from "../components/viewer/ContentPane.tsx";
+import { hi } from "../components/Hi.tsx";
 import { getKit } from "../lib/data.ts";
 import { getGroups, flatItems } from "../lib/kit-content.ts";
 import type { Item } from "../lib/data.ts";
@@ -15,6 +16,8 @@ import { postView, postLike, type Stats } from "../lib/api.ts";
 export default function ViewerPage() {
   const { kitId = "", itemId } = useParams();
   const navigate = useNavigate();
+  const [sp] = useSearchParams();
+  const hl = sp.get("q") || ""; // 검색으로 진입 시 하이라이트할 키워드
   const initialNarrow = typeof window !== "undefined" && window.matchMedia(NARROW_Q).matches;
   const [isNarrow, setIsNarrow] = useState(initialNarrow);
   const [sidebarOpen, setSidebarOpen] = useState(!initialNarrow); // 모바일/탭에선 기본 숨김
@@ -101,7 +104,7 @@ export default function ViewerPage() {
           </button>
           <div style={{ minWidth: 0 }}>
             <div style={{ fontSize: 11, fontWeight: 700, color: "var(--color-slate-400)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{crumb}</div>
-            <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{kit ? kit.title : "수업꾸러미"}</div>
+            <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{hi(kit.title, hl)}</div>
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 9, flexShrink: 0 }}>
@@ -154,7 +157,7 @@ export default function ViewerPage() {
                 })()}
                 {sel?.group.question && <span style={{ fontSize: 11.5, fontWeight: 700, color: "var(--color-slate-400)" }}>탐구질문 · {sel.group.question}</span>}
               </div>
-              <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.3 }}>{sel ? sel.item.title : "준비 중"}</div>
+              <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.3 }}>{sel ? hi(sel.item.title, hl) : "준비 중"}</div>
             </div>
           </div>
 
@@ -163,13 +166,13 @@ export default function ViewerPage() {
             <>
               <VideoPlayer key={sel.item.id} it={sel.item} />
               <div style={{ maxWidth: 1280, margin: "0 auto", padding: "20px 24px 80px" }}>
-                <VideoMeta it={sel.item} />
+                <VideoMeta it={sel.item} hl={hl} />
                 {navButtons}
               </div>
             </>
           ) : (
             <div style={{ maxWidth: 1280, margin: "0 auto", padding: "26px 24px 80px" }}>
-              <ContentPane item={sel?.item ?? null} stage={sel?.group.stage ?? "단원안내"} />
+              <ContentPane item={sel?.item ?? null} stage={sel?.group.stage ?? "단원안내"} hl={hl} />
               {navButtons}
             </div>
           )}

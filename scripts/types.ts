@@ -1,5 +1,5 @@
 // 수업꾸러미 콘텐츠 논리 모델 (정적 JSON 형상 = 향후 D1 edukit_* 스키마)
-// 정본: _prototype/design_handoff_수업꾸러미/DATA_MODEL.md
+// 시트 컬럼 정의: docs/SHEET_TEMPLATE.md
 
 export type Grade = 3 | 4 | 5 | 6;
 export type Semester = "1학기" | "2학기";
