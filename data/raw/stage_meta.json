@@ -866,33 +866,38 @@
   },
   {
     "kit_id": "so5111",
-    "stage": "위도",
+    "stage": "지형",
     "sort_order": 1
   },
   {
     "kit_id": "so5111",
-    "stage": "경도",
+    "stage": "평야",
     "sort_order": 2
   },
   {
     "kit_id": "so5111",
-    "stage": "국토",
+    "stage": "하천",
     "sort_order": 3
   },
   {
     "kit_id": "so5111",
-    "stage": "영토",
+    "stage": "해안",
     "sort_order": 4
   },
   {
     "kit_id": "so5111",
-    "stage": "영해",
+    "stage": "섬",
     "sort_order": 5
   },
   {
     "kit_id": "so5111",
-    "stage": "행정구역",
+    "stage": "갯벌",
     "sort_order": 6
+  },
+  {
+    "kit_id": "so5111",
+    "stage": "산지",
+    "sort_order": 7
   },
   {
     "kit_id": "so5112",
