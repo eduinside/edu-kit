@@ -69,8 +69,8 @@ export default function ViewerPage() {
   useEffect(() => {
     document.title = kit
       ? `${sel ? sel.item.title + " · " : ""}${kit.title} · 수업꾸러미`
-      : "수업꾸러미 · kit.dgedu.link";
-    return () => { document.title = "수업꾸러미 · kit.dgedu.link"; };
+      : "수업꾸러미";
+    return () => { document.title = "수업꾸러미"; };
   }, [kitId, kit, sel?.item.item_key]);
 
   const crumb = kit ? `초등 ${kit.grade}학년 · ${kit.sem} · ${kit.subject}` : "";

@@ -228,6 +228,14 @@ export default function HomePage() {
         )}
       </div>
 
+      <footer style={{ borderTop: "1px solid var(--color-slate-100)", padding: "26px 24px 36px", textAlign: "center" }}>
+        <p style={{ margin: 0, fontSize: 12.5, fontWeight: 500, color: "var(--color-slate-400)", lineHeight: 1.6 }}>
+          대구교육정보 에듀나비의{" "}
+          <a href="https://www.edunavi.kr/arc/main.do" target="_blank" rel="noopener noreferrer"
+            style={{ color: "var(--color-brand-600)", fontWeight: 700, textDecoration: "none" }}>수업꾸러미</a>를 지원하기 위해 제작하였습니다.
+        </p>
+      </footer>
+
       <UsageGuide open={showGuide} onClose={() => setShowGuide(false)} />
     </div>
   );

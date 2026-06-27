@@ -183,6 +183,7 @@ function buildItems(kits: Kit[]): Item[] {
 
     // intro 결손 폴백
     if (base.type === "intro") {
+      base.stage = "단원안내"; // intro는 정의상 항상 단원안내 — 시트 stage 오입력 방지
       if (!base.core_idea) base.core_idea = "이 단원의 핵심 내용을 살펴봅니다.";
       if (!base.core_question) base.core_question = "이 단원에서 무엇을 배울까?";
     }
