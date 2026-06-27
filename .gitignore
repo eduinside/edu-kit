@@ -35,6 +35,9 @@ Thumbs.db
 /data/quiz.json
 /db/seed-stats.sql
 
+# 콘텐츠 초안 작업 산출물(검수용 xlsx·중간 JSON — 저장소 정본 아님)
+/docs/drafts/
+
 # Cloudflare 로컬 상태(wrangler/pages dev)
 .wrangler/
 
