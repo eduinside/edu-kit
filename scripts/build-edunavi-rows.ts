@@ -38,7 +38,7 @@ function unitInfo(u: Guide): { unit: string; unit_no: string; sort: number } {
 }
 
 guides.forEach((u) => {
-  const KIT = `na${u.packageSn}`;
+  const KIT = `na${u.guideSn}`; // guideSn은 가이드마다 고유 → kit id 충돌 방지(packageSn은 중복 가능)
   const ui = unitInfo(u);
   kits.push({
     id: KIT, title: u.kitTitle || "[단원 제목 입력]", grade: u.grade ?? "[학년]", sem: u.sem || "[학기]",
@@ -49,7 +49,7 @@ guides.forEach((u) => {
   items.push({
     kit_id: KIT, item_key: "intro", stage: "단원안내", type: "intro", sort_order: 1,
     title: "핵심 아이디어 · 성취기준", description: "이 단원에서 무엇을 배울까요",
-    core_idea: u.purpose,
+    core_idea: u.purpose || u.keywords.join(", ") || "이 단원의 핵심 내용을 살펴봅니다.",
     core_question: u.keywords.length ? `${u.keywords.join("·")}는 무엇이며 어떻게 살펴볼 수 있을까?` : "이 단원에서 무엇을 배울까?",
     concepts: u.keywords.join(" ; "), standard_code: u.standard_code, standard_text: u.standard_text,
   });
@@ -58,21 +58,22 @@ guides.forEach((u) => {
   for (const it of u.items) {
     ord[it.stage] = (ord[it.stage] || 0) + 1;
     const ok = it.youtubeId && /^[A-Za-z0-9_-]{11}$/.test(it.youtubeId);
+    const title = it.title || it.keyword || `콘텐츠 ${it.cntntsSn}`; // 빈 제목 폴백(필수)
     const desc = `(${it.keyword})${it.placement ? ` ${it.placement}` : ""}`.trim();
     if (ok) {
       items.push({
         kit_id: KIT, item_key: `v${it.no}`, stage: it.stage, type: "video", sort_order: ord[it.stage],
-        title: it.title, description: desc,
+        title, description: desc,
         video_url: `https://www.youtube.com/watch?v=${it.youtubeId}`,
         start_sec: it.start ?? "", end_sec: it.end ?? "",
-        video_title: it.title, video_desc: it.note,
+        video_title: title, video_desc: it.note,
       });
     } else {
       // 유튜브 미추출(이미지 장면/JS렌더) → image 자리표시자(빌드 안전). 사용자가 확인·교체.
       items.push({
         kit_id: KIT, item_key: `v${it.no}`, stage: it.stage, type: "image", sort_order: ord[it.stage],
-        title: it.title, description: desc,
-        image_label: it.title, image_sub: it.note,
+        title, description: desc,
+        image_label: title, image_sub: it.note,
         caption: `에듀나비 콘텐츠(cntntsSn ${it.cntntsSn}) · 사진/장면 확인 필요`,
       });
     }
