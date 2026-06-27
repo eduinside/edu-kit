@@ -130,7 +130,7 @@ export default function ViewerPage() {
                   </button>
                 )}
                 {sel && (() => {
-                  const st = stageColor(sel.group.stage);
+                  const st = stageColor(sel.group.stage, sel.group.sort_order);
                   return <span style={{ padding: "4px 11px", borderRadius: 9999, background: st.soft, color: st.text, fontSize: 11.5, fontWeight: 800 }}>{sel.group.stage}</span>;
                 })()}
                 {sel?.group.question && <span style={{ fontSize: 11.5, fontWeight: 700, color: "var(--color-slate-400)" }}>탐구질문 · {sel.group.question}</span>}

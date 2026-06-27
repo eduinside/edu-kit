@@ -42,8 +42,28 @@ export const STAGE_COLORS: Record<Stage, { soft: string; text: string }> = {
   정리: { soft: "var(--color-success-50)", text: "var(--color-success-700)" },
 };
 
-export function stageColor(stage: Stage) {
-  return STAGE_COLORS[stage] ?? STAGE_COLORS["단원안내"];
+// 흐름형(핵심 용어) stage는 고정 단계가 아니므로, 용어 문자열을 해시해 안정적으로 색을 회전 배정.
+const KEYTERM_COLORS: { soft: string; text: string }[] = [
+  { soft: "var(--color-brand-50)", text: "var(--color-brand-700)" },
+  { soft: "var(--color-warning-50)", text: "var(--color-warning-700)" },
+  { soft: "var(--color-success-50)", text: "var(--color-success-700)" },
+  { soft: "var(--color-violet-50)", text: "var(--color-violet-700)" },
+  { soft: "#fdf2f8", text: "#be185d" },
+  { soft: "#ecfeff", text: "#0e7490" },
+];
+
+function hashStage(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (Math.imul(h, 31) + s.charCodeAt(i)) >>> 0;
+  return h;
+}
+
+// 고정 단계는 이름으로, 흐름형 핵심 용어는 그룹 순서(order)로 색 배정해 한 꾸러미 안에서 충돌 없이 회전.
+// order 미제공 시 용어 해시로 안정 폴백.
+export function stageColor(stage: Stage, order?: number) {
+  if (STAGE_COLORS[stage]) return STAGE_COLORS[stage];
+  const idx = order && order > 0 ? order - 1 : hashStage(stage);
+  return KEYTERM_COLORS[idx % KEYTERM_COLORS.length]!;
 }
 
 // 항목 타입 배지

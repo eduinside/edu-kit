@@ -44,6 +44,7 @@ Thumbs.db
 /data/edunavi/*.rows.json
 /data/edunavi/guides.json
 /data/edunavi/out.*
+/data/edunavi/reclass.*
 /data/edunavi/unmatched*
 /data/source.json
 

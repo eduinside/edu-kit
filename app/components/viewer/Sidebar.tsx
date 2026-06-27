@@ -21,7 +21,7 @@ export default function Sidebar({ groups, selKey, flowLabel, onSelect, onClose }
       </div>
 
       {groups.map((g) => {
-        const st = stageColor(g.stage);
+        const st = stageColor(g.stage, g.sort_order);
         return (
           <div key={g.stage} style={{ marginBottom: 10 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "6px 8px" }}>

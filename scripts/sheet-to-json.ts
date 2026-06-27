@@ -184,8 +184,8 @@ function buildItems(kits: Kit[]): Item[] {
 
     // 무결성: 깨진 행은 건너뜀(빌드 유지)
     if (!flowById.has(item.kit_id)) { warn(`items[${idx}]: 존재하지 않는 kit_id "${item.kit_id}" → 건너뜀`); return null; }
-    const stages = isFlow ? FLOW_STAGES : ACTIVITY_STAGES;
-    if (!stages.includes(item.stage)) { warn(`items[${idx}] (${item.item_key}): "${item.stage}"는 ${isFlow ? "흐름형" : "활동형"} stage 아님 → 건너뜀`); return null; }
+    // 활동형만 고정 단계 검증. 흐름형은 stage가 핵심 용어(자유 문자열)이므로 검증 생략(단원안내 intro 포함).
+    if (!isFlow && !ACTIVITY_STAGES.includes(item.stage)) { warn(`items[${idx}] (${item.item_key}): "${item.stage}"는 활동형 stage 아님 → 건너뜀`); return null; }
     if (seen.has(key0)) { warn(`중복 item_key ${key0} → 건너뜀`); return null; }
     seen.add(key0);
 
