@@ -58,13 +58,24 @@ guides.forEach((u) => {
   for (const it of u.items) {
     ord[it.stage] = (ord[it.stage] || 0) + 1;
     const ok = it.youtubeId && /^[A-Za-z0-9_-]{11}$/.test(it.youtubeId);
-    items.push({
-      kit_id: KIT, item_key: `v${it.no}`, stage: it.stage, type: "video", sort_order: ord[it.stage],
-      title: it.title, description: `(${it.keyword})${it.placement ? ` ${it.placement}` : ""}`.trim(),
-      video_url: ok ? `https://www.youtube.com/watch?v=${it.youtubeId}` : `[유튜브 확인필요 cntntsSn ${it.cntntsSn}]`,
-      start_sec: it.start ?? "", end_sec: it.end ?? "",
-      video_title: it.title, video_desc: it.note,
-    });
+    const desc = `(${it.keyword})${it.placement ? ` ${it.placement}` : ""}`.trim();
+    if (ok) {
+      items.push({
+        kit_id: KIT, item_key: `v${it.no}`, stage: it.stage, type: "video", sort_order: ord[it.stage],
+        title: it.title, description: desc,
+        video_url: `https://www.youtube.com/watch?v=${it.youtubeId}`,
+        start_sec: it.start ?? "", end_sec: it.end ?? "",
+        video_title: it.title, video_desc: it.note,
+      });
+    } else {
+      // 유튜브 미추출(이미지 장면/JS렌더) → image 자리표시자(빌드 안전). 사용자가 확인·교체.
+      items.push({
+        kit_id: KIT, item_key: `v${it.no}`, stage: it.stage, type: "image", sort_order: ord[it.stage],
+        title: it.title, description: desc,
+        image_label: it.title, image_sub: it.note,
+        caption: `에듀나비 콘텐츠(cntntsSn ${it.cntntsSn}) · 사진/장면 확인 필요`,
+      });
+    }
   }
 
   for (const s of [...new Set(u.items.map((i) => i.stage))]) {
