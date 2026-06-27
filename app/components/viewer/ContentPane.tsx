@@ -26,7 +26,7 @@ function Intro({ it }: { it: Item }) {
       : [];
   // 소개문서: 단원의 목적 · 핵심 질문 · 성취기준 · 핵심 용어를 한 장의 문서로(에듀나비 안내문 형식)
   return (
-    <div className="sk-rise" style={{ ...card, borderRadius: 16, padding: "32px 34px" }}>
+    <div style={{ ...card, borderRadius: 16, padding: "32px 34px" }}>
       {it.core_idea && (
         <section style={{ marginBottom: 28 }}>
           <IntroHead emoji="📘" text="단원의 목적" />
@@ -69,8 +69,9 @@ function Intro({ it }: { it: Item }) {
   );
 }
 
-// 파사드: 처음엔 썸네일+재생버튼만, 클릭 시 유튜브 iframe 로드(무거운 플레이어 지연 → 뷰어 로딩 빠름)
-function Video({ it }: { it: Item }) {
+// 영상 플레이어(파사드 + 영화관 모드) — 처음엔 썸네일+재생버튼, 클릭 시 iframe(autoplay).
+// 스크롤 영역 좌우로 꽉 차는 검은 밴드. 너무 길어지면 높이 78vh로 캡(좌우 검은 여백).
+export function VideoPlayer({ it }: { it: Item }) {
   const [playing, setPlaying] = useState(false);
   let src = `https://www.youtube-nocookie.com/embed/${it.video_id}?rel=0&modestbranding=1&autoplay=1`;
   if (it.start_sec) src += `&start=${it.start_sec}`;
@@ -80,8 +81,8 @@ function Video({ it }: { it: Item }) {
   // onError(404)뿐 아니라 onLoad에서 naturalWidth로 placeholder를 감지해 hqdefault로 폴백.
   const fallbackHq = (img: HTMLImageElement) => { if (!img.src.endsWith("hqdefault.jpg")) img.src = hqThumb; };
   return (
-    <div className="sk-rise">
-      <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", borderRadius: 14, overflow: "hidden", background: "#000", boxShadow: "0 12px 32px rgba(15,23,42,.18)" }}>
+    <div style={{ width: "100%", background: "#000", display: "flex", justifyContent: "center" }}>
+      <div style={{ position: "relative", width: "100%", maxWidth: "calc(78vh * 16 / 9)", aspectRatio: "16 / 9" }}>
         {playing ? (
           <iframe src={src} title={it.video_title || it.title} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }} />
         ) : (
@@ -99,8 +100,17 @@ function Video({ it }: { it: Item }) {
           </button>
         )}
       </div>
+    </div>
+  );
+}
+
+// 영상 설명·캡션(영화관 밴드 아래 본문 영역에 표시)
+export function VideoMeta({ it }: { it: Item }) {
+  if (!it.video_desc && !it.caption) return null;
+  return (
+    <div>
       {it.video_desc && (
-        <div style={{ marginTop: 14, padding: "16px 18px", ...card, borderRadius: 13 }}>
+        <div style={{ padding: "16px 18px", ...card, borderRadius: 13 }}>
           <p style={{ margin: 0, fontSize: 14, fontWeight: 500, lineHeight: 1.75, color: "var(--color-slate-600)" }}>{it.video_desc}</p>
         </div>
       )}
@@ -112,7 +122,7 @@ function Video({ it }: { it: Item }) {
 function ImageBlock({ it, stage }: { it: Item; stage: Stage }) {
   const st = stageColor(stage);
   return (
-    <div className="sk-rise">
+    <div>
       {it.image_url ? (
         <img src={it.image_url} alt={it.image_label || it.title} loading="lazy" decoding="async" style={{ width: "100%", aspectRatio: "16 / 10", objectFit: "cover", borderRadius: 14, boxShadow: "0 8px 24px rgba(15,23,42,.1)", border: "1px solid var(--color-slate-100)" }} />
       ) : (
@@ -139,7 +149,7 @@ function Caption({ text }: { text: string }) {
 function Text({ it }: { it: Item }) {
   // body는 빌드 타임 새니타이즈 완료(scripts/sanitize.ts). P3에서 클라 DOMPurify 추가 예정(§9.1).
   return (
-    <div className="sk-rise" style={{ ...card, borderRadius: 16, padding: "30px 34px" }}>
+    <div style={{ ...card, borderRadius: 16, padding: "30px 34px" }}>
       <div className="sk-rich" dangerouslySetInnerHTML={{ __html: it.body ?? "" }} />
     </div>
   );
@@ -155,7 +165,8 @@ export default function ContentPane({ item, stage }: { item: Item | null; stage:
     );
   }
   if (item.type === "intro") return <Intro it={item} />;
-  if (item.type === "video") return <Video key={item.id} it={item} />; // key: 항목 전환 시 파사드 상태 초기화
+  // 영상은 ViewerPage가 영화관 모드(풀폭)로 직접 렌더 — 여기서는 폴백만
+  if (item.type === "video") return <div key={item.id}><VideoPlayer it={item} /><div style={{ marginTop: 14 }}><VideoMeta it={item} /></div></div>;
   if (item.type === "image") return <ImageBlock it={item} stage={stage} />;
   return <Text it={item} />;
 }

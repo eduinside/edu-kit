@@ -1,5 +1,7 @@
-import { X, Search, BookOpen, Link2, Heart } from "lucide-react";
+import { X, Search, BookOpen, Link2, Heart, ClipboardList } from "lucide-react";
 import Modal from "./Modal.tsx";
+
+const SURVEY_URL = "https://dgedu.link/kit-form";
 
 const STEPS: { icon: typeof Search; title: string; body: string }[] = [
   { icon: Search, title: "1. 찾기", body: "상단에서 학년·학기·교과를 고르고, ‘단원’ 칩으로 좁혀 원하는 수업꾸러미 카드를 찾으세요." },
@@ -40,6 +42,15 @@ export default function UsageGuide({ open, onClose }: { open: boolean; onClose: 
             꾸러미는 두 가지예요. <b style={{ color: "var(--color-slate-700)" }}>활동형</b>은 생각열기·탐구하기·확장하기로 이어지고, <b style={{ color: "var(--color-slate-700)" }}>핵심용어 흐름형</b>은 도입·전개·정리의 핵심 용어 영상으로 이어집니다.
           </p>
         </div>
+
+        <a href={SURVEY_URL} target="_blank" rel="noopener noreferrer"
+          style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginTop: 4, padding: "14px 18px", borderRadius: 12, background: "var(--color-brand-600)", color: "#fff", textDecoration: "none", fontSize: 13.5, fontWeight: 800, boxShadow: "var(--shadow-primary-soft)" }}>
+          <ClipboardList size={17} strokeWidth={2.3} /> 수업꾸러미 설문에 참여하기
+        </a>
+        <p style={{ margin: "2px 0 0", textAlign: "center", fontSize: 11.5, fontWeight: 500, color: "var(--color-slate-400)", lineHeight: 1.6 }}>
+          대구교육정보 에듀나비의{" "}
+          <a href="https://www.edunavi.kr/arc/main.do" target="_blank" rel="noopener noreferrer" style={{ color: "var(--color-brand-600)", fontWeight: 700, textDecoration: "none" }}>수업꾸러미</a>를 지원하기 위해 제작하였습니다.
+        </p>
       </div>
     </Modal>
   );

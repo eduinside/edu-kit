@@ -34,8 +34,8 @@ export default function KitCard({ kit, onOpen }: { kit: Kit; onOpen: () => void 
           <Icon size={11} color={accent} strokeWidth={2.2} />
           <span style={{ fontSize: 10, fontWeight: 800, color: accent }}>{kit.subject} · {kit.unit_no}단원</span>
         </div>
-        <div style={{ position: "absolute", right: -8, bottom: -14, opacity: 0.16 }}>
-          <Icon size={150} color={accent} strokeWidth={1} />
+        <div style={{ position: "absolute", right: -2, bottom: 8, opacity: 0.09 }}>
+          <Icon size={116} color={accent} strokeWidth={1} />
         </div>
         <div style={{ position: "absolute", left: 14, right: 14, bottom: 13 }}>
           <div style={{ fontSize: 19, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.25, color: accent }}>{kit.title}</div>

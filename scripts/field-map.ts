@@ -30,9 +30,15 @@ export function normalizeRow(row: Record<string, unknown>): Record<string, unkno
   return out;
 }
 
-/** stage 라벨 정규화 — 정본은 공백 없음('단원 안내' → '단원안내'). */
+// 고정 단계(활동형·흐름형)는 공백 없는 정본. 흐름형 핵심 용어 stage는 공백을 보존해야 함.
+const FIXED_STAGES = new Set(["단원안내", "생각열기", "탐구하기", "확장하기", "도입", "전개", "정리"]);
+
+/** stage 라벨 정규화 — 고정 단계는 공백 제거('단원 안내'→'단원안내'),
+ *  그 외(핵심 용어)는 내부 공백 보존('사막에 사는 동물' 유지, 양끝·중복 공백만 정리). */
 export function normalizeStage(s: string): string {
-  return s.replace(/\s+/g, "");
+  const trimmed = s.trim().replace(/\s+/g, " ");
+  const collapsed = trimmed.replace(/\s+/g, "");
+  return FIXED_STAGES.has(collapsed) ? collapsed : trimmed;
 }
 
 /** "구석기·신석기 ; 농경과 정착" → ["구석기·신석기", "농경과 정착"] */

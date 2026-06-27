@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, Navigate } from "react-router-dom";
 import { ChevronLeft, ChevronRight, Link2, Eye, Heart, Menu, Check } from "lucide-react";
 
 const NARROW_Q = "(max-width: 860px)";
 import Sidebar from "../components/viewer/Sidebar.tsx";
-import ContentPane from "../components/viewer/ContentPane.tsx";
+import ContentPane, { VideoPlayer, VideoMeta } from "../components/viewer/ContentPane.tsx";
 import { getKit } from "../lib/data.ts";
 import { getGroups, flatItems } from "../lib/kit-content.ts";
 import type { Item } from "../lib/data.ts";
@@ -73,13 +73,23 @@ export default function ViewerPage() {
     return () => { document.title = "수업꾸러미"; };
   }, [kitId, kit, sel?.item.item_key]);
 
-  const crumb = kit ? `초등 ${kit.grade}학년 · ${kit.sem} · ${kit.subject}` : "";
+  // 존재하지 않는 꾸러미 id(404 등)는 랜딩으로 자동 이동
+  if (!kit) return <Navigate to="/" replace />;
+
+  const crumb = `초등 ${kit.grade}학년 · ${kit.sem} · ${kit.subject}`;
 
   function copyLink() {
     try { navigator.clipboard?.writeText(`https://kit.dgedu.link/${kitId}`); } catch { /* noop */ }
     setCopied(true);
     setTimeout(() => setCopied(false), 1600);
   }
+
+  const navButtons = sel && (prevItem || nextItem) ? (
+    <div style={{ display: "flex", gap: 12, marginTop: 24 }}>
+      <NavButton dir="prev" item={prevItem} onSelect={selectItem} />
+      <NavButton dir="next" item={nextItem} onSelect={selectItem} />
+    </div>
+  ) : null;
 
   return (
     <div style={{ position: "fixed", inset: 0, zIndex: 50, background: "var(--color-paper)", display: "flex", flexDirection: "column", fontFamily: "var(--font-sans)", color: "var(--color-ink)" }}>
@@ -148,15 +158,21 @@ export default function ViewerPage() {
             </div>
           </div>
 
-          <div style={{ maxWidth: 1280, margin: "0 auto", padding: "26px 24px 80px" }}>
-            <ContentPane item={sel?.item ?? null} stage={sel?.group.stage ?? "단원안내"} />
-            {sel && (prevItem || nextItem) && (
-              <div style={{ display: "flex", gap: 12, marginTop: 28 }}>
-                <NavButton dir="prev" item={prevItem} onSelect={selectItem} />
-                <NavButton dir="next" item={nextItem} onSelect={selectItem} />
+          {sel?.item.type === "video" ? (
+            // 영화관 모드: 영상은 스크롤 영역 좌우 꽉 차게(풀폭 밴드), 설명·이동은 아래 본문 폭으로
+            <>
+              <VideoPlayer key={sel.item.id} it={sel.item} />
+              <div style={{ maxWidth: 1280, margin: "0 auto", padding: "20px 24px 80px" }}>
+                <VideoMeta it={sel.item} />
+                {navButtons}
               </div>
-            )}
-          </div>
+            </>
+          ) : (
+            <div style={{ maxWidth: 1280, margin: "0 auto", padding: "26px 24px 80px" }}>
+              <ContentPane item={sel?.item ?? null} stage={sel?.group.stage ?? "단원안내"} />
+              {navButtons}
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -185,8 +201,14 @@ function NavButton({ dir, item, onSelect }: { dir: "prev" | "next"; item: Item |
       {isPrev && <ChevronLeft size={18} style={{ color: "var(--color-slate-400)", flexShrink: 0 }} />}
       <span style={{ minWidth: 0, textAlign: isPrev ? "left" : "right" }}>
         <span style={{ display: "block", fontSize: 11, fontWeight: 700, color: "var(--color-slate-400)" }}>{isPrev ? "이전" : "다음"}</span>
-        <span style={{ display: "block", fontSize: 13.5, fontWeight: 700, color: "var(--color-ink)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-          {item ? item.title : isPrev ? "처음입니다" : "마지막입니다"}
+        <span style={{ display: "flex", alignItems: "center", gap: 6, minWidth: 0, justifyContent: isPrev ? "flex-start" : "flex-end" }}>
+          {item && (() => {
+            const st = stageColor(item.stage, item.sort_order);
+            return <span style={{ flexShrink: 0, padding: "2px 8px", borderRadius: 9999, background: st.soft, color: st.text, fontSize: 10, fontWeight: 800 }}>{item.stage}</span>;
+          })()}
+          <span style={{ fontSize: 13.5, fontWeight: 700, color: "var(--color-ink)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", minWidth: 0 }}>
+            {item ? item.title : isPrev ? "처음입니다" : "마지막입니다"}
+          </span>
         </span>
       </span>
       {!isPrev && <ChevronRight size={18} style={{ color: "var(--color-slate-400)", flexShrink: 0 }} />}
