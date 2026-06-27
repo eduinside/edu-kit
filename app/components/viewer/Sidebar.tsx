@@ -12,7 +12,7 @@ interface Props {
 
 export default function Sidebar({ groups, selKey, flowLabel, onSelect, onClose }: Props) {
   return (
-    <nav className="sk-scroll" aria-label="학습 목차" style={{ width: 330, flexShrink: 0, background: "#fff", borderRight: "1px solid var(--color-slate-100)", overflowY: "auto", padding: "14px 14px 40px" }}>
+    <nav className="sk-scroll" aria-label="학습 목차" style={{ width: 330, flexShrink: 0, height: "100%", minHeight: 0, background: "#fff", borderRight: "1px solid var(--color-slate-100)", overflowY: "auto", WebkitOverflowScrolling: "touch", overscrollBehavior: "contain", padding: "14px 14px 40px" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "4px 8px 12px" }}>
         <span style={{ fontSize: 10, fontWeight: 800, color: "var(--color-slate-400)", letterSpacing: ".06em" }}>{flowLabel}</span>
         <button type="button" className="icon-btn" onClick={onClose} aria-label="목차 접기" style={{ display: "inline-flex", alignItems: "center", gap: 4, height: 26, padding: "0 9px", border: "1px solid var(--color-slate-200)", borderRadius: 9999, background: "#fff", cursor: "pointer", color: "var(--color-slate-500)", fontSize: 10.5, fontWeight: 700 }}>

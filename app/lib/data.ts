@@ -22,21 +22,25 @@ export interface ViewerGroup {
   items: Item[];
 }
 
+// 단계 표준 순서 — 활동형(단원안내·생각열기·탐구하기·확장하기) + 흐름형(도입·전개·정리)
+const STAGE_ORDER: Stage[] = ["단원안내", "생각열기", "탐구하기", "확장하기", "도입", "전개", "정리"];
+
 export function getGroups(kitId: string): ViewerGroup[] {
-  const metas = STAGE_META.filter((m) => m.kit_id === kitId).sort(
-    (a, b) => a.sort_order - b.sort_order
-  );
   const its = ITEMS.filter((i) => i.kit_id === kitId);
-  return metas
-    .map((m) => ({
-      stage: m.stage,
-      question: m.question,
-      sort_order: m.sort_order,
-      items: its
-        .filter((i) => i.stage === m.stage)
-        .sort((a, b) => a.sort_order - b.sort_order),
-    }))
-    .filter((g) => g.items.length > 0);
+  const metaByStage = new Map(
+    STAGE_META.filter((m) => m.kit_id === kitId).map((m) => [m.stage, m])
+  );
+  // 그룹은 "실제 항목이 있는 stage"를 기준으로 구성한다.
+  // (stage_meta에 단원안내 행이 없어도 intro가 누락되지 않도록 — 메타는 질문/순서 보강용으로만 사용)
+  const rank = (s: Stage) => { const i = STAGE_ORDER.indexOf(s); return i < 0 ? 99 : i; };
+  return [...new Set(its.map((i) => i.stage))]
+    .sort((a, b) => rank(a) - rank(b) || (metaByStage.get(a)?.sort_order ?? 0) - (metaByStage.get(b)?.sort_order ?? 0))
+    .map((stage) => ({
+      stage,
+      question: metaByStage.get(stage)?.question ?? null,
+      sort_order: metaByStage.get(stage)?.sort_order ?? rank(stage),
+      items: its.filter((i) => i.stage === stage).sort((a, b) => a.sort_order - b.sort_order),
+    }));
 }
 
 export function flatItems(groups: ViewerGroup[]): Item[] {

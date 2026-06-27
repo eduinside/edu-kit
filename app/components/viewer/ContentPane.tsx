@@ -4,32 +4,55 @@ import { stageColor } from "../../lib/design.ts";
 
 const card = { background: "#fff", border: "1px solid var(--color-slate-100)", borderRadius: 14, boxShadow: "0 1px 2px rgba(15,23,42,.06)" } as const;
 
-function Intro({ it }: { it: Item }) {
+function IntroHead({ emoji, text }: { emoji: string; text: string }) {
   return (
-    <div className="sk-rise">
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginBottom: 16 }}>
-        {[["핵심 아이디어", it.core_idea], ["핵심 질문", it.core_question]].map(([h, body]) => (
-          <div key={h} style={{ ...card, padding: 20 }}>
-            <div style={{ fontSize: 11, fontWeight: 800, color: "var(--color-brand-600)", letterSpacing: ".03em", marginBottom: 9 }}>{h}</div>
-            <p style={{ margin: 0, fontSize: 14.5, fontWeight: 600, lineHeight: 1.7, color: "var(--color-slate-700)" }}>{body}</p>
+    <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 12 }}>
+      <span style={{ fontSize: 16, lineHeight: 1 }} aria-hidden>{emoji}</span>
+      <h3 style={{ margin: 0, fontSize: 14, fontWeight: 800, color: "var(--color-ink)", letterSpacing: "-.01em" }}>{text}</h3>
+      <span style={{ height: 1, flex: 1, background: "var(--color-slate-100)" }} />
+    </div>
+  );
+}
+
+function Intro({ it }: { it: Item }) {
+  const q = it.core_question?.trim();
+  const hasConcepts = it.concepts && it.concepts.length > 0;
+  // 소개문서: 단원의 목적 · 핵심 질문 · 성취기준 · 핵심 용어를 한 장의 문서로(에듀나비 안내문 형식)
+  return (
+    <div className="sk-rise" style={{ ...card, borderRadius: 16, padding: "32px 34px" }}>
+      {it.core_idea && (
+        <section style={{ marginBottom: 28 }}>
+          <IntroHead emoji="📘" text="단원의 목적" />
+          <p style={{ margin: 0, fontSize: 15, fontWeight: 600, lineHeight: 1.85, color: "var(--color-slate-700)" }}>{it.core_idea}</p>
+        </section>
+      )}
+
+      {q && (
+        <section style={{ marginBottom: 28 }}>
+          <IntroHead emoji="💡" text="핵심 질문" />
+          <p style={{ margin: 0, fontSize: 15, fontWeight: 700, lineHeight: 1.7, color: "var(--color-brand-700)" }}>{q}</p>
+        </section>
+      )}
+
+      {it.standard_text && (
+        <section style={{ marginBottom: hasConcepts ? 28 : 0 }}>
+          <IntroHead emoji="🏁" text="단원 성취기준" />
+          <div style={{ display: "flex", gap: 13, alignItems: "flex-start", padding: "16px 18px", background: "var(--color-brand-50)", border: "1px solid var(--color-brand-100)", borderRadius: 12 }}>
+            {it.standard_code && <span style={{ flexShrink: 0, padding: "4px 10px", borderRadius: 8, background: "#fff", fontSize: 11.5, fontWeight: 800, color: "var(--color-brand-700)", fontFamily: "var(--font-mono)" }}>{it.standard_code}</span>}
+            <p style={{ margin: 0, fontSize: 14, fontWeight: 600, lineHeight: 1.7, color: "var(--color-slate-700)" }}>{it.standard_text}</p>
           </div>
-        ))}
-      </div>
-      {it.concepts && it.concepts.length > 0 && (
-        <div style={{ ...card, padding: 20, marginBottom: 16 }}>
-          <div style={{ fontSize: 11, fontWeight: 800, color: "var(--color-slate-400)", letterSpacing: ".03em", marginBottom: 12 }}>핵심 개념</div>
+        </section>
+      )}
+
+      {hasConcepts && (
+        <section>
+          <IntroHead emoji="🧭" text="단원 핵심 용어" />
           <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-            {it.concepts.map((c) => (
-              <span key={c} style={{ padding: "7px 13px", borderRadius: 9999, background: "var(--color-brand-50)", color: "var(--color-brand-700)", fontSize: 13, fontWeight: 700 }}>{c}</span>
+            {it.concepts!.map((c) => (
+              <span key={c} style={{ padding: "8px 14px", borderRadius: 9999, background: "var(--color-brand-50)", color: "var(--color-brand-700)", fontSize: 13.5, fontWeight: 700 }}>{c}</span>
             ))}
           </div>
-        </div>
-      )}
-      {it.standard_text && (
-        <div style={{ display: "flex", gap: 13, padding: "18px 20px", background: "var(--color-brand-50)", border: "1px solid var(--color-brand-100)", borderRadius: 14 }}>
-          {it.standard_code && <div style={{ flexShrink: 0, padding: "4px 10px", height: "fit-content", borderRadius: 8, background: "#fff", fontSize: 11, fontWeight: 800, color: "var(--color-brand-700)", fontFamily: "var(--font-mono)" }}>{it.standard_code}</div>}
-          <p style={{ margin: 0, fontSize: 13.5, fontWeight: 600, lineHeight: 1.7, color: "var(--color-slate-600)" }}>{it.standard_text}</p>
-        </div>
+        </section>
       )}
     </div>
   );
@@ -41,18 +64,11 @@ function Video({ it }: { it: Item }) {
   if (it.end_sec) src += `&end=${it.end_sec}`;
   return (
     <div className="sk-rise">
-      {it.video_title && (
-        <div style={{ display: "flex", alignItems: "center", gap: 9, marginBottom: 13 }}>
-          <span style={{ display: "inline-flex", alignItems: "center", gap: 5, padding: "4px 10px", borderRadius: 9999, background: "var(--color-brand-50)", color: "var(--color-brand-700)", fontSize: 11, fontWeight: 800 }}>▶ 영상</span>
-          <span style={{ fontSize: 16, fontWeight: 800, letterSpacing: "-.01em" }}>{it.video_title}</span>
-        </div>
-      )}
       <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", borderRadius: 14, overflow: "hidden", background: "#000", boxShadow: "0 12px 32px rgba(15,23,42,.18)" }}>
         <iframe src={src} title={it.video_title || it.title} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen loading="lazy" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }} />
       </div>
       {it.video_desc && (
         <div style={{ marginTop: 14, padding: "16px 18px", ...card, borderRadius: 13 }}>
-          <div style={{ fontSize: 10.5, fontWeight: 800, color: "var(--color-slate-400)", letterSpacing: ".04em", marginBottom: 7 }}>영상 설명</div>
           <p style={{ margin: 0, fontSize: 14, fontWeight: 500, lineHeight: 1.75, color: "var(--color-slate-600)" }}>{it.video_desc}</p>
         </div>
       )}
