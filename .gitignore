@@ -42,6 +42,8 @@ Thumbs.db
 /data/edunavi/*.parsed.json
 /data/edunavi/*.youtube.json
 /data/edunavi/*.rows.json
+/data/edunavi/guides.json
+/data/edunavi/out.*
 /data/source.json
 
 # 로고 원본(크롭 전) — public/의 생성물만 커밋. 재생성: scripts/crop-logo.py

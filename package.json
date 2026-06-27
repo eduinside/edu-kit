@@ -8,6 +8,7 @@
     "seed:stats": "tsx scripts/seed-stats.ts",
     "import": "tsx scripts/import-source.ts",
     "import:edunavi": "tsx scripts/import-edunavi.ts",
+    "edunavi:rows": "tsx scripts/build-edunavi-rows.ts",
     "predev": "npm run sync",
     "dev": "vite",
     "prebuild": "npm run sync",

@@ -1,0 +1,73 @@
+// data/edunavi/guides.json(브라우저 수집 결과) → 시트 붙여넣기용 행 생성.
+// 실행: npm run edunavi:rows
+// 출력: data/edunavi/out.{kits,items,stage_meta}.tsv (시트에 그대로 붙여넣기) + out.rows.json
+
+import { readFileSync, writeFileSync } from "node:fs";
+import { resolve, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const DIR = resolve(ROOT, "data/edunavi");
+
+interface GItem { no: number; keyword: string; cntntsSn: string; title: string; placement: string; stage: string; start: number | null; end: number | null; note: string; youtubeId: string | null; }
+interface Guide { guideSn: number; packageSn: string; grade: number | null; subject: string; standard_code: string; standard_text: string; purpose: string; keywords: string[]; items: GItem[]; }
+
+const guides: Guide[] = JSON.parse(readFileSync(resolve(DIR, "guides.json"), "utf8"));
+
+const STAGE_ORDER: Record<string, number> = { 단원안내: 1, 생각열기: 2, 탐구하기: 3, 확장하기: 4 };
+const KIT_COLS = ["id", "title", "grade", "sem", "subject", "unit", "unit_no", "flow", "sort_order", "published"];
+const ITEM_COLS = ["kit_id", "item_key", "stage", "type", "title", "description", "sort_order", "core_idea", "core_question", "concepts", "standard_code", "standard_text", "video_url", "start_sec", "end_sec", "video_title", "video_desc", "video_license", "caption", "image_url", "image_label", "image_sub", "image_source", "image_license", "body"];
+const SM_COLS = ["kit_id", "stage", "question", "sort_order"];
+
+const kits: Record<string, unknown>[] = [];
+const items: Record<string, unknown>[] = [];
+const stageMeta: Record<string, unknown>[] = [];
+
+guides.forEach((u, idx) => {
+  const KIT = `na${u.packageSn || idx}`;
+  kits.push({
+    id: KIT, title: "[단원 제목 입력]", grade: u.grade ?? "[학년]", sem: "[학기]",
+    subject: u.subject || "[교과]", unit: "[대단원명]", unit_no: "[번호]",
+    flow: "activity", sort_order: idx + 1, published: false,
+  });
+
+  items.push({
+    kit_id: KIT, item_key: "intro", stage: "단원안내", type: "intro", sort_order: 1,
+    title: "핵심 아이디어 · 성취기준", description: "이 단원에서 무엇을 배울까요",
+    core_idea: u.purpose,
+    core_question: u.keywords.length ? `${u.keywords.join("·")}는 무엇이며 어떻게 살펴볼 수 있을까?` : "이 단원에서 무엇을 배울까?",
+    concepts: u.keywords.join(" ; "), standard_code: u.standard_code, standard_text: u.standard_text,
+  });
+
+  const ord: Record<string, number> = {};
+  for (const it of u.items) {
+    ord[it.stage] = (ord[it.stage] || 0) + 1;
+    const ok = it.youtubeId && /^[A-Za-z0-9_-]{11}$/.test(it.youtubeId);
+    items.push({
+      kit_id: KIT, item_key: `v${it.no}`, stage: it.stage, type: "video", sort_order: ord[it.stage],
+      title: it.title, description: `(${it.keyword})${it.placement ? ` ${it.placement}` : ""}`.trim(),
+      video_url: ok ? `https://www.youtube.com/watch?v=${it.youtubeId}` : `[유튜브 확인필요 cntntsSn ${it.cntntsSn}]`,
+      start_sec: it.start ?? "", end_sec: it.end ?? "",
+      video_title: it.title, video_desc: it.note,
+    });
+  }
+
+  for (const s of [...new Set(u.items.map((i) => i.stage))]) {
+    stageMeta.push({ kit_id: KIT, stage: s, question: "", sort_order: STAGE_ORDER[s] ?? 9 });
+  }
+});
+
+function tsv(cols: string[], rows: Record<string, unknown>[]): string {
+  const cell = (v: unknown) => String(v ?? "").replace(/[\t\r\n]+/g, " ");
+  return [cols.join("\t"), ...rows.map((r) => cols.map((c) => cell(r[c])).join("\t"))].join("\n") + "\n";
+}
+
+writeFileSync(resolve(DIR, "out.kits.tsv"), tsv(KIT_COLS, kits));
+writeFileSync(resolve(DIR, "out.items.tsv"), tsv(ITEM_COLS, items));
+writeFileSync(resolve(DIR, "out.stage_meta.tsv"), tsv(SM_COLS, stageMeta));
+writeFileSync(resolve(DIR, "out.rows.json"), JSON.stringify({ kits, items, stage_meta: stageMeta }, null, 2) + "\n");
+
+console.log(`✓ 단원 ${kits.length}개 → kits ${kits.length}, items ${items.length}, stage_meta ${stageMeta.length}`);
+const vids = items.filter((i) => i.type === "video");
+console.log(`  영상 ${vids.length}개 (유튜브 ${vids.filter((i) => String(i.video_url).startsWith("http")).length})`);
+console.log(`  → data/edunavi/out.{kits,items,stage_meta}.tsv (시트에 붙여넣기), out.rows.json`);
