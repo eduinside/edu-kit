@@ -10,6 +10,7 @@
     "import:edunavi": "tsx scripts/import-edunavi.ts",
     "edunavi:rows": "tsx scripts/build-edunavi-rows.ts",
     "reclassify": "tsx scripts/reclassify-by-keyword.ts",
+    "og": "python scripts/gen-og.py",
     "predev": "npm run sync",
     "dev": "vite",
     "prebuild": "npm run sync",

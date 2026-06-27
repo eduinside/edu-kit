@@ -40,7 +40,7 @@ export const onRequest = async (context: Ctx): Promise<Response> => {
   const title = `${kit.title} · 수업꾸러미`;
   const desc = `초등 ${kit.grade}학년 · ${kit.sem} · ${kit.subject} · ${kit.unit}`;
   const ogUrl = `${url.origin}/${kit.id}`;
-  const img = `${url.origin}/logo.png`;
+  const img = `${url.origin}/og/${kit.id}.png`; // 꾸러미별 브랜드 카드(scripts/gen-og.py 생성)
   const tags =
     `<meta property="og:type" content="article"/>` +
     `<meta property="og:site_name" content="수업꾸러미"/>` +
@@ -48,13 +48,17 @@ export const onRequest = async (context: Ctx): Promise<Response> => {
     `<meta property="og:description" content="${esc(desc)}"/>` +
     `<meta property="og:url" content="${esc(ogUrl)}"/>` +
     `<meta property="og:image" content="${esc(img)}"/>` +
-    `<meta name="twitter:card" content="summary"/>` +
+    `<meta property="og:image:width" content="1200"/>` +
+    `<meta property="og:image:height" content="630"/>` +
+    `<meta name="twitter:card" content="summary_large_image"/>` +
     `<meta name="twitter:title" content="${esc(title)}"/>` +
     `<meta name="twitter:description" content="${esc(desc)}"/>` +
     `<meta name="twitter:image" content="${esc(img)}"/>`;
 
   let html = await res.text();
   html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`);
+  // index.html의 기본 og/twitter 메타 제거 후 꾸러미별 메타 주입(중복 방지)
+  html = html.replace(/\s*<meta[^>]*(?:property="og:|name="twitter:)[^>]*>/g, "");
   html = html.replace("</head>", tags + "</head>");
 
   const headers = new Headers(res.headers);
