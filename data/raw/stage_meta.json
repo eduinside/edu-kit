@@ -1,25 +1,1262 @@
 [
   {
-    "kit_id": "rra7",
-    "stage": "단원안내",
-    "sort_order": 1
-  },
-  {
-    "kit_id": "rra7",
+    "kit_id": "na1340",
     "stage": "생각열기",
-    "question": "도구가 달라지면 삶도 달라질까?",
     "sort_order": 2
   },
   {
-    "kit_id": "rra7",
+    "kit_id": "na1340",
     "stage": "탐구하기",
-    "question": "고조선은 어떻게 세워지고 무엇을 남겼을까?",
     "sort_order": 3
   },
   {
-    "kit_id": "rra7",
+    "kit_id": "na1340",
     "stage": "확장하기",
-    "question": "우리 역사의 첫 국가는 어떤 의미가 있을까?",
     "sort_order": 4
+  },
+  {
+    "kit_id": "na1339",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1339",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1339",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1338",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1338",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1338",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1337",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1337",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1337",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1336",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1336",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1336",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1329",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1329",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1328",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1328",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1328",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1327",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1327",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1327",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1326",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1326",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1326",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1698",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1698",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1697",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1697",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1696",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1696",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1695",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1695",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1695",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1694",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1694",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1694",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1693",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1693",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1692",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1692",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1692",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1691",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1691",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1691",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1690",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1690",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1690",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1340",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1340",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1339",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1339",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1339",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1338",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1338",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1338",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1337",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1337",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1337",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1336",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1335",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1335",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1335",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1257",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1257",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1257",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1256",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1256",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1256",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1255",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1255",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1255",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1254",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1254",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1254",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1253",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1253",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1252",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1252",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1252",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1246",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1246",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1246",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1245",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1245",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1245",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1244",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1244",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1244",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1243",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1243",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1243",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1689",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1689",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1688",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1688",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1687",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1687",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1686",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1685",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1685",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1685",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1684",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1684",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1683",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1683",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1682",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1681",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1681",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1681",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1680",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1257",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1257",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1256",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1255",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1255",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1254",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1254",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1679",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1679",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1679",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1678",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1678",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1678",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1677",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1677",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1676",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1676",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1676",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1675",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1675",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1675",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1674",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1674",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1674",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1673",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1673",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1673",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1672",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1672",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1672",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1671",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1671",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1671",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1670",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1670",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1670",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1679",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1679",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1678",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1678",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1677",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1677",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1677",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1676",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1676",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1675",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1675",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1675",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1674",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1674",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1674",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1673",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1673",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1673",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1672",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1672",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1672",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1671",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1671",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1671",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1670",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1670",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1526",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1526",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1525",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1525",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1524",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1524",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1973",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1973",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1973",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1651",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1651",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1651",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1650",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1650",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1650",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1649",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1649",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1649",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1648",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1648",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1648",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1647",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1647",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1647",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1646",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1646",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1646",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1645",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1645",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1645",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1644",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1644",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1644",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1643",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1643",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1643",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1642",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1642",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1642",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1651",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1651",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1651",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1650",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1650",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1650",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1649",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1649",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1649",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1648",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1648",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1648",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1647",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1647",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1647",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1646",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1646",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1646",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1645",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1645",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1645",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1644",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1644",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1644",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1643",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1643",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1643",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1642",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1642",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1642",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1515",
+    "stage": "확장하기",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "na1515",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1515",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1514",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1514",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1513",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1513",
+    "stage": "생각열기",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "na1523",
+    "stage": "탐구하기",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "na1523",
+    "stage": "생각열기",
+    "sort_order": 2
   }
 ]
