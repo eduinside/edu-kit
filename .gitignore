@@ -38,5 +38,10 @@ Thumbs.db
 # Cloudflare 로컬 상태(wrangler/pages dev)
 .wrangler/
 
+# 에듀나비 변환 산출물(*.html 샘플만 커밋, 나머지는 생성물)
+/data/edunavi/*.parsed.json
+/data/edunavi/*.youtube.json
+/data/source.json
+
 # 로고 원본(크롭 전) — public/의 생성물만 커밋. 재생성: scripts/crop-logo.py
 ChatGPT Image*.png

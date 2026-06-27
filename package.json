@@ -7,6 +7,7 @@
     "sync": "tsx scripts/sheet-to-json.ts",
     "seed:stats": "tsx scripts/seed-stats.ts",
     "import": "tsx scripts/import-source.ts",
+    "import:edunavi": "tsx scripts/import-edunavi.ts",
     "predev": "npm run sync",
     "dev": "vite",
     "prebuild": "npm run sync",
