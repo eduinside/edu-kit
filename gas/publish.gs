@@ -41,13 +41,12 @@ function 발행() {
     // 빈 id 칸에 shortId 자동 부여 후 시트에 되써서 영구 고정(URL 안정)
     var newIds = ensureKitIds_();
 
-    var changed = [];
+    // 3개 탭을 한 커밋으로(변경된 파일만) → Pages 빌드 1회
+    var files = {};
     CONFIG.tabs.forEach(function (tab) {
-      var json = JSON.stringify(tabToRows(tab), null, 2) + '\n';
-      if (commitFile(token, CONFIG.dir + '/' + tab + '.json', json, '발행: ' + tab)) {
-        changed.push(tab);
-      }
+      files[CONFIG.dir + '/' + tab + '.json'] = JSON.stringify(tabToRows(tab), null, 2) + '\n';
     });
+    var changed = commitFiles(token, files);
 
     var detail =
       (newIds.length ? 'id부여[' + newIds.join(',') + '] ' : '') +
@@ -151,41 +150,43 @@ function tabToRows(tabName) {
   return rows;
 }
 
-/** GitHub Contents API 로 파일 생성/갱신. 내용이 같으면 skip(false) 반환. */
-function commitFile(token, path, content, message) {
-  var base = 'https://api.github.com/repos/' + CONFIG.owner + '/' + CONFIG.repo + '/contents/' + path;
-  var headers = {
-    Authorization: 'token ' + token,
-    Accept: 'application/vnd.github+json',
-    'User-Agent': 'edu-kit-gas',
-  };
+/**
+ * 여러 파일을 GitHub Git Data API로 "한 커밋"에 올린다(변경된 파일만).
+ * → push 1회 → Cloudflare Pages 빌드 1회. 변경 없으면 [] 반환(커밋 안 함).
+ * files: { 'data/raw/kits.json': '내용', ... }. 반환: 변경된 탭 이름 배열.
+ */
+function commitFiles(token, files) {
+  var REPO = 'https://api.github.com/repos/' + CONFIG.owner + '/' + CONFIG.repo;
+  var H = { Authorization: 'token ' + token, Accept: 'application/vnd.github+json', 'User-Agent': 'edu-kit-gas' };
 
-  // 기존 파일 sha + 내용 조회
-  var sha = null, existing = null;
-  var getRes = UrlFetchApp.fetch(base + '?ref=' + CONFIG.branch, {
-    method: 'get', headers: headers, muteHttpExceptions: true,
-  });
-  if (getRes.getResponseCode() === 200) {
-    var meta = JSON.parse(getRes.getContentText());
-    sha = meta.sha;
-    existing = Utilities.newBlob(Utilities.base64Decode(meta.content)).getDataAsString();
+  function api(method, path, payload) {
+    var res = UrlFetchApp.fetch(REPO + path, {
+      method: method, headers: H, contentType: 'application/json',
+      payload: payload ? JSON.stringify(payload) : null, muteHttpExceptions: true,
+    });
+    var code = res.getResponseCode();
+    if (code < 200 || code >= 300) throw new Error('GitHub ' + method + ' ' + path + ' (' + code + '): ' + res.getContentText());
+    return JSON.parse(res.getContentText() || '{}');
   }
-  if (existing === content) return false; // 변경 없음
 
-  var payload = {
-    message: message,
-    content: Utilities.base64Encode(content, Utilities.Charset.UTF_8),
-    branch: CONFIG.branch,
-  };
-  if (sha) payload.sha = sha;
-
-  var putRes = UrlFetchApp.fetch(base, {
-    method: 'put', headers: headers, contentType: 'application/json',
-    payload: JSON.stringify(payload), muteHttpExceptions: true,
-  });
-  var code = putRes.getResponseCode();
-  if (code !== 200 && code !== 201) {
-    throw new Error('GitHub 커밋 실패(' + code + '): ' + putRes.getContentText());
+  // 변경된 파일만 추림(현재 내용과 비교)
+  var changedPaths = [];
+  for (var path in files) {
+    var cur = null;
+    var g = UrlFetchApp.fetch(REPO + '/contents/' + path + '?ref=' + CONFIG.branch, { method: 'get', headers: H, muteHttpExceptions: true });
+    if (g.getResponseCode() === 200) cur = Utilities.newBlob(Utilities.base64Decode(JSON.parse(g.getContentText()).content)).getDataAsString();
+    if (cur !== files[path]) changedPaths.push(path);
   }
-  return true;
+  if (!changedPaths.length) return [];
+
+  // base 커밋/트리 → 새 트리 → 새 커밋 → ref 이동 (모두 1커밋)
+  var ref = api('get', '/git/ref/heads/' + CONFIG.branch);
+  var baseSha = ref.object.sha;
+  var baseCommit = api('get', '/git/commits/' + baseSha);
+  var tree = changedPaths.map(function (p) { return { path: p, mode: '100644', type: 'blob', content: files[p] }; });
+  var newTree = api('post', '/git/trees', { base_tree: baseCommit.tree.sha, tree: tree });
+  var names = changedPaths.map(function (p) { return p.split('/').pop().replace(/\.json$/, ''); });
+  var commit = api('post', '/git/commits', { message: '발행: ' + names.join(', '), tree: newTree.sha, parents: [baseSha] });
+  api('patch', '/git/refs/heads/' + CONFIG.branch, { sha: commit.sha });
+  return names;
 }
