@@ -67,6 +67,18 @@ function persistScope(s: Scope) {
   try { localStorage.setItem(PREF_KEY, JSON.stringify(s)); } catch { /* 비공개 모드 등 */ }
 }
 
+// 홈 히어로 문구 — 접속할 때마다 8개 중 하나를 랜덤으로(따뜻한 톤).
+const HERO_COPY: { title: string; subtitle: string }[] = [
+  { title: "오늘 수업, 어떤 꾸러미로 열까요?", subtitle: "단원을 고르면 영상·자료·활동이 한 화면에 담긴 수업꾸러미가 열립니다." },
+  { title: "오늘은 어떤 이야기로 아이들을 만날까요?", subtitle: "단원만 고르면 영상·자료·활동이 한자리에 모인 꾸러미가 펼쳐집니다." },
+  { title: "수업 준비, 오늘은 가볍게 시작해요.", subtitle: "학년·학기·교과·단원으로 고르면 필요한 자료가 한 화면에 담깁니다." },
+  { title: "선생님의 오늘 수업을 응원합니다.", subtitle: "단원을 고르면 영상·읽기자료·활동이 꾸러미 하나로 열립니다." },
+  { title: "한 단원, 한 꾸러미면 충분해요.", subtitle: "흩어진 영상과 자료를 모아 한 화면에서 바로 수업하세요." },
+  { title: "아이들과 나눌 한 시간, 여기서 시작해요.", subtitle: "단원을 고르면 영상·자료·활동이 담긴 수업꾸러미가 열립니다." },
+  { title: "오늘 수업, 무엇으로 채워볼까요?", subtitle: "단원만 고르면 필요한 영상과 자료가 한 화면에 모입니다." },
+  { title: "찾는 시간은 줄이고, 가르치는 시간은 늘려요.", subtitle: "학년·학기·교과·단원으로 고르면 수업꾸러미가 바로 열립니다." },
+];
+
 // 빈 상태일 때: 실제 자료가 있는(공개된) 조건 중 현재 선택과 가장 비슷한 것을 추천.
 function recommendScope(grade: Grade, sem: Semester, subject: Subject) {
   const map = new Map<string, { grade: Grade; sem: Semester; subject: Subject; count: number }>();
@@ -91,6 +103,8 @@ export default function HomePage() {
   const [showGuide, setShowGuide] = useState(false);
   // 최초 마운트 1회만 결정(랜덤 학년 고정). URL 파라미터가 있으면 그것이 우선.
   const [initialScope] = useState(resolveInitialScope);
+  // 히어로 문구도 마운트 시 1회 랜덤 선택(렌더마다 바뀌지 않도록)
+  const [hero] = useState(() => HERO_COPY[Math.floor(Math.random() * HERO_COPY.length)]!);
 
   const grade = Number(params.get("grade") ?? initialScope.grade) as Grade;
   const sem = (params.get("sem") ?? initialScope.sem) as Semester;
@@ -138,8 +152,8 @@ export default function HomePage() {
             <span style={{ width: 6, height: 6, borderRadius: "50%", background: "var(--color-brand-500)" }} />
             <span style={{ fontSize: 11, fontWeight: 700, color: "var(--color-brand-700)" }}>학년·학기·교과·단원으로 찾는 수업 콘텐츠</span>
           </div>
-          <h1 style={{ margin: 0, fontSize: 40, fontWeight: 800, letterSpacing: "-.025em" }}>오늘 수업, 어떤 꾸러미로 열까요?</h1>
-          <p style={{ margin: "11px 0 0", fontSize: 15, fontWeight: 500, color: "var(--color-slate-500)", lineHeight: 1.6 }}>단원을 고르면 영상·자료·활동이 한 화면에 담긴 수업꾸러미가 열립니다.</p>
+          <h1 style={{ margin: 0, fontSize: 40, fontWeight: 800, letterSpacing: "-.025em" }}>{hero.title}</h1>
+          <p style={{ margin: "11px 0 0", fontSize: 15, fontWeight: 500, color: "var(--color-slate-500)", lineHeight: 1.6 }}>{hero.subtitle}</p>
         </div>
 
         {/* 필터 카드 */}
