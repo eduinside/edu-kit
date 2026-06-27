@@ -86,16 +86,24 @@ function fail(msg: string): never {
   throw new Error(`[sheet-to-json] ${msg}`);
 }
 
+// 결손/이상 행은 빌드를 깨지 않고 폴백·건너뜀 + 경고(빌드 로그에 남음). 대량 임포트 회복력.
+let _warnCount = 0;
+function warn(msg: string): void {
+  _warnCount++;
+  console.warn(`⚠ [sheet-to-json] ${msg}`);
+}
+
 function buildKits(): Kit[] {
   const rows = readRaw("kits.json");
-  // 빈 id 자동 부여(안전망). 발행 시엔 GAS가 시트에 부여하므로 보통 여기 안 탐.
   const ids = new Set<string>(rows.map((r) => String(r.id ?? "").trim()).filter(Boolean));
-  return rows.map((r, idx) => {
+  const used = new Set<string>();
+  const out: Kit[] = [];
+  rows.forEach((r, idx) => {
     if (!r.id) {
       const id = generateUniqueId(ids);
       ids.add(id);
       r.id = id;
-      console.warn(`⚠ kits[${idx}] id 비어 자동 생성: ${id} — 영구 안정 위해 발행(GAS)으로 시트에 부여 권장`);
+      warn(`kits[${idx}] id 비어 자동 생성: ${id}`);
     }
     const parsed = {
       ...r,
@@ -105,9 +113,19 @@ function buildKits(): Kit[] {
       published: toBool(r.published),
     };
     const res = KitSchema.safeParse(parsed);
-    if (!res.success) fail(`kits[${idx}] (${r.id ?? "?"}): ${res.error.issues.map((i) => i.path.join(".") + " " + i.message).join("; ")}`);
-    return res.data as Kit;
+    if (!res.success) {
+      warn(`kits[${idx}] (${r.id}) 건너뜀: ${res.error.issues.map((i) => i.path.join(".") + " " + i.message).join("; ")}`);
+      return;
+    }
+    const kit = res.data as Kit;
+    if (used.has(kit.id)) {
+      warn(`kits[${idx}] 중복 id "${kit.id}" → 건너뜀(첫 항목 유지)`);
+      return;
+    }
+    used.add(kit.id);
+    out.push(kit);
   });
+  return out;
 }
 
 function buildItems(kits: Kit[]): Item[] {
@@ -117,6 +135,7 @@ function buildItems(kits: Kit[]): Item[] {
   const items = readRaw("items.json").map((r, idx) => {
     const stage = normalizeStage(String(r.stage ?? ""));
     const isFlow = flowById.get(String(r.kit_id)) === "flow";
+    const key0 = `${r.kit_id ?? "?"}/${r.item_key ?? idx}`;
 
     const base: Record<string, unknown> = {
       ...r,
@@ -127,47 +146,53 @@ function buildItems(kits: Kit[]): Item[] {
       concepts: typeof r.concepts === "string" ? splitConcepts(r.concepts) : r.concepts,
     };
 
-    // 영상: URL → video_id 추출
-    if (base.type === "video") {
-      const vid = extractVideoId((base.video_url as string) ?? (base.video_id as string));
-      if (!vid) fail(`items[${idx}] (${r.item_key}): 유효한 video_id 추출 실패`);
-      base.video_id = vid;
-      // 흐름형: description ← video_title (없으면 자동 채움, 의도된 중복)
-      if (isFlow && !base.description && base.video_title) {
-        base.description = base.video_title;
-      }
+    // 제목 폴백(필수) — 빈 제목으로 빌드 깨지지 않게
+    if (!base.title || !String(base.title).trim()) {
+      base.title = base.video_title || base.image_label || `항목 ${r.item_key ?? idx}`;
+      warn(`items[${idx}] (${r.item_key}): 빈 제목 → 폴백 "${base.title}"`);
     }
 
-    // 본문: 마크다운 → HTML → 새니타이즈 게이트
+    // 영상: URL → video_id. 없으면 건너뜀(빌드 유지)
+    if (base.type === "video") {
+      const vid = extractVideoId((base.video_url as string) ?? (base.video_id as string));
+      if (!vid) { warn(`items[${idx}] (${r.item_key}): 영상 URL 없음 → 건너뜀`); return null; }
+      base.video_id = vid;
+      if (isFlow && !base.description && base.video_title) base.description = base.video_title;
+    }
+
+    // 본문: 마크다운 → HTML → 새니타이즈. body 없으면 건너뜀
     if (base.type === "text") {
-      if (!base.body) fail(`items[${idx}] (${r.item_key}): text 항목에 body 필요`);
+      if (!base.body) { warn(`items[${idx}] (${r.item_key}): text body 없음 → 건너뜀`); return null; }
       const html = markdownToHtml(String(base.body));
-      base.body = assertSafeHtml(html, `items[${idx}] ${r.item_key}`);
+      try { base.body = assertSafeHtml(html, `items[${idx}] ${r.item_key}`); }
+      catch (e) { warn(`items[${idx}] (${r.item_key}): 본문 새니타이즈 실패 → 건너뜀 (${(e as Error).message})`); return null; }
+    }
+
+    // intro 결손 폴백
+    if (base.type === "intro") {
+      if (!base.core_idea) base.core_idea = "이 단원의 핵심 내용을 살펴봅니다.";
+      if (!base.core_question) base.core_question = "이 단원에서 무엇을 배울까?";
+    }
+    // image 라벨 폴백
+    if (base.type === "image" && !base.image_url && !base.image_label) {
+      base.image_label = base.title;
     }
 
     const res = ItemSchema.safeParse(base);
-    if (!res.success) fail(`items[${idx}] (${r.item_key}): ${res.error.issues.map((i) => i.path.join(".") + " " + i.message).join("; ")}`);
+    if (!res.success) { warn(`items[${idx}] (${r.item_key}) 건너뜀: ${res.error.issues.map((i) => i.path.join(".") + " " + i.message).join("; ")}`); return null; }
     const item = res.data;
 
-    // 무결성 검증
-    if (!flowById.has(item.kit_id)) fail(`items[${idx}]: 존재하지 않는 kit_id "${item.kit_id}"`);
+    // 무결성: 깨진 행은 건너뜀(빌드 유지)
+    if (!flowById.has(item.kit_id)) { warn(`items[${idx}]: 존재하지 않는 kit_id "${item.kit_id}" → 건너뜀`); return null; }
     const stages = isFlow ? FLOW_STAGES : ACTIVITY_STAGES;
-    if (!stages.includes(item.stage)) fail(`items[${idx}] (${item.item_key}): "${item.stage}"는 ${isFlow ? "흐름형" : "활동형"} stage가 아님`);
-    const key = `${item.kit_id}/${item.item_key}`;
-    if (seen.has(key)) fail(`중복 item_key: ${key}`);
-    seen.add(key);
-
-    if (item.type === "intro" && (!item.core_idea || !item.core_question)) {
-      fail(`items[${idx}] (${item.item_key}): intro는 core_idea/core_question 필요`);
-    }
-    if (item.type === "image" && !item.image_url && !item.image_label) {
-      fail(`items[${idx}] (${item.item_key}): image는 image_url 또는 image_label 필요`);
-    }
+    if (!stages.includes(item.stage)) { warn(`items[${idx}] (${item.item_key}): "${item.stage}"는 ${isFlow ? "흐름형" : "활동형"} stage 아님 → 건너뜀`); return null; }
+    if (seen.has(key0)) { warn(`중복 item_key ${key0} → 건너뜀`); return null; }
+    seen.add(key0);
 
     return { id: `${item.kit_id}_${item.item_key}`, ...item } as Item;
   });
 
-  return items;
+  return items.filter((x): x is Item => x !== null);
 }
 
 function buildStageMeta(kits: Kit[]): StageMeta[] {
@@ -181,22 +206,14 @@ function buildStageMeta(kits: Kit[]): StageMeta[] {
       sort_order: toInt(r.sort_order),
     };
     const res = StageMetaSchema.safeParse(parsed);
-    if (!res.success) fail(`stage_meta[${idx}]: ${res.error.issues.map((i) => i.path.join(".") + " " + i.message).join("; ")}`);
-    if (!ids.has(res.data.kit_id)) fail(`stage_meta[${idx}]: 존재하지 않는 kit_id "${res.data.kit_id}"`);
+    if (!res.success) { warn(`stage_meta[${idx}] 건너뜀: ${res.error.issues.map((i) => i.path.join(".") + " " + i.message).join("; ")}`); return null; }
+    if (!ids.has(res.data.kit_id)) { warn(`stage_meta[${idx}]: 존재하지 않는 kit_id "${res.data.kit_id}" → 건너뜀`); return null; }
     return res.data as StageMeta;
-  });
+  }).filter((x): x is StageMeta => x !== null);
 }
 
 function main() {
-  const kits = buildKits();
-
-  // id 유일성
-  const idSet = new Set<string>();
-  for (const k of kits) {
-    if (idSet.has(k.id)) fail(`중복 kit id: ${k.id}`);
-    idSet.add(k.id);
-  }
-
+  const kits = buildKits(); // 중복 id는 buildKits에서 첫 항목만 유지
   const items = buildItems(kits);
   const stageMeta = buildStageMeta(kits);
 
@@ -211,6 +228,7 @@ function main() {
   console.log(`✓ kits: ${kits.length} (공개 ${kits.filter((k) => k.published).length})`);
   console.log(`✓ items: ${items.length}`);
   console.log(`✓ stage_meta: ${stageMeta.length}`);
+  if (_warnCount) console.log(`⚠ 경고 ${_warnCount}건(자동 보정/건너뜀) — 위 로그 확인. 빌드는 계속 진행됨.`);
   console.log(`→ data/kits.json · items.json · stage_meta.json`);
 }
 
