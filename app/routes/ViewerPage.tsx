@@ -5,7 +5,8 @@ import { ChevronLeft, ChevronRight, Link2, Eye, Heart, Menu, Check } from "lucid
 const NARROW_Q = "(max-width: 860px)";
 import Sidebar from "../components/viewer/Sidebar.tsx";
 import ContentPane from "../components/viewer/ContentPane.tsx";
-import { getKit, getGroups, flatItems } from "../lib/data.ts";
+import { getKit } from "../lib/data.ts";
+import { getGroups, flatItems } from "../lib/kit-content.ts";
 import type { Item } from "../lib/data.ts";
 import { stageColor, flowLabel } from "../lib/design.ts";
 import { statsFor } from "../lib/stats.ts";

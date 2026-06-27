@@ -1,7 +1,6 @@
 /* 수업꾸러미 디자인 토큰 — edu-link/src/client/index.css 복사 + 단계색·교과팔레트·semantic 추가.
    토큰 출처: school-portal-r2 / Codeit blue. 프로토타입(수업꾸러미.dc.html)과 일치. */
 @import "tailwindcss";
-@import "@heroui/styles";
 
 @theme {
   /* Typography — Pretendard */

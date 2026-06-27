@@ -1,5 +1,5 @@
 import { ChevronsLeft } from "lucide-react";
-import type { ViewerGroup } from "../../lib/data.ts";
+import type { ViewerGroup } from "../../lib/kit-content.ts";
 import { stageColor, TYPE_BADGE } from "../../lib/design.ts";
 
 interface Props {

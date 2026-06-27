@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Play, Image as ImageIcon } from "lucide-react";
 import type { Item, Stage } from "../../lib/data.ts";
 import { stageColor } from "../../lib/design.ts";
@@ -58,14 +59,30 @@ function Intro({ it }: { it: Item }) {
   );
 }
 
+// 파사드: 처음엔 썸네일+재생버튼만, 클릭 시 유튜브 iframe 로드(무거운 플레이어 지연 → 뷰어 로딩 빠름)
 function Video({ it }: { it: Item }) {
-  let src = `https://www.youtube-nocookie.com/embed/${it.video_id}?rel=0&modestbranding=1`;
+  const [playing, setPlaying] = useState(false);
+  let src = `https://www.youtube-nocookie.com/embed/${it.video_id}?rel=0&modestbranding=1&autoplay=1`;
   if (it.start_sec) src += `&start=${it.start_sec}`;
   if (it.end_sec) src += `&end=${it.end_sec}`;
   return (
     <div className="sk-rise">
       <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", borderRadius: 14, overflow: "hidden", background: "#000", boxShadow: "0 12px 32px rgba(15,23,42,.18)" }}>
-        <iframe src={src} title={it.video_title || it.title} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen loading="lazy" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }} />
+        {playing ? (
+          <iframe src={src} title={it.video_title || it.title} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }} />
+        ) : (
+          <button type="button" onClick={() => setPlaying(true)} aria-label={`재생: ${it.video_title || it.title}`}
+            style={{ position: "absolute", inset: 0, width: "100%", height: "100%", padding: 0, border: 0, cursor: "pointer", background: "#000" }}>
+            <img src={`https://i.ytimg.com/vi/${it.video_id}/maxresdefault.jpg`} alt="" loading="lazy" decoding="async"
+              onError={(e) => { const t = e.currentTarget; t.src = `https://i.ytimg.com/vi/${it.video_id}/hqdefault.jpg`; }}
+              style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+            <span aria-hidden style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(0,0,0,.18)" }}>
+              <span style={{ display: "flex", alignItems: "center", justifyContent: "center", width: 72, height: 72, borderRadius: "50%", background: "rgba(220,38,38,.95)", boxShadow: "0 6px 20px rgba(0,0,0,.35)" }}>
+                <Play size={32} fill="#fff" color="#fff" style={{ marginLeft: 4 }} />
+              </span>
+            </span>
+          </button>
+        )}
       </div>
       {it.video_desc && (
         <div style={{ marginTop: 14, padding: "16px 18px", ...card, borderRadius: 13 }}>
@@ -123,7 +140,7 @@ export default function ContentPane({ item, stage }: { item: Item | null; stage:
     );
   }
   if (item.type === "intro") return <Intro it={item} />;
-  if (item.type === "video") return <Video it={item} />;
+  if (item.type === "video") return <Video key={item.id} it={item} />; // key: 항목 전환 시 파사드 상태 초기화
   if (item.type === "image") return <ImageBlock it={item} stage={stage} />;
   return <Text it={item} />;
 }

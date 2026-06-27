@@ -1,7 +1,8 @@
-import { useEffect, useRef } from "react";
+import { lazy, Suspense, useEffect, useRef } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import HomePage from "./routes/HomePage.tsx";
-import ViewerPage from "./routes/ViewerPage.tsx";
+// 뷰어는 지연 로드 — 무거운 items.json(~600KB)을 홈 번들에서 분리
+const ViewerPage = lazy(() => import("./routes/ViewerPage.tsx"));
 
 declare global {
   interface Window {
@@ -26,14 +27,18 @@ function usePageViews() {
   }, [loc]);
 }
 
+const viewerFallback = <div style={{ position: "fixed", inset: 0, background: "var(--color-paper)" }} />;
+
 export default function App() {
   usePageViews();
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/:kitId" element={<ViewerPage />} />
-      <Route path="/:kitId/:itemId" element={<ViewerPage />} />
-      <Route path="*" element={<HomePage />} />
-    </Routes>
+    <Suspense fallback={viewerFallback}>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/:kitId" element={<ViewerPage />} />
+        <Route path="/:kitId/:itemId" element={<ViewerPage />} />
+        <Route path="*" element={<HomePage />} />
+      </Routes>
+    </Suspense>
   );
 }
