@@ -65,6 +65,10 @@ function Video({ it }: { it: Item }) {
   let src = `https://www.youtube-nocookie.com/embed/${it.video_id}?rel=0&modestbranding=1&autoplay=1`;
   if (it.start_sec) src += `&start=${it.start_sec}`;
   if (it.end_sec) src += `&end=${it.end_sec}`;
+  const hqThumb = `https://i.ytimg.com/vi/${it.video_id}/hqdefault.jpg`;
+  // maxres가 없는 영상은 YouTube가 404가 아니라 120x90 회색 placeholder(200)를 주므로,
+  // onError(404)뿐 아니라 onLoad에서 naturalWidth로 placeholder를 감지해 hqdefault로 폴백.
+  const fallbackHq = (img: HTMLImageElement) => { if (!img.src.endsWith("hqdefault.jpg")) img.src = hqThumb; };
   return (
     <div className="sk-rise">
       <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", borderRadius: 14, overflow: "hidden", background: "#000", boxShadow: "0 12px 32px rgba(15,23,42,.18)" }}>
@@ -74,7 +78,8 @@ function Video({ it }: { it: Item }) {
           <button type="button" onClick={() => setPlaying(true)} aria-label={`재생: ${it.video_title || it.title}`}
             style={{ position: "absolute", inset: 0, width: "100%", height: "100%", padding: 0, border: 0, cursor: "pointer", background: "#000" }}>
             <img src={`https://i.ytimg.com/vi/${it.video_id}/maxresdefault.jpg`} alt="" loading="lazy" decoding="async"
-              onError={(e) => { const t = e.currentTarget; t.src = `https://i.ytimg.com/vi/${it.video_id}/hqdefault.jpg`; }}
+              onError={(e) => fallbackHq(e.currentTarget)}
+              onLoad={(e) => { if (e.currentTarget.naturalWidth <= 120) fallbackHq(e.currentTarget); }}
               style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
             <span aria-hidden style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(0,0,0,.18)" }}>
               <span style={{ display: "flex", alignItems: "center", justifyContent: "center", width: 72, height: 72, borderRadius: "50%", background: "rgba(220,38,38,.95)", boxShadow: "0 6px 20px rgba(0,0,0,.35)" }}>
