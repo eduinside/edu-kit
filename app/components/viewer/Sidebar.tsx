@@ -8,9 +8,10 @@ interface Props {
   flowLabel: string;
   onSelect: (itemKey: string) => void;
   onClose: () => void;
+  quiz?: { active: boolean; onSelect: () => void }; // 단원 마지막 개념 확인 화면(있을 때만)
 }
 
-export default function Sidebar({ groups, selKey, flowLabel, onSelect, onClose }: Props) {
+export default function Sidebar({ groups, selKey, flowLabel, onSelect, onClose, quiz }: Props) {
   return (
     <nav className="sk-scroll" aria-label="학습 목차" style={{ width: 330, flexShrink: 0, height: "100%", minHeight: 0, background: "#fff", borderRight: "1px solid var(--color-slate-100)", overflowY: "auto", WebkitOverflowScrolling: "touch", overscrollBehavior: "contain", padding: "14px 14px 40px" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "4px 8px 12px" }}>
@@ -52,6 +53,24 @@ export default function Sidebar({ groups, selKey, flowLabel, onSelect, onClose }
           </div>
         );
       })}
+
+      {quiz && (
+        <div style={{ marginBottom: 10 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "6px 8px" }}>
+            <span style={{ padding: "4px 10px", borderRadius: 9999, background: "var(--color-brand-50)", color: "var(--color-brand-700)", fontSize: 11, fontWeight: 800 }}>개념 확인</span>
+            <span style={{ height: 1, flex: 1, background: "var(--color-slate-100)" }} />
+          </div>
+          <button type="button" className="toc-item" aria-current={quiz.active ? "true" : undefined} onClick={quiz.onSelect}
+            style={{ position: "relative", display: "flex", gap: 10, width: "100%", textAlign: "left", padding: "10px 11px", marginBottom: 2, border: "none", borderRadius: 10, cursor: "pointer", alignItems: "flex-start", background: quiz.active ? "var(--color-brand-50)" : "transparent" }}>
+            {quiz.active && <span style={{ position: "absolute", left: 0, top: 8, bottom: 8, width: 3, borderRadius: "0 3px 3px 0", background: "var(--color-brand-500)" }} />}
+            <span style={{ position: "relative", flexShrink: 0, padding: "3px 7px", borderRadius: 6, fontSize: 9.5, fontWeight: 800, background: "var(--color-brand-50)", color: "var(--color-brand-700)" }}>퀴즈</span>
+            <span style={{ position: "relative", minWidth: 0 }}>
+              <span style={{ display: "block", fontSize: 13, fontWeight: 700, color: "var(--color-ink)", lineHeight: 1.35 }}>개념 확인 OX 퀴즈</span>
+              <span style={{ display: "block", fontSize: 11, fontWeight: 500, color: "var(--color-slate-400)", marginTop: 2, lineHeight: 1.4 }}>배운 내용을 2문제로 확인</span>
+            </span>
+          </button>
+        </div>
+      )}
     </nav>
   );
 }

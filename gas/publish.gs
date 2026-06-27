@@ -19,7 +19,8 @@ var CONFIG = {
   repo: 'edu-kit',
   branch: 'main',          // 검수 모드면 'content'로 바꾸고 PR 운영
   dir: 'data/raw',
-  tabs: ['kits', 'items', 'stage_meta'],
+  tabs: ['kits', 'items', 'stage_meta', 'quiz'],
+  optionalTabs: ['quiz'],  // 시트에 탭이 없으면 발행에서 건너뜀(점진 도입)
 };
 
 function onOpen() {
@@ -41,9 +42,14 @@ function 발행() {
     // 빈 id 칸에 shortId 자동 부여 후 시트에 되써서 영구 고정(URL 안정)
     var newIds = ensureKitIds_();
 
-    // 3개 탭을 한 커밋으로(변경된 파일만) → Pages 빌드 1회
+    // 탭들을 한 커밋으로(변경된 파일만) → Pages 빌드 1회. 선택 탭(quiz)은 시트에 없으면 건너뜀.
     var files = {};
     CONFIG.tabs.forEach(function (tab) {
+      var exists = !!SpreadsheetApp.getActiveSpreadsheet().getSheetByName(tab);
+      if (!exists) {
+        if (CONFIG.optionalTabs.indexOf(tab) >= 0) return; // 선택 탭 없음 → 건너뜀
+        throw new Error('탭을 찾을 수 없습니다: ' + tab);
+      }
       files[CONFIG.dir + '/' + tab + '.json'] = JSON.stringify(tabToRows(tab), null, 2) + '\n';
     });
     var changed = commitFiles(token, files);

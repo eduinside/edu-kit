@@ -17,7 +17,7 @@ import {
 import { markdownToHtml } from "./markdown.ts";
 import { assertSafeHtml } from "./sanitize.ts";
 import { generateUniqueId } from "./shortid.ts";
-import type { Kit, Item, StageMeta } from "./types.ts";
+import type { Kit, Item, StageMeta, QuizItem } from "./types.ts";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const RAW = resolve(ROOT, "data/raw");
@@ -50,6 +50,7 @@ const ItemSchema = z.object({
   core_idea: z.string().optional(),
   core_question: z.string().optional(),
   concepts: z.array(z.string()).optional(),
+  concept_desc: z.string().optional(),
   standard_code: z.string().optional(),
   standard_text: z.string().optional(),
   video_url: z.string().optional(),
@@ -75,11 +76,28 @@ const StageMetaSchema = z.object({
   sort_order: z.number().int(),
 });
 
+const QuizSchema = z.object({
+  kit_id: z.string().min(1),
+  statement: z.string().min(1),
+  answer: z.enum(["O", "X"]),
+  explain: z.string().optional(),
+  sort_order: z.number().int(),
+});
+
 function readRaw(name: string): Record<string, unknown>[] {
   const txt = readFileSync(resolve(RAW, name), "utf8");
   const arr = JSON.parse(txt);
   if (!Array.isArray(arr)) throw new Error(`${name}: 배열이어야 함`);
   return arr.map((r) => normalizeRow(r));
+}
+
+// 선택 탭(예: quiz) — 파일이 없으면 빈 배열(점진 도입: 시트에 탭 추가 전이라도 빌드 유지).
+function readRawOptional(name: string): Record<string, unknown>[] {
+  try {
+    return readRaw(name);
+  } catch {
+    return [];
+  }
 }
 
 function fail(msg: string): never {
@@ -102,6 +120,19 @@ function parseStandards(code: unknown, text: unknown): { code: string; text: str
   for (let i = 0; i < n; i++) {
     const c = codes[i] ?? "", t = texts[i] ?? "";
     if (c || t) out.push({ code: c, text: t });
+  }
+  return out;
+}
+
+// 핵심 용어 설명: concepts[i]와 concept_desc[i](';' 구분)를 순서로 짝지음. 정의 없는 용어는 제외.
+function parseConceptDefs(concepts: unknown, desc: unknown): { term: string; def: string }[] {
+  const terms = Array.isArray(concepts) ? concepts.map((c) => String(c).trim()) : [];
+  if (!terms.length) return [];
+  const defs = String(desc ?? "").split(";").map((s) => s.trim());
+  const out: { term: string; def: string }[] = [];
+  for (let i = 0; i < terms.length; i++) {
+    const term = terms[i] ?? "", def = defs[i] ?? "";
+    if (term && def) out.push({ term, def });
   }
   return out;
 }
@@ -204,7 +235,13 @@ function buildItems(kits: Kit[]): Item[] {
     seen.add(key0);
 
     const standards = parseStandards(item.standard_code, item.standard_text);
-    return { id: `${item.kit_id}_${item.item_key}`, ...item, ...(standards.length ? { standards } : {}) } as Item;
+    const conceptDefs = item.type === "intro" ? parseConceptDefs(item.concepts, item.concept_desc) : [];
+    return {
+      id: `${item.kit_id}_${item.item_key}`,
+      ...item,
+      ...(standards.length ? { standards } : {}),
+      ...(conceptDefs.length ? { concept_defs: conceptDefs } : {}),
+    } as Item;
   });
 
   return items.filter((x): x is Item => x !== null);
@@ -227,10 +264,37 @@ function buildStageMeta(kits: Kit[]): StageMeta[] {
   }).filter((x): x is StageMeta => x !== null);
 }
 
+function buildQuiz(kits: Kit[]): QuizItem[] {
+  const ids = new Set(kits.map((k) => k.id));
+  const out = readRawOptional("quiz.json").map((r, idx) => {
+    const parsed = {
+      kit_id: r.kit_id,
+      statement: r.statement,
+      answer: String(r.answer ?? "").trim().toUpperCase(),
+      explain: r.explain,
+      sort_order: toInt(r.sort_order) ?? idx,
+    };
+    const res = QuizSchema.safeParse(parsed);
+    if (!res.success) { warn(`quiz[${idx}] 건너뜀: ${res.error.issues.map((i) => i.path.join(".") + " " + i.message).join("; ")}`); return null; }
+    if (!ids.has(res.data.kit_id)) { warn(`quiz[${idx}]: 존재하지 않는 kit_id "${res.data.kit_id}" → 건너뜀`); return null; }
+    return res.data as QuizItem;
+  }).filter((x): x is QuizItem => x !== null);
+
+  // 발행(published) 단원이 2문제 미만이면 퀴즈 화면 미노출 — 미완성 단원 가시화.
+  const countByKit = new Map<string, number>();
+  for (const q of out) countByKit.set(q.kit_id, (countByKit.get(q.kit_id) ?? 0) + 1);
+  for (const k of kits) {
+    if (k.published && (countByKit.get(k.id) ?? 0) === 1)
+      warn(`quiz: 꾸러미 "${k.id}" 문제 1개뿐 → 퀴즈 화면 미노출(최소 2개 필요)`);
+  }
+  return out;
+}
+
 function main() {
   const kits = buildKits(); // 중복 id는 buildKits에서 첫 항목만 유지
   const items = buildItems(kits);
   const stageMeta = buildStageMeta(kits);
+  const quiz = buildQuiz(kits);
 
   // 각 꾸러미의 내장 콘텐츠 수(intro 제외) → kits.json에 부가(홈 카드가 items.json 없이 표시).
   const contentCount = new Map<string, number>();
@@ -243,14 +307,18 @@ function main() {
   kits.sort((a, b) => a.grade - b.grade || a.sort_order - b.sort_order);
   items.sort((a, b) => a.kit_id.localeCompare(b.kit_id) || a.sort_order - b.sort_order);
 
+  quiz.sort((a, b) => a.kit_id.localeCompare(b.kit_id) || a.sort_order - b.sort_order);
+
   mkdirSync(OUT, { recursive: true });
   writeFileSync(resolve(OUT, "kits.json"), JSON.stringify(kits, null, 2) + "\n");
   writeFileSync(resolve(OUT, "items.json"), JSON.stringify(items, null, 2) + "\n");
   writeFileSync(resolve(OUT, "stage_meta.json"), JSON.stringify(stageMeta, null, 2) + "\n");
+  writeFileSync(resolve(OUT, "quiz.json"), JSON.stringify(quiz, null, 2) + "\n");
 
   console.log(`✓ kits: ${kits.length} (공개 ${kits.filter((k) => k.published).length})`);
   console.log(`✓ items: ${items.length}`);
   console.log(`✓ stage_meta: ${stageMeta.length}`);
+  console.log(`✓ quiz: ${quiz.length}`);
   if (_warnCount) console.log(`⚠ 경고 ${_warnCount}건(자동 보정/건너뜀) — 위 로그 확인. 빌드는 계속 진행됨.`);
   console.log(`→ data/kits.json · items.json · stage_meta.json`);
 }

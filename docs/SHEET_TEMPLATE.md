@@ -1,10 +1,10 @@
 # 수업꾸러미 — Google Sheet 저작 가이드 (중앙 편집팀용)
 
 편집팀은 이 구조의 Google Sheet에 입력하고 **[수업꾸러미 > GitHub에 발행]** 버튼을 누른다.
-버튼(GAS, `gas/publish.gs`)이 3개 탭을 `data/raw/*.json`으로 커밋 → Cloudflare Pages 빌드가
+버튼(GAS, `gas/publish.gs`)이 탭들을 `data/raw/*.json`으로 커밋 → Cloudflare Pages 빌드가
 검증·새니타이즈 후 배포한다(수 분). **잘못 입력하면 빌드가 실패해 배포되지 않는다**(안전망).
 
-> 탭 이름은 정확히 `kits`, `items`, `stage_meta`. 1행은 헤더(아래 컬럼명 그대로). 빈 셀은 비워 둔다.
+> 탭 이름은 정확히 `kits`, `items`, `stage_meta`(필수)와 `quiz`(선택). 1행은 헤더(아래 컬럼명 그대로). 빈 셀은 비워 둔다.
 > enum 컬럼은 **데이터 확인(드롭다운)** 으로 오입력을 막는 것을 권장.
 
 ---
@@ -37,11 +37,15 @@
 
 | type | 추가 컬럼 |
 |---|---|
-| `intro` | `core_idea`, `core_question`, `concepts`(`;`로 구분), `standard_code`, `standard_text` |
+| `intro` | `core_idea`, `core_question`, `concepts`(`;`로 구분), `concept_desc`(`;`로 구분, `concepts`와 짝), `standard_code`, `standard_text` |
 
 > **성취기준 복수 입력**: 한 단원에 성취기준이 여러 개면 `standard_code`와 `standard_text`를 각각 ` ; `(세미콜론)로 구분해 **같은 순서로** 적는다. 빌드가 순서대로 짝지어 여러 줄로 보여준다.
 > 예) `standard_code` = `[4사03-01] ; [4사03-02]` , `standard_text` = `…양상과 특징을 파악한다. ; …생활 모습을 조사한다.`
 > (한 개면 그냥 한 개만 적으면 됨. 성취기준 본문에는 세미콜론을 쓰지 말 것 — 구분자로 쓰임.)
+>
+> **핵심 용어 설명(`concept_desc`)**: `concepts`의 각 용어를 탭하면 뜨는 한 줄 설명. `concepts`와 **같은 순서**로 ` ; `(세미콜론) 구분해 적는다(빌드가 index로 짝지음). 설명을 비워 둔 용어는 칩이 탭되지 않는다(설명 채워진 용어부터 점진 적용 가능).
+> 예) `concepts` = `무게 ; 수평 잡기 ; 저울` , `concept_desc` = `물체의 무거운 정도. ; 양쪽이 균형을 이뤄 기울지 않는 상태. ; 무게를 재는 도구.`
+> (설명은 초등 눈높이로 **1~2문장**. 본문에 세미콜론 금지 — 구분자.)
 | `video` | `video_url`(전체 유튜브 URL), `start_sec`, `end_sec`, `video_title`, `video_desc`, `video_license`, `caption` |
 | `image` | `image_url`(R2 업로드 URL), `image_label`, `image_sub`, `image_source`*, `image_license`*, `caption` |
 | `text` | `body`(아래 마크다운) |
@@ -83,6 +87,22 @@
 | `sort_order` | ✓ | 단계 표시 순서 |
 
 > 보통 활동형의 `생각열기`·`탐구하기`·`확장하기`에만 질문을 넣는다. `단원안내`와 흐름형 단계는 비워 둔다.
+
+## 탭 4 — `quiz` (개념 확인 OX 퀴즈) · 선택
+
+단원 마지막 화면의 OX 퀴즈 문제 풀. **이 탭은 선택**이라 없어도 발행·빌드가 안 깨진다(탭이 없으면 발행에서 건너뜀). 한 꾸러미당 여러 행.
+
+| 컬럼 | 필수 | 설명 |
+|---|---|---|
+| `kit_id` | ✓ | 소속 꾸러미 id(`kits` 탭의 id) |
+| `statement` | ✓ | O/X로 판단할 문장(쉬운 난이도, 한 문장) |
+| `answer` | ✓ | 정답 — `O`(맞다) 또는 `X`(틀리다) |
+| `explain` | | 한 줄 해설(정답 근거). 비워도 됨 |
+| `sort_order` | ✓ | 정렬 순서 |
+
+> **문제 풀은 단원당 5~8개 권장.** 접속/‘다시 풀기’마다 풀에서 **무작위 2문제**가 나오므로, 풀이 많을수록 매번 다른 문제가 된다.
+> **2개 미만이면 그 단원은 퀴즈 화면이 안 나온다**(빌드 로그에 경고). 즉 문제를 채운 단원부터 자동으로 켜진다(점진 적용).
+> 예) `kit_id`=`sc3111`, `statement`=`수평 잡기는 양쪽 무게가 같아야 한다.`, `answer`=`O`, `explain`=`무게가 같아야 수평이 된다.`, `sort_order`=`1`
 
 ---
 

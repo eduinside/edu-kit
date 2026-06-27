@@ -45,6 +45,8 @@ export interface Item {
   core_idea?: string;
   core_question?: string;
   concepts?: string[];
+  concept_desc?: string; // 시트 원본(';' 구분, concepts와 순서로 짝). 화면은 아래 concept_defs 사용.
+  concept_defs?: { term: string; def: string }[]; // 빌드 산출: concepts[i]와 concept_desc[i]를 짝지은 용어 설명
   standard_code?: string; // 시트 원본(복수면 ' ; ' 구분). 화면은 아래 standards 사용.
   standard_text?: string; // 시트 원본(복수면 ' ; ' 구분, code와 순서로 짝)
   standards?: { code: string; text: string }[]; // 빌드 산출: code/text를 ;로 분리·짝지은 성취기준 목록
@@ -79,8 +81,18 @@ export interface StageMeta {
   sort_order: number;
 }
 
+// 개념 확인 OX 퀴즈(단원 마지막 화면). items와 별도 탭/파일 — 뷰어 "항목"이 아니라 형상이 다름.
+export interface QuizItem {
+  kit_id: string;
+  statement: string; // O/X 판단 문장(쉬운 난이도)
+  answer: "O" | "X"; // 정답
+  explain?: string; // 한 줄 해설
+  sort_order: number;
+}
+
 export interface ContentBundle {
   kits: Kit[];
   items: Item[];
   stage_meta: StageMeta[];
+  quiz: QuizItem[];
 }

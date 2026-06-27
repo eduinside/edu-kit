@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Play, Image as ImageIcon } from "lucide-react";
+import { useEffect, useState } from "react";
+import { Play, Image as ImageIcon, ChevronDown } from "lucide-react";
 import type { Item, Stage } from "../../lib/data.ts";
 import { stageColor } from "../../lib/design.ts";
 import { hi } from "../Hi.tsx";
@@ -56,17 +56,59 @@ function Intro({ it, hl }: { it: Item; hl?: string }) {
         </section>
       )}
 
-      {hasConcepts && (
-        <section>
-          <IntroHead emoji="🧭" text="단원 핵심 용어" />
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-            {it.concepts!.map((c) => (
-              <span key={c} style={{ padding: "8px 14px", borderRadius: 9999, background: "var(--color-brand-50)", color: "var(--color-brand-700)", fontSize: 13.5, fontWeight: 700 }}>{hi(c, hl)}</span>
-            ))}
-          </div>
-        </section>
-      )}
+      {hasConcepts && <ConceptTerms concepts={it.concepts!} defs={it.concept_defs} hl={hl} />}
     </div>
+  );
+}
+
+// 단원 핵심 용어 — 설명이 있는 용어 칩은 탭하면 바로 아래 패널로 정의를 펼친다(한 번에 하나).
+// "핵심 용어"는 intro 문서의 맨 아래 섹션이라 패널이 펼쳐져도 위 텍스트는 밀리지 않음.
+function ConceptTerms({ concepts, defs, hl }: { concepts: string[]; defs?: { term: string; def: string }[]; hl?: string }) {
+  const defMap = new Map((defs ?? []).map((d) => [d.term, d.def] as const));
+  const [open, setOpen] = useState<string | null>(null);
+  const openDef = open ? defMap.get(open) : undefined;
+
+  // Esc로 패널 닫기
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setOpen(null); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
+
+  const chip = (active: boolean, tappable: boolean) => ({
+    display: "inline-flex", alignItems: "center", gap: 5, padding: "8px 14px", borderRadius: 9999,
+    fontSize: 13.5, fontWeight: 700, border: "1px solid transparent", transition: "all .15s ease",
+    background: active ? "var(--color-brand-600)" : "var(--color-brand-50)",
+    color: active ? "#fff" : "var(--color-brand-700)",
+    cursor: tappable ? "pointer" : "default",
+  } as const);
+
+  return (
+    <section>
+      <IntroHead emoji="🧭" text="단원 핵심 용어" />
+      <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+        {concepts.map((c) => {
+          const tappable = defMap.has(c);
+          const active = open === c;
+          if (!tappable) return <span key={c} style={chip(false, false)}>{hi(c, hl)}</span>;
+          return (
+            <button key={c} type="button" aria-expanded={active} aria-controls="concept-def-panel"
+              onClick={() => setOpen(active ? null : c)} style={chip(active, true)}>
+              {hi(c, hl)}
+              <ChevronDown size={13} style={{ transform: active ? "rotate(180deg)" : "none", transition: "transform .15s", opacity: 0.75 }} />
+            </button>
+          );
+        })}
+      </div>
+      {openDef && (
+        <div id="concept-def-panel" role="region" aria-live="polite"
+          style={{ marginTop: 12, padding: "16px 18px", borderRadius: 13, background: "var(--color-brand-50)", border: "1px solid var(--color-brand-100)" }}>
+          <div style={{ fontSize: 14, fontWeight: 800, color: "var(--color-brand-700)", marginBottom: 5 }}>{open}</div>
+          <p style={{ margin: 0, fontSize: 14, fontWeight: 600, lineHeight: 1.7, color: "var(--color-slate-700)" }}>{hi(openDef, hl)}</p>
+        </div>
+      )}
+    </section>
   );
 }
 

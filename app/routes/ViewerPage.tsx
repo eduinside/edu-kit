@@ -5,11 +5,16 @@ import { ChevronLeft, ChevronRight, Link2, Eye, Heart, Menu, Check } from "lucid
 const NARROW_Q = "(max-width: 860px)";
 import Sidebar from "../components/viewer/Sidebar.tsx";
 import ContentPane, { VideoPlayer } from "../components/viewer/ContentPane.tsx";
+import QuizPane from "../components/viewer/QuizPane.tsx";
 import { hi } from "../components/Hi.tsx";
 import { getKit } from "../lib/data.ts";
 import { getGroups, flatItems } from "../lib/kit-content.ts";
-import type { Item } from "../lib/data.ts";
+import { getQuiz } from "../lib/quiz.ts";
+import type { Stage } from "../lib/data.ts";
 import { stageColor, flowLabel } from "../lib/design.ts";
+
+const QUIZ_KEY = "_quiz"; // 단원 마지막 가상 "개념 확인" 화면의 item_key(라우트 /:kitId/_quiz)
+const QUIZ_STAGE = "개념 확인";
 import { statsFor } from "../lib/stats.ts";
 import { postView, postLike, type Stats } from "../lib/api.ts";
 
@@ -55,26 +60,39 @@ export default function ViewerPage() {
   const kit = getKit(kitId);
   const groups = getGroups(kitId);
   const flat = flatItems(groups);
+  const quiz = getQuiz(kitId);
+  const hasQuiz = quiz.length >= 2; // 풀 2개 미만이면 퀴즈 화면 미노출(점진 배포)
   const selKey = itemId || flat[0]?.item_key || "";
+  const onQuiz = hasQuiz && selKey === QUIZ_KEY;
 
   let sel: { group: (typeof groups)[number]; item: (typeof flat)[number] } | null = null;
   for (const g of groups) {
     const it = g.items.find((i) => i.item_key === selKey);
     if (it) { sel = { group: g, item: it }; break; }
   }
-  if (!sel && groups[0]?.items[0]) sel = { group: groups[0], item: groups[0].items[0] };
+  if (!onQuiz && !sel && groups[0]?.items[0]) sel = { group: groups[0], item: groups[0].items[0] };
 
-  const curIdx = flat.findIndex((i) => i.item_key === (sel?.item.item_key ?? selKey));
-  const prevItem = curIdx > 0 ? flat[curIdx - 1] : null;
-  const nextItem = curIdx >= 0 && curIdx < flat.length - 1 ? flat[curIdx + 1] : null;
+  // 내비게이션 시퀀스 = 실제 항목들 + (있으면) 마지막 퀴즈 화면
+  type NavTarget = { key: string; stage: Stage; title: string; order?: number };
+  const targets: NavTarget[] = [
+    ...flat.map((i) => ({ key: i.item_key, stage: i.stage, title: i.title, order: i.sort_order })),
+    ...(hasQuiz ? [{ key: QUIZ_KEY, stage: QUIZ_STAGE as Stage, title: QUIZ_STAGE }] : []),
+  ];
+  const curKey = onQuiz ? QUIZ_KEY : (sel?.item.item_key ?? selKey);
+  const curIdx = targets.findIndex((t) => t.key === curKey);
+  const prevItem = curIdx > 0 ? targets[curIdx - 1]! : null;
+  const nextItem = curIdx >= 0 && curIdx < targets.length - 1 ? targets[curIdx + 1]! : null;
+
+  const headStage: Stage = onQuiz ? (QUIZ_STAGE as Stage) : (sel?.group.stage ?? "단원안내");
+  const headTitle = onQuiz ? QUIZ_STAGE : sel?.item.title;
 
   // 항목별 문서 제목 — 탭/링크 미리보기 + GA4 page_view의 page_title(콘텐츠별 조회 분석)
   useEffect(() => {
     document.title = kit
-      ? `${sel ? sel.item.title + " · " : ""}${kit.title} · 수업꾸러미`
+      ? `${headTitle ? headTitle + " · " : ""}${kit.title} · 수업꾸러미`
       : "수업꾸러미";
     return () => { document.title = "수업꾸러미"; };
-  }, [kitId, kit, sel?.item.item_key]);
+  }, [kitId, kit, headTitle]);
 
   // 존재하지 않는 꾸러미 id(404 등)는 랜딩으로 자동 이동
   if (!kit) return <Navigate to="/" replace />;
@@ -87,10 +105,10 @@ export default function ViewerPage() {
     setTimeout(() => setCopied(false), 1600);
   }
 
-  const navButtons = sel && (prevItem || nextItem) ? (
+  const navButtons = (sel || onQuiz) && (prevItem || nextItem) ? (
     <div style={{ display: "flex", gap: 12, marginTop: 24 }}>
-      <NavButton dir="prev" item={prevItem} onSelect={selectItem} />
-      <NavButton dir="next" item={nextItem} onSelect={selectItem} />
+      <NavButton dir="prev" target={prevItem} onSelect={selectItem} />
+      <NavButton dir="next" target={nextItem} onSelect={selectItem} />
     </div>
   ) : null;
 
@@ -128,16 +146,17 @@ export default function ViewerPage() {
 
       {/* 본문 */}
       <div style={{ flex: 1, minHeight: 0, display: "flex", position: "relative" }}>
-        {sidebarOpen && sel && isNarrow && (
+        {sidebarOpen && (sel || onQuiz) && isNarrow && (
           // 모바일/탭: 오버레이 + scrim (본문을 밀지 않음)
           <div onClick={() => setSidebarOpen(false)} style={{ position: "absolute", inset: 0, zIndex: 20, background: "rgba(15,23,42,.4)" }} />
         )}
-        {sidebarOpen && sel && (
+        {sidebarOpen && (sel || onQuiz) && (
           <div style={isNarrow
             ? { position: "absolute", left: 0, top: 0, bottom: 0, zIndex: 21, boxShadow: "4px 0 24px rgba(15,23,42,.18)" }
             : { display: "contents" }}>
-            <Sidebar groups={groups} selKey={sel.item.item_key} flowLabel={flowLabel(kit?.flow ?? "activity")}
-              onSelect={selectItem} onClose={() => setSidebarOpen(false)} />
+            <Sidebar groups={groups} selKey={curKey} flowLabel={flowLabel(kit?.flow ?? "activity")}
+              onSelect={selectItem} onClose={() => setSidebarOpen(false)}
+              quiz={hasQuiz ? { active: onQuiz, onSelect: () => selectItem(QUIZ_KEY) } : undefined} />
           </div>
         )}
 
@@ -151,12 +170,12 @@ export default function ViewerPage() {
                   <Menu size={13} /> 목차
                 </button>
               )}
-              {sel && (() => {
-                const st = stageColor(sel.group.stage, sel.group.sort_order);
-                return <span style={{ flexShrink: 0, marginTop: 3, display: "inline-flex", alignItems: "center", padding: "3px 11px", borderRadius: 9999, background: st.soft, color: st.text, fontSize: 12, fontWeight: 800, lineHeight: 1 }}>{sel.group.stage}</span>;
+              {(sel || onQuiz) && (() => {
+                const st = stageColor(headStage, sel?.group.sort_order);
+                return <span style={{ flexShrink: 0, marginTop: 3, display: "inline-flex", alignItems: "center", padding: "3px 11px", borderRadius: 9999, background: st.soft, color: st.text, fontSize: 12, fontWeight: 800, lineHeight: 1 }}>{headStage}</span>;
               })()}
               <div style={{ minWidth: 0, flex: 1 }}>
-                <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.4 }}>{sel ? hi(sel.item.title, hl) : "준비 중"}</div>
+                <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.4 }}>{headTitle ? hi(headTitle, hl) : "준비 중"}</div>
                 {sel?.group.question && <div style={{ marginTop: 5, fontSize: 11.5, fontWeight: 700, color: "var(--color-slate-400)" }}>탐구질문 · {sel.group.question}</div>}
                 {sel && (() => {
                   const d = sel.item.type === "video" ? sel.item.video_desc : sel.item.type === "intro" ? sel.item.description : undefined;
@@ -167,7 +186,12 @@ export default function ViewerPage() {
             </div>
           </div>
 
-          {sel?.item.type === "video" ? (
+          {onQuiz ? (
+            <div style={{ maxWidth: 1280, margin: "0 auto", padding: "26px 24px 80px" }}>
+              <QuizPane key={kitId} quiz={quiz} />
+              {navButtons}
+            </div>
+          ) : sel?.item.type === "video" ? (
             // 순서: (서브헤더)태그+제목+설명 → 영상(영화관 풀폭) → 내비게이션
             <>
               <VideoPlayer key={sel.item.id} it={sel.item} />
@@ -187,14 +211,14 @@ export default function ViewerPage() {
   );
 }
 
-function NavButton({ dir, item, onSelect }: { dir: "prev" | "next"; item: Item | null; onSelect: (k: string) => void }) {
+function NavButton({ dir, target, onSelect }: { dir: "prev" | "next"; target: { key: string; stage: Stage; title: string; order?: number } | null; onSelect: (k: string) => void }) {
   const isPrev = dir === "prev";
-  const enabled = !!item;
+  const enabled = !!target;
   return (
     <button
       type="button"
       disabled={!enabled}
-      onClick={() => item && onSelect(item.item_key)}
+      onClick={() => target && onSelect(target.key)}
       style={{
         flex: 1, minWidth: 0, display: "flex", alignItems: "center", gap: 10,
         justifyContent: isPrev ? "flex-start" : "flex-end",
@@ -210,12 +234,12 @@ function NavButton({ dir, item, onSelect }: { dir: "prev" | "next"; item: Item |
       <span style={{ minWidth: 0, textAlign: isPrev ? "left" : "right" }}>
         <span style={{ display: "block", fontSize: 11, fontWeight: 700, color: "var(--color-slate-400)" }}>{isPrev ? "이전" : "다음"}</span>
         <span style={{ display: "flex", alignItems: "center", gap: 6, minWidth: 0, justifyContent: isPrev ? "flex-start" : "flex-end" }}>
-          {item && (() => {
-            const st = stageColor(item.stage, item.sort_order);
-            return <span style={{ flexShrink: 0, padding: "2px 8px", borderRadius: 9999, background: st.soft, color: st.text, fontSize: 10, fontWeight: 800 }}>{item.stage}</span>;
+          {target && (() => {
+            const st = stageColor(target.stage, target.order);
+            return <span style={{ flexShrink: 0, padding: "2px 8px", borderRadius: 9999, background: st.soft, color: st.text, fontSize: 10, fontWeight: 800 }}>{target.stage}</span>;
           })()}
           <span style={{ fontSize: 13.5, fontWeight: 700, color: "var(--color-ink)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", minWidth: 0 }}>
-            {item ? item.title : isPrev ? "처음입니다" : "마지막입니다"}
+            {target ? target.title : isPrev ? "처음입니다" : "마지막입니다"}
           </span>
         </span>
       </span>
