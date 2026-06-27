@@ -10,7 +10,7 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const DIR = resolve(ROOT, "data/edunavi");
 
 interface GItem { no: number; keyword: string; cntntsSn: string; title: string; placement: string; stage: string; start: number | null; end: number | null; note: string; youtubeId: string | null; }
-interface Guide { guideSn: number; packageSn: string; grade: number | null; subject: string; standard_code: string; standard_text: string; purpose: string; keywords: string[]; items: GItem[]; }
+interface Guide { chnnlSn?: number; guideSn: number | string; guideTitle?: string; packageSn: string; grade: number | null; sem?: string; subject: string; unit_no?: string; kitTitle?: string; standard_code: string; standard_text: string; purpose: string; keywords: string[]; items: GItem[]; }
 
 const guides: Guide[] = JSON.parse(readFileSync(resolve(DIR, "guides.json"), "utf8"));
 
@@ -26,8 +26,8 @@ const stageMeta: Record<string, unknown>[] = [];
 guides.forEach((u, idx) => {
   const KIT = `na${u.packageSn || idx}`;
   kits.push({
-    id: KIT, title: "[단원 제목 입력]", grade: u.grade ?? "[학년]", sem: "[학기]",
-    subject: u.subject || "[교과]", unit: "[대단원명]", unit_no: "[번호]",
+    id: KIT, title: u.kitTitle || "[단원 제목 입력]", grade: u.grade ?? "[학년]", sem: u.sem || "[학기]",
+    subject: u.subject || "[교과]", unit: "[대단원명]", unit_no: u.unit_no || "[번호]",
     flow: "activity", sort_order: idx + 1, published: false,
   });
 
