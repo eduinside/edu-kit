@@ -1,1346 +1,1381 @@
 [
   {
-    "kit_id": "na1340",
+    "kit_id": "so3211",
     "stage": "사회변화",
     "sort_order": 1
   },
   {
-    "kit_id": "na1340",
+    "kit_id": "so3211",
     "stage": "저출산",
     "sort_order": 2
   },
   {
-    "kit_id": "na1340",
+    "kit_id": "so3211",
     "stage": "고령화",
     "sort_order": 3
   },
   {
-    "kit_id": "na1340",
+    "kit_id": "so3211",
     "stage": "지능정보화",
     "sort_order": 4
   },
   {
-    "kit_id": "na1339",
+    "kit_id": "so3212",
     "stage": "문화",
     "sort_order": 1
   },
   {
-    "kit_id": "na1339",
+    "kit_id": "so3212",
     "stage": "다문화",
     "sort_order": 2
   },
   {
-    "kit_id": "na1339",
+    "kit_id": "so3212",
     "stage": "1인가구",
     "sort_order": 3
   },
   {
-    "kit_id": "na1339",
+    "kit_id": "so3212",
     "stage": "반려동물",
     "sort_order": 4
   },
   {
-    "kit_id": "na1339",
+    "kit_id": "so3212",
     "stage": "문화다양성",
     "sort_order": 5
   },
   {
-    "kit_id": "na1338",
+    "kit_id": "so3221",
     "stage": "세시풍속",
     "sort_order": 1
   },
   {
-    "kit_id": "na1338",
+    "kit_id": "so3221",
     "stage": "세시풍속의 변화",
     "sort_order": 2
   },
   {
-    "kit_id": "na1338",
+    "kit_id": "so3221",
     "stage": "놀이",
     "sort_order": 3
   },
   {
-    "kit_id": "na1337",
+    "kit_id": "so3222",
     "stage": "교통수단",
     "sort_order": 1
   },
   {
-    "kit_id": "na1337",
+    "kit_id": "so3222",
     "stage": "과거의 교통수단",
     "sort_order": 2
   },
   {
-    "kit_id": "na1337",
+    "kit_id": "so3222",
     "stage": "교통수단의 발달",
     "sort_order": 3
   },
   {
-    "kit_id": "na1337",
+    "kit_id": "so3222",
     "stage": "미래의 교통수단",
     "sort_order": 4
   },
   {
-    "kit_id": "na1336",
+    "kit_id": "so3223",
     "stage": "통신수단",
     "sort_order": 1
   },
   {
-    "kit_id": "na1336",
+    "kit_id": "so3223",
     "stage": "통신수단의 발달",
     "sort_order": 2
   },
   {
-    "kit_id": "na1336",
+    "kit_id": "so3223",
     "stage": "과거의 통신수단",
     "sort_order": 3
   },
   {
-    "kit_id": "na1336",
+    "kit_id": "so3223",
     "stage": "미래의 통신수단",
     "sort_order": 4
   },
   {
-    "kit_id": "na1329",
+    "kit_id": "sc3211",
     "stage": "고체",
     "sort_order": 1
   },
   {
-    "kit_id": "na1329",
+    "kit_id": "sc3211",
     "stage": "액체",
     "sort_order": 2
   },
   {
-    "kit_id": "na1329",
+    "kit_id": "sc3211",
     "stage": "기체",
     "sort_order": 3
   },
   {
-    "kit_id": "na1329",
+    "kit_id": "sc3211",
     "stage": "물질의 성질",
     "sort_order": 4
   },
   {
-    "kit_id": "na1329",
+    "kit_id": "sc3211",
     "stage": "물질의 상태",
     "sort_order": 5
   },
   {
-    "kit_id": "na1328",
+    "kit_id": "sc3221",
     "stage": "지구",
     "sort_order": 1
   },
   {
-    "kit_id": "na1328",
+    "kit_id": "sc3221",
     "stage": "육지",
     "sort_order": 2
   },
   {
-    "kit_id": "na1328",
+    "kit_id": "sc3221",
     "stage": "대기",
     "sort_order": 3
   },
   {
-    "kit_id": "na1328",
+    "kit_id": "sc3221",
     "stage": "바다",
     "sort_order": 4
   },
   {
-    "kit_id": "na1328",
+    "kit_id": "sc3221",
     "stage": "바닷물",
     "sort_order": 5
   },
   {
-    "kit_id": "na1328",
+    "kit_id": "sc3221",
     "stage": "밀물과 썰물",
     "sort_order": 6
   },
   {
-    "kit_id": "na1328",
+    "kit_id": "sc3221",
     "stage": "갯벌",
     "sort_order": 7
   },
   {
-    "kit_id": "na1327",
+    "kit_id": "sc3231",
     "stage": "소리",
     "sort_order": 1
   },
   {
-    "kit_id": "na1327",
+    "kit_id": "sc3231",
     "stage": "소리의 전달",
     "sort_order": 2
   },
   {
-    "kit_id": "na1327",
+    "kit_id": "sc3231",
     "stage": "소리의 세기",
     "sort_order": 3
   },
   {
-    "kit_id": "na1327",
+    "kit_id": "sc3231",
     "stage": "소음",
     "sort_order": 4
   },
   {
-    "kit_id": "na1326",
+    "kit_id": "sc3241",
     "stage": "감염",
     "sort_order": 1
   },
   {
-    "kit_id": "na1326",
+    "kit_id": "sc3241",
     "stage": "감염병",
     "sort_order": 2
   },
   {
-    "kit_id": "na1326",
+    "kit_id": "sc3241",
     "stage": "감염병의 위험성",
     "sort_order": 3
   },
   {
-    "kit_id": "na1326",
+    "kit_id": "sc3241",
     "stage": "예방수칙",
     "sort_order": 4
   },
   {
-    "kit_id": "na1698",
+    "kit_id": "so3111",
     "stage": "장소감",
     "sort_order": 1
   },
   {
-    "kit_id": "na1698",
+    "kit_id": "so3111",
     "stage": "존중",
     "sort_order": 2
   },
   {
-    "kit_id": "na1697",
+    "kit_id": "so3112",
     "stage": "시설",
     "sort_order": 1
   },
   {
-    "kit_id": "na1697",
+    "kit_id": "so3112",
     "stage": "기관",
     "sort_order": 2
   },
   {
-    "kit_id": "na1697",
+    "kit_id": "so3112",
     "stage": "디지털 영상 지도",
     "sort_order": 3
   },
   {
-    "kit_id": "na1696",
+    "kit_id": "so3121",
     "stage": "시간의 흐름",
     "sort_order": 1
   },
   {
-    "kit_id": "na1696",
+    "kit_id": "so3121",
     "stage": "역사",
     "sort_order": 2
   },
   {
-    "kit_id": "na1695",
+    "kit_id": "so3122",
     "stage": "역사 자료",
     "sort_order": 1
   },
   {
-    "kit_id": "na1695",
+    "kit_id": "so3122",
     "stage": "추론",
     "sort_order": 2
   },
   {
-    "kit_id": "na1694",
+    "kit_id": "so3123",
     "stage": "생활 모습",
     "sort_order": 1
   },
   {
-    "kit_id": "na1694",
+    "kit_id": "so3123",
     "stage": "변화",
     "sort_order": 2
   },
   {
-    "kit_id": "na1693",
+    "kit_id": "sc3111",
     "stage": "생활 속 힘",
     "sort_order": 1
   },
   {
-    "kit_id": "na1693",
+    "kit_id": "sc3111",
     "stage": "밀기와 당기기",
     "sort_order": 2
   },
   {
-    "kit_id": "na1693",
+    "kit_id": "sc3111",
     "stage": "수평 잡기",
     "sort_order": 3
   },
   {
-    "kit_id": "na1693",
+    "kit_id": "sc3111",
     "stage": "저울",
     "sort_order": 4
   },
   {
-    "kit_id": "na1693",
+    "kit_id": "sc3111",
     "stage": "무게",
     "sort_order": 5
   },
   {
-    "kit_id": "na1693",
+    "kit_id": "sc3111",
     "stage": "들어 올리기",
     "sort_order": 6
   },
   {
-    "kit_id": "na1693",
+    "kit_id": "sc3111",
     "stage": "도구의 이용",
     "sort_order": 7
   },
   {
-    "kit_id": "na1692",
+    "kit_id": "sc3121",
     "stage": "우리 주변의 동물",
     "sort_order": 1
   },
   {
-    "kit_id": "na1692",
+    "kit_id": "sc3121",
     "stage": "동물 분류",
     "sort_order": 2
   },
   {
-    "kit_id": "na1692",
+    "kit_id": "sc3121",
     "stage": "땅에 사는 동물",
     "sort_order": 3
   },
   {
-    "kit_id": "na1692",
+    "kit_id": "sc3121",
     "stage": "물에 사는 동물",
     "sort_order": 4
   },
   {
-    "kit_id": "na1692",
+    "kit_id": "sc3121",
     "stage": "사막에 사는 동물",
     "sort_order": 5
   },
   {
-    "kit_id": "na1692",
+    "kit_id": "sc3121",
     "stage": "극지방에 사는 동물",
     "sort_order": 6
   },
   {
-    "kit_id": "na1692",
+    "kit_id": "sc3121",
     "stage": "환경에 따른 동물의 모습",
     "sort_order": 7
   },
   {
-    "kit_id": "na1692",
+    "kit_id": "sc3121",
     "stage": "동물의 특징",
     "sort_order": 8
   },
   {
-    "kit_id": "na1692",
+    "kit_id": "sc3121",
     "stage": "동물 모방",
     "sort_order": 9
   },
   {
-    "kit_id": "na1691",
+    "kit_id": "sc3131",
     "stage": "우리 주변의 식물",
     "sort_order": 1
   },
   {
-    "kit_id": "na1691",
+    "kit_id": "sc3131",
     "stage": "식물 분류",
     "sort_order": 2
   },
   {
-    "kit_id": "na1691",
+    "kit_id": "sc3131",
     "stage": "들이나 산에 사는 식물",
     "sort_order": 3
   },
   {
-    "kit_id": "na1691",
+    "kit_id": "sc3131",
     "stage": "강이나 연못에 사는 식물",
     "sort_order": 4
   },
   {
-    "kit_id": "na1691",
+    "kit_id": "sc3131",
     "stage": "사막에 사는 식물",
     "sort_order": 5
   },
   {
-    "kit_id": "na1691",
+    "kit_id": "sc3131",
     "stage": "식물 모방",
     "sort_order": 6
   },
   {
-    "kit_id": "na1690",
+    "kit_id": "sc3141",
     "stage": "배추흰나비의 한살이",
     "sort_order": 1
   },
   {
-    "kit_id": "na1690",
+    "kit_id": "sc3141",
     "stage": "동물의 한살이",
     "sort_order": 2
   },
   {
-    "kit_id": "na1690",
+    "kit_id": "sc3141",
     "stage": "씨의 싹 틔움",
     "sort_order": 3
   },
   {
-    "kit_id": "na1690",
+    "kit_id": "sc3141",
     "stage": "식물의 성장",
     "sort_order": 4
   },
   {
-    "kit_id": "na1690",
+    "kit_id": "sc3141",
     "stage": "식물의 한살이",
     "sort_order": 5
   },
   {
-    "kit_id": "na1257",
+    "kit_id": "so4211",
     "stage": "정치",
     "sort_order": 1
   },
   {
-    "kit_id": "na1257",
+    "kit_id": "so4211",
     "stage": "민주주의",
     "sort_order": 2
   },
   {
-    "kit_id": "na1257",
+    "kit_id": "so4211",
     "stage": "학교자치",
     "sort_order": 3
   },
   {
-    "kit_id": "na1257",
+    "kit_id": "so4211",
     "stage": "학교생활",
     "sort_order": 4
   },
   {
-    "kit_id": "na1256",
+    "kit_id": "so4212",
     "stage": "민주주의",
     "sort_order": 1
   },
   {
-    "kit_id": "na1256",
+    "kit_id": "so4212",
     "stage": "주민자치",
     "sort_order": 2
   },
   {
-    "kit_id": "na1256",
+    "kit_id": "so4212",
     "stage": "주민참여",
     "sort_order": 3
   },
   {
-    "kit_id": "na1255",
+    "kit_id": "so4221",
     "stage": "지역문제",
     "sort_order": 1
   },
   {
-    "kit_id": "na1255",
+    "kit_id": "so4221",
     "stage": "문제해결",
     "sort_order": 2
   },
   {
-    "kit_id": "na1254",
+    "kit_id": "so4222",
     "stage": "자연환경",
     "sort_order": 1
   },
   {
-    "kit_id": "na1254",
+    "kit_id": "so4222",
     "stage": "역사",
     "sort_order": 2
   },
   {
-    "kit_id": "na1254",
+    "kit_id": "so4222",
     "stage": "문화",
     "sort_order": 3
   },
   {
-    "kit_id": "na1254",
+    "kit_id": "so4222",
     "stage": "생산물",
     "sort_order": 4
   },
   {
-    "kit_id": "na1254",
+    "kit_id": "so4222",
     "stage": "홍보",
     "sort_order": 5
   },
   {
-    "kit_id": "na1254",
+    "kit_id": "so4222",
     "stage": "참여",
     "sort_order": 6
   },
   {
-    "kit_id": "na1253",
+    "kit_id": "so4231",
     "stage": "자연환경",
     "sort_order": 1
   },
   {
-    "kit_id": "na1253",
+    "kit_id": "so4231",
     "stage": "인문환경",
     "sort_order": 2
   },
   {
-    "kit_id": "na1253",
+    "kit_id": "so4231",
     "stage": "환경",
     "sort_order": 3
   },
   {
-    "kit_id": "na1253",
+    "kit_id": "so4231",
     "stage": "개발",
     "sort_order": 4
   },
   {
-    "kit_id": "na1253",
+    "kit_id": "so4231",
     "stage": "변화",
     "sort_order": 5
   },
   {
-    "kit_id": "na1253",
+    "kit_id": "so4231",
     "stage": "이용·개발·변화",
     "sort_order": 6
   },
   {
-    "kit_id": "na1252",
+    "kit_id": "so4232",
     "stage": "도시",
     "sort_order": 1
   },
   {
-    "kit_id": "na1252",
+    "kit_id": "so4232",
     "stage": "도시문제",
     "sort_order": 2
   },
   {
-    "kit_id": "na1246",
+    "kit_id": "sc4211",
     "stage": "태양계",
     "sort_order": 1
   },
   {
-    "kit_id": "na1246",
+    "kit_id": "sc4211",
     "stage": "태양",
     "sort_order": 2
   },
   {
-    "kit_id": "na1246",
+    "kit_id": "sc4211",
     "stage": "행성",
     "sort_order": 3
   },
   {
-    "kit_id": "na1246",
+    "kit_id": "sc4211",
     "stage": "별",
     "sort_order": 4
   },
   {
-    "kit_id": "na1246",
+    "kit_id": "sc4211",
     "stage": "별자리",
     "sort_order": 5
   },
   {
-    "kit_id": "na1246",
+    "kit_id": "sc4211",
     "stage": "북극성",
     "sort_order": 6
   },
   {
-    "kit_id": "na1246",
+    "kit_id": "sc4211",
     "stage": "달",
     "sort_order": 7
   },
   {
-    "kit_id": "na1246",
+    "kit_id": "sc4211",
     "stage": "달의 위상변화",
     "sort_order": 8
   },
   {
-    "kit_id": "na1245",
+    "kit_id": "sc4221",
     "stage": "생태계",
     "sort_order": 1
   },
   {
-    "kit_id": "na1245",
+    "kit_id": "sc4221",
     "stage": "생물요소",
     "sort_order": 2
   },
   {
-    "kit_id": "na1245",
+    "kit_id": "sc4221",
     "stage": "비생물요소",
     "sort_order": 3
   },
   {
-    "kit_id": "na1245",
+    "kit_id": "sc4221",
     "stage": "먹이관계",
     "sort_order": 4
   },
   {
-    "kit_id": "na1245",
+    "kit_id": "sc4221",
     "stage": "생태계보전",
     "sort_order": 5
   },
   {
-    "kit_id": "na1245",
+    "kit_id": "sc4221",
     "stage": "생산자",
     "sort_order": 6
   },
   {
-    "kit_id": "na1245",
+    "kit_id": "sc4221",
     "stage": "소비자",
     "sort_order": 7
   },
   {
-    "kit_id": "na1245",
+    "kit_id": "sc4221",
     "stage": "분해자",
     "sort_order": 8
   },
   {
-    "kit_id": "na1244",
+    "kit_id": "sc4231",
     "stage": "온도와 기체 부피",
     "sort_order": 1
   },
   {
-    "kit_id": "na1244",
+    "kit_id": "sc4231",
     "stage": "압력과 기체 부피",
     "sort_order": 2
   },
   {
-    "kit_id": "na1244",
+    "kit_id": "sc4231",
     "stage": "기압",
     "sort_order": 3
   },
   {
-    "kit_id": "na1244",
+    "kit_id": "sc4231",
     "stage": "산소",
     "sort_order": 4
   },
   {
-    "kit_id": "na1244",
+    "kit_id": "sc4231",
     "stage": "이산화탄소",
     "sort_order": 5
   },
   {
-    "kit_id": "na1244",
+    "kit_id": "sc4231",
     "stage": "질소",
     "sort_order": 6
   },
   {
-    "kit_id": "na1244",
+    "kit_id": "sc4231",
     "stage": "공기",
     "sort_order": 7
   },
   {
-    "kit_id": "na1243",
+    "kit_id": "sc4241",
     "stage": "기온",
     "sort_order": 1
   },
   {
-    "kit_id": "na1243",
+    "kit_id": "sc4241",
     "stage": "기후변화",
     "sort_order": 2
   },
   {
-    "kit_id": "na1243",
+    "kit_id": "sc4241",
     "stage": "기후대응",
     "sort_order": 3
   },
   {
-    "kit_id": "na1243",
+    "kit_id": "sc4241",
     "stage": "생태계보전",
     "sort_order": 4
   },
   {
-    "kit_id": "na1689",
+    "kit_id": "so4111",
     "stage": "지도",
     "sort_order": 1
   },
   {
-    "kit_id": "na1689",
+    "kit_id": "so4111",
     "stage": "방위",
     "sort_order": 2
   },
   {
-    "kit_id": "na1689",
+    "kit_id": "so4111",
     "stage": "기호",
     "sort_order": 3
   },
   {
-    "kit_id": "na1689",
+    "kit_id": "so4111",
     "stage": "범례",
     "sort_order": 4
   },
   {
-    "kit_id": "na1689",
+    "kit_id": "so4111",
     "stage": "축척",
     "sort_order": 5
   },
   {
-    "kit_id": "na1689",
+    "kit_id": "so4111",
     "stage": "등고선",
     "sort_order": 6
   },
   {
-    "kit_id": "na1688",
+    "kit_id": "so4112",
     "stage": "위치",
     "sort_order": 1
   },
   {
-    "kit_id": "na1688",
+    "kit_id": "so4112",
     "stage": "면적",
     "sort_order": 2
   },
   {
-    "kit_id": "na1688",
+    "kit_id": "so4112",
     "stage": "인구",
     "sort_order": 3
   },
   {
-    "kit_id": "na1688",
+    "kit_id": "so4112",
     "stage": "지형",
     "sort_order": 4
   },
   {
-    "kit_id": "na1688",
+    "kit_id": "so4112",
     "stage": "기온",
     "sort_order": 5
   },
   {
-    "kit_id": "na1688",
+    "kit_id": "so4112",
     "stage": "강수량",
     "sort_order": 6
   },
   {
-    "kit_id": "na1687",
+    "kit_id": "so4121",
     "stage": "국가유산",
     "sort_order": 1
   },
   {
-    "kit_id": "na1686",
+    "kit_id": "so4122",
     "stage": "박물관",
     "sort_order": 1
   },
   {
-    "kit_id": "na1686",
+    "kit_id": "so4122",
     "stage": "유적지",
     "sort_order": 2
   },
   {
-    "kit_id": "na1686",
+    "kit_id": "so4122",
     "stage": "기념관",
     "sort_order": 3
   },
   {
-    "kit_id": "na1686",
+    "kit_id": "so4122",
     "stage": "지역의 역사",
     "sort_order": 4
   },
   {
-    "kit_id": "na1685",
+    "kit_id": "so4131",
     "stage": "경제활동",
     "sort_order": 1
   },
   {
-    "kit_id": "na1685",
+    "kit_id": "so4131",
     "stage": "희소성",
     "sort_order": 2
   },
   {
-    "kit_id": "na1685",
+    "kit_id": "so4131",
     "stage": "합리적 선택",
     "sort_order": 3
   },
   {
-    "kit_id": "na1684",
+    "kit_id": "so4132",
     "stage": "생산",
     "sort_order": 1
   },
   {
-    "kit_id": "na1684",
+    "kit_id": "so4132",
     "stage": "소비",
     "sort_order": 2
   },
   {
-    "kit_id": "na1684",
+    "kit_id": "so4132",
     "stage": "교류",
     "sort_order": 3
   },
   {
-    "kit_id": "na1684",
+    "kit_id": "so4132",
     "stage": "수출",
     "sort_order": 4
   },
   {
-    "kit_id": "na1683",
+    "kit_id": "sc4111",
     "stage": "자석",
     "sort_order": 1
   },
   {
-    "kit_id": "na1683",
+    "kit_id": "sc4111",
     "stage": "자석에 붙는 물체",
     "sort_order": 2
   },
   {
-    "kit_id": "na1683",
+    "kit_id": "sc4111",
     "stage": "자력",
     "sort_order": 3
   },
   {
-    "kit_id": "na1683",
+    "kit_id": "sc4111",
     "stage": "자석의 극",
     "sort_order": 4
   },
   {
-    "kit_id": "na1682",
+    "kit_id": "sc4121",
     "stage": "상태 변화",
     "sort_order": 1
   },
   {
-    "kit_id": "na1681",
+    "kit_id": "sc4121",
+    "stage": "물의 상태 변화",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "sc4121",
+    "stage": "응결",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "sc4121",
+    "stage": "증발",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "sc4121",
+    "stage": "끓음",
+    "sort_order": 5
+  },
+  {
+    "kit_id": "sc4131",
     "stage": "지형",
     "sort_order": 1
   },
   {
-    "kit_id": "na1681",
+    "kit_id": "sc4131",
     "stage": "지진",
     "sort_order": 2
   },
   {
-    "kit_id": "na1681",
+    "kit_id": "sc4131",
     "stage": "화산",
     "sort_order": 3
   },
   {
-    "kit_id": "na1681",
+    "kit_id": "sc4131",
     "stage": "화강암",
     "sort_order": 4
   },
   {
-    "kit_id": "na1681",
+    "kit_id": "sc4131",
     "stage": "현무암",
     "sort_order": 5
   },
   {
-    "kit_id": "na1681",
+    "kit_id": "sc4131",
     "stage": "흐르는 물의 작용",
     "sort_order": 6
   },
   {
-    "kit_id": "na1681",
+    "kit_id": "sc4131",
     "stage": "침식",
     "sort_order": 7
   },
   {
-    "kit_id": "na1681",
+    "kit_id": "sc4131",
     "stage": "강 주변 지형",
     "sort_order": 8
   },
   {
-    "kit_id": "na1681",
+    "kit_id": "sc4131",
     "stage": "바닷가 주변 지형",
     "sort_order": 9
   },
   {
-    "kit_id": "na1680",
+    "kit_id": "sc4141",
     "stage": "균류",
     "sort_order": 1
   },
   {
-    "kit_id": "na1680",
+    "kit_id": "sc4141",
     "stage": "생명과학",
     "sort_order": 2
   },
   {
-    "kit_id": "na1680",
+    "kit_id": "sc4141",
     "stage": "세균",
     "sort_order": 3
   },
   {
-    "kit_id": "na1680",
+    "kit_id": "sc4141",
     "stage": "원생생물",
     "sort_order": 4
   },
   {
-    "kit_id": "na1679",
+    "kit_id": "so5111",
     "stage": "위도",
     "sort_order": 1
   },
   {
-    "kit_id": "na1679",
+    "kit_id": "so5111",
     "stage": "경도",
     "sort_order": 2
   },
   {
-    "kit_id": "na1679",
+    "kit_id": "so5111",
     "stage": "국토",
     "sort_order": 3
   },
   {
-    "kit_id": "na1679",
+    "kit_id": "so5111",
     "stage": "영토",
     "sort_order": 4
   },
   {
-    "kit_id": "na1679",
+    "kit_id": "so5111",
     "stage": "영해",
     "sort_order": 5
   },
   {
-    "kit_id": "na1679",
+    "kit_id": "so5111",
     "stage": "행정구역",
     "sort_order": 6
   },
   {
-    "kit_id": "na1678",
-    "stage": "지형",
+    "kit_id": "so5112",
+    "stage": "독도",
     "sort_order": 1
   },
   {
-    "kit_id": "na1678",
-    "stage": "기후",
+    "kit_id": "so5112",
+    "stage": "독도의 가치",
     "sort_order": 2
   },
   {
-    "kit_id": "na1678",
-    "stage": "기온",
+    "kit_id": "so5112",
+    "stage": "독도의 자연환경",
     "sort_order": 3
   },
   {
-    "kit_id": "na1678",
-    "stage": "강수량",
+    "kit_id": "so5112",
+    "stage": "독도의 역사",
     "sort_order": 4
   },
   {
-    "kit_id": "na1678",
-    "stage": "자연재해",
-    "sort_order": 5
-  },
-  {
-    "kit_id": "na1677",
+    "kit_id": "so5121",
     "stage": "인구분포",
     "sort_order": 1
   },
   {
-    "kit_id": "na1677",
+    "kit_id": "so5121",
     "stage": "인구구조",
     "sort_order": 2
   },
   {
-    "kit_id": "na1677",
+    "kit_id": "so5121",
     "stage": "도시발달",
     "sort_order": 3
   },
   {
-    "kit_id": "na1677",
+    "kit_id": "so5121",
     "stage": "산업구조",
     "sort_order": 4
   },
   {
-    "kit_id": "na1677",
+    "kit_id": "so5121",
     "stage": "교통발달",
     "sort_order": 5
   },
   {
-    "kit_id": "na1676",
+    "kit_id": "so5122",
     "stage": "인권",
     "sort_order": 1
   },
   {
-    "kit_id": "na1676",
+    "kit_id": "so5122",
     "stage": "인권신장",
     "sort_order": 2
   },
   {
-    "kit_id": "na1676",
+    "kit_id": "so5122",
     "stage": "인권침해",
     "sort_order": 3
   },
   {
-    "kit_id": "na1676",
+    "kit_id": "so5122",
     "stage": "인권보호",
     "sort_order": 4
   },
   {
-    "kit_id": "na1675",
+    "kit_id": "so5131",
     "stage": "헌법",
     "sort_order": 1
   },
   {
-    "kit_id": "na1675",
+    "kit_id": "so5131",
     "stage": "기본권",
     "sort_order": 2
   },
   {
-    "kit_id": "na1675",
+    "kit_id": "so5131",
     "stage": "의무",
     "sort_order": 3
   },
   {
-    "kit_id": "na1674",
+    "kit_id": "so5132",
     "stage": "법",
     "sort_order": 1
   },
   {
-    "kit_id": "na1674",
+    "kit_id": "so5132",
     "stage": "직업",
     "sort_order": 2
   },
   {
-    "kit_id": "na1674",
+    "kit_id": "so5132",
     "stage": "역할",
     "sort_order": 3
   },
   {
-    "kit_id": "na1674",
+    "kit_id": "so5132",
     "stage": "태도",
     "sort_order": 4
   },
   {
-    "kit_id": "na1673",
+    "kit_id": "sc5111",
     "stage": "온도",
     "sort_order": 1
   },
   {
-    "kit_id": "na1673",
+    "kit_id": "sc5111",
     "stage": "열의 이동",
     "sort_order": 2
   },
   {
-    "kit_id": "na1673",
+    "kit_id": "sc5111",
     "stage": "전도",
     "sort_order": 3
   },
   {
-    "kit_id": "na1673",
+    "kit_id": "sc5111",
     "stage": "대류",
     "sort_order": 4
   },
   {
-    "kit_id": "na1673",
+    "kit_id": "sc5111",
     "stage": "단열",
     "sort_order": 5
   },
   {
-    "kit_id": "na1672",
-    "stage": "태양",
+    "kit_id": "sc5121",
+    "stage": "빛",
     "sort_order": 1
   },
   {
-    "kit_id": "na1672",
-    "stage": "태양계",
+    "kit_id": "sc5121",
+    "stage": "빛의 반사",
     "sort_order": 2
   },
   {
-    "kit_id": "na1672",
-    "stage": "행성",
+    "kit_id": "sc5121",
+    "stage": "빛의 굴절",
     "sort_order": 3
   },
   {
-    "kit_id": "na1672",
-    "stage": "별",
+    "kit_id": "sc5121",
+    "stage": "볼록 렌즈",
     "sort_order": 4
   },
   {
-    "kit_id": "na1672",
-    "stage": "별자리",
+    "kit_id": "sc5121",
+    "stage": "빛의 성질",
     "sort_order": 5
   },
   {
-    "kit_id": "na1672",
-    "stage": "북극성",
-    "sort_order": 6
-  },
-  {
-    "kit_id": "na1671",
+    "kit_id": "sc5131",
     "stage": "용액",
     "sort_order": 1
   },
   {
-    "kit_id": "na1671",
+    "kit_id": "sc5131",
     "stage": "용질",
     "sort_order": 2
   },
   {
-    "kit_id": "na1671",
+    "kit_id": "sc5131",
     "stage": "용액의 진하기",
     "sort_order": 3
   },
   {
-    "kit_id": "na1671",
+    "kit_id": "sc5131",
     "stage": "녹는 양",
     "sort_order": 4
   },
   {
-    "kit_id": "na1670",
-    "stage": "다양한 생물",
+    "kit_id": "sc5141",
+    "stage": "뼈",
     "sort_order": 1
   },
   {
-    "kit_id": "na1670",
-    "stage": "첨단 생명과학",
+    "kit_id": "sc5141",
+    "stage": "근육",
     "sort_order": 2
   },
   {
-    "kit_id": "na1973",
+    "kit_id": "sc5141",
+    "stage": "소화기관",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "sc5141",
+    "stage": "순환기관",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "sc5141",
+    "stage": "호흡기관",
+    "sort_order": 5
+  },
+  {
+    "kit_id": "sc5141",
+    "stage": "배설기관",
+    "sort_order": 6
+  },
+  {
+    "kit_id": "sc5141",
+    "stage": "질병예방",
+    "sort_order": 7
+  },
+  {
+    "kit_id": "so6111",
     "stage": "분단",
     "sort_order": 1
   },
   {
-    "kit_id": "na1973",
+    "kit_id": "so6111",
     "stage": "남북통일",
     "sort_order": 2
   },
   {
-    "kit_id": "na1973",
+    "kit_id": "so6111",
     "stage": "비무장지대",
     "sort_order": 3
   },
   {
-    "kit_id": "na1973",
+    "kit_id": "so6111",
     "stage": "평화통일",
     "sort_order": 4
   },
   {
-    "kit_id": "na1651",
+    "kit_id": "so6112",
     "stage": "4.19혁명",
     "sort_order": 1
   },
   {
-    "kit_id": "na1651",
+    "kit_id": "so6112",
     "stage": "5.18민주화운동",
     "sort_order": 2
   },
   {
-    "kit_id": "na1651",
+    "kit_id": "so6112",
     "stage": "6월 민주항쟁",
     "sort_order": 3
   },
   {
-    "kit_id": "na1651",
+    "kit_id": "so6112",
     "stage": "산업화",
     "sort_order": 4
   },
   {
-    "kit_id": "na1650",
+    "kit_id": "so6121",
     "stage": "민주주의",
     "sort_order": 1
   },
   {
-    "kit_id": "na1650",
+    "kit_id": "so6121",
     "stage": "선거",
     "sort_order": 2
   },
   {
-    "kit_id": "na1650",
+    "kit_id": "so6121",
     "stage": "공정선거",
     "sort_order": 3
   },
   {
-    "kit_id": "na1650",
+    "kit_id": "so6121",
     "stage": "공명선거",
     "sort_order": 4
   },
   {
-    "kit_id": "na1650",
+    "kit_id": "so6121",
     "stage": "기타",
     "sort_order": 5
   },
   {
-    "kit_id": "na1649",
+    "kit_id": "so6122",
     "stage": "권력분립",
     "sort_order": 1
   },
   {
-    "kit_id": "na1649",
+    "kit_id": "so6122",
     "stage": "국회",
     "sort_order": 2
   },
   {
-    "kit_id": "na1649",
+    "kit_id": "so6122",
     "stage": "행정부",
     "sort_order": 3
   },
   {
-    "kit_id": "na1649",
+    "kit_id": "so6122",
     "stage": "법원",
     "sort_order": 4
   },
   {
-    "kit_id": "na1648",
+    "kit_id": "so6123",
     "stage": "미디어",
     "sort_order": 1
   },
   {
-    "kit_id": "na1648",
+    "kit_id": "so6123",
     "stage": "허위조작정보",
     "sort_order": 2
   },
   {
-    "kit_id": "na1648",
+    "kit_id": "so6123",
     "stage": "비판적 사고",
     "sort_order": 3
   },
   {
-    "kit_id": "na1648",
+    "kit_id": "so6123",
     "stage": "비판적 태도",
     "sort_order": 4
   },
   {
-    "kit_id": "na1648",
+    "kit_id": "so6123",
     "stage": "저작권",
     "sort_order": 5
   },
   {
-    "kit_id": "na1648",
+    "kit_id": "so6123",
     "stage": "다양한 관점",
     "sort_order": 6
   },
   {
-    "kit_id": "na1647",
+    "kit_id": "so6131",
     "stage": "세계",
     "sort_order": 1
   },
   {
-    "kit_id": "na1647",
+    "kit_id": "so6131",
     "stage": "지도",
     "sort_order": 2
   },
   {
-    "kit_id": "na1647",
+    "kit_id": "so6131",
     "stage": "세계지도",
     "sort_order": 3
   },
   {
-    "kit_id": "na1647",
+    "kit_id": "so6131",
     "stage": "위치",
     "sort_order": 4
   },
   {
-    "kit_id": "na1647",
+    "kit_id": "so6131",
     "stage": "디지털 공간 영상정보",
     "sort_order": 5
   },
   {
-    "kit_id": "na1647",
+    "kit_id": "so6131",
     "stage": "공간자료",
     "sort_order": 6
   },
   {
-    "kit_id": "na1646",
+    "kit_id": "so6132",
     "stage": "대륙과 대양",
     "sort_order": 1
   },
   {
-    "kit_id": "na1646",
+    "kit_id": "so6132",
     "stage": "국가",
     "sort_order": 2
   },
   {
-    "kit_id": "na1646",
+    "kit_id": "so6132",
     "stage": "영토",
     "sort_order": 3
   },
   {
-    "kit_id": "na1645",
+    "kit_id": "sc6111",
     "stage": "용액",
     "sort_order": 1
   },
   {
-    "kit_id": "na1645",
+    "kit_id": "sc6111",
     "stage": "지시약",
     "sort_order": 2
   },
   {
-    "kit_id": "na1645",
+    "kit_id": "sc6111",
     "stage": "산성",
     "sort_order": 3
   },
   {
-    "kit_id": "na1645",
+    "kit_id": "sc6111",
     "stage": "염기성",
     "sort_order": 4
   },
   {
-    "kit_id": "na1645",
+    "kit_id": "sc6111",
     "stage": "산과 염기 활용",
     "sort_order": 5
   },
   {
-    "kit_id": "na1645",
+    "kit_id": "sc6111",
     "stage": "산과 염기",
     "sort_order": 6
   },
   {
-    "kit_id": "na1645",
+    "kit_id": "sc6111",
     "stage": "산성화",
     "sort_order": 7
   },
   {
-    "kit_id": "na1644",
+    "kit_id": "sc6121",
     "stage": "물체의 운동",
     "sort_order": 1
   },
   {
-    "kit_id": "na1644",
+    "kit_id": "sc6121",
     "stage": "속력",
     "sort_order": 2
   },
   {
-    "kit_id": "na1644",
+    "kit_id": "sc6121",
     "stage": "교통안전",
     "sort_order": 3
   },
   {
-    "kit_id": "na1644",
+    "kit_id": "sc6121",
     "stage": "안전장치",
     "sort_order": 4
   },
   {
-    "kit_id": "na1643",
+    "kit_id": "sc6131",
     "stage": "세포",
     "sort_order": 1
   },
   {
-    "kit_id": "na1643",
+    "kit_id": "sc6131",
     "stage": "현미경",
     "sort_order": 2
   },
   {
-    "kit_id": "na1643",
+    "kit_id": "sc6131",
     "stage": "뿌리",
     "sort_order": 3
   },
   {
-    "kit_id": "na1643",
+    "kit_id": "sc6131",
     "stage": "줄기",
     "sort_order": 4
   },
   {
-    "kit_id": "na1643",
+    "kit_id": "sc6131",
     "stage": "잎",
     "sort_order": 5
   },
   {
-    "kit_id": "na1643",
+    "kit_id": "sc6131",
     "stage": "꽃",
     "sort_order": 6
   },
   {
-    "kit_id": "na1643",
+    "kit_id": "sc6131",
     "stage": "씨",
     "sort_order": 7
   },
   {
-    "kit_id": "na1643",
+    "kit_id": "sc6131",
     "stage": "여러가지 식물",
     "sort_order": 8
   },
   {
-    "kit_id": "na1642",
+    "kit_id": "sc6141",
     "stage": "자전",
     "sort_order": 1
   },
   {
-    "kit_id": "na1642",
+    "kit_id": "sc6141",
     "stage": "낮과 밤",
     "sort_order": 2
   },
   {
-    "kit_id": "na1642",
+    "kit_id": "sc6141",
     "stage": "공전",
     "sort_order": 3
   },
   {
-    "kit_id": "na1642",
+    "kit_id": "sc6141",
     "stage": "별자리",
     "sort_order": 4
   }
