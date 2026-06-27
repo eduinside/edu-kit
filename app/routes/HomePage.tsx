@@ -135,7 +135,7 @@ export default function HomePage() {
   const rec = shown.length === 0 ? recommendScope(grade, sem, subject) : null;
 
   return (
-    <div style={{ minHeight: "100vh", background: "var(--gradient-page)", fontFamily: "var(--font-sans)", color: "var(--color-ink)" }}>
+    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column", background: "var(--gradient-page)", fontFamily: "var(--font-sans)", color: "var(--color-ink)" }}>
       {/* 헤더 */}
       <div className="glassmorphism" style={{ position: "sticky", top: 0, zIndex: 30, height: 58, display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0 24px" }}>
         <Link to="/" aria-label="수업꾸러미 홈" style={{ display: "flex", alignItems: "center", gap: 11, textDecoration: "none", color: "inherit" }}>
@@ -150,7 +150,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "34px 28px 64px" }}>
+      <div style={{ flex: 1, width: "100%", maxWidth: 1200, margin: "0 auto", padding: "34px 28px 64px" }}>
         {/* 인트로 */}
         <div style={{ marginBottom: 26 }}>
           <div style={{ display: "inline-flex", alignItems: "center", gap: 7, padding: "5px 11px", background: "var(--color-brand-50)", borderRadius: 9999, marginBottom: 13 }}>

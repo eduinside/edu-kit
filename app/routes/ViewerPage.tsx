@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight, Link2, Eye, Heart, Menu, Check } from "lucid
 
 const NARROW_Q = "(max-width: 860px)";
 import Sidebar from "../components/viewer/Sidebar.tsx";
-import ContentPane, { VideoPlayer, VideoMeta } from "../components/viewer/ContentPane.tsx";
+import ContentPane, { VideoPlayer } from "../components/viewer/ContentPane.tsx";
 import { hi } from "../components/Hi.tsx";
 import { getKit } from "../lib/data.ts";
 import { getGroups, flatItems } from "../lib/kit-content.ts";
@@ -161,17 +161,19 @@ export default function ViewerPage() {
                 </div>
               </div>
               {sel?.group.question && <div style={{ marginTop: 6, fontSize: 11.5, fontWeight: 700, color: "var(--color-slate-400)" }}>탐구질문 · {sel.group.question}</div>}
+              {/* 영상 설명을 제목 박스(서브헤더) 안에 — 별도 둥근 상자 없이 */}
+              {sel?.item.type === "video" && (sel.item.video_desc || sel.item.caption) && (
+                <div style={{ marginTop: 6 }}>
+                  {sel.item.video_desc && <div style={{ fontSize: 13.5, fontWeight: 500, color: "var(--color-slate-600)", lineHeight: 1.55 }}>{hi(sel.item.video_desc, hl)}</div>}
+                  {sel.item.caption && <div style={{ marginTop: 3, fontSize: 11.5, fontWeight: 500, color: "var(--color-slate-400)" }}>{sel.item.caption}</div>}
+                </div>
+              )}
             </div>
           </div>
 
           {sel?.item.type === "video" ? (
-            // 순서: (서브헤더)태그+제목 → 설명 → 영상(영화관 풀폭) → 내비게이션
+            // 순서: (서브헤더)태그+제목+설명 → 영상(영화관 풀폭) → 내비게이션
             <>
-              {(sel.item.video_desc || sel.item.caption) && (
-                <div style={{ maxWidth: 1280, margin: "0 auto", padding: "14px 24px 2px" }}>
-                  <VideoMeta it={sel.item} hl={hl} />
-                </div>
-              )}
               <VideoPlayer key={sel.item.id} it={sel.item} />
               <div style={{ maxWidth: 1280, margin: "0 auto", padding: "20px 24px 80px" }}>
                 {navButtons}
