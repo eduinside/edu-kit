@@ -1,4 +1,4 @@
-import { Landmark, FlaskConical, Eye, Heart } from "lucide-react";
+import { Landmark, FlaskConical, Film, Eye, Heart } from "lucide-react";
 import type { Kit } from "../lib/data.ts";
 import { unitPalette, thumbStyle } from "../lib/design.ts";
 import { statsFor } from "../lib/stats.ts";
@@ -50,6 +50,7 @@ export default function KitCard({ kit, onOpen }: { kit: Kit; onOpen: () => void 
       <div style={{ padding: "13px 15px 14px" }}>
         <div style={{ fontSize: 11.5, fontWeight: 600, color: "var(--color-slate-400)", lineHeight: 1.4 }}>{kit.unit}</div>
         <div style={{ display: "flex", alignItems: "center", gap: 13, marginTop: 11, paddingTop: 11, borderTop: "1px solid var(--color-slate-100)" }}>
+          <span title="내장 콘텐츠 수" style={{ display: "inline-flex", alignItems: "center", gap: 5, fontSize: 11, fontWeight: 700, color: "var(--color-slate-500)" }}><Film size={13} /> {kit.content_count ?? 0}</span>
           <span style={{ display: "inline-flex", alignItems: "center", gap: 5, fontSize: 11, fontWeight: 700, color: "var(--color-slate-500)" }}><Eye size={14} /> {s.views}</span>
           <span style={{ display: "inline-flex", alignItems: "center", gap: 5, fontSize: 11, fontWeight: 700, color: "var(--color-slate-500)" }}><Heart size={13} /> {s.likes}</span>
         </div>

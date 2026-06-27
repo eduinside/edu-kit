@@ -28,6 +28,7 @@ export interface Kit {
   flow: Flow;
   sort_order: number;
   published: boolean;
+  content_count?: number; // 빌드 시 산출(intro 제외 항목 수). 홈 카드 표시용 — 시트 입력값 아님.
 }
 
 export interface Item {

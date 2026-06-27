@@ -217,6 +217,14 @@ function main() {
   const items = buildItems(kits);
   const stageMeta = buildStageMeta(kits);
 
+  // 각 꾸러미의 내장 콘텐츠 수(intro 제외) → kits.json에 부가(홈 카드가 items.json 없이 표시).
+  const contentCount = new Map<string, number>();
+  for (const it of items) {
+    if (it.type === "intro") continue;
+    contentCount.set(it.kit_id, (contentCount.get(it.kit_id) ?? 0) + 1);
+  }
+  for (const k of kits) k.content_count = contentCount.get(k.id) ?? 0;
+
   kits.sort((a, b) => a.grade - b.grade || a.sort_order - b.sort_order);
   items.sort((a, b) => a.kit_id.localeCompare(b.kit_id) || a.sort_order - b.sort_order);
 
