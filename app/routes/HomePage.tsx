@@ -13,14 +13,41 @@ const SUBJECT_OPTIONS = [{ key: "사회", label: "사회" }, { key: "과학", la
 const labelStyle = { fontSize: 11, fontWeight: 800, color: "var(--color-slate-400)", letterSpacing: ".04em" } as const;
 const divider = { width: 1, height: 24, background: "var(--color-slate-100)" } as const;
 
+// 첫 진입 기본 조건: 자료가 있는(공개된) 조건 중 가장 앞선 것(학년↑ → 1학기 → 사회). 없으면 5/2학기/사회.
+const DEFAULT_SCOPE: { grade: Grade; sem: Semester; subject: Subject } = (() => {
+  const rank = (k: { grade: number; sem: Semester; subject: Subject }) =>
+    k.grade * 100 + (k.sem === "1학기" ? 0 : 10) + (k.subject === "사회" ? 0 : 1);
+  const pub = [...KITS.filter((k) => k.published)].sort((a, b) => rank(a) - rank(b));
+  const f = pub[0];
+  return f ? { grade: f.grade, sem: f.sem, subject: f.subject } : { grade: 5, sem: "2학기", subject: "사회" };
+})();
+
+// 빈 상태일 때: 실제 자료가 있는(공개된) 조건 중 현재 선택과 가장 비슷한 것을 추천.
+function recommendScope(grade: Grade, sem: Semester, subject: Subject) {
+  const map = new Map<string, { grade: Grade; sem: Semester; subject: Subject; count: number }>();
+  for (const k of KITS) {
+    if (!k.published) continue;
+    const key = `${k.grade}|${k.sem}|${k.subject}`;
+    const e = map.get(key) ?? { grade: k.grade, sem: k.sem, subject: k.subject, count: 0 };
+    e.count++;
+    map.set(key, e);
+  }
+  const scopes = [...map.values()];
+  if (!scopes.length) return null;
+  const score = (x: { grade: Grade; sem: Semester; subject: Subject }) =>
+    (x.grade === grade ? 2 : 0) + (x.subject === subject ? 1 : 0) + (x.sem === sem ? 1 : 0);
+  scopes.sort((a, b) => score(b) - score(a) || b.count - a.count);
+  return scopes[0]!;
+}
+
 export default function HomePage() {
   const navigate = useNavigate();
   const [params, setParams] = useSearchParams();
   const [showGuide, setShowGuide] = useState(false);
 
-  const grade = Number(params.get("grade") ?? 5) as Grade;
-  const sem = (params.get("sem") ?? "2학기") as Semester;
-  const subject = (params.get("subject") ?? "사회") as Subject;
+  const grade = Number(params.get("grade") ?? DEFAULT_SCOPE.grade) as Grade;
+  const sem = (params.get("sem") ?? DEFAULT_SCOPE.sem) as Semester;
+  const subject = (params.get("subject") ?? DEFAULT_SCOPE.subject) as Subject;
   const unit = params.get("unit") ?? "전체";
 
   function setFilter(patch: Record<string, string>, resetUnit = false) {
@@ -35,6 +62,7 @@ export default function HomePage() {
   const daes = [...new Set(inScope.map((k) => k.unit))];
   const units = ["전체", ...daes];
   const shown = inScope.filter((k) => unit === "전체" || k.unit === unit);
+  const rec = shown.length === 0 ? recommendScope(grade, sem, subject) : null;
 
   return (
     <div style={{ minHeight: "100vh", background: "var(--gradient-page)", fontFamily: "var(--font-sans)", color: "var(--color-ink)" }}>
@@ -116,11 +144,19 @@ export default function HomePage() {
           <div style={{ textAlign: "center", padding: "72px 20px", background: "#fff", border: "1px dashed var(--color-slate-200)", borderRadius: 16 }}>
             <div style={{ fontSize: 30, marginBottom: 10 }}>🗂️</div>
             <div style={{ fontSize: 15, fontWeight: 800, color: "var(--color-slate-600)" }}>선택하신 조건의 수업꾸러미가 아직 준비 중이에요</div>
-            <div style={{ fontSize: 13, fontWeight: 500, color: "var(--color-slate-400)", marginTop: 7 }}>샘플 데이터는 <b style={{ color: "var(--color-brand-600)" }}>초등 5학년 · 2학기 · 사회</b>에 준비되어 있어요.</div>
-            <button type="button" onClick={() => setParams(new URLSearchParams({ grade: "5", sem: "2학기", subject: "사회", unit: "전체" }), { replace: true })}
-              style={{ marginTop: 18, height: 38, padding: "0 18px", border: "none", borderRadius: 9999, background: "var(--color-brand-600)", color: "#fff", fontSize: 13, fontWeight: 700, cursor: "pointer", boxShadow: "var(--shadow-primary-soft)" }}>
-              5학년 2학기 사회 보기
-            </button>
+            {rec ? (
+              <>
+                <div style={{ fontSize: 13, fontWeight: 500, color: "var(--color-slate-400)", marginTop: 7 }}>
+                  대신 <b style={{ color: "var(--color-brand-600)" }}>초등 {rec.grade}학년 · {rec.sem} · {rec.subject}</b>에 {rec.count}개가 준비되어 있어요.
+                </div>
+                <button type="button" onClick={() => setParams(new URLSearchParams({ grade: String(rec.grade), sem: rec.sem, subject: rec.subject, unit: "전체" }), { replace: true })}
+                  style={{ marginTop: 18, height: 38, padding: "0 18px", border: "none", borderRadius: 9999, background: "var(--color-brand-600)", color: "#fff", fontSize: 13, fontWeight: 700, cursor: "pointer", boxShadow: "var(--shadow-primary-soft)" }}>
+                  초등 {rec.grade}학년 · {rec.sem} · {rec.subject} 보기
+                </button>
+              </>
+            ) : (
+              <div style={{ fontSize: 13, fontWeight: 500, color: "var(--color-slate-400)", marginTop: 7 }}>아직 공개된 수업꾸러미가 없어요.</div>
+            )}
           </div>
         )}
       </div>

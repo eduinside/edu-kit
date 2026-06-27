@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { ChevronLeft, ChevronRight, Link2, Eye, Heart, Menu } from "lucide-react";
+import { ChevronLeft, ChevronRight, Link2, Eye, Heart, Menu, Check } from "lucide-react";
 
 const NARROW_Q = "(max-width: 860px)";
 import Sidebar from "../components/viewer/Sidebar.tsx";
@@ -64,6 +64,14 @@ export default function ViewerPage() {
   const prevItem = curIdx > 0 ? flat[curIdx - 1] : null;
   const nextItem = curIdx >= 0 && curIdx < flat.length - 1 ? flat[curIdx + 1] : null;
 
+  // 항목별 문서 제목 — 탭/링크 미리보기 + GA4 page_view의 page_title(콘텐츠별 조회 분석)
+  useEffect(() => {
+    document.title = kit
+      ? `${sel ? sel.item.title + " · " : ""}${kit.title} · 수업꾸러미`
+      : "수업꾸러미 · kit.dgedu.link";
+    return () => { document.title = "수업꾸러미 · kit.dgedu.link"; };
+  }, [kitId, kit, sel?.item.item_key]);
+
   const crumb = kit ? `초등 ${kit.grade}학년 · ${kit.sem} · ${kit.subject}` : "";
 
   function copyLink() {
@@ -86,9 +94,9 @@ export default function ViewerPage() {
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 9, flexShrink: 0 }}>
-          <button type="button" className="icon-btn" onClick={copyLink} style={{ display: "inline-flex", alignItems: "center", gap: 7, height: 34, padding: "0 13px", border: "1px solid var(--color-slate-200)", borderRadius: 9999, background: "var(--color-slate-50)", cursor: "pointer", whiteSpace: "nowrap" }}>
-            <Link2 size={13} style={{ color: "var(--color-slate-400)" }} />
-            <span style={{ fontSize: 11.5, fontWeight: 800, color: "var(--color-brand-600)" }}>{copied ? "복사됨!" : "링크 복사"}</span>
+          <button type="button" className="icon-btn copy-btn" onClick={copyLink} aria-label="링크 복사" style={{ display: "inline-flex", alignItems: "center", gap: 7, height: 34, padding: "0 13px", border: "1px solid var(--color-slate-200)", borderRadius: 9999, background: "var(--color-slate-50)", cursor: "pointer", whiteSpace: "nowrap" }}>
+            {copied ? <Check size={14} style={{ color: "var(--color-success-600, #059669)" }} /> : <Link2 size={13} style={{ color: "var(--color-slate-400)" }} />}
+            <span className="copy-label" style={{ fontSize: 11.5, fontWeight: 800, color: copied ? "var(--color-success-700, #047857)" : "var(--color-brand-600)" }}>{copied ? "복사됨!" : "링크 복사"}</span>
           </button>
           <span style={{ display: "inline-flex", alignItems: "center", gap: 6, height: 34, padding: "0 12px", borderRadius: 9999, background: "var(--color-slate-50)", fontSize: 12, fontWeight: 700, color: "var(--color-slate-500)" }} aria-label={`조회수 ${stats.views}회`}>
             <Eye size={14} /> {stats.views}
@@ -121,9 +129,9 @@ export default function ViewerPage() {
 
         <div className="sk-scroll" style={{ flex: 1, minWidth: 0, overflowY: "auto", background: "var(--color-paper)" }}>
           {/* sticky 서브헤더 */}
-          <div style={{ position: "sticky", top: 0, zIndex: 5, background: "rgba(243,245,249,.86)", backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)", borderBottom: "1px solid var(--color-slate-100)", padding: "16px 24px" }}>
+          <div style={{ position: "sticky", top: 0, zIndex: 5, background: "rgba(243,245,249,.86)", backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)", borderBottom: "1px solid var(--color-slate-100)", padding: "9px 24px 10px" }}>
             <div style={{ maxWidth: 1280, margin: "0 auto" }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 9, marginBottom: 6 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 9, marginBottom: 4 }}>
                 {!sidebarOpen && (
                   <button type="button" className="icon-btn" onClick={() => setSidebarOpen(true)} aria-label="목차 펼치기" style={{ display: "inline-flex", alignItems: "center", gap: 6, height: 28, padding: "0 11px", border: "1px solid var(--color-slate-200)", borderRadius: 9999, background: "#fff", cursor: "pointer", color: "var(--color-slate-600)", fontSize: 11.5, fontWeight: 700, flexShrink: 0 }}>
                     <Menu size={13} /> 목차
@@ -135,7 +143,7 @@ export default function ViewerPage() {
                 })()}
                 {sel?.group.question && <span style={{ fontSize: 11.5, fontWeight: 700, color: "var(--color-slate-400)" }}>탐구질문 · {sel.group.question}</span>}
               </div>
-              <div style={{ fontSize: 21, fontWeight: 800, letterSpacing: "-.02em" }}>{sel ? sel.item.title : "준비 중"}</div>
+              <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.3 }}>{sel ? sel.item.title : "준비 중"}</div>
             </div>
           </div>
 
