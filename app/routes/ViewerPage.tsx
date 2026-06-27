@@ -144,30 +144,26 @@ export default function ViewerPage() {
         <div className="sk-scroll" style={{ flex: 1, minWidth: 0, overflowY: "auto", background: "var(--color-paper)" }}>
           {/* sticky 서브헤더 */}
           <div style={{ position: "sticky", top: 0, zIndex: 5, background: "rgba(243,245,249,.86)", backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)", borderBottom: "1px solid var(--color-slate-100)", padding: "9px 24px 10px" }}>
-            <div style={{ maxWidth: 1280, margin: "0 auto" }}>
-              {/* 태그 + 제목 한 줄(태그는 제목 앞에 인라인) */}
-              <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
-                {!sidebarOpen && (
-                  <button type="button" className="icon-btn" onClick={() => setSidebarOpen(true)} aria-label="목차 펼치기" style={{ display: "inline-flex", alignItems: "center", gap: 6, height: 28, padding: "0 11px", border: "1px solid var(--color-slate-200)", borderRadius: 9999, background: "#fff", cursor: "pointer", color: "var(--color-slate-600)", fontSize: 11.5, fontWeight: 700, flexShrink: 0 }}>
-                    <Menu size={13} /> 목차
-                  </button>
-                )}
-                <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.4, minWidth: 0 }}>
-                  {sel && (() => {
-                    const st = stageColor(sel.group.stage, sel.group.sort_order);
-                    return <span style={{ display: "inline-flex", alignItems: "center", verticalAlign: "middle", marginRight: 8, padding: "3px 11px", borderRadius: 9999, background: st.soft, color: st.text, fontSize: 12, fontWeight: 800, lineHeight: 1 }}>{sel.group.stage}</span>;
-                  })()}
-                  {sel ? hi(sel.item.title, hl) : "준비 중"}
-                </div>
-              </div>
-              {sel?.group.question && <div style={{ marginTop: 6, fontSize: 11.5, fontWeight: 700, color: "var(--color-slate-400)" }}>탐구질문 · {sel.group.question}</div>}
-              {/* 영상 설명을 제목 박스(서브헤더) 안에 — 별도 둥근 상자 없이 */}
-              {sel?.item.type === "video" && (sel.item.video_desc || sel.item.caption) && (
-                <div style={{ marginTop: 6 }}>
-                  {sel.item.video_desc && <div style={{ fontSize: 13.5, fontWeight: 500, color: "var(--color-slate-600)", lineHeight: 1.55 }}>{hi(sel.item.video_desc, hl)}</div>}
-                  {sel.item.caption && <div style={{ marginTop: 3, fontSize: 11.5, fontWeight: 500, color: "var(--color-slate-400)" }}>{sel.item.caption}</div>}
-                </div>
+            {/* 태그는 왼쪽 칸, 제목+설명은 오른쪽 칸 — 설명이 제목에 맞춰 내어쓰기(태그 아래는 비움) */}
+            <div style={{ maxWidth: 1280, margin: "0 auto", display: "flex", alignItems: "flex-start", gap: 9 }}>
+              {!sidebarOpen && (
+                <button type="button" className="icon-btn" onClick={() => setSidebarOpen(true)} aria-label="목차 펼치기" style={{ display: "inline-flex", alignItems: "center", gap: 6, height: 28, padding: "0 11px", border: "1px solid var(--color-slate-200)", borderRadius: 9999, background: "#fff", cursor: "pointer", color: "var(--color-slate-600)", fontSize: 11.5, fontWeight: 700, flexShrink: 0, marginTop: 2 }}>
+                  <Menu size={13} /> 목차
+                </button>
               )}
+              {sel && (() => {
+                const st = stageColor(sel.group.stage, sel.group.sort_order);
+                return <span style={{ flexShrink: 0, marginTop: 3, display: "inline-flex", alignItems: "center", padding: "3px 11px", borderRadius: 9999, background: st.soft, color: st.text, fontSize: 12, fontWeight: 800, lineHeight: 1 }}>{sel.group.stage}</span>;
+              })()}
+              <div style={{ minWidth: 0, flex: 1 }}>
+                <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.4 }}>{sel ? hi(sel.item.title, hl) : "준비 중"}</div>
+                {sel?.group.question && <div style={{ marginTop: 5, fontSize: 11.5, fontWeight: 700, color: "var(--color-slate-400)" }}>탐구질문 · {sel.group.question}</div>}
+                {sel && (() => {
+                  const d = sel.item.type === "video" ? sel.item.video_desc : sel.item.type === "intro" ? sel.item.description : undefined;
+                  return d ? <div style={{ marginTop: 5, fontSize: 13.5, fontWeight: 500, color: "var(--color-slate-600)", lineHeight: 1.55 }}>{hi(d, hl)}</div> : null;
+                })()}
+                {sel?.item.type === "video" && sel.item.caption && <div style={{ marginTop: 3, fontSize: 11.5, fontWeight: 500, color: "var(--color-slate-400)" }}>{sel.item.caption}</div>}
+              </div>
             </div>
           </div>
 
