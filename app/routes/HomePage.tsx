@@ -5,6 +5,7 @@ import SegmentedControl from "../components/SegmentedControl.tsx";
 import KitCard from "../components/KitCard.tsx";
 import UsageGuide from "../components/UsageGuide.tsx";
 import SearchModal from "../components/SearchModal.tsx";
+import ResourceLinks from "../components/ResourceLinks.tsx";
 import { KITS } from "../lib/data.ts";
 import type { Grade, Semester, Subject } from "../lib/data.ts";
 
@@ -233,7 +234,10 @@ export default function HomePage() {
         )}
       </div>
 
-      <footer style={{ borderTop: "1px solid var(--color-slate-100)", padding: "26px 24px 36px", textAlign: "center" }}>
+      <footer style={{ borderTop: "1px solid var(--color-slate-100)", padding: "28px 24px 36px", textAlign: "center" }}>
+        <div style={{ maxWidth: 720, margin: "0 auto 22px" }}>
+          <ResourceLinks heading="함께 보면 좋은 곳" />
+        </div>
         <p style={{ margin: 0, fontSize: 12.5, fontWeight: 500, color: "var(--color-slate-400)", lineHeight: 1.6 }}>
           대구교육정보 에듀나비의{" "}
           <a href="https://www.edunavi.kr/arc/main.do" target="_blank" rel="noopener noreferrer"

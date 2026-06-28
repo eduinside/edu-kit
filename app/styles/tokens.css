@@ -105,6 +105,9 @@
 .toc-item:hover { background: var(--color-slate-50); }
 .unit-chip { transition: border-color .15s ease, color .15s ease; }
 .unit-chip:hover { border-color: var(--color-slate-300); color: var(--color-slate-700); }
+.resource-link { transition: box-shadow .2s ease, border-color .2s ease, transform .2s ease; }
+.resource-link:hover { box-shadow: 0 6px 18px rgba(15,23,42,.1); border-color: var(--color-brand-200); transform: translateY(-2px); }
+.resource-link:focus-visible { outline: 2px solid var(--color-brand-500); outline-offset: 2px; }
 
 /* 좁은 화면: 링크 복사 버튼은 아이콘만(텍스트 생략) → 상단 제목 공간 확보 */
 @media (max-width: 560px) {

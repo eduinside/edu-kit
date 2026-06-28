@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Check, X, RotateCcw, Brain } from "lucide-react";
 import { pickTwo, type QuizItem } from "../../lib/quiz.ts";
+import ResourceLinks from "../ResourceLinks.tsx";
 
 const card = { background: "#fff", border: "1px solid var(--color-slate-100)", borderRadius: 14, boxShadow: "0 1px 2px rgba(15,23,42,.06)" } as const;
 
@@ -46,6 +47,11 @@ export default function QuizPane({ quiz }: { quiz: QuizItem[] }) {
           </button>
         </div>
       )}
+
+      {/* 외부 학습 자원(항상 노출 — 문제를 다 풀고 정답을 확인한 뒤에도 보임) */}
+      <div style={{ marginTop: 22, paddingTop: 20, borderTop: "1px solid var(--color-slate-100)" }}>
+        <ResourceLinks heading="이어서 더 공부해요" />
+      </div>
     </div>
   );
 }
