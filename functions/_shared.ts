@@ -8,6 +8,7 @@ export interface D1Result {
 export interface D1Stmt {
   bind(...values: unknown[]): D1Stmt;
   first<T = Record<string, unknown>>(colName?: string): Promise<T | null>;
+  all<T = Record<string, unknown>>(): Promise<{ results: T[] }>;
   run(): Promise<D1Result>;
 }
 export interface D1DB {

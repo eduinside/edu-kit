@@ -3,10 +3,10 @@ import type { Kit } from "../lib/data.ts";
 import { unitPalette, thumbStyle } from "../lib/design.ts";
 import { statsFor } from "../lib/stats.ts";
 
-export default function KitCard({ kit, onOpen }: { kit: Kit; onOpen: () => void }) {
+export default function KitCard({ kit, onOpen, stats }: { kit: Kit; onOpen: () => void; stats?: { views: number; likes: number } }) {
   const accent = unitPalette(kit.unit_no)[2]; // 단원별 색
   const Icon = kit.subject === "과학" ? FlaskConical : Search; // 사회 = 돋보기(🔍)
-  const s = statsFor(kit.id);
+  const s = stats ?? statsFor(kit.id); // 라이브(홈에서 주입) 우선, 없으면 시드/0 폴백
 
   return (
     <div

@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams, Link } from "react-router-dom";
 import { Search } from "lucide-react";
+import { getAllStats, type StatsMap } from "../lib/api.ts";
 import SegmentedControl from "../components/SegmentedControl.tsx";
 import KitCard from "../components/KitCard.tsx";
 import UsageGuide from "../components/UsageGuide.tsx";
@@ -109,6 +110,13 @@ export default function HomePage() {
   const [initialScope] = useState(resolveInitialScope);
   // 히어로 문구도 마운트 시 1회 랜덤 선택(렌더마다 바뀌지 않도록)
   const [hero] = useState(() => HERO_COPY[Math.floor(Math.random() * HERO_COPY.length)]!);
+  // 홈 카드 라이브 조회수·좋아요 일괄 수신. 실패(dev Functions 미가동 등)면 카드가 0/시드로 표시.
+  const [liveStats, setLiveStats] = useState<StatsMap>({});
+  useEffect(() => {
+    let cancelled = false;
+    getAllStats().then((m) => { if (!cancelled) setLiveStats(m); }).catch(() => { /* 폴백 유지 */ });
+    return () => { cancelled = true; };
+  }, []);
 
   const grade = Number(params.get("grade") ?? initialScope.grade) as Grade;
   const sem = (params.get("sem") ?? initialScope.sem) as Semester;
@@ -210,7 +218,7 @@ export default function HomePage() {
         {shown.length > 0 ? (
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(252px, 1fr))", gap: 18 }}>
             {shown.map((k) => (
-              <KitCard key={k.id} kit={k} onOpen={() => navigate(`/${k.id}`)} />
+              <KitCard key={k.id} kit={k} onOpen={() => navigate(`/${k.id}`)} stats={liveStats[k.id]} />
             ))}
           </div>
         ) : (

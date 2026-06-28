@@ -14,6 +14,15 @@ export function getStats(id: string): Promise<Stats> {
   return fetch(`/api/kits/${id}/stats`, { credentials: "same-origin" }).then(asStats);
 }
 
+// 홈 카드용 — 전체 꾸러미 조회수·좋아요 일괄. 실패 시 호출측이 폴백(시드/0).
+export type StatsMap = Record<string, { views: number; likes: number }>;
+export function getAllStats(): Promise<StatsMap> {
+  return fetch(`/api/stats`, { credentials: "same-origin" }).then((r) => {
+    if (!r.ok) throw new Error(`stats ${r.status}`);
+    return r.json() as Promise<StatsMap>;
+  });
+}
+
 export function postView(id: string): Promise<Stats> {
   return fetch(`/api/kits/${id}/view`, { method: "POST", credentials: "same-origin" }).then(asStats);
 }
