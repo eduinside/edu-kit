@@ -1,5 +1,7 @@
 # 신규 기능 구현 계획서 — 핵심 용어 설명 + 개념 확인 OX 퀴즈
 
+> ✅ **구현·배포 완료(2026-06-28).** 본 계획대로 M1(UI+스키마+빌드) 출하 후 전 단원 콘텐츠 발행. 현재 동작은 [README.md](../README.md) "주요 기능" 참조. 아래는 설계 기록.
+
 작성일: 2026-06-28 · 대상: edu-kit 뷰어
 관련 코드: [`ContentPane.tsx`](../app/components/viewer/ContentPane.tsx) · [`ViewerPage.tsx`](../app/routes/ViewerPage.tsx) · [`kit-content.ts`](../app/lib/kit-content.ts) · [`sheet-to-json.ts`](../scripts/sheet-to-json.ts) · [`types.ts`](../scripts/types.ts)
 

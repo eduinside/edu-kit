@@ -48,10 +48,12 @@ export default function QuizPane({ quiz }: { quiz: QuizItem[] }) {
         </div>
       )}
 
-      {/* 외부 학습 자원(항상 노출 — 문제를 다 풀고 정답을 확인한 뒤에도 보임) */}
-      <div style={{ marginTop: 22, paddingTop: 20, borderTop: "1px solid var(--color-slate-100)" }}>
-        <ResourceLinks heading="이어서 더 공부해요" />
-      </div>
+      {/* 외부 학습 자원 — 두 문제를 다 풀고 정답을 확인한 다음에만 노출 */}
+      {allDone && (
+        <div style={{ marginTop: 22, paddingTop: 20, borderTop: "1px solid var(--color-slate-100)" }}>
+          <ResourceLinks heading="이어서 더 공부해요" />
+        </div>
+      )}
     </div>
   );
 }
