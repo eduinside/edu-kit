@@ -73,9 +73,11 @@ export default function ViewerPage() {
   if (!onQuiz && !sel && groups[0]?.items[0]) sel = { group: groups[0], item: groups[0].items[0] };
 
   // 내비게이션 시퀀스 = 실제 항목들 + (있으면) 마지막 퀴즈 화면
+  // 뱃지 색은 항목 sort_order가 아니라 단계(그룹) sort_order로 — 사이드바·서브헤더와 동일 색 보장
+  const stageOrder = new Map(groups.map((g) => [g.stage, g.sort_order]));
   type NavTarget = { key: string; stage: Stage; title: string; order?: number };
   const targets: NavTarget[] = [
-    ...flat.map((i) => ({ key: i.item_key, stage: i.stage, title: i.title, order: i.sort_order })),
+    ...flat.map((i) => ({ key: i.item_key, stage: i.stage, title: i.title, order: stageOrder.get(i.stage) })),
     ...(hasQuiz ? [{ key: QUIZ_KEY, stage: QUIZ_STAGE as Stage, title: QUIZ_STAGE }] : []),
   ];
   const curKey = onQuiz ? QUIZ_KEY : (sel?.item.item_key ?? selKey);
