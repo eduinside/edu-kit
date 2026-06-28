@@ -27,12 +27,21 @@ interface Ctx {
   next: () => Promise<Response>;
 }
 
+// 프로덕션 pages.dev 별칭 → 커스텀 도메인. 프리뷰(<hash>.edu-kit-br4.pages.dev)는 제외(정확 일치만).
+const CANONICAL_HOST = "kit.dgedu.link";
+const PAGES_HOST = "edu-kit-br4.pages.dev";
+
 export const onRequest = async (context: Ctx): Promise<Response> => {
+  const url = new URL(context.request.url);
+  // edu-kit-br4.pages.dev 로 들어오면 같은 경로·쿼리로 커스텀 도메인으로 301 이동.
+  if (url.hostname === PAGES_HOST) {
+    return Response.redirect(`https://${CANONICAL_HOST}${url.pathname}${url.search}`, 301);
+  }
+
   const res = await context.next();
   const ct = res.headers.get("content-type") || "";
   if (!ct.includes("text/html")) return res; // 자산/JSON 통과
 
-  const url = new URL(context.request.url);
   const first = url.pathname.split("/").filter(Boolean)[0];
   const kit = first ? BY_ID.get(first) : undefined;
   if (!kit) return res; // 홈 등은 기본 메타 유지
