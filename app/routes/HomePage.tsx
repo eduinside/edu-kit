@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams, Link } from "react-router-dom";
-import { Search } from "lucide-react";
-import { getAllStats, type StatsMap } from "../lib/api.ts";
+import { Search, Heart } from "lucide-react";
+import { getAllStats, getMyLikes, type StatsMap } from "../lib/api.ts";
 import SegmentedControl from "../components/SegmentedControl.tsx";
 import KitCard from "../components/KitCard.tsx";
 import UsageGuide from "../components/UsageGuide.tsx";
 import SearchModal from "../components/SearchModal.tsx";
 import ResourceLinks from "../components/ResourceLinks.tsx";
+import LikedKitsModal from "../components/LikedKitsModal.tsx";
 import { KITS } from "../lib/data.ts";
 import type { Grade, Semester, Subject } from "../lib/data.ts";
 
@@ -118,6 +119,12 @@ export default function HomePage() {
     return () => { cancelled = true; };
   }, []);
 
+  // 이 브라우저가 좋아요한 단원(방문자 쿠키 기준). 진입·모달 열 때 갱신.
+  const [showLikes, setShowLikes] = useState(false);
+  const [likedIds, setLikedIds] = useState<string[]>([]);
+  const refreshLikes = () => { getMyLikes().then(setLikedIds).catch(() => { /* 빈 목록 유지 */ }); };
+  useEffect(refreshLikes, []);
+
   const grade = Number(params.get("grade") ?? initialScope.grade) as Grade;
   const sem = (params.get("sem") ?? initialScope.sem) as Semester;
   const subject = (params.get("subject") ?? initialScope.subject) as Subject;
@@ -161,13 +168,24 @@ export default function HomePage() {
 
       <div style={{ flex: 1, width: "100%", maxWidth: 1200, margin: "0 auto", padding: "34px 28px 64px" }}>
         {/* 인트로 */}
-        <div style={{ marginBottom: 26 }}>
-          <div style={{ display: "inline-flex", alignItems: "center", gap: 7, padding: "5px 11px", background: "var(--color-brand-50)", borderRadius: 9999, marginBottom: 13 }}>
-            <span style={{ width: 6, height: 6, borderRadius: "50%", background: "var(--color-brand-500)" }} />
-            <span style={{ fontSize: 11, fontWeight: 700, color: "var(--color-brand-700)" }}>학년·학기·교과·단원으로 찾는 수업 콘텐츠</span>
+        <div style={{ marginBottom: 26, display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 16, flexWrap: "wrap" }}>
+          <div style={{ minWidth: 0 }}>
+            <div style={{ display: "inline-flex", alignItems: "center", gap: 7, padding: "5px 11px", background: "var(--color-brand-50)", borderRadius: 9999, marginBottom: 13 }}>
+              <span style={{ width: 6, height: 6, borderRadius: "50%", background: "var(--color-brand-500)" }} />
+              <span style={{ fontSize: 11, fontWeight: 700, color: "var(--color-brand-700)" }}>학년·학기·교과·단원으로 찾는 수업 콘텐츠</span>
+            </div>
+            <h1 style={{ margin: 0, fontSize: 40, fontWeight: 800, letterSpacing: "-.025em" }}>{hero.title}</h1>
+            <p style={{ margin: "11px 0 0", fontSize: 15, fontWeight: 500, color: "var(--color-slate-500)", lineHeight: 1.6 }}>{hero.subtitle}</p>
           </div>
-          <h1 style={{ margin: 0, fontSize: 40, fontWeight: 800, letterSpacing: "-.025em" }}>{hero.title}</h1>
-          <p style={{ margin: "11px 0 0", fontSize: 15, fontWeight: 500, color: "var(--color-slate-500)", lineHeight: 1.6 }}>{hero.subtitle}</p>
+          {/* 내가(이 브라우저) 좋아요한 단원 보기 */}
+          <button type="button" className="icon-btn" onClick={() => { refreshLikes(); setShowLikes(true); }} aria-label="좋아요한 단원 보기"
+            style={{ flexShrink: 0, marginTop: 4, display: "inline-flex", alignItems: "center", gap: 7, height: 38, padding: "0 15px", border: "1px solid var(--color-slate-200)", borderRadius: 9999, background: "#fff", cursor: "pointer", fontSize: 13, fontWeight: 800, color: "var(--color-slate-700)" }}>
+            <Heart size={15} fill="var(--color-danger)" color="var(--color-danger)" />
+            좋아요한 단원
+            {likedIds.length > 0 && (
+              <span style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", minWidth: 18, height: 18, padding: "0 5px", borderRadius: 9999, background: "var(--color-danger-50)", color: "var(--color-danger)", fontSize: 11, fontWeight: 800 }}>{likedIds.length}</span>
+            )}
+          </button>
         </div>
 
         {/* 필터 카드 */}
@@ -255,6 +273,8 @@ export default function HomePage() {
 
       <UsageGuide open={showGuide} onClose={() => setShowGuide(false)} />
       <SearchModal open={showSearch} onClose={() => setShowSearch(false)} />
+      <LikedKitsModal open={showLikes} onClose={() => setShowLikes(false)} ids={likedIds}
+        onSelect={(id) => { setShowLikes(false); navigate(`/${id}`); }} />
     </div>
   );
 }

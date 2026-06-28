@@ -23,6 +23,14 @@ export function getAllStats(): Promise<StatsMap> {
   });
 }
 
+// 이 브라우저(방문자 쿠키)가 좋아요한 꾸러미 id 목록(최근순). 실패 시 호출측이 빈 목록 폴백.
+export function getMyLikes(): Promise<string[]> {
+  return fetch(`/api/my-likes`, { credentials: "same-origin" }).then((r) => {
+    if (!r.ok) throw new Error(`my-likes ${r.status}`);
+    return (r.json() as Promise<{ ids: string[] }>).then((d) => d.ids ?? []);
+  });
+}
+
 export function postView(id: string): Promise<Stats> {
   return fetch(`/api/kits/${id}/view`, { method: "POST", credentials: "same-origin" }).then(asStats);
 }
