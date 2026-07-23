@@ -23,7 +23,7 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const RAW = resolve(ROOT, "data/raw");
 const OUT = resolve(ROOT, "data");
 
-const ACTIVITY_STAGES = ["단원안내", "생각열기", "탐구하기", "확장하기"];
+const ACTIVITY_STAGES = ["단원안내", "생각열기", "탐구하기", "탐구하기1", "탐구하기2", "확장하기"];
 const FLOW_STAGES = ["도입", "전개", "정리"];
 
 const KitSchema = z.object({

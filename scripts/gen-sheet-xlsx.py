@@ -83,14 +83,14 @@ item_headers = ["kit_id","item_key","stage","type","title","description","sort_o
     "video_url","start_sec","end_sec","video_title","video_desc","video_license",
     "caption","image_url","image_label","image_sub","image_source","image_license","body"]
 make_sheet("items", item_headers, items,
-    {"C": ["단원안내","생각열기","탐구하기","확장하기","도입","전개","정리"],
+    {"C": ["단원안내","생각열기","탐구하기","탐구하기1","탐구하기2","확장하기","도입","전개","정리"],
      "D": ["intro","video","image","text"]},
     {"A":8,"B":9,"C":10,"D":7,"E":22,"F":24,"G":9,"H":28,"I":28,"J":26,"K":12,"L":30,
      "M":34,"N":9,"O":9,"P":26,"Q":34,"R":12,"S":26,"T":18,"U":16,"V":22,"W":16,"X":14,"Y":40})
 
 sm_headers = ["kit_id","stage","question","sort_order"]
 make_sheet("stage_meta", sm_headers, stage_meta,
-    {"B": ["단원안내","생각열기","탐구하기","확장하기","도입","전개","정리"]},
+    {"B": ["단원안내","생각열기","탐구하기","탐구하기1","탐구하기2","확장하기","도입","전개","정리"]},
     {"A":8,"B":10,"C":44,"D":10})
 
 out = os.path.join(ROOT, "docs", "수업꾸러미_시트.xlsx")

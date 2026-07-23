@@ -33,6 +33,8 @@ export const STAGE_COLORS: Record<Stage, { soft: string; text: string }> = {
   단원안내: { soft: "var(--color-slate-100)", text: "var(--color-slate-600)" },
   생각열기: { soft: "var(--color-warning-50)", text: "var(--color-warning-700)" },
   탐구하기: { soft: "var(--color-brand-50)", text: "var(--color-brand-700)" },
+  탐구하기1: { soft: "var(--color-brand-50)", text: "var(--color-brand-700)" },
+  탐구하기2: { soft: "var(--color-brand-50)", text: "var(--color-brand-700)" },
   확장하기: { soft: "var(--color-success-50)", text: "var(--color-success-700)" },
   도입: { soft: "#f0f9ff", text: "#0369a1" },
   전개: { soft: "var(--color-brand-50)", text: "var(--color-brand-700)" },

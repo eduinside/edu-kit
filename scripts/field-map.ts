@@ -31,7 +31,7 @@ export function normalizeRow(row: Record<string, unknown>): Record<string, unkno
 }
 
 // 고정 단계(활동형·흐름형)는 공백 없는 정본. 흐름형 핵심 용어 stage는 공백을 보존해야 함.
-const FIXED_STAGES = new Set(["단원안내", "생각열기", "탐구하기", "확장하기", "도입", "전개", "정리"]);
+const FIXED_STAGES = new Set(["단원안내", "생각열기", "탐구하기", "탐구하기1", "탐구하기2", "확장하기", "도입", "전개", "정리"]);
 
 /** stage 라벨 정규화 — 고정 단계는 공백 제거('단원 안내'→'단원안내'),
  *  그 외(핵심 용어)는 내부 공백 보존('사막에 사는 동물' 유지, 양끝·중복 공백만 정리). */
@@ -71,7 +71,7 @@ export function extractVideoId(urlOrId: string | undefined): string | undefined 
   const s = urlOrId.trim();
   if (/^[A-Za-z0-9_-]{11}$/.test(s)) return s;
   const m = s.match(
-    /(?:youtu\.be\/|v=|\/embed\/|\/shorts\/)([A-Za-z0-9_-]{11})/
+    /(?:youtu\.be\/|v=|\/embed\/|\/shorts\/|\/live\/)([A-Za-z0-9_-]{11})/
   );
   return m ? m[1] : undefined;
 }

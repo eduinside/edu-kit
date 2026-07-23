@@ -15,8 +15,8 @@ export interface ViewerGroup {
   items: Item[];
 }
 
-// 단계 표준 순서 — 활동형(단원안내·생각열기·탐구하기·확장하기) + 흐름형(도입·전개·정리)
-const STAGE_ORDER: Stage[] = ["단원안내", "생각열기", "탐구하기", "확장하기", "도입", "전개", "정리"];
+// 단계 표준 순서 — 활동형(단원안내·생각열기·탐구하기(1/2)·확장하기) + 흐름형(도입·전개·정리)
+const STAGE_ORDER: Stage[] = ["단원안내", "생각열기", "탐구하기", "탐구하기1", "탐구하기2", "확장하기", "도입", "전개", "정리"];
 
 export function getGroups(kitId: string): ViewerGroup[] {
   const its = ITEMS.filter((i) => i.kit_id === kitId);
