@@ -1378,5 +1378,269 @@
     "kit_id": "sc6141",
     "stage": "별자리",
     "sort_order": 4
+  },
+  {
+    "kit_id": "so6211",
+    "stage": "생각열기",
+    "question": "세계의 다양한 지형은 어떻게 형성될까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so6211",
+    "stage": "탐구하기1",
+    "question": "세계의 다양한 지형은 어떻게 형성될까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so6211",
+    "stage": "탐구하기2",
+    "question": "세계의 다양한 지형에서 사람들은 어떻게 적응하며 살아갈까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so6211",
+    "stage": "확장하기",
+    "question": "환경의 변화는 사람들의 삶에 어떤 영향을 미칠까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "so6212",
+    "stage": "생각열기",
+    "question": "날씨와 기후는 어떻게 다를까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so6212",
+    "stage": "탐구하기1",
+    "question": "세계의 여러 기후는 각각 어떤 특징을 가질까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so6212",
+    "stage": "탐구하기2",
+    "question": "기후는 사람들의 생활 모습에 어떤 영향을 줄까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so6212",
+    "stage": "확장하기",
+    "question": "사람들은 자연환경에 맞추어 어떤 선택을 할까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "so6221",
+    "stage": "생각열기",
+    "question": "생산, 소득, 소비는 어떻게 연결될까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so6221",
+    "stage": "탐구하기1",
+    "question": "경제 주체의 역할은 무엇일까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so6221",
+    "stage": "탐구하기2",
+    "question": "기업의 사회적 역할은 무엇일까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so6221",
+    "stage": "확장하기",
+    "question": "기업은 어떻게 사회적 책임을 다할까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "so6222",
+    "stage": "생각열기",
+    "question": "가격은 어떤 요인에 의해 결정되고 변화할까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so6222",
+    "stage": "탐구하기1",
+    "question": "우리나라 경제는 어떻게 성장해 왔을까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so6222",
+    "stage": "탐구하기2",
+    "question": "경제 성장으로 인해 새롭게 나타난 문제는 무엇일까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so6222",
+    "stage": "확장하기",
+    "question": "미래의 경제는 어떻게 바뀌어갈까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "so6223",
+    "stage": "생각열기",
+    "question": "무역은 어떻게 시작되었을까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so6223",
+    "stage": "탐구하기1",
+    "question": "우리나라 무역의 특징은 무엇일까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so6223",
+    "stage": "탐구하기2",
+    "question": "경제 교류를 하며 생기는 문제는 무엇일까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so6223",
+    "stage": "확장하기",
+    "question": "무역 과정에서 거래는 어떻게 이루어질까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "so6231",
+    "stage": "생각열기",
+    "question": "세계 인구는 얼마나 될까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so6231",
+    "stage": "탐구하기1",
+    "question": "세계의 인구는 어떻게 분포되어 있을까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so6231",
+    "stage": "탐구하기2",
+    "question": "지역의 특성은 인구 분포에 어떤 영향을 미칠까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so6231",
+    "stage": "확장하기",
+    "question": "미래의 인구는 어떻게 변할까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "so6232",
+    "stage": "생각열기",
+    "question": "지구촌 사람들은 어떻게 살아가고 있을까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so6232",
+    "stage": "탐구하기1",
+    "question": "기후변화로 인한 문제는 무엇일까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so6232",
+    "stage": "탐구하기2",
+    "question": "지구촌 문제를 해결하기 위해 어떤 노력이 이루어지고 있을까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so6232",
+    "stage": "확장하기",
+    "question": "인류는 지구의 환경에 어떤 영향을 미치고 있을까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "sc6211",
+    "stage": "생각열기",
+    "question": "계절이 바뀌면 무엇이 달라질까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "sc6211",
+    "stage": "탐구하기1",
+    "question": "태양의 움직임에 따라 어떤 것들이 달라질까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "sc6211",
+    "stage": "탐구하기2",
+    "question": "계절이 바뀌는 이유는 무엇일까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "sc6211",
+    "stage": "확장하기",
+    "question": "태양과 지구의 움직임을 생활 속에서 어떻게 활용할 수 있을까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "sc6212",
+    "stage": "생각열기",
+    "question": "불은 무엇일까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "sc6212",
+    "stage": "탐구하기1",
+    "question": "물질의 연소는 무엇이고 어떻게 일어날까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "sc6212",
+    "stage": "탐구하기2",
+    "question": "연소 후 생긴 물질은 생태계에 어떤 영향을 줄까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "sc6212",
+    "stage": "확장하기",
+    "question": "연소 생성물로 인한 문제를 어떻게 해결할 수 있을까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "sc6213",
+    "stage": "생각열기",
+    "question": "전기란 무엇일까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "sc6213",
+    "stage": "탐구하기1",
+    "question": "어떻게 하면 전구의 불을 밝게 켤 수 있을까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "sc6213",
+    "stage": "탐구하기2",
+    "question": "전류로 만드는 전자석은 우리 생활에 어떻게 활용될 수 있을까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "sc6213",
+    "stage": "확장하기",
+    "question": "우리 생활에서 전기를 안전하고 효율적으로 사용할 수 있는 방법은 무엇일까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "sc6214",
+    "stage": "생각열기",
+    "question": "미래의 우리 사회는 어떻게 변할까요?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "sc6214",
+    "stage": "탐구하기1",
+    "question": "미래엔 어떤 사회 문제가 발생할까요?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "sc6214",
+    "stage": "탐구하기2",
+    "question": "미래 사회의 문제를 어떻게 과학으로 해결할 수 있을까요?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "sc6214",
+    "stage": "확장하기",
+    "question": "미래엔 과학의 발달로 직업에 어떤 변화가 생길까요?",
+    "sort_order": 4
   }
 ]
