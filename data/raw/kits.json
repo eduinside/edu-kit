@@ -849,7 +849,7 @@
     "unit_no": 1,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
     "id": "so6212",
@@ -861,7 +861,7 @@
     "unit_no": 1,
     "flow": "activity",
     "sort_order": 2,
-    "published": false
+    "published": true
   },
   {
     "id": "so6221",
@@ -873,7 +873,7 @@
     "unit_no": 2,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
     "id": "so6222",
@@ -885,7 +885,7 @@
     "unit_no": 2,
     "flow": "activity",
     "sort_order": 2,
-    "published": false
+    "published": true
   },
   {
     "id": "so6223",
@@ -897,7 +897,7 @@
     "unit_no": 2,
     "flow": "activity",
     "sort_order": 3,
-    "published": false
+    "published": true
   },
   {
     "id": "so6231",
@@ -909,7 +909,7 @@
     "unit_no": 3,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
     "id": "so6232",
@@ -921,7 +921,7 @@
     "unit_no": 3,
     "flow": "activity",
     "sort_order": 2,
-    "published": false
+    "published": true
   },
   {
     "id": "sc6211",
@@ -933,7 +933,7 @@
     "unit_no": 1,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
     "id": "sc6212",
@@ -945,7 +945,7 @@
     "unit_no": 2,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
     "id": "sc6213",
@@ -957,7 +957,7 @@
     "unit_no": 3,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
     "id": "sc6214",
@@ -969,6 +969,6 @@
     "unit_no": 4,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   }
 ]
