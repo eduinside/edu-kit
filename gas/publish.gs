@@ -23,10 +23,13 @@ var CONFIG = {
   optionalTabs: ['quiz'],  // 시트에 탭이 없으면 발행에서 건너뜀(점진 도입)
 };
 
+/** 프로젝트 전체에서 onOpen 은 이 함수 하나뿐이어야 한다(중복 정의 시 하나만 살아남음). */
 function onOpen() {
   SpreadsheetApp.getUi()
     .createMenu('수업꾸러미')
     .addItem('GitHub에 발행', '발행')
+    .addSeparator()
+    .addItem('영상 점검', '영상점검')   // video-check.gs
     .addToUi();
 }
 

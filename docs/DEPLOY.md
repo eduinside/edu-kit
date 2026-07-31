@@ -31,6 +31,7 @@ wrangler r2 bucket create edu-kit-media        # 이미지/OG 미디어
 - `gas/publish.gs`를 시트 Apps Script에 붙여넣기.
 - 스크립트 속성 `GITHUB_TOKEN` = fine-grained PAT(레포 Contents: read/write).
 - 시트에 버튼 삽입 → 스크립트 `발행` 할당. 빈 `id`는 발행 시 자동 부여(시트에 고정).
+- `gas/video-check.gs`를 **같은 Apps Script 프로젝트**에 파일로 추가 + 스크립트 속성 `YT_API_KEY` → 버튼 `영상점검`(유튜브 임베드 가능 여부 일괄 점검, 시트에만 기록). 상세는 [SHEET_SETUP.md](SHEET_SETUP.md#6-영상-점검-임베드-가능-여부).
 - 자세한 시트 구조는 [SHEET_TEMPLATE.md](SHEET_TEMPLATE.md).
 
 ## 6. 로컬 검증(참고)
