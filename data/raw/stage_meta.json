@@ -1380,6 +1380,270 @@
     "sort_order": 4
   },
   {
+    "kit_id": "so5211",
+    "stage": "생각열기",
+    "question": "옛날 사람들이 바위에 그림을 그린 이유는 무엇일까요?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so5211",
+    "stage": "탐구하기1",
+    "question": "구석기, 신석기, 청동기 시대 사람들은 어떻게 생활하였을까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so5211",
+    "stage": "탐구하기2",
+    "question": "고조선 사람들은 어떻게 생활하였을까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so5211",
+    "stage": "확장하기",
+    "question": "과거와 현재의 '살기 좋은 땅'의 공통점과 차이점은 무엇일까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "so5212",
+    "stage": "생각열기",
+    "question": "신라의 청동호우에 왜 광개토대왕의 이름이 새겨져있을까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so5212",
+    "stage": "탐구하기1",
+    "question": "삼국과 가야, 통일신라, 발해는 어떻게 성립하고 발전해 왔을까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so5212",
+    "stage": "탐구하기2",
+    "question": "삼국과 가야, 통일신라, 발해 사람들은 어떻게 생활하였을까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so5212",
+    "stage": "확장하기",
+    "question": "고구려는 어떻게 국제적인 소통망을 넓혔을까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "so5213",
+    "stage": "생각열기",
+    "question": "고려를 건국한 왕건은 어떤 인물이었을까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so5213",
+    "stage": "탐구하기1",
+    "question": "고려는 어떻게 성립하고 발전해 왔을까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so5213",
+    "stage": "탐구하기2",
+    "question": "고려 사회의 모습과 사람들의 생활모습은 어떠했을까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so5213",
+    "stage": "확장하기",
+    "question": "고려의 기록유산은 인류의 역사와 삶을 어떻게 변화시켰는가?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "so5221",
+    "stage": "생각열기",
+    "question": "어떤 의식이 시간이 지나도 보존되거나 이어지는 이유는 무엇일까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so5221",
+    "stage": "탐구하기1",
+    "question": "조선은 어떻게 성립하고 발전해 왔을까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so5221",
+    "stage": "탐구하기2",
+    "question": "유교 문화로 인해 조선 사람들의 생활모습은 어떻게 변화했을까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so5221",
+    "stage": "확장하기",
+    "question": "시대에 따라 가치관은 왜 바뀔까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "so5222",
+    "stage": "생각열기",
+    "question": "옛 사람들은 어떤 방법으로 소통하였을까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so5222",
+    "stage": "탐구하기1",
+    "question": "조선 후기 경제의 변화는 백성들의 생활 모습을 어떻게 바꾸어 놓았을까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so5222",
+    "stage": "탐구하기2",
+    "question": "근대 국가를 수립하기 위해 어떤 노력을 하였을까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so5222",
+    "stage": "확장하기",
+    "question": "조선 후기 상업 발달로 변화된 문화와 오늘날의 모습은 어떻게 연결될까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "so5231",
+    "stage": "생각열기",
+    "question": "조선에 놓인 '철도'는 편리한 길이었을까, 빼앗아 가는 길이었을까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so5231",
+    "stage": "탐구하기1",
+    "question": "일제의 침략에 맞선 우리 민족의 저항은 어떤 모습이었을까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so5231",
+    "stage": "탐구하기2",
+    "question": "나라를 되찾으려는 노력에는 어떤 것들이 있었을까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so5231",
+    "stage": "확장하기",
+    "question": "세종대왕의 애민정신은 일제 강점기에도 어떤 모습으로 남아 있을까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "so5232",
+    "stage": "생각열기",
+    "question": "8·15 광복을 맞은 사람들의 마음은 어땠을까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "so5232",
+    "stage": "탐구하기1",
+    "question": "8·15 광복의 의미와 광복이 사회와 생활에 끼친 영향은 무엇일까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "so5232",
+    "stage": "탐구하기2",
+    "question": "6·25 전쟁은 어떻게 전개되었으며 사회와 생활에 끼친 영향은 무엇일까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "so5232",
+    "stage": "확장하기",
+    "question": "정부는 왜 80년이 지난 지금, 웅장한 환영식을 열었을까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "sc5211",
+    "stage": "생각열기",
+    "question": "우리 주변의 혼합물은 어떻게 알아볼 수 있고, 왜 분리할까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "sc5211",
+    "stage": "탐구하기1",
+    "question": "혼합물은 물질의 어떤 성질을 이용해 분리할까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "sc5211",
+    "stage": "탐구하기2",
+    "question": "혼합물 분리는 우리 일상 생활 속에 어떻게 활용될까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "sc5211",
+    "stage": "확장하기",
+    "question": "물질의 성질을 이용한 분리 과정은 환경 문제 해결에 어떻게 기여할 수 있을까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "sc5221",
+    "stage": "생각열기",
+    "question": "일기예보는 어떻게 만들어질까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "sc5221",
+    "stage": "탐구하기1",
+    "question": "날씨는 우리 생활에 어떤 영향을 줄까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "sc5221",
+    "stage": "탐구하기2",
+    "question": "이슬, 안개, 구름은 어떻게 만들어질까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "sc5221",
+    "stage": "확장하기",
+    "question": "지역에 따라 날씨가 다른 까닭은 무엇일까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "sc5231",
+    "stage": "생각열기",
+    "question": "차갑거나 따뜻한 정도를 어떻게 표현할까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "sc5231",
+    "stage": "탐구하기1",
+    "question": "고체에서 열은 어떻게 이동할까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "sc5231",
+    "stage": "탐구하기2",
+    "question": "열의 이동을 막으면 온도를 어떻게 오래 유지할 수 있을까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "sc5231",
+    "stage": "확장하기",
+    "question": "색과 온도는 서로 어떤 관계가 있을까?",
+    "sort_order": 4
+  },
+  {
+    "kit_id": "sc5241",
+    "stage": "생각열기",
+    "question": "자원이 한정되어 있다면 어떤 문제가 생길까?",
+    "sort_order": 1
+  },
+  {
+    "kit_id": "sc5241",
+    "stage": "탐구하기1",
+    "question": "화석 연료를 대신할 새로운 에너지에는 무엇이 있을까?",
+    "sort_order": 2
+  },
+  {
+    "kit_id": "sc5241",
+    "stage": "탐구하기2",
+    "question": "우리나라의 신재생 에너지는 지금 어디쯤 와 있을까?",
+    "sort_order": 3
+  },
+  {
+    "kit_id": "sc5241",
+    "stage": "확장하기",
+    "question": "신재생 에너지 기술은 어떤 한계를 넘어서고 있을까?",
+    "sort_order": 4
+  },
+  {
     "kit_id": "so6211",
     "stage": "생각열기",
     "question": "세계의 다양한 지형은 어떻게 형성될까?",
@@ -1572,73 +1836,73 @@
     "sort_order": 4
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "stage": "생각열기",
     "question": "불은 무엇일까?",
     "sort_order": 1
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "stage": "탐구하기1",
     "question": "물질의 연소는 무엇이고 어떻게 일어날까?",
     "sort_order": 2
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "stage": "탐구하기2",
     "question": "연소 후 생긴 물질은 생태계에 어떤 영향을 줄까?",
     "sort_order": 3
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "stage": "확장하기",
     "question": "연소 생성물로 인한 문제를 어떻게 해결할 수 있을까?",
     "sort_order": 4
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "stage": "생각열기",
     "question": "전기란 무엇일까?",
     "sort_order": 1
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "stage": "탐구하기1",
     "question": "어떻게 하면 전구의 불을 밝게 켤 수 있을까?",
     "sort_order": 2
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "stage": "탐구하기2",
     "question": "전류로 만드는 전자석은 우리 생활에 어떻게 활용될 수 있을까?",
     "sort_order": 3
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "stage": "확장하기",
     "question": "우리 생활에서 전기를 안전하고 효율적으로 사용할 수 있는 방법은 무엇일까?",
     "sort_order": 4
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "stage": "생각열기",
     "question": "미래의 우리 사회는 어떻게 변할까요?",
     "sort_order": 1
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "stage": "탐구하기1",
     "question": "미래엔 어떤 사회 문제가 발생할까요?",
     "sort_order": 2
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "stage": "탐구하기2",
     "question": "미래 사회의 문제를 어떻게 과학으로 해결할 수 있을까요?",
     "sort_order": 3
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "stage": "확장하기",
     "question": "미래엔 과학의 발달로 직업에 어떤 변화가 생길까요?",
     "sort_order": 4

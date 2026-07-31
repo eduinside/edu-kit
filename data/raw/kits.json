@@ -717,7 +717,7 @@
     "unit_no": 1,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
     "id": "so5212",
@@ -729,7 +729,7 @@
     "unit_no": 1,
     "flow": "activity",
     "sort_order": 2,
-    "published": false
+    "published": true
   },
   {
     "id": "so5213",
@@ -741,7 +741,7 @@
     "unit_no": 1,
     "flow": "activity",
     "sort_order": 3,
-    "published": false
+    "published": true
   },
   {
     "id": "so5221",
@@ -753,7 +753,7 @@
     "unit_no": 2,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
     "id": "so5222",
@@ -765,7 +765,7 @@
     "unit_no": 2,
     "flow": "activity",
     "sort_order": 2,
-    "published": false
+    "published": true
   },
   {
     "id": "so5231",
@@ -777,10 +777,10 @@
     "unit_no": 3,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
-    "id": "so5332",
+    "id": "so5232",
     "title": "3-2. 8·15 광복과 6·25 전쟁",
     "grade": 5,
     "sem": "2학기",
@@ -789,7 +789,7 @@
     "unit_no": 3,
     "flow": "activity",
     "sort_order": 2,
-    "published": false
+    "published": true
   },
   {
     "id": "sc5211",
@@ -801,10 +801,10 @@
     "unit_no": 1,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
-    "id": "sc5212",
+    "id": "sc5221",
     "title": "2. 날씨와 우리 생활",
     "grade": 5,
     "sem": "2학기",
@@ -813,10 +813,10 @@
     "unit_no": 2,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
-    "id": "sc5213",
+    "id": "sc5231",
     "title": "3. 열과 우리 생활",
     "grade": 5,
     "sem": "2학기",
@@ -825,10 +825,10 @@
     "unit_no": 3,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
-    "id": "sc5214",
+    "id": "sc5241",
     "title": "4. 자원과 에너지",
     "grade": 5,
     "sem": "2학기",
@@ -837,7 +837,7 @@
     "unit_no": 4,
     "flow": "activity",
     "sort_order": 1,
-    "published": false
+    "published": true
   },
   {
     "id": "so6211",
@@ -936,7 +936,7 @@
     "published": true
   },
   {
-    "id": "sc6212",
+    "id": "sc6221",
     "title": "2. 물질의 연소",
     "grade": 6,
     "sem": "2학기",
@@ -948,7 +948,7 @@
     "published": true
   },
   {
-    "id": "sc6213",
+    "id": "sc6231",
     "title": "3. 전기의 이용",
     "grade": 6,
     "sem": "2학기",
@@ -960,7 +960,7 @@
     "published": true
   },
   {
-    "id": "sc6214",
+    "id": "sc6241",
     "title": "4. 과학과 나의 진로",
     "grade": 6,
     "sem": "2학기",

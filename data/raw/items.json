@@ -735,6 +735,7 @@
     "title": "고싸움놀이와 차전놀이",
     "description": "배경지식",
     "sort_order": 2,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=_Hxi-dnneTQ",
     "video_title": "고싸움놀이와 차전놀이",
     "video_desc": "고싸움놀이와 차전놀이 모습 소개"
@@ -886,6 +887,7 @@
     "title": "지게",
     "description": "수업 중",
     "sort_order": 3,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=jQDCAYfYvuU",
     "video_title": "지게",
     "video_desc": "짐을 옮길 때 썼던 지게"
@@ -4249,6 +4251,7 @@
     "title": "물 위에 떠서 사는 나무가 있다?",
     "description": "배경지식",
     "sort_order": 4,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=lRvh8SDjCf8",
     "video_title": "물 위에 떠서 사는 나무가 있다?",
     "video_desc": "낙우송의 미스터리 해결"
@@ -5327,7 +5330,7 @@
     "title": "대구의 인문환경, 라이온즈 파크",
     "description": "수업 중",
     "sort_order": 1,
-    "video_url": "https://www.youtube.com/watch?v=9xFMXo3DodI",
+    "video_url": "https://www.youtube.com/watch?v=RTmi_LzvQjs",
     "video_title": "대구의 인문환경, 라이온즈 파크",
     "video_desc": "대구 라이온즈파크에서의 경기 모습"
   },
@@ -9098,6 +9101,7 @@
     "title": "독도 여행 브이로그",
     "description": "수업 전",
     "sort_order": 2,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=KF7vFuuh1e8",
     "start_sec": 0,
     "end_sec": 240,
@@ -9160,6 +9164,7 @@
     "title": "다양한 철새들의 보금자리가 된 독도",
     "description": "수업 중",
     "sort_order": 7,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=6p6qyVGjmtA",
     "video_title": "다양한 철새들의 보금자리가 된 독도",
     "video_desc": "독도를 찾는 여러 새들 이야기"
@@ -9404,6 +9409,7 @@
     "title": "가발 산업으로 발생한 머리카락 수난시대",
     "description": "수업 중",
     "sort_order": 1,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=v71G39yFFKg",
     "video_title": "가발 산업으로 발생한 머리카락 수난시대",
     "video_desc": "경공업이 발달한 시대의 실제 산업현장의 모습 탐색 영상"
@@ -9563,7 +9569,7 @@
     "title": "지하철에 낮은 손잡이가 설치되는 이유는 무엇일까?",
     "description": "수업 전",
     "sort_order": 1,
-    "video_url": "https://www.youtube.com/watch?v=xznv1vbQdik",
+    "video_url": "https://www.youtube.com/watch?v=mthpBxO7Ppo",
     "video_title": "지하철에 낮은 손잡이가 설치되는 이유는 무엇일까?",
     "video_desc": "지하철에 낮은 손잡이가 설치되는 이유를 인권과 관련하여 생각해볼 수 있는 영상"
   },
@@ -10181,6 +10187,7 @@
     "title": "검사는 어떤 일을 할까?",
     "description": "수업 중",
     "sort_order": 3,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=shc8yeVwfh4",
     "video_title": "검사는 어떤 일을 할까?",
     "video_desc": "검사가 하는 일 영상"
@@ -10510,6 +10517,7 @@
     "title": "보온병의 원리 알아보기",
     "description": "수업 중",
     "sort_order": 4,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=xKWBffG6J8s",
     "video_title": "보온병의 원리 알아보기",
     "video_desc": "보온병의 원리"
@@ -10537,7 +10545,7 @@
     "title": "태양에 대한 재미있는 사실들",
     "description": "수업 전",
     "sort_order": 1,
-    "video_url": "https://www.youtube.com/watch?v=Z7GKqqL3r8I",
+    "video_url": "https://www.youtube.com/watch?v=ECXUwdF54bM",
     "video_title": "빛에 대한 실험은 누가 최초로 했을까?",
     "video_desc": "빛의 색에 대한 뉴턴의 실험 소개"
   },
@@ -10647,6 +10655,7 @@
     "title": "태양계 행성의 크기는?",
     "description": "수업 중",
     "sort_order": 1,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=cbcyZOfq2Vo",
     "video_title": "볼록 렌즈는 어떤 특징이 있을까?",
     "video_desc": "볼록 렌즈의 모양, 특징 탐구"
@@ -10860,6 +10869,7 @@
     "title": "물과 설탕만 이용해서 무지개 탑을 쌓을 수 있을까?",
     "description": "수업 후",
     "sort_order": 2,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=nWQNa07OIK8",
     "video_title": "물과 설탕만 이용해서 무지개 탑을 쌓을 수 있을까?",
     "video_desc": "무지개 물탑 쌓기(한국화학연구원)"
@@ -10902,24 +10912,13 @@
   },
   {
     "kit_id": "sc5131",
-    "item_key": "v6",
-    "stage": "녹는 양",
-    "type": "video",
-    "title": "사라진 설탕의 비밀",
-    "description": "수업 전",
-    "sort_order": 2,
-    "video_url": "https://www.youtube.com/watch?v=ZwgozfgaoU4",
-    "video_title": "사라진 설탕의 비밀",
-    "video_desc": "<과학동화-사라진 설탕의 비밀> 보고 용해와 용액 알아보기"
-  },
-  {
-    "kit_id": "sc5131",
     "item_key": "v7",
     "stage": "녹는 양",
     "type": "video",
     "title": "돌멩이로 만든 수프",
     "description": "수업 전",
     "sort_order": 3,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=K_tTxPzOjjw",
     "video_title": "돌멩이로 만든 수프",
     "video_desc": "<과학동화-돌멩이로 만든 수프> 보고 용해와 용액 알아보기"
@@ -10944,6 +10943,7 @@
     "title": "코코아를 더 빨리 녹이려면?",
     "description": "수업 후",
     "sort_order": 5,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=8LenWtGxssQ",
     "video_title": "코코아를 더 빨리 녹이려면?",
     "video_desc": "물의 온도에 따라 용질이 용해되는 양"
@@ -11669,6 +11669,7 @@
     "title": "1990년대 정보통신산업 발달",
     "description": "수업 중",
     "sort_order": 8,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=vQpVtDTjTYc",
     "video_title": "1990년대 정보통신산업 발달",
     "video_desc": "정보통신산업 발달 역사를 소개하는 영상"
@@ -12297,6 +12298,7 @@
     "title": "김찬삼의 세계일주",
     "description": "배경지식",
     "sort_order": 1,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=HftMUiZZQAU",
     "video_title": "김찬삼의 세계일주",
     "video_desc": "대한민국 최초의 세계여행기를 보며, 나의 경험과 연관지어보는 데 활용"
@@ -12321,6 +12323,7 @@
     "title": "우리나라 최초의 세계지도",
     "description": "배경지식",
     "sort_order": 3,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=K1iJrwuSyIM",
     "video_title": "우리나라 최초의 세계지도",
     "video_desc": "우리나라 최초의 세계지도인 혼일강리역대국도지도를 살펴보며, 현재의 지도와 비교해보는 데 활용"
@@ -12564,6 +12567,7 @@
     "title": "아프리카의 국경선은 왜 일직선일까?",
     "description": "배경지식",
     "sort_order": 4,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=IVVBExea_Fs",
     "video_title": "아프리카의 국경선은 왜 일직선일까?",
     "video_desc": "아프리카 대륙의 국경선이 반듯한 이유를 역사적 관점에서 살펴보는 데 활용"
@@ -13620,10 +13624,142 @@
     "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "사람들은 유물, 유적, 기록 등 과거의 모습을 보여주는 자료를 통해 시간에 따른 역사의 변화를 이해한다.",
-    "core_question": "과거의 모습은 어떻게 알 수 있는가?",
-    "concepts": "공간과 장소; 변화; 유적과 유물; 생활 모습",
+    "core_question": "우리는 유적·유물을 통해 선사 시대와 고조선의 사는 공간과 생활 모습의 변화를 어떻게 추론할 수 있을까?",
+    "concepts": "공간과 장소 ; 변화 ; 유적과 유물 ; 생활 모습 ; 선사 시대 ; 고조선",
     "standard_code": "[6사04-01]",
     "standard_text": "선사 시대와 고조선의 유적과 유물을 활용하여 당시 사람들의 생활을 추론한다."
+  },
+  {
+    "kit_id": "so5211",
+    "item_key": "v01",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "선사 시대 사람들의 생활을 볼 수 있는 반구대 암각화",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=x9O4wzR4Y3I",
+    "video_title": "선사 시대 사람들의 생활을 볼 수 있는 반구대 암각화",
+    "video_desc": "선사 시대 기록물인 반구대 암각화를 소개하고 그림에 담긴 내용을 알아보며 보존의 필요성을 살펴봄."
+  },
+  {
+    "kit_id": "so5211",
+    "item_key": "v02",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "지구상 최초 인류가 살아남는 법",
+    "sort_order": 3,
+    "video_url": "https://www.youtube.com/watch?v=UEpxN7RPTDU",
+    "video_title": "지구상 최초 인류가 살아남는 법",
+    "video_desc": "인류의 출현부터 구석기 시대의 뗀석기와 불의 사용, 그리고 신석기 시대의 간석기, 빗살무늬토기, 농경 생활의 시작과 움집까지의 발전 과정을 이해함."
+  },
+  {
+    "kit_id": "so5211",
+    "item_key": "v03",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "선사 시대 어린이들의 생활 모습",
+    "sort_order": 4,
+    "video_url": "https://www.youtube.com/watch?v=791Bbw-njBs",
+    "video_title": "선사 시대 어린이들의 생활 모습",
+    "video_desc": "선사시대 어린이들은 자연 속에서 살아남기 위해 나무 타기, 돌의 결 읽기, 불 지키기 같은 ‘생존 기술’을 놀이처럼 배우고 익혔다는 사실을 통해 생활 모습을 이해함."
+  },
+  {
+    "kit_id": "so5211",
+    "item_key": "v04",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "구석기 시대 사람들은 어떻게 생활하였을까?",
+    "sort_order": 5,
+    "video_url": "https://www.youtube.com/watch?v=mGGjsGPNMqs",
+    "video_title": "구석기 시대 사람들은 어떻게 생활하였을까?",
+    "video_desc": "뗀석기 등 도구의 사용을 알아보고 이동 생활 등 식생활과 주거를 이해하며 불의 사용을 살펴봄."
+  },
+  {
+    "kit_id": "so5211",
+    "item_key": "v05",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "신석기 시대 사람들은 어떻게 생활하였을까?",
+    "sort_order": 6,
+    "video_url": "https://www.youtube.com/watch?v=2BnJSKIPoYo",
+    "video_title": "신석기 시대 사람들은 어떻게 생활하였을까?",
+    "video_desc": "농경과 정착 생활의 시작을 알아보고 간석기 및 토기 제작을 이해하며 옷을 만들어 입는 생활을 살펴봄."
+  },
+  {
+    "kit_id": "so5211",
+    "item_key": "v06",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "청동기 시대 사람들의 생활 모습은 어떻게 달라졌을까?",
+    "sort_order": 7,
+    "video_url": "https://www.youtube.com/watch?v=iWjIxKY3SGM",
+    "video_title": "청동기 시대 사람들의 생활 모습은 어떻게 달라졌을까?",
+    "video_desc": "청동기와 석기 사용을 알아보고 벼농사의 시작을 이해하며 지배자와 계급의 발생을 살펴봄."
+  },
+  {
+    "kit_id": "so5211",
+    "item_key": "v07",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "고조선에 대한 놀라운 사실들",
+    "sort_order": 8,
+    "video_url": "https://www.youtube.com/watch?v=tCVa6aUWeiE",
+    "video_title": "고조선에 대한 놀라운 사실들",
+    "video_desc": "한국 최초의 국가인 고조선의 건국 과정과 당시의 사회 모습을 설명함."
+  },
+  {
+    "kit_id": "so5211",
+    "item_key": "v08",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "고조선이 세워지다",
+    "sort_order": 9,
+    "video_url": "https://www.youtube.com/watch?v=BkiMQ3LJesc",
+    "video_title": "고조선이 세워지다",
+    "video_desc": "나라의 등장과 발전을 알아보고 식생활과 조리 도구의 발달을 살펴봄."
+  },
+  {
+    "kit_id": "so5211",
+    "item_key": "v09",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "고조선 8조법",
+    "sort_order": 10,
+    "video_url": "https://www.youtube.com/watch?v=QVc_iTCKJno",
+    "video_title": "고조선 8조법",
+    "video_desc": "우리나라 최초의 법인 8조법을 알아봄."
+  },
+  {
+    "kit_id": "so5211",
+    "item_key": "v10",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "단군설화로 본 고조선의 건국 이야기",
+    "sort_order": 11,
+    "video_url": "https://www.youtube.com/watch?v=xbszPEXlYeY",
+    "video_title": "단군설화로 본 고조선의 건국 이야기",
+    "video_desc": "단군신화의 의미를 알아보고 고조선의 사회적 특징을 살펴봄."
+  },
+  {
+    "kit_id": "so5211",
+    "item_key": "v11",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "도심에서 발견된 선사 시대 유적지",
+    "sort_order": 12,
+    "video_url": "https://www.youtube.com/watch?v=UHx6lQpxWd8",
+    "video_title": "도심에서 발견된 선사 시대 유적지",
+    "video_desc": "신도시 개발하다 발견된 선사시대 주거지의 흔적을 통해 우리 주변에 있는 유적지의 의미를 살펴봄. (1분 38초~2분 56초)"
+  },
+  {
+    "kit_id": "so5211",
+    "item_key": "v12",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "‘대가야’ 고령엔 선사 시대 유산도 풍부",
+    "sort_order": 13,
+    "video_url": "https://www.youtube.com/watch?v=K-UYOOIUI18",
+    "video_title": "‘대가야’ 고령엔 선사 시대 유산도 풍부",
+    "video_desc": "대구 인근 지역인 경북 고령 일대가 청동기 시대부터 암각화와 유적이 빽빽하게 밀집된 '선사시대의 중심지'였다는 사실을 알아봄."
   },
   {
     "kit_id": "so5212",
@@ -13634,10 +13770,186 @@
     "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "사람들은 유물, 유적, 기록 등 과거의 모습을 보여주는 자료를 통해 시간에 따른 역사의 변화를 이해한다.",
-    "core_question": "과거의 모습은 어떻게 알 수 있는가?",
-    "concepts": "공간과 장소; 변화; 유적과 유물; 생활 모습",
+    "core_question": "우리는  유적·유물을 통해 고대 사람들의 생각과 생활 모습의 변화를 어떻게 추론할 수 있을까?",
+    "concepts": "공간과 장소 ; 변화 ; 유적과 유물 ; 생활 모습 ; 고대",
     "standard_code": "[6사04-02]",
     "standard_text": "역사 기록이나 유적과 유물에 나타난 고대 사람들의 생각과 생활을 추론한다."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v01",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "신라의 청동호우에 새겨진 광개토대왕의 이름",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=MZoIjQWmFro",
+    "video_title": "신라의 청동호우에 새겨진 광개토대왕의 이름",
+    "video_desc": "신라의 무덤(호우총)에서 발견된 청동 그릇(호우명 그릇) 바닥에 광개토대왕의 이름이 새겨진 사실을 통해 고구려와 신라는 긴밀한 관계를 맺었음을 이해함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v02",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "(고구려) 광개토대왕은 어떻게 넓은 영토를 확장할 수 있었을까?",
+    "sort_order": 3,
+    "video_url": "https://www.youtube.com/watch?v=CpOGthKsRdM",
+    "video_title": "(고구려) 광개토대왕은 어떻게 넓은 영토를 확장할 수 있었을까?",
+    "video_desc": "소수림왕의 기틀을 바탕으로 영토를 확장해 고구려 전성기를 이끈 광개토대왕의 업적을 이해함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v03",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "(백제) 가장 먼저 전성기를 맞이한 백제",
+    "sort_order": 4,
+    "video_url": "https://www.youtube.com/watch?v=u_qBaSdxE8M",
+    "video_title": "(백제) 가장 먼저 전성기를 맞이한 백제",
+    "video_desc": "한강을 차지하고 삼국 중 가장 먼저 전성기를 맞이한 백제의 역사에 대해 이해함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v04",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "(백제) 활발한 외교를 통해 백제를 전성기로 이끈 근초고왕",
+    "sort_order": 5,
+    "video_url": "https://www.youtube.com/watch?v=3ps2iLX4ICg",
+    "video_title": "(백제) 활발한 외교를 통해 백제를 전성기로 이끈 근초고왕",
+    "video_desc": "영토 확장과 활발한 외교로 백제의 전성기를 이끈 근초고왕의 업적에 대해 이해함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v05",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "(신라) 진흥왕은 신라의 전성기를 어떻게 이끌었을까?",
+    "sort_order": 6,
+    "video_url": "https://www.youtube.com/watch?v=lOmrCiRTTgQ",
+    "video_title": "(신라) 진흥왕은 신라의 전성기를 어떻게 이끌었을까?",
+    "video_desc": "진흥왕의 영토 확장과 화랑도 정비 등 신라 전성기 업적을 탐구함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v06",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "(통일신라) 김유신은 어떻게 신라의 전성기를 도왔을까?",
+    "sort_order": 7,
+    "video_url": "https://www.youtube.com/watch?v=CuT-q5EfdH0",
+    "video_title": "(통일신라) 김유신은 어떻게 신라의 전성기를 도왔을까?",
+    "video_desc": "가야 출신 김유신이 화랑으로 성장해 삼국 통일에 기여한 업적에 대해 탐구함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v07",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "(통일신라) 신라는 어떻게 삼국을 통일할 수 있었을까?",
+    "sort_order": 8,
+    "video_url": "https://www.youtube.com/watch?v=m_SdZ04-eek",
+    "video_title": "(통일신라) 신라는 어떻게 삼국을 통일할 수 있었을까?",
+    "video_desc": "가장 약소국이었던 신라가 삼국 통일을 이룰 수 있었던 힘은 혁신과 선택이었음을 이해함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v08",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "(가야) 가야는 어떻게 발전했을까?",
+    "sort_order": 9,
+    "video_url": "https://www.youtube.com/watch?v=VDuiZDAcDp8",
+    "video_title": "(가야) 가야는 어떻게 발전했을까?",
+    "video_desc": "낙동강 유역의 가야는 우수한 철기 문화를 바탕으로 이웃 나라들과 활발히 무역하며 성장하였음을 이해함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v09",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "(발해) 발해는 어느 나라의 역사일까?",
+    "sort_order": 10,
+    "video_url": "https://www.youtube.com/watch?v=_V9eaarwu_A",
+    "video_title": "(발해) 발해는 어느 나라의 역사일까?",
+    "video_desc": "발해의 유물과 기록을 통해 고구려를 계승한 우리 역사임을 확인함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v10",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "(고구려) 고구려 삶의 모습을 담은 벽화",
+    "sort_order": 11,
+    "video_url": "https://www.youtube.com/watch?v=wF0KJBn2eEQ",
+    "video_title": "(고구려) 고구려 삶의 모습을 담은 벽화",
+    "video_desc": "고구려인의 당당하고 역동적인 삶의 모습을 그대로 보여주는 소중한 문화유산인 고분 벽화에 대해 이해함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v11",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "(백제) 백제의 무령왕릉 안에는 무엇이 있을까?",
+    "sort_order": 12,
+    "video_url": "https://www.youtube.com/watch?v=Rba52_llZR8",
+    "video_title": "(백제) 백제의 무령왕릉 안에는 무엇이 있을까?",
+    "video_desc": "백제 문화의 높은 예술성과 활발한 국제 교류를 보여주는 최고의 유산인 무령왕릉에 대해 설명함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v12",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "(신라) 첨성대에 숨겨진 비밀",
+    "sort_order": 13,
+    "video_url": "https://www.youtube.com/watch?v=A_TE1obuXMw",
+    "video_title": "(신라) 첨성대에 숨겨진 비밀",
+    "video_desc": "신라 건축 기술의 결정체인 첨성대에 대해 설명함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v13",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "(가야) 가야 사람들은 어떻게 살았을까?",
+    "sort_order": 14,
+    "video_url": "https://www.youtube.com/watch?v=mobzIg9Qlos",
+    "video_title": "(가야) 가야 사람들은 어떻게 살았을까?",
+    "video_desc": "금관가야의 중심지인 김해를 탐험하며 바다를 무대로 뛰어난 철기 문화와 해상 교류를 꽃피웠던 국제적이고 독창적인 가야의 역사적 가치를 이해함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v14",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "(통일신라) 세계 문화유산, 불국사",
+    "sort_order": 15,
+    "video_url": "https://www.youtube.com/watch?v=evExpvpOS0s",
+    "video_title": "(통일신라) 세계 문화유산, 불국사",
+    "video_desc": "신라인들의 꿈과 염원을 담아낸 자랑스러운 유네스코 세계문화유산인 불국사에 대해 설명함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v15",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "(발해) 발해의 치미",
+    "sort_order": 16,
+    "video_url": "https://www.youtube.com/watch?v=Xl7P2YOXW1c",
+    "video_title": "(발해) 발해의 치미",
+    "video_desc": "치미를 통해 독창적으로 발전했던 발해의 건축 문화에 대해 이해함."
+  },
+  {
+    "kit_id": "so5212",
+    "item_key": "v16",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "실크로드를 따라 더 넓은 세계에 닿았던 고구려",
+    "sort_order": 17,
+    "video_url": "https://www.youtube.com/watch?v=ZhZhRB76quc",
+    "video_title": "실크로드를 따라 더 넓은 세계에 닿았던 고구려",
+    "video_desc": "당의 위협 속에서도 고구려는 한반도의 틀을 넘어 실크로드를 통해 중앙아시아까지 드넓은 외교·문화 네트워크를 구축했던 개방적이고 국제적인 제국이었음을 이해함."
   },
   {
     "kit_id": "so5213",
@@ -13648,10 +13960,186 @@
     "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
     "core_idea": "사람들은 유물, 유적, 기록 등 과거의 모습을 보여주는 자료를 통해 시간에 따른 역사의 변화를 이해한다.",
-    "core_question": "과거의 모습은 어떻게 알 수 있는가?",
-    "concepts": "공간과 장소; 변화; 역사 자료; 생활 모습",
+    "core_question": "우리는 다양한 역사 자료를 통해 고려 시대 사회의 모습과 사람들의 삶의 변화를 어떻게 추론할 수 있을까?",
+    "concepts": "공간과 장소 ; 변화 ; 역사 자료 ; 생활 모습 ; 고려 시대",
     "standard_code": "[6사04-03]",
-    "standard_text": "다양한 역사 자료를 활용하여 고려 시대 사회 모습과 사람들의 생활을 추론한다."
+    "standard_text": "다양한 역사 자료를 활용하여 고려 시대 사회 모습과 사람들의 생활을 추론한다"
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v01",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "태조 왕건은 왜 29번이나 결혼했을까?",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=UrkkhaBjJoo",
+    "video_title": "태조 왕건은 왜 29번이나 결혼했을까?",
+    "video_desc": "정치적 통합을 위해 29번 결혼한 왕건에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v02",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "태조 왕건은 어떻게 고려를 세웠을까?",
+    "sort_order": 3,
+    "video_url": "https://www.youtube.com/watch?v=muBlG5aUyKs",
+    "video_title": "태조 왕건은 어떻게 고려를 세웠을까?",
+    "video_desc": "태조 왕건의 고려 건국 과정과 발전 과정을 탐구함."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v03",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "고려 최고의 외교가 서희",
+    "sort_order": 4,
+    "video_url": "https://www.youtube.com/watch?v=asIhz8EBwkU",
+    "video_title": "고려 최고의 외교가 서희",
+    "video_desc": "거란의 침입을 외교로 막아낸 서희의 활약을 알아봄."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v04",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "강감찬은 어떤 인물인가?",
+    "sort_order": 5,
+    "video_url": "https://www.youtube.com/watch?v=5Z1V1u2PIO8",
+    "video_title": "강감찬은 어떤 인물인가?",
+    "video_desc": "고려의 명장 강감찬의 생애와 업적을 탐구함."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v05",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "최씨 무신 정권",
+    "sort_order": 6,
+    "video_url": "https://www.youtube.com/watch?v=vYHvbD96YI8",
+    "video_title": "최씨 무신 정권",
+    "video_desc": "무신정권의 성립과 최씨 정권의 권력 장악 과정을 알아봄."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v06",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "거란을 무찌른 전투, 귀주 대첩",
+    "sort_order": 7,
+    "video_url": "https://www.youtube.com/watch?v=URAJdSOb9Wk",
+    "video_title": "거란을 무찌른 전투, 귀주 대첩",
+    "video_desc": "고려의 거란 격퇴 과정과 귀주대첩의 역사적 의미를 탐구함."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v07",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "서희의 외교 담판",
+    "sort_order": 8,
+    "video_url": "https://www.youtube.com/watch?v=RltT5F56QxA",
+    "video_title": "서희의 외교 담판",
+    "video_desc": "거란의 침입에 맞선 서희의 외교적 해결 과정을 탐구함."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v08",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "고려의 벽란도는 어떤 역할을 했을까?",
+    "sort_order": 9,
+    "video_url": "https://www.youtube.com/watch?v=fQTSgMZjjFk",
+    "video_title": "고려의 벽란도는 어떤 역할을 했을까?",
+    "video_desc": "국제 무역항 벽란도의 역할과 교류 모습을 탐구함."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v09",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "몽골의 침입에 대응한 고려",
+    "sort_order": 10,
+    "video_url": "https://www.youtube.com/watch?v=zqCNGrlCVWA",
+    "video_title": "몽골의 침입에 대응한 고려",
+    "video_desc": "고려가 몽골의 침입에 대응한 과정을 탐구함."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v10",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "고려 불교 문화의 특징과 대표적인 행사",
+    "sort_order": 11,
+    "video_url": "https://www.youtube.com/watch?v=PYFVq8dUjUs",
+    "video_title": "고려 불교 문화의 특징과 대표적인 행사",
+    "video_desc": "고려의 불교문화 특징과 대표 행사를 탐구함."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v11",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "고려는 불심을 어떻게 그림으로 나타냈을까?",
+    "sort_order": 12,
+    "video_url": "https://www.youtube.com/watch?v=mbHRuTXMi_4",
+    "video_title": "고려는 불심을 어떻게 그림으로 나타냈을까?",
+    "video_desc": "고려 시대의 불교 회화 특징과 표현 방식을 탐구함."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v12",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "고려는 어떤 문화와 예술을 가지고 있었을까?",
+    "sort_order": 13,
+    "video_url": "https://www.youtube.com/watch?v=c4HDtMqrdxE",
+    "video_title": "고려는 어떤 문화와 예술을 가지고 있었을까?",
+    "video_desc": "고려의 다양한 문화와 예술 특징을 탐구함."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v13",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "고려는 왜 팔만대장경을 만들었을까?",
+    "sort_order": 14,
+    "video_url": "https://www.youtube.com/watch?v=WA7RBwsQZG4",
+    "video_title": "고려는 왜 팔만대장경을 만들었을까?",
+    "video_desc": "몽골의 침입 속에서 팔만대장경을 제작한 배경과 의미를 파악함."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v14",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "고려청자는 어떤 특징이 있을까?",
+    "sort_order": 15,
+    "video_url": "https://www.youtube.com/watch?v=GPz1Ztc7U-o",
+    "video_title": "고려청자는 어떤 특징이 있을까?",
+    "video_desc": "고려청자의 특징과 아름다움을 알아봄."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v15",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "세계 최초의 금속활자가 가져온 변화",
+    "sort_order": 16,
+    "video_url": "https://www.youtube.com/watch?v=4-9dJ9AlhM8",
+    "video_title": "세계 최초의 금속활자가 가져온 변화",
+    "video_desc": "세계 최초의 금속활자 발명 과정과 인류 역사적 변화를 이해함."
+  },
+  {
+    "kit_id": "so5213",
+    "item_key": "v16",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "코리아 KOREA라는 말이 생긴 유래",
+    "sort_order": 17,
+    "video_url": "https://www.youtube.com/watch?v=G9alajYTBWw",
+    "video_title": "코리아 KOREA라는 말이 생긴 유래",
+    "video_desc": "0-3:20까지만 시청함. (이후 최태성 책 광고가 20초 정도 나옴)"
   },
   {
     "kit_id": "so5221",
@@ -13661,11 +14149,253 @@
     "title": "2-1. 조선 시대의 유교 문화",
     "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
-    "core_idea": "각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회·문화적 변화를 반영한다.",
-    "core_question": "각 시대 사람들의 생활 모습은 어떠하며 각 시대 생활 모습이 달라지는 까닭은 무엇인가?",
-    "concepts": "공간과 장소; 변화; 체제; 생활 모습; 문화; 사건",
+    "core_idea": "각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회⋅문화적 변화를 반영한다.",
+    "core_question": "유교 문화는 사람들이 살아가던 공간과 일상생활의 모습을 어떻게 변화시켰을까?",
+    "concepts": "공간과 장소 ; 변화 ; 체제 ; 생활 모습 ; 유교 문화 ; 조선 시대",
     "standard_code": "[6사05-01]",
     "standard_text": "조선 시대 사람들의 생각과 생활에 유교 문화가 미친 영향을 파악한다."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v01",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "조선 유교의 성지! 종묘 제례 D-7 금기 사항",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=A2KN2PVc2ZQ",
+    "video_title": "조선 유교의 성지! 종묘 제례 D-7 금기 사항",
+    "video_desc": "종묘제례의 7일 전 금기를 알아보며 조선의 유교문화에 대해 호기심을 키움."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v02",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "고려는 어떻게 멸망하였는가?",
+    "sort_order": 3,
+    "video_url": "https://www.youtube.com/watch?v=hw9ZB5AoKDk",
+    "video_title": "고려는 어떻게 멸망하였는가?",
+    "video_desc": "고려가 멸망하고 조선이 건국된 과정에 대해 이해함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v03",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "하여가와 단심가",
+    "sort_order": 4,
+    "video_url": "https://www.youtube.com/watch?v=vEGVBaSxYIQ",
+    "video_title": "하여가와 단심가",
+    "video_desc": "하여가와 단심가를 보며 조선 건국에 대한 두 입장을 파악함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v04",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "조선을 건국한 이성계",
+    "sort_order": 5,
+    "video_url": "https://www.youtube.com/watch?v=RtCjbhORaY8",
+    "video_title": "조선을 건국한 이성계",
+    "video_desc": "이성계의 인물을 탐구해보고 조선의 건국을 이해함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v05",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "조선 왕조를 설계한 정도전",
+    "sort_order": 6,
+    "video_url": "https://www.youtube.com/watch?v=nOPx2dnXi0c",
+    "video_title": "조선 왕조를 설계한 정도전",
+    "video_desc": "정도전 인물 탐구를 통해 조선 건국에 기여한 인물을 탐색함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v06",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "위화도 회군은 어떤 과정으로 이루어졌을까?",
+    "sort_order": 7,
+    "video_url": "https://www.youtube.com/watch?v=CiMM9kOTeZI",
+    "video_title": "위화도 회군은 어떤 과정으로 이루어졌을까?",
+    "video_desc": "위화도 회군을 통해 고려의 멸망과 조선 건국의 과정을 이해함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v07",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "위화도 회군은 필연적이었을까?",
+    "sort_order": 8,
+    "video_url": "https://www.youtube.com/watch?v=Dqby3FirYk8",
+    "video_title": "위화도 회군은 필연적이었을까?",
+    "video_desc": "위화도 회군을 통해 고려의 멸망과 조선 건국의 과정을 이해함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v08",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "신진사대부와 신흥무인세력",
+    "sort_order": 9,
+    "video_url": "https://www.youtube.com/watch?v=g7mVYZfjGCw",
+    "video_title": "신진사대부와 신흥무인세력",
+    "video_desc": "고려 말 두 중심세력이었던 신흥무인세력과 신진사대부에 대해 이해함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v09",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "조선은 왜 한양으로 도읍을 옮겼을까?",
+    "sort_order": 10,
+    "video_url": "https://www.youtube.com/watch?v=0KsIK8iEIPQ",
+    "video_title": "조선은 왜 한양으로 도읍을 옮겼을까?",
+    "video_desc": "조선이 한양으로 도읍을 옮긴 까닭을 추론해보고 조선의 성립 과정을 이해함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v10",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "한양은 어떤 지리적 이점을 가지고 있을까?",
+    "sort_order": 11,
+    "video_url": "https://www.youtube.com/watch?v=XKAWZdNEW6U",
+    "video_title": "한양은 어떤 지리적 이점을 가지고 있을까?",
+    "video_desc": "조선이 한양으로 도읍을 옮긴 까닭을 추론해보고 전문가의 설명과 비교하며 조선의 성립 과정을 이해함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v11",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "유교는 어떻게 조선 사회의 바탕이 되었을까?",
+    "sort_order": 12,
+    "video_url": "https://www.youtube.com/watch?v=tSuaUr_5plc",
+    "video_title": "유교는 어떻게 조선 사회의 바탕이 되었을까?",
+    "video_desc": "조선이 유교를 받아들이게 된 까닭에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v12",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "조선 시대 유교 윤리와 양반 문화는 어떻게 발달하였을까?",
+    "sort_order": 13,
+    "video_url": "https://www.youtube.com/watch?v=0JiK935je_4",
+    "video_title": "조선 시대 유교 윤리와 양반 문화는 어떻게 발달하였을까?",
+    "video_desc": "유교는 백성들에게 유교 이념과 삼강오륜을 전파하고 양반 문화를 발달시켰음을 이해함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v13",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "세종대왕은 어떤 인물일까?",
+    "sort_order": 14,
+    "video_url": "https://www.youtube.com/watch?v=EWdNsRdK0Hk",
+    "video_title": "세종대왕은 어떤 인물일까?",
+    "video_desc": "세종대왕 인물 탐구를 통해 조선 사회의 특징을 알아봄."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v14",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "세종대왕은 왜 한글을 만들었을까?",
+    "sort_order": 15,
+    "video_url": "https://www.youtube.com/watch?v=HcePYBOcwGU",
+    "video_title": "세종대왕은 왜 한글을 만들었을까?",
+    "video_desc": "한글 창제 등 세종의 다양한 업적 및 가치에 대해 탐구함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v15",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "한글은 왜 우수한 문자일까?",
+    "sort_order": 16,
+    "video_url": "https://www.youtube.com/watch?v=9a34V5g8qM8",
+    "video_title": "한글은 왜 우수한 문자일까?",
+    "video_desc": "한글의 과학성과 우수성을 탐구함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v16",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "측우기에 담긴 과학 이야기",
+    "sort_order": 17,
+    "video_url": "https://www.youtube.com/watch?v=WasDZmr1quw",
+    "video_title": "측우기에 담긴 과학 이야기",
+    "video_desc": "측우기의 작동 원리를 알아보고 과학적 우수성을 탐구함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v17",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "자격루는 어떻게 정확한 시간을 알려주었을까?",
+    "sort_order": 18,
+    "video_url": "https://www.youtube.com/watch?v=odcV2TsHyi0",
+    "video_title": "자격루는 어떻게 정확한 시간을 알려주었을까?",
+    "video_desc": "자격루의 작동 원리를 알아보고 과학적 우수성을 탐구함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v18",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "앙부일구로 시간과 절기를 한 눈에 알 수 있다?",
+    "sort_order": 19,
+    "video_url": "https://www.youtube.com/watch?v=IF20SeZFG1k",
+    "video_title": "앙부일구로 시간과 절기를 한 눈에 알 수 있다?",
+    "video_desc": "앙부일구의 작동 원리를 알아보고 과학적 우수성을 탐구함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v19",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "자격루는 어떻게 작동할까?",
+    "sort_order": 20,
+    "video_url": "https://www.youtube.com/watch?v=m8N39sTPYDA",
+    "video_title": "자격루는 어떻게 작동할까?",
+    "video_desc": "자격루의 자세한 작동 원리를 이해함."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v20",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "이순신은 어떻게 승리를 이끌었을까?",
+    "sort_order": 21,
+    "video_url": "https://www.youtube.com/watch?v=fQUYjseeAE4",
+    "video_title": "이순신은 어떻게 승리를 이끌었을까?",
+    "video_desc": "이순신의 인물 탐구를 통해 주요 전투의 과정과 가치를 탐구하며 이후 조선의 변화에 대한 실마리를 찾음."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v21",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "정묘호란과 병자호란은 어떻게 발생했을까?",
+    "sort_order": 22,
+    "video_url": "https://www.youtube.com/watch?v=inI73hTInQE",
+    "video_title": "정묘호란과 병자호란은 어떻게 발생했을까?",
+    "video_desc": "정묘호란과 병자호란의 전개 과정을 탐구하며 이후 조선의 변화에 대한 실마리를 찾음."
+  },
+  {
+    "kit_id": "so5221",
+    "item_key": "v22",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "편지로 알아본 조선 전기 여성의 사회적 지위",
+    "sort_order": 23,
+    "video_url": "https://www.youtube.com/watch?v=xXwhBoaKKZs",
+    "video_title": "편지로 알아본 조선 전기 여성의 사회적 지위",
+    "video_desc": "우리가 흔히 아는 '남존여비'나 가부장적인 유교 문화는 조선 후기(임진왜란 이후)에 정착된 것임을 보여줌."
   },
   {
     "kit_id": "so5222",
@@ -13675,11 +14405,244 @@
     "title": "2-2. 조선 후기의 달라진 생활 모습",
     "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
-    "core_idea": "각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회·문화적 변화를 반영한다.",
-    "core_question": "각 시대 사람들의 생활 모습은 어떠하며 각 시대 생활 모습이 달라지는 까닭은 무엇인가?",
-    "concepts": "공간과 장소; 변화; 체제; 생활 모습; 문화; 사건",
+    "core_idea": "각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회⋅문화적 변화를 반영한다.",
+    "core_question": "신분제와 사상의 변화, 그리고 근대 문물의 수용은 우리가 살아가는 공간과 일상생활을 어떻게 바꾸어 놓았을까?",
+    "concepts": "공간과 장소 ; 변화 ; 체제 ; 생활 모습 ; 문화 ; 근대 문물 ; 신분제 ; 조선 시대",
     "standard_code": "[6사05-02]",
-    "standard_text": "조선 후기 사회·문화적 변화와 개항기 근대 문물 수용 과정에서 달라진 사람들의 생활을 이해한다."
+    "standard_text": "조선 후기 사회․문화적 변화와 개항기 근대 문물 수용 과정에서 달라진 사람들의 생활을 이해한다"
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v01",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "조선 시대에도 여론 조사가 있었다?",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=LQlVg8F7NKE",
+    "video_title": "조선 시대에도 여론 조사가 있었다?",
+    "video_desc": "영조의 균역법에 대해 알아보고 백성과의 소통의 중요성을 탐구함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v02",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "조선의 살림남",
+    "sort_order": 3,
+    "video_url": "https://www.youtube.com/watch?v=vYEHNDapM8s",
+    "video_title": "조선의 살림남",
+    "video_desc": "실제 기록을 통해 본 조선의 사대부(양반)들은 집안 살림에 적극적으로 참여하고 주도했던 '살림의 달인'들이었음을 이해함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v03",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "조선의 생활사",
+    "sort_order": 4,
+    "video_url": "https://www.youtube.com/watch?v=5TYh3B7XNAw",
+    "video_title": "조선의 생활사",
+    "video_desc": "놋그릇의 대중화, 1인용 밥상인 '소반'의 유행, 주막과 국밥집 같은 근대적 외식 문화의 탄생 등 조선 후기 상업 발전이 바꾼 일상을 알아봄."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v04",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "컬러로 복원한 조선의 생활 모습",
+    "sort_order": 5,
+    "video_url": "https://www.youtube.com/watch?v=ll4fXHavq7I",
+    "video_title": "컬러로 복원한 조선의 생활 모습",
+    "video_desc": "구한말과 조선 후기 백성들의 시장 풍경, 벼 이앙(모내기), 빨래하는 모습 등을 고화질 컬러로 복원하여, 당시 사람들의 시각적 생활상을 직관적으로 탐구함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v05",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "모내기법·동의보감·대동법·새로운 작물의 등장",
+    "sort_order": 6,
+    "video_url": "https://www.youtube.com/watch?v=x9iQWCyubTM",
+    "video_title": "모내기법·동의보감·대동법·새로운 작물의 등장",
+    "video_desc": "모내기법(이앙법)의 전국적 확산이 어떻게 노동력을 줄이고 농업 생산량을 폭발적으로 늘렸는지, 그리고 담배나 인삼 같은 돈이 되는 작물(상품 작물)을 기르며 농민들이 어떻게 부를 축적했는지 탐구함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v06",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "조선 시대의 화폐 상평통보",
+    "sort_order": 7,
+    "video_url": "https://www.youtube.com/watch?v=kQiYj3pIAxY",
+    "video_title": "조선 시대의 화폐 상평통보",
+    "video_desc": "조선 후기 전국에 1,000여 개가 넘게 생긴 '장시(5일장)'와 이를 무대로 활약한 상인(공인, 사상, 보부상)들의 활동을 통해 화폐(상평통보)가 일상화된 모습을 탐구함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v07",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "조선 후기 서민문화의 대표 주자, 판소리",
+    "sort_order": 8,
+    "video_embed": false,
+    "video_url": "https://www.youtube.com/watch?v=v6Br_S5mM-M",
+    "video_title": "조선 후기 서민문화의 대표 주자, 판소리",
+    "video_desc": "서민들의 의식이 성장하면서 거드름을 피우는 양반을 조롱하고 사회를 비판했던 탈춤(봉산탈춤 등)과 판소리가 새로운 대중문화로 자리 잡는 과정을 탐구함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v08",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "조선 시대 한글 소설을 마음껏 즐기는 방법",
+    "sort_order": 9,
+    "video_url": "https://www.youtube.com/watch?v=eli6abCMgEM",
+    "video_title": "조선 시대 한글 소설을 마음껏 즐기는 방법",
+    "video_desc": "조선 후기(18~19세기) 상업이 발달하면서 서민과 여성들 사이에서 한글 소설 읽기 열풍이 불었을 때, 책을 즐기던 대표적인 두 가지 방식인 '세책점'과 '전기수'의 모습을 탐구함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v09",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "김홍도와 신윤복의 풍속화",
+    "sort_order": 10,
+    "video_url": "https://www.youtube.com/watch?v=WrHB-7U5EFw",
+    "video_title": "김홍도와 신윤복의 풍속화",
+    "video_desc": "시대적 변화 속에서 서민을 비롯한 다양한 계층의 일상이 어떻게 그림의 주인공으로 등장하게 되었는지 이해함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v10",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "흔들리는 신분제와 여성의 삶의 모습",
+    "sort_order": 11,
+    "video_url": "https://www.youtube.com/watch?v=jJdCnjnGgcg",
+    "video_title": "흔들리는 신분제와 여성의 삶의 모습",
+    "video_desc": "조선 후기 사회의 가장 핵심적인 변화인 '신분제 동요'와 '유교(성리학)의 영향으로 인한 여성의 삶의 변화', 그리고 이를 극복한 '훌륭한 여성 인물들'에 대해 탐구함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v11",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "실학은 무엇일까?",
+    "sort_order": 12,
+    "video_url": "https://www.youtube.com/watch?v=vENHKiAvfx4",
+    "video_title": "실학은 무엇일까?",
+    "video_desc": "박지원이 한 일을 토대로 실학의 의미와 의의를 이해함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v12",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "실학을 체계화한 정약용",
+    "sort_order": 13,
+    "video_url": "https://www.youtube.com/watch?v=-bCPVo4SLu4",
+    "video_title": "실학을 체계화한 정약용",
+    "video_desc": "정약용에 대한 인물 탐구를 통해 실학을 중심으로 조선 후기 사회 모습을 이해함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v13",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "흥선대원군은 어떤 정책을 펼쳤을까?",
+    "sort_order": 14,
+    "video_url": "https://www.youtube.com/watch?v=_-WVJpwjJXs",
+    "video_title": "흥선대원군은 어떤 정책을 펼쳤을까?",
+    "video_desc": "흥선대원군에 대한 인물 탐구를 통해 조선을 개혁하기 위한 노력과 외세에 대한 대응 과정을 탐구함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v14",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "동학 농민 운동은 왜 일어났을까?",
+    "sort_order": 15,
+    "video_url": "https://www.youtube.com/watch?v=m-YBfKWlyCQ",
+    "video_title": "동학 농민 운동은 왜 일어났을까?",
+    "video_desc": "동학 농민 운동의 전개 과정과 결과를 알아보며 정리함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v15",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "갑신정변에 참여한 사람들은 어떤 선택을 했을까?",
+    "sort_order": 16,
+    "video_url": "https://www.youtube.com/watch?v=lRS0v0_IgVA",
+    "video_title": "갑신정변에 참여한 사람들은 어떤 선택을 했을까?",
+    "video_desc": "갑신정변에 참여한 사람들의 선택을 살펴보고 인물의 가치관을 탐구함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v16",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "갑신정변의 전개 과정",
+    "sort_order": 17,
+    "video_url": "https://www.youtube.com/watch?v=xpkINLZuzN8",
+    "video_title": "갑신정변의 전개 과정",
+    "video_desc": "갑신정변의 전개 과정과 결과를 알아보며 정리함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v17",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "갑오개혁은 어떤 과정으로 전개되었을까?",
+    "sort_order": 18,
+    "video_embed": false,
+    "video_url": "https://www.youtube.com/watch?v=1tuF4f-HA_c",
+    "video_title": "갑오개혁은 어떤 과정으로 전개되었을까?",
+    "video_desc": "대한 제국 시기 자주독립과 근대화를 위한 노력인 갑오개혁에 대해 이해함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v18",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "독립 협회와 만민공동회",
+    "sort_order": 19,
+    "video_url": "https://www.youtube.com/watch?v=BQ41eKMvd_0",
+    "video_title": "독립 협회와 만민공동회",
+    "video_desc": "독립협회와 만민공동회에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v19",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "근대 문물의 수용",
+    "sort_order": 20,
+    "video_url": "https://www.youtube.com/watch?v=kp1MnWGUf1g",
+    "video_title": "근대 문물의 수용",
+    "video_desc": "개항 이후 조선에 들어온 새로운 교통, 통신, 교육 등의 근대 문물과 사회적 변화에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v20",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "조선 시대부터 냉면을 시켜 먹었다?",
+    "sort_order": 21,
+    "video_url": "https://www.youtube.com/watch?v=z-sJXVzkllw",
+    "video_title": "조선 시대부터 냉면을 시켜 먹었다?",
+    "video_desc": "신분과 관계없이 돈을 내고 음식을 배달시켜 먹던 조선 후기인들의 일상을 탐구함."
+  },
+  {
+    "kit_id": "so5222",
+    "item_key": "v21",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "조선 시대 감염병과 방역",
+    "sort_order": 22,
+    "video_url": "https://www.youtube.com/watch?v=Auy7GspB7j8",
+    "video_title": "조선 시대 감염병과 방역",
+    "video_desc": "우리 역사 속에서 감염병이 어떻게 발생했고, 조상들이 이를 극복하기 위해 어떤 체계와 지혜를 모았는지 탐구함."
   },
   {
     "kit_id": "so5231",
@@ -13689,25 +14652,502 @@
     "title": "3-1. 일제의 식민 통치와 저항",
     "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
-    "core_idea": "각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회·문화적 변화를 반영한다.",
-    "core_question": "각 시대 사람들의 생활 모습은 어떠하며 각 시대 생활 모습이 달라지는 까닭은 무엇인가?",
-    "concepts": "공간과 장소; 변화; 체제; 생활 모습; 문화; 사건",
+    "core_idea": "각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회⋅문화적 변화를 반영한다.",
+    "core_question": "식민지 체제는 우리가 살아가는 공간과 삶의 모습을 어떻게 변화시켰으며, 이에 맞선 저항은 사회에 어떤 영향을 주었을까?",
+    "concepts": "공간과 장소 ; 변화 ; 체제 ; 생활 모습 ; 문화 ; 사건 ; 식민 통치",
     "standard_code": "[6사06-01]",
     "standard_text": "일제의 식민 통치와 이에 대한 저항이 사회와 생활에 미친 영향을 이해한다."
   },
   {
-    "kit_id": "so5332",
+    "kit_id": "so5231",
+    "item_key": "v01",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "일제 강점기 시절, 등산과 친일의 상관관계",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=WawzME5Ho6A",
+    "video_title": "일제 강점기 시절, 등산과 친일의 상관관계",
+    "video_desc": "일제가 조선인들에게 등산을 '취미 생활'처럼 권장했던 속내에는 철도 부설을 위한 지형 정찰과 침략 기지 구축이라는 목적이 숨어 있었음을 이해함."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v02",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "도깨비마저 빼앗아간 일본",
+    "sort_order": 3,
+    "video_url": "https://www.youtube.com/watch?v=8B0BHli_aPg",
+    "video_title": "도깨비마저 빼앗아간 일본",
+    "video_desc": "도깨비의 외형 중에는 일제강점기를 거치며 일본의 요괴 문화와 뒤섞인 왜곡된 부분들이 많음을 이해함."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v03",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "일제에게 나라를 빼앗기다",
+    "sort_order": 4,
+    "video_url": "https://www.youtube.com/watch?v=xt5GtNjj774",
+    "video_title": "일제에게 나라를 빼앗기다",
+    "video_desc": "나라를 빼앗긴 과정과 일제의 수탈 통치에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v04",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "을사조약이 무효임을 알리기 위한 노력, 헤이그 특사",
+    "sort_order": 5,
+    "video_url": "https://www.youtube.com/watch?v=nBXKvHjdUxw",
+    "video_title": "을사조약이 무효임을 알리기 위한 노력, 헤이그 특사",
+    "video_desc": "을사조약이 무효임을 알리기 위해 노력한 헤이그 특사의 활동을 이해함."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v05",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "의병은 어떻게 일제의 침략에 맞섰을까?",
+    "sort_order": 6,
+    "video_url": "https://www.youtube.com/watch?v=eMhLFPSfx9g",
+    "video_title": "의병은 어떻게 일제의 침략에 맞섰을까?",
+    "video_desc": "국권 침탈에 맞선 항일 의병 투쟁의 과정을 알아봄."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v06",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "우리나라 최초의 여성의병장 윤희순",
+    "sort_order": 7,
+    "video_url": "https://www.youtube.com/watch?v=huuedjzvy3I",
+    "video_title": "우리나라 최초의 여성의병장 윤희순",
+    "video_desc": "여성 의병장 윤희순의 활동을 통해 광복을 위해 힘쓴 인물을 탐구함."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v07",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "민족의 힘을 키워나간 애국계몽운동",
+    "sort_order": 8,
+    "video_url": "https://www.youtube.com/watch?v=06iX6zr2u3I",
+    "video_title": "민족의 힘을 키워나간 애국계몽운동",
+    "video_desc": "애국 계몽 운동의 내용과 이 운동을 실시하게 된 까닭을 추론함."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v08",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "안중근이 낼 수 있었던 용기",
+    "sort_order": 9,
+    "video_url": "https://www.youtube.com/watch?v=EJifvw4wEAg",
+    "start_sec": 1017,
+    "video_title": "안중근이 낼 수 있었던 용기",
+    "video_desc": "안중근이 이토 히로부미를 암살한 장면을 각색한 부분으로 인물을 탐구함."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v09",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "시대와 국경을 넘어 빛나는 이름, 도산 안창호",
+    "sort_order": 10,
+    "video_url": "https://www.youtube.com/watch?v=c2xt0IHEh6Y",
+    "video_title": "시대와 국경을 넘어 빛나는 이름, 도산 안창호",
+    "video_desc": "안창호에 대한 인물 탐구를 바탕으로 광복을 위해 힘쓴 노력에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v10",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "조선인 강제징용의 역사",
+    "sort_order": 11,
+    "video_url": "https://www.youtube.com/watch?v=KDht0pwKG50",
+    "video_title": "조선인 강제징용의 역사",
+    "video_desc": "동굴 속에 숨겨진 조선인 강제 동원과 노동 수탈의 아픈 역사를 알아봄."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v11",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "긴 여정 끝에 돌아온 한국의 탑",
+    "sort_order": 12,
+    "video_url": "https://www.youtube.com/watch?v=WJyFMlmv6Eo",
+    "video_title": "긴 여정 끝에 돌아온 한국의 탑",
+    "video_desc": "일제강점기 때 수탈당했다가 112년 만에 고향인 강원도 원주로 돌아온 '법천사지 지광국사탑'에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v12",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "무력으로 조선을 통치한 '무단 통치'",
+    "sort_order": 13,
+    "video_url": "https://www.youtube.com/watch?v=kyE7c768t24",
+    "video_title": "무력으로 조선을 통치한 '무단 통치'",
+    "video_desc": "1910년대 일제가 조선을 강점한 직후 시행한 혹독한 무단 통치의 실상과 우리 민족의 저항을 알아봄."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v13",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "3·1운동은 어떻게 전국으로 퍼져나갈 수 있었나?",
+    "sort_order": 14,
+    "video_url": "https://www.youtube.com/watch?v=Qc63gD2PJL4",
+    "video_title": "3·1운동은 어떻게 전국으로 퍼져나갈 수 있었나?",
+    "video_desc": "3·1운동의 전개 과정과 힘쓴 인물에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v14",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "독립을 향한 용기",
+    "sort_order": 15,
+    "video_url": "https://www.youtube.com/watch?v=2MPeR9yYRQ8",
+    "video_title": "독립을 향한 용기",
+    "video_desc": "독립을 향해 목숨을 바칠 수 있었던 용기와 3·1운동의 의의를 탐구함."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v15",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "우리가 3·1운동을 기억해야 하는 이유",
+    "sort_order": 16,
+    "video_url": "https://www.youtube.com/watch?v=PI2AG4V7u6E",
+    "video_title": "우리가 3·1운동을 기억해야 하는 이유",
+    "video_desc": "3·1운동의 의의와 그 영향을 탐구함."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v16",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "대한민국으로의 첫걸음, 대한민국 임시정부",
+    "sort_order": 17,
+    "video_url": "https://www.youtube.com/watch?v=0pzky1MN8BQ",
+    "video_title": "대한민국으로의 첫걸음, 대한민국 임시정부",
+    "video_desc": "대한민국 임시정부의 수립 과정에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v17",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "대한민국 임시정부 수립, 우리가 기억해야 할 그 날",
+    "sort_order": 18,
+    "video_url": "https://www.youtube.com/watch?v=3z0fvfTJZdA",
+    "video_title": "대한민국 임시정부 수립, 우리가 기억해야 할 그 날",
+    "video_desc": "대한민국 임시정부의 수립 과정과 역사적 의의에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v18",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "윤봉길 의사의 상하이 의거",
+    "sort_order": 19,
+    "video_url": "https://www.youtube.com/watch?v=L3QkKYFtKEQ",
+    "video_title": "윤봉길 의사의 상하이 의거",
+    "video_desc": "윤봉길에 대한 인물 탐구를 바탕으로 광복을 위해 힘쓴 노력에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v19",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "점자로 하는 필기",
+    "sort_order": 20,
+    "video_url": "https://www.youtube.com/watch?v=0QJnWZM6Zx0",
+    "video_title": "점자로 하는 필기",
+    "video_desc": "11월 4일 점자의 날은 송암 박두성 선생이 훈맹정음을 반포한 1926년 11월 4일을 기념하는 날임을 알아봄."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v20",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "광복을 맞이한 독립운동가의 만세?",
+    "sort_order": 21,
+    "video_url": "https://www.youtube.com/watch?v=dTtNppeROyE",
+    "video_title": "광복을 맞이한 독립운동가의 만세?",
+    "video_desc": "AI 기술로 다양하게 복원된 독립운동가들의 사진을 알아봄."
+  },
+  {
+    "kit_id": "so5231",
+    "item_key": "v21",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "영화 속 독립운동가들과 얽힌 이야기",
+    "sort_order": 22,
+    "video_url": "https://www.youtube.com/watch?v=WUFlr8Sm54Y",
+    "video_title": "영화 속 독립운동가들과 얽힌 이야기",
+    "video_desc": "영화 《파묘》의 주인공 4인방(김상덕, 고영근, 윤봉길, 이화림)의 이름이 모두 실제 독립운동가의 이름에서 따왔다는 사실을 알아봄."
+  },
+  {
+    "kit_id": "so5232",
     "item_key": "intro",
     "stage": "단원안내",
     "type": "intro",
     "title": "3-2. 8·15 광복과 6·25 전쟁",
     "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
-    "core_idea": "각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회·문화적 변화를 반영한다.",
-    "core_question": "각 시대 사람들의 생활 모습은 어떠하며 각 시대 생활 모습이 달라지는 까닭은 무엇인가?",
-    "concepts": "공간과 장소; 변화; 체제; 생활 모습; 문화; 사건",
+    "core_idea": "각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회⋅문화적 변화를 반영한다.",
+    "core_question": "서로 다른 체제와 분단의 아픔이 남아있는 장소를 어떻게 평화의 공간으로 변화시킬 수 있으며, 이를 위해 우리는 무엇을 할 수 있을까?",
+    "concepts": "공간과 장소 ; 변화 ; 체제 ; 생활 모습 ; 문화 ; 사건 ; 분단 ; 평화 통일",
     "standard_code": "[6사07-01]",
     "standard_text": "분단으로 나타난 문제점과 분단과 관련된 장소를 평화의 장소로 만들려는 노력 등을 알아보고, 평화 통일을 위해 우리가 할 수 있는 일을 탐색한다."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v01",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "해방 당시 모습은 어땠을까?",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=SNJmg1oPfRM",
+    "video_title": "해방 당시 모습은 어땠을까?",
+    "video_desc": "해방 당시 국민들의 실제 모습을 알아봄."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v02",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "6.25와 국립박물관 - 문화재를 지켜라!",
+    "sort_order": 3,
+    "video_embed": false,
+    "video_url": "https://www.youtube.com/watch?v=8OrvRhpeW6s",
+    "video_title": "6.25와 국립박물관 - 문화재를 지켜라!",
+    "video_desc": "6.25전쟁 당시 우리의 문화재들을 지키고자 한 노력에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v03",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "광복은 어떻게 되었을까?",
+    "sort_order": 4,
+    "video_url": "https://www.youtube.com/watch?v=EX4zSekqkd4",
+    "video_title": "광복은 어떻게 되었을까?",
+    "video_desc": "광복 당시의 모습을 통해 광복의 과정을 이해함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v04",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "광복절의 의미",
+    "sort_order": 5,
+    "video_url": "https://www.youtube.com/watch?v=HiBw7oO3Ffc",
+    "video_title": "광복절의 의미",
+    "video_desc": "광복절의 의미를 되새기며 광복의 상황을 이해함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v05",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "광복 이후 대한민국은 어떻게 되었을까?",
+    "sort_order": 6,
+    "video_url": "https://www.youtube.com/watch?v=vNBoZcpwDns",
+    "video_title": "광복 이후 대한민국은 어떻게 되었을까?",
+    "video_desc": "광복 이후 국내 정세를 탐구함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v06",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "대한민국 임시정부 요인들의 환국 과정과 그 역사적 의의",
+    "sort_order": 7,
+    "video_url": "https://www.youtube.com/watch?v=1zC4NAqoxLM",
+    "video_title": "대한민국 임시정부 요인들의 환국 과정과 그 역사적 의의",
+    "video_desc": "광복 후 대한민국 임시정부 요인들의 환국 과정과 그 역사적 의의를 알아봄."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v07",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "미국은 왜 한국을 신탁통치 하려고 했을까?",
+    "sort_order": 8,
+    "video_url": "https://www.youtube.com/watch?v=fW3Gd3WGo7A",
+    "video_title": "미국은 왜 한국을 신탁통치 하려고 했을까?",
+    "video_desc": "신탁 통치에 대한 사람들의 의견을 비교함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v08",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "좌, 우로 갈라진 대한민국",
+    "sort_order": 9,
+    "video_url": "https://www.youtube.com/watch?v=RrHwd5Ve0Nw",
+    "video_title": "좌, 우로 갈라진 대한민국",
+    "video_desc": "광복 이후 이념에 따라 좌우로 갈라지게 된 배경에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v09",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "모스크바 3국 외상회의",
+    "sort_order": 10,
+    "video_url": "https://www.youtube.com/watch?v=c_sdVVSlxTU",
+    "video_title": "모스크바 3국 외상회의",
+    "video_desc": "모스크바 3국 외상회의에 대한 이야기를 통해 통일 정부 수립의 어려움을 탐구함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v10",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "대한민국? 누가 정했지?",
+    "sort_order": 11,
+    "video_url": "https://www.youtube.com/watch?v=UaDhmaapFtg",
+    "video_title": "대한민국? 누가 정했지?",
+    "video_desc": "대한민국 정부 수립 과정을 정리함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v11",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "5·10 총선거는 어떻게 이루어졌는가?",
+    "sort_order": 12,
+    "video_url": "https://www.youtube.com/watch?v=-mk1iMYbyYE",
+    "video_title": "5·10 총선거는 어떻게 이루어졌는가?",
+    "video_desc": "5.10총선거 과정 및 대한민국 정부 수립 과정을 이해함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v12",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "영상으로 보는 5·10 총선거",
+    "sort_order": 13,
+    "video_url": "https://www.youtube.com/watch?v=QLOz_HWvcO8",
+    "video_title": "영상으로 보는 5·10 총선거",
+    "video_desc": "5.10 총선거 실제 영상을 보고 선거 과정을 이해함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v13",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "김구와 이승만은 어떤 관계였을까?",
+    "sort_order": 14,
+    "video_url": "https://www.youtube.com/watch?v=p7N_wiCDZBc",
+    "video_title": "김구와 이승만은 어떤 관계였을까?",
+    "video_desc": "김구와 이승만의 입장을 살펴보고 시대 상황을 짐작함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v14",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "대한민국 최초의 민주선거",
+    "sort_order": 15,
+    "video_url": "https://www.youtube.com/watch?v=SWL7kTASK9U",
+    "video_title": "대한민국 최초의 민주선거",
+    "video_desc": "제헌 국회의원 선거의 과정과 의의를 탐구함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v15",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "6·25 전쟁은 어떤 과정으로 전개되었을까?",
+    "sort_order": 16,
+    "video_url": "https://www.youtube.com/watch?v=OawPpXGztlU",
+    "video_title": "6·25 전쟁은 어떤 과정으로 전개되었을까?",
+    "video_desc": "6.25 전쟁의 전개 과정을 이해함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v16",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "성공확률 5분의 1, 인천 상륙 작전",
+    "sort_order": 17,
+    "video_url": "https://www.youtube.com/watch?v=-RJXyxAC-5w",
+    "video_title": "성공확률 5분의 1, 인천 상륙 작전",
+    "video_desc": "인천 상륙 작전의 과정을 통해 6.25 전쟁의 전개 과정을 이해함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v17",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "불가능은 없다! 맥아더 장군",
+    "sort_order": 18,
+    "video_url": "https://www.youtube.com/watch?v=r7DhpD6-3Mc",
+    "video_title": "불가능은 없다! 맥아더 장군",
+    "video_desc": "맥아더 장군의 인물 탐구를 통해 6.25 전쟁의 전개 과정을 이해함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v18",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "6·25 전쟁 당시는 실제 어떤 모습이었을까?",
+    "sort_order": 19,
+    "video_url": "https://www.youtube.com/watch?v=pLDkfZ8s8Ew",
+    "start_sec": 117,
+    "video_title": "6·25 전쟁 당시는 실제 어떤 모습이었을까?",
+    "video_desc": "6.25전쟁의 실제 영상을 보며 전쟁의 참혹함 및 영향을 탐구함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v19",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "6·25 전쟁이 남긴 상처, 전쟁고아",
+    "sort_order": 20,
+    "video_url": "https://www.youtube.com/watch?v=kZaq-x-tUlo",
+    "video_title": "6·25 전쟁이 남긴 상처, 전쟁고아",
+    "video_desc": "6.25전쟁의 아픔과 전쟁고아에 대해 이해함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v20",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "6·25 전쟁, 잊을 수 없는 상처",
+    "sort_order": 21,
+    "video_url": "https://www.youtube.com/watch?v=-ECci4sNuYc",
+    "start_sec": 502,
+    "video_title": "6·25 전쟁, 잊을 수 없는 상처",
+    "video_desc": "6.25전쟁의 결과와 아픔에 대해 이해함."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v21",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "임시정부 요인 환국 재현",
+    "sort_order": 22,
+    "video_url": "https://www.youtube.com/watch?v=00hNMcmdYJM",
+    "video_title": "임시정부 요인 환국 재현",
+    "video_desc": "대한민국 임시정부 요인들의 귀환(환국)을 재현하는 행사의 의의에 대해 알아봄."
+  },
+  {
+    "kit_id": "so5232",
+    "item_key": "v22",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "광복 80주년, 다시 찾은 얼굴들",
+    "sort_order": 23,
+    "video_url": "https://www.youtube.com/watch?v=f7FwY3Kx0Qk",
+    "video_title": "광복 80주년, 다시 찾은 얼굴들",
+    "video_desc": "조국의 독립을 보지 못하고 순국한 안중근, 유관순, 이봉창, 윤봉길, 안창호 등 다섯 분의 독립운동가 얼굴을 인공지능(AI) 기술로 복원함."
   },
   {
     "kit_id": "sc5211",
@@ -13719,12 +15159,177 @@
     "sort_order": 1,
     "core_idea": "모든 물질은 저마다 고유한 성질을 지니며, 사람들은 그 성질의 차이를 활용하여 원하는 것을 얻는다.",
     "core_question": "물질의 고유한 성질은 우리가 원하는 것을 얻는 데 어떻게 활용될까?",
-    "concepts": "성질; 변화; 성질; 분리; 입자; 용해; 혼합물",
+    "concepts": "성질 ; 변화 ; 분리 ; 입자 ; 용해 ; 혼합물",
     "standard_code": "[6과05-01] ; [6과05-02] ; [6과05-03]",
-    "standard_text": "알갱이의 크기가 다른 고체 혼합물과 골고루 섞이지 않는 액체 혼합물을 분리할 수 있다. ; 물에 용해되는 성질을 이용하여 고체 혼합물을 분리하고, 물을 증발시켜 물에 용해된 고체 물질을 분리할 수 있다. ; 지속가능한 삶을 위한 과학기술 사례 중 혼합물의 분리를 이용한 장치를 조사하여 공유할 수 있다."
+    "standard_text": "알갱이의 크기가 다른 고체 혼합물과 골고루 섞이지 않는 액체 혼합물을 분리할 수 있다. ; 물에 용해되는 성질을 이용하여 고체 혼합물을 분리하고, 물을 증발시켜 몰에 용해된 고체 물질을 분리할 수 있다. ; 지속가능한 삶을 위한 과학기술 사례 중 혼합물의 분리를 이용한 장치를 조사하여 공유할 수 있다."
   },
   {
-    "kit_id": "sc5212",
+    "kit_id": "sc5211",
+    "item_key": "v01",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "물질이 섞여 있으면 항상 불투명할까?",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=yavlf6BklOo",
+    "video_title": "물질이 섞여 있으면 항상 불투명할까?",
+    "video_desc": "물질이 섞였을 때 불투명해지는 까닭"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v02",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "생활 속에서 혼합물을 분리하는 이유",
+    "sort_order": 3,
+    "video_url": "https://www.youtube.com/watch?v=uGC3sRpaDPE",
+    "video_title": "생활 속에서 혼합물을 분리하는 이유",
+    "video_desc": "생활 속에서 혼합물을 분리하여 활용하는 예와 그 이로운 점"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v03",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "섞인 소금과 후추, 분리가 가능할까?",
+    "sort_order": 4,
+    "video_url": "https://www.youtube.com/watch?v=Ebntt4JEnwA",
+    "video_title": "섞인 소금과 후추, 분리가 가능할까?",
+    "video_desc": "풍선과 플라스틱 그릇으로 소금과 후추를 분리하는 방법"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v04",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "바닷물, 끓이지 않고 증류수를 얻을 수 있을까?",
+    "sort_order": 5,
+    "video_url": "https://www.youtube.com/watch?v=v1FcWABNh2w",
+    "video_title": "바닷물, 끓이지 않고 증류수를 얻을 수 있을까?",
+    "video_desc": "바닷물을 끓이지 않고 물과 소금을 분리하는 방법"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v05",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "태안 기름 유출 사고와 기적",
+    "sort_order": 6,
+    "video_url": "https://www.youtube.com/watch?v=5ZJa6BdnZIs",
+    "video_title": "태안 기름 유출 사고와 기적",
+    "video_desc": "태안 기름 유출 사고에서 기름을 걷어내 생태계를 되찾은 과정"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v06",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "일상생활 속 혼합물 분리, 한국의 전통 소주 제조 과정 살펴보기",
+    "sort_order": 7,
+    "video_url": "https://www.youtube.com/watch?v=kgcw9A-Dvvg",
+    "video_title": "일상생활 속 혼합물 분리, 한국의 전통 소주 제조 과정 살펴보기",
+    "video_desc": "증류 방식으로 만드는 한국 전통 소주의 제조 과정"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v07",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "숨 쉬는 천연 섬유, 목화솜 추출 과정",
+    "sort_order": 8,
+    "video_url": "https://www.youtube.com/watch?v=OjKnwdS1GGI",
+    "video_title": "숨 쉬는 천연 섬유, 목화솜 추출 과정",
+    "video_desc": "습기를 내보내 썩지 않는 목화솜의 추출 과정"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v08",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "공기청정기는 어떻게 미세먼지를 잡아낼까?",
+    "sort_order": 9,
+    "video_url": "https://www.youtube.com/watch?v=V0ga9mmPpNg",
+    "video_title": "공기청정기는 어떻게 미세먼지를 잡아낼까?",
+    "video_desc": "공기청정기 속 미세먼지를 걸러 내는 헤파필터의 특징과 작동 원리"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v09",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "환경을 생각하는 에코아트! 재생 종이 만들기",
+    "sort_order": 10,
+    "video_url": "https://www.youtube.com/watch?v=xA5BtFj-FWY",
+    "video_title": "환경을 생각하는 에코아트! 재생 종이 만들기",
+    "video_desc": "버려진 종이를 모아 되살리는 재생 종이의 제작 과정"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v10",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "소금에 붙은 '미세 플라스틱'을 제거할 수 있을까?",
+    "sort_order": 11,
+    "video_url": "https://www.youtube.com/watch?v=InGD2hclQkQ",
+    "video_title": "소금에 붙은 '미세 플라스틱'을 제거할 수 있을까?",
+    "video_desc": "소금에 붙은 미세 플라스틱을 없애는 기술"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v11",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "필터 샤워기는 어떻게 불순물 제거할까?",
+    "sort_order": 12,
+    "video_url": "https://www.youtube.com/watch?v=GjvwW_uvleQ",
+    "video_title": "필터 샤워기는 어떻게 불순물 제거할까?",
+    "video_desc": "필터 샤워기가 물속 불순물과 녹물을 걸러 내는 원리"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v12",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "흙탕물을 맑은 물로 바꿀 수 있을까?",
+    "sort_order": 13,
+    "video_url": "https://www.youtube.com/watch?v=d8d4I3bPAPI",
+    "video_title": "흙탕물을 맑은 물로 바꿀 수 있을까?",
+    "video_desc": "흙탕물 속 흙과 모래를 분리해 맑은 물을 얻는 방법"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v13",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "마스크 필터 속에 숨은 과학 원리",
+    "sort_order": 14,
+    "video_url": "https://www.youtube.com/watch?v=aTicerr0l9I",
+    "video_title": "마스크 필터 속에 숨은 과학 원리",
+    "video_desc": "미세먼지로부터 호흡기를 보호하는 마스크 필터의 원리"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v14",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "공기 정화와 가습을 동시에 해결한 공기청정기의 개발!",
+    "sort_order": 15,
+    "video_url": "https://www.youtube.com/watch?v=CkBSiMvGQWY",
+    "video_title": "공기 정화와 가습을 동시에 해결한 공기청정기의 개발!",
+    "video_desc": "국내 연구진이 세계 최초로 개발한 필터 없는 공기 정화·가습 장치"
+  },
+  {
+    "kit_id": "sc5211",
+    "item_key": "v15",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "하루 만에 바다쓰레기를 3톤 모은다는, 바다 위 쓰레기통의 정체",
+    "sort_order": 16,
+    "video_url": "https://www.youtube.com/watch?v=d5QTU3vTrUs",
+    "video_title": "하루 만에 바다쓰레기를 3톤 모은다는, 바다 위 쓰레기통의 정체",
+    "video_desc": "바다 위를 떠다니는 쓰레기를 모으는 바다 쓰레기통 씨빈(Seabin)"
+  },
+  {
+    "kit_id": "sc5221",
     "item_key": "intro",
     "stage": "단원안내",
     "type": "intro",
@@ -13733,12 +15338,234 @@
     "sort_order": 1,
     "core_idea": "자연 현상은 여러 요소가 서로 영향을 주고받는 시스템 속에서 나타나며, 인간의 생활과 끊임없이 상호작용한다.",
     "core_question": "서로 영향을 주고받는 자연의 요소들은 우리의 삶과 어떻게 연결될까?",
-    "concepts": "시스템; 상호 작용; 날씨; 이슬; 안개; 구름; 고기압; 저기압; 순환",
+    "concepts": "시스템 ; 상호 작용 ; 날씨 ; 이슬 ; 안개 ; 구름 ; 고기압 ; 저기압 ; 순환",
     "standard_code": "[6과06-01] ; [6과06-02] ; [6과06-03]",
     "standard_text": "기상 요소를 조사하고, 날씨가 우리 생활에 주는 영향을 인식할 수 있다. ; 이슬, 안개, 구름을 관찰하고, 공통점과 차이점을 찾을 수 있다. ; 고기압과 저기압의 분포에 따른 날씨의 특징을 기상 요소로 표현할 수 있다."
   },
   {
-    "kit_id": "sc5213",
+    "kit_id": "sc5221",
+    "item_key": "v01",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "일기예보가 만들어지는 과정",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=yZ_U9vBRppc",
+    "video_title": "일기예보가 만들어지는 과정",
+    "video_desc": "기상 관측부터 슈퍼컴퓨터 분석까지 일기예보가 만들어지는 과정"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v02",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "기상청은 24시간 비상 체제 유지",
+    "sort_order": 3,
+    "video_url": "https://www.youtube.com/watch?v=Rsgkz6iK5iQ",
+    "video_title": "기상청은 24시간 비상 체제 유지",
+    "video_desc": "기상청의 24시간 관측 체계와 정확한 예보를 위한 노력"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v03",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "밤 사이 많은 눈이 내리면 우리 생활은 어떻게 달라질까?",
+    "sort_order": 4,
+    "video_url": "https://www.youtube.com/watch?v=c0rZ64P6EUs",
+    "video_title": "밤 사이 많은 눈이 내리면 우리 생활은 어떻게 달라질까?",
+    "video_desc": "밤사이 내린 많은 눈이 만든 빙판길과 출근길 주의 사항"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v04",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "폭우와 호우가 발생하면 우리 생활에 어떤 영향을 미칠까?",
+    "sort_order": 5,
+    "video_url": "https://www.youtube.com/watch?v=ZLm8UJoPWpk",
+    "video_title": "폭우와 호우가 발생하면 우리 생활에 어떤 영향을 미칠까?",
+    "video_desc": "갑작스러운 폭우로 야구 경기가 취소되어 시민들이 겪은 불편"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v05",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "내일 뭐 입지? 날씨에 맞는 '기온대별 옷차림'",
+    "sort_order": 6,
+    "video_url": "https://www.youtube.com/watch?v=0aEFRxhWFJ4",
+    "video_title": "내일 뭐 입지? 날씨에 맞는 '기온대별 옷차림'",
+    "video_desc": "기온대별 알맞은 옷차림과 일교차에 따른 복장 선택법"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v06",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "안전한 생활을 위한 기상청의 노력",
+    "sort_order": 7,
+    "video_url": "https://www.youtube.com/watch?v=J_baaZwxgtU",
+    "video_title": "안전한 생활을 위한 기상청의 노력",
+    "video_desc": "기후 위기에 대응하는 기상청의 예보 기술 발전과 안전 강화 노력"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v07",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "찬 이슬 맺히는 절기, 한로",
+    "sort_order": 8,
+    "video_embed": false,
+    "video_url": "https://www.youtube.com/watch?v=PPjMdKnUUSs",
+    "video_title": "찬 이슬 맺히는 절기, 한로",
+    "video_desc": "찬 이슬이 맺히고 서리로 변하는 절기 한로의 의미"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v08",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "안개가 잘 생기는 계절과 그 이유",
+    "sort_order": 9,
+    "video_url": "https://www.youtube.com/watch?v=y_sdpg2taQE",
+    "video_title": "안개가 잘 생기는 계절과 그 이유",
+    "video_desc": "가을철 새벽에 안개가 자주 생기는 까닭"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v09",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "구름과 안개는 무엇이 다를까?",
+    "sort_order": 10,
+    "video_url": "https://www.youtube.com/watch?v=MmdKaqLHd1A",
+    "video_title": "구름과 안개는 무엇이 다를까?",
+    "video_desc": "구름과 안개의 차이점과 안개가 생기는 원리"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v10",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "구름이 발생하는 이유는?",
+    "sort_order": 11,
+    "video_embed": false,
+    "video_url": "https://www.youtube.com/watch?v=XbA9jFgEOdU",
+    "video_title": "구름이 발생하는 이유는?",
+    "video_desc": "구름이 만들어지는 과정과 안개와의 차이점"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v11",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "안개와 구름이 흰색으로 보이는 이유는?",
+    "sort_order": 12,
+    "video_url": "https://www.youtube.com/watch?v=tcjZmZ02rxk",
+    "video_title": "안개와 구름이 흰색으로 보이는 이유는?",
+    "video_desc": "빛의 산란으로 안개와 구름이 하얗게 보이는 까닭"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v12",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "구름의 종류",
+    "sort_order": 13,
+    "video_url": "https://www.youtube.com/watch?v=qHCs9tbChqY",
+    "video_title": "구름의 종류",
+    "video_desc": "국제구름도감이 나눈 10가지 구름의 기본 분류"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v13",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "8월 장마' 몰고 온 '블로킹 고기압'",
+    "sort_order": 14,
+    "video_url": "https://www.youtube.com/watch?v=6ZclVRuav6I",
+    "video_title": "8월 장마' 몰고 온 '블로킹 고기압'",
+    "video_desc": "블로킹 고기압이 8월 장마를 부른 까닭"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v14",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "사계절 중 가장 바람이 센 계절은?",
+    "sort_order": 15,
+    "video_url": "https://www.youtube.com/watch?v=cuK3zc-5kU4",
+    "video_title": "사계절 중 가장 바람이 센 계절은?",
+    "video_desc": "사계절 중 연중 바람이 가장 센 계절이 봄인 이유"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v15",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "날씨에 영향을 주는 요소들",
+    "sort_order": 16,
+    "video_url": "https://www.youtube.com/watch?v=cKkL44v4xcc",
+    "video_title": "날씨에 영향을 주는 요소들",
+    "video_desc": "바다·산·도시 등 지역 환경에 따라 날씨가 달라지는 까닭"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v16",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "바닷가에 유독 바람이 강한 이유",
+    "sort_order": 17,
+    "video_url": "https://www.youtube.com/watch?v=tAZsHLNj5Pc",
+    "video_title": "바닷가에 유독 바람이 강한 이유",
+    "video_desc": "바다와 육지의 온도 차가 만드는 기압 변화와 해풍의 원리"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v17",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "좁은 건물 사이에서 바람이 더 강하게 부는 이유",
+    "sort_order": 18,
+    "video_url": "https://www.youtube.com/watch?v=5cZ3KlFNXVY",
+    "video_title": "좁은 건물 사이에서 바람이 더 강하게 부는 이유",
+    "video_desc": "좁은 건물 사이에서 바람이 강해지는 베르누이 원리"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v18",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "이슬로 물을 만들다, 와카워터의 꿈",
+    "sort_order": 19,
+    "video_url": "https://www.youtube.com/watch?v=7JscpaUw0LI",
+    "video_title": "이슬로 물을 만들다, 와카워터의 꿈",
+    "video_desc": "이슬을 모아 식수를 얻는 와카워터의 원리"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v19",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "요트는 어떻게 역풍이 불어도 앞으로 나갈까?",
+    "sort_order": 20,
+    "video_url": "https://www.youtube.com/watch?v=tCehCDp72nM",
+    "video_title": "요트는 어떻게 역풍이 불어도 앞으로 나갈까?",
+    "video_desc": "삼각돛을 이용해 역풍에서도 요트가 나아가는 방식"
+  },
+  {
+    "kit_id": "sc5221",
+    "item_key": "v20",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "바람으로 움직이는 '키네틱 아트'",
+    "sort_order": 21,
+    "video_url": "https://www.youtube.com/watch?v=uzSoszWTY_4",
+    "video_title": "바람으로 움직이는 '키네틱 아트'",
+    "video_desc": "바람을 동력으로 스스로 움직이는 테오 얀센의 키네틱 아트 작품"
+  },
+  {
+    "kit_id": "sc5231",
     "item_key": "intro",
     "stage": "단원안내",
     "type": "intro",
@@ -13747,12 +15574,243 @@
     "sort_order": 1,
     "core_idea": "에너지는 끊임없이 이동하며 물질의 상태와 환경을 변화시키고, 사람들은 이를 이해하여 생활을 이롭게 만든다.",
     "core_question": "열의 이동을 이해하면 우리는 생활을 어떻게 더 이롭게 바꿀 수 있을까?",
-    "concepts": "성질; 변화; 온도; 열의 이동; 단열; 보존",
+    "concepts": "성질 ; 변화 ; 온도 ; 열의 이동 ; 단열 ; 보존",
     "standard_code": "[6과07-01] ; [6과07-02] ; [6과07-03] ; [6과07-04]",
     "standard_text": "물체의 따뜻하고 차가운 정도를 온도로 표현함을 알고, 온도계를 이용하여 온도를 측정할 수 있다. ; 온도가 다른 두 물체가 접촉했을 때 두 물체의 온도 변화를 관찰하고 그 원인을 추리할 수 있다. ; 주위에서 열의 이동으로 나타나는 현상을 관찰하여 열의 이동 방식이 다양함을 설명할 수 있다. ; 일상생활에서 단열을 이용하는 사례를 조사하고, 온도를 오랫동안 일정하게 유지할 수 있는 장치를 창의적으로 만들 수 있다."
   },
   {
-    "kit_id": "sc5214",
+    "kit_id": "sc5231",
+    "item_key": "v01",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "온도가 필요한 이유는 무엇일까?",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=7sqLmNKaBkY",
+    "video_title": "온도가 필요한 이유는 무엇일까?",
+    "video_desc": "차갑거나 따뜻한 정도를 나타내는 온도가 필요한 까닭"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v02",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "촛불과 조명의 색깔에 수학이 숨어있다고?",
+    "sort_order": 3,
+    "video_url": "https://www.youtube.com/watch?v=T2zPySJpKAE",
+    "video_title": "촛불과 조명의 색깔에 수학이 숨어있다고?",
+    "video_desc": "온도에 따라 달라지는 불꽃과 조명의 색"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v03",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "냉장고의 적정 온도, 계절마다 다르다고?",
+    "sort_order": 4,
+    "video_url": "https://www.youtube.com/watch?v=K0IxvfZoAM4",
+    "video_title": "냉장고의 적정 온도, 계절마다 다르다고?",
+    "video_desc": "주변 온도에 따라 달라지는 냉장고의 계절별 적정 설정 온도"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v04",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "거북이의 암수를 결정짓는 것은?",
+    "sort_order": 5,
+    "video_url": "https://www.youtube.com/watch?v=-s5lLDnEd34",
+    "video_title": "거북이의 암수를 결정짓는 것은?",
+    "video_desc": "알이 놓인 온도에 따라 암수가 결정되는 거북이"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v05",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "뜨거운 밥공기 위에 손을 올렸을 때, 왜 그럴까?",
+    "sort_order": 6,
+    "video_url": "https://www.youtube.com/watch?v=WVuiwV4Ytmc",
+    "video_title": "뜨거운 밥공기 위에 손을 올렸을 때, 왜 그럴까?",
+    "video_desc": "뜨거운 밥공기에 손을 얹었을 때 온기가 느껴지는 경험"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v06",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "달걀 프라이를 열화상 카메라로 보면?",
+    "sort_order": 7,
+    "video_url": "https://www.youtube.com/watch?v=97TUuLlETY4",
+    "video_title": "달걀 프라이를 열화상 카메라로 보면?",
+    "video_desc": "열화상 카메라로 본 달걀 프라이의 열 변화"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v07",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "고체의 온도 변화를 어떻게 눈으로 확인할까?",
+    "sort_order": 8,
+    "video_url": "https://www.youtube.com/watch?v=GBd6BYlYuUQ",
+    "video_title": "고체의 온도 변화를 어떻게 눈으로 확인할까?",
+    "video_desc": "고체의 온도 변화를 눈으로 확인하는 두 가지 방법, 열화상 카메라와 열변색 종이"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v08",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "영화 속에 숨여진 열의 이동 현상, 라따뚜이!",
+    "sort_order": 9,
+    "video_url": "https://www.youtube.com/watch?v=Zv0UWxVgeJY",
+    "video_title": "영화 속에 숨여진 열의 이동 현상, 라따뚜이!",
+    "video_desc": "라따뚜이 영화 장면에 나타난 고체에서의 열의 이동"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v09",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "냉기는 정말 위에서 아래로 흐를까?",
+    "sort_order": 10,
+    "video_url": "https://www.youtube.com/watch?v=xFUwDmbOysg",
+    "video_title": "냉기는 정말 위에서 아래로 흐를까?",
+    "video_desc": "슐리렌 장치로 관찰하는 눈에 보이지 않는 공기의 흐름과 대류 현상"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v10",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "기체에서의 열의 이동을 눈으로 관찰해 보기",
+    "sort_order": 11,
+    "video_url": "https://www.youtube.com/watch?v=7ga1ke8kN04",
+    "video_title": "기체에서의 열의 이동을 눈으로 관찰해 보기",
+    "video_desc": "실험으로 눈으로 확인하는 기체에서의 열의 이동"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v11",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "텀블러는 어떻게 온도를 유지할까?",
+    "sort_order": 12,
+    "video_url": "https://www.youtube.com/watch?v=t-aoWQjz6Ds",
+    "video_title": "텀블러는 어떻게 온도를 유지할까?",
+    "video_desc": "내용물의 온도를 오래 유지하고 환경 보호에도 도움이 되는 텀블러의 과학 원리"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v12",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "우주복에서 섬유-온도를 유지하는 방법은?",
+    "sort_order": 13,
+    "video_url": "https://www.youtube.com/watch?v=bFDJtqlDJuA",
+    "video_title": "우주복에서 섬유-온도를 유지하는 방법은?",
+    "video_desc": "우주 밖에서 입는 선외 우주복이 온도를 유지하는 방법"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v13",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "우리 조상들의 지혜, 석빙고의 온도를 유지하는 방법",
+    "sort_order": 14,
+    "video_url": "https://www.youtube.com/watch?v=z4ghr-6sV74",
+    "video_title": "우리 조상들의 지혜, 석빙고의 온도를 유지하는 방법",
+    "video_desc": "냉장고가 없던 시절 석빙고가 온도를 유지한 과학적 원리"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v14",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "집을 보온병 원리로 지었더니, 1년 내내 에어컨과 보일러가 필요 없게 되었다!",
+    "sort_order": 15,
+    "video_url": "https://www.youtube.com/watch?v=Ykjg_V1hFHg",
+    "video_title": "집을 보온병 원리로 지었더니, 1년 내내 에어컨과 보일러가 필요 없게 되었다!",
+    "video_desc": "보온병 원리로 지어 온도가 일정하게 유지되는 패시브 하우스"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v15",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "난방 속에 숨어 있는 과학적 원리",
+    "sort_order": 16,
+    "video_url": "https://www.youtube.com/watch?v=i9IAsuTZQx4",
+    "video_title": "난방 속에 숨어 있는 과학적 원리",
+    "video_desc": "보일러·온돌·온풍기 등 난방 기구에 숨어 있는 과학적 원리"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v16",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "폭염 속, 어떻게 비닐하우스 속 딸기가 멀쩡할 수 있을까?",
+    "sort_order": 17,
+    "video_url": "https://www.youtube.com/watch?v=ft8EhNAoRnU",
+    "video_title": "폭염 속, 어떻게 비닐하우스 속 딸기가 멀쩡할 수 있을까?",
+    "video_desc": "폭염 속 시설 하우스 내부의 온도를 낮추는 여러 장치"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v17",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "우리 몸이 항상 36.5도를 유지하는 방법은?",
+    "sort_order": 18,
+    "video_url": "https://www.youtube.com/watch?v=X9Mt1xnjkEY",
+    "video_title": "우리 몸이 항상 36.5도를 유지하는 방법은?",
+    "video_desc": "한파와 폭염 속에서도 우리 몸이 36.5도를 유지하는 방법"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v18",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "한여름 자동차 색상별 온도 차이가 있을까?",
+    "sort_order": 19,
+    "video_url": "https://www.youtube.com/watch?v=0dLZLlppz-I",
+    "video_title": "한여름 자동차 색상별 온도 차이가 있을까?",
+    "video_desc": "한여름 흰색·은색·검정색 자동차의 내부 온도 차이"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v19",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "주변 환경과 온도에 따라 색깔이 달라지는 기술",
+    "sort_order": 20,
+    "video_url": "https://www.youtube.com/watch?v=if3gJZEyoyo",
+    "video_title": "주변 환경과 온도에 따라 색깔이 달라지는 기술",
+    "video_desc": "작은 열에도 색이 바뀌어 군용 위장복에 쓰이는 기술"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v20",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "암수 비율 19대 1, 거북이가 멸종 위기종이 된 이유",
+    "sort_order": 21,
+    "video_url": "https://www.youtube.com/watch?v=9cgNkcW4UOQ",
+    "video_title": "암수 비율 19대 1, 거북이가 멸종 위기종이 된 이유",
+    "video_desc": "지구 온난화로 암수 불균형이 심해져 멸종 위기에 놓인 거북이"
+  },
+  {
+    "kit_id": "sc5231",
+    "item_key": "v21",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "지구 온난화로 김장 배추가 사라질 위기라고?",
+    "sort_order": 22,
+    "video_url": "https://www.youtube.com/watch?v=ViwnPhV-S20",
+    "video_title": "지구 온난화로 김장 배추가 사라질 위기라고?",
+    "video_desc": "지구 온난화로 재배지가 줄어 사라질 위기에 놓인 배추"
+  },
+  {
+    "kit_id": "sc5241",
     "item_key": "intro",
     "stage": "단원안내",
     "type": "intro",
@@ -13761,9 +15819,306 @@
     "sort_order": 1,
     "core_idea": "자원은 유한하며, 이를 책임 있게 이용하려는 노력이 지속가능한 미래로 이어진다.",
     "core_question": "유한한 자원에 대한 우리의 선택은 미래와 어떻게 연결될까?",
-    "concepts": "관계; 상호작용; 자원; 에너지; 재생에너지; 지속 가능성; 유한성",
+    "concepts": "관계 ; 상호작용 ; 자원 ; 에너지 ; 재생에너지 ; 지속 가능성 ; 유한성",
     "standard_code": "[6과08-01] ; [6과08-02] ; [6과08-03]",
     "standard_text": "우리가 생활에서 이용하는 다양한 자원을 조사하고, 자원의 유한함을 설명할 수 있다. ; 재생에너지의 종류를 조사하고, 에너지를 지속가능하게 이용하는 방법에 관심을 갖는다. ; 자원과 에너지의 효율적인 이용 방법에 대해 탐색하고, 생활 속에서 실천할 수 있는 다양한 사례를 공유할 수 있다."
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v01",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "우리와 함께하는 생물자원, 이것들의 공통점은 무엇일까요?",
+    "sort_order": 2,
+    "video_url": "https://www.youtube.com/watch?v=O1o65RBMAkY",
+    "video_title": "우리와 함께하는 생물자원, 이것들의 공통점은 무엇일까요?",
+    "video_desc": "딸기 우유·바닐라 아이스크림·머스크 향·립스틱에 담긴 생물 자원"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v02",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "생물 자원은 우리의 힘!",
+    "sort_order": 3,
+    "video_url": "https://www.youtube.com/watch?v=GDUJfjX0ixw",
+    "video_title": "생물 자원은 우리의 힘!",
+    "video_desc": "우리 주변의 자원 가운데 생물 자원의 종류와 쓰임"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v03",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "세계가 뛰어들고 있는 '자원 전쟁'",
+    "sort_order": 4,
+    "video_url": "https://www.youtube.com/watch?v=ZM7cZp_UJFk",
+    "video_title": "세계가 뛰어들고 있는 '자원 전쟁'",
+    "video_desc": "첨단 산업의 필수 자원인 희토류를 둘러싼 국가 간 자원 전쟁"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v04",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "자원의 유한성, 자원 총량제: 만약에 자연 자원이 모두 고갈된다면?",
+    "sort_order": 5,
+    "video_url": "https://www.youtube.com/watch?v=Z7DVs9owj54",
+    "video_title": "자원의 유한성, 자원 총량제: 만약에 자연 자원이 모두 고갈된다면?",
+    "video_desc": "자연 자원이 모두 고갈되었을 때 벌어지는 일"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v05",
+    "stage": "생각열기",
+    "type": "video",
+    "title": "자연자원 고갈, 줄어드는 물과 사라지는 숲",
+    "sort_order": 6,
+    "video_url": "https://www.youtube.com/watch?v=nleitsurNPc",
+    "video_title": "자연자원 고갈, 줄어드는 물과 사라지는 숲",
+    "video_desc": "제주의 생존을 위협하는 물 부족과 숲 감소 등 자연 자원 고갈"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v06",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "어느날 갑자기 석유가 사라진다면?",
+    "sort_order": 7,
+    "video_url": "https://www.youtube.com/watch?v=DKgOUKsvMV8",
+    "video_title": "어느날 갑자기 석유가 사라진다면?",
+    "video_desc": "석유가 사라진 세상과 그 대안이 되는 신재생 에너지"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v07",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "자연이 선사하는 무한한 에너지, 신재생에너지란?",
+    "sort_order": 8,
+    "video_url": "https://www.youtube.com/watch?v=J038yiH6jEc",
+    "video_title": "자연이 선사하는 무한한 에너지, 신재생에너지란?",
+    "video_desc": "환경 문제의 해결책으로 제시되는 신재생 에너지의 뜻"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v08",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "지구를 위한 친환경 에너지 4총사: 풍력, 파력, 태양력, 수소",
+    "sort_order": 9,
+    "video_url": "https://www.youtube.com/watch?v=WlzGRwaCJ2I",
+    "video_title": "지구를 위한 친환경 에너지 4총사: 풍력, 파력, 태양력, 수소",
+    "video_desc": "온실가스를 내뿜지 않는 친환경 에너지 네 가지, 풍력·파력·태양력·수소"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v09",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "친환경 신재생 에너지: 태양광, 풍력, 수력",
+    "sort_order": 10,
+    "video_url": "https://www.youtube.com/watch?v=Of07hQfiFaY",
+    "video_title": "친환경 신재생 에너지: 태양광, 풍력, 수력",
+    "video_desc": "과학 기술로 태양광·풍력·수력에서 에너지를 얻는 방법"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v10",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "자원 고갈 걱정이 없는 깨끗한 에너지, 플라스마",
+    "sort_order": 11,
+    "video_url": "https://www.youtube.com/watch?v=oV6BZhJ3V0s",
+    "video_title": "자원 고갈 걱정이 없는 깨끗한 에너지, 플라스마",
+    "video_desc": "자원 고갈 걱정이 없고 활용도가 높은 차세대 에너지 플라스마"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v11",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "한국에서 만든 155m 초대형 풍력발전기!",
+    "sort_order": 12,
+    "video_url": "https://www.youtube.com/watch?v=1UT2hD3osBs",
+    "video_title": "한국에서 만든 155m 초대형 풍력발전기!",
+    "video_desc": "전북 부안·고창 앞바다에 세운 국내 최대 155m 풍력발전기"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v12",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "태양 에너지를 활용하는 두 가지 방식",
+    "sort_order": 13,
+    "video_url": "https://www.youtube.com/watch?v=XFgzdob_tao",
+    "video_title": "태양 에너지를 활용하는 두 가지 방식",
+    "video_desc": "태양 에너지를 활용하는 두 가지 방식, 태양열과 태양광"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v13",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "지하 열', 친환경 에너지원으로 발굴되었다!",
+    "sort_order": 14,
+    "video_url": "https://www.youtube.com/watch?v=jAq9qnOaFaU",
+    "video_title": "지하 열', 친환경 에너지원으로 발굴되었다!",
+    "video_desc": "땅속 깊은 곳의 열을 에너지원으로 쓰기 위한 지열 사업"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v14",
+    "stage": "탐구하기1",
+    "type": "video",
+    "title": "댐으로 신재생 에너지 '물을 활용하라'",
+    "sort_order": 15,
+    "video_url": "https://www.youtube.com/watch?v=8yyY2nfXhSk",
+    "video_title": "댐으로 신재생 에너지 '물을 활용하라'",
+    "video_desc": "바다가 없는 충청북도가 댐의 물을 재생 에너지원으로 활용하는 방법"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v15",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "수소전기차는 어떻게 도로를 달리는 것일까?",
+    "sort_order": 16,
+    "video_url": "https://www.youtube.com/watch?v=pUQkBOIt0KM",
+    "video_title": "수소전기차는 어떻게 도로를 달리는 것일까?",
+    "video_desc": "세계 최초이자 최고인 우리나라 수소전기차가 달리는 원리"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v16",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "친환경 모빌리티, 수소 전기차",
+    "sort_order": 17,
+    "video_url": "https://www.youtube.com/watch?v=9XN0pBxVR2k",
+    "video_title": "친환경 모빌리티, 수소 전기차",
+    "video_desc": "수소 전기차의 구조와 수소·산소를 결합해 에너지와 물을 만드는 원리"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v17",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "궁극의 친환경 대중교통, 수소버스",
+    "sort_order": 18,
+    "video_url": "https://www.youtube.com/watch?v=N3gYkvFOncc",
+    "video_title": "궁극의 친환경 대중교통, 수소버스",
+    "video_desc": "부산에서 운행 중인 친환경 대중교통 수소버스"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v18",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "소똥으로 전기 만든다... 환경과 에너지를 둘 다 잡는 친환경 기술",
+    "sort_order": 19,
+    "video_url": "https://www.youtube.com/watch?v=pq5a_1J-9gg",
+    "video_title": "소똥으로 전기 만든다... 환경과 에너지를 둘 다 잡는 친환경 기술",
+    "video_desc": "정화가 어려운 소 분뇨로 전기를 만드는 친환경 기술"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v19",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "신재생 에너지로 스마트팜을 운영하는 방법!",
+    "sort_order": 20,
+    "video_url": "https://www.youtube.com/watch?v=OLQ_ykhCIpQ",
+    "video_title": "신재생 에너지로 스마트팜을 운영하는 방법!",
+    "video_desc": "기후 변화와 농촌 일손 부족에 대응해 신재생 에너지로 운영하는 스마트팜"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v20",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "여름 정전 막은 주인공, 바로 태양광 에너지라고?",
+    "sort_order": 21,
+    "video_url": "https://www.youtube.com/watch?v=Tpn3r1hpy9I",
+    "video_title": "여름 정전 막은 주인공, 바로 태양광 에너지라고?",
+    "video_desc": "역대 최다 전력을 쓴 여름에 안정적인 전력 공급을 뒷받침한 태양광 에너지"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v21",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "우리나라가 재생에너지 활용을 잘 못하는 이유",
+    "sort_order": 22,
+    "video_url": "https://www.youtube.com/watch?v=zvtj0JfQxnA",
+    "video_title": "우리나라가 재생에너지 활용을 잘 못하는 이유",
+    "video_desc": "좋은 재생 자원을 갖고도 우리나라가 활용하지 못하는 까닭"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v22",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "한국이 재생 에너지로 전환하지 못하면 생기는 문제점",
+    "sort_order": 23,
+    "video_url": "https://www.youtube.com/watch?v=EU8DGJLhvQ4",
+    "video_title": "한국이 재생 에너지로 전환하지 못하면 생기는 문제점",
+    "video_desc": "세계가 재생 에너지로 빠르게 옮겨 가는 흐름과 우리나라의 현실"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v23",
+    "stage": "탐구하기2",
+    "type": "video",
+    "title": "실질적인 재활용 비율이 16%밖에 되지 않는다고?",
+    "sort_order": 24,
+    "video_url": "https://www.youtube.com/watch?v=IqyKvVqSbgQ",
+    "video_title": "실질적인 재활용 비율이 16%밖에 되지 않는다고?",
+    "video_desc": "폐플라스틱의 실질 재활용 비율이 16%에 그치는 까닭"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v24",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "재생 에너지 증가에 따른 문제점과 도전 과제",
+    "sort_order": 25,
+    "video_url": "https://www.youtube.com/watch?v=LeAh5VUdk64",
+    "video_title": "재생 에너지 증가에 따른 문제점과 도전 과제",
+    "video_desc": "재생 에너지가 늘어나며 드러난 한계점과 도전 과제"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v25",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "풍력발전기 날개가 사라진 이유",
+    "sort_order": 26,
+    "video_url": "https://www.youtube.com/watch?v=z1x_YxXaSxc",
+    "video_title": "풍력발전기 날개가 사라진 이유",
+    "video_desc": "날개 없는 풍력 발전기가 등장한 까닭"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v26",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "손바닥만한 태양광 발전기가 있다고?",
+    "sort_order": 27,
+    "video_url": "https://www.youtube.com/watch?v=ztVKBMtwA-E",
+    "video_title": "손바닥만한 태양광 발전기가 있다고?",
+    "video_desc": "에너지 혁신을 이끌 손바닥만 한 초소형 태양광 발전기"
+  },
+  {
+    "kit_id": "sc5241",
+    "item_key": "v27",
+    "stage": "확장하기",
+    "type": "video",
+    "title": "한국의 '친환경 에너지'가 동남아의 삼림을 파괴하고 있다?!",
+    "sort_order": 28,
+    "video_url": "https://www.youtube.com/watch?v=2aIdnDpj0Ac",
+    "video_title": "한국의 '친환경 에너지'가 동남아의 삼림을 파괴하고 있다?!",
+    "video_desc": "석탄 대체 연료인 바이오매스 생산 과정에서 파괴되는 동남아의 삼림"
   },
   {
     "kit_id": "so6211",
@@ -13773,151 +16128,11 @@
     "title": "1-1. 세계 여러 지역의 지형과 생활 모습",
     "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
-    "core_idea": "지형과 기후 환경은 인간의 생활 방식에 영향을 미치며, 이는 다양한 삶의 모습으로 나타난다.",
-    "core_question": "세계의 다양한 지형과 기후 환경은 사람들의 생활 방식에 어떤 영향을 주는가?",
-    "concepts": "공간과 장소; 상호작용; 지형; 환경; 생활",
+    "core_idea": "지형은 인간의 생활 방식에 영향을 미치며, 이는 다양한 삶의 모습으로 나타난다.",
+    "core_question": "세계의 다양한 지형은 사람들의 생활 방식에 어떤 영향을 주는가?",
+    "concepts": "공간과 장소 ; 상호작용 ; 지형 ; 환경 ; 생활",
     "standard_code": "[6사10-01]",
     "standard_text": "세계의 여러 지역의 지형 경관을 살펴보고, 이를 통해 다양한 삶의 모습을 이해한다."
-  },
-  {
-    "kit_id": "so6212",
-    "item_key": "intro",
-    "stage": "단원안내",
-    "type": "intro",
-    "title": "1-2. 세계의 다양한 기후와 생활 모습",
-    "description": "이 단원에서 무엇을 배울까요",
-    "sort_order": 1,
-    "core_idea": "지형과 기후 환경은 인간의 생활 방식에 영향을 미치며, 이는 다양한 삶의 모습으로 나타난다.",
-    "core_question": "세계의 다양한 지형과 기후 환경은 사람들의 생활 방식에 어떤 영향을 주는가?",
-    "concepts": "공간과 장소; 상호작용; 기후; 환경; 생활",
-    "standard_code": "[6사10-02]",
-    "standard_text": "세계의 다양한 기후를 알아보고 기후 환경과 인간생활 간의 관계를 탐구한다."
-  },
-  {
-    "kit_id": "so6221",
-    "item_key": "intro",
-    "stage": "단원안내",
-    "type": "intro",
-    "title": "2-1. 경제 주체의 역할과 바람직한 경제활동",
-    "description": "이 단원에서 무엇을 배울까요",
-    "sort_order": 1,
-    "core_idea": "시장경제에서 가계와 기업은 권리와 책임을 바탕으로 상호 작용하며, 경제 성장과 무역은 생활 수준 향상과 함께 사회 경제적 과제를 만들어내어 이를 해결하기 위한 노력이 필요하다.",
-    "core_question": "시장경제에서 가계와 기업의 상호 작용은 어떻게 경제 성장과 무역을 이끌고, 어떤 사회 경제적 과제를 만들어내는가?",
-    "concepts": "상호 작용; 체제; 경제활동; 상호의존",
-    "standard_code": "[6사11-01]",
-    "standard_text": "시장경제에서 가계와 기업의 역할을 이해하고, 근로자의 권리와 기업의 자유 및 사회적 책임을 탐색한다."
-  },
-  {
-    "kit_id": "so6222",
-    "item_key": "intro",
-    "stage": "단원안내",
-    "type": "intro",
-    "title": "2-2. 우리나라의 경제성장",
-    "description": "이 단원에서 무엇을 배울까요",
-    "sort_order": 1,
-    "core_idea": "시장경제에서 가계와 기업은 권리와 책임을 바탕으로 상호 작용하며, 경제 성장과 무역은 생활 수준 향상과 함께 사회 경제적 과제를 만들어내어 이를 해결하기 위한 노력이 필요하다.",
-    "core_question": "시장경제에서 가계와 기업의 상호 작용은 어떻게 경제 성장과 무역을 이끌고, 어떤 사회 경제적 과제를 만들어내는가?",
-    "concepts": "상호 작용; 체제; 경제성장; 생활",
-    "standard_code": "[6사11-02]",
-    "standard_text": "경제성장이 우리 생활에 미치는 영향을 파악하고, 빠른 경제성장으로 발생한 문제의 해결방안을 탐색한다."
-  },
-  {
-    "kit_id": "so6223",
-    "item_key": "intro",
-    "stage": "단원안내",
-    "type": "intro",
-    "title": "2-3. 무역과 세계 경제",
-    "description": "이 단원에서 무엇을 배울까요",
-    "sort_order": 1,
-    "core_idea": "시장경제에서 가계와 기업은 권리와 책임을 바탕으로 상호 작용하며, 경제 성장과 무역은 생활 수준 향상과 함께 사회 경제적 과제를 만들어내어 이를 해결하기 위한 노력이 필요하다.",
-    "core_question": "시장경제에서 가계와 기업의 상호 작용은 어떻게 경제 성장과 무역을 이끌고, 어떤 사회 경제적 과제를 만들어내는가?",
-    "concepts": "상호 작용; 체제; 교류; 무역; 생활",
-    "standard_code": "[6사11-03]",
-    "standard_text": "사례를 통해 무역의 의미를 이해하고, 국가 간 무역이 발생하는 이유를 탐구한다."
-  },
-  {
-    "kit_id": "so6231",
-    "item_key": "intro",
-    "stage": "단원안내",
-    "type": "intro",
-    "title": "3-1. 세계의 인구 분포와 여러 국가의 인구 특징",
-    "description": "이 단원에서 무엇을 배울까요",
-    "sort_order": 1,
-    "core_idea": "세계의 인구 분포는 자연적·사회적 요인의 상호 작용에 의해 형성되며, 국가마다 다양한 인구 구조와 특성이 나타난다.",
-    "core_question": "세계 인구 분포와 구조는 어떤 요인의 상호 작용으로 달라지며, 국가별로 어떤 차이가 있는가?",
-    "concepts": "공간과 장소; 인구; 분포",
-    "standard_code": "[6사12-01]",
-    "standard_text": "세계의 인구 분포를 파악하고 여러 국가의 인구 특징을 탐구한다."
-  },
-  {
-    "kit_id": "so6232",
-    "item_key": "intro",
-    "stage": "단원안내",
-    "type": "intro",
-    "title": "3-2. 지구촌의 문제와 해결",
-    "description": "이 단원에서 무엇을 배울까요",
-    "sort_order": 1,
-    "core_idea": "지구촌의 지속가능한 미래는 공동의 문제 인식과 협력을 통해 이루어진다.",
-    "core_question": "지구촌을 위협하는 문제를 어떻게 해결할까?",
-    "concepts": "상호 작용; 공동체; 협력; 평화",
-    "standard_code": "[6사12-02]",
-    "standard_text": "지구촌을 위협하는 다양한 문제들을 파악하고, 지속가능한 미래를 위한 해결 방안을 탐색한다."
-  },
-  {
-    "kit_id": "sc6211",
-    "item_key": "intro",
-    "stage": "단원안내",
-    "type": "intro",
-    "title": "1. 계절의 변화",
-    "description": "이 단원에서 무엇을 배울까요",
-    "sort_order": 1,
-    "core_idea": "지구의 공전 시스템에 따른 태양 고도의 변화는 지구상의 계절을 만들며, 모든 생명의 지속가능한 삶을 규정한다.",
-    "core_question": "태양의 움직임과 지구의 규칙적인 변화는 우리의 생활에 어떤 영향을 줄까?",
-    "concepts": "변화; 시스템; 태양; 고도; 계절; 그림자; 기온; 낮; 밤; 공전",
-    "standard_code": "[6과13-01] ; [6과13-02] ; [6과13-03]",
-    "standard_text": "태양 고도 측정기로 하루 동안 태양 고도, 그림자 길이, 기온을 측정하여 이들의 관계를 찾을 수 있다. ; 계절에 따른 태양의 남중 고도와 낮의 길이 사이의 관계를 자료에 근거하여 추론할 수 있다. ; 계절 변화의 원인을 지구의 자전축이 기울어진 채 공전하는 것으로 설명할 수 있다."
-  },
-  {
-    "kit_id": "sc6212",
-    "item_key": "intro",
-    "stage": "단원안내",
-    "type": "intro",
-    "title": "2. 물질의 연소",
-    "description": "이 단원에서 무엇을 배울까요",
-    "sort_order": 1,
-    "core_idea": "물질의 상태 변화 및 화학 반응에는 에너지 출입이 수반되며, 이는 일상생활에 유용하게 활용된다.",
-    "core_question": "물질이 연소할 때 일어나는 변화와 생성물은 우리 생활을 어떻게 변화시킬까?",
-    "concepts": "성질; 상호 작용; 물질; 연소; 소화; 조건; 생성물",
-    "standard_code": "[6과14-01] ; [6과14-02] ; [6과14-03] ; [6과14-04]",
-    "standard_text": "물질의 성질이 달라지는 변화와 달라지지 않는 변화를 관찰하여 비교할 수 있다. ; 물질이 연소할 때 나타나는 공통적인 현상을 관찰하고, 연소의 조건을 찾을 수 있다. ; 연소 전과 후의 물질을 비교하여 연소 과정에서 물질의 성질이 달라짐을 설명할 수 있다. ; 연소 과정에서 생성되는 물질로 인한 생태계의 피해 사례를 수집하고 분석하여 해결책을 제안하고 공유할 수 있다."
-  },
-  {
-    "kit_id": "sc6213",
-    "item_key": "intro",
-    "stage": "단원안내",
-    "type": "intro",
-    "title": "3. 전기의 이용",
-    "description": "이 단원에서 무엇을 배울까요",
-    "sort_order": 1,
-    "core_idea": "전하와 전류는 다양한 전기와 자기 현상을 일으키고, 전기와 자기에 대한 성질은 여러 가지 전기 기구의 작동 원리로 활용된다.",
-    "core_question": "전기는 어떻게 흐르고, 우리는 그것을 어떻게 활용해야 할까?",
-    "concepts": "시스템; 기능; 전지; 전구; 전선; 전기회로; 전자석; 전기",
-    "standard_code": "[6과15-01] ; [6과15-02] ; [6과15-03] ; [6과15-04]",
-    "standard_text": "전지와 전구, 전선을 연결하여 전구에 불을 켜보고, 불이 켜지는 전기 회로의 특징을 말할 수 있다. ; 전지 한 개를 연결한 전기 회로와 전지 두 개를 직렬연결한 전기 회로의 특징을 비교할 수 있다. ; 전자석을 만들어 전자석의 성질을 탐색하고 전자석이 사용되는 예를 조사할 수 있다. ; 전기를 효율적이고 안전하게 사용하는 방법을 조사하여 실천 계획을 세우고 일상생활에서 실천할 수 있다."
-  },
-  {
-    "kit_id": "sc6214",
-    "item_key": "intro",
-    "stage": "단원안내",
-    "type": "intro",
-    "title": "4. 과학과 나의 진로",
-    "description": "이 단원에서 무엇을 배울까요",
-    "sort_order": 1,
-    "core_idea": "과학기술의 발달은 미래 사회의 모습과 직업에 영향을 미치며, 개인은 이러한 미래 사회의 모습과 새로운 진로를 탐색하며 자신의 삶을 준비한다.",
-    "core_question": "과학기술의 발달로 변화하는 미래 사회에서 나는 어떤 진로를 설계하고 준비할 수 있는가?",
-    "concepts": "기능; 상호작용; 미래사회; 문제; 과학; 진로",
-    "standard_code": "[6과16-01] ; [6과16-02]",
-    "standard_text": "미래 사회에 일어날 수 있는 문제를 조사하고, 문제를 해결하는 데 과학이 기여할 수 있는 방법을 토의할 수 있다. ; 다양한 진로가 과학과 관련됨을 알고, 자신의 진로를 과학과 관련지어 설명할 수 있다."
   },
   {
     "kit_id": "so6211",
@@ -14127,6 +16342,20 @@
     "video_url": "https://www.youtube.com/watch?v=rwBCQirkRBc",
     "video_title": "오버투어리즘이 주민 생활에 미치는 영향과 해결 방안",
     "video_desc": "오버투어리즘과 주민 갈등을 알아보고 관광객 증가에 따른 생활환경 변화를 살펴보며 지속 가능한 관광 정책과 여행 문화를 이해함."
+  },
+  {
+    "kit_id": "so6212",
+    "item_key": "intro",
+    "stage": "단원안내",
+    "type": "intro",
+    "title": "1-2. 세계의 다양한 기후와 생활 모습",
+    "description": "이 단원에서 무엇을 배울까요",
+    "sort_order": 1,
+    "core_idea": "기후 환경은 인간의 생활 방식에 영향을 미치며, 이는 다양한 삶의 모습으로 나타난다.",
+    "core_question": "세계의 다양한 기후 환경은 사람들의 생활 방식에 어떤 영향을 주는가?",
+    "concepts": "공간과 장소 ; 상호작용 ; 기후 ; 환경 ; 생활",
+    "standard_code": "[6사10-02]",
+    "standard_text": "세계의 다양한 기후를 알아보고 기후 환경과 인간생활 간의 관계를 탐구한다."
   },
   {
     "kit_id": "so6212",
@@ -14350,6 +16579,20 @@
   },
   {
     "kit_id": "so6221",
+    "item_key": "intro",
+    "stage": "단원안내",
+    "type": "intro",
+    "title": "2-1. 경제 주체의 역할과 바람직한 경제활동",
+    "description": "이 단원에서 무엇을 배울까요",
+    "sort_order": 1,
+    "core_idea": "시장경제에서 가계와 기업은 권리와 책임을 바탕으로 상호 작용한다.",
+    "core_question": "시장경제에서 가계와 기업은 어떤 관계를 맺는가?",
+    "concepts": "상호 작용 ; 체제 ; 경제활동 ; 상호의존",
+    "standard_code": "[6사11-01]",
+    "standard_text": "시장경제에서 가계와 기업의 역할을 이해하고, 근로자의 권리와 기업의 자유 및 사회적 책임을 탐색한다."
+  },
+  {
+    "kit_id": "so6221",
     "item_key": "v01",
     "stage": "생각열기",
     "type": "video",
@@ -14542,9 +16785,23 @@
     "type": "video",
     "title": "소비자의 가치 소비는 기업의 ESG 경영에 어떤 영향을 미칠까?",
     "sort_order": 19,
-    "video_url": "https://www.youtube.com/live/UAo1or_bHqQ?si=Vhh4gYTtiAk8Hf64%E3%85%8E%E3%85%82",
+    "video_url": "https://www.youtube.com/watch?v=UAo1or_bHqQ",
     "video_title": "소비자의 가치 소비는 기업의 ESG 경영에 어떤 영향을 미칠까?",
     "video_desc": "소비자의 가치 소비 사례를 알아보고 기업의 사회적 책임과 ESG 경영에 미치는 영향을 살펴보며 책임 있는 소비의 중요성을 이해함."
+  },
+  {
+    "kit_id": "so6222",
+    "item_key": "intro",
+    "stage": "단원안내",
+    "type": "intro",
+    "title": "2-2. 우리나라의 경제성장",
+    "description": "이 단원에서 무엇을 배울까요",
+    "sort_order": 1,
+    "core_idea": "경제 성장은 생활 수준의 향상을 가져오며, 그 과정에서 나타나는 사회·경제적 과제를 해결하기 위한 노력이 필요하다.",
+    "core_question": "경제 성장은 삶과 사회를 어떻게 변화시키는가?",
+    "concepts": "상호 작용 ; 체제 ; 경제성장 ; 생활",
+    "standard_code": "[6사11-02]",
+    "standard_text": "경제성장이 우리 생활에 미치는 영향을 파악하고, 빠른 경제성장으로 발생한 문제의 해결방안을 탐색한다."
   },
   {
     "kit_id": "so6222",
@@ -14768,6 +17025,20 @@
   },
   {
     "kit_id": "so6223",
+    "item_key": "intro",
+    "stage": "단원안내",
+    "type": "intro",
+    "title": "2-3. 무역과 세계 경제",
+    "description": "이 단원에서 무엇을 배울까요",
+    "sort_order": 1,
+    "core_idea": "무역은 생활 수준의 향상을 가져오며, 그 과정에서 나타나는 사회·경제적 과제를 해결하기 위한 노력이 필요하다.",
+    "core_question": "무역은 삶과 사회를 어떻게 변화시키는가?",
+    "concepts": "상호 작용 ; 체제 ; 교류 ; 무역 ; 생활",
+    "standard_code": "[6사11-03]",
+    "standard_text": "사례를 통해 무역의 의미를 이해하고, 국가 간 무역이 발생하는 이유를 탐구한다."
+  },
+  {
+    "kit_id": "so6223",
     "item_key": "v01",
     "stage": "생각열기",
     "type": "video",
@@ -14850,6 +17121,7 @@
     "type": "video",
     "title": "국제 경제 교류는 우리 생활에 어떤 영향을 미칠까?",
     "sort_order": 9,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=d1B-agEtdgk",
     "video_title": "국제 경제 교류는 우리 생활에 어떤 영향을 미칠까?",
     "video_desc": "경제 교류의 의미를 알아보고 상품이 생산되어 여러 나라를 거쳐 소비자에게 전달되는 과정을 살펴보며 국제 경제 교류가 우리 생활에 미치는 영향을 이해함."
@@ -14894,6 +17166,7 @@
     "type": "video",
     "title": "무역 분쟁은 어떻게 해결하며 국제기구는 어떤 역할을 할까?",
     "sort_order": 13,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=Gqtu3Zl-PH8",
     "video_title": "무역 분쟁은 어떻게 해결하며 국제기구는 어떤 역할을 할까?",
     "video_desc": "다른 나라와의 경제 교류에서 발생하는 문제를 알아보고 무역 분쟁과 국제기구의 역할을 살펴보며 국제 협력을 통한 문제 해결의 중요성을 이해함."
@@ -14974,6 +17247,20 @@
     "video_url": "https://www.youtube.com/watch?v=AZgtbdHYZ7I",
     "video_title": "아동 노동과 환경 파괴 문제를 해결하기 위한 공정무역의 필요성",
     "video_desc": "아동 노동과 환경 파괴의 원인을 살펴보며 윤리적 소비와 공정무역의 필요성을 이해함."
+  },
+  {
+    "kit_id": "so6231",
+    "item_key": "intro",
+    "stage": "단원안내",
+    "type": "intro",
+    "title": "3-1. 세계의 인구 분포와 여러 국가의 인구 특징",
+    "description": "이 단원에서 무엇을 배울까요",
+    "sort_order": 1,
+    "core_idea": "세계의 인구 분포는 자연적⋅사회적 요인의 상호 작용에 의해 형성되며, 국가마다 다양한 인구 구조와 특성이 나타난다.",
+    "core_question": "세계 인구 분포와 구조는 어떤 요인의 상호 작용하는가?",
+    "concepts": "공간과 장소 ; 인구 ; 분포",
+    "standard_code": "[6사12-01]",
+    "standard_text": "세계의 인구 분포를 파악하고 여러 국가의 인구 특징을 탐구한다."
   },
   {
     "kit_id": "so6231",
@@ -15175,6 +17462,20 @@
   },
   {
     "kit_id": "so6232",
+    "item_key": "intro",
+    "stage": "단원안내",
+    "type": "intro",
+    "title": "3-2. 지구촌의 문제와 해결",
+    "description": "이 단원에서 무엇을 배울까요",
+    "sort_order": 1,
+    "core_idea": "지구촌의 지속가능한 미래는 공동의 문제 인식과 협력을 통해 이루어진다.",
+    "core_question": "지구촌을 위협하는 문제를 어떻게 해결할까?",
+    "concepts": "상호 작용 ; 공동체 ; 협력 ; 평화",
+    "standard_code": "[6사12-02]",
+    "standard_text": "지구촌을 위협하는 다양한 문제들을 파악하고, 지속가능한 미래를 위한 해결 방안을 탐색한다."
+  },
+  {
+    "kit_id": "so6232",
     "item_key": "v01",
     "stage": "생각열기",
     "type": "video",
@@ -15334,6 +17635,7 @@
     "type": "video",
     "title": "세계 평화와 국제 협력을 위한 UN의 역할 알아보기",
     "sort_order": 16,
+    "video_embed": false,
     "video_url": "https://www.youtube.com/watch?v=fekth4nHCE4",
     "video_title": "세계 평화와 국제 협력을 위한 UN의 역할 알아보기",
     "video_desc": "UN은 세계 평화와 국제 협력을 위해 여러 나라가 함께 만든 국제기구로, 다양한 국제 문제 해결을 위해 협력하는 역할을 함을 이해함."
@@ -15392,6 +17694,20 @@
     "video_url": "https://www.youtube.com/watch?v=rDG6omZMTa4",
     "video_title": "인류의 활동이 지구 환경을 변화시키는 인류세란 무엇일까?",
     "video_desc": "인류의 활동이 지구 환경에 큰 영향을 미치면서 자연환경을 변화시키는 새로운 시대라는 관점이 제시되고 있음을 이해함."
+  },
+  {
+    "kit_id": "sc6211",
+    "item_key": "intro",
+    "stage": "단원안내",
+    "type": "intro",
+    "title": "1. 계절의 변화",
+    "description": "이 단원에서 무엇을 배울까요",
+    "sort_order": 1,
+    "core_idea": "지구의 공전 시스템에 따른 태양 고도의 변화는 지구상의 계절을 만들며, 모든 생명의 지속가능한 삶을 규정한다.",
+    "core_question": "태양의 움직임과 지구의 규칙적인 변화는 우리의 생활에 어떤 영향을 줄까?",
+    "concepts": "변화 ; 시스템 ; 태양 ; 고도 ; 계절 ; 그림자 ; 기온 ; 낮 ; 밤 ; 공전",
+    "standard_code": "[6과13-01] ; [6과13-02] ; [6과13-03]",
+    "standard_text": "태양 고도 측정기로 하루 동안 태양 고도, 그림자 길이, 기온을 측정하여 이들의 관계를 찾을 수 있다. ; 계절에 따른 태양의 남중 고도와 낮의 길이 사이의 관계를 자료에 근거하여 추론할 수 있다. ; 계절 변화의 원인을 지구의 자전축이 기울어진 채 공전하는 것으로 설명할 수 있다."
   },
   {
     "kit_id": "sc6211",
@@ -15592,7 +17908,21 @@
     "video_desc": "해가 지거나 뜨지 않는 현상을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
+    "item_key": "intro",
+    "stage": "단원안내",
+    "type": "intro",
+    "title": "2. 물질의 연소",
+    "description": "이 단원에서 무엇을 배울까요",
+    "sort_order": 1,
+    "core_idea": "물질의 상태 변화 및 화학 반응에는 에너지 출입이 수반되며, 이는 일상생활에 유용하게 활용된다.",
+    "core_question": "물질이 연소할 때 일어나는 변화와 생성물은 우리 생활을 어떻게 변화시킬까?",
+    "concepts": "성질 ; 상호 작용 ; 물질 ; 연소 ; 소화 ; 조건 ; 생성물",
+    "standard_code": "[6과14-01] ; [6과14-02] ; [6과14-03] ; [6과14-04]",
+    "standard_text": "물질의 성질이 달라지는 변화와 달라지지 않는 변화를 관찰하여 비교할 수 있다. ; 물질이 연소할 때 나타나는 공통적인 현상을 관찰하고, 연소의 조건을 찾을 수 있다. ; 연소 전과 후의 물질을 비교하여 연소 과정에서 물질의 성질이 달라짐을 설명할 수 있다. ; 연소 과정에서 생성되는 물질로 인한 생태계의 피해 사례를 수집하고 분석하여 해결책을 제안하고 공유할 수 있다."
+  },
+  {
+    "kit_id": "sc6221",
     "item_key": "v01",
     "stage": "생각열기",
     "type": "video",
@@ -15603,7 +17933,7 @@
     "video_desc": "불의 과학적 정의와 물질의 상태에 대한 오해를 풀어주는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v02",
     "stage": "생각열기",
     "type": "video",
@@ -15614,7 +17944,7 @@
     "video_desc": "식초와 베이킹파우더의 반응을 통한 로켓 발사 원리를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v03",
     "stage": "탐구하기1",
     "type": "video",
@@ -15625,7 +17955,7 @@
     "video_desc": "성냥 연소 과정을 통해 물질이 타며 빛과 열을 내는 연소 현상을 관찰하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v04",
     "stage": "탐구하기1",
     "type": "video",
@@ -15636,7 +17966,7 @@
     "video_desc": "실험을 통해 물질이 연소하기 위한 3가지 필수 요소를 확인하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v05",
     "stage": "탐구하기1",
     "type": "video",
@@ -15647,7 +17977,7 @@
     "video_desc": "정글의 법칙 속 불 피우기 과정을 통해 연소 조건을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v06",
     "stage": "탐구하기1",
     "type": "video",
@@ -15658,7 +17988,7 @@
     "video_desc": "고운 밀가루가 촛불을 만나 순간적으로 폭발하는 현상을 관찰하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v07",
     "stage": "탐구하기1",
     "type": "video",
@@ -15669,7 +17999,7 @@
     "video_desc": "입김으로 공기를 이동시켜 연소의 조건을 없애 촛불을 끄는 방법을 알아보는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v08",
     "stage": "탐구하기1",
     "type": "video",
@@ -15680,7 +18010,7 @@
     "video_desc": "화재 종류에 따른 올바른 초기 진화 방법을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v09",
     "stage": "탐구하기2",
     "type": "video",
@@ -15691,29 +18021,29 @@
     "video_desc": "연소 후 발생하는 물질을 두 가지 실험으로 확인하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v10",
     "stage": "탐구하기2",
     "type": "video",
-    "title": "연소 후 생기는 물질 확인하기-염화코발트종이",
+    "title": "연소 후 생기는 물질 확인하기 - 염화코발트종이",
     "sort_order": 11,
     "video_url": "https://www.youtube.com/watch?v=kunw3nk-eo0",
-    "video_title": "연소 후 생기는 물질 확인하기-염화코발트종이",
+    "video_title": "연소 후 생기는 물질 확인하기 - 염화코발트종이",
     "video_desc": "물질이 타고난 후 염화코발트종이의 변화를 관찰하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v11",
     "stage": "탐구하기2",
     "type": "video",
-    "title": "연소 후 생기는 물질 확인하기-석회수",
+    "title": "연소 후 생기는 물질 확인하기 - 석회수",
     "sort_order": 12,
     "video_url": "https://www.youtube.com/watch?v=_FL2ULVRCXY",
-    "video_title": "연소 후 생기는 물질 확인하기-석회수",
+    "video_title": "연소 후 생기는 물질 확인하기 - 석회수",
     "video_desc": "물질이 타고난 후 석회수의 변화를 관찰하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v12",
     "stage": "탐구하기2",
     "type": "video",
@@ -15724,7 +18054,7 @@
     "video_desc": "지구온난화의 원인인 탄소의 개념과 탄소중립의 의미를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v13",
     "stage": "탐구하기2",
     "type": "video",
@@ -15735,7 +18065,7 @@
     "video_desc": "이산화탄소 유입으로 인한 바다 사막화 현상과 생태계 영향을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v14",
     "stage": "탐구하기2",
     "type": "video",
@@ -15746,7 +18076,7 @@
     "video_desc": "지구 온난화로 인해 멸종 위기에 처한 지리산 구상나무의 집단 고사 원인을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v15",
     "stage": "탐구하기2",
     "type": "video",
@@ -15757,7 +18087,7 @@
     "video_desc": "멕시코 바닷속 가스관 파손으로 발생한 해상 화재 원인을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v16",
     "stage": "탐구하기2",
     "type": "video",
@@ -15768,7 +18098,7 @@
     "video_desc": "에너지 대사 과정에서 발생하는 활성산소가 인체에 미치는 영향을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v17",
     "stage": "확장하기",
     "type": "video",
@@ -15779,7 +18109,7 @@
     "video_desc": "자동차 배기가스 재순환 장치의 원리와 환경 오염 저감 효과를 알아보는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v18",
     "stage": "확장하기",
     "type": "video",
@@ -15790,7 +18120,7 @@
     "video_desc": "대기오염 물질을 줄이고 이산화탄소를 재활용하는 친환경 연소 기술을 소개하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v19",
     "stage": "확장하기",
     "type": "video",
@@ -15801,7 +18131,7 @@
     "video_desc": "이산화탄소를 포집하여 유용한 자원으로 재활용하는 기술을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6212",
+    "kit_id": "sc6221",
     "item_key": "v20",
     "stage": "확장하기",
     "type": "video",
@@ -15812,7 +18142,21 @@
     "video_desc": "이산화탄소를 땅속에 저장하는 탄소 포집 기술을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
+    "item_key": "intro",
+    "stage": "단원안내",
+    "type": "intro",
+    "title": "3. 전기의 이용",
+    "description": "이 단원에서 무엇을 배울까요",
+    "sort_order": 1,
+    "core_idea": "전하와 전류는 다양한 전기와 자기 현상을 일으키고, 전기와 자기에 대한 성질은 여러 가지 전기 기구의 작동 원리로 활용된다.",
+    "core_question": "전기는 어떻게 흐르고, 우리는 그것을 어떻게 활용해야 할까?",
+    "concepts": "시스템 ; 기능 ; 전지 ; 전구 ; 전선 ; 전기회로 ; 전자석 ; 전기",
+    "standard_code": "[6과15-01] ; [6과15-02] ; [6과15-03] ; [6과15-04]",
+    "standard_text": "전지와 전구, 전선을 연결하여 전구에 불을 켜보고, 불이 켜지는 전기 회로의 특징을 말할 수 있다. ; 전지 한 개를 연결한 전기 회로와 전지 두 개를 직렬연결한 전기 회로의 특징을 비교할 수 있다. ; 전자석을 만들어 전자석의 성질을 탐색하고 전자석이 사용되는 예를 조사할 수 있다. ; 전기를 효율적이고 안전하게 사용하는 방법을 조사하여 실천 계획을 세우고 일상생활에서 실천할 수 있다."
+  },
+  {
+    "kit_id": "sc6231",
     "item_key": "v01",
     "stage": "생각열기",
     "type": "video",
@@ -15823,7 +18167,7 @@
     "video_desc": "전기의 역사적 발견 과정과 기본적인 전기적 원리를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v02",
     "stage": "생각열기",
     "type": "video",
@@ -15834,7 +18178,7 @@
     "video_desc": "신기한 실험을 통해 전기의 기초 원리와 과학의 의미를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v03",
     "stage": "생각열기",
     "type": "video",
@@ -15845,7 +18189,7 @@
     "video_desc": "우연히 발견된 전기의 원리와 실용화 과정을 통해 현대 문명의 발전사를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v04",
     "stage": "생각열기",
     "type": "video",
@@ -15856,7 +18200,7 @@
     "video_desc": "탈레스의 정전기 발견과 초기 정전기 발생 장치의 역사를 알아보는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v05",
     "stage": "탐구하기1",
     "type": "video",
@@ -15867,7 +18211,7 @@
     "video_desc": "전기 회로를 연결해 전구에 불이 켜지는 조건을 알아보는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v06",
     "stage": "탐구하기1",
     "type": "video",
@@ -15878,7 +18222,7 @@
     "video_desc": "전기 회로를 구성하여 전구에 불을 켜는 방법을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v07",
     "stage": "탐구하기1",
     "type": "video",
@@ -15889,7 +18233,7 @@
     "video_desc": "전기 회로의 구성 요소와 전류의 흐름 및 작동 원리를 노래로 학습하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v08",
     "stage": "탐구하기1",
     "type": "video",
@@ -15900,7 +18244,7 @@
     "video_desc": "전구의 직렬 및 병렬 연결 방법에 따른 밝기 차이를 비교하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v09",
     "stage": "탐구하기1",
     "type": "video",
@@ -15911,7 +18255,7 @@
     "video_desc": "전구의 직렬 연결과 병렬 연결 차이를 실험으로 비교 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v10",
     "stage": "탐구하기1",
     "type": "video",
@@ -15922,7 +18266,7 @@
     "video_desc": "전구 연결 방법에 따른 밝기 변화를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v11",
     "stage": "탐구하기1",
     "type": "video",
@@ -15933,7 +18277,7 @@
     "video_desc": "전지의 직렬과 병렬 연결에 따른 전구 밝기 변화를 학습하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v12",
     "stage": "탐구하기1",
     "type": "video",
@@ -15944,7 +18288,7 @@
     "video_desc": "전구와 전지의 구조를 이해하고 회로를 연결해 불을 밝히는 방법을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v13",
     "stage": "탐구하기1",
     "type": "video",
@@ -15955,7 +18299,7 @@
     "video_desc": "전등의 발명 역사와 발전 과정을 이해하고 전구의 원리를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v14",
     "stage": "탐구하기2",
     "type": "video",
@@ -15966,7 +18310,7 @@
     "video_desc": "전류가 흐르는 전선 주위에서 나침반 바늘의 움직임을 관찰하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v15",
     "stage": "탐구하기2",
     "type": "video",
@@ -15977,7 +18321,7 @@
     "video_desc": "전류의 흐름에 따라 자력을 조절하는 전자석의 원리와 활용 방법을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v16",
     "stage": "탐구하기2",
     "type": "video",
@@ -15988,7 +18332,7 @@
     "video_desc": "전자석과 영구자석의 성질 차이를 비교하고 생활 속 활용을 탐색하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v17",
     "stage": "탐구하기2",
     "type": "video",
@@ -15999,7 +18343,7 @@
     "video_desc": "전자석과 영구자석의 차이점 비교 및 생활 속 전자석 활용을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v18",
     "stage": "탐구하기2",
     "type": "video",
@@ -16010,7 +18354,7 @@
     "video_desc": "전자석의 자기력과 중력의 균형을 이용한 지구본 공중부양 원리를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v19",
     "stage": "탐구하기2",
     "type": "video",
@@ -16021,7 +18365,7 @@
     "video_desc": "자기부상열차의 작동 원리와 전자석의 활용 사례를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v20",
     "stage": "탐구하기2",
     "type": "video",
@@ -16032,7 +18376,7 @@
     "video_desc": "전류를 이용해 고철을 운반하는 전자석의 원리와 활용 사례를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v21",
     "stage": "탐구하기2",
     "type": "video",
@@ -16043,7 +18387,7 @@
     "video_desc": "전자석의 원리를 이해하고 간이 스피커를 만들어 소리 발생 원리를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v22",
     "stage": "탐구하기2",
     "type": "video",
@@ -16054,7 +18398,7 @@
     "video_desc": "구리와 자석을 이용한 자기장 기차의 원리 실험을 알아보는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v23",
     "stage": "확장하기",
     "type": "video",
@@ -16065,7 +18409,7 @@
     "video_desc": "대기전력의 개념을 이해하고 일상 속 전기 절약 실천 방법을 확인하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v24",
     "stage": "확장하기",
     "type": "video",
@@ -16076,7 +18420,7 @@
     "video_desc": "생활 속 전기 사고 예방을 위한 안전 행동 요령을 익히는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6213",
+    "kit_id": "sc6231",
     "item_key": "v25",
     "stage": "확장하기",
     "type": "video",
@@ -16087,7 +18431,21 @@
     "video_desc": "펭수와 함께 알아보는 일상 속 전기 사고 예방 및 대처 방법을 알아보는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
+    "item_key": "intro",
+    "stage": "단원안내",
+    "type": "intro",
+    "title": "4. 과학과 나의 진로",
+    "description": "이 단원에서 무엇을 배울까요",
+    "sort_order": 1,
+    "core_idea": "과학기술의 발달은 미래 사회의 모습과 직업에 영향을 미치며, 개인은 이러한 미래 사회의 모습과 새로운 진로를 탐색하며 자신의 삶을 준비한다.",
+    "core_question": "과학기술의 발달로 변화하는 미래 사회에서 나는 어떤 진로를 설계하고 준비할 수 있는가?",
+    "concepts": "기능 ; 상호작용 ; 미래사회 ; 문제 ; 과학 ; 진로",
+    "standard_code": "[6과16-01] ; [6과16-02]",
+    "standard_text": "미래 사회에 일어날 수 있는 문제를 조사하고, 문제를 해결하는 데 과학이 기여할 수 있는 방법을 토의할 수 있다. ; 다양한 진로가 과학과 관련됨을 알고, 자신의 진로를 과학과 관련지어 설명할 수 있다."
+  },
+  {
+    "kit_id": "sc6241",
     "item_key": "v01",
     "stage": "생각열기",
     "type": "video",
@@ -16098,7 +18456,7 @@
     "video_desc": "생활 속 다양한 분야에 활용되는 AI 로봇의 발전 모습을 확인하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v02",
     "stage": "생각열기",
     "type": "video",
@@ -16109,7 +18467,7 @@
     "video_desc": "AI 기술 발전에 따라 사라질 가능성이 높은 직업군을 분석하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v03",
     "stage": "생각열기",
     "type": "video",
@@ -16120,18 +18478,18 @@
     "video_desc": "첨단 기술로 인해 모든 일상이 통합되는 미래 주거 공간의 모습을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v04",
     "stage": "생각열기",
     "type": "video",
-    "title": "6G부터 AI로봇까지, 디지털 기술로 그려낸 미래",
+    "title": "2050년의 미래기술",
     "sort_order": 5,
-    "video_url": "https://www.youtube.com/watch?v=jQRHPNTI4I0",
-    "video_title": "6G부터 AI로봇까지, 디지털 기술로 그려낸 미래",
-    "video_desc": "6G와 AI로봇 등 우리 삶을 변화시킬 최신 디지털 기술을 알아보는 데 도움을 주는 영상임."
+    "video_url": "https://www.youtube.com/watch?v=YYbcrGmYvfM",
+    "video_title": "2050년의 미래기술",
+    "video_desc": "2050년에 실현될 놀라운 50가지 미래기술을 소개하는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v05",
     "stage": "탐구하기1",
     "type": "video",
@@ -16142,7 +18500,7 @@
     "video_desc": "MIT 컴퓨터 프로그램이 예측한 인류의 미래와 기후 위기 경고를 알아보는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v06",
     "stage": "탐구하기1",
     "type": "video",
@@ -16153,7 +18511,7 @@
     "video_desc": "인공지능이 일상화된 2045년 미래 학교의 모습과 지식의 본질을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v07",
     "stage": "탐구하기1",
     "type": "video",
@@ -16164,7 +18522,7 @@
     "video_desc": "인구 감소와 초고령화가 초래할 사회적 문제를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v08",
     "stage": "탐구하기1",
     "type": "video",
@@ -16175,7 +18533,7 @@
     "video_desc": "생성형 AI 기술 발전으로 급증하는 신종 범죄 현황과 대응의 어려움을 파악하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v09",
     "stage": "탐구하기1",
     "type": "video",
@@ -16186,7 +18544,7 @@
     "video_desc": "헌옷수거함에 버린 옷이 해외로 수출된 후 발생하는 환경 문제를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v10",
     "stage": "탐구하기2",
     "type": "video",
@@ -16197,7 +18555,7 @@
     "video_desc": "관광업계의 인력난 해소를 위한 배달 로봇 활용 사례를 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v11",
     "stage": "탐구하기2",
     "type": "video",
@@ -16208,7 +18566,7 @@
     "video_desc": "인공지능 기술로 범죄 징후를 사전 감지하고 예측하는 CCTV 시스템을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v12",
     "stage": "탐구하기2",
     "type": "video",
@@ -16219,7 +18577,7 @@
     "video_desc": "재난 현장에서 활용되는 AI 로봇과 첨단 소방 장비를 소개하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v13",
     "stage": "탐구하기2",
     "type": "video",
@@ -16230,7 +18588,7 @@
     "video_desc": "뱀의 움직임과 비늘 특성을 모방해 재난 현장에 활용하는 로봇 기술을 알아보는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v14",
     "stage": "탐구하기2",
     "type": "video",
@@ -16241,7 +18599,7 @@
     "video_desc": "수중 로봇을 활용한 신속한 익수자 수색 및 구조 현장을 살펴보는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v15",
     "stage": "탐구하기2",
     "type": "video",
@@ -16252,7 +18610,7 @@
     "video_desc": "폐플라스틱을 연료로 변환하는 친환경 열분해 기술을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v16",
     "stage": "탐구하기2",
     "type": "video",
@@ -16263,7 +18621,7 @@
     "video_desc": "자연 부산물을 활용해 성능과 내구성을 갖춘 친환경 바이오 플라스틱 제조 기술을 탐구하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v17",
     "stage": "탐구하기2",
     "type": "video",
@@ -16274,7 +18632,7 @@
     "video_desc": "이산화탄소를 고체 광물로 빠르게 바꾸는 세계 최초 탄소 정제소를 알아보는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v18",
     "stage": "확장하기",
     "type": "video",
@@ -16285,7 +18643,7 @@
     "video_desc": "과학 기술 발달에 따른 10년 후 미래 유망 직업을 소개하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v19",
     "stage": "확장하기",
     "type": "video",
@@ -16296,7 +18654,7 @@
     "video_desc": "사연을 통해 과학 발달로 변화할 미래 직업을 상상하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v20",
     "stage": "확장하기",
     "type": "video",
@@ -16307,7 +18665,7 @@
     "video_desc": "과학 기술의 발달로 새롭게 등장할 미래의 다양한 직업군을 탐색하는 데 도움을 주는 영상임."
   },
   {
-    "kit_id": "sc6214",
+    "kit_id": "sc6241",
     "item_key": "v21",
     "stage": "확장하기",
     "type": "video",
