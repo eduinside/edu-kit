@@ -27,8 +27,20 @@ var VC = {
   urlCol: 'video_url',
   batchSize: 50,      // videos.list 의 id 최대 개수
   region: 'KR',       // 지역 차단 판정 기준
-  badBg: '#fce8e6',   // 문제 셀 배경(연한 빨강)
-  warnBg: '#fff3cd',  // 점검 실패 셀 배경(연한 노랑)
+  // 판정별 셀 배경색.
+  //   붉은 계열 = 교체 외에 방법이 없음(링크로도 못 보거나 학생에게 부적합)
+  //   노란 계열 = video_embed=FALSE 폴백으로 살릴 수 있음
+  //   회색      = 입력·도구 문제(콘텐츠 문제 아님)
+  bgByVerdict: {
+    '삭제·비공개': '#f4c7c3',  // 진한 빨강 — 영상이 사라짐
+    '비공개': '#f4c7c3',
+    '연령제한': '#fad2cf',     // 연한 빨강 — 살아 있지만 학생 재생 불가
+    '국내차단': '#fad2cf',
+    '임베드차단': '#fff2cc',   // 노랑 — 폴백 가능
+    'URL오류': '#e8eaed',      // 회색 — 시트 입력 문제
+    '점검실패': '#e8eaed',     // 회색 — API 키·쿼터 문제
+  },
+  fallbackBg: '#fce8e6',       // 위 표에 없는 판정이 생기면 쓰는 기본색
 };
 
 /** 버튼/메뉴에 연결되는 진입점. */
@@ -223,7 +235,7 @@ function paintItemsColumn_(results) {
     if (r.verdict === '정상') return;
     var i = r.row - 2;
     if (i < 0 || i >= n) return;
-    bg[i] = [r.verdict === '점검실패' ? VC.warnBg : VC.badBg];
+    bg[i] = [VC.bgByVerdict[r.verdict] || VC.fallbackBg];
     notes[i] = ['[' + stamp + ' 영상 점검] ' + r.verdict + '\n' + r.detail];
   });
 
