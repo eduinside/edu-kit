@@ -60,6 +60,7 @@ const ItemSchema = z.object({
   start_sec: z.number().int().nonnegative().optional(),
   end_sec: z.number().int().nonnegative().optional(),
   video_license: z.string().optional(),
+  video_embed: z.literal(false).optional(),
   caption: z.string().optional(),
   image_url: z.string().url().optional(),
   image_label: z.string().optional(),
@@ -202,6 +203,13 @@ function buildItems(kits: Kit[]): Item[] {
       if (!vid) { warn(`items[${idx}] (${r.item_key}): 영상 URL 없음 → 건너뜀`); return null; }
       base.video_id = vid;
       if (isFlow && !base.description && base.video_title) base.description = base.video_title;
+
+      // 임베드 차단 영상(시트 video_embed=FALSE): false일 때만 키를 남긴다.
+      // 기본(빈 칸·TRUE)은 키 자체를 빼서 JSON을 가볍게 유지 — 뷰어는 !== false 를 정상으로 본다.
+      delete base.video_embed;
+      const embedCell = r.video_embed;
+      const embedFilled = embedCell !== undefined && embedCell !== null && String(embedCell).trim() !== "";
+      if (embedFilled && !toBool(embedCell)) base.video_embed = false;
     }
 
     // 본문: 마크다운 → HTML → 새니타이즈. body 없으면 건너뜀

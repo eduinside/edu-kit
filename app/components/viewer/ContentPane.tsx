@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Play, Image as ImageIcon, ChevronDown } from "lucide-react";
+import { Play, Image as ImageIcon, ChevronDown, ExternalLink } from "lucide-react";
 import type { Item, Stage } from "../../lib/data.ts";
 import { stageColor } from "../../lib/design.ts";
 import { hi } from "../Hi.tsx";
@@ -116,6 +116,9 @@ function ConceptTerms({ concepts, defs, hl }: { concepts: string[]; defs?: { ter
 // 스크롤 영역 좌우로 꽉 차는 검은 밴드. 너무 길어지면 높이 78vh로 캡(좌우 검은 여백).
 export function VideoPlayer({ it }: { it: Item }) {
   const [playing, setPlaying] = useState(false);
+  // 업로더가 외부 삽입을 막은 영상 — iframe을 띄우면 학생에게 검은 오류 화면이 뜬다.
+  // 재생 대신 안내 카드 + 유튜브 새 탭 링크(선생님이 열어 보여주는 용도).
+  if (it.video_embed === false) return <VideoBlocked it={it} />;
   let src = `https://www.youtube-nocookie.com/embed/${it.video_id}?rel=0&modestbranding=1&autoplay=1`;
   if (it.start_sec) src += `&start=${it.start_sec}`;
   if (it.end_sec) src += `&end=${it.end_sec}`;
@@ -137,6 +140,33 @@ export function VideoPlayer({ it }: { it: Item }) {
             </span>
           </button>
         )}
+      </div>
+    </div>
+  );
+}
+
+// 임베드 차단 영상 폴백 — 재생 버튼 대신 안내 + 유튜브 새 탭 링크.
+// 플레이어와 같은 검은 밴드/16:9를 유지해 레이아웃이 흔들리지 않는다.
+function VideoBlocked({ it }: { it: Item }) {
+  let href = `https://www.youtube.com/watch?v=${it.video_id}`;
+  if (it.start_sec) href += `&t=${it.start_sec}`;
+  return (
+    <div style={{ width: "100%", background: "#000", display: "flex", justifyContent: "center" }}>
+      <div style={{ position: "relative", width: "100%", maxWidth: "calc(68vh * 16 / 9)", aspectRatio: "16 / 9" }}>
+        <img src={`https://i.ytimg.com/vi/${it.video_id}/hqdefault.jpg`} alt="" loading="lazy" decoding="async"
+          style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", filter: "blur(3px) brightness(.45)" }} />
+        <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 10, padding: "0 20px", textAlign: "center", color: "#fff" }}>
+          <ExternalLink size={34} strokeWidth={1.6} style={{ opacity: 0.9 }} aria-hidden />
+          <div style={{ fontSize: 17, fontWeight: 800, letterSpacing: "-.01em" }}>여기서는 바로 재생할 수 없는 영상이에요</div>
+          <div style={{ fontSize: 13, fontWeight: 500, lineHeight: 1.6, opacity: 0.85, maxWidth: 420 }}>
+            영상을 올린 곳에서 다른 사이트 재생을 막아 두었어요. 선생님이 유튜브에서 열어 주세요.
+          </div>
+          <a href={href} target="_blank" rel="noopener noreferrer"
+            style={{ marginTop: 4, display: "inline-flex", alignItems: "center", gap: 7, padding: "10px 18px", borderRadius: 999, background: "rgba(220,38,38,.95)", color: "#fff", fontSize: 14, fontWeight: 700, textDecoration: "none", boxShadow: "0 6px 20px rgba(0,0,0,.35)" }}>
+            <Play size={16} fill="#fff" color="#fff" aria-hidden />
+            유튜브에서 열기
+          </a>
+        </div>
       </div>
     </div>
   );

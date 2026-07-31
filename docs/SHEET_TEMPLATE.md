@@ -49,11 +49,17 @@
 > **핵심 용어 설명(`concept_desc`)**: `concepts`의 각 용어를 탭하면 뜨는 한 줄 설명. `concepts`와 **같은 순서**로 ` ; `(세미콜론) 구분해 적는다(빌드가 index로 짝지음). 설명을 비워 둔 용어는 칩이 탭되지 않는다(설명 채워진 용어부터 점진 적용 가능).
 > 예) `concepts` = `무게 ; 수평 잡기 ; 저울` , `concept_desc` = `물체의 무거운 정도. ; 양쪽이 균형을 이뤄 기울지 않는 상태. ; 무게를 재는 도구.`
 > (설명은 초등 눈높이로 **1~2문장**. 본문에 세미콜론 금지 — 구분자.)
-| `video` | `video_url`(전체 유튜브 URL), `start_sec`, `end_sec`, `video_title`, `video_desc`, `video_license`, `caption` |
+| `video` | `video_url`(전체 유튜브 URL), `start_sec`, `end_sec`, `video_title`, `video_desc`, `video_license`, `video_embed`*, `caption` |
 | `image` | `image_url`(R2 업로드 URL), `image_label`, `image_sub`, `image_source`*, `image_license`*, `caption` |
 | `text` | `body`(아래 마크다운) |
 
 \* 이미지·영상의 출처/라이선스 미입력 시 빌드 경고(공공 저작권 보호).
+
+> **`video_embed`(선택)** — 비워 두면 정상(임베드 가능). **`FALSE`를 적으면** 뷰어가 재생 버튼 대신
+> *"여기서는 바로 재생할 수 없는 영상이에요"* 안내 카드와 **유튜브에서 열기** 링크를 보여준다.
+> **임베드 차단(업로더가 외부 삽입을 막은 영상)에만** 쓴다 — [영상 점검](SHEET_SETUP.md#6-영상-점검-임베드-가능-여부) 판정이 `임베드차단`인 행.
+> 삭제·비공개·연령제한·국내차단은 링크로도 못 보거나 학생에게 부적합하므로 **다른 영상으로 교체**해야 한다.
+> 학생이 유튜브 사이트로 나가면 추천 영상·댓글에 노출되므로, **대체 영상이 있으면 교체가 우선**이고 이 컬럼은 대체 불가한 자료용 안전망이다.
 
 ### 흐름형(`flow`) 입력 요령
 흐름형 항목은 모두 `type=video`. `title`에 **핵심 용어**, `video_title`에 **영상 제목**, `video_desc`에 **영상 설명**을 넣는다.

@@ -62,6 +62,9 @@ export interface Item {
   start_sec?: number;
   end_sec?: number;
   video_license?: string;
+  /** 시트 video_embed=FALSE 일 때만 false로 실림(기본은 키 없음=임베드 가능).
+   *  업로더가 외부 삽입을 막은 영상 → 뷰어가 재생 대신 '유튜브에서 열기' 카드를 보여준다. */
+  video_embed?: false;
 
   // video/image 공용
   caption?: string;

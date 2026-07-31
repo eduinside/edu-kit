@@ -165,7 +165,7 @@ function judge_(t, info) {
   if (st.uploadStatus === 'rejected' || st.uploadStatus === 'deleted') {
     return ext_(base, '삭제·비공개', 'uploadStatus=' + st.uploadStatus);
   }
-  if (st.embeddable === false) return ext_(base, '임베드차단', '업로더가 외부 사이트 삽입을 막았습니다. 링크로만 열 수 있습니다.');
+  if (st.embeddable === false) return ext_(base, '임베드차단', '업로더가 외부 사이트 삽입을 막았습니다. 대체 영상으로 교체하거나, 불가하면 items 탭 video_embed 칸에 FALSE 입력(뷰어가 유튜브 링크 카드로 대체).');
   if (cd.contentRating && cd.contentRating.ytRating === 'ytAgeRestricted') {
     return ext_(base, '연령제한', '연령 제한 영상 — 삽입 재생이 되지 않습니다(로그인 요구). 학생용으로 부적합.');
   }
