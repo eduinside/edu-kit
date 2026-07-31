@@ -6,7 +6,7 @@
 
 **라이브**: https://kit.dgedu.link · 현재 81 꾸러미(공개 59) · 에듀나비 연계 콘텐츠.
 
-- 편집팀 저작 가이드: [docs/SHEET_TEMPLATE.md](docs/SHEET_TEMPLATE.md) · 시트 세팅: [docs/SHEET_SETUP.md](docs/SHEET_SETUP.md)
+- 편집팀 저작 가이드: [docs/SHEET_TEMPLATE.md](docs/SHEET_TEMPLATE.md) · 협업 결과물 병합: [docs/CONTENT_BATCH_GENERATION.md](docs/CONTENT_BATCH_GENERATION.md) · 시트 세팅: [docs/SHEET_SETUP.md](docs/SHEET_SETUP.md)
 - 배포: [docs/DEPLOY.md](docs/DEPLOY.md) · 용어 설명·OX 퀴즈 설계: [docs/FEATURE_PLAN_terms-quiz.md](docs/FEATURE_PLAN_terms-quiz.md) · 최초 설계(역사): [docs/IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md)
 
 ## 아키텍처
