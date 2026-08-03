@@ -4790,11 +4790,11 @@
     "item_key": "v3",
     "stage": "주민자치",
     "type": "video",
-    "title": "주민자치회에는 어떤 역할을 할까?",
+    "title": "주민자치회는 어떤 역할을 할까?",
     "description": "수업 중",
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=-AF13UPPf3k",
-    "video_title": "주민자치회에는 어떤 역할을 할까?",
+    "video_title": "주민자치회는 어떤 역할을 할까?",
     "video_desc": "지역 주민들의 스스로 해결할 수 있도록 주민들의 권한을 강화시켜주는 주민자치회"
   },
   {
@@ -4925,11 +4925,11 @@
     "item_key": "v1",
     "stage": "지역문제",
     "type": "video",
-    "title": "우리 사회엔 어떤 지역 문제들이 있을까? / 주차난",
+    "title": "우리 사회에는 어떤 지역 문제들이 있을까? / 주차난",
     "description": "수업 중",
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=D8eWpnGgU0U",
-    "video_title": "우리 사회엔 어떤 지역 문제들이 있을까? / 주차난",
+    "video_title": "우리 사회에는 어떤 지역 문제들이 있을까? / 주차난",
     "video_desc": "강릉시 도심 주차 공간 부족 문제"
   },
   {
@@ -4937,11 +4937,11 @@
     "item_key": "v2",
     "stage": "지역문제",
     "type": "video",
-    "title": "우리 사회엔 어떤 지역 문제들이 있을까? / 폐기물 매립장",
+    "title": "우리 사회에는 어떤 지역 문제들이 있을까? / 폐기물 매립장",
     "description": "수업 중",
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=GHQHS_5ulvc",
-    "video_title": "우리 사회엔 어떤 지역 문제들이 있을까? / 폐기물 매립장",
+    "video_title": "우리 사회에는 어떤 지역 문제들이 있을까? / 폐기물 매립장",
     "video_desc": "괴산군 폐기물 매립장과 산업 단지 조성과 관련된 주민 갈등"
   },
   {
@@ -4949,11 +4949,11 @@
     "item_key": "v3",
     "stage": "지역문제",
     "type": "video",
-    "title": "우리 사회엔 어떤 지역 문제들이 있을까? / 도시 개발",
+    "title": "우리 사회에는 어떤 지역 문제들이 있을까? / 도시 개발",
     "description": "수업 중",
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=KynOY0faPNE",
-    "video_title": "우리 사회엔 어떤 지역 문제들이 있을까? / 도시 개발",
+    "video_title": "우리 사회에는 어떤 지역 문제들이 있을까? / 도시 개발",
     "video_desc": "제주 도시 관리 계획을 둘러싼 주민 갈등"
   },
   {
@@ -4961,11 +4961,11 @@
     "item_key": "v4",
     "stage": "지역문제",
     "type": "video",
-    "title": "우리 사회엔 어떤 지역 문제들이 있을까? / 교통 문제",
+    "title": "우리 사회에는 어떤 지역 문제들이 있을까? / 교통 문제",
     "description": "수업 중",
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=fd9K4H3Ku1k",
-    "video_title": "우리 사회엔 어떤 지역 문제들이 있을까? / 교통 문제",
+    "video_title": "우리 사회에는 어떤 지역 문제들이 있을까? / 교통 문제",
     "video_desc": "울산시 시내버스 노선 개편에 따른 주민 불편"
   },
   {
@@ -5033,11 +5033,11 @@
     "item_key": "v10",
     "stage": "문제해결",
     "type": "video",
-    "title": "우리 사회의 문제를 해결하기 위해선 무엇이 필요할까요?",
+    "title": "우리 사회의 문제를 해결하기 위해선 무엇이 필요할까?",
     "description": "수업 후",
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=FJCHfXwIzHc",
-    "video_title": "우리 사회의 문제를 해결하기 위해선 무엇이 필요할까요?",
+    "video_title": "우리 사회의 문제를 해결하기 위해선 무엇이 필요할까?",
     "video_desc": "우리 사회의 다양한 문제를 해결하기 위해 주민 공동체와 협력하는 지역혁신"
   },
   {
@@ -5144,11 +5144,11 @@
     "item_key": "v8",
     "stage": "문화",
     "type": "video",
-    "title": "우리 지역을 대표하는 장소엔 무엇이 있을까?",
+    "title": "우리 지역을 대표하는 장소에는 무엇이 있을까?",
     "description": "배경지식",
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=u1yKAaW5_vc",
-    "video_title": "우리 지역을 대표하는 장소엔 무엇이 있을까?",
+    "video_title": "우리 지역을 대표하는 장소에는 무엇이 있을까?",
     "video_desc": "대구의 다양한 옛 골목들의 모습을 배경으로 한 댄스 퍼포먼스"
   },
   {
@@ -5327,12 +5327,12 @@
     "item_key": "v4",
     "stage": "인문환경",
     "type": "video",
-    "title": "대구의 인문환경, 라이온즈 파크",
+    "title": "대구의 인문환경, 대구은행파크",
     "description": "수업 중",
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=RTmi_LzvQjs",
-    "video_title": "대구의 인문환경, 라이온즈 파크",
-    "video_desc": "대구 라이온즈파크에서의 경기 모습"
+    "video_title": "대구의 인문환경, 대구은행파크",
+    "video_desc": "대구FC 경기장인 대구은행파크에서의 경기 모습"
   },
   {
     "kit_id": "so4231",
@@ -5487,11 +5487,11 @@
     "item_key": "v25",
     "stage": "개발",
     "type": "video",
-    "title": "환경과의 조화로운 개발을 위한 노력엔 어떤 것이 있을까?",
+    "title": "환경과의 조화로운 개발을 위한 노력에는 어떤 것이 있을까?",
     "description": "수업 중",
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=IoxJvIvVV7Q",
-    "video_title": "환경과의 조화로운 개발을 위한 노력엔 어떤 것이 있을까?",
+    "video_title": "환경과의 조화로운 개발을 위한 노력에는 어떤 것이 있을까?",
     "video_desc": "항만과 도시의 조화로운 개발을 위한 토론회를 개최한 인천 연수구"
   },
   {
@@ -15223,11 +15223,11 @@
     "item_key": "v06",
     "stage": "탐구하기2",
     "type": "video",
-    "title": "일상생활 속 혼합물 분리, 한국의 전통 소주 제조 과정 살펴보기",
+    "title": "전통주 제조 과정",
     "sort_order": 7,
-    "video_url": "https://www.youtube.com/watch?v=kgcw9A-Dvvg",
-    "video_title": "일상생활 속 혼합물 분리, 한국의 전통 소주 제조 과정 살펴보기",
-    "video_desc": "증류 방식으로 만드는 한국 전통 소주의 제조 과정"
+    "video_url": "https://www.youtube.com/watch?v=Ey7mWgQYQh0",
+    "video_title": "전통주 제조 과정",
+    "video_desc": "혼합물 분리 원리를 적용한 막걸리 제조 과정 소개"
   },
   {
     "kit_id": "sc5211",
@@ -15256,11 +15256,11 @@
     "item_key": "v09",
     "stage": "탐구하기2",
     "type": "video",
-    "title": "환경을 생각하는 에코아트! 재생 종이 만들기",
+    "title": "폐종이로 재생종이를 만드는 업사이클링 체험",
     "sort_order": 10,
-    "video_url": "https://www.youtube.com/watch?v=xA5BtFj-FWY",
-    "video_title": "환경을 생각하는 에코아트! 재생 종이 만들기",
-    "video_desc": "버려진 종이를 모아 되살리는 재생 종이의 제작 과정"
+    "video_url": "https://www.youtube.com/watch?v=ZPhX2wSdwpY",
+    "video_title": "폐종이로 재생종이를 만드는 업사이클링 체험",
+    "video_desc": "폐종이를 활용한 재생종이 제작으로 업사이클링 체험하기"
   },
   {
     "kit_id": "sc5211",
