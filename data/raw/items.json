@@ -7,7 +7,7 @@
     "title": "1-1. 사회 변화로 달라진 생활 모습",
     "description": "이 단원에서 무엇을 배울까요",
     "sort_order": 1,
-    "core_idea": "최근의 사회 변화가 현상과 특징을 파악하고, 그로 인해 달라진 우리 생활 모습의 변화를 탐색하는 단원입니다.",
+    "core_idea": "최근의 사회 변화의 현상과 특징을 파악하고, 그로 인해 달라진 우리 생활 모습의 변화를 탐색하는 단원입니다.",
     "core_question": "사회 변화는 우리의 생활 모습과 문화를 어떻게 바꾸며, 우리는 서로 다른 문화를 어떻게 대해야 할까?",
     "concepts": "사회변화 ; 저출산 ; 고령화 ; 지능정보화",
     "concept_desc": "시간이 지나면서 사람들의 생활 모습과 사회의 모습이 달라지는 것이에요. ; 태어나는 아이의 수가 예전보다 점점 줄어드는 현상이에요. ; 전체 인구 가운데 노인이 차지하는 비율이 높아지는 현상이에요. ; 인공지능과 정보통신 기술이 발달해 생활이 더 똑똑하고 편리해지는 변화예요.",
@@ -256,7 +256,7 @@
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=HIT7ZgOEpoI",
     "video_title": "스마트폰 과의존, 이렇게 해결해요",
-    "video_desc": "스마트폰 과의존 문제를 예방하고 해결하는 데 도움이 되는 영상"
+    "video_desc": "스마트폰 과의존 문제의 예방과 해결에 도움이 되는 영상"
   },
   {
     "kit_id": "so3211",
@@ -1260,7 +1260,7 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=Dj3zI_pNv1E",
     "video_title": "뜨거운 물이 빨리 얼까? 차가운 물이 빨리 얼까?",
-    "video_desc": "물질의 성질에 및 액체의 성질에 대한 수업 전 수업에 대한 흥미를 높이기 위한 영상으로, 뜨거운 물이 차가운 물보다 빨리 언다."
+    "video_desc": "물질의 성질 및 액체의 성질에 대한 수업 전 수업에 대한 흥미를 높이기 위한 영상으로, 뜨거운 물이 차가운 물보다 빨리 언다."
   },
   {
     "kit_id": "sc3211",
@@ -1623,7 +1623,7 @@
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=JAKSM-qnQNw",
     "video_title": "전세계에서 밀물과 썰물의 차이가 가장 큰 곳은?",
-    "video_desc": "캐나다에 있는 펀디 만(Bay of Funny)의 조수 간만의 차는 세계 최고인 16m이다."
+    "video_desc": "캐나다에 있는 펀디 만(Bay of Fundy)의 조수 간만의 차는 세계 최고인 16m이다."
   },
   {
     "kit_id": "sc3221",
@@ -1659,7 +1659,7 @@
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=5khTJL56t3o",
     "video_title": "갯벌에서 생물들은 어떻게 살아갈까?",
-    "video_desc": "물이 수시로 들어오고 여름에는 펄펄, 겨울에는 꽁꽁 어는 척박한 갯벌 환경에서 게, 갯지렁이, 고둥, 조개 등은 '서식굴' 속에서 살아간다."
+    "video_desc": "물이 수시로 들어오고 여름에는 펄펄 뜨겁고, 겨울에는 꽁꽁 어는 척박한 갯벌 환경에서 게, 갯지렁이, 고둥, 조개 등은 '서식굴' 속에서 살아간다."
   },
   {
     "kit_id": "sc3221",
@@ -4672,7 +4672,7 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=ap8Q0PrHI_4",
     "video_title": "학급회의, 어떻게 하면 제대로 할 수 있을까?",
-    "video_desc": "각 의견의 장점과 장점을 비교해보며 의견 모아보기"
+    "video_desc": "각 의견의 장점과 단점을 비교해보며 의견 모아보기"
   },
   {
     "kit_id": "so4211",
@@ -4795,7 +4795,7 @@
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=-AF13UPPf3k",
     "video_title": "주민자치회는 어떤 역할을 할까?",
-    "video_desc": "지역 주민들의 스스로 해결할 수 있도록 주민들의 권한을 강화시켜주는 주민자치회"
+    "video_desc": "지역 주민들이 스스로 해결할 수 있도록 주민들의 권한을 강화시켜주는 주민자치회"
   },
   {
     "kit_id": "so4212",
@@ -5021,11 +5021,11 @@
     "item_key": "v9",
     "stage": "문제해결",
     "type": "video",
-    "title": "지역 사회를 주민들이 스스로 해결하기 위해선 어떻게 해야 할까?",
+    "title": "지역 사회의 문제를 주민들이 스스로 해결하기 위해선 어떻게 해야 할까?",
     "description": "수업 중",
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=6WZ46c3Lr70",
-    "video_title": "지역 사회를 주민들이 스스로 해결하기 위해선 어떻게 해야 할까?",
+    "video_title": "지역 사회의 문제를 주민들이 스스로 해결하기 위해선 어떻게 해야 할까?",
     "video_desc": "지역별 지역 문제 해결을 위한 사회적 뉴딜 사업, 리빙랩"
   },
   {
@@ -5440,7 +5440,7 @@
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=Is-jHC8Yp-0",
     "video_title": "바다 근처 지역에서 볼 수 있는 자연환경은 무엇이 있을까?",
-    "video_desc": "전국의 다양한 바다 근처의 해얀 지형들"
+    "video_desc": "전국의 다양한 바다 근처의 해안 지형들"
   },
   {
     "kit_id": "so4231",
@@ -5834,7 +5834,7 @@
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=hjfJC6gfd5E",
     "video_title": "밤하늘에 밝게 빛나는 건 별일까? 인공위성일까?",
-    "video_desc": "밤하늘 밝게 빛나는 것의 정체, 인공위성은 스스로 빛을 내지 못하고 작으며, 빠르기 떄문에 맨눈으로 밝게 보이지 않는다."
+    "video_desc": "밤하늘 밝게 빛나는 것의 정체, 인공위성은 스스로 빛을 내지 못하고 작으며, 빠르기 때문에 맨눈으로 밝게 보이지 않음"
   },
   {
     "kit_id": "sc4211",
@@ -5918,7 +5918,7 @@
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=D3amJnG7Kyc",
     "video_title": "달의 표면은 어떻게 생겼을까?",
-    "video_desc": "달 표면 초 고화질 영상으로, 달 표면의 밝은 부분과 어두운 부분, 크레이터 들을 관찰할 수 있음."
+    "video_desc": "달 표면 초 고화질 영상으로, 달 표면의 밝은 부분과 어두운 부분, 크레이터 등을 관찰할 수 있음."
   },
   {
     "kit_id": "sc4211",
@@ -6417,7 +6417,7 @@
     "sort_order": 1,
     "video_url": "https://www.youtube.com/watch?v=FN1nRy4EtaI",
     "video_title": "날씨 공식 깨는 기후변화",
-    "video_desc": "7월 장마, 8월 무더위라는 여름 날씨 공식은 이미 깨고 있음을 소개하는 영상"
+    "video_desc": "7월 장마, 8월 무더위라는 여름 날씨 공식은 이미 깨지고 있음을 소개하는 영상"
   },
   {
     "kit_id": "sc4241",
@@ -6517,7 +6517,7 @@
     "start_sec": 272,
     "end_sec": 579,
     "video_title": "과학자들이 말하는 기후위기의 원인과 대비책은?",
-    "video_desc": "전세계에서 일어나는 기후변화로 인한 피해, 피해를 막기위한 대응 방안"
+    "video_desc": "전 세계에서 일어나는 기후변화로 인한 피해, 피해를 막기위한 대응 방안"
   },
   {
     "kit_id": "sc4241",
@@ -15161,7 +15161,7 @@
     "core_question": "물질의 고유한 성질은 우리가 원하는 것을 얻는 데 어떻게 활용될까?",
     "concepts": "성질 ; 변화 ; 분리 ; 입자 ; 용해 ; 혼합물",
     "standard_code": "[6과05-01] ; [6과05-02] ; [6과05-03]",
-    "standard_text": "알갱이의 크기가 다른 고체 혼합물과 골고루 섞이지 않는 액체 혼합물을 분리할 수 있다. ; 물에 용해되는 성질을 이용하여 고체 혼합물을 분리하고, 물을 증발시켜 몰에 용해된 고체 물질을 분리할 수 있다. ; 지속가능한 삶을 위한 과학기술 사례 중 혼합물의 분리를 이용한 장치를 조사하여 공유할 수 있다."
+    "standard_text": "알갱이의 크기가 다른 고체 혼합물과 골고루 섞이지 않는 액체 혼합물을 분리할 수 있다. ; 물에 용해되는 성질을 이용하여 고체 혼합물을 분리하고, 물을 증발시켜 물에 용해된 고체 물질을 분리할 수 있다. ; 지속가능한 삶을 위한 과학기술 사례 중 혼합물의 분리를 이용한 장치를 조사하여 공유할 수 있다."
   },
   {
     "kit_id": "sc5211",
@@ -15278,10 +15278,10 @@
     "item_key": "v11",
     "stage": "확장하기",
     "type": "video",
-    "title": "필터 샤워기는 어떻게 불순물 제거할까?",
+    "title": "필터 샤워기는 어떻게 불순물을 제거할까?",
     "sort_order": 12,
     "video_url": "https://www.youtube.com/watch?v=GjvwW_uvleQ",
-    "video_title": "필터 샤워기는 어떻게 불순물 제거할까?",
+    "video_title": "필터 샤워기는 어떻게 불순물을 제거할까?",
     "video_desc": "필터 샤워기가 물속 불순물과 녹물을 걸러 내는 원리"
   },
   {
@@ -15481,10 +15481,10 @@
     "item_key": "v13",
     "stage": "탐구하기2",
     "type": "video",
-    "title": "8월 장마' 몰고 온 '블로킹 고기압'",
+    "title": "8월 장마 몰고 온 '블로킹 고기압'",
     "sort_order": 14,
     "video_url": "https://www.youtube.com/watch?v=6ZclVRuav6I",
-    "video_title": "8월 장마' 몰고 온 '블로킹 고기압'",
+    "video_title": "8월 장마 몰고 온 '블로킹 고기압'",
     "video_desc": "블로킹 고기압이 8월 장마를 부른 까닭"
   },
   {
@@ -15660,10 +15660,10 @@
     "item_key": "v08",
     "stage": "탐구하기1",
     "type": "video",
-    "title": "영화 속에 숨여진 열의 이동 현상, 라따뚜이!",
+    "title": "영화 속에 숨겨진 열의 이동 현상, 라따뚜이!",
     "sort_order": 9,
     "video_url": "https://www.youtube.com/watch?v=Zv0UWxVgeJY",
-    "video_title": "영화 속에 숨여진 열의 이동 현상, 라따뚜이!",
+    "video_title": "영화 속에 숨겨진 열의 이동 현상, 라따뚜이!",
     "video_desc": "라따뚜이 영화 장면에 나타난 고체에서의 열의 이동"
   },
   {
@@ -15686,7 +15686,7 @@
     "sort_order": 11,
     "video_url": "https://www.youtube.com/watch?v=7ga1ke8kN04",
     "video_title": "기체에서의 열의 이동을 눈으로 관찰해 보기",
-    "video_desc": "실험으로 눈으로 확인하는 기체에서의 열의 이동"
+    "video_desc": "실험을 통해 눈으로 확인하는 기체에서의 열의 이동"
   },
   {
     "kit_id": "sc5231",
@@ -15872,10 +15872,10 @@
     "item_key": "v05",
     "stage": "생각열기",
     "type": "video",
-    "title": "자연자원 고갈, 줄어드는 물과 사라지는 숲",
+    "title": "자연 자원 고갈, 줄어드는 물과 사라지는 숲",
     "sort_order": 6,
     "video_url": "https://www.youtube.com/watch?v=nleitsurNPc",
-    "video_title": "자연자원 고갈, 줄어드는 물과 사라지는 숲",
+    "video_title": "자연 자원 고갈, 줄어드는 물과 사라지는 숲",
     "video_desc": "제주의 생존을 위협하는 물 부족과 숲 감소 등 자연 자원 고갈"
   },
   {
@@ -15960,10 +15960,10 @@
     "item_key": "v13",
     "stage": "탐구하기1",
     "type": "video",
-    "title": "지하 열', 친환경 에너지원으로 발굴되었다!",
+    "title": "지하 열, 친환경 에너지원으로 발굴되었다!",
     "sort_order": 14,
     "video_url": "https://www.youtube.com/watch?v=jAq9qnOaFaU",
-    "video_title": "지하 열', 친환경 에너지원으로 발굴되었다!",
+    "video_title": "지하 열, 친환경 에너지원으로 발굴되었다!",
     "video_desc": "땅속 깊은 곳의 열을 에너지원으로 쓰기 위한 지열 사업"
   },
   {
@@ -17718,7 +17718,7 @@
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=KZEmNq5l5CM",
     "video_title": "낮과 밤의 길이가 달라지는 이유",
-    "video_desc": "계절에 따라 낮과 밤의 길이가 달라지는 원리를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "계절에 따라 낮과 밤의 길이가 달라지는 원리"
   },
   {
     "kit_id": "sc6211",
@@ -17729,7 +17729,7 @@
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=ZdsJBAqHlzA",
     "video_title": "계절별 나무의 모습",
-    "video_desc": "사계절에 따른 나무의 변화를 관찰하는 데 도움을 주는 영상임."
+    "video_desc": "사계절에 따른 나무의 변화"
   },
   {
     "kit_id": "sc6211",
@@ -17740,7 +17740,7 @@
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=bCb5sa3kyDY",
     "video_title": "국립수목원의 사계절 풍경",
-    "video_desc": "국립수목원의 사계절 변화하는 자연 풍경을 감상하는 데 도움을 주는 영상임."
+    "video_desc": "국립수목원의 사계절 변화하는 자연 풍경"
   },
   {
     "kit_id": "sc6211",
@@ -17751,7 +17751,7 @@
     "sort_order": 5,
     "video_url": "https://www.youtube.com/watch?v=PkuSb8gEyCI",
     "video_title": "태양 고도, 그림자 길이, 기온 측정하기",
-    "video_desc": "태양 고도에 따른 그림자 길이와 기온 변화를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "태양 고도에 따른 그림자 길이와 기온 변화"
   },
   {
     "kit_id": "sc6211",
@@ -17762,7 +17762,7 @@
     "sort_order": 6,
     "video_url": "https://www.youtube.com/watch?v=sfXVyxuqrBo",
     "video_title": "태양 고도 측정 장치 만들기",
-    "video_desc": "태양 고도 측정 장치를 직접 만들고 태양의 위치 변화를 관찰하는 데 도움을 주는 영상임."
+    "video_desc": "태양 고도 측정 장치 제작과 시간에 따른 태양의 위치 변화"
   },
   {
     "kit_id": "sc6211",
@@ -17773,7 +17773,7 @@
     "sort_order": 7,
     "video_url": "https://www.youtube.com/watch?v=guBOVU6RjEU",
     "video_title": "어플리케이션으로 태양 고도 측정하기",
-    "video_desc": "스마트폰 어플리케이션을 활용해 하루 동안의 태양 고도 변화를 측정하는 데 도움을 주는 영상임."
+    "video_desc": "스마트폰 어플리케이션을 활용한 하루 동안의 태양 고도 변화"
   },
   {
     "kit_id": "sc6211",
@@ -17784,7 +17784,7 @@
     "sort_order": 8,
     "video_url": "https://www.youtube.com/watch?v=RlApmW7wwHI",
     "video_title": "하루 동안 태양 고도, 그림자 길이, 기온 정리하기",
-    "video_desc": "태양 고도 변화에 따른 그림자 길이와 기온의 관계를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "태양 고도 변화에 따른 그림자 길이와 기온의 관계"
   },
   {
     "kit_id": "sc6211",
@@ -17795,7 +17795,7 @@
     "sort_order": 9,
     "video_url": "https://www.youtube.com/watch?v=6YQV8fuTmX0",
     "video_title": "계절별 태양의 남중고도와 낮의 길이 사이의 관계",
-    "video_desc": "계절에 따른 태양 남중고도와 낮 길이의 관계를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "계절에 따른 태양 남중고도와 낮 길이의 관계"
   },
   {
     "kit_id": "sc6211",
@@ -17806,7 +17806,7 @@
     "sort_order": 10,
     "video_url": "https://www.youtube.com/watch?v=yHjMXMNMLwE",
     "video_title": "태양의 고도에 따라 기온이 달라지는 까닭 알기",
-    "video_desc": "태양의 고도와 기온의 관계 탐구 실험을 이해하는 데 도움을 주는 영상임."
+    "video_desc": "태양의 고도와 기온의 관계 탐구 실험"
   },
   {
     "kit_id": "sc6211",
@@ -17817,7 +17817,7 @@
     "sort_order": 11,
     "video_url": "https://www.youtube.com/watch?v=ldkhE8o4RJQ",
     "video_title": "계절이 생기는 이유",
-    "video_desc": "지구의 자전축 기울기에 따른 태양 고도 변화로 계절이 생기는 원리를 알아보는 데 도움을 주는 영상임."
+    "video_desc": "지구의 자전축 기울기에 따른 태양 고도 변화로 계절이 생기는 원리"
   },
   {
     "kit_id": "sc6211",
@@ -17828,7 +17828,7 @@
     "sort_order": 12,
     "video_url": "https://www.youtube.com/watch?v=CY2VXqEpXzQ",
     "video_title": "우리나라의 사계절 모습",
-    "video_desc": "사계절에 따른 우리나라 자연경관의 변화를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "사계절에 따른 우리나라 자연경관의 변화"
   },
   {
     "kit_id": "sc6211",
@@ -17839,7 +17839,7 @@
     "sort_order": 13,
     "video_url": "https://www.youtube.com/watch?v=xv9oheVjaYI",
     "video_title": "기울어진 자전축과 계절의 변화",
-    "video_desc": "지구 자전축이 기울어져 계절이 생기는 원리를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "지구 자전축이 기울어져 계절이 생기는 원리"
   },
   {
     "kit_id": "sc6211",
@@ -17850,7 +17850,7 @@
     "sort_order": 14,
     "video_url": "https://www.youtube.com/watch?v=faVS9wUxU9g",
     "video_title": "계절의 변화송",
-    "video_desc": "지구 자전축 기울기와 공전으로 인한 계절과 태양 고도 변화를 이해하는 데 도움을 주는 영상임."
+    "video_desc": "지구 자전축 기울기와 공전으로 인한 계절과 태양 고도 변화"
   },
   {
     "kit_id": "sc6211",
@@ -17861,7 +17861,7 @@
     "sort_order": 15,
     "video_url": "https://www.youtube.com/watch?v=z5Sw7MSQZLM",
     "video_title": "자전축의 기울기에 따른 남중고도 변화",
-    "video_desc": "자전축 기울기에 따른 계절별 태양의 남중고도 변화를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "자전축 기울기에 따른 계절별 태양의 남중고도 변화"
   },
   {
     "kit_id": "sc6211",
@@ -17872,7 +17872,7 @@
     "sort_order": 16,
     "video_url": "https://www.youtube.com/watch?v=qJ6Vhids-pc",
     "video_title": "1년을 나누는 24개의 절기",
-    "video_desc": "태양의 움직임에 따른 기후 변화와 24절기의 의미를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "태양의 움직임에 따른 기후 변화와 24절기의 의미"
   },
   {
     "kit_id": "sc6211",
@@ -17883,7 +17883,7 @@
     "sort_order": 17,
     "video_url": "https://www.youtube.com/watch?v=iBWO8K9EbGE",
     "video_title": "그림자를 통해 시간을 파악한 앙부일구",
-    "video_desc": "그림자를 이용한 해시계 앙부일구의 원리와 시간 확인 방법을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "그림자를 이용한 해시계 앙부일구의 원리와 시간 확인 방법"
   },
   {
     "kit_id": "sc6211",
@@ -17894,7 +17894,7 @@
     "sort_order": 18,
     "video_url": "https://www.youtube.com/watch?v=Z55Ug-VKF8I",
     "video_title": "한옥에 숨겨진 과학원리",
-    "video_desc": "한옥 구조에 담긴 계절별 태양 고도와 과학적 원리를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "한옥 구조에 담긴 계절별 태양 고도와 과학적 원리"
   },
   {
     "kit_id": "sc6211",
@@ -17905,7 +17905,7 @@
     "sort_order": 19,
     "video_url": "https://www.youtube.com/watch?v=kdTbaU0vn8s",
     "video_title": "백야 현상과 극야 현상",
-    "video_desc": "해가 지거나 뜨지 않는 현상을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "해가 지거나 뜨지 않는 현상"
   },
   {
     "kit_id": "sc6221",
@@ -17930,7 +17930,7 @@
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=QMOsAtTA2n0",
     "video_title": "불은 물질이 아닌 에너지",
-    "video_desc": "불의 과학적 정의와 물질의 상태에 대한 오해를 풀어주는 데 도움을 주는 영상임."
+    "video_desc": "불의 과학적 정의와 물질의 상태에 대한 오해"
   },
   {
     "kit_id": "sc6221",
@@ -17941,7 +17941,7 @@
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=7G9V9pecDB4",
     "video_title": "식초와 베이킹파우더 혼합 실험",
-    "video_desc": "식초와 베이킹파우더의 반응을 통한 로켓 발사 원리를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "식초와 베이킹파우더의 반응을 통한 로켓 발사 원리"
   },
   {
     "kit_id": "sc6221",
@@ -17952,7 +17952,7 @@
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=RPkM47846-E",
     "video_title": "다양한 연소 실험으로 즐기는 불멍",
-    "video_desc": "성냥 연소 과정을 통해 물질이 타며 빛과 열을 내는 연소 현상을 관찰하는 데 도움을 주는 영상임."
+    "video_desc": "성냥 연소 과정을 통해 물질이 타며 빛과 열을 내는 연소 현상"
   },
   {
     "kit_id": "sc6221",
@@ -17963,7 +17963,7 @@
     "sort_order": 5,
     "video_url": "https://www.youtube.com/watch?v=YnY1ZeVHryU",
     "video_title": "연소의 3요소",
-    "video_desc": "실험을 통해 물질이 연소하기 위한 3가지 필수 요소를 확인하는 데 도움을 주는 영상임."
+    "video_desc": "실험을 통한 물질의 연소에 필요한 세 가지 필수 요소"
   },
   {
     "kit_id": "sc6221",
@@ -17974,7 +17974,7 @@
     "sort_order": 6,
     "video_url": "https://www.youtube.com/watch?v=zumDlCpE_Rk",
     "video_title": "달인의 불 피우기 스킬",
-    "video_desc": "정글의 법칙 속 불 피우기 과정을 통해 연소 조건을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "정글의 법칙 속 불 피우기 과정을 통한 연소 조건"
   },
   {
     "kit_id": "sc6221",
@@ -17985,7 +17985,7 @@
     "sort_order": 7,
     "video_url": "https://www.youtube.com/watch?v=7p-xObcSRNM",
     "video_title": "밀가루 폭발 실험",
-    "video_desc": "고운 밀가루가 촛불을 만나 순간적으로 폭발하는 현상을 관찰하는 데 도움을 주는 영상임."
+    "video_desc": "고운 밀가루가 촛불을 만나 순간적으로 폭발하는 현상"
   },
   {
     "kit_id": "sc6221",
@@ -17996,7 +17996,7 @@
     "sort_order": 8,
     "video_url": "https://www.youtube.com/watch?v=9WGi-TbYvIo",
     "video_title": "촛불을 불면 불이 꺼지는 이유",
-    "video_desc": "입김으로 공기를 이동시켜 연소의 조건을 없애 촛불을 끄는 방법을 알아보는 데 도움을 주는 영상임."
+    "video_desc": "입김으로 공기를 이동시켜 연소의 조건을 없애 촛불을 끄는 방법"
   },
   {
     "kit_id": "sc6221",
@@ -18007,7 +18007,7 @@
     "sort_order": 9,
     "video_url": "https://www.youtube.com/watch?v=o4gzdiCwtpU",
     "video_title": "화재 종류에 따라 다른 소화 방법",
-    "video_desc": "화재 종류에 따른 올바른 초기 진화 방법을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "화재 종류에 따른 올바른 초기 진화 방법"
   },
   {
     "kit_id": "sc6221",
@@ -18018,7 +18018,7 @@
     "sort_order": 10,
     "video_url": "https://www.youtube.com/watch?v=xLiXu019b8E",
     "video_title": "연소 생성물 확인 실험",
-    "video_desc": "연소 후 발생하는 물질을 두 가지 실험으로 확인하는 데 도움을 주는 영상임."
+    "video_desc": "두 가지 실험으로 확인하는 연소 생성물"
   },
   {
     "kit_id": "sc6221",
@@ -18029,7 +18029,7 @@
     "sort_order": 11,
     "video_url": "https://www.youtube.com/watch?v=kunw3nk-eo0",
     "video_title": "연소 후 생기는 물질 확인하기 - 염화코발트종이",
-    "video_desc": "물질이 타고난 후 염화코발트종이의 변화를 관찰하는 데 도움을 주는 영상임."
+    "video_desc": "물질이 타고난 후 염화코발트종이의 변화"
   },
   {
     "kit_id": "sc6221",
@@ -18040,7 +18040,7 @@
     "sort_order": 12,
     "video_url": "https://www.youtube.com/watch?v=_FL2ULVRCXY",
     "video_title": "연소 후 생기는 물질 확인하기 - 석회수",
-    "video_desc": "물질이 타고난 후 석회수의 변화를 관찰하는 데 도움을 주는 영상임."
+    "video_desc": "물질이 타고난 후 석회수의 변화"
   },
   {
     "kit_id": "sc6221",
@@ -18051,7 +18051,7 @@
     "sort_order": 13,
     "video_url": "https://www.youtube.com/watch?v=Af2an3IuNHw",
     "video_title": "지구를 뜨겁게 만드는 원인",
-    "video_desc": "지구온난화의 원인인 탄소의 개념과 탄소중립의 의미를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "지구온난화의 원인인 탄소의 개념과 탄소중립의 의미"
   },
   {
     "kit_id": "sc6221",
@@ -18062,7 +18062,7 @@
     "sort_order": 14,
     "video_url": "https://www.youtube.com/watch?v=kJcYGqDEv58",
     "video_title": "바다에 녹아든 이산화탄소로 인한 해양 오염",
-    "video_desc": "이산화탄소 유입으로 인한 바다 사막화 현상과 생태계 영향을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "이산화탄소 유입으로 인한 바다 사막화 현상과 생태계 영향"
   },
   {
     "kit_id": "sc6221",
@@ -18073,7 +18073,7 @@
     "sort_order": 15,
     "video_url": "https://www.youtube.com/watch?v=RY6yoloLCD0",
     "video_title": "지리산 구상나무 집단 고사 현상",
-    "video_desc": "지구 온난화로 인해 멸종 위기에 처한 지리산 구상나무의 집단 고사 원인을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "지구 온난화로 인해 멸종 위기에 처한 지리산 구상나무의 집단 고사 원인"
   },
   {
     "kit_id": "sc6221",
@@ -18084,7 +18084,7 @@
     "sort_order": 16,
     "video_url": "https://www.youtube.com/watch?v=TDpcWiudQDs",
     "video_title": "바닷속에 '불 소용돌이'가 생긴 이유",
-    "video_desc": "멕시코 바닷속 가스관 파손으로 발생한 해상 화재 원인을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "멕시코 바닷속 가스관 파손으로 발생한 해상 화재 원인"
   },
   {
     "kit_id": "sc6221",
@@ -18095,7 +18095,7 @@
     "sort_order": 17,
     "video_url": "https://www.youtube.com/watch?v=mkiQXKViZwU",
     "video_title": "우리 몸에 쌓이는 에너지 연소 후 찌꺼기",
-    "video_desc": "에너지 대사 과정에서 발생하는 활성산소가 인체에 미치는 영향을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "에너지 대사 과정에서 발생하는 활성산소가 인체에 미치는 영향"
   },
   {
     "kit_id": "sc6221",
@@ -18106,7 +18106,7 @@
     "sort_order": 18,
     "video_url": "https://www.youtube.com/watch?v=j8gKwIxpiPo",
     "video_title": "차량 연료의 연소 생성물을 저감시키는 배기가스 재순환 장치",
-    "video_desc": "자동차 배기가스 재순환 장치의 원리와 환경 오염 저감 효과를 알아보는 데 도움을 주는 영상임."
+    "video_desc": "자동차 배기가스 재순환 장치의 원리와 환경 오염 저감 효과"
   },
   {
     "kit_id": "sc6221",
@@ -18117,7 +18117,7 @@
     "sort_order": 19,
     "video_url": "https://www.youtube.com/watch?v=bb-4RWYHRTE",
     "video_title": "친환경 연소 기술이 적용된 '굴뚝 없는 발전소'",
-    "video_desc": "대기오염 물질을 줄이고 이산화탄소를 재활용하는 친환경 연소 기술을 소개하는 데 도움을 주는 영상임."
+    "video_desc": "대기오염 물질을 줄이고 이산화탄소를 재활용하는 친환경 연소 기술"
   },
   {
     "kit_id": "sc6221",
@@ -18128,7 +18128,7 @@
     "sort_order": 20,
     "video_url": "https://www.youtube.com/watch?v=Es2IauppUAs",
     "video_title": "이산화탄소를 활용하는 다양한 방법",
-    "video_desc": "이산화탄소를 포집하여 유용한 자원으로 재활용하는 기술을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "이산화탄소를 포집하여 유용한 자원으로 재활용하는 기술"
   },
   {
     "kit_id": "sc6221",
@@ -18139,7 +18139,7 @@
     "sort_order": 21,
     "video_url": "https://www.youtube.com/watch?v=Gdf8LcZLrXQ",
     "video_title": "이산화탄소를 처리하는 새로운 방법, 우리나라 탄소 중립 근황",
-    "video_desc": "이산화탄소를 땅속에 저장하는 탄소 포집 기술을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "이산화탄소를 땅속에 저장하는 탄소 포집 기술"
   },
   {
     "kit_id": "sc6231",
@@ -18164,7 +18164,7 @@
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=wl6NGtJKau8",
     "video_title": "전기의 역사와 원리",
-    "video_desc": "전기의 역사적 발견 과정과 기본적인 전기적 원리를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "전기의 역사적 발견 과정과 기본적인 전기적 원리"
   },
   {
     "kit_id": "sc6231",
@@ -18175,7 +18175,7 @@
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=PjsonZ1zVz4",
     "video_title": "교수님이 보여주는 전기의 원리",
-    "video_desc": "신기한 실험을 통해 전기의 기초 원리와 과학의 의미를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "신기한 실험을 통한 전기의 기초 원리와 과학 탐구의 의미"
   },
   {
     "kit_id": "sc6231",
@@ -18186,7 +18186,7 @@
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=pducDvQCvOk",
     "video_title": "전기의 발견",
-    "video_desc": "우연히 발견된 전기의 원리와 실용화 과정을 통해 현대 문명의 발전사를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "전기의 발견과 실용화를 통한 현대 문명의 발전"
   },
   {
     "kit_id": "sc6231",
@@ -18197,7 +18197,7 @@
     "sort_order": 5,
     "video_url": "https://www.youtube.com/watch?v=4TFD4llllaI",
     "video_title": "인류 최초의 정전기 발견",
-    "video_desc": "탈레스의 정전기 발견과 초기 정전기 발생 장치의 역사를 알아보는 데 도움을 주는 영상임."
+    "video_desc": "탈레스의 정전기 발견과 초기 정전기 발생 장치의 역사"
   },
   {
     "kit_id": "sc6231",
@@ -18208,7 +18208,7 @@
     "sort_order": 6,
     "video_url": "https://www.youtube.com/watch?v=Vejsc89SvaU",
     "video_title": "전구에 불이 켜지게 하는 방법",
-    "video_desc": "전기 회로를 연결해 전구에 불이 켜지는 조건을 알아보는 데 도움을 주는 영상임."
+    "video_desc": "전기 회로의 연결과 전구에 불이 켜지는 조건"
   },
   {
     "kit_id": "sc6231",
@@ -18219,7 +18219,7 @@
     "sort_order": 7,
     "video_url": "https://www.youtube.com/watch?v=NOCGPDlerSQ",
     "video_title": "전구에 불이 켜지는 것과 켜지지 않는 것의 차이",
-    "video_desc": "전기 회로를 구성하여 전구에 불을 켜는 방법을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "전기 회로의 구성과 전구에 불을 켜는 방법"
   },
   {
     "kit_id": "sc6231",
@@ -18230,7 +18230,7 @@
     "sort_order": 8,
     "video_url": "https://www.youtube.com/watch?v=bVzO7ZtqSHA",
     "video_title": "전기회로송",
-    "video_desc": "전기 회로의 구성 요소와 전류의 흐름 및 작동 원리를 노래로 학습하는 데 도움을 주는 영상임."
+    "video_desc": "전기 회로의 구성 요소와 전류의 흐름을 담은 노래"
   },
   {
     "kit_id": "sc6231",
@@ -18241,7 +18241,7 @@
     "sort_order": 9,
     "video_url": "https://www.youtube.com/watch?v=LwUeM7TfPl8",
     "video_title": "전구의 연결 방법에 따른 전구의 밝기 비교하기",
-    "video_desc": "전구의 직렬 및 병렬 연결 방법에 따른 밝기 차이를 비교하는 데 도움을 주는 영상임."
+    "video_desc": "전구의 직렬 및 병렬 연결 방법에 따른 밝기 차이"
   },
   {
     "kit_id": "sc6231",
@@ -18252,7 +18252,7 @@
     "sort_order": 10,
     "video_url": "https://www.youtube.com/watch?v=tOPR7NPi7AY",
     "video_title": "전구의 직렬 병렬 연결 실험",
-    "video_desc": "전구의 직렬 연결과 병렬 연결 차이를 실험으로 비교 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "전구의 직렬 연결과 병렬 연결 차이를 실험으로 비교"
   },
   {
     "kit_id": "sc6231",
@@ -18263,7 +18263,7 @@
     "sort_order": 11,
     "video_url": "https://www.youtube.com/watch?v=lzYYivK-I_g",
     "video_title": "전구의 연결 방법에 따른 전구의 밝기 공부송",
-    "video_desc": "전구 연결 방법에 따른 밝기 변화를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "전구 연결 방법에 따른 밝기 변화"
   },
   {
     "kit_id": "sc6231",
@@ -18274,7 +18274,7 @@
     "sort_order": 12,
     "video_url": "https://www.youtube.com/watch?v=irYeM03zHvo",
     "video_title": "전지의 연결 방법에 따른 전구의 밝기 공부송",
-    "video_desc": "전지의 직렬과 병렬 연결에 따른 전구 밝기 변화를 학습하는 데 도움을 주는 영상임."
+    "video_desc": "전지의 직렬과 병렬 연결에 따른 전구 밝기 변화"
   },
   {
     "kit_id": "sc6231",
@@ -18285,7 +18285,7 @@
     "sort_order": 13,
     "video_url": "https://www.youtube.com/watch?v=6z2aHIYNrTQ",
     "video_title": "전구송",
-    "video_desc": "전구와 전지의 구조를 이해하고 회로를 연결해 불을 밝히는 방법을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "전구와 전지의 구조 및 전구에 불이 켜지는 전기 회로의 구성"
   },
   {
     "kit_id": "sc6231",
@@ -18296,7 +18296,7 @@
     "sort_order": 14,
     "video_url": "https://www.youtube.com/watch?v=wSaXRANgO3Q",
     "video_title": "전등의 역사",
-    "video_desc": "전등의 발명 역사와 발전 과정을 이해하고 전구의 원리를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "전등의 발명과 발전 과정 및 전구의 원리"
   },
   {
     "kit_id": "sc6231",
@@ -18307,7 +18307,7 @@
     "sort_order": 15,
     "video_url": "https://www.youtube.com/watch?v=40Y0pFjelLM",
     "video_title": "전류가 흐르는 전선 주위의 나침반 바늘 관찰하기",
-    "video_desc": "전류가 흐르는 전선 주위에서 나침반 바늘의 움직임을 관찰하는 데 도움을 주는 영상임."
+    "video_desc": "전류가 흐르는 전선 주위에서 나침반 바늘의 움직임"
   },
   {
     "kit_id": "sc6231",
@@ -18318,7 +18318,7 @@
     "sort_order": 16,
     "video_url": "https://www.youtube.com/watch?v=fp-O8ItNagI",
     "video_title": "On&Off가 되는 자석, 전자석에 대해서",
-    "video_desc": "전류의 흐름에 따라 자력을 조절하는 전자석의 원리와 활용 방법을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "전류의 흐름에 따라 자력을 조절하는 전자석의 원리와 활용 방법"
   },
   {
     "kit_id": "sc6231",
@@ -18329,7 +18329,7 @@
     "sort_order": 17,
     "video_url": "https://www.youtube.com/watch?v=gFrJUU9p308",
     "video_title": "전자석과 영구자석의 차이점(1)",
-    "video_desc": "전자석과 영구자석의 성질 차이를 비교하고 생활 속 활용을 탐색하는 데 도움을 주는 영상임."
+    "video_desc": "전자석과 영구자석의 성질 차이 및 생활 속 활용"
   },
   {
     "kit_id": "sc6231",
@@ -18340,7 +18340,7 @@
     "sort_order": 18,
     "video_url": "https://www.youtube.com/watch?v=ArqLkFlo2fY",
     "video_title": "전자석과 영구자석의 차이점(2)",
-    "video_desc": "전자석과 영구자석의 차이점 비교 및 생활 속 전자석 활용을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "전자석과 영구자석의 차이점 비교 및 생활 속 전자석 활용"
   },
   {
     "kit_id": "sc6231",
@@ -18351,7 +18351,7 @@
     "sort_order": 19,
     "video_url": "https://www.youtube.com/watch?v=osLhN30lrss",
     "video_title": "전자석으로 자기력과 중력의 균형 맞추기(지구본 공중부양)",
-    "video_desc": "전자석의 자기력과 중력의 균형을 이용한 지구본 공중부양 원리를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "전자석의 자기력과 중력의 균형을 이용한 지구본 공중부양 원리"
   },
   {
     "kit_id": "sc6231",
@@ -18362,7 +18362,7 @@
     "sort_order": 20,
     "video_url": "https://www.youtube.com/watch?v=s-PT6YKaOJ8",
     "video_title": "자기부상열차를 움직이게 하는 힘",
-    "video_desc": "자기부상열차의 작동 원리와 전자석의 활용 사례를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "자기부상열차의 작동 원리와 전자석의 활용 사례"
   },
   {
     "kit_id": "sc6231",
@@ -18373,7 +18373,7 @@
     "sort_order": 21,
     "video_url": "https://www.youtube.com/watch?v=R2AyyoZFjf0",
     "video_title": "크레인용 스크랩 마그네트(고철 옮기는 크레인)",
-    "video_desc": "전류를 이용해 고철을 운반하는 전자석의 원리와 활용 사례를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "전류를 이용해 고철을 운반하는 전자석의 원리와 활용 사례"
   },
   {
     "kit_id": "sc6231",
@@ -18384,7 +18384,7 @@
     "sort_order": 22,
     "video_url": "https://www.youtube.com/watch?v=zzzvmb8vDqY",
     "video_title": "전자석으로 간이 스피커 만들기",
-    "video_desc": "전자석의 원리를 이해하고 간이 스피커를 만들어 소리 발생 원리를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "전자석의 원리와 간이 스피커를 통한 소리 발생 원리"
   },
   {
     "kit_id": "sc6231",
@@ -18395,7 +18395,7 @@
     "sort_order": 23,
     "video_url": "https://www.youtube.com/watch?v=O0mlzG-ufNs",
     "video_title": "전자석으로 기차 만들기",
-    "video_desc": "구리와 자석을 이용한 자기장 기차의 원리 실험을 알아보는 데 도움을 주는 영상임."
+    "video_desc": "구리와 자석을 이용한 자기장 기차의 원리 실험"
   },
   {
     "kit_id": "sc6231",
@@ -18406,7 +18406,7 @@
     "sort_order": 24,
     "video_url": "https://www.youtube.com/watch?v=6yKdIb-0cjA",
     "video_title": "전기 낭비 주범들 찾아서 전기요금 절약하는 법",
-    "video_desc": "대기전력의 개념을 이해하고 일상 속 전기 절약 실천 방법을 확인하는 데 도움을 주는 영상임."
+    "video_desc": "대기전력의 개념과 일상 속 전기 절약 방법"
   },
   {
     "kit_id": "sc6231",
@@ -18417,7 +18417,7 @@
     "sort_order": 25,
     "video_url": "https://www.youtube.com/watch?v=XpxNeiaWSjQ",
     "video_title": "전기 사고 예방 행동 요령",
-    "video_desc": "생활 속 전기 사고 예방을 위한 안전 행동 요령을 익히는 데 도움을 주는 영상임."
+    "video_desc": "생활 속 전기 사고 예방을 위한 안전 행동 요령"
   },
   {
     "kit_id": "sc6231",
@@ -18428,7 +18428,7 @@
     "sort_order": 26,
     "video_url": "https://www.youtube.com/watch?v=R1qiHakytRE",
     "video_title": "펭수가 알려주는 전기 사고 대비법",
-    "video_desc": "펭수와 함께 알아보는 일상 속 전기 사고 예방 및 대처 방법을 알아보는 데 도움을 주는 영상임."
+    "video_desc": "펭수와 함께 알아보는 일상 속 전기 사고 예방 및 대처 방법"
   },
   {
     "kit_id": "sc6241",
@@ -18453,7 +18453,7 @@
     "sort_order": 2,
     "video_url": "https://www.youtube.com/watch?v=h9nQNPXPWig",
     "video_title": "다양한 분야에서 활용되는 로봇",
-    "video_desc": "생활 속 다양한 분야에 활용되는 AI 로봇의 발전 모습을 확인하는 데 도움을 주는 영상임."
+    "video_desc": "생활 속 다양한 분야에 활용되는 AI 로봇의 발전 모습"
   },
   {
     "kit_id": "sc6241",
@@ -18464,7 +18464,7 @@
     "sort_order": 3,
     "video_url": "https://www.youtube.com/watch?v=EZNoC4jmGzg",
     "video_title": "미래에 사라질 위기에 놓인 직업",
-    "video_desc": "AI 기술 발전에 따라 사라질 가능성이 높은 직업군을 분석하는 데 도움을 주는 영상임."
+    "video_desc": "AI 기술 발전에 따라 사라질 가능성이 높은 직업군"
   },
   {
     "kit_id": "sc6241",
@@ -18475,7 +18475,7 @@
     "sort_order": 4,
     "video_url": "https://www.youtube.com/watch?v=TcmSp8eoz9c",
     "video_title": "기술의 발전으로 변화한 미래의 집",
-    "video_desc": "첨단 기술로 인해 모든 일상이 통합되는 미래 주거 공간의 모습을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "첨단 기술로 인해 모든 일상이 통합되는 미래 주거 공간의 모습"
   },
   {
     "kit_id": "sc6241",
@@ -18486,7 +18486,7 @@
     "sort_order": 5,
     "video_url": "https://www.youtube.com/watch?v=YYbcrGmYvfM",
     "video_title": "2050년의 미래기술",
-    "video_desc": "2050년에 실현될 놀라운 50가지 미래기술을 소개하는 영상임."
+    "video_desc": "2050년에 실현될 놀라운 50가지 미래기술"
   },
   {
     "kit_id": "sc6241",
@@ -18497,7 +18497,7 @@
     "sort_order": 6,
     "video_url": "https://www.youtube.com/watch?v=QGtQxPsv3tM",
     "video_title": "컴퓨터 프로그램이 예측한 미래",
-    "video_desc": "MIT 컴퓨터 프로그램이 예측한 인류의 미래와 기후 위기 경고를 알아보는 데 도움을 주는 영상임."
+    "video_desc": "MIT 컴퓨터 프로그램이 예측한 인류의 미래와 기후 위기 경고"
   },
   {
     "kit_id": "sc6241",
@@ -18508,7 +18508,7 @@
     "sort_order": 7,
     "video_url": "https://www.youtube.com/watch?v=VBZ4giZk_EM",
     "video_title": "학생들이 AI에 의존하게 되는 미래",
-    "video_desc": "인공지능이 일상화된 2045년 미래 학교의 모습과 지식의 본질을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "인공지능이 일상화된 2045년 미래 학교의 모습과 지식의 본질"
   },
   {
     "kit_id": "sc6241",
@@ -18519,7 +18519,7 @@
     "sort_order": 8,
     "video_url": "https://www.youtube.com/watch?v=Mu_JD-pYX5M",
     "video_title": "인구 감소가 가져올 파국의 미래",
-    "video_desc": "인구 감소와 초고령화가 초래할 사회적 문제를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "인구 감소와 초고령화가 초래할 사회적 문제"
   },
   {
     "kit_id": "sc6241",
@@ -18530,7 +18530,7 @@
     "sort_order": 9,
     "video_url": "https://www.youtube.com/watch?v=cRrLL6HWtfM",
     "video_title": "기술 발전에 따른 신종 AI 범죄 급증",
-    "video_desc": "생성형 AI 기술 발전으로 급증하는 신종 범죄 현황과 대응의 어려움을 파악하는 데 도움을 주는 영상임."
+    "video_desc": "생성형 AI 기술 발전으로 급증하는 신종 범죄 현황과 대응의 어려움"
   },
   {
     "kit_id": "sc6241",
@@ -18541,7 +18541,7 @@
     "sort_order": 10,
     "video_url": "https://www.youtube.com/watch?v=aopyc8cAFzQ",
     "video_title": "헌옷수거함에 버린 옷들이 가는 곳",
-    "video_desc": "헌옷수거함에 버린 옷이 해외로 수출된 후 발생하는 환경 문제를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "헌옷수거함에 버린 옷이 해외로 수출된 후 발생하는 환경 문제"
   },
   {
     "kit_id": "sc6241",
@@ -18552,7 +18552,7 @@
     "sort_order": 11,
     "video_url": "https://www.youtube.com/watch?v=YrGXmm88NTw",
     "video_title": "인력난을 해결하는 로봇",
-    "video_desc": "관광업계의 인력난 해소를 위한 배달 로봇 활용 사례를 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "관광업계의 인력난 해소를 위한 배달 로봇 활용 사례"
   },
   {
     "kit_id": "sc6241",
@@ -18563,7 +18563,7 @@
     "sort_order": 12,
     "video_url": "https://www.youtube.com/watch?v=ANejX6Y2wso",
     "video_title": "범죄를 예방하는 인공지능 CCTV",
-    "video_desc": "인공지능 기술로 범죄 징후를 사전 감지하고 예측하는 CCTV 시스템을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "인공지능 기술로 범죄 징후를 사전 감지하고 예측하는 CCTV 시스템"
   },
   {
     "kit_id": "sc6241",
@@ -18574,7 +18574,7 @@
     "sort_order": 13,
     "video_url": "https://www.youtube.com/watch?v=rnB2dRgGl_A",
     "video_title": "재난구조를 돕는 첨단 소방 장비",
-    "video_desc": "재난 현장에서 활용되는 AI 로봇과 첨단 소방 장비를 소개하는 데 도움을 주는 영상임."
+    "video_desc": "재난 현장에서 활용되는 AI 로봇과 첨단 소방 장비"
   },
   {
     "kit_id": "sc6241",
@@ -18585,7 +18585,7 @@
     "sort_order": 14,
     "video_url": "https://www.youtube.com/watch?v=tncQAxsiczw",
     "video_title": "뱀 모양을 본떠 만든 재난 구조 로봇",
-    "video_desc": "뱀의 움직임과 비늘 특성을 모방해 재난 현장에 활용하는 로봇 기술을 알아보는 데 도움을 주는 영상임."
+    "video_desc": "뱀의 움직임과 비늘 특성을 모방해 재난 현장에 활용하는 로봇 기술"
   },
   {
     "kit_id": "sc6241",
@@ -18596,7 +18596,7 @@
     "sort_order": 15,
     "video_url": "https://www.youtube.com/watch?v=1wp1Feka0OQ",
     "video_title": "사람을 구하는 수중로봇",
-    "video_desc": "수중 로봇을 활용한 신속한 익수자 수색 및 구조 현장을 살펴보는 데 도움을 주는 영상임."
+    "video_desc": "수중 로봇을 활용한 신속한 익수자 수색 및 구조 현장"
   },
   {
     "kit_id": "sc6241",
@@ -18607,7 +18607,7 @@
     "sort_order": 16,
     "video_url": "https://www.youtube.com/watch?v=QdZFYkd7I1Q",
     "video_title": "쓰레기를 다시 연료로 재활용하는 열분해기술",
-    "video_desc": "폐플라스틱을 연료로 변환하는 친환경 열분해 기술을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "폐플라스틱을 연료로 변환하는 친환경 열분해 기술"
   },
   {
     "kit_id": "sc6241",
@@ -18618,7 +18618,7 @@
     "sort_order": 17,
     "video_url": "https://www.youtube.com/watch?v=uHxtzufN-6I",
     "video_title": "지속가능한 차세대 친환경 플라스틱",
-    "video_desc": "자연 부산물을 활용해 성능과 내구성을 갖춘 친환경 바이오 플라스틱 제조 기술을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "자연 부산물을 활용해 성능과 내구성을 갖춘 친환경 바이오 플라스틱 제조 기술"
   },
   {
     "kit_id": "sc6241",
@@ -18629,7 +18629,7 @@
     "sort_order": 18,
     "video_url": "https://www.youtube.com/watch?v=wnmCDyQdJbo",
     "video_title": "탄소를 고체로, 세계 최초 탄소 정제소",
-    "video_desc": "이산화탄소를 고체 광물로 빠르게 바꾸는 세계 최초 탄소 정제소를 알아보는 데 도움을 주는 영상임."
+    "video_desc": "이산화탄소를 고체 광물로 빠르게 바꾸는 세계 최초 탄소 정제소"
   },
   {
     "kit_id": "sc6241",
@@ -18640,7 +18640,7 @@
     "sort_order": 19,
     "video_url": "https://www.youtube.com/watch?v=2-YeHsLqeQk",
     "video_title": "10년 후 부자 될 수 있는 미래 유망 직업",
-    "video_desc": "과학 기술 발달에 따른 10년 후 미래 유망 직업을 소개하는 데 도움을 주는 영상임."
+    "video_desc": "과학 기술 발달에 따른 10년 후 미래 유망 직업"
   },
   {
     "kit_id": "sc6241",
@@ -18651,7 +18651,7 @@
     "sort_order": 20,
     "video_url": "https://www.youtube.com/watch?v=ewuyMOk6z0U",
     "video_title": "사연을 읽으며 미래 직업 상상하기",
-    "video_desc": "사연을 통해 과학 발달로 변화할 미래 직업을 상상하는 데 도움을 주는 영상임."
+    "video_desc": "사연을 통해 과학 발달로 변화할 미래 직업"
   },
   {
     "kit_id": "sc6241",
@@ -18662,7 +18662,7 @@
     "sort_order": 21,
     "video_url": "https://www.youtube.com/watch?v=A5zXPVAxYhA",
     "video_title": "우리가 잘 모르는 미래 직업",
-    "video_desc": "과학 기술의 발달로 새롭게 등장할 미래의 다양한 직업군을 탐색하는 데 도움을 주는 영상임."
+    "video_desc": "과학 기술의 발달로 새롭게 등장할 미래의 다양한 직업군"
   },
   {
     "kit_id": "sc6241",
@@ -18673,6 +18673,6 @@
     "sort_order": 22,
     "video_url": "https://www.youtube.com/watch?v=gKDkXTSgWxM",
     "video_title": "탄소와 관련된 미래 유망 직업",
-    "video_desc": "탄소 중립 실현을 위해 새롭게 등장할 미래 유망 직업을 탐구하는 데 도움을 주는 영상임."
+    "video_desc": "탄소 중립 실현을 위해 새롭게 등장할 미래 유망 직업"
   }
 ]
