@@ -50,6 +50,7 @@ npm run typecheck
 - **뷰어**: 핵심어 그룹 목차 사이드바 + 본문(intro 문서형 / 영상 영화관 모드 + lite-youtube 파사드 / 이미지 / 위지윅). 조회수·좋아요·링크복사. 없는 id는 랜딩으로 리다이렉트.
   - **핵심 용어 설명**: intro의 용어 칩 탭 → 바로 아래 설명 패널 토글(한 번에 하나). 꾸러미 파일 `intro.concepts[].def` → 빌드가 `concept_defs` 산출. 풀이 없는 용어는 비탭.
   - **개념 확인 OX 퀴즈**: 단원 마지막 가상 화면(`/:kitId/_quiz`). 풀에서 2문제 무작위(진입·다시풀기마다 다른 조합), O/X 채점·해설. 풀 2개 미만이면 화면 미노출. 데이터는 꾸러미 파일 `quiz` → `data/quiz.json`.
+  - **모음(맞춤 목록)**: 영상마다 「＋ 모음에 담기」 → 「모음 n」 → 제목·안내 → `kit.dgedu.link/m/<id>` + dgedu.link 짧은 주소·QR. 모음 화면은 같은 뷰어(고른 순서, 단원 이름표). 수업나래도 같은 API로 만든다. [docs/FEATURE_PLAN_mix.md](docs/FEATURE_PLAN_mix.md)
   - **문제 알리기**: 영상 화면 머리의 「문제 알리기」 → 이유·메모 → D1 `edukit_reports` + 운영자 알림 메일(Resend, 하루 상한). 처리 절차 [docs/OPERATIONS.md](docs/OPERATIONS.md) §3-7.
   - **외부 학습자원 링크**(`ResourceLinks`): 에듀맵스·개념튼튼 ON싹(새 창). 홈 푸터 + 퀴즈 완료 화면 하단.
 - **공유 미리보기(OG)**: 꾸러미별 카드 `public/og/<id>.png`. ⚠️ **콘텐츠(꾸러미 추가/제목 변경) 후 `npm run og` 재실행 + 커밋 필요** — Cloudflare 빌드는 폰트가 없어 생성 못 함.

@@ -1,9 +1,12 @@
-import { lazy, Suspense, useEffect, useRef } from "react";
+import { lazy, Suspense, useEffect, useRef, useState } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
-import { MessageCircleQuestion } from "lucide-react";
+import { MessageCircleQuestion, Layers } from "lucide-react";
+import { useBasket } from "./lib/mix.ts";
 import HomePage from "./routes/HomePage.tsx";
 // 뷰어는 지연 로드 — 무거운 items.json(~600KB)을 홈 번들에서 분리
 const ViewerPage = lazy(() => import("./routes/ViewerPage.tsx"));
+const MixPage = lazy(() => import("./routes/MixPage.tsx"));
+const MixBuilderModal = lazy(() => import("./components/MixBuilderModal.tsx"));
 
 const SURVEY_URL = "https://dgedu.link/kit-form";
 
@@ -15,6 +18,28 @@ function SurveyFab() {
       <MessageCircleQuestion size={23} strokeWidth={2.1} />
       <span className="survey-fab__tip" role="tooltip">수업꾸러미 설문</span>
     </a>
+  );
+}
+
+// 담은 영상이 있으면 설문 단추 위에 「모음 n」 단추 — 누르면 모음 만들기 창(지연 로드). docs/FEATURE_PLAN_mix.md
+function MixFab() {
+  const basket = useBasket();
+  const [open, setOpen] = useState(false);
+  if (!basket.length && !open) return null;
+  return (
+    <>
+      {basket.length > 0 && (
+        <button type="button" onClick={() => setOpen(true)} aria-label={`모음 만들기(담은 영상 ${basket.length}개)`}
+          style={{ position: "fixed", right: 20, bottom: 78, zIndex: 60, height: 42, padding: "0 16px", borderRadius: 9999, border: 0, cursor: "pointer", background: "var(--color-ink, #0f172a)", color: "#fff", display: "inline-flex", alignItems: "center", gap: 7, fontSize: 13.5, fontWeight: 800, boxShadow: "0 6px 18px rgba(15,23,42,.25)" }}>
+          <Layers size={16} /> 모음 {basket.length}
+        </button>
+      )}
+      {open && (
+        <Suspense fallback={null}>
+          <MixBuilderModal open={open} onClose={() => setOpen(false)} />
+        </Suspense>
+      )}
+    </>
   );
 }
 
@@ -50,11 +75,14 @@ export default function App() {
       <Suspense fallback={viewerFallback}>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/m/:mixId" element={<MixPage />} />
+          <Route path="/m/:mixId/:itemId" element={<MixPage />} />
           <Route path="/:kitId" element={<ViewerPage />} />
           <Route path="/:kitId/:itemId" element={<ViewerPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Suspense>
+      <MixFab />
       <SurveyFab />
     </>
   );

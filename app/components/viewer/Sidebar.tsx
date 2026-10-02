@@ -9,9 +9,10 @@ interface Props {
   onSelect: (itemKey: string) => void;
   onClose: () => void;
   quiz?: { active: boolean; onSelect: () => void }; // 단원 마지막 개념 확인 화면(있을 때만)
+  note?: string; // 모음 안내 글(모음 뷰어만)
 }
 
-export default function Sidebar({ groups, selKey, flowLabel, onSelect, onClose, quiz }: Props) {
+export default function Sidebar({ groups, selKey, flowLabel, onSelect, onClose, quiz, note }: Props) {
   return (
     <nav className="sk-scroll" aria-label="학습 목차" style={{ width: 330, flexShrink: 0, height: "100%", minHeight: 0, background: "#fff", borderRight: "1px solid var(--color-slate-100)", overflowY: "auto", WebkitOverflowScrolling: "touch", overscrollBehavior: "contain", padding: "14px 14px 40px" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "4px 8px 12px" }}>
@@ -21,10 +22,14 @@ export default function Sidebar({ groups, selKey, flowLabel, onSelect, onClose, 
         </button>
       </div>
 
-      {groups.map((g) => {
+      {note && (
+        <div style={{ margin: "0 6px 14px", padding: "10px 12px", borderRadius: 11, background: "var(--color-slate-50)", border: "1px solid var(--color-slate-100)", fontSize: 12.5, fontWeight: 500, lineHeight: 1.6, color: "var(--color-slate-600)", whiteSpace: "pre-wrap" }}>{note}</div>
+      )}
+
+      {groups.map((g, gi) => {
         const st = stageColor(g.stage, g.sort_order);
         return (
-          <div key={g.stage} style={{ marginBottom: 10 }}>
+          <div key={`${gi}-${g.stage}`} style={{ marginBottom: 10 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "6px 8px" }}>
               <span style={{ padding: "4px 10px", borderRadius: 9999, background: st.soft, color: st.text, fontSize: 11, fontWeight: 800 }}>{g.stage}</span>
               <span style={{ height: 1, flex: 1, background: "var(--color-slate-100)" }} />

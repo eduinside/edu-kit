@@ -47,3 +47,17 @@ CREATE TABLE IF NOT EXISTS edukit_reports (
   resolution  TEXT,
   UNIQUE (kit_id, item_key, reason, visitor_id, reported_on)
 );
+
+-- 모음(맞춤 목록) /m/:id (docs/FEATURE_PLAN_mix.md). Pages Function이 첫 요청 때 같은 문장으로 만든다.
+CREATE TABLE IF NOT EXISTS edukit_mixes (
+  id           TEXT PRIMARY KEY,           -- 6자(헷갈리는 글자 뺀 소문자+숫자)
+  title        TEXT NOT NULL,
+  note         TEXT,
+  items        TEXT NOT NULL,              -- JSON ["so4122/v7", ...]
+  source       TEXT NOT NULL DEFAULT 'kit', -- kit · narae
+  creator_hash TEXT NOT NULL,              -- IP를 그날 날짜와 섞은 해시(남용 막기용, 원래 IP는 저장 안 함)
+  created_on   TEXT NOT NULL,
+  short_slug   TEXT,                       -- dgedu.link
+  short_url    TEXT,
+  created_at   TEXT NOT NULL DEFAULT (datetime('now'))
+);

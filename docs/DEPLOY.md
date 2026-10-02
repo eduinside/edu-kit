@@ -44,13 +44,19 @@ npx wrangler pages secret put REPORT_EMAIL_TO --project-name edu-kit    # 받는
 - Resend 무료 한도(하루 100통·한 달 3,000통)는 수업나래와 함께 쓴다. 그래서 하루 상한을 둔다.
 - 미리보기(Preview) 환경에서 메일을 시험하려면 같은 명령에 `--env preview`를 붙인다.
 
+## 5-2. 모음 짧은 주소(dgedu.link) 비밀 값
+모음(`/m/:id`, [FEATURE_PLAN_mix.md](FEATURE_PLAN_mix.md))이 dgedu.link 짧은 주소를 만들려면 필요하다. 없으면 `kit.dgedu.link/m/<id>`만 준다. 로컬 `.env`의 `DGEDU_LINK_API_KEY`와 같은 값이다.
+```bash
+npx wrangler pages secret put DGEDU_LINK_API_KEY --project-name edu-kit
+```
+
 ## 6. 로컬 검증(참고)
 ```bash
 npm run build
 wrangler d1 execute edu-link-db --local --file db/schema.sql
 wrangler d1 execute edu-link-db --local --file db/seed-stats.sql
 wrangler pages dev dist                         # http://localhost:8788
-# GET /api/kits/ab12/stats, POST /api/kits/ab12/{view,like,report}
+# GET /api/kits/ab12/stats, POST /api/kits/ab12/{view,like,report}, POST /api/mix, GET /api/mix/<id>
 # 신고 메일 경로까지 보려면: npx wrangler pages dev --binding RESEND_API_KEY=dummy REPORT_EMAIL_TO=test@example.com
 ```
 > 로컬 wrangler 바이너리가 `compatibility_date`를 지원하지 않으면 `wrangler.jsonc`의 날짜를 낮추거나 wrangler를 업그레이드한다(현재 `2026-05-03`).

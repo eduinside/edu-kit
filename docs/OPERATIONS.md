@@ -156,6 +156,18 @@ quiz:                      # 개념 확인 OX — 단원당 5~8개 권장, 화�
      ```
    - 문제없음이나 장난 신고는 `status='rejected'`로 적는다.
 
+### 3-8. 모음(맞춤 목록)
+- **화면**: 교사가 영상 화면의 「＋ 모음에 담기」로 고르고, 「모음 n」 단추 → 제목·안내 → 「모음 주소 만들기」를 누른다. 수업나래도 `POST /api/mix`(CORS)를 부른다.
+- **결과**: `kit.dgedu.link/m/<id>`와 dgedu.link 짧은 주소·QR이 만들어진다. 짧은 주소는 Pages 비밀 값 `DGEDU_LINK_API_KEY`가 있을 때만 생긴다.
+- **저장**: D1 `edukit_mixes`. 모음은 고치지 않는다(바꾸려면 새로 만든다).
+- 꾸러미에서 영상을 빼거나 key를 바꾸면 그 영상은 모음에서도 사라진다(화면에서 건너뜀). **그래서 key를 바꾸지 않는 규칙이 모음에도 중요하다.**
+- 지워 달라는 요청이 오면, 운영자 확인 뒤에 처리한다.
+  ```bash
+  npx wrangler d1 execute edu-link-db --remote --command "DELETE FROM edukit_mixes WHERE id='<id>'"
+  ```
+  dgedu.link의 짧은 주소는 운영자 대시보드에서 따로 지운다.
+- 계획: [FEATURE_PLAN_mix.md](FEATURE_PLAN_mix.md)
+
 ### 3-6. 되돌리기
 - `main`에서 문제 커밋을 `git revert`하고 push한다. Pages가 자동으로 다시 배포한다.
 - 꾸러미 파일은 git 이력에 모두 남아 있다.
