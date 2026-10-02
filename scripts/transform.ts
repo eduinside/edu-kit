@@ -44,6 +44,7 @@ const ItemSchema = z.object({
   start_sec: z.number().int().nonnegative().optional(),
   end_sec: z.number().int().nonnegative().optional(),
   video_license: z.string().optional(),
+  channel: z.string().optional(),
   video_embed: z.literal(false).optional(),
   caption: z.string().optional(),
   image_url: z.string().url().optional(),

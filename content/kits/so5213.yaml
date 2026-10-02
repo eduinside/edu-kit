@@ -13,13 +13,18 @@ intro:
   core_question: 우리는 다양한 역사 자료를 통해 고려 시대 사회의 모습과 사람들의 삶의 변화를 어떻게 추론할 수 있을까?
   concepts:
     - term: 공간과 장소
+      def: 사람들이 살아가고 활동하며 의미를 만들어 가는 지표면의 일정한 범위이다.
     - term: 변화
+      def: 시간이 흐르면서 모습이나 성질, 생활 방식 등이 달라지는 것이다.
     - term: 역사 자료
+      def: 과거의 사실과 생활 모습을 알아보는 데 도움이 되는 기록, 유물, 유적 등의 자료이다.
     - term: 생활 모습
+      def: 사람들이 먹고 입고 사는 방법과 일하고 어울리는 방식 등 일상생활에서 드러나는 모습이다.
     - term: 고려 시대
+      def: 고려가 건국된 918년부터 조선이 세워진 1392년까지의 시대이다.
   standards:
     - code: "[6사04-03]"
-      text: 다양한 역사 자료를 활용하여 고려 시대 사회 모습과 사람들의 생활을 추론한다
+      text: 다양한 역사 자료를 활용하여 고려 시대 사회 모습과 사람들의 생활을 추론한다.
 stages:
   - name: 생각열기
     question: 고려를 건국한 왕건은 어떤 인물이었을까?
@@ -84,13 +89,6 @@ items:
     url: https://www.youtube.com/watch?v=zqCNGrlCVWA
     desc: 고려가 몽골의 침입에 대응한 과정을 탐구함.
     channel: 지니스쿨 역사 GeniSchool History
-  - key: v10
-    stage: 탐구하기2
-    title: 고려 불교 문화의 특징과 대표적인 행사
-    url: https://www.youtube.com/watch?v=PYFVq8dUjUs
-    desc: 고려의 불교문화 특징과 대표 행사를 탐구함.
-    channel: EBS BOOK STORY
-    status: 국내차단
   - key: v11
     stage: 탐구하기2
     title: 고려는 불심을 어떻게 그림으로 나타냈을까?

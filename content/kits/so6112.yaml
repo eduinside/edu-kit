@@ -186,7 +186,6 @@ items:
     use: 수업 중
     url: https://www.youtube.com/watch?v=vQpVtDTjTYc
     desc: 정보통신산업 발달 역사를 소개하는 영상
-    embed: false
     channel: 클래스로그
   - key: v23
     stage: 산업화

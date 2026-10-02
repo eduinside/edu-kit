@@ -28,6 +28,9 @@ stages:
   - 직업
   - 역할
   - 태도
+  - 헌법
+  - 기본권
+  - 의무
 items:
   - key: v1
     stage: 법
@@ -98,7 +101,6 @@ items:
     use: 수업 중
     url: https://www.youtube.com/watch?v=shc8yeVwfh4
     desc: 검사가 하는 일 영상
-    embed: false
     channel: 클래스로그
   - key: v11
     stage: 역할
@@ -135,6 +137,153 @@ items:
     url: https://www.youtube.com/watch?v=Un3LaZ8rS7U
     desc: 정의로운 사회를 만들기 위한 개인의 역할 영상
     channel: 유 퀴즈 온 더 튜브
+  - key: v16
+    stage: 헌법
+    title: 제헌절은 무슨날일까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=M5Ykdo7di04
+    desc: 헌법이 만들어진 날 제헌절을 살펴보는 동기유발 영상
+    channel: 3분차이
+  - key: v17
+    stage: 헌법
+    title: 헌법에는 어떤 내용이 담겨있을까요?(1)
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=BLb5KObNfEU
+    desc: 헌법 10조에 담긴 내용을 살펴보며 다른 헌법 조항에 관심을 가지는 동기유발 영상
+    channel: tvN D ENT
+  - key: v18
+    stage: 헌법
+    title: 헌법에는 어떤 내용이 담겨있을까요?(2)
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=WOXSucTl6y0
+    desc: 헌법 1조 2항에 담긴 내용을 살펴보며 다른 헌법 조항에 관심을 가지는 동기유발 영상
+    channel: mintro
+  - key: v19
+    stage: 헌법
+    title: 다른 나라는 어떤 헌법을 갖고 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=8QKL58_yrPU
+    desc: 다른나라의 헌법에 담긴 내용을 살펴보며 우리나라의 헌법과 비교해볼 수 있는 영상
+    channel: 교양 Voyage
+  - key: v20
+    stage: 헌법
+    title: 헌법과 법은 무엇이 다를까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=nEdBULNdOiA
+    desc: 헌법과 법의 차이점을 쉽게 설명하는 영상
+    channel: 교양 Voyage
+  - key: v21
+    stage: 헌법
+    title: 미란다 원칙은 헌법과 무슨 관련이 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=XEke8RtgUwM
+    desc: 헌법이 일상 생활에서는 어떻게 나타나는지 탐색하는 영상
+    channel: JTBC Entertainment
+  - key: v22
+    stage: 헌법
+    title: 최저시급은 헌법과 무슨 관련이 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=7dNNzDAjPNI
+    desc: 헌법이 일상 생활에서는 어떻게 나타나는지 탐색하는 영상
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v23
+    stage: 헌법
+    title: 기초연금은 헌법과 무슨 관련이 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=G0yp-WIh5G8
+    desc: 헌법이 일상 생활에서는 어떻게 나타나는지 탐색하는 영상
+    channel: 보건복지부TV
+  - key: v24
+    stage: 헌법
+    title: 건강보험은 헌법과 무슨 관련이 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=z3qPCtvpR5E
+    desc: 헌법이 일상 생활에서는 어떻게 나타나는지 탐색하는 영상
+    channel: 국민건강보험
+  - key: v25
+    stage: 헌법
+    title: 헌법재판소는 무슨 일을 할까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=7OBRbl1aK4k
+    desc: 헌법재판소에서 하는 일을 살펴볼 수 있는 영상
+    channel: " YTN"
+  - key: v26
+    stage: 기본권
+    title: 평등권을 침해한 사건은 어떤 것이 있을까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=PjuumctMrX0
+    desc: 평등권을 침해한 사례를 살펴보는 영상
+    channel: SBS 뉴스
+  - key: v27
+    stage: 기본권
+    title: 국가가 국민의 직업을 정해준다면?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Z8GatmNhwNk
+    desc: 국가가 국민의 직업을 정해준다면 나타나는 일에 대해 생각해볼 수 있는 영상
+    channel: GoGoMovie 고고무비
+  - key: v28
+    stage: 기본권
+    title: 누구든지 대통령 선거에 나갈 수 있을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=FpjllM0vEoE
+    desc: 특이한 대통령 후보자를 살펴보며 헌법에 보장된 기본권과 연결시켜볼 수 있는 영상
+    channel: 엠빅뉴스
+  - key: v29
+    stage: 기본권
+    title: 누구든지 국가에 잘못된 일에 대한 민원을 청구할 수 있을까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=6kp00r-X9LU
+    desc: 헌법이 보장하는 기본권 민원청구권 영상
+    channel: MBCNEWS
+  - key: v30
+    stage: 기본권
+    title: 아픈 아이들도 교육을 받을 수 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=i472mrx-l6g
+    desc: 모두에게 교육받을 권리가 주어지는 것을 살펴보는 영상
+    channel: " YTN"
+  - key: v31
+    stage: 기본권
+    title: 기본권도 제한이 될 수 있나요?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=9nzNy3otbdI
+    desc: 기본권이 제한되는 상황에 대한 영상
+    channel: MBClife
+  - key: v32
+    stage: 의무
+    title: 초등학생 예비소집에 꼭 가야하나요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=fWAH7lP5JR4
+    desc: 초등학생 예비소집(교육의 의무) 관련 영상
+    channel: JTBC News
+  - key: v33
+    stage: 의무
+    title: 세금은 왜 내야하나요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Ce5RFfo3ZLs
+    desc: 세금(납세의 의무) 관련 영상
+    channel: 재정경제부
+  - key: v34
+    stage: 의무
+    title: 국방의 의무를 피하는 사람들도 있나요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=xLZSERxXgw8
+    desc: 국방의 의무를 피하는 사람들을 살펴보고 의무의 중요성 탐색 영상
+    channel: 엠빅뉴스
+  - key: v35
+    stage: 의무
+    title: 환경보호의무를 지키려는 사람들의 노력은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=y7G3c1boRbs
+    desc: 환경보호의 의무를 지키는 사람들의 노력 영상
+    channel: KBS News
+  - key: v36
+    stage: 의무
+    title: 납세의 의무를 지키지 않으면 어떻게 될까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=BIkqBRmAmyo
+    desc: 납세의 의무를 피하는 사람들을 살펴보고 의무의 중요성 탐색 영상
+    channel: 비디오머그 - VIDEOMUG
 quiz:
   - statement: 법은 여러 사람이 함께 안전하고 평화롭게 살아가도록 나라에서 정한 규칙이다.
     answer: O

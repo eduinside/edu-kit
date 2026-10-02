@@ -4,7 +4,7 @@
 한 화면에서 영상·이미지·읽기자료·활동을 순서대로 보는 웹 서비스.
 짧은 링크 `kit.dgedu.link/<id>`로 공유, 조회수·좋아요로 활용도 추적.
 
-**라이브**: https://kit.dgedu.link · 현재 81 꾸러미(전부 공개 · 사회 49 · 과학 32 · 영상 1,479) · 에듀나비 연계 콘텐츠.
+**라이브**: https://kit.dgedu.link · 현재 81 꾸러미(전부 공개 · 사회 49 · 과학 32 · 영상 1,443) · 에듀나비 연계 콘텐츠.
 
 - **운영 절차·꾸러미 파일 형식**: [docs/OPERATIONS.md](docs/OPERATIONS.md) · 전환 배경·개선 계획: [docs/IMPROVEMENT_PLAN_claude-ops.md](docs/IMPROVEMENT_PLAN_claude-ops.md) · 은퇴한 시트 시절 문서: [docs/archive/](docs/archive/)
 - 배포: [docs/DEPLOY.md](docs/DEPLOY.md) · 용어 설명·OX 퀴즈 설계: [docs/FEATURE_PLAN_terms-quiz.md](docs/FEATURE_PLAN_terms-quiz.md) · 최초 설계(역사): [docs/IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md)

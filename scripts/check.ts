@@ -74,7 +74,7 @@ for (const d of docs) {
   for (const s of stageNames) if (!used.has(s)) warn(K, `영상 없는 단계: ${s}`);
 
   // 흐름형: 핵심 개념과 영상 단계(핵심어)가 하나도 안 겹치면 다른 단원 영상일 가능성
-  if (d.flow === "flow" && terms.length) {
+  if (d.flow === "flow" && terms.length && stageNames.length) {
     const overlap = stageNames.filter((s) => terms.some((t) => norm(s).includes(norm(t)) || norm(t).includes(norm(s))));
     if (!overlap.length) warn(K, `핵심 개념(${terms.join(", ")})과 영상 단계(${stageNames.join(", ")})가 하나도 안 겹침 — 다른 단원 영상일 수 있음`);
   }

@@ -4,6 +4,7 @@ import { ExternalLink } from "lucide-react";
 const LINKS = [
   { href: "https://map.dgedu.link/", title: "에듀맵스", desc: "현장체험과 온라인 학습 자원을 찾아보세요." },
   { href: "https://ssac.dgedu.link/", title: "개념튼튼 ON싹", desc: "학년별 어휘와 개념을 스스로 익혀요." },
+  { href: "https://dic.dgedu.link/", title: "어린이 쉬운 사전", desc: "어린이를 위한 쉬운 그림 낱말 사전." },
 ] as const;
 
 export default function ResourceLinks({ heading }: { heading?: string }) {

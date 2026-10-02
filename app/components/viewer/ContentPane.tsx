@@ -174,13 +174,19 @@ function VideoBlocked({ it }: { it: Item }) {
 
 // 영상 설명·캡션(영화관 밴드 아래 본문 영역에 표시)
 export function VideoMeta({ it, hl }: { it: Item; hl?: string }) {
-  if (!it.video_desc && !it.caption) return null;
+  if (!it.video_desc && !it.caption && !it.channel) return null;
   return (
     <div>
       {it.video_desc && (
         <div style={{ padding: "16px 18px", ...card, borderRadius: 13 }}>
           <p style={{ margin: 0, fontSize: 14, fontWeight: 500, lineHeight: 1.75, color: "var(--color-slate-600)" }}>{hi(it.video_desc, hl)}</p>
         </div>
+      )}
+      {/* 출처 — 영상을 올린 유튜브 채널(npm run videos가 기록). 교사가 자료의 신뢰를 판단하는 단서. */}
+      {it.channel && (
+        <p style={{ margin: "8px 4px 0", fontSize: 12.5, fontWeight: 500, color: "var(--color-slate-500)" }}>
+          출처 · {it.channel} (YouTube)
+        </p>
       )}
       {it.caption && <Caption text={it.caption} />}
     </div>

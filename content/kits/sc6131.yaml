@@ -143,13 +143,6 @@ items:
     url: https://www.youtube.com/watch?v=kRCeaZHc16Y
     desc: 씨가 퍼지는 다양한 모습 영상
     channel: "안녕 마음아 : Healing 4 U"
-  - key: v15
-    stage: 여러가지 식물
-    title: 식물들은 살아남기 위해 어떤 전략을 가지고 있을까?
-    use: 수업 후
-    url: https://www.youtube.com/watch?v=ooOC2uzITpo
-    desc: 다양한 방식으로 살아가는 식물을 소개하는 데 활용
-    channel: EBS 컬렉션 - 사이언스
   - key: v16
     stage: 여러가지 식물
     title: 곤충을 사냥하는 식물, 파리지옥

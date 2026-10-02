@@ -46,10 +46,9 @@ items:
     channel: 대구MBC뉴스
   - key: v4
     stage: 역사 자료
-    title: 아빠, 바나나 우유 하나만"" 1970~90년대 목욕탕 모습
+    title: '"아빠, 바나나 우유 하나만" 1970~90년대 목욕탕 모습'
     use: 수업 중
     url: https://www.youtube.com/watch?v=Ws0NL1MH6ak
-    video_title: '"아빠, 바나나 우유 하나만" 1970~90년대 목욕탕 모습'
     desc: 과거 공중 목욕탕의 모습
     channel: 대구MBC뉴스
   - key: v5

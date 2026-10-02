@@ -24,157 +24,144 @@ intro:
     - code: "[6사03-02]"
       text: 일상생활에서 인권이 침해되는 사례를 찾아 그 해결 방안을 탐색하고, 인권을 보호하는 활동에 참여한다.
 stages:
-  - 헌법
-  - 기본권
-  - 의무
+  - 인권
+  - 인권신장
+  - 인권침해
+  - 인권보호
 items:
-  - key: v1
-    stage: 헌법
-    title: 제헌절은 무슨날일까요?
+  - key: v22
+    stage: 인권
+    title: 지하철에 낮은 손잡이가 설치되는 이유는 무엇일까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=mthpBxO7Ppo
+    desc: 지하철에 낮은 손잡이가 설치되는 이유를 인권과 관련하여 생각해볼 수 있는 영상
+    channel: 나도 좀 알자
+  - key: v23
+    stage: 인권
+    title: 우리는 어떤 권리를 보장받으며 살고있을까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=da2XMm-BPNc
+    desc: 방글라데시의 아동노동을 살펴보며 학생에게 어떤 권리가 보장되는 것이 필요한지 탐색할 수 있는 영상
+    channel: KBS 세계는지금
+  - key: v24
+    stage: 인권
+    title: 어린이들에게는 어떤 권리가 보장되어야할까요?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Q_p_rv87-V0
+    desc: 세계 각국의 어린 아이들이 생각하는 아동의 권리에 대한 영상
+    channel: 세이브더칠드런
+  - key: v25
+    stage: 인권신장
+    title: 홍길동전에 숨겨진 인권 이야기
     use: 배경지식
-    url: https://www.youtube.com/watch?v=M5Ykdo7di04
-    desc: 헌법이 만들어진 날 제헌절을 살펴보는 동기유발 영상
+    url: https://www.youtube.com/watch?v=RnpHOEyU28M
+    desc: 홍길동전에 숨겨진 과거의 인권 이야기
+    channel: 사피엔스 스튜디오
+  - key: v26
+    stage: 인권신장
+    title: 어린이날 속에는 어떤 인권 이야기가 숨어있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ADHMaSN0bo8
+    desc: 어린이날 속에 숨은 인권 이야기
     channel: 3분차이
-  - key: v2
-    stage: 헌법
-    title: 헌법에는 어떤 내용이 담겨있을까요?(1)
-    use: 수업 전
-    url: https://www.youtube.com/watch?v=BLb5KObNfEU
-    desc: 헌법 10조에 담긴 내용을 살펴보며 다른 헌법 조항에 관심을 가지는 동기유발 영상
-    channel: tvN D ENT
-  - key: v3
-    stage: 헌법
-    title: 헌법에는 어떤 내용이 담겨있을까요?(2)
-    use: 수업 전
-    url: https://www.youtube.com/watch?v=WOXSucTl6y0
-    desc: 헌법 1조 2항에 담긴 내용을 살펴보며 다른 헌법 조항에 관심을 가지는 동기유발 영상
-    channel: mintro
-  - key: v4
-    stage: 헌법
-    title: 다른 나라는 어떤 헌법을 갖고 있을까?
+  - key: v27
+    stage: 인권신장
+    title: 시각장애인들의 세종대왕 박두성 선생님은 어떤 사람일까?
     use: 배경지식
-    url: https://www.youtube.com/watch?v=8QKL58_yrPU
-    desc: 다른나라의 헌법에 담긴 내용을 살펴보며 우리나라의 헌법과 비교해볼 수 있는 영상
-    channel: 교양 Voyage
-  - key: v5
-    stage: 헌법
-    title: 헌법과 법은 무엇이 다를까?
-    use: 수업 후
-    url: https://www.youtube.com/watch?v=nEdBULNdOiA
-    desc: 헌법과 법의 차이점을 쉽게 설명하는 영상
-    channel: 교양 Voyage
-  - key: v6
-    stage: 헌법
-    title: 미란다 원칙은 헌법과 무슨 관련이 있을까?
+    url: https://www.youtube.com/watch?v=J19Hi6D78S0
+    desc: 훈맹정음의 창시자 박두성 선생님의 이야기 영상
+    channel: MBCentertainment
+  - key: v28
+    stage: 인권신장
+    title: 시각장애인들은 어떻게 투표에 참여할까?
     use: 배경지식
-    url: https://www.youtube.com/watch?v=XEke8RtgUwM
-    desc: 헌법이 일상 생활에서는 어떻게 나타나는지 탐색하는 영상
-    channel: JTBC Entertainment
-  - key: v7
-    stage: 헌법
-    title: 최저시급은 헌법과 무슨 관련이 있을까?
+    url: https://www.youtube.com/watch?v=SWuXqRq7Qac
+    desc: 시각장애인들의 인권신장을 위한 투표 방안 영상
+    channel: 원샷한솔OneshotHansol
+  - key: v29
+    stage: 인권신장
+    title: 과거에도 출산휴가가 있었을까?
     use: 배경지식
-    url: https://www.youtube.com/watch?v=7dNNzDAjPNI
-    desc: 헌법이 일상 생활에서는 어떻게 나타나는지 탐색하는 영상
-    channel: 스브스뉴스 SUBUSUNEWS
-  - key: v8
-    stage: 헌법
-    title: 기초연금은 헌법과 무슨 관련이 있을까?
-    use: 배경지식
-    url: https://www.youtube.com/watch?v=G0yp-WIh5G8
-    desc: 헌법이 일상 생활에서는 어떻게 나타나는지 탐색하는 영상
-    channel: 보건복지부TV
-  - key: v9
-    stage: 헌법
-    title: 건강보험은 헌법과 무슨 관련이 있을까?
-    use: 배경지식
-    url: https://www.youtube.com/watch?v=z3qPCtvpR5E
-    desc: 헌법이 일상 생활에서는 어떻게 나타나는지 탐색하는 영상
-    channel: 국민건강보험
-  - key: v10
-    stage: 헌법
-    title: 헌법재판소는 무슨 일을 할까?
-    use: 수업 후
-    url: https://www.youtube.com/watch?v=7OBRbl1aK4k
-    desc: 헌법재판소에서 하는 일을 살펴볼 수 있는 영상
+    url: https://www.youtube.com/watch?v=1udupQM3exA
+    desc: 과거의 출산휴가 제도 영상
     channel: " YTN"
-  - key: v11
-    stage: 기본권
-    title: 평등권을 침해한 사건은 어떤 것이 있을까?
+  - key: v30
+    stage: 인권신장
+    title: 과거의 재판제도는 어땠을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=4gy-6ZgvSAM
+    desc: 과거의 재판제도 영상
+    channel: EBSCulture (EBS 교양)
+  - key: v31
+    stage: 인권침해
+    title: 평소에 보는 장애인 마크에 무슨 문제점이 있을까?
     use: 수업 전
-    url: https://www.youtube.com/watch?v=PjuumctMrX0
-    desc: 평등권을 침해한 사례를 살펴보는 영상
+    url: https://www.youtube.com/watch?v=-_oXidB9wko
+    desc: 일상 속 인권 침해 요소를 찾아보기 전 살펴볼 수 있는 장애인 마크 관련 영상
+    channel: EBS뉴스
+  - key: v32
+    stage: 인권침해
+    title: 할아버지는 왜 취업이 안되나요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=6Y74ciWhdco
+    desc: 초상권 침해가 인권침해인 이유에 대하여 알아볼 수 있는 영상
+    channel: 국가인권위원회
+  - key: v33
+    stage: 인권침해
+    title: 초상권 침해는 왜 인권침해일까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=c3on5Q1ZlqA
+    desc: 일상 속 인권침해 요소를 찾아볼 수 있는 영상
+    channel: 서울특별시교육청교육연구정보원
+  - key: v34
+    stage: 인권침해
+    title: 지하철을 타고 내릴때도 인권침해가 존재할까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=NTRVeqU3J-4
+    desc: 일상 속 인권침해 요소를 찾아볼 수 있는 영상
+    channel: YTN 사이언스 투데이
+  - key: v35
+    stage: 인권침해
+    title: 편의점에서는 어떤 인권침해가 발생할 수 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=20dWeXXUIug
+    desc: 일상 속 인권침해 요소를 찾아볼 수 있는 영상
+    channel: 국가인권위원회
+  - key: v36
+    stage: 인권침해
+    title: 장애인이 대중교통을 이용하면 어떤 불편함이 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=uoRA6VDqmQ4
+    desc: 일상 속 인권침해 요소를 찾아볼 수 있는 영상
+    channel: 크랩 KLAB
+  - key: v37
+    stage: 인권침해
+    title: 유모차와 대중교통을 이용하려면 어떤 불편함이 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=AcnadxWs4B0
+    desc: 일상 속 인권침해 요소를 찾아볼 수 있는 영상
+    channel: TBS 시민의방송
+  - key: v38
+    stage: 인권보호
+    title: 살구색은 왜 이름이 두번이나 바뀌었을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ziQUssSilOI
+    desc: 일상 속 인권침해 요소가 어떻게 바뀌어 왔는지 알아볼 수 있는 영상
+    channel: 국가인권위원회
+  - key: v39
+    stage: 인권보호
+    title: 자연재해로 피해를 입은 사람들의 인권 보호를 위해 어떤 일을 할까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=i9pnURejb1g
+    desc: 인권 보호를 위해 노력하는 여러 주체들에 대한 영상
     channel: SBS 뉴스
-  - key: v12
-    stage: 기본권
-    title: 국가가 국민의 직업을 정해준다면?
+  - key: v40
+    stage: 인권보호
+    title: 17세에 노벨상을 탄 소녀의 인권보호 이야기
     use: 수업 전
-    url: https://www.youtube.com/watch?v=Z8GatmNhwNk
-    desc: 국가가 국민의 직업을 정해준다면 나타나는 일에 대해 생각해볼 수 있는 영상
-    channel: GoGoMovie 고고무비
-  - key: v13
-    stage: 기본권
-    title: 누구든지 대통령 선거에 나갈 수 있을까?
-    use: 수업 후
-    url: https://www.youtube.com/watch?v=FpjllM0vEoE
-    desc: 특이한 대통령 후보자를 살펴보며 헌법에 보장된 기본권과 연결시켜볼 수 있는 영상
-    channel: 엠빅뉴스
-  - key: v14
-    stage: 기본권
-    title: 누구든지 국가에 잘못된 일에 대한 민원을 청구할 수 있을까?
-    use: 수업 전
-    url: https://www.youtube.com/watch?v=6kp00r-X9LU
-    desc: 헌법이 보장하는 기본권 민원청구권 영상
-    channel: MBCNEWS
-  - key: v15
-    stage: 기본권
-    title: 아픈 아이들도 교육을 받을 수 있을까?
-    use: 수업 중
-    url: https://www.youtube.com/watch?v=i472mrx-l6g
-    desc: 모두에게 교육받을 권리가 주어지는 것을 살펴보는 영상
-    channel: " YTN"
-  - key: v16
-    stage: 기본권
-    title: 기본권도 제한이 될 수 있나요?
-    use: 수업 후
-    url: https://www.youtube.com/watch?v=9nzNy3otbdI
-    desc: 기본권이 제한되는 상황에 대한 영상
-    channel: MBClife
-  - key: v17
-    stage: 의무
-    title: 초등학생 예비소집에 꼭 가야하나요?
-    use: 수업 전
-    url: https://www.youtube.com/watch?v=fWAH7lP5JR4
-    desc: 초등학생 예비소집(교육의 의무) 관련 영상
-    channel: JTBC News
-  - key: v18
-    stage: 의무
-    title: 세금은 왜 내야하나요?
-    use: 수업 전
-    url: https://www.youtube.com/watch?v=Ce5RFfo3ZLs
-    desc: 세금(납세의 의무) 관련 영상
-    channel: 재정경제부
-  - key: v19
-    stage: 의무
-    title: 국방의 의무를 피하는 사람들도 있나요?
-    use: 수업 전
-    url: https://www.youtube.com/watch?v=xLZSERxXgw8
-    desc: 국방의 의무를 피하는 사람들을 살펴보고 의무의 중요성 탐색 영상
-    channel: 엠빅뉴스
-  - key: v20
-    stage: 의무
-    title: 환경보호의무를 지키려는 사람들의 노력은?
-    use: 수업 중
-    url: https://www.youtube.com/watch?v=y7G3c1boRbs
-    desc: 환경보호의 의무를 지키는 사람들의 노력 영상
-    channel: KBS News
-  - key: v21
-    stage: 의무
-    title: 납세의 의무를 지키지 않으면 어떻게 될까요?
-    use: 수업 전
-    url: https://www.youtube.com/watch?v=BIkqBRmAmyo
-    desc: 납세의 의무를 피하는 사람들을 살펴보고 의무의 중요성 탐색 영상
-    channel: 비디오머그 - VIDEOMUG
+    url: https://www.youtube.com/watch?v=hnf41mIsHxI
+    desc: 인권 보호를 위해 우리가 할 수 있는 다양한 일들에 대해 논의할 수 있는 영상
+    channel: 스브스뉴스 SUBUSUNEWS
 quiz:
   - statement: 인권은 사람이라면 누구나 태어날 때부터 가지는 권리이다.
     answer: O

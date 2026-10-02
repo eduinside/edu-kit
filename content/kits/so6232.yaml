@@ -13,9 +13,13 @@ intro:
   core_question: 지구촌을 위협하는 문제를 어떻게 해결할까?
   concepts:
     - term: 상호 작용
+      def: 둘 이상의 대상이 서로 영향을 주고받는 관계이다.
     - term: 공동체
+      def: 공통의 생활 터전이나 목적을 바탕으로 서로 관계를 맺고 살아가는 집단이다.
     - term: 협력
+      def: 공동의 목표를 이루기 위해 힘과 지혜를 모아 함께 행동하는 것이다.
     - term: 평화
+      def: 전쟁이나 폭력이 없고 서로의 권리와 안전이 존중되는 상태이다.
   standards:
     - code: "[6사12-02]"
       text: 지구촌을 위협하는 다양한 문제들을 파악하고, 지속가능한 미래를 위한 해결 방안을 탐색한다.
@@ -119,8 +123,8 @@ items:
     url: https://www.youtube.com/watch?v=fekth4nHCE4
     desc: UN은 세계 평화와 국제 협력을 위해 여러 나라가 함께 만든 국제기구로, 다양한 국제 문제 해결을 위해 협력하는 역할을 함을 이해함.
     embed: false
-    status: 임베드차단
     channel: 경기평생교육학습관 번데기학교
+    status: 임베드차단
   - key: v16
     stage: 탐구하기2
     title: 사회 문제 해결을 위해 활동하는 비영리 단체 NGO의 역할

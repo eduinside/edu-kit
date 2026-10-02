@@ -66,7 +66,7 @@ export const KitDocSchema = z.object({
     concepts: z.array(ConceptSchema).default([]),
     standards: z.array(StandardSchema).min(1),
   }).strict(),
-  stages: z.array(StageSchema).min(1),
+  stages: z.array(StageSchema), // 영상을 비워 둔 꾸러미는 빈 목록
   items: z.array(VideoItemSchema),
   quiz: z.array(QuizSchema).default([]),
 }).strict();
@@ -139,6 +139,7 @@ export function toSheetRows(docs: KitDoc[]): { kits: Row[]; items: Row[]; stage_
         video_url: it.url, video_title: it.video_title ?? it.title, video_desc: it.desc,
         start_sec: it.start, end_sec: it.end,
         video_embed: it.embed === false ? false : undefined,
+        channel: it.channel, // 출처 표시(사이트 영상 설명 아래)
       });
     });
 

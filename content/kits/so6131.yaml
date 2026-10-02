@@ -41,7 +41,6 @@ items:
     use: 배경지식
     url: https://www.youtube.com/watch?v=HftMUiZZQAU
     desc: 대한민국 최초의 세계여행기를 보며, 나의 경험과 연관지어보는 데 활용
-    embed: false
     channel: 클래스로그
   - key: v2
     stage: 지도
@@ -56,7 +55,6 @@ items:
     use: 배경지식
     url: https://www.youtube.com/watch?v=K1iJrwuSyIM
     desc: 우리나라 최초의 세계지도인 혼일강리역대국도지도를 살펴보며, 현재의 지도와 비교해보는 데 활용
-    embed: false
     channel: 클래스로그
   - key: v4
     stage: 지도

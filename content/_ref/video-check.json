@@ -1,13 +1,12 @@
 {
  "date": "2026-10-02",
  "mode": "YouTube Data API",
- "videos": 1446,
- "problems": 15,
+ "videos": 1414,
+ "problems": 13,
  "counts": {
-  "임베드차단": 14,
-  "국내차단": 1
+  "임베드차단": 13
  },
- "seconds": 9,
+ "seconds": 8,
  "list": [
   {
    "kit": "sc3131",
@@ -68,18 +67,6 @@
    "key": "v7",
    "verdict": "임베드차단",
    "url": "https://www.youtube.com/watch?v=6p6qyVGjmtA"
-  },
-  {
-   "kit": "so5121",
-   "key": "v11",
-   "verdict": "임베드차단",
-   "url": "https://www.youtube.com/watch?v=v71G39yFFKg"
-  },
-  {
-   "kit": "so5213",
-   "key": "v10",
-   "verdict": "국내차단",
-   "url": "https://www.youtube.com/watch?v=PYFVq8dUjUs"
   },
   {
    "kit": "so5232",

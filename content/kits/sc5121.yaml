@@ -38,145 +38,127 @@ stages:
 items:
   - key: v1
     stage: 빛
-    title: 태양에 대한 재미있는 사실들
+    title: 빛에 대한 실험은 누가 최초로 했을까?
     use: 수업 전
     url: https://www.youtube.com/watch?v=ECXUwdF54bM
-    video_title: 빛에 대한 실험은 누가 최초로 했을까?
     desc: 빛의 색에 대한 뉴턴의 실험 소개
     channel: 생밀실909호-쉬운과학
   - key: v2
     stage: 빛
-    title: 생명의 어머니 태양은 도대체 어떻게 탄생된걸까?
+    title: 빛은 무슨 색일까?
     use: 수업 전
     url: https://www.youtube.com/watch?v=mVJh6IbJRR8
-    video_title: 빛은 무슨 색일까?
     desc: 빛의 삼원색 이해
     channel: YTN 사이언스
   - key: v3
     stage: 빛의 반사
-    title: 우주의 여드름, 태양의 흑점
+    title: 빛은 어떻게 반사될까?
     use: 수업 후
     url: https://www.youtube.com/watch?v=zfMVgMeQMmE
-    video_title: 빛은 어떻게 반사될까?
     desc: 빛의 직진과 반사 복습
     channel: 국립대구과학관 Scientry
   - key: v4
     stage: 빛의 굴절
-    title: 만약 태양계에서 행성 하나가 사라진다면?
+    title: 대기 중에서 빛의 굴절이 발생하면?
     use: 수업 전
     url: https://www.youtube.com/watch?v=zwTb2B14zwk
-    video_title: 대기 중에서 빛의 굴절이 발생하면?
     desc: 신기루 현상의 원리 이해
     channel: YTN 사이언스
   - key: v5
     stage: 빛의 굴절
-    title: 우주는 얼마나 클까?
+    title: 빛의 굴절을 이용한 마술
     use: 수업 전
     url: https://www.youtube.com/watch?v=BrF8a6VS4Os
-    video_title: 빛의 굴절을 이용한 마술
     desc: 빛의 굴절 현상을 이용해 물체의 상이 뒤집히거나 글자가 바로 보이는 신기한 마술 시연
     channel: "[공식]부산과학체험관"
   - key: v6
     stage: 빛의 굴절
-    title: 태양계의 실제 크기
+    title: 물속에 있는 물체는 어떻게 보일까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=-4MX-3LbWfs
-    video_title: 물속에 있는 물체는 어떻게 보일까?
     desc: 다양한 물건으로 보는 빛의 굴절 현상 관찰
     channel: tenir kim
   - key: v7
     stage: 빛의 굴절
-    title: 우주박물관에서 알아보는 태양계의 8가지 행성
+    title: 프리즘을 통과한 햇빛은 어떻게 될까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=-9U4TL4jS8g
-    video_title: 프리즘을 통과한 햇빛은 어떻게 될까?
     desc: 프리즘으로 햇빛 관찰하는 실험 방법
     channel: 아꿈선 초등3분과학
   - key: v8
     stage: 빛의 굴절
-    title: 태양계는 무엇일까?
+    title: 컵을 관통하는 동전 마술
     use: 수업 중
     url: https://www.youtube.com/watch?v=IlLvAE_JgsQ
-    video_title: 컵을 관통하는 동전 마술
     desc: 빛의 굴절 원리를 이용한 마술의 비밀 이해
     channel: YTN 사이언스
   - key: v9
     stage: 빛의 굴절
-    title: 배꼽 잡는 태양계 이야기
+    title: 컵 그림 속의 물이 사라지는 마술
     use: 수업 중
     url: https://www.youtube.com/watch?v=lrLBpGAioBI
-    video_title: 컵 그림 속의 물이 사라지는 마술
     desc: 빛의 굴절 원리를 이용한 마술의 비밀 이해
     start: 267
     end: 387
     channel: 사이언스다
   - key: v10
     stage: 볼록 렌즈
-    title: 태양계 행성의 크기는?
+    title: 볼록 렌즈는 어떤 특징이 있을까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=cbcyZOfq2Vo
-    video_title: 볼록 렌즈는 어떤 특징이 있을까?
     desc: 볼록 렌즈의 모양, 특징 탐구
-    embed: false
     channel: 클래스로그
   - key: v13
     stage: 볼록 렌즈
-    title: 우주에 이렇게 많은 별들이 있다?
+    title: 사진기의 역사와 원리
     use: 수업 중
     url: https://www.youtube.com/watch?v=BpHbG-4A6u4
-    video_title: 사진기의 역사와 원리
     desc: 사진기에서 볼록 렌즈의 쓰임새 이해
     channel: 국가과학기술연구회(nst)
   - key: v11
     stage: 볼록 렌즈
-    title: 그리면서 알아보는 태양계 행성!
+    title: 빛이 볼록 렌즈를 통과하면 어떻게 될까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=53UW8rTUN54
-    video_title: 빛이 볼록 렌즈를 통과하면 어떻게 될까?
     desc: 볼록 렌즈를 통과한 빛의 굴절 관찰
     start: 48
     end: 123
     channel: 와니사이언스
   - key: v14
     stage: 볼록 렌즈
-    title: 지구는 왜 별이 아닌가요?
+    title: 과학 실험으로 알아보는 볼록 렌즈
     use: 수업 중
     url: https://www.youtube.com/watch?v=oH8TjFuOjKE
-    video_title: 과학 실험으로 알아보는 볼록 렌즈
     desc: 와인잔에 물을 채워 볼록 렌즈처럼 작동하게 하여 확대 효과와 상의 반전 현상을 관찰하는 실험
     channel: YTN 사이언스
   - key: v12
     stage: 볼록 렌즈
-    title: 만들면서 알아보는 태양계 행성!
+    title: 현미경의 역사와 원리
     use: 수업 중
     url: https://www.youtube.com/watch?v=U8Anuatn1Jk
-    video_title: 현미경의 역사와 원리
     desc: 현미경에서 볼록 렌즈의 쓰임새 이해
     channel: YTN 사이언스
   - key: v15
     stage: 볼록 렌즈
-    title: 별은 무엇일까?
+    title: 1미터 초거대 돋보기로 햇빛을 모으면?
     use: 수업 후
     url: https://www.youtube.com/watch?v=grPFmSkAIyY
-    video_title: 1미터 초거대 돋보기로 햇빛을 모으면?
     desc: 초거대 돋보기를 알아보는 볼록 렌즈의 성질 탐구
     start: 80
     end: 300
     channel: 허팝Heopop
   - key: v17
     stage: 빛의 성질
-    title: 별자리의 종류와 유래
+    title: 무지개는 어떻게 만들어질까?
     use: 수업 후
     url: https://www.youtube.com/watch?v=GF-A7aPayAA
-    video_title: 무지개는 어떻게 만들어질까?
     desc: 무지개가 생기는 원리 이해
     channel: 지식의 창
   - key: v16
     stage: 빛의 성질
-    title: 밤하늘에 밝게 빛나는 건 별일까? 인공위성일까?
+    title: 빛의 3가지 성질
     use: 수업 후
     url: https://www.youtube.com/watch?v=zr1OhbqUMSw
-    video_title: 빛의 3가지 성질
     desc: 빛의 직진, 반사, 굴절 복습
     channel: 생밀실909호-쉬운과학
 quiz:
