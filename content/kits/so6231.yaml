@@ -1,0 +1,160 @@
+id: so6231
+title: 3-1. 세계의 인구 분포와 여러 국가의 인구 특징
+grade: 6
+sem: 2학기
+subject: 사회
+unit: 3. 지구촌 사람들
+unit_no: 3
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 세계의 인구 분포는 자연적⋅사회적 요인의 상호 작용에 의해 형성되며, 국가마다 다양한 인구 구조와 특성이 나타난다.
+  core_question: 세계 인구 분포와 구조는 어떤 요인의 상호 작용하는가?
+  concepts:
+    - term: 공간과 장소
+    - term: 인구
+    - term: 분포
+  standards:
+    - code: "[6사12-01]"
+      text: 세계의 인구 분포를 파악하고 여러 국가의 인구 특징을 탐구한다.
+stages:
+  - name: 생각열기
+    question: 세계 인구는 얼마나 될까?
+  - name: 탐구하기1
+    question: 세계의 인구는 어떻게 분포되어 있을까?
+  - name: 탐구하기2
+    question: 지역의 특성은 인구 분포에 어떤 영향을 미칠까?
+  - name: 확장하기
+    question: 미래의 인구는 어떻게 변할까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 세계 인구 증가의 흐름과 인구 구조 변화의 특징 알아보기
+    url: https://www.youtube.com/watch?v=01U_KVWHs0U
+    desc: 세계 인구 증가의 흐름과 전망을 알아보고 인구 증가율 둔화와 인구 대국의 변화를 살펴보며 세계 인구 변화의 특징을 이해함.
+    channel: 연합뉴스 Yonhapnews
+  - key: v02
+    stage: 생각열기
+    title: 세계 인구 변화의 역사와 인구 증감의 원인은 무엇일까?
+    url: https://www.youtube.com/watch?v=iB2Cw5Rh_SI
+    desc: 세계 인구 변화의 역사를 알아보고 인구 증가와 감소의 원인을 살펴보며 지속 가능한 미래 사회의 과제를 이해함.
+    channel: lazyreporter
+  - key: v03
+    stage: 탐구하기1
+    title: 인구밀도란 무엇이며 나라별 인구 분포는 어떻게 다를까?
+    url: https://www.youtube.com/watch?v=qGWhIGWSSCg
+    desc: 인구밀도의 의미와 계산 방법을 알아보고 나라별 인구밀도를 비교하며 인구 분포의 특징을 이해함.
+    channel: YTN 사이언스
+  - key: v04
+    stage: 탐구하기1
+    title: 세계 인구는 왜 특정 지역에 집중되어 분포할까?
+    url: https://www.youtube.com/watch?v=8FxD7w4XlN0
+    desc: 세계 인구 분포의 특징을 알아보고 인구가 특정 지역에 집중되는 이유를 살펴보며 자연환경과 인구 분포의 관계를 이해함.
+    channel: 여니소리
+  - key: v05
+    stage: 탐구하기1
+    title: 자연환경과 사회·경제적 요인이 인구 분포에 미치는 영향
+    url: https://www.youtube.com/watch?v=84WI3M7Vgoc
+    desc: 세계 인구 분포의 원인을 알아보고 자연환경과 사회·경제적 요인이 인구 분포에 미치는 영향을 살펴보며 지역별 인구 집중의 이유를 이해함.
+    channel: 지식 브런치
+  - key: v06
+    stage: 탐구하기1
+    title: 지역마다 인구밀도와 인구 분포가 다르게 나타나는 이유
+    url: https://www.youtube.com/watch?v=XWa0T2l3Oqs
+    desc: 인구밀도의 의미를 이해하고, 나라별 인구밀도 차이를 비교하며 인구 분포가 지역마다 다르게 나타나는 특징을 이해함.
+    channel: 봄나무방송국
+  - key: v07
+    stage: 탐구하기2
+    title: 우리나라의 인구밀도는 세계 여러 나라와 비교해 어떨까?
+    url: https://www.youtube.com/watch?v=3xV6xFG_UWQ
+    desc: 우리나라의 인구 밀도를 세계 여러 나라와 비교하며 우리나라가 인구가 매우 밀집한 나라임을 이해함.
+    channel: 데이터 인사이트 브리프
+  - key: v08
+    stage: 탐구하기2
+    title: 기후 변화와 사막화는 인구 이동에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=57ZqTXPPzX8
+    desc: 기후 변화와 사막화의 원인을 살펴보고, 환경 변화가 인구 이동과 생활 환경에 미치는 영향을 이해함.
+    channel: 20세기 쇼츠
+  - key: v09
+    stage: 탐구하기2
+    title: 미국의 기후와 지형은 인구 분포에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=UdgCq5CoNM4
+    desc: 미국의 기후와 지형, 산업 구조를 살펴보고, 자연환경과 경제 활동이 인구 분포에 영향을 미침을 이해함.
+    channel: 20세기 쇼츠
+  - key: v10
+    stage: 탐구하기2
+    title: 대만의 지형적 특징은 인구 분포에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=bFdJuSFF-CY
+    desc: 대만의 지형적 특징을 살펴보고, 지형이 인구 분포와 도시 발달에 영향을 미침을 이해함.
+    channel: 20세기 쇼츠
+  - key: v11
+    stage: 탐구하기2
+    title: 스위스의 자연환경은 인구 분포와 산업 발달에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=4lz41YE2T6c
+    desc: 스위스의 지형과 자연환경을 살펴보고, 자연환경이 인구 분포와 산업 발달에 영향을 미침을 이해함.
+    channel: 20세기 쇼츠
+  - key: v12
+    stage: 탐구하기2
+    title: 그리스의 자연환경과 역사적 배경이 인구 분포에 미치는 영향
+    url: https://www.youtube.com/watch?v=1-XxTu5-CEQ
+    desc: 그리스의 지형과 역사적 배경을 살펴보고, 자연환경과 역사적 요인이 인구 분포에 영향을 미침을 이해함.
+    channel: 20세기 쇼츠
+  - key: v13
+    stage: 탐구하기2
+    title: 사우디아라비아의 자연환경과 자원은 인구 분포에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=FlpdznDIVRo
+    desc: 사우디아라비아의 기후와 지형을 살펴보고, 자연환경과 자원, 경제 활동이 인구 분포에 영향을 미침을 이해함.
+    channel: 20세기 쇼츠
+  - key: v14
+    stage: 탐구하기2
+    title: 넓은 국토를 가진 캐나다의 인구 분포가 지역별로 다른 이유
+    url: https://www.youtube.com/watch?v=Q7EBWPQnZ0g
+    desc: 자연환경의 특성에 따라 사람이 살기 적합한 지역이 제한되어 캐나다의 인구 분포가 지역별로 다르게 나타남을 이해함.
+    channel: 20세기 쇼츠
+  - key: v15
+    stage: 탐구하기2
+    title: 중국의 자연환경과 경제 활동이 인구 분포에 미치는 영향
+    url: https://www.youtube.com/watch?v=PQJVZkpYGbM
+    desc: 중국의 지형과 기후를 살펴보고, 자연환경과 경제 활동이 인구 분포에 영향을 미침을 이해함.
+    channel: 1급 비밀
+  - key: v16
+    stage: 탐구하기2
+    title: 인도의 인구가 특정 지역에 집중되는 지리적 요인은 무엇일까?
+    url: https://www.youtube.com/watch?v=QPBIz41Pmhk
+    desc: 자연환경과 기후 조건의 차이로 인도의 인구가 특정 지역에 집중됨을 이해함.
+    channel: 만물정보통 - 지역경제
+  - key: v17
+    stage: 확장하기
+    title: 한국의 인구 감소와 고령화가 사회와 경제에 미치는 영향
+    url: https://www.youtube.com/watch?v=XsX4HG8ahsY
+    desc: 한국의 인구 감소와 고령화 추세를 알아보고, 인구 구조의 변화가 사회와 경제에 미치는 영향을 이해함.
+    channel: MBN News
+  - key: v18
+    stage: 확장하기
+    title: 지속적인 세계 인구 증가가 자원과 환경에 미치는 영향
+    url: https://www.youtube.com/watch?v=F60P-v0Fhcg
+    desc: 세계 인구의 증가 추세와 미래 전망을 살펴보고, 인구 변화가 자원과 환경, 사회에 미치는 영향을 이해함.
+    channel: 지식참새
+quiz:
+  - statement: 세계 인구는 모든 지역에 똑같은 밀도로 분포하지 않는다.
+    answer: O
+    explain: 자연환경과 산업, 교통, 역사 등의 영향으로 인구가 많이 모인 곳과 적은 곳이 있다.
+  - statement: 평야와 하천 주변, 도시 지역에는 인구가 많이 모이는 경우가 있다.
+    answer: O
+    explain: 생활과 농업, 교통, 일자리에 유리한 조건이 인구 분포에 영향을 준다.
+  - statement: 사막과 극지방은 생활 조건이 좋아 세계에서 인구가 가장 밀집한 지역이다.
+    answer: X
+    explain: 물 부족과 매우 덥거나 추운 기후 때문에 인구가 희박한 곳이 많다.
+  - statement: 일자리와 교육 시설 같은 사회적 조건도 인구 이동과 분포에 영향을 준다.
+    answer: O
+    explain: 사람들은 더 나은 경제·생활 조건을 찾아 이동하기도 한다.
+  - statement: 출생률과 사망률은 한 국가의 인구 구조 변화와 관계가 있다.
+    answer: O
+    explain: 두 비율과 인구 이동에 따라 연령별 인구 비중이 달라진다.
+  - statement: 모든 국가는 어린이, 청년, 노인의 비율이 서로 같다.
+    answer: X
+    explain: 출생률, 기대 수명, 이주 등에 따라 국가별 인구 구조가 다르다.
+  - statement: 인구가 많거나 적다는 사실만 알면 그 나라의 인구 특징을 모두 설명할 수 있다.
+    answer: X
+    explain: 인구 규모와 함께 밀도, 연령 구조, 증감, 이동 등을 살펴야 한다.

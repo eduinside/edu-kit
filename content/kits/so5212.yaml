@@ -1,0 +1,150 @@
+id: so5212
+title: 1-2. 고대 사람들의 생각과 생활 모습
+grade: 5
+sem: 2학기
+subject: 사회
+unit: 1. 유적과 유물로 살펴본 옛 사람들의 생활
+unit_no: 1
+flow: activity
+sort_order: 2
+published: true
+intro:
+  core_idea: 사람들은 유물, 유적, 기록 등 과거의 모습을 보여주는 자료를 통해 시간에 따른 역사의 변화를 이해한다.
+  core_question: 우리는  유적·유물을 통해 고대 사람들의 생각과 생활 모습의 변화를 어떻게 추론할 수 있을까?
+  concepts:
+    - term: 공간과 장소
+    - term: 변화
+    - term: 유적과 유물
+    - term: 생활 모습
+    - term: 고대
+  standards:
+    - code: "[6사04-02]"
+      text: 역사 기록이나 유적과 유물에 나타난 고대 사람들의 생각과 생활을 추론한다.
+stages:
+  - name: 생각열기
+    question: 신라의 청동호우에 왜 광개토대왕의 이름이 새겨져있을까?
+  - name: 탐구하기1
+    question: 삼국과 가야, 통일신라, 발해는 어떻게 성립하고 발전해 왔을까?
+  - name: 탐구하기2
+    question: 삼국과 가야, 통일신라, 발해 사람들은 어떻게 생활하였을까?
+  - name: 확장하기
+    question: 고구려는 어떻게 국제적인 소통망을 넓혔을까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 신라의 청동호우에 새겨진 광개토대왕의 이름
+    url: https://www.youtube.com/watch?v=MZoIjQWmFro
+    desc: 신라의 무덤(호우총)에서 발견된 청동 그릇(호우명 그릇) 바닥에 광개토대왕의 이름이 새겨진 사실을 통해 고구려와 신라는 긴밀한 관계를 맺었음을 이해함.
+    channel: KBS 히스토리
+  - key: v02
+    stage: 탐구하기1
+    title: (고구려) 광개토대왕은 어떻게 넓은 영토를 확장할 수 있었을까?
+    url: https://www.youtube.com/watch?v=CpOGthKsRdM
+    desc: 소수림왕의 기틀을 바탕으로 영토를 확장해 고구려 전성기를 이끈 광개토대왕의 업적을 이해함.
+    channel: 공부방찐천재
+  - key: v03
+    stage: 탐구하기1
+    title: (백제) 가장 먼저 전성기를 맞이한 백제
+    url: https://www.youtube.com/watch?v=u_qBaSdxE8M
+    desc: 한강을 차지하고 삼국 중 가장 먼저 전성기를 맞이한 백제의 역사에 대해 이해함.
+    channel: 최태성 2TV
+  - key: v04
+    stage: 탐구하기1
+    title: (백제) 활발한 외교를 통해 백제를 전성기로 이끈 근초고왕
+    url: https://www.youtube.com/watch?v=3ps2iLX4ICg
+    desc: 영토 확장과 활발한 외교로 백제의 전성기를 이끈 근초고왕의 업적에 대해 이해함.
+    channel: KBSKids
+  - key: v05
+    stage: 탐구하기1
+    title: (신라) 진흥왕은 신라의 전성기를 어떻게 이끌었을까?
+    url: https://www.youtube.com/watch?v=lOmrCiRTTgQ
+    desc: 진흥왕의 영토 확장과 화랑도 정비 등 신라 전성기 업적을 탐구함.
+    channel: 공부방찐천재
+  - key: v06
+    stage: 탐구하기1
+    title: (통일신라) 김유신은 어떻게 신라의 전성기를 도왔을까?
+    url: https://www.youtube.com/watch?v=CuT-q5EfdH0
+    desc: 가야 출신 김유신이 화랑으로 성장해 삼국 통일에 기여한 업적에 대해 탐구함.
+    channel: 공부방찐천재
+  - key: v07
+    stage: 탐구하기1
+    title: (통일신라) 신라는 어떻게 삼국을 통일할 수 있었을까?
+    url: https://www.youtube.com/watch?v=m_SdZ04-eek
+    desc: 가장 약소국이었던 신라가 삼국 통일을 이룰 수 있었던 힘은 혁신과 선택이었음을 이해함.
+    channel: 최태성 초등TV
+  - key: v08
+    stage: 탐구하기1
+    title: (가야) 가야는 어떻게 발전했을까?
+    url: https://www.youtube.com/watch?v=VDuiZDAcDp8
+    desc: 낙동강 유역의 가야는 우수한 철기 문화를 바탕으로 이웃 나라들과 활발히 무역하며 성장하였음을 이해함.
+    channel: 공부방찐천재
+  - key: v09
+    stage: 탐구하기1
+    title: (발해) 발해는 어느 나라의 역사일까?
+    url: https://www.youtube.com/watch?v=_V9eaarwu_A
+    desc: 발해의 유물과 기록을 통해 고구려를 계승한 우리 역사임을 확인함.
+    channel: 지니스쿨 역사 GeniSchool History
+  - key: v10
+    stage: 탐구하기1
+    title: (고구려) 고구려 삶의 모습을 담은 벽화
+    url: https://www.youtube.com/watch?v=wF0KJBn2eEQ
+    desc: 고구려인의 당당하고 역동적인 삶의 모습을 그대로 보여주는 소중한 문화유산인 고분 벽화에 대해 이해함.
+    channel: 공부방찐천재
+  - key: v11
+    stage: 탐구하기2
+    title: (백제) 백제의 무령왕릉 안에는 무엇이 있을까?
+    url: https://www.youtube.com/watch?v=Rba52_llZR8
+    desc: 백제 문화의 높은 예술성과 활발한 국제 교류를 보여주는 최고의 유산인 무령왕릉에 대해 설명함.
+    channel: 국가유산청 Korea Heritage Service
+  - key: v12
+    stage: 탐구하기2
+    title: (신라) 첨성대에 숨겨진 비밀
+    url: https://www.youtube.com/watch?v=A_TE1obuXMw
+    desc: 신라 건축 기술의 결정체인 첨성대에 대해 설명함.
+    channel: KBS 다큐
+  - key: v13
+    stage: 탐구하기2
+    title: (가야) 가야 사람들은 어떻게 살았을까?
+    url: https://www.youtube.com/watch?v=mobzIg9Qlos
+    desc: 금관가야의 중심지인 김해를 탐험하며 바다를 무대로 뛰어난 철기 문화와 해상 교류를 꽃피웠던 국제적이고 독창적인 가야의 역사적 가치를 이해함.
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v14
+    stage: 탐구하기2
+    title: (통일신라) 세계 문화유산, 불국사
+    url: https://www.youtube.com/watch?v=evExpvpOS0s
+    desc: 신라인들의 꿈과 염원을 담아낸 자랑스러운 유네스코 세계문화유산인 불국사에 대해 설명함.
+    channel: 국가유산청 Korea Heritage Service
+  - key: v15
+    stage: 탐구하기2
+    title: (발해) 발해의 치미
+    url: https://www.youtube.com/watch?v=Xl7P2YOXW1c
+    desc: 치미를 통해 독창적으로 발전했던 발해의 건축 문화에 대해 이해함.
+    channel: 역사유치원
+  - key: v16
+    stage: 확장하기
+    title: 실크로드를 따라 더 넓은 세계에 닿았던 고구려
+    url: https://www.youtube.com/watch?v=ZhZhRB76quc
+    desc: 당의 위협 속에서도 고구려는 한반도의 틀을 넘어 실크로드를 통해 중앙아시아까지 드넓은 외교·문화 네트워크를 구축했던 개방적이고 국제적인 제국이었음을 이해함.
+    channel: KBS 히스토리
+quiz:
+  - statement: 역사 기록과 유적·유물을 함께 살피면 고대 사람들의 생각과 생활을 더 잘 추론할 수 있다.
+    answer: O
+    explain: 서로 다른 자료를 비교하면 한 자료만 볼 때보다 폭넓게 이해할 수 있다.
+  - statement: 고대의 무덤과 벽화는 당시 사람들의 생활과 믿음을 알아보는 자료가 된다.
+    answer: O
+    explain: 무덤 구조와 벽화에 생활 모습, 복식, 신앙 등이 나타나기도 한다.
+  - statement: 삼국은 서로 교류하지 않고 완전히 고립되어 발전했다.
+    answer: X
+    explain: 삼국은 경쟁하면서도 사람과 물자, 문화를 서로 주고받았다.
+  - statement: 불교는 고대의 건축과 조각, 생활 문화에 영향을 주었다.
+    answer: O
+    explain: 절, 탑, 불상 등의 문화유산에서 불교의 영향을 확인할 수 있다.
+  - statement: 한 문화유산의 모습만 보면 고대 모든 사람의 생활을 똑같이 알 수 있다.
+    answer: X
+    explain: 지역과 신분, 시대에 따라 생활이 달랐으므로 여러 자료를 함께 살펴야 한다.
+  - statement: 고대 문화유산은 오늘날까지 이어진 역사와 문화의 흔적이다.
+    answer: O
+    explain: 문화유산은 당시의 기술, 생각, 생활을 보여 주는 중요한 자료이다.
+  - statement: 역사 자료를 해석할 때 만든 사람과 만들어진 까닭은 살필 필요가 없다.
+    answer: X
+    explain: 자료의 제작자와 목적, 시대적 배경을 살펴야 의미를 올바르게 해석할 수 있다.

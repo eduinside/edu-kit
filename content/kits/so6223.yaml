@@ -1,0 +1,170 @@
+id: so6223
+title: 2-3. 무역과 세계 경제
+grade: 6
+sem: 2학기
+subject: 사회
+unit: 2. 시장경제와 국가 간 거래
+unit_no: 2
+flow: activity
+sort_order: 3
+published: true
+intro:
+  core_idea: 무역은 생활 수준의 향상을 가져오며, 그 과정에서 나타나는 사회·경제적 과제를 해결하기 위한 노력이 필요하다.
+  core_question: 무역은 삶과 사회를 어떻게 변화시키는가?
+  concepts:
+    - term: 상호 작용
+    - term: 체제
+    - term: 교류
+    - term: 무역
+    - term: 생활
+  standards:
+    - code: "[6사11-03]"
+      text: 사례를 통해 무역의 의미를 이해하고, 국가 간 무역이 발생하는 이유를 탐구한다.
+stages:
+  - name: 생각열기
+    question: 무역은 어떻게 시작되었을까?
+  - name: 탐구하기1
+    question: 우리나라 무역의 특징은 무엇일까?
+  - name: 탐구하기2
+    question: 경제 교류를 하며 생기는 문제는 무엇일까?
+  - name: 확장하기
+    question: 무역 과정에서 거래는 어떻게 이루어질까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 국가 간 무역은 왜 이루어지며 어떤 과정으로 진행될까?
+    url: https://www.youtube.com/watch?v=bme7uFjnVQ8
+    desc: 무역의 의미와 필요성을 알아보고 국가 간 상품과 서비스가 거래되는 과정을 살펴보며 무역이 이루어지는 이유를 이해함.
+    channel: 한국은행
+  - key: v02
+    stage: 생각열기
+    title: 고려 시대의 무역 활동이 '코리아'라는 이름에 미친 영향
+    url: https://www.youtube.com/watch?v=G9alajYTBWw
+    desc: 코리아'라는 이름의 유래를 알아보고 고려 시대의 국제 교류와 무역 활동을 살펴보며 무역이 국가의 이름과 문화를 세계에 알리는 역할을 이해함.
+    channel: 최태성 초등TV
+  - key: v03
+    stage: 탐구하기1
+    title: 무역은 경제에 어떤 영향을 미치며 왜 필요할까?
+    url: https://www.youtube.com/watch?v=EbtNTPbdVug
+    desc: 무역의 필요성을 알아보고 나라 간 생산과 교환이 이루어지는 과정을 살펴보며 무역이 경제에 미치는 영향을 이해함.
+    channel: 재정경제부
+  - key: v04
+    stage: 탐구하기1
+    title: 나라별 생산 여건의 차이가 무역과 우리 생활에 미치는 영향
+    url: https://www.youtube.com/watch?v=kMcqVnjVKZE
+    desc: 무역의 의미와 필요성을 알아보고 나라별 생산 여건과 상품 교환 과정을 살펴보며 무역이 국가와 사람들의 생활에 미치는 영향을 이해함.
+    channel: 경제배움e+
+  - key: v05
+    stage: 탐구하기1
+    title: 산업 발전에 따라 우리나라의 주요 수출품은 어떻게 변했을까?
+    url: https://www.youtube.com/watch?v=UEO2lR-6578
+    desc: 우리나라 주요 수출품의 변화를 알아보고 산업 발전에 따라 변화한 수출 품목을 살펴보며 수출이 경제 성장에 미치는 영향을 이해함.
+    channel: 재정경제부
+  - key: v06
+    stage: 탐구하기1
+    title: 시대별 주요 수출 품목의 변화가 경제 성장에 미친 영향
+    url: https://www.youtube.com/watch?v=2DLT0AHpCZU
+    desc: 우리나라 수출의 변화를 알아보고 시대에 따라 달라진 주요 수출 품목과 새로운 해외 시장을 살펴보며 수출이 경제 성장에 미치는 영향을 이해함.
+    channel: K-팩트체커
+  - key: v07
+    stage: 탐구하기1
+    title: 우리나라의 주요 수출입 품목과 교역 현황 알아보기
+    url: https://www.youtube.com/watch?v=pmBf1Hh5MMk
+    desc: 우리나라의 주요 수출입 국가와 품목을 알아보고 국가 간 교역 현황을 살펴보며 무역이 국가 경제에 미치는 영향을 이해함.
+    channel: 랭킹티비
+  - key: v08
+    stage: 탐구하기1
+    title: 국제 경제 교류는 우리 생활에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=d1B-agEtdgk
+    desc: 경제 교류의 의미를 알아보고 상품이 생산되어 여러 나라를 거쳐 소비자에게 전달되는 과정을 살펴보며 국제 경제 교류가 우리 생활에 미치는 영향을 이해함.
+    embed: false
+    channel: 클래스로그
+  - key: v09
+    stage: 탐구하기1
+    title: K-뷰티 수출 시장 확대의 비결과 무역의 중요성
+    url: https://www.youtube.com/watch?v=vByxnvju87Y
+    desc: K-뷰티의 성장 과정을 알아보고 기술력과 문화 콘텐츠를 바탕으로 수출 시장이 확대되는 모습을 살펴보며 수출 경쟁력과 무역의 중요성을 이해함.
+    channel: 크랩 KLAB
+  - key: v10
+    stage: 탐구하기1
+    title: 자유무역협정(FTA)은 경제와 무역에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=raWoPC0-Sew
+    desc: 자유무역협정(FTA)의 의미와 필요성을 알아보고 우리나라와 칠레의 FTA 체결 배경과 효과를 살펴보며 자유무역이 경제와 무역에 미치는 영향을 이해함.
+    channel: 산업통상부
+  - key: v11
+    stage: 탐구하기2
+    title: 자유무역협정(FTA)이 기업, 소비자, 국가 경제에 미치는 영향
+    url: https://www.youtube.com/watch?v=QN0iRiG0IcM
+    desc: 자유무역협정(FTA)의 의미를 알아보고 자유무역이 기업과 소비자, 국가 경제에 미치는 영향을 살펴보며 FTA의 장점과 한계를 이해함.
+    channel: 연합뉴스경제TV
+  - key: v12
+    stage: 탐구하기2
+    title: 무역 분쟁은 어떻게 해결하며 국제기구는 어떤 역할을 할까?
+    url: https://www.youtube.com/watch?v=Gqtu3Zl-PH8
+    desc: 다른 나라와의 경제 교류에서 발생하는 문제를 알아보고 무역 분쟁과 국제기구의 역할을 살펴보며 국제 협력을 통한 문제 해결의 중요성을 이해함.
+    embed: false
+    channel: 클래스로그
+  - key: v13
+    stage: 탐구하기2
+    title: 대외의존도가 높은 한국 경제의 특징과 새로운 성장 전략
+    url: https://www.youtube.com/watch?v=7hCyP1G-Jeo
+    desc: 한국 경제의 높은 대외의존도가 가져오는 영향을 알아보고 기술 혁신과 인적 자본을 바탕으로 새로운 성장 전략을 마련하는 중요성을 이해함.
+    channel: 연합뉴스TV
+  - key: v14
+    stage: 탐구하기2
+    title: WTO는 자유무역 질서 유지를 위해 어떤 역할을 할까?
+    url: https://www.youtube.com/watch?v=LgKzhnrchG4
+    desc: WTO의 역할과 기능을 알아보고 자유무역 질서를 유지하기 위한 국제기구의 역할을 살펴보며 국제 경제 협력의 중요성을 이해함.
+    channel: 재정경제부
+  - key: v15
+    stage: 탐구하기2
+    title: 관세는 무역과 국내 산업에 어떤 영향을 미치며 왜 필요할까?
+    url: https://www.youtube.com/watch?v=Vfs_MOj_ZME
+    desc: 관세의 의미와 기능을 알아보고 관세가 무역과 국내 산업에 미치는 영향을 살펴보며 관세가 필요한 이유를 이해함.
+    channel: 쿼빗 경제상식
+  - key: v16
+    stage: 확장하기
+    title: 환율 변동은 수출입과 우리 생활에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=nTGQ0X5x1zI
+    desc: 환율의 의미와 변동 원리를 알아보고 환율이 수출입과 우리 생활에 미치는 영향을 살펴보며 환율과 경제의 관계를 이해함.
+    channel: 한국은행
+  - key: v17
+    stage: 확장하기
+    title: 환율 하락 등 환율 변화가 수출입 경제 활동에 미치는 영향
+    url: https://www.youtube.com/watch?v=58COXu0tCIw
+    desc: 환율 하락의 의미를 알아보고 환율 변화가 수출과 수입에 미치는 영향을 살펴보며 환율이 경제활동에 미치는 영향을 이해함.
+    channel: 3분차이
+  - key: v18
+    stage: 확장하기
+    title: 공정무역은 생산자와 환경에 어떤 영향을 미치며 왜 중요할까?
+    url: https://www.youtube.com/watch?v=8x7N_L-9Ux8
+    desc: 공정무역의 의미와 필요성을 알아보고 공정한 거래가 생산자와 소비자, 환경에 미치는 영향을 살펴보며 지속 가능한 경제활동의 중요성을 이해함.
+    channel: T Kim 티킴
+  - key: v19
+    stage: 확장하기
+    title: 아동 노동과 환경 파괴 문제를 해결하기 위한 공정무역의 필요성
+    url: https://www.youtube.com/watch?v=AZgtbdHYZ7I
+    desc: 아동 노동과 환경 파괴의 원인을 살펴보며 윤리적 소비와 공정무역의 필요성을 이해함.
+    channel: tvN Joy
+quiz:
+  - statement: 무역은 나라와 나라 사이에 상품이나 서비스를 사고파는 활동이다.
+    answer: O
+    explain: 수출과 수입을 통해 국가 간에 필요한 재화와 서비스를 교환한다.
+  - statement: 나라마다 자연환경과 기술, 생산 비용이 달라 무역이 발생한다.
+    answer: O
+    explain: 각 나라가 잘 만들거나 많이 가진 것이 달라 서로 교환할 이익이 생긴다.
+  - statement: 수출은 다른 나라에서 물건을 사 오는 것이고 수입은 파는 것이다.
+    answer: X
+    explain: 수출은 국외에 파는 것이고 수입은 국외에서 사 오는 것이다.
+  - statement: 무역을 통해 국내에서 생산하기 어려운 물건도 이용할 수 있다.
+    answer: O
+    explain: 다른 나라의 자원과 상품을 수입해 선택의 폭을 넓힐 수 있다.
+  - statement: 무역이 늘어나도 국가와 사람들의 생활은 전혀 달라지지 않는다.
+    answer: X
+    explain: 상품 가격과 일자리, 산업, 소비 생활이 세계 경제의 영향을 받을 수 있다.
+  - statement: 한 나라의 경제 변화가 무역으로 연결된 다른 나라에 영향을 줄 수 있다.
+    answer: O
+    explain: 세계 경제는 상품, 자본, 정보의 교류로 서로 긴밀히 연결되어 있다.
+  - statement: 무역에서는 이익만 생기므로 산업 간 경쟁이나 환경 문제는 고려할 필요가 없다.
+    answer: X
+    explain: 산업 피해, 노동과 환경 문제 등도 살피며 공정하고 지속 가능한 무역을 추구해야 한다.

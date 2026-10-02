@@ -1,0 +1,227 @@
+id: sc3111
+title: 1. 힘과 우리 생활
+grade: 3
+sem: 1학기
+subject: 과학
+unit: 힘과 우리 생활
+unit_no: 1
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 물체를 밀거나 당길 때의 변화를 관찰하고 수평 잡기와 저울을 이용해 무게를 비교하며 일상생활에서 사용하는 도구의 쓰임새를 탐구한다.
+  core_question: 힘은 물체에 어떤 변화를 일으키며, 우리는 도구를 이용해 힘을 어떻게 이롭게 활용할까?
+  concepts:
+    - term: 생활 속 힘
+      def: 물체를 밀거나 당겨 움직이거나 멈추게 하는 작용으로, 일상생활 곳곳에서 쓰여요.
+    - term: 밀기와 당기기
+      def: 물체를 밀거나 당기면 빠르기·방향·모양이 바뀔 수 있어요.
+    - term: 수평 잡기
+      def: 양쪽 무게가 같아 어느 쪽으로도 기울지 않고 평평해진 상태예요.
+    - term: 저울
+      def: 눈으로 비교하기 어려운 물체의 무게를 정확하게 재는 도구예요.
+    - term: 무게
+      def: 지구가 물체를 끌어당기는 힘의 크기로, g·kg으로 나타내요.
+    - term: 들어 올리기
+      def: 지레 같은 도구를 쓰면 더 적은 힘으로 무거운 물체를 들어 올릴 수 있어요.
+    - term: 도구의 이용
+      def: 지레·빗면처럼 힘을 이롭게 바꿔 주어 일을 더 쉽게 해 주는 도구를 쓰는 것이에요.
+  standards:
+    - code: "[4과01-01]"
+      text: 일상생활에서 힘과 관련된 현상에 흥미를 갖고, 물체를 밀거나 당길 때 나타나는 현상을 관찰할 수 있다.
+    - code: "[4과01-02]"
+      text: 수평잡기 활동을 통해 물체의 무게를 비교할 수 있다.
+    - code: "[4과01-03]"
+      text: 무게를 정확히 비교하기 위해서는 저울이 필요함을 알고, 저울을 사용해 무게를 비교할 수 있다.
+    - code: "[4과01-04]"
+      text: 지레, 빗면과 같은 도구를 이용하면 물체를 들어 올릴 때 드는 힘의 크기가 달라짐을 알고, 도구가 일상생활에서 어떻게 쓰이는지 조사하여 공유할 수 있다.
+stages:
+  - 생활 속 힘
+  - 밀기와 당기기
+  - 수평 잡기
+  - 저울
+  - 무게
+  - 들어 올리기
+  - 도구의 이용
+items:
+  - key: v1
+    stage: 생활 속 힘
+    title: 우리 생활 속 힘을 찾아볼까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=oiz9CwrKwkk
+    desc: 생활 속 힘과 관련된 모습
+    channel: 내셔널지오그래픽 - National Geographic Korea
+  - key: v2
+    stage: 밀기와 당기기
+    title: 줄다리에서 이기는 방법은?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=3eR9DfQgioY
+    desc: 밀거나 당기는 힘이 느껴지는 줄다리기에서 이기는 방법
+    channel: TJB NEWS
+  - key: v3
+    stage: 밀기와 당기기
+    title: 씨름은 과학이다?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=x35kkuwB584
+    desc: 밀거나 당기는 힘의 씨름 기술
+    channel: YTN 사이언스
+  - key: v4
+    stage: 수평 잡기
+    title: 기울지 않고 수평을 어떻게 잡을 수 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=6XeMyE66Rqo
+    desc: 수평 잡기의 원리
+    channel: 참쌤스쿨
+  - key: v5
+    stage: 수평 잡기
+    title: 무게가 다른 물체의 수평을 잡으려면?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=QGiQsRwyVPY
+    desc: 무게가 다른 물체의 수평 잡는 방법
+    channel: 가리봉특파원
+  - key: v6
+    stage: 수평 잡기
+    title: 양팔저울로 어떻게 무게를 비교할까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=421ErFgpQlA
+    desc: 양팔저울 사용방법
+    channel: 아꿈선 초등3분과학
+  - key: v7
+    stage: 수평 잡기
+    title: 양초 시소의 비밀!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=C8qIubfkAqU
+    desc: 양초 시소의 원리
+    start: 350
+    channel: 건빵박사사이언스캠프
+  - key: v8
+    stage: 저울
+    title: 만약 저울이 없다면?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=8tjbesY6YCQ
+    desc: 저울의 필요성
+    channel: YTN 사이언스
+  - key: v9
+    stage: 저울
+    title: 용수철 저울을 어떻게 사용할까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=TbCW7TytSdc
+    desc: 용수철 저울 사용 방법
+    channel: 와니사이언스
+  - key: v10
+    stage: 저울
+    title: 추의 개수에 따라 용수철 길이는 달라질까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=rYRn6iuRFv4
+    desc: 무게에 따라 달라지는 용수철 길이
+    channel: 아이테크
+  - key: v11
+    stage: 저울
+    title: 전자 저울을 어떻게 사용할까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=MNl8_fWpAq0
+    desc: 전자 저울 사용 방법
+    channel: 지구화학
+  - key: v12
+    stage: 저울
+    title: 체중저울은 무게를 정확하게 잴 수 없다?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=03M3O_Mn4yk
+    desc: 체중 저울의 원리
+    channel: YTN 사이언스
+  - key: v13
+    stage: 무게
+    title: 부피, 무게, 들이는 무엇이 다를까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=uxlhPzQRDBM
+    desc: 부피, 무게, 들이의 차이점
+    channel: YTN 사이언스
+  - key: v14
+    stage: 무게
+    title: 옛날에는 어떻게 무게를 쟀을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=-5JNbvKXk4o
+    desc: 옛날에 무게를 재는 방법
+    start: 60
+    channel: YTN 사이언스
+  - key: v15
+    stage: 무게
+    title: 130년만에 1kg 정의가 바꼈다?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=YAx7inoI5hM
+    desc: 1kg의 새로운 정의
+    channel: 채널A News
+  - key: v16
+    stage: 들어 올리기
+    title: 숟가락으로 병뚜껑을 딸 수 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=rYtA3xqFQW0
+    desc: 지레의 원리
+    channel: YTN 사이언스 투데이
+  - key: v17
+    stage: 들어 올리기
+    title: 압정을 어떻게 쉽게 뽑을 수 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=zgh2HK_qsPI
+    desc: 지레의 원리를 적용한 실험
+    channel: 엘사TV
+  - key: v18
+    stage: 들어 올리기
+    title: 지렛대의 원리를 찾은 사람은 누구일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Quz0x6tQMMI
+    desc: 아르키메데스의 지렛대 원리
+    channel: SongforMoon
+  - key: v19
+    stage: 도구의 이용
+    title: 고인돌은 어떻게 만들어졌을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=BELJuXRAL9s
+    desc: 고인돌이 만들어진 과정
+    channel: daegun choi
+  - key: v20
+    stage: 도구의 이용
+    title: 생활에서 이용하는 도구를 찾아볼까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=CqT4mXnkvCc
+    desc: 지레, 빗면과 같은 도구
+    channel: 한진과학
+  - key: v21
+    stage: 도구의 이용
+    title: 오른손잡이가 왼손으로 가위질하면 왜 잘 안 잘릴까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=oRwa3e0jo0k
+    desc: 가위의 원리
+    channel: 사물궁이 잡학지식
+  - key: v22
+    stage: 도구의 이용
+    title: 고층 화재 해결사! 70m 사다리차 등장
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Rlqt-WRJCUw
+    desc: 사다리차의 쓰임
+    channel: KBS뉴스 경남
+quiz:
+  - statement: 물체를 밀거나 당기면 빠르기나 움직이는 방향이 바뀔 수 있다.
+    answer: O
+    explain: 미는 힘·당기는 힘은 물체의 빠르기, 방향, 모양을 바꾼다.
+  - statement: 수평 잡기는 양쪽 무게가 서로 달라야 잘 맞는다.
+    answer: X
+    explain: 양쪽 무게가 같아야 기울지 않고 수평이 된다.
+  - statement: 무게를 정확하게 비교하려면 저울을 사용한다.
+    answer: O
+    explain: 눈이나 손으로는 정확히 알기 어려워 저울로 잰다.
+  - statement: 무게는 지구가 물체를 끌어당기는 힘의 크기이다.
+    answer: O
+    explain: 무게는 지구가 물체를 당기는 힘이며 g·kg으로 나타낸다.
+  - statement: 지레와 같은 도구를 쓰면 언제나 더 큰 힘이 든다.
+    answer: X
+    explain: 도구를 쓰면 더 적은 힘으로 물체를 들어 올릴 수 있다.
+  - statement: 가위나 병따개처럼 힘을 이롭게 바꿔 주는 것도 도구이다.
+    answer: O
+    explain: 지레·빗면을 이용한 도구로 일을 더 쉽게 해 준다.
+  - statement: 책상 위의 물건을 손으로 밀면 물건이 움직인다.
+    answer: O
+    explain: 미는 힘이 작용하면 물건이 움직인다.
+  - statement: 저울은 물건의 길이를 재는 도구이다.
+    answer: X
+    explain: 저울은 길이가 아니라 무게를 재는 도구이다.

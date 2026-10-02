@@ -1,0 +1,160 @@
+id: so3111
+title: 1-1. 우리 주변의 여러 장소
+grade: 3
+sem: 1학기
+subject: 사회
+unit: 1단원
+unit_no: 1
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 학생들이 학교, 집, 공원 등 생활이 이루어지는 주변 여러 장소에서 경험하며 느낀 점을 바탕으로 자신의 장소감을 표현하고 공유한다.
+  core_question: 우리가 살아가는 장소들은 어떤 의미가 있으며, 더 살기 좋은 곳으로 만들려면 무엇이 필요할까?
+  concepts:
+    - term: 장소감
+      def: 학교, 집, 공원처럼 내가 자주 가는 장소에서 겪은 경험을 통해 느끼게 되는 마음이나 느낌이에요. 같은 장소라도 사람마다 떠오르는 느낌이 다를 수 있어요.
+    - term: 존중
+      def: 나와 생각이나 느낌이 다른 친구의 마음도 소중하게 여기고 함부로 대하지 않는 태도예요. 같은 장소를 보고 다르게 느껴도 그 마음을 인정해 주는 거예요.
+    - term: 이해
+      def: 친구가 어떤 장소에서 왜 그렇게 느꼈는지 그 마음을 헤아려 알아주는 것이에요. 서로의 이야기를 잘 들으면 더 잘 이해할 수 있어요.
+  standards:
+    - code: "[4사01–01]"
+      text: 주변 여러 장소에서의 경험과 느낌을 다양한 방식으로 표현하고, 장소감을 나누며 서로 존중하는 태도를 지닌다.
+stages:
+  - 장소감
+  - 존중
+items:
+  - key: v1
+    stage: 장소감
+    title: 우리 주변 가장 가까운 장소, 초등학교의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=l-NyIKeU89I
+    desc: 우리 주변의 가장 가까운 장소이자 매일 친구들과 선생님을 만나는, 학교의 모습이 담긴 영상
+    channel: 대구광역시교육청
+  - key: v2
+    stage: 장소감
+    title: 학교 급식실의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=kj4Am9n8TOg
+    desc: 맛있는 점심을 먹으러 가는, 학교 급식실의 모습이 담긴 영상
+    start: 139
+    end: 340
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v3
+    stage: 장소감
+    title: 워터파크의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ByY76ur3UXM
+    desc: 대구 근교 워터파크, 경산 '펀펀 워터파크'의 모습이 담긴 영상
+    channel: 청도프로방스빛축제
+  - key: v4
+    stage: 장소감
+    title: 대구의 강, '신천'의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ukX3nsxjL7k
+    desc: 대구의 중심을 지나는 강, 신천의 모습이 담긴 영상
+    channel: 대구TV┃대구광역시 공식 유튜브
+  - key: v5
+    stage: 장소감
+    title: 무인 문구점의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=rKanzxvV6ug
+    desc: 방과 후 학생들이 자주 방문하는 무인 편의점의 모습이 담긴 영상
+    start: 40
+    end: 134
+    channel: MBN Entertainment
+  - key: v6
+    stage: 장소감
+    title: 대구 운암지 수변공원의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=lx9YW9_KNXA
+    desc: 대구의 공원 중 하나, 운암지 수변공원의 모습이 담긴 영상
+    channel: 영남일보TV
+  - key: v7
+    stage: 장소감
+    title: 대형 마트의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=4-MwsZmA0o0
+    desc: 대형마트의 모습이 담긴 영상
+    channel: 연합뉴스TV
+  - key: v8
+    stage: 장소감
+    title: 대구 공항의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=_EHSgqNEk_g
+    desc: 대구공항의 모습이 담긴 영상
+    channel: SBS 뉴스
+  - key: v9
+    stage: 장소감
+    title: 신나는 놀이터의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=okDZkPBvK-8
+    desc: 어린이들이 놀이터에서 신나게 노는 모습이 담긴 영상
+    channel: " YTN"
+  - key: v10
+    stage: 장소감
+    title: 대구 영화관, 만경관의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=pl038jisBjU
+    desc: 대구의 영화관 중 하나인 만경관의 모습이 담긴 영상
+    channel: 영남일보TV
+  - key: v11
+    stage: 장소감
+    title: 간식이 가득한 곳, 편의점의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=mEqiwea2qis
+    desc: 편의점의 모습이 담긴 영상
+    channel: JTBC News
+  - key: v12
+    stage: 장소감
+    title: 대구의 재래시장, 칠성시장의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=OQ_3MtGM4JE
+    desc: 대구의 재래시장, 칠성시장의 모습이 담긴 영상.
+    start: 25
+    end: 187
+    channel: ojin walk, 재래시장 탐방
+  - key: v13
+    stage: 장소감
+    title: 치과의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ZcEq_o5ZRAA
+    desc: 어린 학생이 치과에서 진료를 받고 있는 모습이 담긴 영상.
+    channel: MBCentertainment
+  - key: v14
+    stage: 장소감
+    title: 학원의 모습을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=N2y6UP3PjXY
+    desc: 하교 후 대부분의 학생들이 가는 곳, 학원의 모습과 학생들의 생각이 담긴 영상
+    channel: 연합뉴스TV
+  - key: v15
+    stage: 존중
+    title: 해군 헬기장 건설 두고 동네 주민과 생긴 '갈등'!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Y6N-BKGDSWY
+    desc: 헬기장'이라는 장소를 두고 서로 다른 사람들의 장소감을 볼 수 있는 영상
+    channel: G1 News
+quiz:
+  - statement: 학교, 집, 공원처럼 내가 생활하는 주변 장소에서 느낀 점을 표현할 수 있다.
+    answer: O
+    explain: 이 단원은 주변 여러 장소에서 겪은 경험과 느낌을 표현하는 활동이에요.
+  - statement: 같은 공원이라도 친구마다 떠오르는 느낌이 다를 수 있다.
+    answer: O
+    explain: 같은 장소라도 사람마다 떠오르는 느낌(장소감)이 다를 수 있어요.
+  - statement: 장소에 대한 느낌은 누구나 똑같아서 한 가지로 정해져 있다.
+    answer: X
+    explain: 같은 장소라도 사람마다 느낌이 다를 수 있어요.
+  - statement: 친구가 나와 다르게 느껴도 그 마음을 존중하는 태도가 필요하다.
+    answer: O
+    explain: 이 단원은 서로의 장소감을 나누며 존중하는 태도를 기르는 것이 목적이에요.
+  - statement: 내 생각과 다르면 친구의 느낌은 틀린 것이므로 무시해도 된다.
+    answer: X
+    explain: 느낌은 사람마다 다른 것일 뿐 틀린 것이 아니므로, 친구의 느낌도 존중하고 이해해야 해요.
+  - statement: 느낀 점은 글, 그림, 말처럼 여러 가지 방법으로 표현할 수 있다.
+    answer: O
+    explain: 성취기준에 경험과 느낌을 다양한 방식으로 표현한다고 나와 있어요.
+  - statement: 장소에서 느낀 점은 그림으로만 표현해야 하고 말로 나누면 안 된다.
+    answer: X
+    explain: 장소에서 느낀 점은 글, 그림, 말 등 여러 방법으로 표현하고 친구들과 나눌 수 있어요.

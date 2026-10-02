@@ -1,0 +1,187 @@
+id: sc5231
+title: 3. 열과 우리 생활
+grade: 5
+sem: 2학기
+subject: 과학
+unit: 열과 우리 생활
+unit_no: 3
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 에너지는 끊임없이 이동하며 물질의 상태와 환경을 변화시키고, 사람들은 이를 이해하여 생활을 이롭게 만든다.
+  core_question: 열의 이동을 이해하면 우리는 생활을 어떻게 더 이롭게 바꿀 수 있을까?
+  concepts:
+    - term: 성질
+    - term: 변화
+    - term: 온도
+    - term: 열의 이동
+    - term: 단열
+    - term: 보존
+  standards:
+    - code: "[6과07-01]"
+      text: 물체의 따뜻하고 차가운 정도를 온도로 표현함을 알고, 온도계를 이용하여 온도를 측정할 수 있다.
+    - code: "[6과07-02]"
+      text: 온도가 다른 두 물체가 접촉했을 때 두 물체의 온도 변화를 관찰하고 그 원인을 추리할 수 있다.
+    - code: "[6과07-03]"
+      text: 주위에서 열의 이동으로 나타나는 현상을 관찰하여 열의 이동 방식이 다양함을 설명할 수 있다.
+    - code: "[6과07-04]"
+      text: 일상생활에서 단열을 이용하는 사례를 조사하고, 온도를 오랫동안 일정하게 유지할 수 있는 장치를 창의적으로 만들 수 있다.
+stages:
+  - name: 생각열기
+    question: 차갑거나 따뜻한 정도를 어떻게 표현할까?
+  - name: 탐구하기1
+    question: 고체에서 열은 어떻게 이동할까?
+  - name: 탐구하기2
+    question: 열의 이동을 막으면 온도를 어떻게 오래 유지할 수 있을까?
+  - name: 확장하기
+    question: 색과 온도는 서로 어떤 관계가 있을까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 온도가 필요한 이유는 무엇일까?
+    url: https://www.youtube.com/watch?v=7sqLmNKaBkY
+    desc: 차갑거나 따뜻한 정도를 나타내는 온도가 필요한 까닭
+    channel: 전북수업샘터
+  - key: v02
+    stage: 생각열기
+    title: 촛불과 조명의 색깔에 수학이 숨어있다고?
+    url: https://www.youtube.com/watch?v=T2zPySJpKAE
+    desc: 온도에 따라 달라지는 불꽃과 조명의 색
+    channel: YTN 사이언스
+  - key: v03
+    stage: 생각열기
+    title: 냉장고의 적정 온도, 계절마다 다르다고?
+    url: https://www.youtube.com/watch?v=K0IxvfZoAM4
+    desc: 주변 온도에 따라 달라지는 냉장고의 계절별 적정 설정 온도
+    channel: MBCNEWS
+  - key: v04
+    stage: 생각열기
+    title: 거북이의 암수를 결정짓는 것은?
+    url: https://www.youtube.com/watch?v=-s5lLDnEd34
+    desc: 알이 놓인 온도에 따라 암수가 결정되는 거북이
+    channel: EBS 컬렉션 - 사이언스
+  - key: v05
+    stage: 생각열기
+    title: 뜨거운 밥공기 위에 손을 올렸을 때, 왜 그럴까?
+    url: https://www.youtube.com/watch?v=WVuiwV4Ytmc
+    desc: 뜨거운 밥공기에 손을 얹었을 때 온기가 느껴지는 경험
+    channel: 뜨차TV Sung joon
+  - key: v06
+    stage: 생각열기
+    title: 달걀 프라이를 열화상 카메라로 보면?
+    url: https://www.youtube.com/watch?v=97TUuLlETY4
+    desc: 열화상 카메라로 본 달걀 프라이의 열 변화
+    channel: 아하 사이언스[ Aha! Science ]
+  - key: v07
+    stage: 탐구하기1
+    title: 고체의 온도 변화를 어떻게 눈으로 확인할까?
+    url: https://www.youtube.com/watch?v=GBd6BYlYuUQ
+    desc: 고체의 온도 변화를 눈으로 확인하는 두 가지 방법, 열화상 카메라와 열변색 종이
+    channel: 올라피샘
+  - key: v08
+    stage: 탐구하기1
+    title: 영화 속에 숨겨진 열의 이동 현상, 라따뚜이!
+    url: https://www.youtube.com/watch?v=Zv0UWxVgeJY
+    desc: 라따뚜이 영화 장면에 나타난 고체에서의 열의 이동
+    channel: 집에서 실험하자
+  - key: v09
+    stage: 탐구하기1
+    title: 냉기는 정말 위에서 아래로 흐를까?
+    url: https://www.youtube.com/watch?v=xFUwDmbOysg
+    desc: 슐리렌 장치로 관찰하는 눈에 보이지 않는 공기의 흐름과 대류 현상
+    channel: YTN 사이언스
+  - key: v10
+    stage: 탐구하기1
+    title: 기체에서의 열의 이동을 눈으로 관찰해 보기
+    url: https://www.youtube.com/watch?v=7ga1ke8kN04
+    desc: 실험을 통해 눈으로 확인하는 기체에서의 열의 이동
+    channel: 와니사이언스
+  - key: v11
+    stage: 탐구하기2
+    title: 텀블러는 어떻게 온도를 유지할까?
+    url: https://www.youtube.com/watch?v=t-aoWQjz6Ds
+    desc: 내용물의 온도를 오래 유지하고 환경 보호에도 도움이 되는 텀블러의 과학 원리
+    channel: 국립중앙과학관
+  - key: v12
+    stage: 탐구하기2
+    title: 우주복에서 섬유-온도를 유지하는 방법은?
+    url: https://www.youtube.com/watch?v=bFDJtqlDJuA
+    desc: 우주 밖에서 입는 선외 우주복이 온도를 유지하는 방법
+    channel: 국립대구과학관 Scientry
+  - key: v13
+    stage: 탐구하기2
+    title: 우리 조상들의 지혜, 석빙고의 온도를 유지하는 방법
+    url: https://www.youtube.com/watch?v=z4ghr-6sV74
+    desc: 냉장고가 없던 시절 석빙고가 온도를 유지한 과학적 원리
+    channel: chem623
+  - key: v14
+    stage: 탐구하기2
+    title: 집을 보온병 원리로 지었더니, 1년 내내 에어컨과 보일러가 필요 없게 되었다!
+    url: https://www.youtube.com/watch?v=Ykjg_V1hFHg
+    desc: 보온병 원리로 지어 온도가 일정하게 유지되는 패시브 하우스
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v15
+    stage: 탐구하기2
+    title: 난방 속에 숨어 있는 과학적 원리
+    url: https://www.youtube.com/watch?v=i9IAsuTZQx4
+    desc: 보일러·온돌·온풍기 등 난방 기구에 숨어 있는 과학적 원리
+    channel: YTN 사이언스
+  - key: v16
+    stage: 탐구하기2
+    title: 폭염 속, 어떻게 비닐하우스 속 딸기가 멀쩡할 수 있을까?
+    url: https://www.youtube.com/watch?v=ft8EhNAoRnU
+    desc: 폭염 속 시설 하우스 내부의 온도를 낮추는 여러 장치
+    channel: MBC충북NEWS
+  - key: v17
+    stage: 탐구하기2
+    title: 우리 몸이 항상 36.5도를 유지하는 방법은?
+    url: https://www.youtube.com/watch?v=X9Mt1xnjkEY
+    desc: 한파와 폭염 속에서도 우리 몸이 36.5도를 유지하는 방법
+    channel: 과학Q
+  - key: v18
+    stage: 확장하기
+    title: 한여름 자동차 색상별 온도 차이가 있을까?
+    url: https://www.youtube.com/watch?v=0dLZLlppz-I
+    desc: 한여름 흰색·은색·검정색 자동차의 내부 온도 차이
+    channel: 픽플러스
+  - key: v19
+    stage: 확장하기
+    title: 주변 환경과 온도에 따라 색깔이 달라지는 기술
+    url: https://www.youtube.com/watch?v=if3gJZEyoyo
+    desc: 작은 열에도 색이 바뀌어 군용 위장복에 쓰이는 기술
+    channel: YTN 사이언스
+  - key: v20
+    stage: 확장하기
+    title: 암수 비율 19대 1, 거북이가 멸종 위기종이 된 이유
+    url: https://www.youtube.com/watch?v=9cgNkcW4UOQ
+    desc: 지구 온난화로 암수 불균형이 심해져 멸종 위기에 놓인 거북이
+    channel: JTBC News
+  - key: v21
+    stage: 확장하기
+    title: 지구 온난화로 김장 배추가 사라질 위기라고?
+    url: https://www.youtube.com/watch?v=ViwnPhV-S20
+    desc: 지구 온난화로 재배지가 줄어 사라질 위기에 놓인 배추
+    channel: Go Green
+quiz:
+  - statement: 온도는 물체의 따뜻하고 차가운 정도를 수치로 나타낸 것이다.
+    answer: O
+    explain: 온도계를 사용하면 따뜻하고 차가운 정도를 객관적으로 비교할 수 있다.
+  - statement: 온도가 다른 두 물체가 닿으면 열은 온도가 낮은 물체에서 높은 물체로 이동한다.
+    answer: X
+    explain: 열은 온도가 높은 물체에서 낮은 물체로 이동한다.
+  - statement: 뜨거운 물과 찬물이 접촉하면 시간이 지나 두 물의 온도 차이가 줄어든다.
+    answer: O
+    explain: 열이 뜨거운 쪽에서 차가운 쪽으로 이동하기 때문이다.
+  - statement: 금속 숟가락의 한쪽을 뜨겁게 하면 시간이 지나 다른 쪽도 따뜻해질 수 있다.
+    answer: O
+    explain: 금속을 따라 열이 이동하는 전도 현상이 일어난다.
+  - statement: 따뜻해진 공기나 물이 움직이며 열을 옮기는 현상도 열의 이동 방법이다.
+    answer: O
+    explain: 액체와 기체에서는 대류로 열이 이동할 수 있다.
+  - statement: 보온병은 열의 이동을 빠르게 하여 내용물의 온도를 오래 유지한다.
+    answer: X
+    explain: 보온병은 전도, 대류, 복사에 의한 열 이동을 줄여 단열한다.
+  - statement: 두꺼운 옷 사이의 공기층은 열 이동을 줄이는 데 도움이 되지 않는다.
+    answer: X
+    explain: 움직임이 적은 공기층은 열이 잘 이동하지 않게 해 보온에 도움을 준다.

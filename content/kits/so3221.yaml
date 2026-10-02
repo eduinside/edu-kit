@@ -1,0 +1,197 @@
+id: so3221
+title: 2-1. 옛날과 오늘날의 달라진 풍습
+grade: 3
+sem: 2학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 옛날의 풍습을 놀이와 세시 풍속으로 나누어 살펴보며 옛날 사람들의 생활과 생각을 이해하고, 옛날과 오늘날의 풍습을 비교해 그 변화상을 파악할 수 있도록 구성된 단원입니다.
+  core_question: 옛날과 오늘날을 비교하면 사람들의 생활 모습은 어떻게 달라졌으며, 그렇게 변화한 까닭은 무엇일까?
+  concepts:
+    - term: 세시풍속
+      def: 설날, 추석, 정월대보름처럼 해마다 일정한 때가 되면 되풀이하는 우리 조상들의 풍습이에요. 떡국 먹기, 송편 빚기, 강강술래 같은 행사가 여기에 속해요.
+    - term: 세시풍속의 변화
+      def: 옛날부터 이어 온 세시풍속이 오늘날에 와서 모습이 달라진 것을 말해요. 오늘날에는 사라진 풍속도 있고, 명절을 보내는 방법이 옛날과 달라지기도 했어요.
+    - term: 놀이
+      def: 윷놀이, 쥐불놀이, 고싸움놀이처럼 사람들이 함께 즐기던 활동이에요. 옛날에는 명절이나 특별한 날에 마을 사람들이 모여 민속놀이를 즐겼어요.
+  standards:
+    - code: "[4사04-01]"
+      text: 옛날 풍습에 대해 알아보고, 오늘날과 비교하여 변화상을 파악한다.
+stages:
+  - 세시풍속
+  - 세시풍속의 변화
+  - 놀이
+items:
+  - key: v1
+    stage: 세시풍속
+    title: 세시풍속 퀴즈!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=r9nhTUERc78
+    desc: 나는 우리나라의 세시풍속에 대해 얼마나 알고 있을까?
+    channel: 최태성 초등TV
+  - key: v2
+    stage: 세시풍속
+    title: 설일까? 설날일까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=GdnntlcXI6o
+    desc: 설이라고 해야 할까? 설날이라고 해야 할까?
+    channel: 국립민속박물관
+  - key: v3
+    stage: 세시풍속
+    title: 우리는 왜 설날에 떡국을 먹을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ksV3VEd_p3g
+    desc: 설날에 떡국을 먹는 이유는 무엇일까? 떡국에 담긴 의미
+    channel: 호기심에 답해봐
+  - key: v5
+    stage: 세시풍속
+    title: 보름날과 정원대보름
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=WP46uW1JAl8
+    desc: 세시풍속 중 하나인 정월대보름과 보름날들
+    channel: 국립민속박물관
+  - key: v7
+    stage: 세시풍속
+    title: 가족끼리 넉넉한 정 나눈 추석 풍경
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dQbckWQikYI
+    desc: 오늘날 우리가 추석을 보내는 모습
+    channel: KBS News
+  - key: v8
+    stage: 세시풍속
+    title: 송편, 왜 추석 대표음식이 되었을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Uw1dSd5l1mE
+    desc: 송편의 의미와 송편이 왜 추석의 대표음식이 되었는지 알아보기
+    channel: 연합뉴스 Yonhapnews
+  - key: v10
+    stage: 세시풍속
+    title: 삼복' 더위를 이기는 선조의 지혜
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=UHACfZTDKA8
+    desc: 삼복날 더위를 이기기 위한 조상들의 지혜
+    channel: " YTN"
+  - key: v11
+    stage: 세시풍속
+    title: 즐거운 조합과 흥겨운 화합의 어울림, 윷놀이
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=GRlFPbquBmw
+    desc: 윷놀이에 담긴 의미와 윷놀이 규칙
+    channel: 문화포털
+  - key: v12
+    stage: 세시풍속
+    title: 단오
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=BXcTOGDJp20
+    desc: 단오의 유래와 음식
+    start: 289
+    end: 434
+    channel: 국립민속박물관
+  - key: v13
+    stage: 세시풍속
+    title: 동지에는 왜 팥죽을 먹을까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=swIwA4B1erw
+    desc: 동지에 먹는 팥죽의 유래
+    channel: 서울특별시교육청교육연구정보원
+  - key: v14
+    stage: 세시풍속
+    title: 언제부터 생일에 미역국을 먹었을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tEWGeSJFzqk
+    desc: 생일에 미역국을 먹는 이유에 대한 설명
+    channel: 취재대행소 왱
+  - key: v15
+    stage: 세시풍속
+    title: 백성들의 모습을 그린 단원 김홍도
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=7jzJR9hOeko
+    desc: 씨름도를 중심으로 옛날 사람들의 생활 모습을 그림으로 알아보는 영상
+    start: 436
+    end: 483
+    channel: KBSKids
+  - key: v4
+    stage: 세시풍속의 변화
+    title: 1980년대 설날의 모습은?!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Fsya5ykSiqU
+    desc: 1980년대의 설날 모습을 영상을 통해 들여다 보기
+    channel: 울산MBC
+  - key: v6
+    stage: 세시풍속의 변화
+    title: 90년대의 쥐불놀이
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Ogq2Aifs4EY
+    desc: 90년대 정월대보름의 쥐불놀이 모습 살펴보기
+    channel: 비디오머그 - VIDEOMUG
+  - key: v9
+    stage: 세시풍속의 변화
+    title: 민족 최대의 명절 추석의 옛 풍경은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=cDCpLxRMej8
+    desc: 예전과 오늘날은 추석을 보내는 방법이 어떻게 다를까?
+    channel: KBS 교양
+  - key: v16
+    stage: 놀이
+    title: 우리나라 전통 민속놀이 초성퀴즈
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=qH52UquQnEQ
+    desc: 우리나라 전통 민속놀이를 머릿속에 떠올려보기
+    channel: 한글하는당근쌤
+  - key: v17
+    stage: 놀이
+    title: 고싸움놀이와 차전놀이
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=_Hxi-dnneTQ
+    desc: 고싸움놀이와 차전놀이 모습 소개
+    embed: false
+    status: 임베드차단
+  - key: v18
+    stage: 놀이
+    title: 강강술래를 대보름에 춘 이유
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=m0PC_S-nCuY
+    desc: 강강술래의 유래
+    channel: 국가유산청 Korea Heritage Service
+  - key: v19
+    stage: 놀이
+    title: 윷놀이의 유래
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=VfEOBrbmmfk
+    desc: 도개걸윷모 이름의 의미, 윷놀이의 유래를 소개하는 영상
+    start: 0
+    end: 252
+    channel: 국립민속박물관
+  - key: v20
+    stage: 놀이
+    title: 함께 놀면 더 재미있는 민속놀이
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=vQ2tV4I7fD8
+    desc: 무궁화 꽃이 피었습니다, 땅따먹기, 딱지치기의 유래
+    channel: "지역N문화 "
+quiz:
+  - statement: 설날과 추석처럼 해마다 일정한 때에 되풀이하는 풍습을 세시풍속이라고 한다.
+    answer: O
+    explain: 세시풍속은 해마다 같은 때가 되면 되풀이하는 우리 조상들의 풍습이다.
+  - statement: 옛날부터 이어 온 세시풍속은 오늘날까지 하나도 변하지 않고 그대로이다.
+    answer: X
+    explain: 세시풍속은 시간이 지나며 모습이 달라지거나 사라지기도 했다.
+  - statement: 윷놀이와 강강술래는 옛날 사람들이 즐기던 민속놀이이다.
+    answer: O
+    explain: 윷놀이와 강강술래는 우리 조상들이 즐기던 대표적인 민속놀이이다.
+  - statement: 옛날과 오늘날의 풍습을 비교하면 사람들의 생활 모습이 어떻게 달라졌는지 알 수 있다.
+    answer: O
+    explain: 옛날과 오늘날의 풍습을 비교하면 사람들의 생활 모습이 어떻게 바뀌었는지 알 수 있다.
+  - statement: 송편은 설날에 먹는 대표 음식이다.
+    answer: X
+    explain: 송편은 추석에 먹는 대표 음식이고, 설날에는 떡국을 먹는다.
+  - statement: 옛날에는 명절에 마을 사람들이 함께 모여 민속놀이를 즐겼다.
+    answer: O
+    explain: 옛날에는 명절이나 특별한 날에 마을 사람들이 모여 함께 놀이를 즐겼다.
+  - statement: 세시풍속과 놀이를 살펴보면 옛날 사람들의 생활과 생각을 이해할 수 있다.
+    answer: O
+    explain: 옛날의 세시풍속과 놀이를 살펴보면 옛날 사람들의 생활 모습과 생각을 이해할 수 있다.

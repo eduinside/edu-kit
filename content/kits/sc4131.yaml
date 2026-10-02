@@ -1,0 +1,304 @@
+id: sc4131
+title: 3. 땅의 변화
+grade: 4
+sem: 1학기
+subject: 과학
+unit: 땅의 변화
+unit_no: 3
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 흐르는 물의 작용과 화산 활동 및 지진을 알아봄으로써 땅의 변화에 대해 호기심과 탐구하려는 태도를 갖도록 한다. 흐르는 물의 작용과 강 주변 지형의 특징을 관련지어 설명할 수 있게 하고, 화산의 의미와 화산 활동으로 나오는 물질을 이해하도록 한다. 화산 활동을 모형으로 표현하도록 하고, 화성암을 관찰한 다음 분류 기준을 정하여 분류하도록 한다. 또 화산 활동과 지진이 우리 생활에 미치는 영향을 조사하여 대처 방법을 실천할 수 있도록 한다.
+  core_question: 땅은 흐르는 물과 화산·지진으로 어떻게 변하며, 우리는 그 변화에 어떻게 대처해야 할까?
+  concepts:
+    - term: 지형
+      def: 산, 강, 바닷가처럼 우리가 사는 땅의 생김새를 말해요. 흐르는 물이나 화산, 지진 같은 작용으로 오랜 시간에 걸쳐 모습이 바뀌어요.
+    - term: 지진
+      def: 땅속의 큰 힘 때문에 땅이 흔들리는 현상이에요. 건물이 무너지거나 갈라짐이 생길 수 있어서 흔들리면 몸을 보호하고 안전한 곳으로 피해야 해요.
+    - term: 화산
+      def: 땅속의 뜨거운 마그마가 약한 틈을 뚫고 땅 위로 나오는 곳이에요. 화산이 활동하면 용암, 화산재, 화산 가스 같은 물질이 나와요.
+    - term: 화강암
+      def: 마그마가 땅속 깊은 곳에서 천천히 식어 만들어진 화성암이에요. 알갱이가 크고 색이 밝은 편이며, 우리나라에서 흔히 볼 수 있어요.
+    - term: 현무암
+      def: 마그마가 땅 위나 가까운 곳에서 빠르게 식어 만들어진 화성암이에요. 알갱이가 작고 색이 어두우며, 표면에 작은 구멍이 많은 것도 있어요.
+    - term: 흐르는 물의 작용
+      def: 강이나 빗물처럼 흐르는 물이 땅을 깎고, 깎인 돌과 흙을 옮기고, 다른 곳에 쌓는 일을 해요. 이 작용이 오랜 시간 쌓이면 땅의 모습이 바뀌어요.
+    - term: 침식
+      def: 흐르는 물이나 파도, 바람이 땅이나 바위를 조금씩 깎아 내는 것을 말해요. 강가의 절벽이나 바닷가의 깎인 바위는 침식으로 만들어져요.
+    - term: 강 주변 지형
+      def: 강이 흐르면서 깎고 쌓는 작용으로 만들어진 땅의 모습이에요. 물살이 빠른 강 상류에는 깎인 곳이 많고, 물살이 느린 하류에는 흙과 모래가 쌓여 넓은 땅이 생겨요.
+    - term: 바닷가 주변 지형
+      def: 바닷물과 파도가 깎거나 쌓는 작용으로 만들어진 바닷가의 땅 모습이에요. 파도에 깎인 절벽이나 동굴, 모래가 쌓인 모래사장 등을 볼 수 있어요.
+  standards:
+    - code: "[4과11-01]"
+      text: 흐르는 물의 작용과 강 주변 지형의 특징을 관련지을 수 있다.
+    - code: "[4과11-02]"
+      text: 화산의 의미와 화산 활동으로 나오는 물질을 알고, 화산 활동을 모형으로 표현할 수 있다.
+    - code: "[4과11-03]"
+      text: 화성암을 관찰하고 분류할 수 있다.
+    - code: "[4과11-04]"
+      text: 화산 활동과 지진이 우리 생활에 미치는 영향을 조사하여, 대처 방법을 실천할 수 있다.
+stages:
+  - 지형
+  - 지진
+  - 화산
+  - 화강암
+  - 현무암
+  - 흐르는 물의 작용
+  - 침식
+  - 강 주변 지형
+  - 바닷가 주변 지형
+items:
+  - key: v1
+    stage: 지형
+    title: 흐르는 물이 만들어낸 아름다운 회룡포
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=mML9ugDgks8
+    desc: 침식과 퇴적으로 만들어진 회룡포의 모습
+    channel: 지리뷰
+  - key: v2
+    stage: 지진
+    title: 난카이 거대지진 주의보!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=n7V0Ud5-cN0
+    desc: 2024년 8월 일본의 대지진 주의보
+    channel: MBCNEWS
+  - key: v3
+    stage: 지진
+    title: 지진이 일어나면 어떻게 될까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=YXLaa6ItkC8
+    desc: 대만의 지진 피해
+    channel: 연합뉴스 Yonhapnews
+  - key: v4
+    stage: 지진
+    title: 바닷속에서 지진이 발생하면?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=BgyGucZJ24U
+    desc: 바닷속에서 지진이 발생하면?
+    channel: KNN NEWS
+  - key: v5
+    stage: 지진
+    title: 지진 대피 어떻게할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=kdkcKESgRaU
+    desc: 지진 규모별 강도와 지진대피 방법
+    channel: 행정안전부
+  - key: v6
+    stage: 화산
+    title: 드론으로 화산보기!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=7L0kIvTd7Xk
+    desc: 드론으로 촬영한 아이슬란드 화산의 모습
+    channel: 뉴스1TV
+  - key: v7
+    stage: 화산
+    title: 두 가지 종류의 화산 실험!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=GrOZhzrYzAw
+    desc: 경사가 완만한 화산과 경사가 급한 화산 실험
+    start: 0
+    end: 269
+    channel: 강원대학교 지질학전공
+  - key: v8
+    stage: 화산
+    title: 아름다운 제주도에서 알아보는 화산활동
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=OiZHOviUewc
+    desc: 제주도의 곳곳에서 볼 수 있는 화산활동과 화산분출물
+    channel: 사피엔스 스튜디오
+  - key: v9
+    stage: 화산
+    title: 화산재로 덮인 마을
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=L-i6FHVWw5U
+    desc: 화산재가 뒤덮은 시칠리아섬의 모습
+    channel: 연합뉴스 Yonhapnews
+  - key: v10
+    stage: 화산
+    title: 필리핀 화산 폭발 이후 모습은?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=bGTmL2tTRcw
+    desc: 화산재가 뒤덮은 필리핀 수도 마닐라의 모습
+    channel: KBS News
+  - key: v11
+    stage: 화산
+    title: 화산이 폭발하는 이유는?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=8J8HtXUaqXM
+    desc: 화산이 폭발하는 원리
+    channel: EBS 컬렉션 - 사이언스
+  - key: v12
+    stage: 화산
+    title: 하와이 킬라우에아 화산 분화!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=zoeBVjSb2cc
+    desc: 하와이 킬라우에아 화산의 분화 모습
+    channel: 연합뉴스 Yonhapnews
+  - key: v13
+    stage: 화강암
+    title: 우리나라에서 볼 수 있는 화강암!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=0MdB5eM4i-Q
+    desc: 한반도의 화강암 산
+    channel: KBS 다큐
+  - key: v14
+    stage: 화강암
+    title: 우리나라는 왜 유럽같은 조각상이 없을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Qg9MonfyC7o
+    desc: 우리나라에 유럽식 조각상이 없는 이유 화강암
+    channel: MBClife
+  - key: v15
+    stage: 화강암
+    title: 우리나라의 아름다운 화강암 산은 어떻게 만들어졌을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Xxa0P35hTA8
+    desc: 아름다운 우리나라의 화강암 산과 화강암 산이 만들어지는 과정
+    channel: 도도
+  - key: v16
+    stage: 화강암
+    title: 화강암은 어디서 가져올까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=pJ4RcF-jfcU
+    desc: 화강암 채석장의 모습
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v17
+    stage: 화강암
+    title: 화강암 탐구 실험!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_2xmwykyb98
+    desc: 화강암 관찰 및 화강암 탐구
+    channel: HJ Joo
+  - key: v18
+    stage: 현무암
+    title: 현무암 탐구 실험!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=3D77sXGBIsU
+    desc: 현무암 관찰 및 현무암 탐구
+    channel: HJ Joo
+  - key: v19
+    stage: 현무암
+    title: 화산재와 현무암이 만들어낸 포도농장이 있다고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=9ZvLMruMKpE
+    desc: 화산재와 현무암으로 만든 포도농장
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v20
+    stage: 현무암
+    title: 한탄강은 어떻게 만들어졌을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=YsME_vTOwNc
+    desc: 한탄강이 만들어지게 된 과정
+    start: 181
+    end: 715
+    channel: 유네스코한국위원회 - KNCU
+  - key: v21
+    stage: 현무암
+    title: 현무암이 제주도말고 강원도에도 있다고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=NRSI_XsnUPQ
+    desc: 한탄강 유네스코 세계지질공원의 모습
+    start: 79
+    end: 470
+    channel: YTN 사이언스
+  - key: v22
+    stage: 흐르는 물의 작용
+    title: 흙은 어떻게 만들어질까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=cCFH4ukY2u4
+    desc: 얼음설탕 실험으로 알아보는 흙이 만들어지는 과정
+    channel: 수지샘클래쓰
+  - key: v23
+    stage: 흐르는 물의 작용
+    title: 흐르는 물은 지표를 어떻게 변화시킬까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-oX_j5IOqpw
+    desc: 흐르는 물에 의한 지표 변화 실험
+    channel: 비상교육(VisangEdu)
+  - key: v24
+    stage: 침식
+    title: 노르망디 해안의 절벽 침식 현상
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=OUFldVzfE1o
+    desc: 해수면 상승으로 인한 절벽 침식 현상
+    channel: KBS News
+  - key: v25
+    stage: 침식
+    title: 강릉 해변에 모래가 없어지고 있어요
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=zpQBqH5VMiI
+    desc: 빠른 해안침식으로 인한 지형 변화
+    channel: KBS강원
+  - key: v26
+    stage: 침식
+    title: 신기한 바위는 어떻게 만들어지는 걸까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=iuiZwVXDVNY
+    desc: 사막의 신기한 바위가 만들어지는 과정
+    channel: 지리는TV
+  - key: v28
+    stage: 강 주변 지형
+    title: 물이 흐르는 길을 따라가면?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=A3k5kXdoFho
+    desc: 한강이 시작되어 흘러가는 모습에서 알 수 있는 땅의 모습 변화
+    channel: EBS 컬렉션 - 사이언스
+  - key: v29
+    stage: 강 주변 지형
+    title: 강은 왜 직선으로 흐르지 않을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=9A0G3q7RqKY
+    desc: 강이 직선으로 흐르지 않는 이유
+    channel: 지리는TV
+  - key: v30
+    stage: 강 주변 지형
+    title: 동강에서 래프팅을?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=6QakAKURAbw
+    desc: 강 주변 지형을 이용한 사례
+    channel: SBS 뉴스
+  - key: v31
+    stage: 바닷가 주변 지형
+    title: 왜 바다에서만 파도가 칠까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=8_T4Th_k4KE
+    desc: 바다에서만 파도를 볼 수 있는 이유
+    channel: YTN 사이언스
+  - key: v32
+    stage: 바닷가 주변 지형
+    title: 모래댐을 발로 툭 찼더니?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=CZZVQmkV5Ng
+    desc: 모래댐을 발로 찼을 때 생기는 현상
+    channel: 포크포크
+  - key: v33
+    stage: 바닷가 주변 지형
+    title: 제주도 용머리 해안은 어떻게 만들어졌을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=4jpeTsq6oTc
+    desc: 우리 주변에서 볼 수 있는 풍화 지역
+    channel: 국가유산채널(K-Heritage Channel)
+quiz:
+  - statement: 흐르는 물은 땅을 깎고, 깎인 흙과 돌을 옮겨 다른 곳에 쌓는 작용을 한다.
+    answer: O
+    explain: 흐르는 물은 깎기, 옮기기, 쌓기의 작용을 하여 땅의 모습을 바꾼다.
+  - statement: 화산이 활동하면 용암, 화산재, 화산 가스 같은 물질이 나온다.
+    answer: O
+    explain: 화산 활동으로 용암, 화산재, 화산 가스 등 여러 물질이 나온다.
+  - statement: 화강암과 현무암은 모두 마그마가 식어서 만들어진 화성암이다.
+    answer: O
+    explain: 화강암과 현무암은 마그마가 식어 굳어진 화성암으로 분류된다.
+  - statement: 현무암은 화강암보다 알갱이가 크고 색이 밝다.
+    answer: X
+    explain: 현무암은 빠르게 식어 알갱이가 작고 색이 어두우며, 화강암이 알갱이가 크고 밝다.
+  - statement: 지진이 일어나 땅이 흔들릴 때는 밖으로 뛰어다니지 말고 몸을 보호하며 안전하게 대처해야 한다.
+    answer: O
+    explain: 지진 시에는 머리를 보호하고 안전한 곳으로 침착하게 대피하는 것이 바른 대처 방법이다.
+  - statement: 강에서 물살이 빠른 상류에서는 흙과 모래가 많이 쌓여 넓은 땅이 만들어진다.
+    answer: X
+    explain: 상류는 깎는 작용이 활발하고, 흙과 모래가 쌓이는 것은 물살이 느린 하류이다.
+  - statement: 바닷가의 절벽이나 깎인 바위는 파도와 바닷물의 침식 작용으로 만들어진다.
+    answer: O
+    explain: 파도와 바닷물이 바위를 깎는 침식 작용으로 바닷가 절벽 같은 지형이 만들어진다.

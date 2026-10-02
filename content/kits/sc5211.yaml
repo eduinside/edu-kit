@@ -1,0 +1,149 @@
+id: sc5211
+title: 1. 혼합물의 분리
+grade: 5
+sem: 2학기
+subject: 과학
+unit: 혼합물의 분리
+unit_no: 1
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 모든 물질은 저마다 고유한 성질을 지니며, 사람들은 그 성질의 차이를 활용하여 원하는 것을 얻는다.
+  core_question: 물질의 고유한 성질은 우리가 원하는 것을 얻는 데 어떻게 활용될까?
+  concepts:
+    - term: 성질
+    - term: 변화
+    - term: 분리
+    - term: 입자
+    - term: 용해
+    - term: 혼합물
+  standards:
+    - code: "[6과05-01]"
+      text: 알갱이의 크기가 다른 고체 혼합물과 골고루 섞이지 않는 액체 혼합물을 분리할 수 있다.
+    - code: "[6과05-02]"
+      text: 물에 용해되는 성질을 이용하여 고체 혼합물을 분리하고, 물을 증발시켜 물에 용해된 고체 물질을 분리할 수 있다.
+    - code: "[6과05-03]"
+      text: 지속가능한 삶을 위한 과학기술 사례 중 혼합물의 분리를 이용한 장치를 조사하여 공유할 수 있다.
+stages:
+  - name: 생각열기
+    question: 우리 주변의 혼합물은 어떻게 알아볼 수 있고, 왜 분리할까?
+  - name: 탐구하기1
+    question: 혼합물은 물질의 어떤 성질을 이용해 분리할까?
+  - name: 탐구하기2
+    question: 혼합물 분리는 우리 일상 생활 속에 어떻게 활용될까?
+  - name: 확장하기
+    question: 물질의 성질을 이용한 분리 과정은 환경 문제 해결에 어떻게 기여할 수 있을까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 물질이 섞여 있으면 항상 불투명할까?
+    url: https://www.youtube.com/watch?v=yavlf6BklOo
+    desc: 물질이 섞였을 때 불투명해지는 까닭
+    channel: YTN 사이언스
+  - key: v02
+    stage: 생각열기
+    title: 생활 속에서 혼합물을 분리하는 이유
+    url: https://www.youtube.com/watch?v=uGC3sRpaDPE
+    desc: 생활 속에서 혼합물을 분리하여 활용하는 예와 그 이로운 점
+    channel: 과학의숲
+  - key: v03
+    stage: 탐구하기1
+    title: 섞인 소금과 후추, 분리가 가능할까?
+    url: https://www.youtube.com/watch?v=Ebntt4JEnwA
+    desc: 풍선과 플라스틱 그릇으로 소금과 후추를 분리하는 방법
+    channel: YTN 사이언스
+  - key: v04
+    stage: 탐구하기1
+    title: 바닷물, 끓이지 않고 증류수를 얻을 수 있을까?
+    url: https://www.youtube.com/watch?v=v1FcWABNh2w
+    desc: 바닷물을 끓이지 않고 물과 소금을 분리하는 방법
+    channel: YTN 사이언스
+  - key: v05
+    stage: 탐구하기1
+    title: 태안 기름 유출 사고와 기적
+    url: https://www.youtube.com/watch?v=5ZJa6BdnZIs
+    desc: 태안 기름 유출 사고에서 기름을 걷어내 생태계를 되찾은 과정
+    channel: KTV 국민방송
+  - key: v06
+    stage: 탐구하기2
+    title: 전통주 제조 과정
+    url: https://www.youtube.com/watch?v=Ey7mWgQYQh0
+    desc: 혼합물 분리 원리를 적용한 막걸리 제조 과정 소개
+    channel: YTN 사이언스
+  - key: v07
+    stage: 탐구하기2
+    title: 숨 쉬는 천연 섬유, 목화솜 추출 과정
+    url: https://www.youtube.com/watch?v=OjKnwdS1GGI
+    desc: 습기를 내보내 썩지 않는 목화솜의 추출 과정
+    channel: YTN 사이언스
+  - key: v08
+    stage: 탐구하기2
+    title: 공기청정기는 어떻게 미세먼지를 잡아낼까?
+    url: https://www.youtube.com/watch?v=V0ga9mmPpNg
+    desc: 공기청정기 속 미세먼지를 걸러 내는 헤파필터의 특징과 작동 원리
+    channel: LGScienceLand
+  - key: v09
+    stage: 탐구하기2
+    title: 폐종이로 재생종이를 만드는 업사이클링 체험
+    url: https://www.youtube.com/watch?v=ZPhX2wSdwpY
+    desc: 폐종이를 활용한 재생종이 제작으로 업사이클링 체험하기
+    channel: KBS대전 [CULTURE&DOCUMENTARY]
+  - key: v10
+    stage: 탐구하기2
+    title: 소금에 붙은 '미세 플라스틱'을 제거할 수 있을까?
+    url: https://www.youtube.com/watch?v=InGD2hclQkQ
+    desc: 소금에 붙은 미세 플라스틱을 없애는 기술
+    channel: " YTN"
+  - key: v11
+    stage: 확장하기
+    title: 필터 샤워기는 어떻게 불순물을 제거할까?
+    url: https://www.youtube.com/watch?v=GjvwW_uvleQ
+    desc: 필터 샤워기가 물속 불순물과 녹물을 걸러 내는 원리
+    channel: 국립과천과학관
+  - key: v12
+    stage: 확장하기
+    title: 흙탕물을 맑은 물로 바꿀 수 있을까?
+    url: https://www.youtube.com/watch?v=d8d4I3bPAPI
+    desc: 흙탕물 속 흙과 모래를 분리해 맑은 물을 얻는 방법
+    channel: K-water 한국수자원공사 Official
+  - key: v13
+    stage: 확장하기
+    title: 마스크 필터 속에 숨은 과학 원리
+    url: https://www.youtube.com/watch?v=aTicerr0l9I
+    desc: 미세먼지로부터 호흡기를 보호하는 마스크 필터의 원리
+    channel: YTN 사이언스
+  - key: v14
+    stage: 확장하기
+    title: 공기 정화와 가습을 동시에 해결한 공기청정기의 개발!
+    url: https://www.youtube.com/watch?v=CkBSiMvGQWY
+    desc: 국내 연구진이 세계 최초로 개발한 필터 없는 공기 정화·가습 장치
+    channel: " YTN"
+  - key: v15
+    stage: 확장하기
+    title: 하루 만에 바다쓰레기를 3톤 모은다는, 바다 위 쓰레기통의 정체
+    url: https://www.youtube.com/watch?v=d5QTU3vTrUs
+    desc: 바다 위를 떠다니는 쓰레기를 모으는 바다 쓰레기통 씨빈(Seabin)
+    channel: 크랩 KLAB
+quiz:
+  - statement: 알갱이의 크기가 다른 고체 혼합물은 체를 이용해 분리할 수 있다.
+    answer: O
+    explain: 체의 구멍보다 작은 알갱이는 빠지고 큰 알갱이는 남는 성질을 이용한다.
+  - statement: 물과 기름처럼 서로 섞이지 않는 액체는 가만히 두어 층이 나뉘면 분리할 수 있다.
+    answer: O
+    explain: 밀도와 섞이지 않는 성질의 차이를 이용해 위아래 층을 나눌 수 있다.
+  - statement: 소금이 물에 녹으면 소금이 완전히 사라져 다시 얻을 수 없다.
+    answer: X
+    explain: 물이 증발하면 녹아 있던 소금을 다시 얻을 수 있다.
+  - statement: 모래와 소금의 혼합물은 물에 녹는 성질의 차이를 이용해 분리할 수 있다.
+    answer: O
+    explain: 소금은 물에 녹지만 모래는 녹지 않으므로 거르기와 증발을 이용한다.
+  - statement: 모든 혼합물은 알갱이 크기만 비교하면 분리할 수 있다.
+    answer: X
+    explain: 혼합물에 따라 용해, 자석에 붙는 성질, 끓는점 등 알맞은 성질 차이를 이용해야 한다.
+  - statement: 혼합물을 분리할 때에는 섞인 물질이 가진 성질을 먼저 살펴야 한다.
+    answer: O
+    explain: 성질 차이를 알아야 알맞은 분리 방법과 도구를 선택할 수 있다.
+  - statement: 정수 장치는 물질을 섞기만 하므로 혼합물 분리와 관계가 없다.
+    answer: X
+    explain: 거르기나 침전 같은 분리 방법을 이용해 물속 불순물을 줄인다.

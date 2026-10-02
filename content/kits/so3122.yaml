@@ -1,0 +1,213 @@
+id: so3122
+title: 2-2. 물건과 자료로 살펴보는 과거
+grade: 3
+sem: 1학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 주변의 오래된 물건이나 자료 등이 과거의 모습을 보여 주는 증거 역할을 한다는 것을 이해하도록 한다. 학생의 애장품을 비롯해 생활 주변에서 볼 수 있는 오래된 물건이나 자료(신문 기사, 편지, 일기, 노래 가사, 사진 등)을 활용해 과거의 모습을 살펴본다.
+  core_question: 오래된 물건과 자료는 과거에 대해 무엇을 알려 주며, 우리 지역의 생활 모습은 시간에 따라 어떻게 달라졌을까?
+  concepts:
+    - term: 역사 자료
+      def: 오래된 물건이나 신문 기사, 편지, 일기, 사진처럼 과거의 모습을 알려 주는 자료예요. 이런 자료는 옛날 사람들의 생활을 보여 주는 증거가 되어요.
+    - term: 추론
+      def: 남아 있는 물건이나 자료를 보고 과거에 어떤 일이 있었는지 짐작해 보는 것이에요. 예를 들어 옛날 일기를 읽으면 그때의 생활 모습을 알아낼 수 있어요.
+  standards:
+    - code: "[4사02-02]"
+      text: 오래된 물건이나 자료들을 주변에서 찾아보고, 이를 통해 과거의 모습을 살펴볼 수 있음을 이해한다.
+stages:
+  - 역사 자료
+  - 추론
+items:
+  - key: v1
+    stage: 역사 자료
+    title: 1980~90년대 사람들이 사용하던 생활 속 물건들
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1hUm6nWLgxU
+    desc: 1980~90년대 사람들이 사용하던 생활 속 물건들로 과거의 모습 보기
+    channel: MBC강원영동
+  - key: v2
+    stage: 역사 자료
+    title: 1980~90년대 대구의 가을 운동회 모습 살펴보기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=mp-q1KjTVbY
+    desc: 1980~90년대 대구 학교의 운동회 모습
+    channel: 대구MBC뉴스
+  - key: v3
+    stage: 역사 자료
+    title: 1980~90년대 체육 시간, 국민 체조는 지금과 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=2FwWNfwqOng
+    desc: 예전 체육 시간 국민 체조는 지금과 다를까?
+    channel: 대구MBC뉴스
+  - key: v4
+    stage: 역사 자료
+    title: 아빠, 바나나 우유 하나만"" 1970~90년대 목욕탕 모습
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Ws0NL1MH6ak
+    video_title: '"아빠, 바나나 우유 하나만" 1970~90년대 목욕탕 모습'
+    desc: 과거 공중 목욕탕의 모습
+    channel: 대구MBC뉴스
+  - key: v5
+    stage: 역사 자료
+    title: 그 무엇과도 바꿀 수 없는 '옛 물건'
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=0nJEeRuQpao
+    desc: 과거 사람들이 사용하던 생활 도구들 살펴보기
+    channel: KBS창원
+  - key: v6
+    stage: 역사 자료
+    title: 20년 전 교실의 모습은 지금과 어떻게 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1qztcie7wLI
+    desc: 20년 전, 초등학교 생활 모습 살펴보기
+    start: 108
+    end: 180
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v7
+    stage: 역사 자료
+    title: 1980~90년대 학교 점심 시간 모습은 지금과 어떻게 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=CcvzTfb7foc
+    desc: 1980~90년대 학교 점심 시간 모습
+    channel: "옛날티비 : KBS Archive"
+  - key: v8
+    stage: 역사 자료
+    title: 과거 도서관, 독서실은 지금과 어떻게 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=gO5vExtncqs
+    desc: 어두워서 공부가 안 돼요"" 1980년대 교실과 도서관의 조명 모습
+    channel: 대구MBC뉴스
+  - key: v9
+    stage: 역사 자료
+    title: 과거 대구의 학교 앞 문구점 모습은 지금과 어떻게 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=8EtgcA8t00g
+    desc: 7-80년대 대구 학교 앞 문구점의 모습
+    channel: 대구MBC뉴스
+  - key: v10
+    stage: 역사 자료
+    title: 과거 수영장 모습은 지금과 어떻게 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=wXQ9kYkSSyE
+    desc: 7-80년대 대구의 수영장 일상 모습
+    channel: 대구MBC뉴스
+  - key: v11
+    stage: 역사 자료
+    title: 과거 대구의 동네 놀이터는 지금과 어떻게 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_KAEakQtTwU
+    desc: 7-90년대 대구 동네 놀이터에서 노는 일상 모습
+    channel: 대구MBC뉴스
+  - key: v12
+    stage: 역사 자료
+    title: 과거 학교 운동장의 모습은 지금과 무엇이 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=yX6_csxChLQ
+    desc: 1980년대 학교 운동장의 모습
+    channel: 대구MBC뉴스
+  - key: v13
+    stage: 역사 자료
+    title: 과거에 흡연율이 78%이었던 적이 있다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=BJ5qdBBc6yQ
+    desc: 과거 흡연율이 높아지자 뉴스에서 보여준 '금연 실험' 영상
+    channel: 크랩 KLAB
+  - key: v14
+    stage: 역사 자료
+    title: 1980년대에 있었던 '공중전화기'는 무엇일까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=AlA6EC2yRFw
+    desc: 1980년대의 공중전화기 영상
+    channel: MBC강원영동
+  - key: v15
+    stage: 역사 자료
+    title: 인터넷 없던 시절 90년대 초등학교 방학 숙제는 지금과 어떻게 달랐을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=d4mFaBtgXH8
+    desc: 1990년대 초등학생들의 방학 숙제 모습 영상
+    channel: 크랩 KLAB
+  - key: v16
+    stage: 추론
+    title: 그 옛날, 겨울을 어떻게 보냈을까? (1960~80년대 겨울 모습)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=8aSau7-N-Ac
+    desc: 1960-80년대 사람들이 추운 겨울을 보내는 모습
+    channel: 대전MBC 뉴스
+  - key: v17
+    stage: 추론
+    title: 초등학교 5학년의 일기장
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=YPMFdG9KQf8
+    desc: 과거 초등학교 5학년의 일기장을 통해 과거 모습을 추론하기
+    channel: 90년대 초등학생 일기장
+  - key: v18
+    stage: 추론
+    title: 1992년 7월 16일 목요일 초등학교 4학년의 일기장
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_Qb4mqZVCnI
+    desc: 과거 초등학교 4학년의 일기장을 통해 과거 모습을 추론하기
+    channel: 90년대 초등학생 일기장
+  - key: v19
+    stage: 추론
+    title: 삐삐치신 분~ 90년대에 있었던 '삐삐'는 무엇일까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=GLat-QhxSso
+    desc: 과거 사람들이 스마트폰 대신 사용하던 '삐삐'의 모습
+    channel: MBC강원영동
+  - key: v20
+    stage: 추론
+    title: 사랑을 실은 편지, '펜팔'은 무엇일까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HSbmbn7nUN4
+    desc: 과거 사람들은 먼 곳에 사는 사람들과 어떻게 연락했을까?
+    channel: MSG
+  - key: v21
+    stage: 추론
+    title: 옛날 사람들의 생각을 들여다 볼 수 있는 노래 가사들!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=dH4RXA8RNmc
+    desc: 노래 가사에서 찾아볼 수 있는 옛날 사람들의 생각 들여다보기
+    start: 64
+    end: 420
+    channel: 엠빅뉴스
+  - key: v22
+    stage: 추론
+    title: 옛 학교, '서당'의 어느 하루를 생생하게 담은 김홍도의 풍속화
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=NEZ39zgCoZ4
+    desc: 화가 김홍도의 그림 <서당>을 보며 먼 옛날 학교의 모습 살펴보기
+    channel: 교양 Voyage
+  - key: v23
+    stage: 추론
+    title: 단원 선생의 풍속도첩에 나오는 우리 조상들의 생활은?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=nGwn_jtORjA
+    desc: 단원 선생이 그린 그림을 보며 옛 사람들의 생활 모습 살펴보기
+    channel: KBS 다큐
+quiz:
+  - statement: 오래된 물건이나 자료는 과거의 모습을 보여 주는 증거가 될 수 있다.
+    answer: O
+    explain: 주변의 오래된 물건과 자료는 과거의 모습을 알려 주는 증거 역할을 해요.
+  - statement: 옛날 편지나 일기, 사진도 과거를 살펴볼 수 있는 자료가 된다.
+    answer: O
+    explain: 편지, 일기, 사진 같은 자료로 과거의 생활 모습을 살펴볼 수 있어요.
+  - statement: 오래된 물건은 모두 쓸모가 없으므로 버리는 것이 가장 좋다.
+    answer: X
+    explain: 오래된 물건은 과거를 알려 주는 소중한 증거이므로 함부로 버리면 안 돼요.
+  - statement: 남아 있는 자료를 보고 과거의 모습을 짐작해 보는 것을 추론이라고 한다.
+    answer: O
+    explain: 남아 있는 자료를 근거로 과거의 모습을 짐작해 보는 것을 추론이라고 해요.
+  - statement: 과거의 생활 모습은 시간이 지나도 지금과 전혀 달라지지 않는다.
+    answer: X
+    explain: 우리 지역의 생활 모습은 시간이 흐르면서 점점 달라져요.
+  - statement: 오래된 물건이나 자료는 우리 생활 주변에서는 찾을 수 없다.
+    answer: X
+    explain: 오래된 물건과 자료는 우리 생활 주변에서도 쉽게 찾아볼 수 있어요.
+  - statement: 옛날 노래 가사를 통해 그 시절 사람들의 생각을 엿볼 수 있다.
+    answer: O
+    explain: 노래 가사 같은 자료에도 옛날 사람들의 생각과 생활 모습이 담겨 있어요.

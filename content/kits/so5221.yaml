@@ -1,0 +1,187 @@
+id: so5221
+title: 2-1. 조선 시대의 유교 문화
+grade: 5
+sem: 2학기
+subject: 사회
+unit: 2. 달라지는 시대, 변화하는 생활 모습
+unit_no: 2
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회⋅문화적 변화를 반영한다.
+  core_question: 유교 문화는 사람들이 살아가던 공간과 일상생활의 모습을 어떻게 변화시켰을까?
+  concepts:
+    - term: 공간과 장소
+    - term: 변화
+    - term: 체제
+    - term: 생활 모습
+    - term: 유교 문화
+    - term: 조선 시대
+  standards:
+    - code: "[6사05-01]"
+      text: 조선 시대 사람들의 생각과 생활에 유교 문화가 미친 영향을 파악한다.
+stages:
+  - name: 생각열기
+    question: 어떤 의식이 시간이 지나도 보존되거나 이어지는 이유는 무엇일까?
+  - name: 탐구하기1
+    question: 조선은 어떻게 성립하고 발전해 왔을까?
+  - name: 탐구하기2
+    question: 유교 문화로 인해 조선 사람들의 생활모습은 어떻게 변화했을까?
+  - name: 확장하기
+    question: 시대에 따라 가치관은 왜 바뀔까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 조선 유교의 성지! 종묘 제례 D-7 금기 사항
+    url: https://www.youtube.com/watch?v=A2KN2PVc2ZQ
+    desc: 종묘제례의 7일 전 금기를 알아보며 조선의 유교문화에 대해 호기심을 키움.
+    channel: MBCentertainment
+  - key: v02
+    stage: 탐구하기1
+    title: 고려는 어떻게 멸망하였는가?
+    url: https://www.youtube.com/watch?v=hw9ZB5AoKDk
+    desc: 고려가 멸망하고 조선이 건국된 과정에 대해 이해함.
+    channel: 역주행-한국사, 세계사
+  - key: v03
+    stage: 탐구하기1
+    title: 하여가와 단심가
+    url: https://www.youtube.com/watch?v=vEGVBaSxYIQ
+    desc: 하여가와 단심가를 보며 조선 건국에 대한 두 입장을 파악함.
+    channel: 지니스쿨 역사 GeniSchool History
+  - key: v04
+    stage: 탐구하기1
+    title: 조선을 건국한 이성계
+    url: https://www.youtube.com/watch?v=RtCjbhORaY8
+    desc: 이성계의 인물을 탐구해보고 조선의 건국을 이해함.
+    channel: 공부방찐천재
+  - key: v05
+    stage: 탐구하기1
+    title: 조선 왕조를 설계한 정도전
+    url: https://www.youtube.com/watch?v=nOPx2dnXi0c
+    desc: 정도전 인물 탐구를 통해 조선 건국에 기여한 인물을 탐색함.
+    channel: 공부방찐천재
+  - key: v06
+    stage: 탐구하기1
+    title: 위화도 회군은 어떤 과정으로 이루어졌을까?
+    url: https://www.youtube.com/watch?v=CiMM9kOTeZI
+    desc: 위화도 회군을 통해 고려의 멸망과 조선 건국의 과정을 이해함.
+    channel: 지니스쿨 역사 GeniSchool History
+  - key: v07
+    stage: 탐구하기1
+    title: 위화도 회군은 필연적이었을까?
+    url: https://www.youtube.com/watch?v=Dqby3FirYk8
+    desc: 위화도 회군을 통해 고려의 멸망과 조선 건국의 과정을 이해함.
+    channel: 사피엔스 스튜디오
+  - key: v08
+    stage: 탐구하기1
+    title: 신진사대부와 신흥무인세력
+    url: https://www.youtube.com/watch?v=g7mVYZfjGCw
+    desc: 고려 말 두 중심세력이었던 신흥무인세력과 신진사대부에 대해 이해함.
+    channel: 공부방찐천재
+  - key: v09
+    stage: 탐구하기1
+    title: 조선은 왜 한양으로 도읍을 옮겼을까?
+    url: https://www.youtube.com/watch?v=0KsIK8iEIPQ
+    desc: 조선이 한양으로 도읍을 옮긴 까닭을 추론해보고 조선의 성립 과정을 이해함.
+    channel: 공부방찐천재
+  - key: v10
+    stage: 탐구하기1
+    title: 한양은 어떤 지리적 이점을 가지고 있을까?
+    url: https://www.youtube.com/watch?v=XKAWZdNEW6U
+    desc: 조선이 한양으로 도읍을 옮긴 까닭을 추론해보고 전문가의 설명과 비교하며 조선의 성립 과정을 이해함.
+    channel: 최태성 초등TV
+  - key: v11
+    stage: 탐구하기2
+    title: 유교는 어떻게 조선 사회의 바탕이 되었을까?
+    url: https://www.youtube.com/watch?v=tSuaUr_5plc
+    desc: 조선이 유교를 받아들이게 된 까닭에 대해 알아봄.
+    channel: 참쌤스쿨
+  - key: v12
+    stage: 탐구하기2
+    title: 조선 시대 유교 윤리와 양반 문화는 어떻게 발달하였을까?
+    url: https://www.youtube.com/watch?v=0JiK935je_4
+    desc: 유교는 백성들에게 유교 이념과 삼강오륜을 전파하고 양반 문화를 발달시켰음을 이해함.
+    channel: 최태성 초등TV
+  - key: v13
+    stage: 탐구하기2
+    title: 세종대왕은 어떤 인물일까?
+    url: https://www.youtube.com/watch?v=EWdNsRdK0Hk
+    desc: 세종대왕 인물 탐구를 통해 조선 사회의 특징을 알아봄.
+    channel: 사피엔스 스튜디오
+  - key: v14
+    stage: 탐구하기2
+    title: 세종대왕은 왜 한글을 만들었을까?
+    url: https://www.youtube.com/watch?v=HcePYBOcwGU
+    desc: 한글 창제 등 세종의 다양한 업적 및 가치에 대해 탐구함.
+    channel: EBSCulture (EBS 교양)
+  - key: v15
+    stage: 탐구하기2
+    title: 한글은 왜 우수한 문자일까?
+    url: https://www.youtube.com/watch?v=9a34V5g8qM8
+    desc: 한글의 과학성과 우수성을 탐구함.
+    channel: EBSCulture (EBS 교양)
+  - key: v16
+    stage: 탐구하기2
+    title: 측우기에 담긴 과학 이야기
+    url: https://www.youtube.com/watch?v=WasDZmr1quw
+    desc: 측우기의 작동 원리를 알아보고 과학적 우수성을 탐구함.
+    channel: YTN 사이언스
+  - key: v17
+    stage: 탐구하기2
+    title: 자격루는 어떻게 정확한 시간을 알려주었을까?
+    url: https://www.youtube.com/watch?v=odcV2TsHyi0
+    desc: 자격루의 작동 원리를 알아보고 과학적 우수성을 탐구함.
+    channel: YTN 사이언스
+  - key: v18
+    stage: 탐구하기2
+    title: 앙부일구로 시간과 절기를 한 눈에 알 수 있다?
+    url: https://www.youtube.com/watch?v=IF20SeZFG1k
+    desc: 앙부일구의 작동 원리를 알아보고 과학적 우수성을 탐구함.
+    channel: YTN 사이언스
+  - key: v19
+    stage: 탐구하기2
+    title: 자격루는 어떻게 작동할까?
+    url: https://www.youtube.com/watch?v=m8N39sTPYDA
+    desc: 자격루의 자세한 작동 원리를 이해함.
+    channel: 국립고궁박물관 gogungmuseum
+  - key: v20
+    stage: 탐구하기2
+    title: 이순신은 어떻게 승리를 이끌었을까?
+    url: https://www.youtube.com/watch?v=fQUYjseeAE4
+    desc: 이순신의 인물 탐구를 통해 주요 전투의 과정과 가치를 탐구하며 이후 조선의 변화에 대한 실마리를 찾음.
+    channel: 세상의모든지식
+  - key: v21
+    stage: 탐구하기2
+    title: 정묘호란과 병자호란은 어떻게 발생했을까?
+    url: https://www.youtube.com/watch?v=inI73hTInQE
+    desc: 정묘호란과 병자호란의 전개 과정을 탐구하며 이후 조선의 변화에 대한 실마리를 찾음.
+    channel: 공부방찐천재
+  - key: v22
+    stage: 확장하기
+    title: 편지로 알아본 조선 전기 여성의 사회적 지위
+    url: https://www.youtube.com/watch?v=xXwhBoaKKZs
+    desc: 우리가 흔히 아는 '남존여비'나 가부장적인 유교 문화는 조선 후기(임진왜란 이후)에 정착된 것임을 보여줌.
+    channel: KBS 히스토리
+quiz:
+  - statement: 조선은 유교를 나라 운영과 생활의 중요한 원리로 삼았다.
+    answer: O
+    explain: 유교는 정치 제도, 교육, 가족 질서와 예절에 큰 영향을 주었다.
+  - statement: 조선 시대의 서원과 향교는 유교 교육과 관련된 공간이다.
+    answer: O
+    explain: 유교 경전을 공부하고 인재를 기르는 교육 기관이었다.
+  - statement: 유교 문화는 조선 시대의 가족생활과 의례에 아무 영향도 주지 않았다.
+    answer: X
+    explain: 제사와 혼례, 가족 관계 등 일상생활에 유교적 예절과 질서가 반영되었다.
+  - statement: 조선 시대에는 웃어른을 공경하고 예절을 지키는 태도를 중요하게 여겼다.
+    answer: O
+    explain: 유교는 사람 사이의 관계와 예절을 중요하게 보았다.
+  - statement: 조선의 모든 사람은 성별과 신분에 관계없이 같은 교육 기회를 가졌다.
+    answer: X
+    explain: 당시에는 성별과 신분에 따라 교육 기회와 사회적 역할에 차이가 있었다.
+  - statement: 한옥의 공간 배치에서도 당시의 가족 질서와 생활 문화를 살펴볼 수 있다.
+    answer: O
+    explain: 집의 구조와 공간 사용에는 조선 시대의 생활 방식과 가치관이 반영되었다.
+  - statement: 과거의 생활 문화를 오늘날 기준으로만 판단하면 당시 사회를 충분히 이해할 수 있다.
+    answer: X
+    explain: 그 시대의 제도와 가치, 생활 조건을 함께 살펴야 역사적 맥락을 이해할 수 있다.

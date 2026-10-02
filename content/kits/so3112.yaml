@@ -1,0 +1,162 @@
+id: so3112
+title: 1-2. 살기 좋은 우리 지역
+grade: 3
+sem: 1학기
+subject: 사회
+unit: 1단원
+unit_no: 1
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 사람들이 편리한 생활을 하는 데 도움을 주는 주요 장소 및 시설이나 기관을 살펴본다. 학생들의 관점에서 살기 좋은 곳의 조건을 생각하면서 우리가 사는 곳에 관심을 가지도록 하는 데 중점을 둔다.
+  core_question: 우리가 살아가는 장소들은 어떤 의미가 있으며, 더 살기 좋은 곳으로 만들려면 무엇이 필요할까?
+  concepts:
+    - term: 시설
+      def: 사람들이 편리하고 안전하게 생활할 수 있도록 마련해 놓은 장소나 건물, 기구를 말해요. 도서관, 공원, 병원처럼 우리 생활에 도움을 주는 곳이에요.
+    - term: 기관
+      def: 여러 사람을 위해 정해진 일을 맡아서 하는 곳이에요. 행정복지센터, 소방서, 경찰서, 보건소처럼 우리 지역을 돕는 일을 해요.
+    - term: 디지털 영상 지도
+      def: 인공위성이나 비행기에서 찍은 사진을 컴퓨터로 모아 만든 지도예요. 화면을 확대하거나 줄이면서 우리 지역의 실제 모습을 자세히 살펴볼 수 있어요.
+  standards:
+    - code: "[4사01–02]"
+      text: 주변의 여러 장소를 살펴보고, 우리가 사는 곳을 더 살기 좋은 곳으로 만드는 방안을 탐색한다.
+stages:
+  - 시설
+  - 기관
+  - 디지털 영상 지도
+items:
+  - key: v1
+    stage: 시설
+    title: KTX·고속버스가 있는 곳, 동대구 복합환승센터에서는 무엇을 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=UmF7p2ZTD0Y
+    desc: 대구의 가장 큰 교통의 중심지, KTX 및 기차와 고속버스를 탈 수 있는 복합환승센터의 모습이 담긴 영상
+    channel: " YTN"
+  - key: v2
+    stage: 시설
+    title: 달성군 보건소에서는 어떤 일을 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=YRgqbXfnJv4
+    desc: 대구 달성군 보건소에서 하는 일에 대한 모습이 담긴 영상
+    channel: "달성사이다 : 대구광역시 달성군"
+  - key: v3
+    stage: 시설
+    title: 대구의료원의 모습은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Fcoj4Qfyl-g
+    desc: 대구 의료원의 모습과 간단한 하는 일이 담긴 영상
+    channel: 대구의료원
+  - key: v4
+    stage: 시설
+    title: 꿈과 희망을 키우는 대구 서구 어린이 도서관의 모습은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=yJE46xf2Xqg
+    desc: 대구 서구 어린이도서관의 모습이 담긴 영상
+    channel: 대구 서구 TV
+  - key: v5
+    stage: 시설
+    title: 경찰서에서는 우리를 위해 무슨 일을 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1SmOTFM6jYY
+    desc: 경찰서의 모습과 경찰서에서 하는 일의 모습이 담긴 영상
+    channel: TVCHOSUN - TV조선
+  - key: v6
+    stage: 기관
+    title: 대구지방법원에서는 어떤 일을 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=DO4wu0B5Wi0
+    desc: 대구 지방법원에 견학 간 3학년 어린이들의 모습을 통해 법원의 모습과 하는 일을 살펴볼 수 있는 영상
+    channel: 대안교육기관 하나서밋스쿨
+  - key: v7
+    stage: 기관
+    title: 대구 북부소방서는 어떤 일을 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Xv9LIrR65jc
+    desc: 대구 북부소방서의 모습과 긴급 상황을 맞아 시민을 돕기 위해 출동하는 장면이 담긴 영상
+    channel: 다경뉴스TV
+  - key: v8
+    stage: 기관
+    title: 북구 검단동 행정복지센터에서는 무슨 일을 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=nhzV3q08gK0
+    desc: 대구 북구 검단동 행정복지센터의 모습과, 행정복지센터에서 하는 일들이 자세하게 소개된 영상
+    channel: 대구광역시 북구
+  - key: v9
+    stage: 기관
+    title: 수성구 범어4동 행정복지센터에서는 무슨 일을 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=B-WVXyEFnOM
+    desc: 대구 수성구 범어동 행정복지센터의 모습이 담긴 영상
+    channel: 수성TV At Suseong
+  - key: v10
+    stage: 기관
+    title: 서구 내당1동 행정복지센터의 모습을 살펴볼까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6PYw9qIpRdo
+    desc: 대구 서구 내당동 행정복지센터의 모습이 담긴 영상
+    channel: 대구 서구 TV
+  - key: v11
+    stage: 기관
+    title: 달서구 유천동 행정복지센터의 모습을 살펴볼까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=EwrLPZbzwU0
+    desc: 대구 달서구 유천동 행정복지센터의 모습이 담긴 영상
+    channel: 푸른방송뉴스채널
+  - key: v12
+    stage: 기관
+    title: 동구 안심3동 행정복지센터 임시청사의 모습을 살펴볼까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=E2gBBE3D_oU
+    desc: 대구 동구 안심동 행정복지센터의 모습이 담긴 영상
+    channel: 대구 동구청 팔공TV
+  - key: v13
+    stage: 기관
+    title: 남구 대명3동 행정복지센터의 모습을 살펴볼까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=7NWt88aZWuE
+    desc: 대구 남구 대명동 행정복지센터의 모습이 담긴 영상
+    channel: 양파TV
+  - key: v14
+    stage: 디지털 영상 지도
+    title: 디지털 영상 지도는 어떻게 만들어질까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=A_UzsVEBMek
+    desc: 디지털 영상 지도가 어떻게 만들어지는지 과정이 담긴 영상
+    channel: 국토교통부
+  - key: v15
+    stage: 디지털 영상 지도
+    title: 디지털 영상 지도로 바라보는 백두산!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=u-oP8uSEmhY
+    desc: 디지털 영상 지도인 '구글 어스'로 바라보는 우리 나라의 백두산 모습 영상
+    channel: 필스토리
+  - key: v16
+    stage: 디지털 영상 지도
+    title: 디지털 영상 지도로 보는 37년간 지구의 변화
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=BpnnW_E_LOc
+    desc: 디지털 영상 지도인 '구글 어스'로 보는 37년간의 지구 변화 과정
+    channel: BBC News 코리아
+quiz:
+  - statement: 도서관, 공원, 병원처럼 사람들이 편리하게 생활하도록 도와주는 장소를 시설이라고 해요.
+    answer: O
+    explain: 시설은 사람들의 편리한 생활을 돕는 장소나 건물이에요.
+  - statement: 소방서, 경찰서, 행정복지센터는 여러 사람을 위해 정해진 일을 하는 기관이에요.
+    answer: O
+    explain: 기관은 사람들을 위해 맡은 일을 하는 곳으로, 소방서와 경찰서, 행정복지센터가 여기에 속해요.
+  - statement: 디지털 영상 지도는 컴퓨터로 보는 지도라서 확대하거나 줄여서 볼 수 없어요.
+    answer: X
+    explain: 디지털 영상 지도는 화면을 확대하거나 줄여 가며 자세히 볼 수 있어요.
+  - statement: 우리가 사는 곳을 더 살기 좋은 곳으로 만들려면 어떻게 할지 생각해 보는 것은 중요해요.
+    answer: O
+    explain: 이 단원의 목적은 우리가 사는 곳을 더 살기 좋게 만드는 방법을 찾아보는 것이에요.
+  - statement: 행정복지센터는 우리 지역 사람들의 생활을 돕는 일을 하는 곳이에요.
+    answer: O
+    explain: 행정복지센터는 주민들을 위해 여러 가지 일을 맡아 하는 기관이에요.
+  - statement: 디지털 영상 지도는 인공위성이나 비행기에서 찍은 사진으로 만들어요.
+    answer: O
+    explain: 디지털 영상 지도는 인공위성이나 비행기에서 찍은 사진을 모아 만든 지도예요.
+  - statement: 우리 주변의 여러 장소는 우리 생활과 아무런 관계가 없어요.
+    answer: X
+    explain: 우리 주변의 장소들은 우리 생활에 도움을 주며 깊은 관계가 있어요.

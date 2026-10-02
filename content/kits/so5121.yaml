@@ -1,0 +1,211 @@
+id: so5121
+title: 2-1. 우리나라의 계절별 기후와 기후변화
+grade: 5
+sem: 1학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 다양한 자료를 통해 우리나라의 계절별 기후 특징을 탐구하며, 계절별 기후로 발생하는 자연재해와 기후변화로 심화되는 자연재해의 심각성을 살펴보고 기후 행동에 참여하는 태도를 가집니다.
+  core_question: 우리나라의 기후와 인구 분포는 어떤 특징을 지니며, 그로 인해 나타나는 문제는 어떻게 해결할 수 있을까?
+  concepts:
+    - term: 기후
+      def: 한 지역에서 여러 해 동안 되풀이되어 나타나는 기온, 비, 바람 같은 날씨의 평균적인 특징을 말합니다.
+    - term: 계절별 기후 특징
+      def: 봄, 여름, 가을, 겨울 네 계절마다 기온과 비, 바람이 서로 다르게 나타나는 우리나라 기후의 모습입니다. 여름은 덥고 비가 많이 오고, 겨울은 춥고 건조합니다.
+    - term: 자연재해
+      def: 홍수, 가뭄, 폭염, 태풍, 한파처럼 자연현상 때문에 사람과 생활에 큰 피해를 주는 일을 말합니다.
+    - term: 기후변화
+      def: 오랜 시간에 걸쳐 지구의 기온이 높아지는 등 기후가 점점 달라지는 것으로, 자연재해를 더 심하게 만들 수 있습니다.
+    - term: 기후행동
+      def: 기후변화를 늦추고 환경을 지키기 위해 에너지 절약, 분리배출처럼 우리가 생활 속에서 실천하는 활동입니다.
+  standards:
+    - code: "[6사02-01]"
+      text: 우리나라의 계절별 기후 특징을 자료에서 탐구하고, 기후변화로 인한 자연재해의 심각성을 이해한다.
+stages:
+  - 인구분포
+  - 인구구조
+  - 도시발달
+  - 산업구조
+  - 교통발달
+items:
+  - key: v1
+    stage: 인구분포
+    title: 우리나라의 인구분포는 어떻게 변화했을까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=njJYYfDMgcM
+    desc: 우리나라의 행정구역별 인구 변화를 살펴보고 인구분포 변화의 이유를 탐구할 수 있는 영상
+    channel: 데이터다람쥐
+  - key: v2
+    stage: 인구분포
+    title: 수도권에 인구가 집중되는 이유는 무엇일까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=73XEeCn-OCE
+    desc: 수도권에 인구가 집중되는 이유에 대한 영상
+    channel: 은근한 잡다한 지식
+  - key: v3
+    stage: 인구분포
+    title: 대한민국의 인구가 100명이라면?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=UicUCUNyzSk
+    desc: 인구 통계가 어떻게 구성되는지 파악할 수 있는 영상
+    channel: 데이터다람쥐
+  - key: v4
+    stage: 인구분포
+    title: 지방소멸시대를 이겨내기 위한 방법은 무엇일까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1ZX9vZHY4Ws
+    desc: 수도권에 집중되는 인구 분포의 문제점을 해결할 수 있는 방안 관련 영상
+    channel: KBS충북
+  - key: v5
+    stage: 인구구조
+    title: 우리나라의 인구는 앞으로 어떻게 변화할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=85nCHxZR9Ss
+    desc: 우리나라 인구구조의 변화를 예측해볼 수 있는 영상
+    channel: " YTN"
+  - key: v6
+    stage: 인구구조
+    title: 우리나라의 인구구조는 어떻게 변화했을까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=s4Og1UQwtSQ
+    desc: 인구구조의 변화과정 탐색 영상
+    channel: 국토연구원
+  - key: v7
+    stage: 도시발달
+    title: 도시별 인구 수는 어떻게 변화해왔을까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=8erOitFS5AA
+    desc: 도시별 인구수 변화를 살펴보고 원인을 탐구할 수 있는 영상
+    channel: 데이터다람쥐
+  - key: v8
+    stage: 도시발달
+    title: 서울의 도시 개발 역사는?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=yl5bXbnakCM
+    desc: 서울의 변화모습을 살펴볼 수 있는 영상
+    channel: YTN 사이언스
+  - key: v9
+    stage: 도시발달
+    title: 1960-1970년대 도시의 모습은 어땠을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ffhU_6OOwns
+    desc: 1960-1970년대 도시발달로 인한 생활 모습의 변화 탐색 영상
+    channel: "옛날티비 : KBS Archive"
+  - key: v10
+    stage: 도시발달
+    title: 세종시는 어떻게 변화해왔을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=c91b2zp5H18
+    desc: 세종특별자치시의 변화 모습 탐색 영상
+    channel: kculturechannel
+  - key: v11
+    stage: 산업구조
+    title: 가발 산업으로 발생한 머리카락 수난시대
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=v71G39yFFKg
+    desc: 경공업이 발달한 시대의 실제 산업현장의 모습 탐색 영상
+    embed: false
+    status: 임베드차단
+  - key: v12
+    stage: 산업구조
+    title: 1960년대 우리나라의 생활 모습은 어땠을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=08LH5lEK4aQ
+    desc: 1960년대 산업구조의 변화로 인한 사람들의 생활 모습 탐색 영상
+    channel: 복원왕 Restoration King
+  - key: v13
+    stage: 산업구조
+    title: 1970년대 우리나라의 생활 모습은 어땠을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=r2rX6Cciqgg
+    desc: 1970년대 산업구조의 변화로 인한 사람들의 생활모습 탐색 영상
+    channel: 복원왕 Restoration King
+  - key: v14
+    stage: 산업구조
+    title: 우리나라 자동차의 역사는?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ABzDNY1Wciw
+    desc: 우리나라 자동차 산업의 발전 과정을 보여주는 영상
+    channel: KTV 국민방송
+  - key: v15
+    stage: 산업구조
+    title: 서비스업이 왜 발달하게 되었을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ysWcFJEJRhU
+    desc: 서비스업이 발달하게 된 이유와 관련한 뉴스 영상
+    channel: " YTN"
+  - key: v16
+    stage: 산업구조
+    title: 호남공업지역에서는 어떤 일을 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dmToFBKp8KU
+    desc: 호남공업지역에서 많이 이루어지는 자동차 산업 관련 뉴스 영상
+    channel: KBC 뉴스
+  - key: v17
+    stage: 산업구조
+    title: 남동임해공업지역에서는 어떤 일을 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=uAYz9xs29tc
+    desc: 남동임해공업지역에서 활발하게 이루어지는 무역 관련 영상
+    channel: 동원TV
+  - key: v18
+    stage: 산업구조
+    title: 대한민국 10대 효자품목은 무엇일까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=mLza2cCleQE
+    desc: 대한민국의 10대 수출 순위를 살펴보며 산업구조의 변화를 파악할 수 있는 영상
+    channel: 그래프로 보는 세상
+  - key: v19
+    stage: 교통발달
+    title: 지도로 보는 대한민국 고속도로의 역사
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=CH792aKQtl0
+    desc: 대한민국 고속도로 건설 역사를 지도로 살펴보며 도시발달, 인구분포 등과 연결할 수 있는 영상
+    channel: 데이터다람쥐
+  - key: v20
+    stage: 교통발달
+    title: 지도로 보는 대한민국 철도의 역사
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=jzBctjSLOXg
+    desc: 대한민국 철도 건설 역사를 지도로 살펴보며 도시발달, 인구분포 등과 연결할 수 있는 영상
+    channel: 데이터다람쥐
+  - key: v21
+    stage: 교통발달
+    title: 고속철도 KTX의 첫 등장은 어땠을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=WegcYVV0X10
+    desc: 고속철도 KTX의 첫 등장을 살펴보는 영상
+    channel: KBS News
+  - key: v22
+    stage: 교통발달
+    title: 교통이 발달되기 전 우리나라의 모습은 어땠을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=orJSKblaHxM
+    desc: 과거 추석 귀경,귀성길 모습을 살펴보며 교통이 발달되기 전 우리나라의 모습을 탐색하는 영상
+    channel: 비디오머그 - VIDEOMUG
+quiz:
+  - statement: 기후는 한 지역에서 여러 해 동안 되풀이되어 나타나는 날씨의 평균적인 특징이다.
+    answer: O
+    explain: 기후는 오랜 기간 반복되어 나타나는 날씨의 평균적인 특징을 말합니다.
+  - statement: 우리나라는 일 년 내내 같은 날씨가 이어져 계절의 구분이 없다.
+    answer: X
+    explain: 우리나라는 봄, 여름, 가을, 겨울 네 계절이 뚜렷하게 나타납니다.
+  - statement: 우리나라의 여름은 대체로 덥고 비가 많이 내린다.
+    answer: O
+    explain: 우리나라 여름은 기온이 높고 비가 많이 오는 것이 특징입니다.
+  - statement: 홍수, 가뭄, 태풍, 폭염은 모두 자연재해에 해당한다.
+    answer: O
+    explain: 이들은 자연현상으로 생활에 큰 피해를 주는 자연재해입니다.
+  - statement: 기후변화는 자연재해를 더 심하게 만들 수 있다.
+    answer: O
+    explain: 기후변화로 폭염, 홍수 같은 자연재해가 더 심해질 수 있습니다.
+  - statement: 기후변화를 막기 위해 우리가 할 수 있는 일은 아무것도 없다.
+    answer: X
+    explain: 에너지 절약, 분리배출 같은 기후행동으로 누구나 실천할 수 있습니다.
+  - statement: 에너지를 절약하고 분리배출을 실천하는 것은 기후행동에 해당한다.
+    answer: O
+    explain: 기후변화를 늦추기 위한 생활 속 실천이 바로 기후행동입니다.

@@ -1,0 +1,168 @@
+id: so6211
+title: 1-1. 세계 여러 지역의 지형과 생활 모습
+grade: 6
+sem: 2학기
+subject: 사회
+unit: 1. 세계의 자연환경
+unit_no: 1
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 지형은 인간의 생활 방식에 영향을 미치며, 이는 다양한 삶의 모습으로 나타난다.
+  core_question: 세계의 다양한 지형은 사람들의 생활 방식에 어떤 영향을 주는가?
+  concepts:
+    - term: 공간과 장소
+    - term: 상호작용
+    - term: 지형
+    - term: 환경
+    - term: 생활
+  standards:
+    - code: "[6사10-01]"
+      text: 세계의 여러 지역의 지형 경관을 살펴보고, 이를 통해 다양한 삶의 모습을 이해한다.
+stages:
+  - name: 생각열기
+    question: 세계의 다양한 지형은 어떻게 형성될까?
+  - name: 탐구하기1
+    question: 세계의 다양한 지형은 어떻게 형성될까?
+  - name: 탐구하기2
+    question: 세계의 다양한 지형에서 사람들은 어떻게 적응하며 살아갈까?
+  - name: 확장하기
+    question: 환경의 변화는 사람들의 삶에 어떤 영향을 미칠까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 세계 여러 지역의 지형 경관에는 어떤 특징이 있을까?
+    url: https://www.youtube.com/watch?v=Y25BC0E3Cds
+    desc: 자연의 힘이 만든 다양한 지형 경관을 관찰하고 서로 다른 지형의 특징을 비교하며 지형경관의 아름다움과 가치를 이해함.
+    channel: 산소DOCU
+  - key: v02
+    stage: 생각열기
+    title: 우유니 소금 사막은 어떻게 만들어졌을까?
+    url: https://www.youtube.com/watch?v=dSB9nDd7n3Q
+    desc: 소금 사막의 형성 과정을 알아보고 그 특징을 살펴보며 사막 소금의 활용법을 이해함.
+    channel: 지리는TV
+  - key: v03
+    stage: 생각열기
+    title: 그랜드 캐니언의 절벽은 어떻게 형성되었을까?
+    url: https://www.youtube.com/watch?v=dWiAqsrDGCI
+    desc: 거대한 지형 경관인 그랜드 캐니언을 알아보고 형성 과정을 살펴보며 독특한 절벽 모양의 비밀을 탐구함.
+    channel: 지리는TV
+  - key: v04
+    stage: 탐구하기1
+    title: 해안 지형은 어떤 원리로 형성될까?
+    url: https://www.youtube.com/watch?v=54EnPEDgvOE
+    desc: 해안지형의 형성 원리를 알아보고 주요 작용을 살펴보며 형성에 영향을 미치는 요소를 이해함.
+    channel: 여니소리
+  - key: v05
+    stage: 탐구하기1
+    title: 암석 해안, 모래 해안, 갯벌 해안은 어떤 특징이 있을까?
+    url: https://www.youtube.com/watch?v=9IXgddUqG0I
+    desc: 암석 해안의 형성 과정과 특징을 알아보고 모래 해안을 살펴보며 갯벌 해안의 형성 과정과 특징을 비교함.
+    channel: 여니소리
+  - key: v06
+    stage: 탐구하기1
+    title: 산지 지형의 종류와 특징 알아보기
+    url: https://www.youtube.com/watch?v=TZ9Y9dBwK1s
+    desc: 산지 지형의 종류를 알아보고 그 특징을 살펴보며 주요 산지 지형을 이해함.
+    channel: 여니소리
+  - key: v07
+    stage: 탐구하기1
+    title: 사막은 어떻게 탄생하며 어떤 의미를 가질까?
+    url: https://www.youtube.com/watch?v=eBJ9mIFxJuU
+    desc: 사막의 탄생 원인을 알아보고 사막의 중요성을 살펴보며 환경적 의미를 이해함.
+    channel: 여니소리
+  - key: v08
+    stage: 탐구하기1
+    title: 강이 굽이쳐 흐르는 이유와 우각호의 형성 과정
+    url: https://www.youtube.com/watch?v=9A0G3q7RqKY
+    desc: 강이 굽이치는 이유를 알아보고 침식과 퇴적 작용을 살펴보며 우각호가 만들어지는 과정을 이해함.
+    channel: 지리는TV
+  - key: v09
+    stage: 탐구하기2
+    title: 해안 지역 사람들은 환경에 어떻게 적응하며 살아갈까?
+    url: https://www.youtube.com/watch?v=zxVJZA0vLVw
+    desc: 해안 환경에 적응한 주거와 생활 모습을 알아보고 바다를 활용한 생계 활동과 식문화를 살펴보며 해안 지역 공동체의 생활 방식과 문화를 이해함.
+    channel: 바다 다큐
+  - key: v10
+    stage: 탐구하기2
+    title: 산지 지형 사람들은 가파른 환경에 어떻게 적응할까?
+    url: https://www.youtube.com/watch?v=gYJ6Y-m3p78
+    desc: 가파른 지형 속에서 살아가는 사람들의 생활 모습을 알아보고 산지 지형을 살아가는 사람들의 독특한 이동 방식을 살펴보며 자연환경에 적응하며 살아가는 사람들의 삶을 이해함.
+    channel: MBCentertainment
+  - key: v11
+    stage: 탐구하기2
+    title: 험준한 산지 환경은 사람들의 생활 모습에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=Dzn7MDOHymo
+    desc: 험준한 산지 지형에서 이루어지는 주거와 농업 활동을 알아보고 가파른 경사에 적응하며 살아가는 생활 모습을 살펴보며 산지 환경이 이동, 생산, 공동체 문화에 미치는 영향을 이해함.
+    channel: JTBC Life
+  - key: v12
+    stage: 탐구하기2
+    title: 사막 지역 사람들은 물을 어떻게 확보하며 살아갈까?
+    url: https://www.youtube.com/watch?v=mRI8LhSc37I
+    desc: 사막 지형의 특징을 알아보고 물 확보와 이용을 살펴보며 사막 지역의 생활 방식을 이해함.
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v13
+    stage: 탐구하기2
+    title: 강이 없는 지역 사람들의 생존 전략과 생활 모습
+    url: https://www.youtube.com/watch?v=h1n9akfPHyk
+    desc: 강이 없는 지역의 자연환경 특징을 알아보고 물 확보 및 관리 방법을 살펴보며 물 부족 환경에 적응한 생활 모습과 생존 전략을 이해함.
+    channel: 지식 브런치
+  - key: v14
+    stage: 탐구하기2
+    title: 세계 4대 문명은 왜 강 유역에서 발달했을까?
+    url: https://www.youtube.com/watch?v=R1D-z_MUKNI
+    desc: 강 유역을 중심으로 형성된 4대 문명의 특징을 알아보고 비옥한 토지와 물을 활용한 농업 발달을 살펴보며 강과 문명 발달의 관계를 이해함.
+    channel: storyhistory
+  - key: v15
+    stage: 탐구하기2
+    title: 화산 지역 사람들은 지열 에너지를 어떻게 활용할까?
+    url: https://www.youtube.com/watch?v=HD0xBlOwb_g
+    desc: 화산 활동과 지열 에너지 자원을 알아보고 생활 속 에너지 활용을 살펴보며 자연환경 적응과 지속 가능한 생활 방식을 이해함.
+    channel: "채널아하: 채널A Health & Asset"
+  - key: v16
+    stage: 탐구하기2
+    title: 화산 폭발은 인간 생활과 자연환경에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=zr9xAlvZo9o
+    desc: 화산 폭발 규모와 피해 사례를 알아보고 화산재 확산에 따른 기후 변화를 살펴보며 화산 활동이 인간 생활과 자연환경에 미치는 영향을 이해함.
+    channel: YTN 사이언스
+  - key: v17
+    stage: 확장하기
+    title: 사막화 확산이 생태계와 인간의 삶에 미치는 영향
+    url: https://www.youtube.com/watch?v=9QOQiBMAz18
+    desc: 사막화의 세계적 확산을 알아보고 생태계 위기와 인간의 삶을 살펴보며 지속 가능한 미래를 위한 국제적 협력을 이해함.
+    channel: " YTN"
+  - key: v18
+    stage: 확장하기
+    title: 사막화에 대응하기 위한 지역 공동체의 노력과 환경 관리
+    url: https://www.youtube.com/watch?v=eP8ZBbnUGjA
+    desc: 반달 모양 구덩이를 활용한 사막화 대응을 알아보고 지역 공동체의 참여와 생태계 복원을 살펴보며 기후 위기 시대의 지속 가능한 환경 관리를 이해함.
+    channel: 크랩 KLAB
+  - key: v19
+    stage: 확장하기
+    title: 오버투어리즘이 주민 생활에 미치는 영향과 해결 방안
+    url: https://www.youtube.com/watch?v=rwBCQirkRBc
+    desc: 오버투어리즘과 주민 갈등을 알아보고 관광객 증가에 따른 생활환경 변화를 살펴보며 지속 가능한 관광 정책과 여행 문화를 이해함.
+    channel: KBS News
+quiz:
+  - statement: 산지, 평야, 해안 같은 지형은 사람들의 생활 방식에 영향을 준다.
+    answer: O
+    explain: 지형에 따라 농업, 교통, 주거와 산업의 모습이 달라질 수 있다.
+  - statement: 평야는 땅이 비교적 평탄하여 농업과 도시 발달에 유리한 경우가 많다.
+    answer: O
+    explain: 넓고 평평한 땅은 경작과 교통 시설 건설에 편리하다.
+  - statement: 해안 지역의 사람들은 바다와 관계없는 생활만 한다.
+    answer: X
+    explain: 어업, 항구, 해상 교통, 관광 등 바다를 이용한 생활이 나타난다.
+  - statement: 산지에서는 높이와 경사가 생활과 교통에 영향을 줄 수 있다.
+    answer: O
+    explain: 경사가 급하면 이동이 어렵지만 목축, 임업, 관광 등에 활용되기도 한다.
+  - statement: 같은 지형에 사는 사람들은 세계 어디서나 완전히 같은 생활을 한다.
+    answer: X
+    explain: 기후, 기술, 문화, 경제 조건에 따라 생활 모습은 달라진다.
+  - statement: 사람들은 지형에 적응할 뿐 지형을 이용하거나 변화시키지는 않는다.
+    answer: X
+    explain: 터널, 다리, 계단식 논처럼 지형을 이용하거나 바꾸며 생활한다.
+  - statement: 지형 경관을 살필 때 위치와 주변 환경을 함께 보면 생활 모습을 더 잘 이해할 수 있다.
+    answer: O
+    explain: 지형과 기후, 물, 교통의 관계를 함께 보아야 사람들의 삶을 설명할 수 있다.

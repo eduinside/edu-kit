@@ -1,0 +1,192 @@
+id: so3212
+title: 1-2. 다양한 문화에 대한 이해와 존중
+grade: 3
+sem: 2학기
+subject: 사회
+unit: 1단원
+unit_no: 1
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 최근 우리 사회에서 증가하는 여러 현상들의 긍정적 효과와 사회문제를 알아보고, 나와 다른 사람의 삶의 방식이나 문화를 존중하는 태도를 기를 수 있도록 구성된 단원입니다.
+  core_question: 사회 변화는 우리의 생활 모습과 문화를 어떻게 바꾸며, 우리는 서로 다른 문화를 어떻게 대해야 할까?
+  concepts:
+    - term: 문화
+      def: 문화는 사람들이 함께 살아가며 만들어 온 옷, 음식, 집, 인사하는 방법처럼 생활하는 모습을 말해요. 지역이나 나라마다 문화가 다를 수 있어요.
+    - term: 다문화
+      def: 다문화는 한 사회 안에 서로 다른 여러 나라와 민족의 문화가 함께 어우러져 있는 것을 말해요. 우리나라에도 다른 나라에서 온 사람들이 늘면서 다문화 사회가 되고 있어요.
+    - term: 1인가구
+      def: 1인가구는 가족과 함께 살지 않고 혼자서 생활하는 한 사람으로 이루어진 집을 말해요. 요즘 우리 사회에서 1인가구가 점점 늘어나고 있어요.
+    - term: 반려동물
+      def: 반려동물은 가족처럼 함께 지내며 정을 나누는 강아지, 고양이 같은 동물을 말해요. 반려동물을 기르는 사람이 많아지면서 관련된 용품과 서비스도 늘고 있어요.
+    - term: 문화다양성
+      def: 문화다양성은 세상에 여러 가지 서로 다른 문화가 함께 있는 것을 말해요. 나와 다른 문화를 이상하게 여기지 않고 소중하게 여기며 존중하는 마음이 필요해요.
+  standards:
+    - code: "[4사03-02]"
+      text: 우리 사회에 다양한 문화가 확산되면서 나타나는 긍정적 효과와 문제를 분석하고, 나와 다른 사람이나 집단의 문화를 존중하는 태도를 기른다.
+stages:
+  - 문화
+  - 다문화
+  - 1인가구
+  - 반려동물
+  - 문화다양성
+items:
+  - key: v1
+    stage: 문화
+    title: 전통 인사예절
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=e-6iIjNmxN0
+    desc: 공수와 큰절 방법 등 전통 인사 예절을 배울 수 있는 영상
+    channel: 유성문화원
+  - key: v2
+    stage: 문화
+    title: 외국인에게 소개하는 우리나라 식사예절
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=n4r1fSRvoi8
+    desc: 우리나라 식사 예절을 외국인에게 소개하는 영상
+    channel: 스터디코리안
+  - key: v3
+    stage: 문화
+    title: 올바른 식사예절을 알아볼까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=H906X1tC8Mc
+    desc: 올바른 식사 예절을 OX 퀴즈로 재미있게 알아보는 영상
+    channel: 티디키즈 (인기 동요・동화)
+  - key: v4
+    stage: 문화
+    title: 지역마다 김치가 다른 이유는?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=IjyiZOe0JUA
+    desc: 지역마다 김치의 종류가 다른 이유를 소개하는 영상
+    channel: 건강의 벗
+  - key: v5
+    stage: 문화
+    title: 세계 여러나라 옷 모양이 다른 이유는?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=vjayfo0Fw8E
+    desc: 세계의 기후와 종교에 따라 의복의 모습이 달라짐을 소개하는 영상
+    start: 298
+    end: 631
+    channel: EBS 키즈
+  - key: v6
+    stage: 문화
+    title: 세계의 전통 집
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=04b5f-mosQo
+    desc: 다양한 세계의 전통 집의 모습을 알아보는 영상
+    start: 6
+    channel: Singing Monkey
+  - key: v7
+    stage: 문화
+    title: 다른 나라는 추석을 어떻게 보내고 있을까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=zPHV9NPc_sc
+    desc: 다른 나라가 어떻게 추석을 보내고 있는지 소개하는 영상
+    channel: KHU INTERNATIONAL
+  - key: v8
+    stage: 문화
+    title: 문화란?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=VnrQCYMy4ws
+    desc: 문화의 의미를 소개하는 영상
+    channel: 지학사 티솔루션
+  - key: v9
+    stage: 문화
+    title: 다양한 문화를 즐기는 사람들
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=DuzYzJdXHmc
+    desc: 다양한 문화를 즐기는 사람들의 모습
+    channel: 문화체육관광부
+  - key: v10
+    stage: 다문화
+    title: 국내 거주 외국인 246만명 시대
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ls_1lbrHWoI
+    desc: 국내 거주 외국인 수가 증가하여 다문화 사회가 다가오고 있음을 소개하는 영상
+    channel: " YTN"
+  - key: v11
+    stage: 다문화
+    title: 안산 다문화 거리 모습
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=n0Ne6GyHVLg
+    desc: 다문화 거리의 모습에서 볼 수 있는 다양한 문화의 모습
+    channel: KBS News
+  - key: v12
+    stage: 다문화
+    title: 용인 다문화 한마당 축제 모습
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=RZxLwrLA278
+    desc: 국적과 언어가 다르지만 서로 어울리는 다문화 한마당 축제의 모습
+    channel: KTV 정책 K
+  - key: v13
+    stage: 다문화
+    title: 다문화 사회를 이해하고 서로 협력해요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Lyp4POxO8VI
+    desc: 나와 다른 사람을 이해하고 존중하는 태도를 기르는 데 도움이 되는 영상
+    channel: 경기도교육청TV
+  - key: v14
+    stage: 1인가구
+    title: 1인 가구수의 변화
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HVsS67WoDIY
+    desc: 1인 가구 수의 변화
+    channel: 대한민국 국가데이터처
+  - key: v15
+    stage: 1인가구
+    title: 1인 가구를 위한 소형 가전
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=3YmtiZX7Xo0
+    desc: 다양한 1인용 제품을 소개하는 영상
+    channel: MBCNEWS
+  - key: v16
+    stage: 반려동물
+    title: 슬기로운 반려동물 가족 탐구생활
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=PfRORpG3vHk
+    desc: 반려동물과 함께하는 생활과 반려동물 에티켓을 소개하는 영상
+    channel: 쑥쑥쌤
+  - key: v17
+    stage: 반려동물
+    title: 반려동물 용품과 서비스 시장 확대 소식
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Ub80wviHqbs
+    desc: 반려동물을 기르는 가족을 위한 다양한 제품과 서비스가 늘어나고 있다는 소식을 전하는 영상
+    channel: 연합뉴스TV
+  - key: v18
+    stage: 문화다양성
+    title: 만화로 쉽게 배우는 문화 다양성
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=MOclk6hvJsE
+    desc: 다양한 음식과 언어, 생김새처럼 서로 다양한 문화들이 새로운 조화를 이루어 내고 있음을 전하는 영상
+    channel: CJ DONORSCAMP
+  - key: v19
+    stage: 문화다양성
+    title: 오색 빛깔 지구촌의 문화 다양성을 존중해요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=-2Az-usa25g
+    desc: 지구촌의 세계 여러 나라 사람들과 문화를 서로 존중해야 함을 소개하는 영상
+    channel: 경기도교육청TV
+quiz:
+  - statement: 문화는 옷, 음식, 집처럼 사람들이 살아가는 생활 모습을 말한다.
+    answer: O
+    explain: 문화는 사람들이 함께 살며 만들어 온 생활 방식을 뜻해요.
+  - statement: 우리나라에는 다른 나라에서 온 사람들이 함께 살아가고 있다.
+    answer: O
+    explain: 다른 나라에서 온 사람들이 늘면서 여러 문화가 함께 어울려 살아가고 있어요.
+  - statement: 혼자 사는 1인가구는 우리 사회에서 점점 줄어들고 있다.
+    answer: X
+    explain: 혼자 사는 1인가구는 줄어드는 것이 아니라 점점 늘어나고 있어요.
+  - statement: 반려동물은 가족처럼 함께 지내는 강아지나 고양이 같은 동물을 말한다.
+    answer: O
+    explain: 반려동물은 정을 나누며 함께 살아가는 동물을 뜻해요.
+  - statement: 나라마다 음식이나 옷, 집의 모습이 서로 다를 수 있다.
+    answer: O
+    explain: 지역과 나라에 따라 문화가 달라서 생활 모습도 서로 달라요.
+  - statement: 나와 다른 문화는 이상한 것이므로 무시해도 된다.
+    answer: X
+    explain: 나와 다른 문화도 소중히 여기고 존중하는 태도가 필요해요.
+  - statement: 여러 문화가 함께 어우러지면 우리 생활이 더 풍요로워지는 좋은 점도 있다.
+    answer: O
+    explain: 여러 문화를 함께 누리면 먹을거리와 즐길거리가 많아지는 좋은 점이 있어요.

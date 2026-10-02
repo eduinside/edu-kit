@@ -1,0 +1,181 @@
+id: so5111
+title: 1-1. 우리나라의 아름다운 지형
+grade: 5
+sem: 1학기
+subject: 사회
+unit: 1단원
+unit_no: 1
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 우리나라 산지, 하천, 해안 지형의 위치를 지도에서 확인하고, 지형의 분포 특징을 탐구해 국토의 아름다움과 생태환경의 중요성을 이해하도록 합니다.
+  core_question: 우리나라 국토의 지형은 어떤 특징을 지니며, 우리는 우리 땅을 왜 소중히 여기고 지켜야 할까?
+  concepts:
+    - term: 지형
+      def: 산, 하천, 평야, 해안처럼 땅의 생긴 모양을 모두 묶어 부르는 말이에요. 우리나라 국토는 여러 가지 지형으로 이루어져 있어요.
+    - term: 산지
+      def: 산들이 많이 모여 높고 험하게 솟아 있는 땅이에요. 우리나라는 동쪽과 북쪽에 산지가 많아요.
+    - term: 하천
+      def: 빗물이나 산에서 흘러내린 물이 모여 흐르는 강과 시내를 말해요. 한강처럼 산에서 시작해 바다로 흘러가요.
+    - term: 평야
+      def: 넓고 평평하게 펼쳐진 땅으로, 주로 하천 주변에 만들어져요. 땅이 평평해서 농사를 짓기에 좋아요.
+    - term: 해안
+      def: 바다와 땅이 맞닿아 있는 부분을 말해요. 우리나라는 동해안, 서해안, 남해안의 모습이 서로 달라요.
+    - term: 갯벌
+      def: 바닷물이 빠져나가면 드러나는 넓고 진흙이 많은 땅이에요. 서해안에 넓게 펼쳐져 있고, 여러 생물이 사는 소중한 곳이에요.
+    - term: 섬
+      def: 바다로 둘러싸여 사방이 물에 막힌 땅이에요. 우리나라에는 제주도처럼 크고 작은 섬이 많이 있어요.
+  standards:
+    - code: "[6사01-01]"
+      text: 우리나라 산지, 하천, 해안 지형의 위치를 확인하고 지형의 분포 특징을 탐구한다.
+stages:
+  - 지형
+  - 평야
+  - 하천
+  - 해안
+  - 섬
+  - 갯벌
+  - 산지
+items:
+  - key: v3
+    stage: 지형
+    title: 영월의 한반도 모양 지형
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=8YPAa2GE5Xw
+    desc: 강으로 둘러싸인 한반도 모양의 지형에서 자연의 신비를 발견
+    channel: 국가지질공원
+  - key: v5
+    stage: 지형
+    title: 우리나라의 아름다운 자연경관
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Xd94e1UZPQU
+    desc: 우리나라의 아름다운 자연환경 다섯 곳을 소개
+    channel: 그린트리 NatrueaveTV
+  - key: v6
+    stage: 지형
+    title: 우리나라 지형 여행
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=V7VAIcg0kbM
+    desc: 다도해가 아름다운 전라남도 걷기여행을 보며 지형을 살펴볼 수 있는 여행 설계하기에 참고할 만한 영상
+    channel: 한국관광공사TV
+  - key: v1
+    stage: 평야
+    title: 평야의 모습
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=mon43zwaNO4
+    desc: 호남평야의 중심지인 김제의 평야 모습을 관찰
+    channel: 연합뉴스TV
+  - key: v2
+    stage: 하천
+    title: 한강의 시작과 끝
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=JGgjbBJKf-c
+    desc: 한강 물길의 주요 명소 소개
+    channel: 한강공원
+  - key: v14
+    stage: 하천
+    title: 하천과 하천이 만든 지형
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=V_eF7XPyZgc
+    desc: 하천과 습지 등 하천이 만든 지형을 관찰
+    channel: 국가지질공원
+  - key: v4
+    stage: 해안
+    title: 바다에서 볼 수 있는 지형
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Is-jHC8Yp-0
+    desc: 바다에서 볼 수 있는 모래톱, 석호 등을 관찰
+    channel: 국가지질공원
+  - key: v7
+    stage: 해안
+    title: 바다가 만든 신비한 지형
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ZipcxDhnjUI
+    desc: 바다가 만든 해식 동굴, 해식 아치, 해식 기둥을 소개
+    channel: 국가지질공원
+  - key: v15
+    stage: 해안
+    title: 우리나라 해안선 특징
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=eiU0t1OBebU
+    desc: 동해, 서해, 남해의 해안선 차이
+    channel: 지식 잡화점
+  - key: v8
+    stage: 섬
+    title: 서해안 섬 여행
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Wu-8Tq4hgRA
+    desc: 서해안의 섬인 소이작도를 여행하는 모습을 보며 섬의 자연환경을 느낄 수 있는 영상
+    channel: OBS TV
+  - key: v10
+    stage: 섬
+    title: 제주도 걷기 여행
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=vA0emQxq14w
+    desc: 대표적인 섬인 제주도의 자연환경을 느낄 수 있는 걷기여행 영상
+    channel: 한국관광공사TV
+  - key: v11
+    stage: 갯벌
+    title: 갯벌 관찰
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=jMBemRevfEA
+    desc: 갯벌에서 볼 수 있는 자연환경과 생물
+    channel: 국가지질공원
+  - key: v12
+    stage: 갯벌
+    title: 갯벌의 가치
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=NVH2DTDXJFM
+    desc: 갯벌의 가치와 이를 높이기 위한 노력
+    channel: 해양수산부
+  - key: v9
+    stage: 산지
+    title: 백두대간
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=R6-C9_xVb0k
+    desc: 백두대간의 특징과 역사를 소개
+    channel: 한국등산트레킹지원센터
+  - key: v16
+    stage: 산지
+    title: 비슬산 암괴류
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=witM0NLbrLU
+    desc: 천연기념물로 지정된 비슬산 암괴류(부서진 산 사면이나 골짜기로 흘러내린 것)
+    channel: 국가지질공원
+  - key: v13
+    stage: 산지
+    title: 산의 모습
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=82dqsn_bGu8
+    desc: 수도권에 있는 화강암으로 만든 산의 모습
+    channel: 국가지질공원
+  - key: v17
+    stage: 산지
+    title: 아름다운 우리나라 산
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=7BQbxzMG630
+    desc: 우리나라의 대표적인 산의 아름다운 경치를 소개하는 영상
+    channel: 국가유산채널(K-Heritage Channel)
+quiz:
+  - statement: 지형은 산, 하천, 평야처럼 땅의 생긴 모양을 부르는 말이다.
+    answer: O
+    explain: 지형은 땅의 다양한 생김새를 묶어 부르는 말입니다.
+  - statement: 우리나라는 동쪽과 북쪽에 산지가 많다.
+    answer: O
+    explain: 우리나라 국토는 동쪽과 북쪽에 높은 산지가 분포합니다.
+  - statement: 하천은 바다에서 시작해 산으로 거꾸로 흘러 올라간다.
+    answer: X
+    explain: 하천은 산에서 시작해 낮은 곳을 따라 바다로 흘러갑니다.
+  - statement: 평야는 넓고 평평해서 농사를 짓기에 좋은 땅이다.
+    answer: O
+    explain: 평야는 땅이 평평하게 펼쳐져 있어 농사에 유리합니다.
+  - statement: 갯벌은 산꼭대기에서 볼 수 있는 지형이다.
+    answer: X
+    explain: 갯벌은 바닷물이 빠진 해안에 드러나는 진흙 땅입니다.
+  - statement: 섬은 사방이 바다로 둘러싸인 땅이다.
+    answer: O
+    explain: 섬은 바다로 둘러싸여 물에 막힌 땅을 말합니다.
+  - statement: 우리나라의 동해안, 서해안, 남해안은 모두 똑같은 모습이다.
+    answer: X
+    explain: 세 해안은 해안선과 지형의 모습이 서로 다릅니다.

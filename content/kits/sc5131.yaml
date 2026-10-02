@@ -1,0 +1,171 @@
+id: sc5131
+title: 3. 용해와 용액
+grade: 5
+sem: 1학기
+subject: 과학
+unit: 용해와 용액
+unit_no: 3
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 물질이 물에 녹는 용해 현상의 의미를 정확히 이해하고, 용질, 용매, 용액의 개념을 학습합니다. 용질의 종류나 물의 온도에 따라 용해되는 양이 달라지는 것을 비교하고, 용질의 양에 따른 용액의 진하기 변화를 관찰하며 상대적인 진하기를 비교합니다. 또한, 일상생활 속에서 용액이 쓰이는 다양한 사례를 찾아보고 그 중요성을 인식하도록 구성되었습니다.
+  core_question: 물질은 물에 어떻게 녹으며, 용액의 진하기는 무엇에 따라 달라질까?
+  concepts:
+    - term: 용질
+      def: 물 같은 액체에 녹는 물질이에요. 예를 들어 소금물에서는 소금이 용질이에요.
+    - term: 용액의 진하기
+      def: 같은 양의 용매에 녹아 있는 용질의 양이 많고 적은 정도예요. 용질이 많이 녹아 있을수록 용액이 더 진해요.
+    - term: 용액
+      def: 용질이 용매에 골고루 섞여 녹아 있는 물질이에요. 소금이 물에 녹은 소금물이 바로 용액이에요.
+    - term: 용매
+      def: 용질을 녹이는 액체예요. 소금을 녹이는 물이 용매예요.
+    - term: 동화
+      def: 겉모습이나 성질이 서로 비슷해지면서 하나처럼 변하는 것을 말해요. 용질이 용매에 녹아 한 가지 액체처럼 보이는 모습과도 통해요.
+    - term: 용해
+      def: 용질이 용매에 골고루 섞여 녹아 들어가는 현상이에요. 설탕이 물에 녹아 보이지 않게 되는 것이 용해예요.
+  standards:
+    - code: "[6과03-01]"
+      text: 용해 현상의 의미를 알고, 용질의 종류와 물의 온도에 따라 물에 녹는 용질의 양이 달라짐을 비교할 수 있다.
+    - code: "[6과03-02]"
+      text: 용질이나 용매의 양에 따라 용액의 진하기가 달라짐을 관찰하고, 용액의 상대적인 진하기를 비교할 수 있다.
+    - code: "[6과03-03]"
+      text: 일상생활에서 용액이 쓰이는 사례를 조사하여 용액의 필요성을 알리는 자료를 만들고 공유할 수 있다.
+stages:
+  - 용액
+  - 용질
+  - 용액의 진하기
+  - 녹는 양
+items:
+  - key: v3
+    stage: 용액
+    title: 소금 200kg 투하! 사해를 직접 만들어 물에 떠보기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ZOmlAkAiqLM
+    desc: 소금 200kg가 들어간 용액 만들기
+    channel: 허팝Heopop
+  - key: v10
+    stage: 용액
+    title: 장 담글 때 왜 소금을 그냥 붓지 않을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=JObJW4DMjF4
+    desc: 장 담글 때 소금물 용액을 만드는 이유 세 가지
+    channel: 메주이평강TV
+  - key: v11
+    stage: 용액
+    title: 종이나무와 석고에 나타난 결정의 정체는?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=2eMCo0OOux0
+    desc: 용액의 농도와 화학결정
+    channel: LGScienceLand
+  - key: v15
+    stage: 용액
+    title: 실패없이 탕후루 만들기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=JjMOtdhI7i4
+    desc: 물의 온도에 따라 용질의 녹는 양이 달라짐을 실험하며 탕후루 만들기
+    channel: 서담 seodam
+  - key: v1
+    stage: 용질
+    title: 어휘랑! 교과서 한자어를 찾아라! 용질, 용매, 용해
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=APdn0LrnBT8
+    desc: 단원 속 한자어의 뜻과 쓰임을 알고 학습 이해 높이기
+    channel: EBS Learning
+  - key: v4
+    stage: 용질
+    title: 어휘랑! 교과서 한자어를 찾아라! 용질, 용매, 용해
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=APdn0LrnBT8
+    desc: 용질, 용매, 용해 어휘 알아보기
+    channel: EBS Learning
+  - key: v8
+    stage: 용질
+    title: 가루는 다 물에 녹을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_0f_ZHzfxPM
+    desc: 여러 가지 가루 녹이기(미래과학교육원TV)
+    channel: 미래과학교육원TV
+  - key: v2
+    stage: 용액의 진하기
+    title: 사해에서는 물 위에 떠 있는 사람을 볼 수 있다?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=e1obHag7g_c
+    desc: 진한 용액(높은 염분) 때문에 사람 몸이 뜨는 호수 사해
+    start: 161
+    end: 384
+    channel: EBS 컬렉션 - 라이프스타일
+  - key: v13
+    stage: 용액의 진하기
+    title: 물과 설탕만 이용해서 무지개 탑을 쌓을 수 있을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=nWQNa07OIK8
+    desc: 무지개 물탑 쌓기(한국화학연구원)
+    embed: false
+    status: 임베드차단
+  - key: v14
+    stage: 용액의 진하기
+    title: 무지개 설탕물 탑을 쌓아보자!
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=0vnDkyCdxSw
+    desc: 무지개 물탑 쌓기(과학놀이)
+    channel: 키출판사
+  - key: v16
+    stage: 용액의 진하기
+    title: 사해 바다에 누워 책 보기, 진짜 가능할까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=zT1ws_gmdKE
+    desc: 염분이 높은 사해 바다에서 사람의 몸이 뜨는 현상
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v5
+    stage: 녹는 양
+    title: 실패없이 초콜릿 녹이는 법
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=tTZ_WCweV1M
+    desc: 온도에 따른 용질의 녹는 양
+    channel: 르네초콜릿Renet's Chocolate
+  - key: v7
+    stage: 녹는 양
+    title: 돌멩이로 만든 수프
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=K_tTxPzOjjw
+    desc: <과학동화-돌멩이로 만든 수프> 보고 용해와 용액 알아보기
+    embed: false
+    status: 임베드차단
+  - key: v9
+    stage: 녹는 양
+    title: 각설탕, 물에 넣어도 안 녹는다?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=0cVdXTSoVvw
+    desc: 포화상태가 될 때 설탕의 녹는 양
+    channel: YTN 사이언스
+  - key: v12
+    stage: 녹는 양
+    title: 코코아를 더 빨리 녹이려면?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=8LenWtGxssQ
+    desc: 물의 온도에 따라 용질이 용해되는 양
+    embed: false
+    status: 임베드차단
+quiz:
+  - statement: 설탕이 물에 녹아 골고루 섞이는 것을 용해라고 한다.
+    answer: O
+    explain: 용질이 용매에 골고루 섞여 녹는 현상이 용해이다.
+  - statement: 소금물에서 소금은 용매이고 물은 용질이다.
+    answer: X
+    explain: 녹는 물질인 소금이 용질, 녹이는 물이 용매이다.
+  - statement: 용질이 용매에 녹아 골고루 섞여 있는 물질을 용액이라고 한다.
+    answer: O
+    explain: 용질과 용매가 골고루 섞여 녹아 있는 것이 용액이다.
+  - statement: 같은 양의 물에 설탕을 더 많이 녹일수록 설탕물은 더 진해진다.
+    answer: O
+    explain: 용매가 같을 때 용질이 많을수록 용액이 진해진다.
+  - statement: 물의 온도가 달라져도 물에 녹는 용질의 양은 항상 똑같다.
+    answer: X
+    explain: 물의 온도에 따라 녹는 용질의 양이 달라진다.
+  - statement: 용질의 종류가 달라도 물에 녹는 양은 모두 똑같다.
+    answer: X
+    explain: 용질의 종류에 따라 물에 녹는 양이 다르다.
+  - statement: 우리 생활 속 음료수나 소독약처럼 용액이 쓰이는 경우가 있다.
+    answer: O
+    explain: 일상생활에서 음료수, 소독약 등 다양한 용액이 쓰인다.

@@ -1,0 +1,192 @@
+id: sc5141
+title: 4. 우리 몸의 구조와 기능
+grade: 5
+sem: 1학기
+subject: 과학
+unit: 우리 몸의 구조와 기능
+unit_no: 4
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 우리 몸의 움직임을 담당하는 뼈와 근육의 구조와 작동 원리를 학습합니다. 음식물의 소화, 영양소와 산소의 순환, 호흡, 노폐물 배설을 담당하는 소화, 순환, 호흡, 배설 기관의 구조와 기능을 알아보고, 이 기관들이 유기적으로 연결되어 있음을 이해합니다. 더 나아가, 기관 관련 질병을 조사하고 건강한 생활 습관을 실천하는 태도를 기르도록 구성되었습니다.
+  core_question: 우리 몸의 여러 기관은 어떤 구조와 기능을 지니며, 서로 어떻게 관련되어 작동할까?
+  concepts:
+    - term: 뼈
+      def: 우리 몸의 단단한 부분으로, 몸의 모양을 만들고 몸을 지탱하며 안쪽의 부드러운 부분을 보호해 줍니다.
+    - term: 근육
+      def: 뼈에 붙어 있는 부분으로, 줄어들거나 늘어나면서 뼈를 움직여 우리 몸이 움직일 수 있게 해 줍니다.
+    - term: 소화기관
+      def: 입, 식도, 위, 작은창자, 큰창자처럼 음식물을 잘게 부수고 영양소를 흡수하는 일을 하는 기관입니다.
+    - term: 순환기관
+      def: 심장과 혈관처럼 혈액을 온몸으로 보내 영양소와 산소를 몸 구석구석까지 전달하는 기관입니다.
+    - term: 호흡기관
+      def: 코, 기관, 폐처럼 숨을 쉬어 몸에 필요한 산소를 받아들이고 이산화 탄소를 내보내는 기관입니다.
+    - term: 배설기관
+      def: 콩팥과 방광처럼 몸속에서 생긴 노폐물을 걸러서 오줌으로 몸 밖으로 내보내는 기관입니다.
+    - term: 질병예방
+      def: 여러 기관과 관련된 병에 걸리지 않도록 손 씻기, 알맞은 운동, 바른 식습관 같은 건강한 생활 습관을 실천하는 것입니다.
+  standards:
+    - code: "[6과04-01]"
+      text: 뼈와 근육의 생김새를 관찰하고 모형을 만들어 몸이 움직이는 원리를 설명할 수 있다.
+    - code: "[6과04-02]"
+      text: 소화, 순환, 호흡, 배설 기관의 구조와 기능을 알아보고, 우리 몸의 여러 기관이 서로 관련되어 있음을 설명할 수 있다.
+    - code: "[6과04-03]"
+      text: 우리 몸의 여러 기관과 관련된 질병을 조사하고, 건강을 유지하기 위한 생활 방식을 실천할 수 있다.
+stages:
+  - 뼈
+  - 근육
+  - 소화기관
+  - 순환기관
+  - 호흡기관
+  - 배설기관
+  - 질병예방
+items:
+  - key: v1
+    stage: 뼈
+    title: 몸에서 뼈가 사라진다면?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=I9Dr0vYPwgI
+    desc: 뼈가 사라진 해리포터 모습을 통해 뼈의 중요성 느끼기
+    channel: 포터헤드POTTERHEAD
+  - key: v2
+    stage: 뼈
+    title: "내 몸 둘러보기 시리즈: 뼈"
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=xUGhAmZR6Fk
+    desc: 뼈에 대한 다양한 정보
+    channel: 서울아산병원
+  - key: v3
+    stage: 근육
+    title: 운동을 하면 왜 근육이 커질까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=nyTMGGjiVbo
+    desc: 운동을 하면 근육이 단련되고 커지는 원리
+    channel: 은근한 잡다한 지식
+  - key: v4
+    stage: 근육
+    title: 운동하고 나면 왜 하루 뒤에 근육통이 생길까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=IPaEkbUGZX8
+    desc: 운동하고 난 이후 근육통이 생기는 이유
+    channel: 건강의 벗
+  - key: v5
+    stage: 소화기관
+    title: 음식물은 어떻게 소화가 될까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=bOfpQcdA68U
+    desc: 음식물이 소화되는 자세한 과정
+    channel: 에듀가이드
+  - key: v6
+    stage: 소화기관
+    title: 디저트 배는 따로 있을까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=6M2ZOeVJg6A
+    desc: 밥 배와 디저트 배가 따로 있다는 속설을 확인
+    channel: YTN 사이언스
+  - key: v7
+    stage: 소화기관
+    title: 먹고 바로 누우면 소화가 안 된다?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=3_3rtV85pFs
+    desc: 먹고 바로 누우면 소화가 안 된다는 속설 확인
+    channel: MBN Entertainment
+  - key: v8
+    stage: 순환기관
+    title: 심장이 뛰는 모습은 어떨까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=fYUP1ql95kw
+    desc: 심장이 움직이는 모습
+    channel: EBS 건강 아카이브
+  - key: v9
+    stage: 순환기관
+    title: 혈액이 전신 순환하는 데 걸리는 시간은?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=2_pEiVGS-34
+    desc: 혈액이 전신 순환하는 데 걸리는 시간
+    channel: TVCHOSUN - TV조선
+  - key: v10
+    stage: 순환기관
+    title: 심폐소생술과 제세동기 사용법
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=q7J2T6MFA9g
+    desc: 올바른 심폐소생술과 제세동기 사용법
+    channel: 질병관리청 아프지마TV
+  - key: v11
+    stage: 호흡기관
+    title: 폐활량 테스트
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=JezpxrULt0U
+    desc: 1~3단계 숨참기 챌린지를 통해 폐활량 체크
+    channel: 슈파인더맨 ShoeFinderMan
+  - key: v12
+    stage: 호흡기관
+    title: 폐의 구조와 기능
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HH7CN5tFwkc
+    desc: 폐의 구조와 기능 이해
+    channel: 고대병원
+  - key: v13
+    stage: 호흡기관
+    title: 산소의 여정
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=SaP043d57uA
+    desc: 산소가 우리 몸을 여행하는 과정
+    channel: 밝은 면 Bright Side Korea
+  - key: v15
+    stage: 배설기관
+    title: 콩팥의 역할
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=9DOEzONET2E
+    desc: 콩팥의 4가지 기능 이해
+    channel: KBS 교양
+  - key: v14
+    stage: 배설기관
+    title: 소변 검사는 왜 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=h-W67YB7pbI
+    desc: 건강검진에서 소변검사를 하는 이유
+    channel: 울산광역시교육청
+  - key: v16
+    stage: 질병예방
+    title: 운동의 긍정적인 효과
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=l6OQNELxPPk
+    desc: 운동할 때 나타나는 몸의 변화
+    channel: KBS 생로병사의 비밀
+  - key: v17
+    stage: 질병예방
+    title: 운동은 공부에 도움이 될까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=vyqaF907O3g
+    desc: 운동이 뇌에 미치는 영향
+    channel: 은근한 잡다한 지식
+  - key: v18
+    stage: 질병예방
+    title: 땀 내는 운동, 매일 하면 효과가 없다?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=YBnQKDRR3Do
+    desc: 적절한 운동의 필요성
+    channel: KBS News
+quiz:
+  - statement: 뼈는 우리 몸의 모양을 만들고 몸속의 부드러운 부분을 보호해 줍니다.
+    answer: O
+    explain: 뼈는 몸을 지탱하고 모양을 만들며 내부 기관을 보호하는 일을 합니다.
+  - statement: 근육은 줄어들거나 늘어나면서 뼈를 움직여 우리 몸을 움직이게 합니다.
+    answer: O
+    explain: 근육의 길이가 변하면서 붙어 있는 뼈를 움직여 몸이 움직입니다.
+  - statement: 소화기관은 숨을 쉬어 산소를 받아들이는 일을 합니다.
+    answer: X
+    explain: 숨을 쉬어 산소를 받아들이는 것은 호흡기관의 역할이고, 소화기관은 음식물을 소화합니다.
+  - statement: 심장은 쉬지 않고 뛰면서 혈액을 온몸으로 보내 줍니다.
+    answer: O
+    explain: 심장은 펌프처럼 뛰면서 혈액을 온몸으로 순환시키는 순환기관입니다.
+  - statement: 폐는 음식물을 잘게 부수어 소화하는 일을 합니다.
+    answer: X
+    explain: 폐는 호흡기관으로 산소와 이산화 탄소를 교환하며, 음식물 소화는 소화기관이 합니다.
+  - statement: 콩팥은 몸속에서 생긴 노폐물을 걸러 오줌으로 내보내는 배설기관입니다.
+    answer: O
+    explain: 콩팥은 혈액 속 노폐물을 걸러 오줌을 만들어 몸 밖으로 내보냅니다.
+  - statement: 우리 몸의 기관들은 서로 관계없이 따로따로 떨어져 작동합니다.
+    answer: X
+    explain: 소화·순환·호흡·배설 기관은 서로 유기적으로 연결되어 함께 작동합니다.

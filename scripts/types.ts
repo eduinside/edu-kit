@@ -1,5 +1,5 @@
 // 수업꾸러미 콘텐츠 논리 모델 (정적 JSON 형상 = 향후 D1 edukit_* 스키마)
-// 시트 컬럼 정의: docs/SHEET_TEMPLATE.md
+// 사이트 데이터(data/*.json) 형식 — 빌드(scripts/transform.ts) 산출. 정본 입력 형식은 docs/OPERATIONS.md §2(content/kits/*.yaml)
 
 export type Grade = 3 | 4 | 5 | 6;
 export type Semester = "1학기" | "2학기";

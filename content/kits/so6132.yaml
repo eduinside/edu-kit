@@ -1,0 +1,194 @@
+id: so6132
+title: 3-2. 세계의 대륙과 대양, 국가들
+grade: 6
+sem: 1학기
+subject: 사회
+unit: 3단원
+unit_no: 3
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 세계의 주요 대륙과 대양을 파악하고, 우리나라와 여러 국가의 위치와 영토의 특징을 이해하도록 구성된 단원입니다. 지구상의 위치 관계를 정확히 파악하고, 국가별 영토의 기본적 특성을 비교하며 세계에 대한 기초적인 공간 이해를 넓혀 갑니다.
+  core_question: 지구본과 세계지도 같은 공간 자료를 이용해 세계의 대륙과 대양, 여러 나라의 위치를 어떻게 파악할 수 있을까?
+  concepts:
+    - term: 대륙과 대양
+      def: 대륙은 아시아, 아프리카처럼 바다로 둘러싸인 아주 넓은 땅덩어리이고, 대양은 태평양, 대서양처럼 매우 넓고 큰 바다를 말해요. 지구에는 보통 6개의 대륙과 5개의 대양이 있어요.
+    - term: 국가
+      def: 국가는 일정한 영토와 그곳에 사는 국민, 그리고 나라를 다스리는 정부가 있는 하나의 나라를 말해요. 세계에는 우리나라처럼 수많은 국가가 저마다 다른 위치에 자리 잡고 있어요.
+    - term: 영토
+      def: 영토는 한 나라가 다스리는 땅의 범위를 말해요. 나라마다 영토의 넓이와 모양이 서로 달라서, 영토가 아주 넓은 나라도 있고 좁은 나라도 있어요.
+  standards:
+    - code: "[6사09-02]"
+      text: 세계 주요 대륙과 대양을 파악하고, 우리나라 및 세계 여러 국가의 위치와 영토의 특징을 이해한다.
+stages:
+  - 대륙과 대양
+  - 국가
+  - 영토
+items:
+  - key: v1
+    stage: 대륙과 대양
+    title: 대륙이 이동하고 있다고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=2B_z_dtYUhQ
+    desc: 대륙 이동설에 대해 살펴보며, 배경지식을 활성화하는 데 활용
+    channel: 용구름쌤
+  - key: v2
+    stage: 대륙과 대양
+    title: 5대양 6대륙을 쉽게 외우는 방법
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ziG2C4EH78c
+    desc: 5대양 6대륙의 위치를 쉽게 익히는 데 활용
+    channel: 여니소리
+  - key: v3
+    stage: 대륙과 대양
+    title: 대륙과 대양은 어떻게 이름이 붙여졌을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=DceXsVD9tHg
+    desc: 5대양 6대륙의 어원을 살펴보는 데 활용
+    channel: 역사돋보기 이영
+  - key: v4
+    stage: 대륙과 대양
+    title: 아프리카의 국경선은 왜 일직선일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=IVVBExea_Fs
+    desc: 아프리카 대륙의 국경선이 반듯한 이유를 역사적 관점에서 살펴보는 데 활용
+    embed: false
+    status: 임베드차단
+  - key: v5
+    stage: 대륙과 대양
+    title: 오세아니아 여행
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=V99PURmO2J8
+    desc: 오세아니아의 자연환경을 살펴보는 데 활용
+    start: 1864
+    end: 1950
+    channel: KBS 트래블-걸어서 세계속으로
+  - key: v6
+    stage: 대륙과 대양
+    title: 유럽은 왜 나라가 많을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=3clQO68INnE
+    desc: 역사적 관점에서 유럽에 작은 국가가 많은 이유를 탐색해보는 데 활용
+    channel: 지식 브런치
+  - key: v7
+    stage: 대륙과 대양
+    title: 아시아의 여러 나라 소개
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=6livQ2Gtp9U
+    desc: 아시아의 여러 나라를 소개하는데 활용
+    start: 22
+    channel: Fairy Sisters
+  - key: v8
+    stage: 대륙과 대양
+    title: 아메리카에서 발전한 문명
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ep3ChquUhQI
+    desc: 아메리카의 역사를 심화하여 살펴보는 데 활용
+    channel: KBS 히스토리
+  - key: v9
+    stage: 대륙과 대양
+    title: 남극과 북극의 차이점은 무엇일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=90ePhEy5fEc
+    desc: 남극과 북극의 지리적 위치와 자연환경을 비교하여 탐색하는 데 활용
+    channel: EBS 컬렉션 - 사이언스
+  - key: v10
+    stage: 국가
+    title: 세계 여러 나라 이름으로 만든 노래
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=p9PZ-KOMwLw
+    desc: 세계 여러 국가를 한 눈에 알아보는 데 활용
+    channel: 냠네
+  - key: v11
+    stage: 국가
+    title: 세계 나라 이름 암기송
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=cq_ISf_AnlA
+    desc: 세계 여러 국가를 노래를 통해 익혀보는 데 활용
+    channel: 리틀신비🎵 | 키즈 율동 동요
+  - key: v12
+    stage: 국가
+    title: 비슷한 나라 이름이 많은 이유가 무엇일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=GRMbGjcG6jY
+    desc: 이름이 비슷한 국가가 여럿 존재하는 것에 대한 이유를 살펴보는 데 활용
+    channel: YTN star
+  - key: v13
+    stage: 국가
+    title: 대륙별 나라 퀴즈
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Tvkl-wpW0YE
+    desc: 세계 여러 국가를 퀴즈를 통해 정리해보는 데 활용
+    channel: 여기보세요
+  - key: v19
+    stage: 국가
+    title: 세계 수도 송
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Dh3A4sFZzlw
+    desc: 세계 여러 국가의 수도를 알아보는 데 활용
+    channel: 주니토니 - 인기 동요・동화
+  - key: v20
+    stage: 국가
+    title: 세계에서 가장 이상한 국경 10곳
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=c6_NHgqhUlE
+    desc: 세계의 특이한 국경을 살펴보는 데 활용
+    channel: 밝은 면 Bright Side Korea
+  - key: v14
+    stage: 영토
+    title: 세계에서 국토 면적이 넓은 나라 Top10
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=7nqjykthTuU
+    desc: 세계 여러 국가의 면적을 살펴보고, 크기를 비교해보는 데 활용
+    channel: 재경TV - 재밌는 경제
+  - key: v15
+    stage: 영토
+    title: 세계에서 국토 면적이 좁은 나라 Top10
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=JeW2GsMk2gs
+    desc: 세계 여러 국가의 면적을 살펴보고, 크기를 비교해보는 데 활용
+    channel: 센서스튜디오
+  - key: v16
+    stage: 영토
+    title: 세계지도 속 국가 퀴즈
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Iev-a5KxosY
+    desc: 세계지도 속 위치와 영토의 모양을 보고 국가명을 맞추어 보는 데 활용
+    channel: 퀴즈퀴즈 QUIZQUIZ
+  - key: v17
+    stage: 영토
+    title: 지도 모양 보고 국가 맞추기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=m4ZJINaqEBc
+    desc: 영토의 모양을 보고 국가명을 맞추어 보는 데 활용
+    channel: Rich Flex 리치 플렉스
+  - key: v18
+    stage: 영토
+    title: 지구의 모든 날씨를 갖고 있는 칠레
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=dsQqvteGRwo
+    desc: 영토가 세로로 길어 다양한 기후를 가진 칠레를 탐색해보는 데 활용
+    channel: 지식세포
+quiz:
+  - statement: 대륙은 바다로 둘러싸인 아주 넓은 땅덩어리를 말한다.
+    answer: X
+    explain: 대륙은 아주 넓은 땅덩어리이지만, '바다로 둘러싸인' 땅은 섬이에요. 대륙은 사방이 바다로 완전히 둘러싸여 있지 않아요.
+  - statement: 태평양과 대서양은 대양에 해당한다.
+    answer: O
+    explain: 태평양, 대서양처럼 아주 넓고 큰 바다를 대양이라고 불러요.
+  - statement: 세계에는 국가가 우리나라 하나뿐이다.
+    answer: X
+    explain: 세계에는 우리나라를 포함해 수많은 국가가 여러 위치에 자리 잡고 있어요.
+  - statement: 나라마다 영토의 넓이와 모양은 서로 다르다.
+    answer: O
+    explain: 영토가 넓은 나라도 있고 좁은 나라도 있어서 나라마다 영토의 특징이 달라요.
+  - statement: 모든 나라의 영토 넓이는 똑같다.
+    answer: X
+    explain: 나라마다 영토 넓이가 달라요. 영토가 넓은 나라도 있고 좁은 나라도 있어요.
+  - statement: 지구본과 세계지도를 이용하면 여러 나라의 위치를 알 수 있다.
+    answer: O
+    explain: 지구본과 세계지도를 보면 대륙과 대양, 여러 나라의 위치를 알아볼 수 있어요.
+  - statement: 대양은 좁은 땅덩어리를 뜻하는 말이다.
+    answer: X
+    explain: 대양은 땅이 아니라 태평양·대서양처럼 매우 넓은 바다를 뜻해요.

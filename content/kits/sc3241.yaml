@@ -1,0 +1,183 @@
+id: sc3241
+title: 4. 감염병과 건강한 생활
+grade: 3
+sem: 2학기
+subject: 과학
+unit: 감염병과 건강한 생활
+unit_no: 4
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 감염병에 대한 이해를 바탕으로 건강한 생활 습관을 기를 수 있도록 하는 단원입니다. 생활 속에서 발생할 수 있는 감염병의 사례를 조사하고 감염이 이루어지는 과정을 살펴보며 감염병 예방을 위한 개인의 실천 방안뿐 아니라 사회적 노력과 역할에 대해 살펴봅니다. 이를 통해 감염병 예방을 실천할 수 있는 태도를 기릅니다.
+  core_question: 감염병은 어떻게 퍼지며, 건강한 생활을 위해 우리는 무엇을 실천해야 할까?
+  concepts:
+    - term: 감염
+      def: 병을 일으키는 세균이나 바이러스 같은 작은 생물이 우리 몸속에 들어와 자리를 잡고 늘어나는 것을 감염이라고 해요.
+    - term: 감염병
+      def: 감염 때문에 생기는 병으로, 한 사람에게서 다른 사람에게 옮을 수 있는 병을 말해요. 감기나 코로나19가 대표적인 감염병이에요.
+    - term: 감염병의 위험성
+      def: 감염병은 여러 사람에게 빠르게 퍼져 많은 사람을 아프게 할 수 있고, 심하면 목숨을 잃게 할 수도 있어서 위험해요.
+    - term: 예방수칙
+      def: 감염병에 걸리지 않도록 평소에 지켜야 할 약속이에요. 손 씻기, 마스크 쓰기, 예방주사 맞기 같은 것이 있어요.
+  standards:
+    - code: "[4과08-01]"
+      text: 생활 속 감염병의 사례를 알고, 다양한 질병과 그 위험성에 대해 토의할 수 있다.
+    - code: "[4과08-02]"
+      text: 감염병으로부터 안전한 사회에 관심을 가지고, 여러 감염 과정을 통해 생활 습관과 감염병 유행과의 연관성을 설명할 수 있다.
+    - code: "[4과08-03]"
+      text: 건강한 생활을 위해 필요한 감염병 예방 수칙을 공유하고, 생활 속에서 실천할 수 있다.
+stages:
+  - 감염
+  - 감염병
+  - 감염병의 위험성
+  - 예방수칙
+items:
+  - key: v1
+    stage: 감염
+    title: 감염은 얼마나 위험할까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=-oUgZYDFbJg
+    desc: 병원의 관리 부실로 '치명적인 균'에 집단 감염된 환자들의 사례를 통해, 감염의 위험성에 대해 알아본다.
+    channel: " YTN"
+  - key: v2
+    stage: 감염
+    title: 감염을 막기 위해, 우리 몸에서 생겨나는 것이 있다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=su3Ddto587k
+    desc: 세균, 바이러스 등이 우리 몸에 들어왔을 때 우리 몸이 방어하며 만들어 내는 염증에 대해 알아본다.
+    channel: 건강의 벗
+  - key: v3
+    stage: 감염
+    title: 실제 우리 몸 속 면역세포와 세균의 전투 영상!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=qlO1uJnNq5M
+    desc: 건강을 해치는 침입자가 나타나면 얼른 쫓아가 해치우는 우리 몸의 면역세포들의 격렬한 전투 현장을 현미경을 통해 관찰한다.
+    channel: 채널A News
+  - key: v4
+    stage: 감염병
+    title: 인간이 이겨낸 최초의 감염병은?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=TXL2Lb5s2z4
+    desc: 인류가 이겨낸 최초의 감염병인 천연두에 대해 알아보며, 백신이라는 단어의 유래를 알아본다.
+    channel: 약쏘옥
+  - key: v5
+    stage: 감염병
+    title: 습도가 높을수록 감염병에 더 잘 걸릴까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=_WgTseuQPOc
+    desc: 습도가 높고 더운 여름에 균이 더 잘 번식하는 이유를 알아본다.
+    channel: 고대병원
+  - key: v6
+    stage: 감염병
+    title: 지구온난화로 감염병의 위험이 더 커졌다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=sebu1fqX6wk
+    desc: 지구온난화로 기온이 높아지면서, 모기를 매개로 한 감염병의 발생이 갈수록 늘고 있다.
+    channel: YTN 사이언스 투데이
+  - key: v7
+    stage: 감염병
+    title: 코로나19 시절, K-pop 말고 K-방역이 전 세계적으로 주목받았다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Qocn-oMenow
+    desc: 코로나 19의 확산을 막기 위한 K-방역을 WHO 사무총장이 모범 사례로 언급하였다.
+    channel: KTV 정책 K
+  - key: v8
+    stage: 감염병의 위험성
+    title: 사망자 100만명을 넘긴, 전쟁보다 무서웠던 감염병은?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=6jnD0HLuBgE
+    desc: 세계적으로 사망자를 100만명 이상 낸, 코로나19. 특히 미국은 2차대전 이후 전쟁에서 희생된 사람보다 사망자가 더 많다.
+    channel: KBS News
+  - key: v9
+    stage: 감염병의 위험성
+    title: 코로나19 시절, 초등학교 등교 수업은 어떻게 했었을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=LjMAIeWF-Wk
+    desc: 경기도 와우초등학교 학생들과 선생님의 모습으로 코로나 19 유행 중 등교 수업 모습을 살펴본다.
+    channel: 안전한TV
+  - key: v10
+    stage: 감염병의 위험성
+    title: 감염병의 최고 위험 등급, '팬데믹'은 무엇일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Hw0739jH9Ek
+    desc: 전 세계에서 163만명 이상의 감염자를 낸 A형 인플루엔자 바이러스(신종 플루)에 대해 WHO는 팬데믹을 공식 선언했다.
+    channel: EBS뉴스
+  - key: v11
+    stage: 감염병의 위험성
+    title: 기생충으로부터 감염병이 생길 수 있다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=B25vOZn4fd0
+    desc: 기생충 감염병의 종류와 예방 수칙에 대해 알아본다.
+    channel: 질병관리청 아프지마TV
+  - key: v12
+    stage: 감염병의 위험성
+    title: 진드기로부터 감염병이 생길 수 있다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=A0umMpcpGgM
+    desc: 진드기 매개 감염병의 종류와 예방 수칙에 대해 알아본다. (쯔쯔가무시, SFTS)
+    channel: 질병관리청 아프지마TV
+  - key: v13
+    stage: 감염병의 위험성
+    title: 음식으로부터 생기는 감염병, 식중독에 종류가 있다?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_wGz8d8gaWE
+    desc: 식중독의 여러 가지 종류와 위험성, 예방 수칙에 대해 알아본다.
+    channel: 초등백과
+  - key: v14
+    stage: 예방수칙
+    title: 예방주사, 아픈데 꼭 맞아야 하나요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=fECJdH38wbs
+    desc: 예방주사는 왜 맞아야 할까? 애니메이션을 통해 예방 주사의 역할에 대해 알아본다.
+    channel: 행정안전부
+  - key: v15
+    stage: 예방수칙
+    title: 균으로부터 안전해지는 실내 소독 과정!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=kQEDFyysBko
+    desc: 집안의 세균을 없애는 전문가의 소독 과정을 알아본다.
+    channel: YTN 사이언스
+  - key: v16
+    stage: 예방수칙
+    title: 올바른 손씻기 6단계'가 중요한 이유는?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=aE0MEPeaks4
+    desc: 세균 배양 실험을 통해 올바른 손씻기가 중요한 이유를 알아본다.
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v17
+    stage: 예방수칙
+    title: 마스크를 쓰지 않으면 감염 위험이 5배 이상이 된다고? 올바른 마스크 착용법!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=2Pjjlmu8maY
+    desc: 마스크를 쓰지 않을 경우 코로나 19에 감염될 위험이 5배가 높아질 수 있음과, 올바른 마스크 착용 방법에 대해 알아본다.
+    channel: " YTN"
+  - key: v18
+    stage: 예방수칙
+    title: 2년천 전에는 이런 마스크를 썼다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=SkX2knUvm3A
+    desc: 고대 로마시대, 2천년 전부터 이어진 마스크의 역사를 알아본다.
+    channel: 광주MBC
+quiz:
+  - statement: 감염병은 한 사람에게서 다른 사람에게 옮을 수 있다.
+    answer: O
+    explain: 감염병은 세균이나 바이러스 같은 병원체가 옮으면서 다른 사람에게도 퍼질 수 있는 병이에요.
+  - statement: 올바른 손 씻기는 감염병을 예방하는 데 도움이 된다.
+    answer: O
+    explain: 손을 깨끗이 씻으면 손에 묻은 세균이나 바이러스를 없애 감염을 막는 데 도움이 돼요.
+  - statement: 감염병은 아무리 많이 퍼져도 사람에게 위험하지 않다.
+    answer: X
+    explain: 감염병은 많은 사람을 아프게 하고 심하면 목숨을 잃게 할 수도 있어 위험해요.
+  - statement: 마스크를 바르게 쓰면 감염 위험을 줄일 수 있다.
+    answer: O
+    explain: 마스크를 바르게 쓰면 입과 코로 들어오는 병원체를 막아 감염 위험을 줄이는 데 도움이 돼요.
+  - statement: 예방주사는 감염병을 막는 데 전혀 도움이 되지 않는다.
+    answer: X
+    explain: 예방주사는 우리 몸이 병에 미리 대비하게 해 주어 감염병을 막는 데 도움이 돼요.
+  - statement: 감염병을 예방하려면 개인의 노력뿐 아니라 사회의 노력도 필요하다.
+    answer: O
+    explain: 감염병을 예방하려면 개인이 손 씻기 같은 습관을 실천하는 것과 함께, 사회가 함께 노력하는 것도 중요해요.
+  - statement: 감염병은 우리 생활 습관과는 아무런 관계가 없다.
+    answer: X
+    explain: 손 씻기나 위생 같은 생활 습관은 감염병이 퍼지는 것과 관련이 있어서, 건강한 습관을 기르는 것이 중요해요.

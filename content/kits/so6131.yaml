@@ -1,0 +1,187 @@
+id: so6131
+title: 3-1. 세계를 표현한 공간 자료
+grade: 6
+sem: 1학기
+subject: 사회
+unit: 3단원
+unit_no: 3
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 세계 여러 지역을 나타내는 다양한 공간 자료의 특징을 이해하고, 지구본과 세계지도를 활용해 위치를 표현하는 방법을 익히도록 구성된 단원입니다. 위도와 경도, 디지털 영상 자료를 활용해 세계를 정확하고 체계적으로 살펴보는 기초적인 공간 감각을 기릅니다.
+  core_question: 지구본과 세계지도 같은 공간 자료를 이용해 세계의 대륙과 대양, 여러 나라의 위치를 어떻게 파악할 수 있을까?
+  concepts:
+    - term: 세계
+      def: 지구 위에 있는 여러 대륙과 대양, 수많은 나라를 모두 아우르는 넓은 공간을 말합니다. 우리가 사는 곳을 넘어 지구 전체를 살펴보는 대상이에요.
+    - term: 지도
+      def: 땅의 모습을 위에서 내려다본 것처럼 작게 줄여서 평평한 종이나 화면에 나타낸 그림입니다. 약속된 기호와 색으로 위치와 길, 산과 강 등을 보여 줍니다.
+    - term: 세계지도
+      def: 둥근 지구 전체를 한눈에 볼 수 있도록 평면에 펼쳐 나타낸 지도입니다. 여러 대륙과 대양, 나라들의 위치를 한 화면에서 비교할 수 있어요.
+    - term: 위치
+      def: 어떤 장소가 지구 위에서 어디에 자리하는지를 나타내는 것입니다. 위도와 경도를 이용하면 위치를 정확하게 말할 수 있어요.
+    - term: 디지털 공간 영상정보
+      def: 인공위성이나 항공기로 찍은 사진을 컴퓨터와 스마트폰에서 볼 수 있게 만든 공간 자료입니다. 지도를 확대하거나 실제 모습을 영상으로 살펴볼 수 있어요.
+    - term: 공간자료
+      def: 지구본, 세계지도, 디지털 영상정보처럼 세계 여러 지역의 위치와 모습을 나타내는 다양한 자료를 가리킵니다. 자료마다 특징이 달라 쓰임새도 서로 달라요.
+  standards:
+    - code: "[6사09-01]"
+      text: 세계를 표현하는 다양한 공간 자료의 특징을 이해하고, 지구본과 세계지도에서 위치를 표현하는 방법을 익힌다.
+stages:
+  - 세계
+  - 지도
+  - 세계지도
+  - 위치
+  - 디지털 공간 영상정보
+  - 공간자료
+items:
+  - key: v1
+    stage: 세계
+    title: 김찬삼의 세계일주
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=HftMUiZZQAU
+    desc: 대한민국 최초의 세계여행기를 보며, 나의 경험과 연관지어보는 데 활용
+    embed: false
+    channel: 클래스로그
+  - key: v2
+    stage: 지도
+    title: 세상을 보는 창, 지도의 역사
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=NHo4cD3NU_g
+    desc: 지도의 발전 과정을 살펴보며, 그 중요성을 깨닫도록 하는 데 활용
+    channel: YTN 사이언스
+  - key: v3
+    stage: 지도
+    title: 우리나라 최초의 세계지도
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=K1iJrwuSyIM
+    desc: 우리나라 최초의 세계지도인 혼일강리역대국도지도를 살펴보며, 현재의 지도와 비교해보는 데 활용
+    embed: false
+    channel: 클래스로그
+  - key: v4
+    stage: 지도
+    title: 지도를 보는 사람들
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=yIilBf3g1SM
+    desc: 지도를 꼭 필요로 하는 직업을 살펴보며 중요성을 깨닫도록 하는 데 활용
+    channel: EBSCulture (EBS 교양)
+  - key: v5
+    stage: 세계지도
+    title: 세계지도 이야기
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=fWseM7XYiz0
+    desc: 나침반으로 위치를 찾는 방법을 토대로 세계지도를 읽는 방법을 간단하게 학습하는 데 활용
+    channel: 비상교육 온리원 라이브
+  - key: v6
+    stage: 세계지도
+    title: 세계 여러 나라의 지리 정보가 담긴 세계지도 알아보기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6UcATiqsJWs
+    desc: 세계지도의 의미와 특징, 위치를 읽는 방법을 익히는 데 활용
+    channel: 스마트올TV
+  - key: v7
+    stage: 세계지도
+    title: 세계지도를 거꾸로 본 적이 있나요?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=PXfvc32CBhI
+    desc: 세계지도를 거꾸로 보았을 때, 우리나라가 바다로 뻗어나가는 지정학적 위치에 있음을 이해하는 데 활용
+    channel: 윤학배의 맛있는 바다이야기
+  - key: v8
+    stage: 세계지도
+    title: 세계에서 가장 오래된 정보, 아프리카가 발끈한 이유
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=eJ0rDm7-6TU
+    desc: 뉴스 영상을 통해 세계지도의 왜곡이 발생할 수 있음을 상기하는 데 활용
+    channel: " YTN"
+  - key: v9
+    stage: 세계지도
+    title: 모든 세계지도가 잘못된 이유
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=SVXL8Y9YVGg
+    desc: 평면 상의 세계지도가 왜곡될 수 있음을 이해하는 데 활용
+    channel: 티슈박스 TissueBox
+  - key: v10
+    stage: 세계지도
+    title: 우리가 모르고 있던 세계 속 대한민국의 진짜 땅 크기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=wq1SLkzCqkA
+    desc: 대한민국의 땅 크기를 다른 국가와 비교해 봄으로써 작은 나라가 아님을 깨닫도록 하는 데 활용
+    channel: 엠빅뉴스
+  - key: v11
+    stage: 세계지도
+    title: 세계 여러 나라의 지리 정보가 담긴 지구본 알아보기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qXIndUK1u38
+    desc: 지구본의 의미와 특징, 위치를 읽는 방법을 익히는 데 활용
+    channel: 스마트올TV
+  - key: v12
+    stage: 위치
+    title: 2분만에 배우는 위도와 경도
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=EEJKDFuaFwc
+    desc: 세계지도에서 위치를 읽는 방법을 익히는 데 활용
+    channel: 여니소리
+  - key: v13
+    stage: 위치
+    title: 본초자오선, 그게 뭔데요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tlAdhA8ejl4
+    desc: 본초자오선과 날짜변경선의 의미를 명확히 이해하는 데 활용
+    channel: 생각의 감칠맛, 다시답
+  - key: v14
+    stage: 위치
+    title: 본초자오선이 그리니치천문대로 정해진 까닭은 뭘까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=KMwIYvqUAag
+    desc: 역사적 관점에서 본초자오선이 정해진 이유를 탐색하는 데 활용
+    channel: 지리는TV
+  - key: v15
+    stage: 위치
+    title: 시차 계산을 쉽게 하는 법
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=--5hVgVYyNQ
+    desc: 경도에 따라 시간의 차이가 발생함을 이해하며, 쉽게 시차 계산을 하는 방법을 알아보는 데 활용
+    channel: YTN 사이언스
+  - key: v16
+    stage: 디지털 공간 영상정보
+    title: 디지털 공간 영상정보에 대해 알아보기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=k6hv3v42sHM
+    desc: 디지털 공간 영상정보의 의미와 특징, 장점을 파악하는 데 활용
+    channel: 스마트올TV
+  - key: v17
+    stage: 디지털 공간 영상정보
+    title: 정밀도로지도, 이런 데도 갈 수 있나?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=H8XvU4Bngfk
+    desc: 디지털 공간 영상정보의 발전 양상을 탐색하는 데 활용
+    channel: 국토교통부국토지리정보원
+  - key: v18
+    stage: 공간자료
+    title: 세계지도, 지구본, 디지털 공간 영상정보의 특징 비교하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ClcrwfkLVmw
+    desc: 세계지도, 지구본, 디지털 공간 영상정보의 특징을 비교하며 정리하는 데 활용
+    channel: 스마트올TV
+quiz:
+  - statement: 세계지도는 둥근 지구를 평면에 펼쳐서 나타낸 지도이다.
+    answer: O
+    explain: 세계지도는 둥근 지구 전체를 평면에 펼쳐 한눈에 보도록 만든 지도입니다.
+  - statement: 위도와 경도를 이용하면 어떤 장소의 위치를 정확하게 나타낼 수 있다.
+    answer: O
+    explain: 위도는 적도를 기준으로 남북 위치를, 경도는 본초 자오선을 기준으로 동서 위치를 나타내어, 둘을 함께 쓰면 지구 위 한 지점을 정확히 가리킬 수 있습니다.
+  - statement: 지구본은 둥근 지구의 모습을 평평한 종이 위에 그대로 펼쳐 놓은 것이다.
+    answer: X
+    explain: 지구본은 지구 모양을 그대로 둥글게 만든 모형이고, 평평한 종이에 펼쳐 나타낸 것은 세계지도입니다.
+  - statement: 디지털 영상 지도는 컴퓨터나 스마트폰에서 지도를 확대하거나 실제 모습을 살펴볼 수 있다.
+    answer: O
+    explain: 디지털 영상 지도는 컴퓨터나 스마트폰에서 지도를 확대·축소하거나 위성 사진으로 실제 모습까지 살펴볼 수 있는 자료입니다.
+  - statement: 세계는 우리나라 한 곳만을 가리키는 말이다.
+    answer: X
+    explain: 세계는 우리나라 한 곳이 아니라, 지구 전체의 여러 대륙과 대양, 수많은 나라를 모두 아우르는 말입니다.
+  - statement: 지구본, 세계지도, 디지털 영상 지도는 모두 세계를 표현하는 공간 자료이다.
+    answer: O
+    explain: 지구본, 세계지도, 디지털 영상 지도는 모두 세계의 모습을 나타내는 다양한 공간 자료입니다.
+  - statement: 세계를 표현하는 공간 자료는 종류가 달라도 특징과 쓰임새가 모두 똑같다.
+    answer: X
+    explain: 지구본, 세계지도, 디지털 영상 지도는 종류마다 특징이 서로 달라서 알맞은 쓰임새도 다릅니다.

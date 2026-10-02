@@ -1,0 +1,204 @@
+id: sc3121
+title: 2. 동물의 생활
+grade: 3
+sem: 1학기
+subject: 과학
+unit: 동물의 생활
+unit_no: 2
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 동물을 관찰하여 특징에 따라 동물을 분류하고 환경에 따른 동물의 생김새와 생활 방식을 탐구하며 동물의 특징을 활용한 생활용품을 설계해본다.
+  core_question: 동물의 생김새와 생활 방식은 사는 환경과 어떻게 관련되며, 우리는 그 특징을 어떻게 활용할까?
+  concepts:
+    - term: 우리 주변의 동물
+      def: 우리가 사는 곳 가까이에서 만날 수 있는 여러 동물을 말해요. 공원, 학교, 집 주변에서도 곤충, 새, 강아지 같은 다양한 동물을 볼 수 있어요.
+    - term: 동물 분류
+      def: 동물을 비슷한 특징끼리 묶어 무리로 나누는 것을 말해요. 다리 수, 날개 유무, 사는 곳 같은 기준을 정해 나눌 수 있어요.
+    - term: 땅에 사는 동물
+      def: 땅 위나 땅속에서 살아가는 동물을 말해요. 다람쥐나 지렁이처럼 기어 다니거나 땅을 파며 살아요.
+    - term: 물에 사는 동물
+      def: 강, 바다, 연못 같은 물속이나 물가에서 사는 동물을 말해요. 붕어나 문어처럼 헤엄을 치며 살아요.
+    - term: 사막에 사는 동물
+      def: 덥고 물이 적은 사막에서 살아가는 동물을 말해요. 낙타나 사막여우처럼 더위와 부족한 물을 견디는 몸을 가지고 있어요.
+    - term: 극지방에 사는 동물
+      def: 매우 춥고 눈과 얼음이 많은 북극이나 남극에서 사는 동물을 말해요. 북극곰이나 펭귄처럼 추위를 견디는 몸을 가지고 있어요.
+    - term: 환경에 따른 동물의 모습
+      def: 동물이 사는 곳의 환경에 알맞게 생김새가 달라지는 것을 말해요. 추운 곳 동물은 털이 두껍고, 사막 동물은 더위를 잘 견디는 모습이에요.
+    - term: 동물의 특징
+      def: 동물마다 가지고 있는 생김새나 생활 방식의 남다른 점을 말해요. 발바닥의 흡착판이나 두꺼운 털처럼 살아가는 데 도움이 되는 점이에요.
+    - term: 동물 모방
+      def: 동물의 특징을 흉내 내어 우리 생활에 쓸모 있는 물건을 만드는 것을 말해요. 식물 씨앗이나 동물 발의 특징에서 벨크로 같은 물건의 아이디어를 얻기도 해요.
+  standards:
+    - code: "[4과02-01]"
+      text: 여러 가지 동물을 관찰하여 특징에 따라 동물을 분류할 수 있다.
+    - code: "[4과02-02]"
+      text: 다양한 환경에 서식하는 동물을 조사하여 동물의 생김새와 생활 방식이 환경과 관련되어 있음을 설명할 수 있다.
+    - code: "[4과02-03]"
+      text: 동물의 특징을 이용하여 일상생활에서 활용할 수 있는 생활용품을 설계하여 협력적으로 소통할 수 있다.
+stages:
+  - 우리 주변의 동물
+  - 땅에 사는 동물
+  - 물에 사는 동물
+  - 사막에 사는 동물
+  - 극지방에 사는 동물
+  - 환경에 따른 동물의 모습
+  - 동물의 특징
+  - 동물 모방
+items:
+  - key: v1
+    stage: 우리 주변의 동물
+    title: 하루 동안 얼마나 많은 동물들을 만날까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=mvk6RrwBHf4
+    desc: 우리 주변에서 사는 동물을 관찰
+    channel: 클래스가 빵빵
+  - key: v2
+    stage: 우리 주변의 동물
+    title: 비둘기는 정말 더러운 동물일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=iRyQiThSK_I
+    desc: 비둘기에 관한 잘못된 상식
+    channel: EBS 컬렉션 - 사이언스
+  - key: v3
+    stage: 우리 주변의 동물
+    title: 개와 고양이는 혀가 반대로 움직인다?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=nEHzfACdqZo
+    desc: 개와 고양이의 차이점
+    channel: "KBS동물티비 : 애니멀포유 animal4u"
+  - key: v4
+    stage: 땅에 사는 동물
+    title: 땅에 사는 동물 초성퀴즈
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=vJKYToU_DyU
+    desc: 땅에 사는 세 글자 동물 초성퀴즈
+    channel: 책만드는지영샘
+  - key: v5
+    stage: 땅에 사는 동물
+    title: 라이언킹은 실화일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=M3IVxn2_Lok
+    desc: 미어캣과 사자
+    channel: EBS 컬렉션 - 사이언스
+  - key: v6
+    stage: 땅에 사는 동물
+    title: 토끼와 거북이 달리기 대결! 동화가 현실로?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=oRHe-dcVI7Y
+    desc: 토끼와 거북이 달리기
+    channel: 에그박사 Egg&Bugs
+  - key: v7
+    stage: 물에 사는 동물
+    title: 계곡에는 어떤 생물이 살까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=bdx-MQfCbqs
+    desc: 다양한 계곡 생물
+    channel: 에그박사 Egg&Bugs
+  - key: v8
+    stage: 물에 사는 동물
+    title: 이것은 외계인? 심해에 사는 해양생물
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=m53CXrJueHA
+    desc: 심해에 사는 다양한 해양생물
+    channel: 해양수산부
+  - key: v9
+    stage: 물에 사는 동물
+    title: 지구에서 가장 큰 동물은?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=stDHjjtsXK8
+    desc: 지구에서 가장 큰 대왕고래
+    channel: 내셔널지오그래픽 - National Geographic Korea
+  - key: v10
+    stage: 사막에 사는 동물
+    title: 사막여우는 어떻게 사냥할까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=TZhUUwyqe-k
+    desc: 사막여우의 사냥법
+    channel: 내셔널지오그래픽 - National Geographic Korea
+  - key: v11
+    stage: 사막에 사는 동물
+    title: 낙타의 혹에는 무엇이 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=amkOF7RSX_8
+    desc: 낙타의 혹
+    channel: YTN 사이언스
+  - key: v12
+    stage: 극지방에 사는 동물
+    title: 북극곰이 북극에 살게 된 이유는?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Yhvq1w41Nts
+    desc: 북극곰이 북극에 살게 된 이유
+    channel: 몰상식
+  - key: v13
+    stage: 극지방에 사는 동물
+    title: 내가 선택할 극지 동물은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=sbLfHAq82Jw
+    desc: 다양한 극지방에 사는 동물
+    channel: 극지연구소
+  - key: v14
+    stage: 환경에 따른 동물의 모습
+    title: 사막여우와 북극여우는 왜 다르게 생겼을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=StsA6Orfo8Y
+    desc: 환경에 적응한 동물
+    channel: 국립중앙과학관
+  - key: v15
+    stage: 환경에 따른 동물의 모습
+    title: 기이한 생해생물의 생존법
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=wDCZAxU11Cs
+    desc: 심해생물의 신기한 극한 환경 생존법
+    channel: YTN 사이언스
+  - key: v16
+    stage: 동물의 특징
+    title: 어서와! 동물은 처음이지?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=6n98fFvfhAc
+    desc: 재미있는 동물 이야기
+    channel: 타임스낵
+  - key: v17
+    stage: 동물의 특징
+    title: 귀여운 동물의 특징에 빠져볼래?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=BbAsHdh9n4s
+    desc: 귀여운 특징을 갖고 있는 동물
+    channel: 타임스낵
+  - key: v18
+    stage: 동물 모방
+    title: 곤충을 모방한 로봇이 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=hTP4ty3dQY0
+    desc: 대벌레 모방 로봇, 지네 모방 로봇
+    channel: EBS 컬렉션 - 사이언스
+  - key: v19
+    stage: 동물 모방
+    title: 흡착판과 벨크로는 어디에서 아이디어를 얻었을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=aHpZCNHld9Q
+    desc: 흡착판과 벨크로의 발명 동기
+    channel: YTN 사이언스
+quiz:
+  - statement: 동물을 다리 수나 날개 유무 같은 기준으로 비슷한 것끼리 묶어 나눌 수 있다.
+    answer: O
+    explain: 동물은 다리 수, 날개 유무 같은 일정한 기준에 따라 특징이 비슷한 것끼리 분류할 수 있다.
+  - statement: 북극곰처럼 추운 극지방에 사는 동물은 추위를 견디기 위해 두꺼운 털을 가지고 있다.
+    answer: O
+    explain: 북극곰 같은 극지방 동물은 두꺼운 털과 두꺼운 지방층으로 추운 환경을 견딘다.
+  - statement: 동물의 생김새와 생활 방식은 사는 환경과 아무 관련이 없다.
+    answer: X
+    explain: 동물의 생김새와 생활 방식은 사는 환경과 깊은 관련이 있다. 환경에 알맞게 적응했기 때문이다.
+  - statement: 붕어처럼 물에 사는 동물은 물속에서 헤엄을 치며 살아간다.
+    answer: O
+    explain: 붕어처럼 물속에서 사는 동물은 지느러미로 헤엄치며 생활한다.
+  - statement: 사막에 사는 동물과 극지방에 사는 동물은 사는 환경이 같아서 생김새도 똑같다.
+    answer: X
+    explain: 사막과 극지방은 환경이 서로 매우 달라서, 그곳에 사는 동물의 생김새와 생활 방식도 다르다.
+  - statement: 동물의 특징을 활용하면 우리 생활에 쓸모 있는 물건을 설계할 수 있다.
+    answer: O
+    explain: 산천어 비늘로 물에 잘 미끄러지는 수영복을 만들 듯, 동물의 특징을 활용해 생활에 쓸모 있는 물건을 설계할 수 있다.
+  - statement: 우리 주변에서는 어떤 동물도 만날 수 없다.
+    answer: X
+    explain: 공원, 학교, 집 주변 등 우리 주변에서도 개미, 비둘기, 강아지 같은 여러 동물을 만날 수 있다.

@@ -1,0 +1,153 @@
+id: so3223
+title: 2-3. 통신 수단의 변화와 달라진 생활 모습
+grade: 3
+sem: 2학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 3
+published: true
+intro:
+  core_idea: 옛날과 오늘날의 통신수단을 살펴보고, 통신수단의 변화에 따라 사람들의 정보 교류와 의사소통 방식이 어떻게 달라졌는지 알아보는 단원입니다.
+  core_question: 옛날과 오늘날을 비교하면 사람들의 생활 모습은 어떻게 달라졌으며, 그렇게 변화한 까닭은 무엇일까?
+  concepts:
+    - term: 통신수단
+      def: 멀리 떨어진 사람에게 소식이나 정보를 주고받기 위해 사용하는 방법이나 도구예요. 편지, 전화, 스마트폰 등이 통신수단이에요.
+    - term: 통신수단의 발달
+      def: 옛날에서 오늘날로 오면서 통신수단이 점점 더 빠르고 편리하게 바뀌어 온 것을 말해요. 발달할수록 더 멀리, 더 빨리 소식을 전할 수 있어요.
+    - term: 과거의 통신수단
+      def: 옛날 사람들이 소식을 전하던 방법으로, 봉수, 파발, 신호연, 편지 같은 것이 있어요. 오늘날보다 시간이 오래 걸리고 전하기 어려웠어요.
+    - term: 미래의 통신수단
+      def: 앞으로 더 발전할 통신수단으로, 인공지능 로봇이나 모든 기기가 연결되는 스마트 기술 같은 것이 있어요. 지금보다 더 편리하게 정보를 주고받게 될 거예요.
+  standards:
+    - code: "[4사04-03]"
+      text: 옛날부터 오늘날까지 통신수단의 변화에 따른 정보 교류와 의사소통 방식의 변화를 설명한다.
+stages:
+  - 통신수단
+  - 통신수단의 발달
+  - 과거의 통신수단
+  - 미래의 통신수단
+items:
+  - key: v11
+    stage: 통신수단
+    title: 건강한 스마트폰 사용법
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=VE_GRpDegS4
+    desc: 스마트폰 과의존 예방을 위한 영상
+    channel: 한국지능정보사회진흥원 스마트쉼센터
+  - key: v12
+    stage: 통신수단
+    title: 스마트폰이 바꾼 우리 생활
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=60maU640kaw
+    desc: 통신 기술의 발전으로 우리 생활에 어떻게 달라졌는지 소개하는 영상
+    channel: 뉴스쿨TV by News'Cool
+  - key: v1
+    stage: 통신수단의 발달
+    title: 통신기술의 발달
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Cs1u4oiDve4
+    desc: 통신기술의 발달 모습을 정리한 영상
+    channel: KISTI의 과학향기
+  - key: v2
+    stage: 통신수단의 발달
+    title: 이동통신의 발달
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=9HNCUiCqHhc
+    desc: 이동통신 기술의 발달 모습
+    channel: YTN 사이언스
+  - key: v3
+    stage: 통신수단의 발달
+    title: 우리나라 전화의 변화 모습
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=u1tNSq9pY5M
+    desc: 우리나라 전화의 변화 모습
+    channel: MSG
+  - key: v4
+    stage: 통신수단의 발달
+    title: 우편제도의 발달
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=29KO0apbbR0
+    desc: 우편제도의 변화 모습
+    channel: YTN 사이언스
+  - key: v5
+    stage: 과거의 통신수단
+    title: 봉수와 파발
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=oRIgnCmM0w0
+    desc: 조선 시대 비상 통신망 봉수와 파발
+    channel: 국가유산채널(K-Heritage Channel)
+  - key: v6
+    stage: 과거의 통신수단
+    title: 신호연
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=peyl0FTeJxA
+    desc: 군사 목적으로 활용했던 신호연에 대한 영상
+    channel: YTN 밀덕스
+  - key: v7
+    stage: 과거의 통신수단
+    title: 조선시대 임금님이 한글로 쓴 편지
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=6HfzAg_-a1Y
+    desc: 임금님이 쓴 한글 편지
+    channel: 국립한글박물관
+  - key: v8
+    stage: 과거의 통신수단
+    title: 수동식 전화기
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=39IdCwtKy54
+    desc: 전화 교환원이 전화를 거는 사람과 받는 사람을 연결해 주었던 과거의 전화 사용 모습
+    channel: KTV  다큐
+  - key: v9
+    stage: 과거의 통신수단
+    title: 무선 호출기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=-MP7igESC2g
+    desc: 휴대전화가 보급되기 전 많이 사용되었던 무선 호출기(삐삐)의 사용 모습
+    channel: 대구MBC뉴스
+  - key: v10
+    stage: 과거의 통신수단
+    title: 모스 부호
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=8pngEUN6Gsc
+    desc: 전기를 이용한 최초의 통신 방식인 모스 부호
+    channel: 씽크코딩
+  - key: v13
+    stage: 미래의 통신수단
+    title: 가전제품과 아파트가 연결된 스마트 아파트
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=w8QbwdB-1hY
+    desc: 우리 집의 가전부터 아파트 공용 시설까지 하나로 연결한 스마트 아파트의 모습
+    channel: 삼성전자 Samsung Electronics
+  - key: v14
+    stage: 미래의 통신수단
+    title: 인공지능 로봇, 이렇게까지 발전했다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=BDwvmPkWXFI
+    desc: 인공지능 로봇이 서빙하는 식당부터 스스로 학습하는 로봇까지 발전한 모습
+    start: 0
+    end: 240
+    channel: KBS News
+quiz:
+  - statement: 통신수단은 멀리 있는 사람에게 소식이나 정보를 전하기 위해 사용하는 방법이나 도구이다.
+    answer: O
+    explain: 통신수단은 떨어져 있는 사람과 소식이나 정보를 주고받는 방법이나 도구를 말한다.
+  - statement: 봉수와 파발은 옛날 사람들이 사용하던 통신수단이다.
+    answer: O
+    explain: 봉수는 불과 연기로, 파발은 사람이 직접 달리거나 말을 타고 소식을 전하던 옛날의 통신수단이다.
+  - statement: 오늘날로 오면서 통신수단은 점점 더 느리고 불편하게 바뀌었다.
+    answer: X
+    explain: 통신수단은 발달하면서 점점 더 빠르고 편리하게 바뀌었다.
+  - statement: 스마트폰은 옛날 사람들이 사용하던 과거의 통신수단이다.
+    answer: X
+    explain: 스마트폰은 옛날이 아니라 오늘날에 사용하는 통신수단이다.
+  - statement: 통신수단이 발달하면 옛날보다 더 빠르게 소식을 전할 수 있다.
+    answer: O
+    explain: 통신수단이 발달할수록 더 빠르고 멀리 소식이나 정보를 전할 수 있다.
+  - statement: 통신수단이 달라지면 사람들이 소식을 주고받는 방법도 달라진다.
+    answer: O
+    explain: 통신수단이 변하면 사람들이 서로 소식과 정보를 주고받는 방법도 함께 달라진다.
+  - statement: 옛날과 오늘날의 통신수단은 모두 똑같아서 전혀 변하지 않았다.
+    answer: X
+    explain: 통신수단은 옛날부터 오늘날까지 계속 변화하고 발달해 왔다.

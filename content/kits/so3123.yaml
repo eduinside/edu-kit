@@ -1,0 +1,350 @@
+id: so3123
+title: 2-3. 역사 자료로 본 지역의 달라진 생활 모습
+grade: 3
+sem: 1학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 3
+published: true
+intro:
+  core_idea: 대구의 유래와 관련된 이야기, 대구의 변화를 알려 주는 사진이나 영상 등의 역사 자료를 활용해 우리 대구 지역 사람들의 생활이 어떻게 달라졌는지 살펴본다. 이를 통해 역사의 변화와 지속을 이해한다.
+  core_question: 오래된 물건과 자료는 과거에 대해 무엇을 알려 주며, 우리 지역의 생활 모습은 시간에 따라 어떻게 달라졌을까?
+  concepts:
+    - term: 생활 모습
+      def: 사람들이 살아가는 모습으로, 입는 옷, 먹는 음식, 사는 집, 일하는 방법, 거리의 풍경 등을 말해요.
+    - term: 변화
+      def: 시간이 지나면서 모습이 예전과 달라지는 것이에요. 옛날과 지금의 대구 거리나 건물이 달라진 것이 변화예요.
+    - term: 지속
+      def: 시간이 지나도 변하지 않고 그대로 이어지는 것이에요. 오랜 시간이 지나도 남아 있는 옛 장소나 풍습이 지속이에요.
+  standards:
+    - code: "[4사02-03]"
+      text: 지역의 변화상을 보여주는 역사 자료를 분석하여 지역 사람들의 달라진 생활 모습을 파악한다.
+stages:
+  - 생활 모습
+  - 변화
+items:
+  - key: v1
+    stage: 생활 모습
+    title: 7시에 대백 앞에서 예전 대구 번화가의 모습은 어땠을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=mJqeB4FaaV4
+    desc: 과거 대구 번화가의 모습
+    channel: 대구MBC뉴스
+  - key: v2
+    stage: 생활 모습
+    title: 응답하라 동성로 1970~1990년 대구 동성로의 모습은 어땠을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=qe1R-h9JPDA
+    desc: 1970~1990년 대구 동성로의 모습
+    channel: 대구MBC뉴스
+  - key: v3
+    stage: 생활 모습
+    title: 대구에서 영화 표 값이 4천 원이던 시절이 있었다고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=b6jWE7lST4k
+    desc: 과거 대구의 극장가 모습
+    channel: 대구MBC뉴스
+  - key: v4
+    stage: 생활 모습
+    title: 1960년대 대구 사람들의 생활 모습을 살펴보자!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=7tHULTtk5Xg
+    desc: 1960년대 대구의 생활 모습 사진 모음
+    channel: 복원왕 Restoration King
+  - key: v5
+    stage: 생활 모습
+    title: 낮 기온이 39.4도 대구의 1994년 여름을 요즈음과 비교해 볼까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=KWetxqFH4o8
+    desc: 대구의 1994년 여름 폭염, 사람들의 생활 모습
+    channel: 대구MBC뉴스
+  - key: v6
+    stage: 생활 모습
+    title: 1980~90년대 대구의 폭염 일상 "아스팔트가 녹아요"
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=gSnFSU0SPcU
+    desc: 1980~90년대 대구의 폭염 일상
+    channel: 대구MBC뉴스
+  - key: v7
+    stage: 생활 모습
+    title: 1980~90년대 학교에서는 수돗물을 먹었다고? "더운데 수돗물이나 한 모금"
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=xF5CE_IEsGA
+    desc: 1980~90년대 학교에서 수돗물을 마시는 모습
+    channel: 대구MBC뉴스
+  - key: v8
+    stage: 생활 모습
+    title: 1999년 대구 백화점 앞 동성로 축제 모습은 어땠을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=nZvmlMoWbYA
+    desc: 1999년 대구 백화점 앞 동성로 축제 모습
+    channel: 대구MBC뉴스
+  - key: v9
+    stage: 생활 모습
+    title: 대구야, 북극이야? 1984년 얼음으로 뒤덮인 동네의 모습!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=4eqjqL4rigY
+    desc: 1984년 얼음으로 뒤덮인 대구의 동네 모습
+    channel: 대구MBC뉴스
+  - key: v10
+    stage: 변화
+    title: 하늘에서 바라본 옛날의 대구 중동교~수성못 모습
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=UaQupNeed0s
+    desc: 드론으로 바라본 과거 대구 중동교~수성못 모습
+    channel: 대구MBC뉴스
+  - key: v11
+    stage: 변화
+    title: 1993년, 대구역에는 백화점이 없었다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=mm4vdsxrgj8
+    desc: 1993년 대구역의 모습
+    channel: 대구MBC뉴스
+  - key: v12
+    stage: 변화
+    title: 1974년 대구 수성못의 모습은 어땠을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=YhViQse6DSQ
+    desc: 1974년 대구 수성못의 모습
+    channel: 대구MBC뉴스
+  - key: v13
+    stage: 변화
+    title: 모습은 지금과 무엇이 다를까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=0xzbuyNF464
+    desc: 1980년대 대구의 초등학교(국민학교) 모습
+    channel: 대구MBC뉴스
+  - key: v14
+    stage: 변화
+    title: 1970~80년대 대구의 골목길 모습은 어땠을까? "대구 시내에도 말 달구지가?"
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=UQ9QpAzMarw
+    desc: 1970~80년대 대구의 골목길 모습
+    channel: 대구MBC뉴스
+  - key: v15
+    stage: 변화
+    title: 대구가 이랬다고? 1964년 하늘에서 바라본 대구
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Mwknw5rednw
+    desc: 1964년 하늘에서 바라본 대구의 모습
+    channel: 매일신문
+  - key: v16
+    stage: 변화
+    title: 1970~90년 케이블카가 있던 동구 동촌유원지의 모습
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=umuFSj0Kbso
+    desc: 1970~90년대 동구 동촌유원지의 모습
+    channel: 대구MBC뉴스
+  - key: v17
+    stage: 변화
+    title: 과거 동대구역의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=XqGrYIeW188
+    desc: 1993년 동대구역의 모습
+    channel: 대구MBC뉴스
+  - key: v18
+    stage: 변화
+    title: 과거 광장코아의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Q_Aj1s4Ep5I
+    desc: 1990년 대구 광장코아의 모습
+    channel: 대구MBC뉴스
+  - key: v19
+    stage: 변화
+    title: 과거 MBC네거리의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6T4Hv48urRk
+    desc: 1986년 대구 MBC네거리의 모습
+    channel: 대구MBC뉴스
+  - key: v20
+    stage: 변화
+    title: 과거 엑스코의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=S-Ft4pE-LKU
+    desc: 1995년 대구 엑스코 터의 모습
+    channel: 대구MBC뉴스
+  - key: v21
+    stage: 변화
+    title: 과거 대흥동, 연호동의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_w4zWyxD8gw
+    desc: 1980-90년대 대구 대흥동, 연호동의 모습
+    channel: 대구MBC뉴스
+  - key: v22
+    stage: 변화
+    title: 과거 경산의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=5D7mcMdlOTo
+    desc: 1980-90년대 대구 경산의 모습
+    channel: 대구MBC뉴스
+  - key: v23
+    stage: 변화
+    title: 과거 월배의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=auiBeeXJl9U
+    desc: 1980-90년대 대구 월배의 모습
+    channel: 대구MBC뉴스
+  - key: v24
+    stage: 변화
+    title: 과거 안심동의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=BiiSU66SY08
+    desc: 1980-90년대 대구 안심읍의 모습
+    channel: 대구MBC뉴스
+  - key: v25
+    stage: 변화
+    title: 과거 고산면의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1OGCgS800Rs
+    desc: 1980-90년대 대구 고산면의 모습
+    channel: 대구MBC뉴스
+  - key: v26
+    stage: 변화
+    title: 과거 군위의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=FmEBMhB5sbc
+    desc: 1980-90년대 대구 군위군의 모습
+    channel: 대구MBC뉴스
+  - key: v27
+    stage: 변화
+    title: 과거 성서의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=yoLSxDRaX4Q
+    desc: 1980-90년대 대구 성서읍의 모습
+    channel: 대구MBC뉴스
+  - key: v28
+    stage: 변화
+    title: 과거 대구역의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1tk_jcAhrGE
+    desc: 1980-90년대 대구역의 모습
+    channel: 대구MBC뉴스
+  - key: v29
+    stage: 변화
+    title: 과거 비산동, 원대동의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6whJLhVOCmI
+    desc: 1980-90년대 대구 비산동, 원대동의 모습
+    channel: 대구MBC뉴스
+  - key: v30
+    stage: 변화
+    title: 과거 달서구의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=DMkwHAahsgY
+    desc: 1980-90년대 대구 달서구의 모습
+    channel: 대구MBC뉴스
+  - key: v31
+    stage: 변화
+    title: 과거 수성동, 범어동의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=2SB2MDhOSpI
+    desc: 1980-90년대 대구 수성동, 범어동의 모습
+    channel: 대구MBC뉴스
+  - key: v32
+    stage: 변화
+    title: 과거 성당동의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=rRecRkGhoTQ
+    desc: 1980-90년대 대구 성당동의 모습
+    channel: 대구MBC뉴스
+  - key: v33
+    stage: 변화
+    title: 과거 신암동의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=vMuHXjf_Z3U
+    desc: 1980-90년대 대구 신암동의 모습
+    channel: 대구MBC뉴스
+  - key: v34
+    stage: 변화
+    title: 과거 황금동의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=nFhdkDYpa3w
+    desc: 1980-90년대 대구 황금동의 모습
+    channel: 대구MBC뉴스
+  - key: v35
+    stage: 변화
+    title: 과거 내당동의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=KLvjneIk3TM
+    desc: 1980-90년대 대구 내당동의 모습
+    channel: 대구MBC뉴스
+  - key: v36
+    stage: 변화
+    title: 과거 중리동의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=wRZHUec433o
+    desc: 1980-90년대 대구 중리동의 모습
+    channel: 대구MBC뉴스
+  - key: v37
+    stage: 변화
+    title: 과거 신천동의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=zsjyX9LpIjU
+    desc: 1980-90년대 대구 신천동의 모습
+    channel: 대구MBC뉴스
+  - key: v38
+    stage: 변화
+    title: 과거 신천의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dH6EkgO8Lrw
+    desc: 1980-90년대 대구 신천의 모습
+    channel: 대구MBC뉴스
+  - key: v39
+    stage: 변화
+    title: 과거 수성구의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=LB5odiJA3M4
+    desc: 1980-90년대 대구 수성구의 모습
+    channel: 대구MBC뉴스
+  - key: v40
+    stage: 변화
+    title: 과거 이천동의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=S6GRmTCa0_o
+    desc: 1980-90년대 대구 이천동의 모습
+    channel: 대구MBC뉴스
+  - key: v41
+    stage: 변화
+    title: 과거 현풍의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=brXRTifixcg
+    desc: 1980-90년대 대구 현풍읍의 모습
+    channel: 대구MBC뉴스
+  - key: v42
+    stage: 변화
+    title: 과거 월성동의 모습은 지금과 얼마나 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=LB5odiJA3M4
+    desc: 1980-90년대 대구 월성동의 모습
+    channel: 대구MBC뉴스
+  - key: v43
+    stage: 변화
+    title: 대구광역시의 크기가 옛날과 달라졌다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=SeMGPR3iOjA
+    desc: 군위와 대구가 합쳐지며 1.7배 늘어난 대구 땅의 크기
+    channel: 크랩 KLAB
+quiz:
+  - statement: 오래된 사진이나 영상은 과거 우리 지역의 생활 모습을 알려 주는 역사 자료이다.
+    answer: O
+    explain: 사진, 영상 같은 역사 자료를 보면 옛날 사람들의 생활 모습을 알 수 있다.
+  - statement: 우리 지역의 생활 모습은 시간이 지나도 전혀 달라지지 않고 똑같이 그대로 있다.
+    answer: X
+    explain: 시간이 지나면서 지역의 생활 모습은 변화한다.
+  - statement: 옛날 대구의 거리 모습과 지금의 대구 거리 모습을 비교하면 달라진 점을 찾을 수 있다.
+    answer: O
+    explain: 옛날과 지금을 비교하면 변화한 부분을 알 수 있다.
+  - statement: 역사 자료를 살펴볼 때, 시간이 지나도 변하지 않고 이어지는 모습을 '지속'이라고 한다.
+    answer: O
+    explain: 지속은 시간이 지나도 변하지 않고 그대로 이어지는 것을 뜻한다.
+  - statement: 지역의 변화를 알아보려면 옛날 자료는 보지 않고 오늘날 모습만 살펴보면 된다.
+    answer: X
+    explain: 변화를 알려면 옛날 자료와 오늘날 모습을 함께 비교해야 한다.
+  - statement: 옛날 대구의 영화 표 값이나 건물 모습은 지금과 다를 수 있다.
+    answer: O
+    explain: 시간이 지나면서 물건 값과 건물 모습도 변화하기 때문이다.
+  - statement: 지역의 생활 모습에서는 변화만 일어나고, 옛날부터 이어지는 모습은 하나도 없다.
+    answer: X
+    explain: 생활 모습에는 변화도 있지만 그대로 이어지는 지속도 함께 있다.

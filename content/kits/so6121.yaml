@@ -1,0 +1,152 @@
+id: so6121
+title: 2-1. 민주주의와 선거
+grade: 6
+sem: 1학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 민주주의에서 시민의 주권 행사의 한 방법으로써 선거의 역할과 중요성을 파악하고, 이를 바탕으로 선거에 주체적으로 참여하는 태도를 기릅니다.
+  core_question: 민주주의는 선거와 국가기관, 미디어를 통해 어떻게 실현되며, 시민은 어떻게 참여해야 할까?
+  concepts:
+    - term: 민주주의
+      def: 나라의 주인이 국민이고, 국민이 나라의 중요한 일을 스스로 결정하는 정치 방식이에요. 우리가 뽑은 대표들이 국민의 뜻을 받들어 나라를 운영해요.
+    - term: 선거
+      def: 국민이 자신을 대신해 일할 대표를 투표로 뽑는 일이에요. 선거는 국민이 주권을 행사하는 중요한 방법이에요.
+    - term: 공정선거
+      def: 누구에게도 치우치지 않고 규칙을 똑같이 지켜서 깨끗하게 치르는 선거예요. 모든 후보와 유권자가 공평하게 대접받아요.
+    - term: 공명선거
+      def: 부정이나 속임수 없이 밝고 떳떳하게 치르는 선거예요. 돈이나 거짓말로 표를 얻지 않고 바르게 진행해요.
+  standards:
+    - code: "[6사08-01]"
+      text: 민주주의에서 선거의 의미와 역할을 파악하고, 시민의 주권 행사를 위해 선거에 참여하는 태도를 기른다.
+stages:
+  - 민주주의
+  - 선거
+  - 공정선거
+  - 공명선거
+  - 기타
+items:
+  - key: v1
+    stage: 민주주의
+    title: 스위스의 직접 민주주의 사례
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=1j8d8UksqYY
+    desc: 주민들이 직접 광장에 모여 의견을 발표하고 토론 후 투표하는 란츠게마인데 소개
+    channel: 중앙선거관리위원회
+  - key: v2
+    stage: 민주주의
+    title: 정치란 무엇인가?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-obWRwNqHWE
+    desc: 정치 제도 중 하나인 민주주의를 알기 전 정치가 무엇인지 이해하는데 도움이 되는 영상으로 수업 중 활용 가능
+    channel: 지식한잔
+  - key: v3
+    stage: 민주주의
+    title: 민주주의, 공산주의, 사회주의, 자본주의 차이점
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ufMVOkfeWJU
+    desc: 민주주의의 반대 개념으로 잘못 이해하고 있는 개념들을 간단히 설명하고 이를 바탕으로 민주주의 뜻을 설명하는 영상으로 배경지식을 쌓는데 활용 가능
+    channel: 마크의 지식서재
+  - key: v4
+    stage: 민주주의
+    title: 지역의 문제를 해결하는 민주주의 사례
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Qu6Ie5-N5sU
+    desc: 주민 찬반투표를 통해 지역의 문제를 해결하는 사례를 소개
+    channel: JTBC Entertainment
+  - key: v5
+    stage: 민주주의
+    title: 주민총회 사례
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=U1dherw6cq4
+    desc: 한 지역에서 실천하고 있는 주민총회 사례
+    channel: 시흥자치TV
+  - key: v6
+    stage: 선거
+    title: 대통령선거와 지방선거의 차이점
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=YApt_Wsv7KA
+    desc: 여러 가지 선거의 종류를 설명한 영상
+    channel: 중앙선거관리위원회
+  - key: v7
+    stage: 선거
+    title: 우리나라 선거 발전사
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=pkpILnt2MyU
+    desc: 우리나라 선거가 발전한 모습
+    channel: KTV 정책 K
+  - key: v8
+    stage: 공정선거
+    title: 민주 선거의 기본 원칙
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=n7pl6RXPaP0
+    desc: 민주 선거의 기본 원칙을 설명하는 영상으로 수업 중 해당 내용을 대신 설명하는 영상으로 활용 가능
+    channel: 흥딩스쿨
+  - key: v9
+    stage: 공정선거
+    title: 선거절차
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=YX5yZhx6afA
+    desc: 우리나라 선거 절차를 소개한 영상
+    channel: 중앙선거관리위원회선거연수원
+  - key: v10
+    stage: 공정선거
+    title: 선거관리위원회
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=XttQ17vF1Vk
+    desc: 공정한 선거를 관리하기 위한 중앙선거관리위원회를 소개한 영상
+    channel: 중앙선거관리위원회
+  - key: v11
+    stage: 공명선거
+    title: 선거에 참여해야 하는 이유
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=CLN1Zi9Pbjg
+    desc: 선거에 참여해야 하는 이유를 소개한 영상
+    channel: 중앙선거관리위원회
+  - key: v12
+    stage: 공명선거
+    title: 실천 가능한 공약을 제시하는 후보자
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=vgOEn8ESyNo
+    desc: 후보자의 구체적인 선거 공약 제시 필요성을 샌드아트로 표현한 영상
+    channel: 중앙선거관리위원회
+  - key: v13
+    stage: 공명선거
+    title: 적극적으로 투표에 참여하는 유권자
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=iPOvYSYa0Do
+    desc: 유권자의 적극적인 역할이 필요함을 소개하는 영상
+    channel: 중앙선거관리위원회
+  - key: v14
+    stage: 기타
+    title: 올바른 투표 방법
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=lhB0fl899Kg
+    desc: 투표할 때 유효표와 무효표를 구분하는 기준을 소개하는 영상
+    channel: 중앙선거관리위원회
+quiz:
+  - statement: 민주주의에서 나라의 주인은 국민이다.
+    answer: O
+    explain: 민주주의는 국민이 나라의 주인이 되는 정치 방식이에요.
+  - statement: 선거는 국민이 자기 대신 일할 대표를 뽑는 일이다.
+    answer: O
+    explain: 선거는 국민이 투표로 대표를 뽑아 주권을 행사하는 방법이에요.
+  - statement: 선거는 왕이 혼자 대표를 정하는 것을 말한다.
+    answer: X
+    explain: 선거는 왕이 아니라 국민이 투표로 대표를 뽑는 일이에요.
+  - statement: 공정선거는 모든 후보를 공평하게 대하며 규칙을 똑같이 지키는 선거이다.
+    answer: O
+    explain: 공정선거는 어느 한쪽에 치우치지 않고 모두에게 공평하게 치르는 선거예요.
+  - statement: 공명선거는 돈을 주고 표를 사도 되는 선거이다.
+    answer: X
+    explain: 공명선거는 돈으로 표를 사는 것 같은 부정 없이 깨끗하고 떳떳하게 치르는 선거예요.
+  - statement: 투표는 국민이 정치에 참여하는 방법 중 하나이다.
+    answer: O
+    explain: 투표는 국민이 주권을 행사하며 정치에 참여하는 대표적인 방법이에요.
+  - statement: 선거에 참여하지 않는 것이 좋은 시민의 태도이다.
+    answer: X
+    explain: 선거에 적극적으로 참여해 주권을 행사하는 것이 좋은 시민의 태도예요.

@@ -1,0 +1,213 @@
+id: sc6231
+title: 3. 전기의 이용
+grade: 6
+sem: 2학기
+subject: 과학
+unit: 3. 전기의 이용
+unit_no: 3
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 전하와 전류는 다양한 전기와 자기 현상을 일으키고, 전기와 자기에 대한 성질은 여러 가지 전기 기구의 작동 원리로 활용된다.
+  core_question: 전기는 어떻게 흐르고, 우리는 그것을 어떻게 활용해야 할까?
+  concepts:
+    - term: 시스템
+    - term: 기능
+    - term: 전지
+    - term: 전구
+    - term: 전선
+    - term: 전기회로
+    - term: 전자석
+    - term: 전기
+  standards:
+    - code: "[6과15-01]"
+      text: 전지와 전구, 전선을 연결하여 전구에 불을 켜보고, 불이 켜지는 전기 회로의 특징을 말할 수 있다.
+    - code: "[6과15-02]"
+      text: 전지 한 개를 연결한 전기 회로와 전지 두 개를 직렬연결한 전기 회로의 특징을 비교할 수 있다.
+    - code: "[6과15-03]"
+      text: 전자석을 만들어 전자석의 성질을 탐색하고 전자석이 사용되는 예를 조사할 수 있다.
+    - code: "[6과15-04]"
+      text: 전기를 효율적이고 안전하게 사용하는 방법을 조사하여 실천 계획을 세우고 일상생활에서 실천할 수 있다.
+stages:
+  - name: 생각열기
+    question: 전기란 무엇일까?
+  - name: 탐구하기1
+    question: 어떻게 하면 전구의 불을 밝게 켤 수 있을까?
+  - name: 탐구하기2
+    question: 전류로 만드는 전자석은 우리 생활에 어떻게 활용될 수 있을까?
+  - name: 확장하기
+    question: 우리 생활에서 전기를 안전하고 효율적으로 사용할 수 있는 방법은 무엇일까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 전기의 역사와 원리
+    url: https://www.youtube.com/watch?v=wl6NGtJKau8
+    desc: 전기의 역사적 발견 과정과 기본적인 전기적 원리
+    channel: 삼성SDI
+  - key: v02
+    stage: 생각열기
+    title: 교수님이 보여주는 전기의 원리
+    url: https://www.youtube.com/watch?v=PjsonZ1zVz4
+    desc: 신기한 실험을 통한 전기의 기초 원리와 과학 탐구의 의미
+    channel: tvN Joy
+  - key: v03
+    stage: 생각열기
+    title: 전기의 발견
+    url: https://www.youtube.com/watch?v=pducDvQCvOk
+    desc: 전기의 발견과 실용화를 통한 현대 문명의 발전
+    channel: YTN 밀덕스
+  - key: v04
+    stage: 생각열기
+    title: 인류 최초의 정전기 발견
+    url: https://www.youtube.com/watch?v=4TFD4llllaI
+    desc: 탈레스의 정전기 발견과 초기 정전기 발생 장치의 역사
+    channel: YTN 사이언스
+  - key: v05
+    stage: 탐구하기1
+    title: 전구에 불이 켜지게 하는 방법
+    url: https://www.youtube.com/watch?v=Vejsc89SvaU
+    desc: 전기 회로의 연결과 전구에 불이 켜지는 조건
+    channel: Cherish_Edu
+  - key: v06
+    stage: 탐구하기1
+    title: 전구에 불이 켜지는 것과 켜지지 않는 것의 차이
+    url: https://www.youtube.com/watch?v=NOCGPDlerSQ
+    desc: 전기 회로의 구성과 전구에 불을 켜는 방법
+    channel: 한진과학
+  - key: v07
+    stage: 탐구하기1
+    title: 전기회로송
+    url: https://www.youtube.com/watch?v=bVzO7ZtqSHA
+    desc: 전기 회로의 구성 요소와 전류의 흐름을 담은 노래
+    channel: LGScienceLand
+  - key: v08
+    stage: 탐구하기1
+    title: 전구의 연결 방법에 따른 전구의 밝기 비교하기
+    url: https://www.youtube.com/watch?v=LwUeM7TfPl8
+    desc: 전구의 직렬 및 병렬 연결 방법에 따른 밝기 차이
+    channel: 스마트올TV
+  - key: v09
+    stage: 탐구하기1
+    title: 전구의 직렬 병렬 연결 실험
+    url: https://www.youtube.com/watch?v=tOPR7NPi7AY
+    desc: 전구의 직렬 연결과 병렬 연결 차이를 실험으로 비교
+    channel: 아람
+  - key: v10
+    stage: 탐구하기1
+    title: 전구의 연결 방법에 따른 전구의 밝기 공부송
+    url: https://www.youtube.com/watch?v=lzYYivK-I_g
+    desc: 전구 연결 방법에 따른 밝기 변화
+    channel: 아이스크림 홈런
+  - key: v11
+    stage: 탐구하기1
+    title: 전지의 연결 방법에 따른 전구의 밝기 공부송
+    url: https://www.youtube.com/watch?v=irYeM03zHvo
+    desc: 전지의 직렬과 병렬 연결에 따른 전구 밝기 변화
+    channel: 아이스크림 홈런
+  - key: v12
+    stage: 탐구하기1
+    title: 전구송
+    url: https://www.youtube.com/watch?v=6z2aHIYNrTQ
+    desc: 전구와 전지의 구조 및 전구에 불이 켜지는 전기 회로의 구성
+    channel: LGScienceLand
+  - key: v13
+    stage: 탐구하기1
+    title: 전등의 역사
+    url: https://www.youtube.com/watch?v=wSaXRANgO3Q
+    desc: 전등의 발명과 발전 과정 및 전구의 원리
+    channel: 깨비키즈 [KEBIKIDS]
+  - key: v14
+    stage: 탐구하기2
+    title: 전류가 흐르는 전선 주위의 나침반 바늘 관찰하기
+    url: https://www.youtube.com/watch?v=40Y0pFjelLM
+    desc: 전류가 흐르는 전선 주위에서 나침반 바늘의 움직임
+    channel: 아꿈선 초등3분과학
+  - key: v15
+    stage: 탐구하기2
+    title: On&Off가 되는 자석, 전자석에 대해서
+    url: https://www.youtube.com/watch?v=fp-O8ItNagI
+    desc: 전류의 흐름에 따라 자력을 조절하는 전자석의 원리와 활용 방법
+    channel: Mr.아재
+  - key: v16
+    stage: 탐구하기2
+    title: 전자석과 영구자석의 차이점(1)
+    url: https://www.youtube.com/watch?v=gFrJUU9p308
+    desc: 전자석과 영구자석의 성질 차이 및 생활 속 활용
+    channel: 미래엔
+  - key: v17
+    stage: 탐구하기2
+    title: 전자석과 영구자석의 차이점(2)
+    url: https://www.youtube.com/watch?v=ArqLkFlo2fY
+    desc: 전자석과 영구자석의 차이점 비교 및 생활 속 전자석 활용
+    channel: 미래엔
+  - key: v18
+    stage: 탐구하기2
+    title: 전자석으로 자기력과 중력의 균형 맞추기(지구본 공중부양)
+    url: https://www.youtube.com/watch?v=osLhN30lrss
+    desc: 전자석의 자기력과 중력의 균형을 이용한 지구본 공중부양 원리
+    channel: 국립과천과학관
+  - key: v19
+    stage: 탐구하기2
+    title: 자기부상열차를 움직이게 하는 힘
+    url: https://www.youtube.com/watch?v=s-PT6YKaOJ8
+    desc: 자기부상열차의 작동 원리와 전자석의 활용 사례
+    channel: YTN 사이언스
+  - key: v20
+    stage: 탐구하기2
+    title: 크레인용 스크랩 마그네트(고철 옮기는 크레인)
+    url: https://www.youtube.com/watch?v=R2AyyoZFjf0
+    desc: 전류를 이용해 고철을 운반하는 전자석의 원리와 활용 사례
+    channel: 해성마그네트
+  - key: v21
+    stage: 탐구하기2
+    title: 전자석으로 간이 스피커 만들기
+    url: https://www.youtube.com/watch?v=zzzvmb8vDqY
+    desc: 전자석의 원리와 간이 스피커를 통한 소리 발생 원리
+    channel: YTN 사이언스
+  - key: v22
+    stage: 탐구하기2
+    title: 전자석으로 기차 만들기
+    url: https://www.youtube.com/watch?v=O0mlzG-ufNs
+    desc: 구리와 자석을 이용한 자기장 기차의 원리 실험
+    channel: YTN 사이언스
+  - key: v23
+    stage: 확장하기
+    title: 전기 낭비 주범들 찾아서 전기요금 절약하는 법
+    url: https://www.youtube.com/watch?v=6yKdIb-0cjA
+    desc: 대기전력의 개념과 일상 속 전기 절약 방법
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v24
+    stage: 확장하기
+    title: 전기 사고 예방 행동 요령
+    url: https://www.youtube.com/watch?v=XpxNeiaWSjQ
+    desc: 생활 속 전기 사고 예방을 위한 안전 행동 요령
+    channel: 한국전력경기북부본부
+  - key: v25
+    stage: 확장하기
+    title: 펭수가 알려주는 전기 사고 대비법
+    url: https://www.youtube.com/watch?v=R1qiHakytRE
+    desc: 펭수와 함께 알아보는 일상 속 전기 사고 예방 및 대처 방법
+    channel: EBS
+quiz:
+  - statement: 전구에 불이 켜지려면 전지, 전구, 전선이 끊기지 않은 하나의 길로 연결되어야 한다.
+    answer: O
+    explain: 전류가 흐를 수 있는 닫힌 전기회로가 되어야 한다.
+  - statement: 전지 두 개를 직렬로 연결하면 전지 한 개일 때보다 전구가 더 밝아질 수 있다.
+    answer: O
+    explain: 직렬연결하면 전류를 흐르게 하는 효과가 커져 전구가 더 밝게 켜질 수 있다.
+  - statement: 전선이 중간에서 끊어져 있어도 전류는 빈 공간을 건너 흘러 전구가 켜진다.
+    answer: X
+    explain: 회로가 끊기면 전류가 흐르지 않아 전구가 켜지지 않는다.
+  - statement: 전자석은 전류가 흐를 때 자석의 성질을 나타낸다.
+    answer: O
+    explain: 코일에 전류가 흐르면 철심이 자석처럼 작용한다.
+  - statement: 전자석은 전류를 끊어도 언제나 같은 세기의 자석으로 남는다.
+    answer: X
+    explain: 전류를 끊으면 전자석의 자석 성질이 대부분 사라진다.
+  - statement: 전기를 안전하게 사용하려면 젖은 손으로 플러그를 만지지 않아야 한다.
+    answer: O
+    explain: 물은 전류가 흐르기 쉬워 감전 위험을 높일 수 있다.
+  - statement: 사용하지 않는 전기 기구를 계속 켜 두는 것이 전기를 효율적으로 쓰는 방법이다.
+    answer: X
+    explain: 사용하지 않을 때 전원을 끄고 대기 전력을 줄여야 전기를 절약할 수 있다.

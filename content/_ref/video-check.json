@@ -1,0 +1,96 @@
+{
+ "date": "2026-10-02",
+ "mode": "oEmbed(키 없음 — 연령제한·국내차단 판정 못 함)",
+ "videos": 1446,
+ "problems": 14,
+ "counts": {
+  "임베드차단": 14
+ },
+ "seconds": 16,
+ "list": [
+  {
+   "kit": "sc3131",
+   "key": "v13",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=lRvh8SDjCf8"
+  },
+  {
+   "kit": "sc5131",
+   "key": "v13",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=nWQNa07OIK8"
+  },
+  {
+   "kit": "sc5131",
+   "key": "v7",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=K_tTxPzOjjw"
+  },
+  {
+   "kit": "sc5131",
+   "key": "v12",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=8LenWtGxssQ"
+  },
+  {
+   "kit": "sc5221",
+   "key": "v07",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=PPjMdKnUUSs"
+  },
+  {
+   "kit": "sc5221",
+   "key": "v10",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=XbA9jFgEOdU"
+  },
+  {
+   "kit": "so3221",
+   "key": "v17",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=_Hxi-dnneTQ"
+  },
+  {
+   "kit": "so3222",
+   "key": "v4",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=jQDCAYfYvuU"
+  },
+  {
+   "kit": "so5112",
+   "key": "v2",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=KF7vFuuh1e8"
+  },
+  {
+   "kit": "so5112",
+   "key": "v7",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=6p6qyVGjmtA"
+  },
+  {
+   "kit": "so5121",
+   "key": "v11",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=v71G39yFFKg"
+  },
+  {
+   "kit": "so5232",
+   "key": "v02",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=8OrvRhpeW6s"
+  },
+  {
+   "kit": "so6132",
+   "key": "v4",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=IVVBExea_Fs"
+  },
+  {
+   "kit": "so6232",
+   "key": "v15",
+   "verdict": "임베드차단",
+   "url": "https://www.youtube.com/watch?v=fekth4nHCE4"
+  }
+ ]
+}

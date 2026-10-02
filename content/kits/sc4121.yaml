@@ -1,0 +1,223 @@
+id: sc4121
+title: 2. 물의 상태 변화
+grade: 4
+sem: 1학기
+subject: 과학
+unit: 물의 상태 변화
+unit_no: 2
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 물이 세 가지 상태로 변할 수 있음을 알고 우리 주변에서 물의 상태 변화의 예를 찾고, 물이 얼 때, 얼음이 녹을 때, 물이 증발할 때와 끓을 때, 수증기가 응결할 때의 변화를 관찰하도록 한다. 또한 물의 중요성을 알고 물의 상태 변화를 이용하여 물을 얻을 수 있는 장치를 창의적으로 설계하고 만들도록 구성되었다.
+  core_question: 물은 상태에 따라 어떻게 변하며, 우리는 그 변화를 생활에서 어떻게 이용할 수 있을까?
+  concepts:
+    - term: 물
+      def: 우리가 마시고 씻을 때 쓰는 투명한 액체예요. 온도에 따라 얼음, 물, 수증기로 모습이 바뀔 수 있어요.
+    - term: 물의 상태 변화
+      def: 물이 고체(얼음), 액체(물), 기체(수증기)로 모습이 바뀌는 것을 말해요. 온도가 높아지거나 낮아지면 상태가 변해요.
+    - term: 얼음
+      def: 물이 차가워져서 단단하게 굳은 고체 상태예요. 일정한 모양과 크기를 가지고 있어요.
+    - term: 증발
+      def: 물의 표면에서 물이 천천히 수증기로 변해 공기 중으로 날아가는 것이에요. 빨래가 마르는 것이 증발의 예예요.
+    - term: 끓음
+      def: 물을 계속 가열하면 물 속에서 기포가 생기면서 빠르게 수증기로 변하는 것이에요. 물 표면뿐 아니라 물 안쪽에서도 일어나요.
+    - term: 응결
+      def: 공기 중의 수증기가 차가워져서 다시 물방울로 변하는 것이에요. 차가운 컵 표면에 물방울이 맺히는 것이 응결의 예예요.
+    - term: 수증기
+      def: 물이 기체로 변한 상태예요. 눈에 보이지 않으며 공기 중에 섞여 있어요.
+  standards:
+    - code: "[4과10-01]"
+      text: 물이 세 가지 상태로 변할 수 있음을 알고, 우리 주변에서 예를 찾을 수 있다.
+    - code: "[4과10-02]"
+      text: 물이 얼 때, 얼음이 녹을 때, 물이 증발할 때와 끓을 때, 수증기가 응결할 때의 변화를 관찰할 수 있다.
+    - code: "[4과10-03]"
+      text: 물의 상태 변화를 이용하여 물을 얻을 수 있는 장치를 설계하고 만들 수 있다.
+stages:
+  - 상태 변화
+  - 물의 상태 변화
+  - 응결
+  - 증발
+  - 끓음
+items:
+  - key: v1
+    stage: 상태 변화
+    title: 고체, 액체, 기체란 무엇일까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=W37Fa7atcxQ
+    desc: 고체·액체·기체의 차이 알기
+    start: 104
+    end: 300
+    channel: 방위사업청
+  - key: v2
+    stage: 물의 상태 변화
+    title: 물의 상태를 변화해서 식수를 얻을 수 있을까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=1XovzhHDVQo
+    desc: 물의 상태 변화를 이용해 식수를 얻는 장치 만들기
+    channel: 와니사이언스
+  - key: v3
+    stage: 물의 상태 변화
+    title: 뜨거운 물이 빨리 얼까 차가운 물이 빨리 얼까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Dj3zI_pNv1E
+    desc: 뜨거운 물과 차가운 물 중 어느 것이 빨리 얼까(물의 상태 변화 흥미 유발)
+    channel: 크랩 KLAB
+  - key: v4
+    stage: 물의 상태 변화
+    title: 물에 젖은 책을 원상태로 되돌릴 수 있을까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=tStmRSbclbw
+    desc: 물에 젖은 책을 원상태로 되돌리는 방법
+    start: 73
+    end: 270
+    channel: YTN 사이언스
+  - key: v5
+    stage: 물의 상태 변화
+    title: 무인도에서 바닷물로 깨끗한 물을 얻는 방법은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=2BHgI_ZDRv8
+    desc: 바닷물로 깨끗한 물 만들기
+    channel: SBS STORY
+  - key: v6
+    stage: 물의 상태 변화
+    title: 오염된 물을 식수로 바꾸는 방법은?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=3_82ArjmB-M
+    desc: 더러운 물로 깨끗한 물 만들기
+    start: 142
+    end: 288
+    channel: "엠뚜루마뚜루 : MBC 공식 종합 채널"
+  - key: v7
+    stage: 물의 상태 변화
+    title: 영하 47도 마을에서 물을 뿌리면?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-pfkIx2EM04
+    desc: 영하 47도 마을에서 물 뿌리기
+    start: 0
+    end: 75
+    channel: 빠니보틀 Pani Bottle
+  - key: v8
+    stage: 물의 상태 변화
+    title: 물의 상태에 따라 성질이 바뀔까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=wk-ZmsLx_8M
+    desc: 물의 상태에 따른 물의 성질 실험
+    channel: 엘사TV
+  - key: v9
+    stage: 물의 상태 변화
+    title: 얼음, 물, 수증기를 같은 공간에 넣으면?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=rD8i_NxfPlA
+    desc: 얼음·물·수증기를 같은 공간에 넣었을 때의 모습
+    channel: 국립과천과학관
+  - key: v10
+    stage: 물의 상태 변화
+    title: 물이 얼면 부피가 어떻게 될까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=PnB3KsZyV7w
+    desc: 물 얼리기 실험 영상
+    channel: 여느날 여느교실
+  - key: v11
+    stage: 물의 상태 변화
+    title: 충격을 받으면 얼어버리는 물이 있다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=jGD9sR2iu2U
+    desc: 물의 신기한 상태 변화 — 과냉각 상태의 물
+    channel: YTN 사이언스
+  - key: v12
+    stage: 응결
+    title: 스스로 물을 만드는 물병이 있다고?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=RhQoWDFavTI
+    desc: 응결을 이용한 물병
+    channel: YTN 사이언스
+  - key: v13
+    stage: 응결
+    title: 물을 그물로 잡을 수 있다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=48upKYfR2Ms
+    desc: 건조한 사막에서 물을 얻는 방법(포그 캡처)
+    start: 0
+    end: 27
+    channel: 지리는TV
+  - key: v14
+    stage: 응결
+    title: 우리 주변에서 증발의 예를 찾아봐요!
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=zFlMO1BkEpo
+    desc: 우리 주변에서 물이 증발하는 예
+    channel: 과학의숲
+  - key: v15
+    stage: 응결
+    title: 소금물로 글씨를 쓸 수 있다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=GA3f67cxG8k
+    desc: 증발 현상 이용 — 검은 종이에 소금물로 글씨 쓰기
+    channel: 아꿈선 초등3분과학
+  - key: v16
+    stage: 증발
+    title: 저수지의 물이 증발하는 것을 막는 방법은?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=boS3FRRiJ9Q
+    desc: 저수지 물의 증발을 막기 위해 투입한 검은 공
+    channel: " YTN"
+  - key: v17
+    stage: 증발
+    title: 온도가 어떨 때 증발이 많을까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=cd7b6eo4axU
+    desc: 온도와 증발량의 관계 뉴스
+    channel: YTN 사이언스
+  - key: v18
+    stage: 증발
+    title: 물을 오랜 시간 두면 어떻게 될까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=65ez4KJQQEk
+    desc: 증발 실험 영상
+    channel: 경상북도교육청과학원
+  - key: v19
+    stage: 증발
+    title: 차가운 병 표면에 생긴 물은 어디서 왔을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=B3ck7U1i-Ig
+    desc: 응결 내용 정리(실험 방법·과정·결과)
+    channel: 전승종
+  - key: v20
+    stage: 증발
+    title: 이슬로 물을 만드는 와카워터?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=7JscpaUw0LI
+    desc: 이슬로 물을 만드는 와카워터
+    start: 67
+    end: 216
+    channel: EBS뉴스
+  - key: v21
+    stage: 끓음
+    title: 물은 왜 보글보글 끓을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=g5YDpX3cbac
+    desc: 물이 보글보글 끓는 이유
+    channel: 호저네 홈 스쿨링
+quiz:
+  - statement: 물은 온도에 따라 얼음, 물, 수증기의 세 가지 상태로 변할 수 있다.
+    answer: O
+    explain: 물은 고체·액체·기체 세 가지 상태로 변할 수 있어요.
+  - statement: 물이 얼어 얼음이 되면 단단한 고체 상태가 된다.
+    answer: O
+    explain: 얼음은 물이 얼어서 굳은 고체 상태예요.
+  - statement: 빨래가 마르는 것은 물이 수증기로 변하는 증발의 예이다.
+    answer: O
+    explain: 빨래에 있던 물이 증발해 수증기로 날아가면서 마르는 거예요.
+  - statement: 수증기는 우리 눈에 잘 보이는 색깔 있는 기체이다.
+    answer: X
+    explain: 수증기는 색깔이 없는 기체라서 눈에 보이지 않아요.
+  - statement: 물이 끓을 때는 물 표면에서만 변화가 일어나고 물 속에서는 아무 일도 없다.
+    answer: X
+    explain: 끓을 때는 물 속에서도 기포(수증기)가 생기며 물이 수증기로 변해요.
+  - statement: 차가운 컵 바깥에 물방울이 맺히는 것은 수증기가 응결한 예이다.
+    answer: O
+    explain: 공기 중의 수증기가 차가운 컵에 닿아 식으면 물방울로 변하는데, 이것이 응결이에요.
+  - statement: 증발과 끓음은 물이 수증기로 변하는 것과는 관계가 없다.
+    answer: X
+    explain: 증발과 끓음은 모두 물(액체)이 수증기(기체)로 변하는 현상이에요.

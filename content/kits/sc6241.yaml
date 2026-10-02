@@ -1,0 +1,183 @@
+id: sc6241
+title: 4. 과학과 나의 진로
+grade: 6
+sem: 2학기
+subject: 과학
+unit: 4. 과학과 나의 진로
+unit_no: 4
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 과학기술의 발달은 미래 사회의 모습과 직업에 영향을 미치며, 개인은 이러한 미래 사회의 모습과 새로운 진로를 탐색하며 자신의 삶을 준비한다.
+  core_question: 과학기술의 발달로 변화하는 미래 사회에서 나는 어떤 진로를 설계하고 준비할 수 있는가?
+  concepts:
+    - term: 기능
+    - term: 상호작용
+    - term: 미래사회
+    - term: 문제
+    - term: 과학
+    - term: 진로
+  standards:
+    - code: "[6과16-01]"
+      text: 미래 사회에 일어날 수 있는 문제를 조사하고, 문제를 해결하는 데 과학이 기여할 수 있는 방법을 토의할 수 있다.
+    - code: "[6과16-02]"
+      text: 다양한 진로가 과학과 관련됨을 알고, 자신의 진로를 과학과 관련지어 설명할 수 있다.
+stages:
+  - name: 생각열기
+    question: 미래의 우리 사회는 어떻게 변할까요?
+  - name: 탐구하기1
+    question: 미래엔 어떤 사회 문제가 발생할까요?
+  - name: 탐구하기2
+    question: 미래 사회의 문제를 어떻게 과학으로 해결할 수 있을까요?
+  - name: 확장하기
+    question: 미래엔 과학의 발달로 직업에 어떤 변화가 생길까요?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 다양한 분야에서 활용되는 로봇
+    url: https://www.youtube.com/watch?v=h9nQNPXPWig
+    desc: 생활 속 다양한 분야에 활용되는 AI 로봇의 발전 모습
+    channel: KBS News
+  - key: v02
+    stage: 생각열기
+    title: 미래에 사라질 위기에 놓인 직업
+    url: https://www.youtube.com/watch?v=EZNoC4jmGzg
+    desc: AI 기술 발전에 따라 사라질 가능성이 높은 직업군
+    channel: " YTN"
+  - key: v03
+    stage: 생각열기
+    title: 기술의 발전으로 변화한 미래의 집
+    url: https://www.youtube.com/watch?v=TcmSp8eoz9c
+    desc: 첨단 기술로 인해 모든 일상이 통합되는 미래 주거 공간의 모습
+    channel: YTN 사이언스
+  - key: v04
+    stage: 생각열기
+    title: 2050년의 미래기술
+    url: https://www.youtube.com/watch?v=YYbcrGmYvfM
+    desc: 2050년에 실현될 놀라운 50가지 미래기술
+    channel: 국토교통부
+  - key: v05
+    stage: 탐구하기1
+    title: 컴퓨터 프로그램이 예측한 미래
+    url: https://www.youtube.com/watch?v=QGtQxPsv3tM
+    desc: MIT 컴퓨터 프로그램이 예측한 인류의 미래와 기후 위기 경고
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v06
+    stage: 탐구하기1
+    title: 학생들이 AI에 의존하게 되는 미래
+    url: https://www.youtube.com/watch?v=VBZ4giZk_EM
+    desc: 인공지능이 일상화된 2045년 미래 학교의 모습과 지식의 본질
+    channel: EBS 지식채널e
+  - key: v07
+    stage: 탐구하기1
+    title: 인구 감소가 가져올 파국의 미래
+    url: https://www.youtube.com/watch?v=Mu_JD-pYX5M
+    desc: 인구 감소와 초고령화가 초래할 사회적 문제
+    channel: JTBC News
+  - key: v08
+    stage: 탐구하기1
+    title: 기술 발전에 따른 신종 AI 범죄 급증
+    url: https://www.youtube.com/watch?v=cRrLL6HWtfM
+    desc: 생성형 AI 기술 발전으로 급증하는 신종 범죄 현황과 대응의 어려움
+    channel: MBCNEWS
+  - key: v09
+    stage: 탐구하기1
+    title: 헌옷수거함에 버린 옷들이 가는 곳
+    url: https://www.youtube.com/watch?v=aopyc8cAFzQ
+    desc: 헌옷수거함에 버린 옷이 해외로 수출된 후 발생하는 환경 문제
+    channel: 크랩 KLAB
+  - key: v10
+    stage: 탐구하기2
+    title: 인력난을 해결하는 로봇
+    url: https://www.youtube.com/watch?v=YrGXmm88NTw
+    desc: 관광업계의 인력난 해소를 위한 배달 로봇 활용 사례
+    channel: 연합뉴스TV
+  - key: v11
+    stage: 탐구하기2
+    title: 범죄를 예방하는 인공지능 CCTV
+    url: https://www.youtube.com/watch?v=ANejX6Y2wso
+    desc: 인공지능 기술로 범죄 징후를 사전 감지하고 예측하는 CCTV 시스템
+    channel: YTN 사이언스
+  - key: v12
+    stage: 탐구하기2
+    title: 재난구조를 돕는 첨단 소방 장비
+    url: https://www.youtube.com/watch?v=rnB2dRgGl_A
+    desc: 재난 현장에서 활용되는 AI 로봇과 첨단 소방 장비
+    channel: SBS 뉴스
+  - key: v13
+    stage: 탐구하기2
+    title: 뱀 모양을 본떠 만든 재난 구조 로봇
+    url: https://www.youtube.com/watch?v=tncQAxsiczw
+    desc: 뱀의 움직임과 비늘 특성을 모방해 재난 현장에 활용하는 로봇 기술
+    channel: KBS News
+  - key: v14
+    stage: 탐구하기2
+    title: 사람을 구하는 수중로봇
+    url: https://www.youtube.com/watch?v=1wp1Feka0OQ
+    desc: 수중 로봇을 활용한 신속한 익수자 수색 및 구조 현장
+    channel: KBS News
+  - key: v15
+    stage: 탐구하기2
+    title: 쓰레기를 다시 연료로 재활용하는 열분해기술
+    url: https://www.youtube.com/watch?v=QdZFYkd7I1Q
+    desc: 폐플라스틱을 연료로 변환하는 친환경 열분해 기술
+    channel: YTN 사이언스
+  - key: v16
+    stage: 탐구하기2
+    title: 지속가능한 차세대 친환경 플라스틱
+    url: https://www.youtube.com/watch?v=uHxtzufN-6I
+    desc: 자연 부산물을 활용해 성능과 내구성을 갖춘 친환경 바이오 플라스틱 제조 기술
+    channel: YTN 사이언스
+  - key: v17
+    stage: 탐구하기2
+    title: 탄소를 고체로, 세계 최초 탄소 정제소
+    url: https://www.youtube.com/watch?v=wnmCDyQdJbo
+    desc: 이산화탄소를 고체 광물로 빠르게 바꾸는 세계 최초 탄소 정제소
+    channel: " YTN"
+  - key: v18
+    stage: 확장하기
+    title: 10년 후 부자 될 수 있는 미래 유망 직업
+    url: https://www.youtube.com/watch?v=2-YeHsLqeQk
+    desc: 과학 기술 발달에 따른 10년 후 미래 유망 직업
+    channel: 경기도교육청TV
+  - key: v19
+    stage: 확장하기
+    title: 사연을 읽으며 미래 직업 상상하기
+    url: https://www.youtube.com/watch?v=ewuyMOk6z0U
+    desc: 사연을 통해 과학 발달로 변화할 미래 직업
+    channel: 국립어린이과학관
+  - key: v20
+    stage: 확장하기
+    title: 우리가 잘 모르는 미래 직업
+    url: https://www.youtube.com/watch?v=A5zXPVAxYhA
+    desc: 과학 기술의 발달로 새롭게 등장할 미래의 다양한 직업군
+    channel: 여기는스쿨존
+  - key: v21
+    stage: 확장하기
+    title: 탄소와 관련된 미래 유망 직업
+    url: https://www.youtube.com/watch?v=gKDkXTSgWxM
+    desc: 탄소 중립 실현을 위해 새롭게 등장할 미래 유망 직업
+    channel: tvN STORY 티비엔 스토리
+quiz:
+  - statement: 과학기술의 발달은 미래 사회의 생활과 직업을 변화시킬 수 있다.
+    answer: O
+    explain: 새로운 기술은 문제 해결 방법과 필요한 능력, 직업의 종류에 영향을 준다.
+  - statement: 기후 변화나 감염병 같은 미래 문제를 해결하는 데 과학이 기여할 수 있다.
+    answer: O
+    explain: 관찰과 연구, 기술 개발은 문제의 원인을 밝히고 해결 방법을 만드는 데 도움을 준다.
+  - statement: 과학은 실험실에서만 사용되므로 예술, 스포츠, 농업 같은 진로와 관계가 없다.
+    answer: X
+    explain: 재료, 인체, 환경, 데이터 등 과학 지식은 다양한 분야와 직업에 활용된다.
+  - statement: 미래 문제의 해결책을 고를 때 효과뿐 아니라 안전과 윤리, 환경 영향도 살펴야 한다.
+    answer: O
+    explain: 과학기술의 이익과 위험을 여러 관점에서 책임 있게 판단해야 한다.
+  - statement: 진로를 정할 때 자신의 흥미와 능력은 살피지 않고 인기 있는 직업만 고르면 된다.
+    answer: X
+    explain: 자신의 특성과 가치, 사회 변화를 함께 고려해 진로를 탐색해야 한다.
+  - statement: 과학 관련 진로를 알아볼 때 실제로 하는 일과 필요한 능력을 조사하면 도움이 된다.
+    answer: O
+    explain: 구체적인 직무와 준비 과정을 알면 자신에게 맞는 진로 계획을 세울 수 있다.
+  - statement: 미래 사회의 모습은 이미 완전히 정해져 있어 우리의 선택과 노력으로 바꿀 수 없다.
+    answer: X
+    explain: 사람들의 연구, 정책, 생활 선택이 과학기술과 사회의 방향에 영향을 준다.

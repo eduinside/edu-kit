@@ -1,0 +1,182 @@
+id: sc6121
+title: 2. 물체의 운동
+grade: 6
+sem: 1학기
+subject: 과학
+unit: 물체의 운동
+unit_no: 2
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 물체의 운동을 좌표와 평면으로 표현하며 빠르기 비교를 통해 속력의 의미를 이해합니다. 이동 거리와 시간을 측정해 속력을 구하고, 속력과 관련된 안전 수칙을 조사하여 생활 속 적용 능력을 기릅니다.
+  core_question: 물체의 운동은 어떻게 나타내며, 속력을 알면 우리는 생활을 어떻게 더 안전하게 할 수 있을까?
+  concepts:
+    - term: 물체의 운동
+      def: 시간이 지남에 따라 물체의 위치가 변하는 것을 물체의 운동이라고 합니다. 물체가 움직인 방향과 위치를 좌표나 그림으로 나타낼 수 있습니다.
+    - term: 속력
+      def: 물체가 일정한 시간 동안 이동한 거리로 빠르기를 나타낸 값입니다. 이동 거리를 걸린 시간으로 나누어 구하며, 속력이 클수록 더 빠른 것입니다.
+    - term: 교통안전
+      def: 길에서 차와 사람이 다치지 않도록 안전 수칙을 지키는 것입니다. 횡단보도 건너기, 신호 지키기처럼 생활 속에서 실천해야 합니다.
+    - term: 안전장치
+      def: 사고가 났을 때 사람이 다치는 것을 줄여 주는 장치입니다. 자동차의 안전벨트와 에어백, 횡단보도 차단기 등이 있습니다.
+  standards:
+    - code: "[6과10-01]"
+      text: 운동하는 물체는 시간에 따라 위치가 변화함을 알고 그 변화를 표현할 수 있다.
+    - code: "[6과10-02]"
+      text: 물체의 이동 거리와 걸린 시간을 측정하여 속력을 구하고 빠르기를 비교할 수 있다.
+    - code: "[6과10-03]"
+      text: 속력과 관련된 안전 수칙과 안전장치를 조사한 결과를 공유하고 일상생활에서 교통안전을 실천할 수 있다.
+stages:
+  - 물체의 운동
+  - 속력
+  - 교통안전
+  - 안전장치
+items:
+  - key: v1
+    stage: 물체의 운동
+    title: KTX 속도부터 빛의 속도까지
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=FNTEnNDcG8w
+    desc: 기차로 알아보는 속도
+    channel: 기찻길옆풍경화 Line Epicure
+  - key: v2
+    stage: 물체의 운동
+    title: 마하 1에서 빛의 속도까지 직접 체험하기
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Xhu-k65pD2w
+    desc: 구글 어스로 표현해 본 속도
+    channel: 데이터실험실
+  - key: v3
+    stage: 물체의 운동
+    title: 여러 가지 물체의 운동은 어떻게 다를까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=VxCacj9CdvQ
+    desc: 여러 가지 물체의 운동
+    channel: 전북수업샘터
+  - key: v4
+    stage: 물체의 운동
+    title: 롤러코스터는 어떻게 만들까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=pdcE7QfPmaY
+    desc: 롤러코스터에 적용된 과학 원리
+    start: 132
+    end: 203
+    channel: EBS 컬렉션 - 사이언스
+  - key: v5
+    stage: 물체의 운동
+    title: 속도? 속력? 뭐가 다른거야?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=PFaEcPuB1LI
+    desc: 속도'와 '속력' 개념 익히기
+    channel: 날로먹는 물리학Physics
+  - key: v6
+    stage: 물체의 운동
+    title: 과학으로 풀어보는 운동의 원리
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=2L4W60_YMI0
+    desc: 속도의 두 가지 개념(평균 속도와 순간 속도)과 속력
+    start: 59
+    end: 309
+    channel: YTN 사이언스 투데이
+  - key: v7
+    stage: 속력
+    title: 치타' vs '경주용 전기차' 100m 달리기 대결의 승자는?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=-YURTu3V_CQ
+    desc: 지구상에서 가장 빠른 동물 '치타'와 '자동차'의 100m 달리기
+    channel: JTBC News
+  - key: v8
+    stage: 속력
+    title: 물 속에서 가장 빠른 생물은 무엇일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=fbCRaZ9Z4cs
+    desc: 물 속에서 가장 빠른 생물을 속력으로 알아보기
+    channel: 밝은 면 Bright Side Korea
+  - key: v9
+    stage: 속력
+    title: 올림픽 육상 계주, 어느 팀의 속력이 가장 빠를까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=hdI27YXQtds
+    desc: 2024 파리올림픽 육상 계주를 보며 속력 구하기
+    start: 200
+    end: 400
+    channel: 올스
+  - key: v10
+    stage: 교통안전
+    title: 어린이도 지켜야 할 스쿨존 교통 안전수칙
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=eQHlEkm0hSo
+    desc: 통학 및 학원 차량 안전수칙을 포함한 스쿨존 교통 안전수칙
+    channel: 안전한TV
+  - key: v11
+    stage: 교통안전
+    title: 실제 블랙박스 영상으로 알아보는 어린이 교통사고
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qfkicH0qxho
+    desc: 5가지 유형 별 어린이 교통사고
+    channel: 안전한TV
+  - key: v12
+    stage: 교통안전
+    title: 자전거나 킥보드를 탈 땐 안전수칙을 꼭 지켜요!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=5YwvjjELuRU
+    desc: 자전거, 킥보드 안전수칙
+    channel: 한국교통안전공단 교통안전TV
+  - key: v13
+    stage: 교통안전
+    title: 교통사고 예방을 위한 보행자 안전수칙!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=wkADQE3OBPk
+    desc: 우리의 안전을 지키는 보행안전
+    channel: 행정안전부
+  - key: v14
+    stage: 교통안전
+    title: 보행안전수칙, 지켰을 뿐인데
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=RxdFlCZCbAU
+    desc: 어린이의 눈으로 본 보행안전수칙 지키기
+    channel: 행정안전부
+  - key: v15
+    stage: 교통안전
+    title: 어린이 교통안전을 위한 1,2,3,4 캠페인
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HITvrYZepNw
+    desc: 실제 사례를 통해 살펴본 교통안전과 1,2,3,4 캠페인
+    channel: JTBC Entertainment
+  - key: v16
+    stage: 안전장치
+    title: 안전한 보행을 위한 횡단보도 AI 차단기
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=JFeSSK-4km4
+    desc: 속력과 관련된 안전장치에 대한 지식을 쌓는 데 활용
+    channel: YTN 사이언스
+  - key: v17
+    stage: 안전장치
+    title: 자동차 안전벨트와 에어백의 효과는?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6BNjAOGA9AA
+    desc: 속력과 관련된 안전장치의 효과 실험 결과를 보여주는 데 활용
+    channel: 영영쌤과학실험 - 002Science
+quiz:
+  - statement: 물체의 운동은 시간이 지나면서 물체의 위치가 변하는 것을 말한다.
+    answer: O
+    explain: 운동하는 물체는 시간에 따라 위치가 변하므로 맞는 설명입니다.
+  - statement: 속력은 물체가 이동한 거리를 걸린 시간으로 나누어 구한다.
+    answer: O
+    explain: 속력은 이동 거리를 걸린 시간으로 나누어 구합니다.
+  - statement: 같은 거리를 갈 때 시간이 더 적게 걸린 물체가 더 느리다.
+    answer: X
+    explain: 같은 거리를 더 짧은 시간에 가면 더 빠른 것입니다.
+  - statement: 속력이 클수록 물체는 더 빠르게 움직인다.
+    answer: O
+    explain: 속력이 클수록 빠르기가 더 빠른 것입니다.
+  - statement: 자동차의 안전벨트와 에어백은 사고가 났을 때 사람을 보호해 주는 안전장치이다.
+    answer: O
+    explain: 안전벨트와 에어백은 다침을 줄여 주는 안전장치입니다.
+  - statement: 속력이 빨라도 교통안전 수칙은 지키지 않아도 된다.
+    answer: X
+    explain: 속력이 빠를수록 위험하므로 교통안전 수칙을 꼭 지켜야 합니다.
+  - statement: 물체의 위치 변화는 좌표나 그림으로 나타낼 수 있다.
+    answer: O
+    explain: 운동하는 물체의 위치 변화는 좌표나 그림으로 나타낼 수 있습니다.

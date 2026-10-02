@@ -1,0 +1,174 @@
+id: so6232
+title: 3-2. 지구촌의 문제와 해결
+grade: 6
+sem: 2학기
+subject: 사회
+unit: 3. 지구촌 사람들
+unit_no: 3
+flow: activity
+sort_order: 2
+published: true
+intro:
+  core_idea: 지구촌의 지속가능한 미래는 공동의 문제 인식과 협력을 통해 이루어진다.
+  core_question: 지구촌을 위협하는 문제를 어떻게 해결할까?
+  concepts:
+    - term: 상호 작용
+    - term: 공동체
+    - term: 협력
+    - term: 평화
+  standards:
+    - code: "[6사12-02]"
+      text: 지구촌을 위협하는 다양한 문제들을 파악하고, 지속가능한 미래를 위한 해결 방안을 탐색한다.
+stages:
+  - name: 생각열기
+    question: 지구촌 사람들은 어떻게 살아가고 있을까?
+  - name: 탐구하기1
+    question: 기후변화로 인한 문제는 무엇일까?
+  - name: 탐구하기2
+    question: 지구촌 문제를 해결하기 위해 어떤 노력이 이루어지고 있을까?
+  - name: 확장하기
+    question: 인류는 지구의 환경에 어떤 영향을 미치고 있을까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 지구가 100명의 마을이라면 어떤 다양성과 불균형이 존재할까?
+    url: https://www.youtube.com/watch?v=6TJtXH91Cr4
+    desc: 세계 인구를 100명으로 가정하여 지역, 언어, 생활 수준 등의 분포를 살펴보고, 세계의 다양성과 불균형을 이해함.
+    channel: 브레이스맨 in New York
+  - key: v02
+    stage: 생각열기
+    title: 세계 어린이들의 삶을 통해 알아보는 공평한 권리의 중요성
+    url: https://www.youtube.com/watch?v=EObsHL43t0U
+    desc: 세계 어린이들이 처한 다양한 삶의 모습을 살펴보고, 모든 어린이가 기본적인 권리를 보장받는 공평한 삶의 중요성을 이해함.
+    channel: UNICEF KOREA
+  - key: v03
+    stage: 탐구하기1
+    title: 지구촌의 갈등과 분쟁은 어떤 원인으로 발생하고 심화될까?
+    url: https://www.youtube.com/watch?v=ONQ7z4WGtZ0
+    desc: 갈등과 분쟁이 발생하는 다양한 원인을 살펴보고, 여러 요인이 복합적으로 작용하여 갈등이 심화될 수 있음을 이해함.
+    channel: "아톰쌤 "
+  - key: v04
+    stage: 탐구하기1
+    title: 분쟁, 재난 등 다양한 국제 이슈가 지구촌에 미치는 영향
+    url: https://www.youtube.com/watch?v=i90QK4MO7x4
+    desc: 세계 곳곳에서 발생한 분쟁과 재난, 환경 문제 등 다양한 국제 이슈를 살펴보고, 이러한 문제가 사람들의 삶과 지구촌에 미치는 영향을 이해함.
+    channel: KBS 세계는지금
+  - key: v05
+    stage: 탐구하기1
+    title: 세계 곳곳에서 난민이 발생하는 원인과 그 영향은 무엇일까?
+    url: https://www.youtube.com/watch?v=K99DoPs40RI
+    desc: 난민이 발생하는 다양한 원인을 살펴보고, 분쟁과 재난 등이 사람들의 삶과 인구 이동에 미치는 영향을 이해함.
+    channel: KBS News
+  - key: v06
+    stage: 탐구하기1
+    title: 기후 변화가 가져오는 환경 변화와 지속 가능한 실천의 중요성
+    url: https://www.youtube.com/watch?v=t7cofBEdt04
+    desc: 기후 변화로 나타나는 다양한 환경 변화를 살펴보고, 온실가스 감축과 지속 가능한 실천의 중요성을 이해함.
+    channel: " YTN"
+  - key: v07
+    stage: 탐구하기1
+    title: 인간의 활동은 지구 환경에 어떤 영향을 미치며 어떻게 해결할까?
+    url: https://www.youtube.com/watch?v=PkpeKAlH0UA
+    desc: 인간의 개발과 소비 활동이 환경에 미치는 영향을 살펴보고, 지속 가능한 삶을 위한 실천의 중요성을 이해함.
+    channel: 공식 환경보호 채널.
+  - key: v08
+    stage: 탐구하기1
+    title: 기후 변화로 인한 자연재해와 기후 위기 대응의 중요성
+    url: https://www.youtube.com/watch?v=_00hRIm9t3s
+    desc: 기후 변화로 나타나는 다양한 자연재해와 사회·경제적 영향을 살펴보고, 기후 위기에 대응하기 위한 노력의 중요성을 이해함.
+    channel: KBS 세계는지금
+  - key: v09
+    stage: 탐구하기1
+    title: 기후 변화가 우리나라에 미치는 영향과 자원 확보의 중요성
+    url: https://www.youtube.com/watch?v=OPCHLthlbIk
+    desc: 기후 변화가 우리나라에 미치는 영향을 살펴보고, 식량과 에너지 등 자원의 안정적인 확보와 지속 가능한 대응의 중요성을 이해함.
+    channel: SBS 뉴스
+  - key: v10
+    stage: 탐구하기1
+    title: 기후 변화로 인한 사막화가 생태계와 식량 생산에 미치는 영향
+    url: https://www.youtube.com/watch?v=9QOQiBMAz18
+    desc: 사막화는 기후 변화와 인간의 개발로 인해 확산되고 있으며, 토지와 생태계, 식량 생산에 영향을 미치는 문제임을 이해함.
+    channel: " YTN"
+  - key: v11
+    stage: 탐구하기1
+    title: 플라스틱 사용 증가 문제와 지속 가능한 생활 실천의 중요성
+    url: https://www.youtube.com/watch?v=1gX3tgROduU
+    desc: 플라스틱 사용 증가와 일회용품 소비 확대로 폐플라스틱이 늘어나고 있으며, 이를 줄이기 위한 지속 가능한 생활 실천의 중요성을 이해함.
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v12
+    stage: 탐구하기2
+    title: 지구촌 사회에서 다양성을 존중하는 세계 시민의 역할은 무엇일까?
+    url: https://www.youtube.com/watch?v=_sT9FJNkmTM
+    desc: 세계 시민은 서로 연결된 지구촌 사회에서 다양성을 존중하고 공동의 문제 해결을 위해 책임 있게 행동하는 사람임을 이해함.
+    channel: T Kim 티킴
+  - key: v13
+    stage: 탐구하기2
+    title: 전 세계가 함께 달성해야 할 지속가능발전목표(SDGs)란 무엇일까?
+    url: https://www.youtube.com/watch?v=A_u3w4Lt3gQ
+    desc: 지속가능발전목표(SDGs)는 빈곤, 불평등, 기후 변화 등 지구촌 문제를 해결하고 모두가 함께 지속 가능한 미래를 만들어 가기 위한 공동의 목표임을 이해함.
+    channel: 기후에너지환경부
+  - key: v14
+    stage: 탐구하기2
+    title: 지구촌 갈등을 평화롭게 해결하기 위해 우리는 어떤 노력을 해야 할까?
+    url: https://www.youtube.com/watch?v=t3q0_EJSMSs
+    desc: 갈등의 원인을 이해하고 다양한 관점을 존중하며, 평화를 위한 실천과 협력에 참여하는 자세가 중요함을 이해함.
+    channel: 스마트올TV
+  - key: v15
+    stage: 탐구하기2
+    title: 세계 평화와 국제 협력을 위한 UN의 역할 알아보기
+    url: https://www.youtube.com/watch?v=fekth4nHCE4
+    desc: UN은 세계 평화와 국제 협력을 위해 여러 나라가 함께 만든 국제기구로, 다양한 국제 문제 해결을 위해 협력하는 역할을 함을 이해함.
+    embed: false
+    status: 임베드차단
+  - key: v16
+    stage: 탐구하기2
+    title: 사회 문제 해결을 위해 활동하는 비영리 단체 NGO의 역할
+    url: https://www.youtube.com/watch?v=B6ngj9zXasM
+    desc: NGO는 정부나 기업과는 별도로 시민들이 자발적으로 참여하여 다양한 사회 문제를 해결하고 더 나은 사회를 만들기 위해 활동하는 비영리 단체임을 이해함.
+    channel: 사단법인 시민
+  - key: v17
+    stage: 탐구하기2
+    title: 기후 위기에 대비하기 위한 사회적 준비와 실천 방안 알아보기
+    url: https://www.youtube.com/watch?v=04vsqol30uw
+    desc: 기후 위기에 대비하기 위해서는 환경 변화에 맞는 사회적 준비와 함께 지속 가능한 생활을 실천하는 노력이 중요함을 이해함.
+    channel: 디글 :Diggle
+  - key: v18
+    stage: 탐구하기2
+    title: 기후 위기 해결을 위한 친환경 기술과 과학기술의 역할
+    url: https://www.youtube.com/watch?v=A_rgpNsQzOM
+    desc: 기후 위기 해결을 위해 온실가스를 효율적으로 줄이는 친환경 기술이 개발되고 있으며, 과학기술이 지속 가능한 미래를 만드는 데 중요한 역할을 함을 이해함.
+    channel: SBS 뉴스
+  - key: v19
+    stage: 탐구하기2
+    title: 자원 순환과 환경 보호에 기여하는 업사이클이란 무엇일까?
+    url: https://www.youtube.com/watch?v=1Cwp4VQZj84
+    desc: 업사이클은 버려지는 자원에 새로운 아이디어와 가치를 더해 활용도를 높이는 방법으로, 자원 순환과 환경 보호에 기여함을 이해함.
+    channel: 경기도 업사이클플라자
+  - key: v20
+    stage: 확장하기
+    title: 인류의 활동이 지구 환경을 변화시키는 인류세란 무엇일까?
+    url: https://www.youtube.com/watch?v=rDG6omZMTa4
+    desc: 인류의 활동이 지구 환경에 큰 영향을 미치면서 자연환경을 변화시키는 새로운 시대라는 관점이 제시되고 있음을 이해함.
+    channel: YTN 사이언스
+quiz:
+  - statement: 기후 위기, 빈곤, 전쟁 같은 문제는 여러 나라에 영향을 주는 지구촌 문제이다.
+    answer: O
+    explain: 국경을 넘어 원인과 피해가 이어질 수 있어 국제적인 대응이 필요하다.
+  - statement: 지구촌 문제는 한 나라가 혼자 행동하면 언제나 완전히 해결할 수 있다.
+    answer: X
+    explain: 원인과 영향이 연결되어 있어 국가, 국제기구, 시민의 협력이 중요하다.
+  - statement: 평화로운 지구촌을 위해 서로 다른 문화와 권리를 존중해야 한다.
+    answer: O
+    explain: 차이를 인정하고 인권을 존중하는 태도는 갈등을 줄이는 데 도움이 된다.
+  - statement: 지속 가능한 해결 방안은 현재의 문제만 해결하고 미래의 영향은 생각하지 않는다.
+    answer: X
+    explain: 현재의 필요와 미래 세대의 삶, 환경을 함께 고려해야 한다.
+  - statement: 국제기구와 시민단체는 구호, 환경 보호, 평화 활동 등에 참여할 수 있다.
+    answer: O
+    explain: 여러 주체가 전문성과 자원을 모아 공동의 문제를 해결한다.
+  - statement: 일상에서 에너지를 아끼고 공정한 상품을 선택하는 행동도 지구촌 문제 해결과 연결될 수 있다.
+    answer: O
+    explain: 개인의 선택이 자원 사용, 노동, 환경에 영향을 줄 수 있다.
+  - statement: 지구촌 문제를 해결하려면 다른 사람의 의견을 듣지 않고 내 방법만 따라야 한다.
+    answer: X
+    explain: 서로의 입장을 이해하고 대화와 협력으로 실행 가능한 해결책을 찾아야 한다.

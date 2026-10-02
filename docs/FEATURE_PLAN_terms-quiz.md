@@ -1,3 +1,5 @@
+> ※ 2026-10-02 시트 → 꾸러미 파일 전환 뒤: `sheet-to-json.ts` → `transform.ts`·`build-data.ts`, 시트 탭 → `content/kits/*.yaml`의 `intro.concepts[].def`·`quiz`. 아래는 구현 당시 기록.
+
 # 신규 기능 구현 계획서 — 핵심 용어 설명 + 개념 확인 OX 퀴즈
 
 > ✅ **구현·배포 완료(2026-06-28).** 본 계획대로 M1(UI+스키마+빌드) 출하 후 전 단원 콘텐츠 발행. 현재 동작은 [README.md](../README.md) "주요 기능" 참조. 아래는 설계 기록.

@@ -1,0 +1,134 @@
+id: so4212
+title: 1-2. 주민 자치와 주민 참여
+grade: 4
+sem: 2학기
+subject: 사회
+unit: 1단원
+unit_no: 1
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 주민 자치와 주민 참여의 중요성을 알아보고, 지역사회의 문제 해결에 참여하는 태도를 기르는 내용으로 구성되어 있습니다.
+  core_question: 민주주의는 학교와 지역에서 어떻게 실현되며, 우리는 자치와 참여에 어떻게 함께할 수 있을까?
+  concepts:
+    - term: 민주주의
+      def: 나라나 지역의 일을 사람들이 함께 의논하고 다수의 뜻에 따라 결정하는 제도예요. 모든 사람이 주인으로서 자유롭고 평등하게 참여할 수 있어요.
+    - term: 주민자치
+      def: 한 지역에 사는 주민들이 그 지역의 일을 스스로 의논하고 결정하며 처리하는 것을 말해요. 우리 동네 일을 우리가 직접 챙기는 것이지요.
+    - term: 주민참여
+      def: 지역의 문제를 해결하기 위해 주민들이 의견을 내고 함께 활동하는 것을 말해요. 공청회나 주민회의에 나가 자기 생각을 말하는 것이 그 예예요.
+  standards:
+    - code: "[4사08-02]"
+      text: 지역에서 이루어지는 민주주의 사례를 통해 주민 자치와 주민 참여의 중요성을 파악하고, 지역사회의 문제 해결에 참여하는 태도를 기른다.
+stages:
+  - 민주주의
+  - 주민자치
+  - 주민참여
+items:
+  - key: v1
+    stage: 민주주의
+    title: 풀뿌리 민주주의란 무엇인가?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=wGp1EzFVyWY
+    desc: 서로 연결된 뿌리가 식물을 성장시키듯, 주민들이 함께 정치에 참여함으로써 사회가 성장할 수 있음
+    channel: 교양 Voyage
+  - key: v2
+    stage: 주민자치
+    title: 우리 나라의 지방자치제도는 어떻게 구성되어 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=T8TC8A75f2M
+    desc: 대통령부터 구의원까지 국민에 의해 선출되는 우리나라의 지방자치제도
+    channel: 교양 Voyage
+  - key: v3
+    stage: 주민자치
+    title: 주민자치회는 어떤 역할을 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-AF13UPPf3k
+    desc: 지역 주민들이 스스로 해결할 수 있도록 주민들의 권한을 강화시켜주는 주민자치회
+    channel: 교양 Voyage
+  - key: v4
+    stage: 주민자치
+    title: 우리 지역의 문제를 주민들은 어떻게 해결하고 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ZxN0aoC3vSM
+    desc: 생활 속 문제를 이야기하며 소통과 토론을 통해 함께 결정하고 실천하는 주민자치
+    channel: 교양 Voyage
+  - key: v5
+    stage: 주민자치
+    title: 주민 자치의 사례에는 무엇이 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Lr7nUtSb-uY
+    desc: 지역의 활기를 불어넣고 있는 순천시 변량면의 논아트
+    channel: KBS News
+  - key: v6
+    stage: 주민자치
+    title: 주민 자치의 사례에는 무엇이 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=uJLOAk1XXbw
+    desc: 충북 증평군의 마을 주민들이 직접 모은 사진과 물건들로 건립한 마을 기록관
+    channel: KBS충북
+  - key: v7
+    stage: 주민자치
+    title: 주민 자치는 어떻게 변화해왔을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=b2aEx5tq0XA
+    desc: 우리 역사 속 지방 세력은 유향소와 같은 지방자치기관을 근간으로 주민자치가 잘 이루어짐.
+    channel: 교양 Voyage
+  - key: v8
+    stage: 주민참여
+    title: 주민이 참여하면 무엇이 바뀔까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ONoiM9CjLqU
+    desc: 모두가 행복한 대한민국의 시작이 되는 자치분권
+    channel: 제민일보
+  - key: v9
+    stage: 주민참여
+    title: 공청회를 통한 주민 참여는 어떻게 이루어질까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=L32g6AnuPjc
+    desc: 대구 도시철도망 구축 계획 시민 공청회
+    channel: 대구MBC뉴스
+  - key: v10
+    stage: 주민참여
+    title: 주민회의를 통한 주민 참여는 어떻게 이루어질까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=jvULnnNguM0
+    desc: 강남구 소속의 여러 주민단체의 주민회의
+    channel: 강남구
+  - key: v11
+    stage: 주민참여
+    title: 주민참여에산제도란 무엇일까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=JAxCc961jTI
+    desc: 따뜻한 우리 동네를 만드는 주민참여예산제도, 공정한 과정을 거쳐 우리의 손으로 만드는 우리 동네
+    channel: 행정안전부
+  - key: v12
+    stage: 주민참여
+    title: 시민단체란 무엇일까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=B6ngj9zXasM
+    desc: 더 나은 세상을 위해 시도하고 변화를 만들어가는 시민단체 활동가
+    channel: 사단법인 시민
+quiz:
+  - statement: 민주주의에서는 지역의 일을 정할 때 주민들의 뜻을 함께 모아 결정한다.
+    answer: O
+    explain: 민주주의는 사람들이 함께 의논해 결정하는 제도예요.
+  - statement: 주민자치는 우리 동네 일을 다른 지역 사람들이 대신 정해 주는 것이다.
+    answer: X
+    explain: 주민자치는 그 지역에 사는 주민들이 스스로 정하고 처리하는 것이에요.
+  - statement: 주민회의나 공청회에 나가 의견을 내는 것은 주민참여의 한 가지 모습이다.
+    answer: O
+    explain: 주민참여는 주민이 의견을 내고 함께 활동하는 것이며, 주민회의나 공청회(지역 일을 함께 의논하려고 여는 모임)가 그 예예요.
+  - statement: 주민참여는 지역의 문제를 해결하는 데 도움이 된다.
+    answer: O
+    explain: 주민이 참여하면 지역의 문제를 함께 풀어 갈 수 있어요.
+  - statement: 우리 지역의 문제는 주민이 참여하지 않아도 저절로 모두 해결된다.
+    answer: X
+    explain: 지역의 문제는 주민이 관심을 갖고 참여할 때 더 잘 해결돼요.
+  - statement: 주민자치회는 지역 주민들이 함께 지역의 일에 참여하는 모임이다.
+    answer: O
+    explain: 주민자치회는 주민들이 모여 지역의 일을 의논하고 참여하는 조직이에요.
+  - statement: 민주주의는 학교나 우리 지역에서는 실현될 수 없고 큰 나라 일에서만 가능하다.
+    answer: X
+    explain: 민주주의는 학교와 지역 등 우리 생활 가까이에서도 실현돼요.

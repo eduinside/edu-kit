@@ -1,0 +1,185 @@
+id: so5222
+title: 2-2. 조선 후기의 달라진 생활 모습
+grade: 5
+sem: 2학기
+subject: 사회
+unit: 2. 달라지는 시대, 변화하는 생활 모습
+unit_no: 2
+flow: activity
+sort_order: 2
+published: true
+intro:
+  core_idea: 각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회⋅문화적 변화를 반영한다.
+  core_question: 신분제와 사상의 변화, 그리고 근대 문물의 수용은 우리가 살아가는 공간과 일상생활을 어떻게 바꾸어 놓았을까?
+  concepts:
+    - term: 공간과 장소
+    - term: 변화
+    - term: 체제
+    - term: 생활 모습
+    - term: 문화
+    - term: 근대 문물
+    - term: 신분제
+    - term: 조선 시대
+  standards:
+    - code: "[6사05-02]"
+      text: 조선 후기 사회․문화적 변화와 개항기 근대 문물 수용 과정에서 달라진 사람들의 생활을 이해한다
+stages:
+  - name: 생각열기
+    question: 옛 사람들은 어떤 방법으로 소통하였을까?
+  - name: 탐구하기1
+    question: 조선 후기 경제의 변화는 백성들의 생활 모습을 어떻게 바꾸어 놓았을까?
+  - name: 탐구하기2
+    question: 근대 국가를 수립하기 위해 어떤 노력을 하였을까?
+  - name: 확장하기
+    question: 조선 후기 상업 발달로 변화된 문화와 오늘날의 모습은 어떻게 연결될까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 조선 시대에도 여론 조사가 있었다?
+    url: https://www.youtube.com/watch?v=LQlVg8F7NKE
+    desc: 영조의 균역법에 대해 알아보고 백성과의 소통의 중요성을 탐구함.
+    channel: 교양 Voyage
+  - key: v02
+    stage: 생각열기
+    title: 조선의 살림남
+    url: https://www.youtube.com/watch?v=vYEHNDapM8s
+    desc: 실제 기록을 통해 본 조선의 사대부(양반)들은 집안 살림에 적극적으로 참여하고 주도했던 '살림의 달인'들이었음을 이해함.
+    channel: EBS 지식채널e
+  - key: v03
+    stage: 탐구하기1
+    title: 조선의 생활사
+    url: https://www.youtube.com/watch?v=5TYh3B7XNAw
+    desc: 놋그릇의 대중화, 1인용 밥상인 '소반'의 유행, 주막과 국밥집 같은 근대적 외식 문화의 탄생 등 조선 후기 상업 발전이 바꾼 일상을 알아봄.
+    channel: 교양 Voyage
+  - key: v04
+    stage: 탐구하기1
+    title: 컬러로 복원한 조선의 생활 모습
+    url: https://www.youtube.com/watch?v=ll4fXHavq7I
+    desc: 구한말과 조선 후기 백성들의 시장 풍경, 벼 이앙(모내기), 빨래하는 모습 등을 고화질 컬러로 복원하여, 당시 사람들의 시각적 생활상을 직관적으로 탐구함.
+    channel: 복원왕 Restoration King
+  - key: v05
+    stage: 탐구하기1
+    title: 모내기법·동의보감·대동법·새로운 작물의 등장
+    url: https://www.youtube.com/watch?v=x9iQWCyubTM
+    desc: 모내기법(이앙법)의 전국적 확산이 어떻게 노동력을 줄이고 농업 생산량을 폭발적으로 늘렸는지, 그리고 담배나 인삼 같은 돈이 되는 작물(상품 작물)을 기르며 농민들이 어떻게 부를 축적했는지 탐구함.
+    channel: "아톰쌤 "
+  - key: v06
+    stage: 탐구하기1
+    title: 조선 시대의 화폐 상평통보
+    url: https://www.youtube.com/watch?v=kQiYj3pIAxY
+    desc: 조선 후기 전국에 1,000여 개가 넘게 생긴 '장시(5일장)'와 이를 무대로 활약한 상인(공인, 사상, 보부상)들의 활동을 통해 화폐(상평통보)가 일상화된 모습을 탐구함.
+    channel: 공부방찐천재
+  - key: v07
+    stage: 탐구하기1
+    title: 조선 후기 서민문화의 대표 주자, 판소리
+    url: https://www.youtube.com/watch?v=v6Br_S5mM-M
+    desc: 서민들의 의식이 성장하면서 거드름을 피우는 양반을 조롱하고 사회를 비판했던 탈춤(봉산탈춤 등)과 판소리가 새로운 대중문화로 자리 잡는 과정을 탐구함.
+    embed: false
+    channel: 클래스로그
+  - key: v08
+    stage: 탐구하기1
+    title: 조선 시대 한글 소설을 마음껏 즐기는 방법
+    url: https://www.youtube.com/watch?v=eli6abCMgEM
+    desc: 조선 후기(18~19세기) 상업이 발달하면서 서민과 여성들 사이에서 한글 소설 읽기 열풍이 불었을 때, 책을 즐기던 대표적인 두 가지 방식인 '세책점'과 '전기수'의 모습을 탐구함.
+    channel: 국립한글박물관
+  - key: v09
+    stage: 탐구하기1
+    title: 김홍도와 신윤복의 풍속화
+    url: https://www.youtube.com/watch?v=WrHB-7U5EFw
+    desc: 시대적 변화 속에서 서민을 비롯한 다양한 계층의 일상이 어떻게 그림의 주인공으로 등장하게 되었는지 이해함.
+    channel: 미술식탁
+  - key: v10
+    stage: 탐구하기1
+    title: 흔들리는 신분제와 여성의 삶의 모습
+    url: https://www.youtube.com/watch?v=jJdCnjnGgcg
+    desc: 조선 후기 사회의 가장 핵심적인 변화인 '신분제 동요'와 '유교(성리학)의 영향으로 인한 여성의 삶의 변화', 그리고 이를 극복한 '훌륭한 여성 인물들'에 대해 탐구함.
+    channel: 최태성 초등TV
+  - key: v11
+    stage: 탐구하기1
+    title: 실학은 무엇일까?
+    url: https://www.youtube.com/watch?v=vENHKiAvfx4
+    desc: 박지원이 한 일을 토대로 실학의 의미와 의의를 이해함.
+    channel: 공부방찐천재
+  - key: v12
+    stage: 탐구하기1
+    title: 실학을 체계화한 정약용
+    url: https://www.youtube.com/watch?v=-bCPVo4SLu4
+    desc: 정약용에 대한 인물 탐구를 통해 실학을 중심으로 조선 후기 사회 모습을 이해함.
+    channel: 공부방찐천재
+  - key: v13
+    stage: 탐구하기2
+    title: 흥선대원군은 어떤 정책을 펼쳤을까?
+    url: https://www.youtube.com/watch?v=_-WVJpwjJXs
+    desc: 흥선대원군에 대한 인물 탐구를 통해 조선을 개혁하기 위한 노력과 외세에 대한 대응 과정을 탐구함.
+    channel: 공부방찐천재
+  - key: v14
+    stage: 탐구하기2
+    title: 동학 농민 운동은 왜 일어났을까?
+    url: https://www.youtube.com/watch?v=m-YBfKWlyCQ
+    desc: 동학 농민 운동의 전개 과정과 결과를 알아보며 정리함.
+    channel: 지니스쿨 역사 GeniSchool History
+  - key: v15
+    stage: 탐구하기2
+    title: 갑신정변에 참여한 사람들은 어떤 선택을 했을까?
+    url: https://www.youtube.com/watch?v=lRS0v0_IgVA
+    desc: 갑신정변에 참여한 사람들의 선택을 살펴보고 인물의 가치관을 탐구함.
+    channel: 밀크티타임
+  - key: v16
+    stage: 탐구하기2
+    title: 갑신정변의 전개 과정
+    url: https://www.youtube.com/watch?v=xpkINLZuzN8
+    desc: 갑신정변의 전개 과정과 결과를 알아보며 정리함.
+    channel: KBS 히스토리
+  - key: v17
+    stage: 탐구하기2
+    title: 갑오개혁은 어떤 과정으로 전개되었을까?
+    url: https://www.youtube.com/watch?v=1tuF4f-HA_c
+    desc: 대한 제국 시기 자주독립과 근대화를 위한 노력인 갑오개혁에 대해 이해함.
+    embed: false
+    channel: 클래스로그
+  - key: v18
+    stage: 탐구하기2
+    title: 독립 협회와 만민공동회
+    url: https://www.youtube.com/watch?v=BQ41eKMvd_0
+    desc: 독립협회와 만민공동회에 대해 알아봄.
+    channel: 지니스쿨 역사 GeniSchool History
+  - key: v19
+    stage: 탐구하기2
+    title: 근대 문물의 수용
+    url: https://www.youtube.com/watch?v=kp1MnWGUf1g
+    desc: 개항 이후 조선에 들어온 새로운 교통, 통신, 교육 등의 근대 문물과 사회적 변화에 대해 알아봄.
+    channel: 독립기념관 The Independence Hall of Korea
+  - key: v20
+    stage: 확장하기
+    title: 조선 시대부터 냉면을 시켜 먹었다?
+    url: https://www.youtube.com/watch?v=z-sJXVzkllw
+    desc: 신분과 관계없이 돈을 내고 음식을 배달시켜 먹던 조선 후기인들의 일상을 탐구함.
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v21
+    stage: 확장하기
+    title: 조선 시대 감염병과 방역
+    url: https://www.youtube.com/watch?v=Auy7GspB7j8
+    desc: 우리 역사 속에서 감염병이 어떻게 발생했고, 조상들이 이를 극복하기 위해 어떤 체계와 지혜를 모았는지 탐구함.
+    channel: 국사편찬위원회 National Institute of Korean History
+quiz:
+  - statement: 조선 후기에는 상업과 시장이 발달하면서 사람들의 생활이 달라졌다.
+    answer: O
+    explain: 상품 유통과 화폐 사용이 늘며 경제생활과 도시 모습이 변화했다.
+  - statement: 조선 후기에는 신분제가 처음보다 더 엄격해져 신분 이동이 전혀 없었다.
+    answer: X
+    explain: 경제와 사회 변화 속에서 신분 질서가 흔들리고 신분 이동도 나타났다.
+  - statement: 서민 문화의 발달은 판소리와 탈놀이, 민화 등에서 확인할 수 있다.
+    answer: O
+    explain: 서민의 생각과 생활을 담은 다양한 문화가 널리 발달했다.
+  - statement: 실학자들은 현실의 문제를 해결하고 생활을 개선하는 방법에 관심을 가졌다.
+    answer: O
+    explain: 농업, 상공업, 제도 개혁 등 실제 생활에 도움이 되는 방안을 연구했다.
+  - statement: 개항 뒤 들어온 근대 문물은 교통과 통신, 교육, 생활 모습에 변화를 주었다.
+    answer: O
+    explain: 전차, 전신, 근대 학교와 같은 새로운 시설과 제도가 등장했다.
+  - statement: 근대 문물을 받아들이는 과정에서는 갈등이나 반대가 전혀 없었다.
+    answer: X
+    explain: 변화를 받아들이는 방법과 속도를 두고 여러 집단 사이에 갈등이 있었다.
+  - statement: 조선 후기의 사회 변화를 알아보려면 왕의 기록만 살피면 충분하다.
+    answer: X
+    explain: 시장, 풍속화, 문학, 생활 도구 등 다양한 자료를 함께 살펴야 한다.

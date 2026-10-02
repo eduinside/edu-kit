@@ -1,0 +1,145 @@
+id: so3121
+title: 2-1. 시간의 흐름 속에서 만나는 역사
+grade: 3
+sem: 1학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 일상 속의 주변 사례를 활용해 과거와 현재의 거리감 등 시간의 흐름을 경험하며 역사의 시간 개념을 이해한다.
+  core_question: 오래된 물건과 자료는 과거에 대해 무엇을 알려 주며, 우리 지역의 생활 모습은 시간에 따라 어떻게 달라졌을까?
+  concepts:
+    - term: 시간의 흐름
+      def: 지나간 일과 지금 일어나는 일 사이에 시간이 차례대로 흘러가는 것을 말해요. 식물이 자라거나 사람이 나이를 먹는 것처럼 과거에서 현재로 시간이 흐르면서 모습이 조금씩 달라져요.
+    - term: 역사
+      def: 옛날부터 지금까지 사람들이 살아온 이야기와 일어난 일들을 말해요. 오래된 물건이나 사진, 기록을 살펴보면 과거에 어떤 일이 있었는지 알 수 있어요.
+  standards:
+    - code: "[4사02-01]"
+      text: 일상 속에서 시간의 흐름을 경험할 수 있는 사례를 살펴보고, 이를 바탕으로 역사의 시간 개념을 이해한다.
+stages:
+  - 시간의 흐름
+  - 역사
+items:
+  - key: v1
+    stage: 시간의 흐름
+    title: 83일동안 해바라기가 크는 과정 지켜보기
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=CfLvOwzufIM
+    desc: 해바라기가 크는 과정을 타임랩스로 지켜보며 시간의 흐름을 느낄 수 있는 영상
+    channel: Play Earth
+  - key: v2
+    stage: 시간의 흐름
+    title: 25일 동안 콩의 변화 모습 한눈에 보기
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=w77zPAtVTuI
+    desc: 25일 동안 콩이 크는 과정을 타임랩스로 보며 시간의 흐름을 느낄 수 있는 영상
+    channel: GPhase
+  - key: v3
+    stage: 시간의 흐름
+    title: 3년, 1087일 동안의 키위, 블루베리, 수박의 모습 한눈에 보기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tcY7fJUZbPM
+    desc: 3년 동안 키위, 블루베리, 수박이 자라는 모습을 보며 시간의 흐름을 느낄 수 있는 영상
+    channel: Interesting as FCK
+  - key: v4
+    stage: 시간의 흐름
+    title: 도시 탄생의 모습을 빠르게 지켜보기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=f01s--yt5fc
+    desc: 도시가 생겨나고 발달되는 과정을 타임랩스로 지켜보며 시간의 흐름과 역사를 느낄 수 있는 영상
+    channel: 화성특례시 · 화성온TV
+  - key: v5
+    stage: 시간의 흐름
+    title: 1분안에 보는 세종시청 건설 과정
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=RCPJnnm5REw
+    desc: 세종시청 건설 과정 타임랩스를 통해 느끼는 시간의 흐름
+    channel: 세종특별자치시
+  - key: v6
+    stage: 시간의 흐름
+    title: 2분만에 보는 경주월드 놀이시설 건설 과정
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tEsHqTGWm5U
+    desc: 경주월드의 놀이 기구 건설 과정 타임랩스를 통해 느끼는 시간의 흐름
+    channel: 경주월드(Gyeongju World)
+  - key: v7
+    stage: 시간의 흐름
+    title: 14초로 보는 롯데월드타워 건설 과정
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=jzfcQAKjyPY
+    desc: 롯데월드 타워의 건설 과정 타임랩스를 통해 느끼는 시간의 흐름
+    channel: 디지틀조선일보
+  - key: v8
+    stage: 역사
+    title: 20년 동안 매일 ‘셀카’를 찍어 인생을 기록한다면?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=YXREm4S_kJI
+    desc: 20년 동안 계속해서 셀카를 찍어 인생을 기록한 사람의 영상을 보며 '역사' 느끼기
+    channel: KBS News
+  - key: v9
+    stage: 역사
+    title: 과거에 찍은 사진과 똑같이 가족 사진을 찍는다면 무엇이 다를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qdFXkMbNesc
+    desc: 과거와 똑같은 포즈로 찍은 가족 사진을 보며 역사 느끼기
+    channel: 국민일보
+  - key: v10
+    stage: 역사
+    title: 100년 전 옛 서울의 모습은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=kUTGmFKnSRw
+    desc: 100년 전 서울의 모습과 지금 서울의 모습을 비교하는 영상을 보며 역사와 시간의 흐름 느끼기
+    channel: SBS 뉴스
+  - key: v11
+    stage: 역사
+    title: 추억의 사진 다시 찍기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=x0oxBExJs_w
+    desc: 추억의 사진을 다시 재현하는 모습을 보며 역사 느끼기
+    channel: 한국전력 KEPCO
+  - key: v12
+    stage: 역사
+    title: 과거와 현재가 공존하는 '옛날 사진 재현하기'
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=WFkAp9eAogw
+    desc: 예전에 찍었던 사진을 다시 재현하는 모습을 보며 역사 느끼기
+    channel: KTV 정책 K
+  - key: v13
+    stage: 역사
+    title: 백제역사문화관에서 설명하는 백제의 역사 연표로 정리하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=3mLIvbQO2lQ
+    desc: 백제의 역사를 연표 형식으로 정리된 영상을 보며 '연표'가 무엇인지 이해하기
+    channel: 백제문화단지
+  - key: v14
+    stage: 역사
+    title: 35년간 같은 장소에서 사진 찍은 중국 부녀의 모습
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=SSqPhtr_o9k
+    desc: 35년간 같은 장소에서 사진을 찍은 중국 부녀의 모습을 보며 시간의 흐름 느끼기
+    channel: 연합뉴스TV
+quiz:
+  - statement: 시간은 과거에서 현재로 차례대로 흘러간다.
+    answer: O
+    explain: 시간은 지나간 과거에서 지금의 현재 쪽으로 차례대로 흐릅니다.
+  - statement: 오래된 사진이나 물건을 보면 과거의 생활 모습을 알 수 있다.
+    answer: O
+    explain: 옛날 사진과 오래된 물건은 과거의 생활 모습을 알려 주는 자료입니다.
+  - statement: 우리 지역의 생활 모습은 시간이 지나도 전혀 달라지지 않는다.
+    answer: X
+    explain: 지역의 생활 모습은 시간이 흐르면서 조금씩 달라집니다.
+  - statement: 역사는 옛날부터 지금까지 사람들이 살아온 이야기를 담고 있다.
+    answer: O
+    explain: 역사는 옛날부터 지금까지 사람들이 겪은 일과 살아온 이야기를 담고 있습니다.
+  - statement: 식물이 자라는 모습을 며칠 동안 지켜보면 시간이 흐른다는 것을 느낄 수 있다.
+    answer: O
+    explain: 식물이 자라며 변하는 모습을 보면 시간이 흐른다는 것을 느낄 수 있습니다.
+  - statement: 같은 장소를 오랜 시간이 지난 뒤에 다시 보면 모습이 달라져 있을 수 있다.
+    answer: O
+    explain: 도시나 건물처럼 같은 장소도 시간이 흐르면 모습이 변할 수 있습니다.
+  - statement: 역사는 미래에 일어날 일만을 다루고 과거의 일은 다루지 않는다.
+    answer: X
+    explain: 역사는 미래의 일이 아니라 과거에 실제로 일어난 일을 다룹니다.

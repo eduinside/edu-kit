@@ -1,0 +1,206 @@
+id: sc3221
+title: 2. 지구와 바다
+grade: 3
+sem: 2학기
+subject: 과학
+unit: 지구와 바다
+unit_no: 2
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 우리가 살아가는 지구와 바다의 모습을 이해하고, 그 중요성과 특성을 알아보는 단원입니다. 지구를 둘러싸고 있는 대기, 육지와 바다의 크기, 바닷물의 특성 및 바다에서 볼 수 있는 다양한 지형들, 밀물과 썰물의 차이, 갯벌의 가치와 보전의 필요성 등을 탐구하며 지구 환경에 대한 관심과 이해를 높여 봅니다.
+  core_question: 지구의 육지와 바다는 어떤 특징을 지니며, 우리는 그 가치를 어떻게 지켜 가야 할까?
+  concepts:
+    - term: 지구
+      def: 우리가 살고 있는 둥근 모양의 행성이에요. 육지와 바다로 이루어져 있고, 공기인 대기가 둘러싸고 있어요.
+    - term: 육지
+      def: 바다가 아닌, 물에 잠기지 않은 땅이에요. 우리가 발을 딛고 살아가는 흙과 돌로 된 부분이에요.
+    - term: 대기
+      def: 지구를 둘러싸고 있는 공기의 층이에요. 우리가 숨 쉬는 데 필요한 산소가 이 대기 속에 들어 있어요.
+    - term: 바다
+      def: 짠물이 넓고 깊게 모여 있는 곳이에요. 지구 표면에서 육지보다 더 넓은 부분을 차지하고 있어요.
+    - term: 바닷물
+      def: 바다를 채우고 있는 물이에요. 소금이 녹아 있어서 짠맛이 나고, 강이나 호수의 물과 다르게 짭니다.
+    - term: 밀물과 썰물
+      def: 바닷물이 하루에 두 번 정도 들어왔다 나갔다 하는 현상이에요. 바닷물이 밀려와 높아지는 것을 밀물, 빠져나가 낮아지는 것을 썰물이라고 해요.
+    - term: 갯벌
+      def: 바닷가에서 썰물 때 바닷물이 빠지면 드러나는 넓고 평평한 진흙 땅이에요. 여러 생물이 살아가는 소중한 곳이라 잘 지켜야 해요.
+  standards:
+    - code: "[4과06-01]"
+      text: 지구가 대기로 둘러싸여 있음을 알고, 지구 표면을 구성하는 육지와 바다의 특징을 비교할 수 있다.
+    - code: "[4과06-02]"
+      text: 바닷물의 특징을 육지의 물과 비교하고, 바닷가에서 볼 수 있는 다양한 지형을 조사할 수 있다.
+    - code: "[4과06-03]"
+      text: 밀물과 썰물의 차이를 알고, 갯벌의 가치와 보전의 필요성을 설득⋅홍보할 수 있다.
+stages:
+  - 지구
+  - 육지
+  - 대기
+  - 바다
+  - 바닷물
+  - 밀물과 썰물
+  - 갯벌
+items:
+  - key: v1
+    stage: 지구
+    title: 지구는 어떻게 탄생했을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ZknwqieFqwk
+    desc: 지구의 탄생 과정을 살펴보며 지구에 대한 흥미를 유발한다.
+    channel: EBS 컬렉션 - 사이언스
+  - key: v2
+    stage: 지구
+    title: 우주에서 바라본 지구는 어떤 모습일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Okvep4824AY
+    desc: 우주에서 바라본 지구의 모습을 관찰한다.
+    channel: 2MB Studio
+  - key: v3
+    stage: 지구
+    title: 대한민국이 쏘아올린 인공위성, 천리안 2A에서 바라보는 지구의 모습은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Qi9-K7M4K_U
+    desc: 고도 3만 6천 km 떨어진 곳에 있는 인공위성이 보는 지구의 모습을 관찰한다. 지구의 육지와 바다 모습을 관찰할 수 있다.
+    channel: 한국항공우주연구원 KARI TV
+  - key: v13
+    stage: 육지
+    title: 바닷물과 육지 물, 지하수의 차이는 무엇일까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=9TfET1D_Qdo
+    desc: 지구에 있는 바닷물과 다른 물, 육지 물인 지하수의 특징을 알아보는 영상으로, 지하수는 다양한 산업 용수로 쓰이거나 생태계를 유지하는 역할을 한다.
+    channel: YTN 사이언스
+  - key: v4
+    stage: 대기
+    title: 지구에 산소는 어떻게 생겨나게 되었을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=YHMkUR7UtYg
+    desc: 지구가 처음 탄생했을 때는 산소가 거의 없었지만, 수십억년 전 고대의 생물이 빛으로 에너지를 얻기 시작하면서 노폐물을 생산하기 시작하는데, 그 노폐물이 바로 산소입니다.
+    channel: 내셔널지오그래픽 - National Geographic Korea
+  - key: v5
+    stage: 대기
+    title: 지구의 대기 중 하나인 오존층이 없어진다면 어떻게 될까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=3K9hGeGdR7A
+    desc: 태양이 내뿜는 치명적인 자외선을 차단하는 지구 대기의 '오존층'에 대해 설명하는 영상으로, 만약 오존층이 사라진다면 지구에는 어떠한 생명체도 살 수 없게 된다.
+    channel: 내셔널지오그래픽 - National Geographic Korea
+  - key: v6
+    stage: 바다
+    title: 바다에서만 파도가 치는 이유는 무엇일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=5ZnS0NwmX3A
+    desc: 땅에서는 볼 수 없는 바다의 자연현상, 파도는 바람에 의한 운동 에너지로 발생한다.
+    channel: YTN 사이언스
+  - key: v7
+    stage: 바다
+    title: 바다가 사라진다면 어떻게 될까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=MasYZMfgTvM
+    desc: 지구에서 바다가 사라진다면 세상은 뜨겁게 타올라 생명체가 살기 힘든 곳이 되어 버린다.
+    channel: 해양수산부
+  - key: v8
+    stage: 바다
+    title: 바다는 왜 짜고, 푸른 색일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=SeCzKDIXwZk
+    desc: 바닷물이 짠 이유와 관련된 전래동화부터 과학적 사실까지 바다의 신비를 풀어내 본다.
+    channel: YTN 사이언스 투데이
+  - key: v9
+    stage: 바다
+    title: "바다가 만든 우리나라 땅의 모습 : 해안 동굴, 해식 아치, 해식 기둥"
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ZipcxDhnjUI
+    desc: 바다가 만든 지형과 지질의 모습으로, 해식 동굴, 해식 아치, 해식 기둥을 관찰한다.
+    channel: 국가지질공원
+  - key: v10
+    stage: 바다
+    title: "바다가 만든 우리나라 땅의 모습 : 해식 절벽, 해식 대지, 해안 단구"
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=UEiaYCJvulg
+    desc: 바다가 만든 지형과 지질의 모습으로, 해식 절벽, 해식 대지, 해안 단구를 관찰한다.
+    channel: 국가지질공원
+  - key: v11
+    stage: 바닷물
+    title: 바닷물로 어떻게 소금을 만들까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=KJ4EAAukhYQ
+    desc: 바닷물을 이용해 우수한 소금을 만들어 내는 방법과 그 과정을 알아본다.
+    channel: YTN 사이언스
+  - key: v12
+    stage: 바닷물
+    title: 옛날 우리 조상님들은 어떻게 소금을 만들었을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=XrRyQInY3Rw
+    desc: 바닷물을 끓여서 소금을 만드는 자염, 우리나라 전통방식의 소금을 만드는 방법을 알아본다.
+    channel: YTN 사이언스
+  - key: v14
+    stage: 밀물과 썰물
+    title: 밀물과 썰물에 들어있는 수학 원리?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=M-d68eENoao
+    desc: 밀물과 썰물의 원리에 들어 있는 수학적 원리, 연쇄 작용을 알아본다.
+    channel: YTN 사이언스
+  - key: v15
+    stage: 밀물과 썰물
+    title: 전세계에서 밀물과 썰물의 차이가 가장 큰 곳은?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=JAKSM-qnQNw
+    desc: 캐나다에 있는 펀디 만(Bay of Fundy)의 조수 간만의 차는 세계 최고인 16m이다.
+    channel: EBS 컬렉션 - 사이언스
+  - key: v16
+    stage: 갯벌
+    title: 유네스코 세계자연유산 목록에 등재된 한국의 갯벌, 도대체 왜?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=b88F_37VOaY
+    desc: 유네스코 세계자연유산 목록에 등재된 한국의 갯벌. 하지만 30년 사이 23%나 감소해 점점 줄어들고 있다.
+    channel: 14F 일사에프
+  - key: v17
+    stage: 갯벌
+    title: 상상을 뛰어 넘는 갯벌의 가치!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=NVH2DTDXJFM
+    desc: 예전에는 쓸모없는 땅 취급을 받았지만, 지금은 다양한 역할을 하며 중요한 가치를 가진 갯벌에 대해 알아본다.
+    channel: 해양수산부
+  - key: v18
+    stage: 갯벌
+    title: 갯벌에서 생물들은 어떻게 살아갈까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=5khTJL56t3o
+    desc: 물이 수시로 들어오고 여름에는 펄펄 뜨겁고, 겨울에는 꽁꽁 어는 척박한 갯벌 환경에서 게, 갯지렁이, 고둥, 조개 등은 '서식굴' 속에서 살아간다.
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v19
+    stage: 갯벌
+    title: 갯벌에서 기어다니는 물고기가 있다고? 말뚝망둥어의 짝을 찾기 위한 여정!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=7pd_b9BMk2A
+    desc: 갯벌에 대한 흥미를 유발하는 영상으로, 말뚝망둥어의 모습을 살펴 본다.
+    channel: 내셔널지오그래픽 - National Geographic Korea
+  - key: v20
+    stage: 갯벌
+    title: 갯벌에도 멸종 위기 동물들이 많다고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=qmtG8ScA3zg
+    desc: 멸종위기 동식물들의 터전인, 한국 갯벌의 다양한 생명체들의 모습을 관찰한다.
+    channel: 환경스페셜
+quiz:
+  - statement: 지구는 공기인 대기로 둘러싸여 있다.
+    answer: O
+    explain: 지구는 산소가 들어 있는 대기로 둘러싸여 있다.
+  - statement: 지구 표면은 육지와 바다로 이루어져 있다.
+    answer: O
+    explain: 지구 표면은 땅인 육지와 짠물인 바다로 나뉜다.
+  - statement: 바닷물은 소금이 녹아 있어서 짠맛이 난다.
+    answer: O
+    explain: 바닷물에는 소금이 녹아 있어 강물과 달리 짜다.
+  - statement: 강물과 호수의 물은 바닷물처럼 짜다.
+    answer: X
+    explain: 강물과 호수의 물은 짜지 않고, 바닷물만 짜다.
+  - statement: 바닷물이 밀려와 높아지는 것을 밀물이라고 한다.
+    answer: O
+    explain: 바닷물이 들어와 높아지는 것이 밀물, 빠져 낮아지는 것이 썰물이다.
+  - statement: 갯벌은 바닷물이 들어오는 밀물 때 더 잘 드러난다.
+    answer: X
+    explain: 갯벌은 바닷물이 빠지는 썰물 때 드러난다.
+  - statement: 갯벌은 여러 생물이 살아가는 소중한 곳이라 잘 지켜야 한다.
+    answer: O
+    explain: 갯벌은 가치가 높아 보전이 필요한 소중한 곳이다.

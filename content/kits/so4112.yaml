@@ -1,0 +1,172 @@
+id: so4112
+title: 1-2. 지도로 살펴보는 우리 지역의 정보
+grade: 4
+sem: 1학기
+subject: 사회
+unit: 1단원
+unit_no: 1
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 위치, 지형, 면적, 인구, 기온, 강수량과 같은 지리 정보의 종류와 의미를 이해하는 것을 목표로 합니다. 또한, 우리 지역의 지리 정보를 다른 지역과 비교하면서 지역의 특징을 탐색하도록 합니다. 이를 위해 위치, 지형, 면적, 인구, 기온, 강수량의 개념을 배우고, 학생들이 직접 지역의 지리 정보를 찾아볼 수 있도록 합니다. 이렇게 얻은 정보를 바탕으로 우리 지역과 다른 지역을 비교하며, 우리 지역만의 특징을 이해하는 데 중점이 있습니다.
+  core_question: 지도를 이용하면 우리 지역의 모습과 정보를 어떻게 파악할 수 있을까?
+  concepts:
+    - term: 위치
+      def: 어떤 곳이 지구나 지도 위에서 자리 잡고 있는 자리를 말해요. 우리 지역이 우리나라 안에서 어디에 있는지 알려 줍니다.
+    - term: 면적
+      def: 어떤 지역이 차지하는 땅의 넓이를 말해요. 면적이 넓으면 그만큼 차지하는 땅이 큰 지역이에요.
+    - term: 인구
+      def: 어떤 지역에 사는 사람들의 수를 말해요. 인구가 많으면 사람이 많이 사는 지역이에요.
+    - term: 지형
+      def: 산, 들, 강, 바다처럼 땅의 생긴 모습을 말해요. 지역마다 지형이 서로 달라요.
+    - term: 기온
+      def: 공기의 따뜻하고 차가운 정도를 숫자로 나타낸 것이에요. 기온이 높으면 덥고, 낮으면 추워요.
+    - term: 강수량
+      def: 비나 눈이 일정한 기간 동안 내린 양을 말해요. 강수량이 많으면 비나 눈이 많이 내린 지역이에요.
+    - term: 지리정보
+      def: 위치, 지형, 면적, 인구, 기온, 강수량처럼 어떤 지역에 대해 알 수 있는 여러 가지 정보를 말해요. 지도를 이용하면 지리 정보를 쉽게 찾아볼 수 있어요.
+    - term: 행정구역
+      def: 나라를 잘 다스리기 위해 나누어 놓은 지역의 구역이에요. 시, 도, 군, 구처럼 정해진 이름과 경계가 있어요.
+    - term: 시도
+      def: 우리나라를 크게 나눈 행정구역으로, 특별시·광역시·도 등을 말해요. 대구광역시도 시도 중 하나예요.
+    - term: 시군구
+      def: 시도를 다시 더 작게 나눈 행정구역으로, 시·군·구를 말해요. 우리가 사는 동네는 이 시군구 안에 속해 있어요.
+  standards:
+    - code: "[4사05-02]"
+      text: 지도에서 우리 지역의 위치를 파악하고, 우리 지역의 지리 정보를 탐색한다.
+stages:
+  - 위치
+  - 면적
+  - 인구
+  - 지형
+  - 기온
+  - 강수량
+items:
+  - key: v1
+    stage: 위치
+    title: 대구의 위치와 특성
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=gkMDWO-F7FM
+    desc: 위치의 뜻과 대구광역시의 지리적 위치를 다루는 영상
+    channel: 대구미래교육연구원
+  - key: v3
+    stage: 면적
+    title: 대구의 면적
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-PPFXGQX_CY
+    desc: 면적의 뜻과 대구광역시 내 행적구역별 면적, 군위군 통합 후 면적의 변화를 다룬 영상
+    channel: 대구미래교육연구원
+  - key: v4
+    stage: 면적
+    title: 대구시 면적, 전국 특·광역시 중 가장 넓어져
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=R8XgSTrPGzQ
+    desc: 군위군이 대구광역시에 편입되면서 특/광역시 중 가장 넓은 면적을 갖게 되었음을 다룬 영상
+    channel: 대구MBC뉴스
+  - key: v5
+    stage: 인구
+    title: 대구의 인구
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=R4SWlQx_Nxs
+    desc: 인구의 뜻과 우리나라 인구의 변화, 주요 도시들의 인구, 대구의 인구 변화를 다룬 영상
+    channel: 대구미래교육연구원
+  - key: v6
+    stage: 인구
+    title: 대구, 3대 도시 위상 바뀌나?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Qm7LXVQaItU
+    desc: 3대 도시로 꼽혔던 대구, 인구 변화가 생기면서 그 위상이 달라지고 있음을 다룬 영상
+    channel: dgmbcnews
+  - key: v7
+    stage: 인구
+    title: 대구 인구 240만 명도 위험
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Ut6mzKVh7lU
+    desc: 학년성에 맞는 대구광역시 내 행정구역별 인구 증감을 다룬 영상
+    channel: ch B tv 대구
+  - key: v8
+    stage: 인구
+    title: 대도시에도 '분교'가? 학령인구 급감 이렇게까지
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ztxVBNX8RWc
+    desc: 대구광역시의 학령 인구 감소를 다룬 영상
+    channel: KBS News
+  - key: v9
+    stage: 인구
+    title: 동그라미로 보는 경상북도(+대구) 시군별 인구 변화 (1966-2019)
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=9S08EpIXu6g
+    desc: 1966~2019년 대구광역시와 경상북도 시군구의 인구 변화를 수로 보여주는 영상
+    channel: 데이터다람쥐
+  - key: v10
+    stage: 인구
+    title: 동그라미로 보는 대구 구군별 인구 변화 (1966-2020)
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=StThIsZPPLk
+    desc: 1966~2020년 대구광역시 내 구,군의 인구 변화를 수로 보여주는 영상
+    channel: 데이터다람쥐
+  - key: v2
+    stage: 지형
+    title: 대구의 지형적 특징
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=QOsiaxFwDuM
+    desc: 대구광역시 땅의 모양을 다루는 영상
+    channel: 대구미래교육연구원
+  - key: v11
+    stage: 기온
+    title: 대구의 기온과 강수량
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ENOlRGRrtv4
+    desc: 기온과 강수량의 뜻, 대구광역시의 기온과 강수량 특징을 다룬 영상
+    channel: 대구미래교육연구원
+  - key: v12
+    stage: 기온
+    title: ‘대프리카’ 더위에 현실이 된 대구산 바나나
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=xzdX69HTGQA
+    desc: 대구의 더위를 다운 영상
+    channel: 채널A News
+  - key: v13
+    stage: 기온
+    title: 대프리카는 이제 옛말. 폭염일수 1위 타도시로 넘겨줘
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=K0vYyMY_KZc
+    desc: 가장 더운 도시로 유명했던 대구를 소개하고 타 지역의 기온과 비교하는 영상
+    channel: ch B tv 대구
+  - key: v14
+    stage: 기온
+    title: 대구는 왜 더운 것일까?(분지 지형, 푄 현상, 도시 열섬 현상)
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=FH1kbsJmObk
+    desc: 대구가 유난히 더운 이유를 설명하는 영상으로 대구의 기온 특징에 대해 심화적으로 다룬 영상
+    channel: 은근한 잡다한 지식
+  - key: v15
+    stage: 강수량
+    title: 전국 대부분 지역에 눈 내린다는데 부산엔 왜 안 오는 걸까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=PpjmkI2cktw
+    desc: 부산에 눈이 적게 오는 이유를 다루는 영상으로, 대구에 눈이 적게 오는 이유와도 같아 학생들에게 유익할 것으로 기대됨
+    channel: 크랩 KLAB
+quiz:
+  - statement: 지도를 이용하면 우리 지역의 위치와 여러 가지 정보를 파악할 수 있다.
+    answer: O
+    explain: 지도를 이용해 지역의 위치와 지리 정보를 탐색하는 것이 이 단원의 목표예요.
+  - statement: 인구는 어떤 지역에 사는 사람들의 수를 뜻한다.
+    answer: O
+    explain: 인구는 그 지역에 사는 사람들의 수를 말해요.
+  - statement: 면적은 어떤 지역에 사는 사람들의 수를 나타내는 말이다.
+    answer: X
+    explain: 면적은 땅의 넓이를 뜻하고, 사람 수는 인구예요.
+  - statement: 강수량은 비나 눈이 내린 양을 나타내는 정보이다.
+    answer: O
+    explain: 강수량은 비나 눈이 내린 양을 말해요.
+  - statement: 산, 들, 강처럼 땅의 생긴 모습을 지형이라고 한다.
+    answer: O
+    explain: 지형은 산, 들, 강, 바다처럼 땅의 생긴 모습을 뜻해요.
+  - statement: 기온이 높을수록 그 지역의 날씨는 더 춥다.
+    answer: X
+    explain: 기온이 높으면 덥고, 기온이 낮을수록 추워요.
+  - statement: 시·도는 시·군·구보다 더 작은 행정구역이다.
+    answer: X
+    explain: 시·도가 더 큰 구역이고, 그 안을 다시 나눈 것이 시·군·구예요.

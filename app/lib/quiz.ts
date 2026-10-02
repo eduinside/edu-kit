@@ -1,5 +1,5 @@
 // 개념 확인 OX 퀴즈 — 뷰어 전용(quiz.json). kit-content.ts와 마찬가지로 ViewerPage(lazy)만 import해
-// 홈 번들에 섞이지 않게 분리. quiz.json은 빌드 산출물(prebuild=sheet-to-json이 생성).
+// 홈 번들에 섞이지 않게 분리. quiz.json은 빌드 산출물(prebuild=build-data가 content/kits/*.yaml에서 생성).
 import quiz from "../../data/quiz.json";
 import type { QuizItem } from "../../scripts/types.ts";
 

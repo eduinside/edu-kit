@@ -1,0 +1,181 @@
+id: sc6131
+title: 3. 식물의 구조와 기능
+grade: 6
+sem: 1학기
+subject: 과학
+unit: 식물의 구조와 기능
+unit_no: 3
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 식물이 세포로 이루어진 다세포 생물임을 이해하고, 세포·조직·기관의 구조와 기능을 관찰합니다. 식물의 생태적 가치와 생명 존중의 태도를 기를 수 있도록 탐구합니다.
+  core_question: 식물은 어떤 구조로 이루어져 있으며, 각 기관은 어떤 기능을 할까?
+  concepts:
+    - term: 세포
+      def: 세포는 모든 생물의 몸을 이루는 가장 작은 기본 단위예요. 식물도 수많은 세포가 모여서 만들어진 다세포 생물이에요.
+    - term: 현미경
+      def: 현미경은 맨눈으로 볼 수 없는 아주 작은 것을 크게 확대해서 보여 주는 도구예요. 작은 세포를 관찰할 때 사용해요.
+    - term: 뿌리
+      def: 뿌리는 식물을 땅에 단단히 고정하고, 흙 속의 물과 양분을 빨아들이는 일을 해요. 빨아들인 물은 줄기를 통해 위로 올라가요.
+    - term: 줄기
+      def: 줄기는 식물의 몸을 받쳐 주고, 뿌리에서 빨아들인 물과 잎에서 만든 양분이 이동하는 통로 역할을 해요.
+    - term: 잎
+      def: 잎은 빛을 받아 식물이 살아가는 데 필요한 양분을 스스로 만들어요. 또 잎에서는 물이 수증기로 빠져나가기도 해요.
+    - term: 꽃
+      def: 꽃은 씨를 만들어 자손을 남기는 일을 하는 기관이에요. 꽃가루받이가 이루어지면 열매와 씨가 생겨요.
+    - term: 씨
+      def: 씨는 새로운 식물로 자라날 수 있는 어린 식물이 들어 있는 부분이에요. 알맞은 환경을 만나면 싹이 터서 자라요.
+    - term: 여러가지 식물
+      def: 식물마다 사는 곳과 생김새, 살아남는 방법이 서로 달라요. 다양한 식물의 특징을 비교하며 식물의 여러 모습을 알 수 있어요.
+  standards:
+    - code: "[6과11-01]"
+      text: 생물을 이루고 있는 기본 단위인 세포를 현미경으로 관찰할 수 있다.
+    - code: "[6과11-02]"
+      text: 식물의 각 기관의 구조를 관찰하고, 기능을 알아보는 실험을 수행하여 식물 각 기관의 구조와 기능을 설명할 수 있다.
+    - code: "[6과11-03]"
+      text: 여러 가지 식물의 특징을 설명하는 자료를 만들어 공유할 수 있다.
+stages:
+  - 세포
+  - 현미경
+  - 뿌리
+  - 줄기
+  - 잎
+  - 꽃
+  - 씨
+  - 여러가지 식물
+items:
+  - key: v1
+    stage: 세포
+    title: 식물세포와 동물세포
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=FhK5Ae8Vt6o
+    desc: 식물세포와 동물세포 비교 설명 영상
+    channel: 참쌤스쿨
+  - key: v2
+    stage: 세포
+    title: 우리 몸은 무엇으로 구성되어 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=UwZ2x15yTpY
+    desc: 우리 몸의 가장 작은 단위인 세포 설명 영상
+    channel: YTN 사이언스
+  - key: v3
+    stage: 현미경
+    title: 살아있는 세포를 실시간 관찰하는 공초점 현미경
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=mz_Nne26Dj8
+    desc: 현미경 실험 전 동기유발 영상
+    channel: YTN 사이언스
+  - key: v4
+    stage: 뿌리
+    title: 식물 뿌리의 작용
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=wpSdGZM881E
+    desc: 식물 뿌리의 작용 탐구 영상
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v5
+    stage: 뿌리
+    title: 식물의 뿌리가 두뇌역할을 한다?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=cx9IZPCfs34
+    desc: 식물 뿌리와 관련한 탐구 영상
+    channel: YTN 사이언스
+  - key: v6
+    stage: 줄기
+    title: 흰 꽃을 무지개 꽃으로 물들이기
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=1rYpsUbWzc0
+    desc: 줄기의 기능 동기유발 영상
+    channel: EBS 키즈
+  - key: v7
+    stage: 줄기
+    title: 영화 속 콩나무는 어떻게 자랄까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=DV_3cr6biTU
+    desc: 줄기의 기능과 연관하여 사고 확장 영상
+    channel: 앙리쌤
+  - key: v8
+    stage: 줄기
+    title: 영화 마션에서는 왜 감자를 재배했을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=43LUIG8Wp6Y
+    desc: 줄기의 다양한 형태와 관련한 영상
+    channel: 앙리쌤
+  - key: v9
+    stage: 잎
+    title: 잎이 하는 일을 알아볼까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=XPkPtPGpsrU
+    desc: 잎의 기능 설명 영상
+    channel: 온클래스
+  - key: v10
+    stage: 꽃
+    title: 7년의 기다림, 타이탄 아룸
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=kouZCt9nRJ8
+    desc: 특이한 꽃의 모습 영상
+    channel: EBS 컬렉션 - 사이언스
+  - key: v11
+    stage: 꽃
+    title: 곤충, 환경의 도움을 받아 번식하는 식물
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Y96oQTADZCg
+    desc: 꽃의 번식 방식을 설명하는 데 활용
+    channel: EBS 컬렉션 - 사이언스
+  - key: v12
+    stage: 꽃
+    title: 꽃이 피는 순간을 살펴볼까요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=h2RMj5sqP8w
+    desc: 꽃이 피는 모습을 관찰하는 데 활용
+    channel: "안녕 마음아 : Healing 4 U"
+  - key: v13
+    stage: 씨
+    title: 스스로 씨앗을 퍼뜨리는 식물들
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=VCN8e5xz0GI
+    desc: 씨가 퍼지는 다양한 모습 영상
+    channel: EBS 컬렉션 - 사이언스
+  - key: v14
+    stage: 씨
+    title: 민들레, 씨가 생기고 날아가는 모습
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=kRCeaZHc16Y
+    desc: 씨가 퍼지는 다양한 모습 영상
+    channel: "안녕 마음아 : Healing 4 U"
+  - key: v15
+    stage: 여러가지 식물
+    title: 식물들은 살아남기 위해 어떤 전략을 가지고 있을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ooOC2uzITpo
+    desc: 다양한 방식으로 살아가는 식물을 소개하는 데 활용
+    channel: EBS 컬렉션 - 사이언스
+  - key: v16
+    stage: 여러가지 식물
+    title: 곤충을 사냥하는 식물, 파리지옥
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ooOC2uzITpo
+    desc: 다양한 방식으로 살아가는 식물을 소개하는 데 활용
+    channel: EBS 컬렉션 - 사이언스
+quiz:
+  - statement: 식물의 몸은 수많은 세포로 이루어져 있다.
+    answer: O
+    explain: 식물은 세포로 이루어진 다세포 생물이에요.
+  - statement: 맨눈으로는 보기 어려운 작은 세포를 관찰할 때 현미경을 사용한다.
+    answer: O
+    explain: 현미경은 작은 것을 크게 확대해 세포를 관찰하게 해 줘요.
+  - statement: 뿌리는 흙 속의 물과 양분을 빨아들이는 일을 한다.
+    answer: O
+    explain: 뿌리는 식물을 고정하고 물과 양분을 흡수해요.
+  - statement: 줄기는 빛을 받아 양분을 직접 만드는 기관이다.
+    answer: X
+    explain: 양분을 만드는 곳은 잎이고, 줄기는 물과 양분이 이동하는 통로예요.
+  - statement: 잎은 빛을 받아 식물에 필요한 양분을 만든다.
+    answer: O
+    explain: 잎은 빛을 이용해 스스로 양분을 만들어요.
+  - statement: 씨는 알맞은 환경에서 싹이 터서 새로운 식물로 자란다.
+    answer: O
+    explain: 씨 속에는 어린 식물이 들어 있어 싹이 트면 자라요.
+  - statement: 모든 식물은 생김새와 사는 곳이 똑같다.
+    answer: X
+    explain: 식물마다 사는 곳과 생김새, 살아남는 방법이 서로 달라요.

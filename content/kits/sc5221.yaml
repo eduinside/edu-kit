@@ -1,0 +1,184 @@
+id: sc5221
+title: 2. 날씨와 우리 생활
+grade: 5
+sem: 2학기
+subject: 과학
+unit: 날씨와 우리 생활
+unit_no: 2
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 자연 현상은 여러 요소가 서로 영향을 주고받는 시스템 속에서 나타나며, 인간의 생활과 끊임없이 상호작용한다.
+  core_question: 서로 영향을 주고받는 자연의 요소들은 우리의 삶과 어떻게 연결될까?
+  concepts:
+    - term: 시스템
+    - term: 상호 작용
+    - term: 날씨
+    - term: 이슬
+    - term: 안개
+    - term: 구름
+    - term: 고기압
+    - term: 저기압
+    - term: 순환
+  standards:
+    - code: "[6과06-01]"
+      text: 기상 요소를 조사하고, 날씨가 우리 생활에 주는 영향을 인식할 수 있다.
+    - code: "[6과06-02]"
+      text: 이슬, 안개, 구름을 관찰하고, 공통점과 차이점을 찾을 수 있다.
+    - code: "[6과06-03]"
+      text: 고기압과 저기압의 분포에 따른 날씨의 특징을 기상 요소로 표현할 수 있다.
+stages:
+  - name: 생각열기
+    question: 일기예보는 어떻게 만들어질까?
+  - name: 탐구하기1
+    question: 날씨는 우리 생활에 어떤 영향을 줄까?
+  - name: 탐구하기2
+    question: 이슬, 안개, 구름은 어떻게 만들어질까?
+  - name: 확장하기
+    question: 지역에 따라 날씨가 다른 까닭은 무엇일까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 일기예보가 만들어지는 과정
+    url: https://www.youtube.com/watch?v=yZ_U9vBRppc
+    desc: 기상 관측부터 슈퍼컴퓨터 분석까지 일기예보가 만들어지는 과정
+    channel: YTN 사이언스
+  - key: v02
+    stage: 생각열기
+    title: 기상청은 24시간 비상 체제 유지
+    url: https://www.youtube.com/watch?v=Rsgkz6iK5iQ
+    desc: 기상청의 24시간 관측 체계와 정확한 예보를 위한 노력
+    channel: YTN 사이언스
+  - key: v03
+    stage: 탐구하기1
+    title: 밤 사이 많은 눈이 내리면 우리 생활은 어떻게 달라질까?
+    url: https://www.youtube.com/watch?v=c0rZ64P6EUs
+    desc: 밤사이 내린 많은 눈이 만든 빙판길과 출근길 주의 사항
+    channel: MBCNEWS
+  - key: v04
+    stage: 탐구하기1
+    title: 폭우와 호우가 발생하면 우리 생활에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=ZLm8UJoPWpk
+    desc: 갑작스러운 폭우로 야구 경기가 취소되어 시민들이 겪은 불편
+    channel: " YTN"
+  - key: v05
+    stage: 탐구하기1
+    title: 내일 뭐 입지? 날씨에 맞는 '기온대별 옷차림'
+    url: https://www.youtube.com/watch?v=0aEFRxhWFJ4
+    desc: 기온대별 알맞은 옷차림과 일교차에 따른 복장 선택법
+    channel: JTBC News
+  - key: v06
+    stage: 탐구하기1
+    title: 안전한 생활을 위한 기상청의 노력
+    url: https://www.youtube.com/watch?v=J_baaZwxgtU
+    desc: 기후 위기에 대응하는 기상청의 예보 기술 발전과 안전 강화 노력
+    channel: 대한민국 기상청
+  - key: v07
+    stage: 탐구하기2
+    title: 찬 이슬 맺히는 절기, 한로
+    url: https://www.youtube.com/watch?v=PPjMdKnUUSs
+    desc: 찬 이슬이 맺히고 서리로 변하는 절기 한로의 의미
+    embed: false
+    status: 임베드차단
+  - key: v08
+    stage: 탐구하기2
+    title: 안개가 잘 생기는 계절과 그 이유
+    url: https://www.youtube.com/watch?v=y_sdpg2taQE
+    desc: 가을철 새벽에 안개가 자주 생기는 까닭
+    channel: JTBC News
+  - key: v09
+    stage: 탐구하기2
+    title: 구름과 안개는 무엇이 다를까?
+    url: https://www.youtube.com/watch?v=MmdKaqLHd1A
+    desc: 구름과 안개의 차이점과 안개가 생기는 원리
+    channel: 대한민국 기상청
+  - key: v10
+    stage: 탐구하기2
+    title: 구름이 발생하는 이유는?
+    url: https://www.youtube.com/watch?v=XbA9jFgEOdU
+    desc: 구름이 만들어지는 과정과 안개와의 차이점
+    embed: false
+    status: 임베드차단
+  - key: v11
+    stage: 탐구하기2
+    title: 안개와 구름이 흰색으로 보이는 이유는?
+    url: https://www.youtube.com/watch?v=tcjZmZ02rxk
+    desc: 빛의 산란으로 안개와 구름이 하얗게 보이는 까닭
+    channel: "채널아하: 채널A Health & Asset"
+  - key: v12
+    stage: 탐구하기2
+    title: 구름의 종류
+    url: https://www.youtube.com/watch?v=qHCs9tbChqY
+    desc: 국제구름도감이 나눈 10가지 구름의 기본 분류
+    channel: YTN 사이언스
+  - key: v13
+    stage: 탐구하기2
+    title: 8월 장마 몰고 온 '블로킹 고기압'
+    url: https://www.youtube.com/watch?v=6ZclVRuav6I
+    desc: 블로킹 고기압이 8월 장마를 부른 까닭
+    channel: SBS 뉴스
+  - key: v14
+    stage: 탐구하기2
+    title: 사계절 중 가장 바람이 센 계절은?
+    url: https://www.youtube.com/watch?v=cuK3zc-5kU4
+    desc: 사계절 중 연중 바람이 가장 센 계절이 봄인 이유
+    channel: 채널A News
+  - key: v15
+    stage: 확장하기
+    title: 날씨에 영향을 주는 요소들
+    url: https://www.youtube.com/watch?v=cKkL44v4xcc
+    desc: 바다·산·도시 등 지역 환경에 따라 날씨가 달라지는 까닭
+    channel: 대한민국 기상청
+  - key: v16
+    stage: 확장하기
+    title: 바닷가에 유독 바람이 강한 이유
+    url: https://www.youtube.com/watch?v=tAZsHLNj5Pc
+    desc: 바다와 육지의 온도 차가 만드는 기압 변화와 해풍의 원리
+    channel: Today Story
+  - key: v17
+    stage: 확장하기
+    title: 좁은 건물 사이에서 바람이 더 강하게 부는 이유
+    url: https://www.youtube.com/watch?v=5cZ3KlFNXVY
+    desc: 좁은 건물 사이에서 바람이 강해지는 베르누이 원리
+    channel: YTN 사이언스
+  - key: v18
+    stage: 확장하기
+    title: 이슬로 물을 만들다, 와카워터의 꿈
+    url: https://www.youtube.com/watch?v=7JscpaUw0LI
+    desc: 이슬을 모아 식수를 얻는 와카워터의 원리
+    channel: EBS뉴스
+  - key: v19
+    stage: 확장하기
+    title: 요트는 어떻게 역풍이 불어도 앞으로 나갈까?
+    url: https://www.youtube.com/watch?v=tCehCDp72nM
+    desc: 삼각돛을 이용해 역풍에서도 요트가 나아가는 방식
+    channel: 해양수산부
+  - key: v20
+    stage: 확장하기
+    title: 바람으로 움직이는 '키네틱 아트'
+    url: https://www.youtube.com/watch?v=uzSoszWTY_4
+    desc: 바람을 동력으로 스스로 움직이는 테오 얀센의 키네틱 아트 작품
+    channel: KBS News
+quiz:
+  - statement: 날씨는 기온, 바람, 구름, 강수 같은 기상 요소로 나타낼 수 있다.
+    answer: O
+    explain: 여러 기상 요소를 함께 관찰하면 날씨의 특징을 설명할 수 있다.
+  - statement: 이슬은 공기 중 수증기가 차가운 물체 표면에서 물방울로 변해 생긴다.
+    answer: O
+    explain: 수증기가 응결하여 풀잎이나 창문 등에 물방울로 맺힌다.
+  - statement: 안개와 구름은 생기는 높이만 다를 뿐 작은 물방울로 이루어진 점은 비슷하다.
+    answer: O
+    explain: 안개는 지표면 가까이에, 구름은 높은 하늘에 생기는 경우가 많다.
+  - statement: 고기압이 있는 곳에서는 공기가 주로 올라가므로 언제나 많은 비가 온다.
+    answer: X
+    explain: 고기압에서는 공기가 주로 내려오며 대체로 맑은 날씨가 나타난다.
+  - statement: 저기압 주변에서는 공기가 올라가 구름이 생기고 흐리거나 비가 올 수 있다.
+    answer: O
+    explain: 상승한 공기가 식으면 수증기가 응결하여 구름과 강수가 생길 수 있다.
+  - statement: 날씨는 옷차림, 교통, 농업과 같은 우리 생활에 영향을 주지 않는다.
+    answer: X
+    explain: 날씨에 따라 옷과 활동, 이동 방법, 농사 계획 등이 달라진다.
+  - statement: 하루의 날씨를 알아보려면 기온 하나만 재고 다른 요소는 볼 필요가 없다.
+    answer: X
+    explain: 바람, 습도, 구름, 강수 등 여러 요소를 함께 살펴야 한다.

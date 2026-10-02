@@ -1,0 +1,137 @@
+id: so4132
+title: 3-2. 지역 간 교류와 상호 의존
+grade: 4
+sem: 1학기
+subject: 사회
+unit: 3단원
+unit_no: 3
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 시장에서 사람들의 모습을 통해 생산과 소비의 개념을 이해하는 것을 목표로 합니다. 우리 주변에서 이루어지는 다양한 생산 활동과 소비 활동을 찾아보며, 이 두 활동이 서로 밀접하게 연결되어 있음을 인식하도록 합니다. 또한, 지역 간의 다양한 인적·물적 교류 사례를 살펴보며, 각 지역과 사람들이 서로 의존하며 살아간다는 것을 배우고, 지역 간 교류의 중요성을 깨닫도록 합니다.
+  core_question: 자원이 한정된 상황에서 우리는 어떻게 합리적으로 선택하며, 지역들은 왜 서로 교류하고 의존할까?
+  concepts:
+    - term: 생산
+      def: 사람들이 생활에 필요한 물건을 만들거나 도움이 되는 서비스를 제공하는 활동이에요. 농부가 곡식을 기르거나 공장에서 과자를 만드는 일이 모두 생산이에요.
+    - term: 소비
+      def: 사람들이 생활에 필요한 물건을 사거나 서비스를 이용하는 활동이에요. 시장에서 과일을 사거나 식당에서 음식을 사 먹는 일이 소비예요.
+    - term: 교류
+      def: 지역과 지역, 사람과 사람이 물건이나 기술, 문화 등을 서로 주고받는 것을 말해요. 한 지역의 생산물이 다른 지역으로 오가는 것이 교류의 한 예예요.
+    - term: 상호의존
+      def: 서로 도움을 주고받으며 함께 살아가는 것을 말해요. 지역마다 잘 만드는 것이 달라서 서로 필요한 것을 주고받으며 의지해 살아가요.
+  standards:
+    - code: "[4사07-02]"
+      text: 생산과 소비 활동을 파악하고, 인적⋅물적 교류의 사례를 통해 각 지역 및 사람들이 상호의존 관계를 맺고 있음을 탐색한다.
+stages:
+  - 생산
+  - 소비
+  - 교류
+  - 수출
+items:
+  - key: v1
+    stage: 생산
+    title: 사회 용어 풀이 - 생산
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=A3gQhj1SJwk
+    desc: 생산의 뜻, 생산이라는 단어의 활용 사레, 생산 활동의 사례와 종류를 다룬 영상
+    channel: 대구미래교육연구원
+  - key: v6
+    stage: 생산
+    title: 대구의 생산물
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=sZbknGI0_Jo
+    desc: 대구의 생산물 예시 4가지와 그 특징을 다룬 영상
+    channel: 대구미래교육연구원
+  - key: v7
+    stage: 생산
+    title: 한 번 보면 계속 보게 된다는 꽃게랑 만드는 과정
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=oK42cXe3NjM
+    desc: 다양한 생산 사례 중 하나인 과자 생산 모습을 다룬 영상
+    channel: 빙그레(Binggrae)
+  - key: v8
+    stage: 생산
+    title: 과일·곡식 수확 한창인 가을 농촌 풍경
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=3HW6Q34zXIA
+    desc: 다양한 생산 사례 중 하나인 농산물 수확 모습을 다룬 영상
+    channel: 연합뉴스TV
+  - key: v9
+    stage: 생산
+    title: 보랏빛 물결 BTS 서울 콘서트
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=r7EKBoFBy8w
+    desc: 다양한 생산 사례 중 하나인 콘서트 모습을 다룬 영상
+    channel: 연합뉴스TV
+  - key: v10
+    stage: 생산
+    title: 미국인도 좋아하는 짜장 볶음밥
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=pAN6lI7S6I4
+    desc: 다양한 생산 사례 중 하나인 요리 만드는 모습을 다룬 영상
+    channel: tvN D ENT
+  - key: v2
+    stage: 소비
+    title: 사회 용어 풀이 - 소비
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=OIeAVZevZL4
+    desc: 소비의 뜻, 소비라는 단어의 활용 사레, 소비 활동의 사례와 종류를 다룬 영상
+    channel: 대구미래교육연구원
+  - key: v11
+    stage: 소비
+    title: 단대목 맞은 전통시장 풍경
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=F_xV-7T9kmQ
+    desc: 다양한 소비 사례 중 하나인 시장 모습을 다룬 영상
+    channel: dgmbcnews
+  - key: v12
+    stage: 소비
+    title: 마트 물가가 이렇게 올랐다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=CdVsjm3TNP4
+    desc: 다양한 소비 사례 중 하나인 마트 모습을 다룬 영상
+    channel: 런닝맨 - 스브스 공식 채널
+  - key: v3
+    stage: 교류
+    title: 사회 용어 풀이 - 시장
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ZnbA77_Wurc
+    desc: 시장의 뜻, 시장이라는 단어의 활용 사레, 시장의 모습과 특징을 다룬 영상
+    channel: 대구미래교육연구원
+  - key: v4
+    stage: 교류
+    title: 사회 용어 풀이 - 교류
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=QZ3PufC1-fM
+    desc: 교류의 뜻, 교류의 실생활 모습과 특징을 다룬 영상
+    channel: 대구미래교육연구원
+  - key: v5
+    stage: 수출
+    title: 사회 용어 풀이 - 수출
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=gI0RLVhons0
+    desc: 수출의 뜻, 수출의 실생활 모습과 특징을 다룬 영상
+    channel: 대구미래교육연구원
+quiz:
+  - statement: 농부가 논에서 벼를 기르는 것은 생산 활동이다.
+    answer: O
+    explain: 필요한 물건을 만들어 내는 활동이므로 생산이 맞아요.
+  - statement: 시장에서 과일을 돈을 내고 사는 것은 소비 활동이다.
+    answer: O
+    explain: 필요한 물건을 사는 활동이므로 소비가 맞아요.
+  - statement: 생산과 소비는 서로 아무 관계가 없는 따로 떨어진 활동이다.
+    answer: X
+    explain: 생산한 물건을 소비하므로 두 활동은 서로 밀접하게 연결되어 있어요.
+  - statement: 지역끼리 물건이나 문화를 서로 주고받는 것을 교류라고 한다.
+    answer: O
+    explain: 지역 간에 물건과 문화를 주고받는 것이 바로 교류예요.
+  - statement: 지역마다 생산하는 물건이 달라서 지역끼리 서로 교류하며 필요한 것을 얻는다.
+    answer: O
+    explain: 지역마다 자연환경이 달라 생산하는 물건도 달라서, 서로 교류하며 필요한 것을 주고받아요.
+  - statement: 한 지역은 다른 지역의 도움 없이 모든 것을 혼자 해결하며 살아간다.
+    answer: X
+    explain: 지역들은 서로 의존하며 도움을 주고받아 살아가므로 틀려요.
+  - statement: 지역끼리는 물건만 주고받을 뿐, 사람이 오가는 교류는 없다.
+    answer: X
+    explain: 물건뿐 아니라 사람이 오가는 인적 교류도 이루어져요.

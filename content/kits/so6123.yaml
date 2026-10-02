@@ -1,0 +1,185 @@
+id: so6123
+title: 2-3. 민주주의와 미디어
+grade: 6
+sem: 1학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 3
+published: true
+intro:
+  core_idea: 민주주의 사회에서 미디어가 어떤 기능을 하고, 왜 중요한지 이해하도록 구성된 단원입니다. 다양한 미디어를 분석하면서 정보의 진위 여부를 판단하고, 허위 조작 정보에 속지 않는 비판적인 태도를 기르며, 서로 다른 관점을 존중하며 올바르게 미디어를 활용하는 방법을 탐구합니다.
+  core_question: 민주주의는 선거와 국가기관, 미디어를 통해 어떻게 실현되며, 시민은 어떻게 참여해야 할까?
+  concepts:
+    - term: 미디어
+      def: 신문, 텔레비전, 인터넷처럼 사람들에게 소식과 정보를 전해 주는 수단을 말합니다. 우리는 미디어를 통해 세상에서 일어나는 일을 알 수 있습니다.
+    - term: 허위조작정보
+      def: 사실이 아닌 내용을 일부러 사실인 것처럼 꾸며서 퍼뜨리는 정보입니다. 가짜뉴스가 대표적인 예이며, 사람들을 속일 수 있어 조심해야 합니다.
+    - term: 비판적 사고
+      def: 주어진 정보를 그냥 믿지 않고, 정말 사실인지 따져 보며 스스로 생각하는 것입니다. 정보의 근거가 무엇인지 살펴보는 태도입니다.
+    - term: 비판적 태도
+      def: 미디어가 전하는 내용을 무조건 받아들이지 않고, 옳고 그름을 스스로 판단하려는 마음가짐입니다. 이런 태도가 있으면 잘못된 정보에 속지 않을 수 있습니다.
+    - term: 저작권
+      def: 글, 그림, 음악, 영상처럼 누군가가 만든 창작물을 만든 사람이 가지는 권리입니다. 다른 사람의 창작물을 함부로 가져다 쓰면 안 됩니다.
+    - term: 다양한 관점
+      def: 하나의 일을 보고도 사람마다 생각이나 입장이 서로 다를 수 있다는 것입니다. 여러 관점을 함께 살펴보면 더 균형 있게 판단할 수 있습니다.
+  standards:
+    - code: "[6사08-03]"
+      text: 민주주의에서 미디어의 의미와 역할을 이해하고, 여러 가지 미디어의 내용을 비판적으로 분석하여 올바르게 이용하는 태도를 기른다.
+stages:
+  - 미디어
+  - 허위조작정보
+  - 비판적 사고
+  - 비판적 태도
+  - 저작권
+  - 다양한 관점
+items:
+  - key: v1
+    stage: 미디어
+    title: 나는 미디어입니다
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=pwW-h7fM0Lw
+    desc: 미디어의 의미와 종류, 특성을 이해하는 데 활용
+    channel: 경기온나눔콘텐츠
+  - key: v2
+    stage: 미디어
+    title: 똑똑한 미디어 생활습관
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=VM3cFyTOYv8
+    desc: 미디어 노출이 증가함에 따라 건강하게 미디어를 사용하는 방법을 이해하는 데 활용
+    channel: 경기온나눔콘텐츠
+  - key: v3
+    stage: 미디어
+    title: 미디어 속 정보 분별하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=OS4WTGcbfYQ
+    desc: 미디어 속 정보를 바르게 분별하는 방법을 이해하는 데 활용
+    channel: 경기온나눔콘텐츠
+  - key: v13
+    stage: 미디어
+    title: 미디어 소비자의 바람직한 태도
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=1D0XyzdzvSs
+    desc: 미디어 소비자로서 앞으로의 다짐을 살피도록 하는 데 활용
+    channel: 경기도교육청TV
+  - key: v14
+    stage: 미디어
+    title: 미디어 생산자의 올바른 태도
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=GcAWu0Bx2l4
+    desc: 미디어 생산자로서 앞으로의 다짐을 살피도록 하는 데 활용
+    channel: 경기도교육청TV
+  - key: v4
+    stage: 허위조작정보
+    title: 누구나 손 쉽게 만드는 가짜영상
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Ac9U1kyqMp0
+    desc: 생성형 인공지능으로 허위조작정보가 만들어지는 과정을 이해하는 데 활용
+    channel: JTBC News
+  - key: v5
+    stage: 허위조작정보
+    title: 갈수록 진화하는 가짜뉴스
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=mhnqbxDg140
+    desc: 허위조작정보가 쉽게 만들어지는 과정 속에서 그 심각성을 깨닫도록 하는 데 활용
+    channel: KBS시사
+  - key: v6
+    stage: 허위조작정보
+    title: 허위조작정보를 생산•유통하는 알고리즘
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6QuzOZu6v_E
+    desc: 허위조작정보의 의미를 알고, 이것이 초래하는 문제를 심층적으로 이해하는 데 활용
+    channel: KBS 교양
+  - key: v7
+    stage: 허위조작정보
+    title: 허위조작정보의 음모에 빠진 펭수?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=rGT5KL5su8M
+    desc: 허위조작정보로 인한 피해를 깨닫고, 미디어 리터러시의 필요성을 이해하는 데 활용
+    channel: KPF한국언론진흥재단
+  - key: v8
+    stage: 비판적 사고
+    title: 올바른 미디어 활용
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=_ibPIbO4nsY
+    desc: 올바르게 미디어를 활용하는 방법을 탐색하는 데 활용
+    channel: 경기도교육청TV
+  - key: v9
+    stage: 비판적 사고
+    title: 과장광고 No, 똑똑한 소비자 Yes!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=fAxAVbkw2hY
+    desc: 과장광고를 비판적으로 분별하는 방법을 살펴보는 데 활용
+    channel: 스마트올TV
+  - key: v10
+    stage: 비판적 사고
+    title: 가짜뉴스를 대하는 우리의 자세
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1s-Nvbldggc
+    desc: 가짜뉴스를 바르게 분별하는 방법을 익히는 데 활용
+    channel: 스마트올TV
+  - key: v11
+    stage: 비판적 사고
+    title: 웹드라마로 배우는 디지털 미디어 리터러시
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=tJLgLKHz0sA
+    desc: 알고리즘에 따른 필터버블 현상의 위험성을 깨닫고, 정보를 똑똑하게 검증하는 방법을 익히는 데 활용
+    channel: 전남교육NOW
+  - key: v12
+    stage: 비판적 사고
+    title: 정보화 시대, 미디어 리터러시가 왜 필요할까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Gi03F6crb8Q
+    desc: 미디어 리터러시의 의미를 정리하고, 팩트체크를 하는 방법을 탐구하는 데 활용
+    channel: 교육부
+  - key: v15
+    stage: 비판적 태도
+    title: 가짜뉴스는 No, 더 이상 안 속아요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=kvp2PDTt108
+    desc: 생활 속에서 비판적인 태도로 가짜뉴스를 분별하는 능력을 키우는 데 활용
+    channel: EBS 키즈
+  - key: v16
+    stage: 저작권
+    title: 우리에게는 저작권이 있어요
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Cr_X_7hMHSk
+    desc: 미디어 환경에서 저작물을 대할 때 필요한 태도를 미리 깨닫도록 하는 데 활용
+    channel: 저작권TV
+  - key: v17
+    stage: 다양한 관점
+    title: 정보 편식러를 만드는 알고리즘의 비밀
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=veofnGWtWBA
+    desc: 알고리즘에 따라 편식된 정보에 노출될 수 있음을 깨닫도록 하는 데 활용
+    channel: 교육부
+  - key: v18
+    stage: 다양한 관점
+    title: 알고리즘대로 보기만 하면 세상과 단절된다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dsW6kUpWz7Q
+    desc: 다양한 관점에서 정보를 비판적으로 수용하는 방법을 탐색하는 데 활용
+    channel: 방송미디어통신위원회
+quiz:
+  - statement: 신문, 텔레비전, 인터넷은 모두 미디어에 해당한다.
+    answer: O
+    explain: 미디어는 사람들에게 소식과 정보를 전해 주는 수단으로, 신문·텔레비전·인터넷이 모두 포함된다.
+  - statement: 허위조작정보는 사실이 아닌 내용을 사실인 것처럼 꾸며 퍼뜨리는 정보이다.
+    answer: O
+    explain: 허위조작정보(가짜뉴스)는 거짓 내용을 사실처럼 꾸며 사람들을 속이는 정보를 말한다.
+  - statement: 미디어에 나온 정보는 모두 사실이므로 그대로 믿으면 된다.
+    answer: X
+    explain: 미디어에는 잘못되거나 거짓인 정보도 있으므로 비판적으로 따져 보고 판단해야 한다.
+  - statement: 미디어의 내용을 비판적으로 분석하는 태도는 잘못된 정보에 속지 않는 데 도움이 된다.
+    answer: O
+    explain: 비판적 태도로 정보를 따져 보면 허위조작정보에 속지 않을 수 있다.
+  - statement: 다른 사람이 만든 그림이나 영상은 허락 없이 마음대로 가져다 써도 된다.
+    answer: X
+    explain: 창작물에는 저작권이 있어 만든 사람의 허락 없이 함부로 사용하면 안 된다.
+  - statement: 같은 일이라도 사람마다 생각이나 관점이 다를 수 있다.
+    answer: O
+    explain: 하나의 일에 대해 사람마다 입장과 생각이 다를 수 있으므로 다양한 관점을 존중해야 한다.
+  - statement: 민주주의 사회에서 미디어는 아무런 역할도 하지 않는 쓸모없는 것이다.
+    answer: X
+    explain: 민주주의 사회에서 미디어는 정보를 전하고 시민의 참여를 돕는 중요한 역할을 한다.

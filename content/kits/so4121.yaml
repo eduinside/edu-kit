@@ -1,0 +1,151 @@
+id: so4121
+title: 2-1. 국가유산의 의미와 가치
+grade: 4
+sem: 1학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 지역의 국가유산을 조사하며, 국가유산이 가진 특징과 가치를 이해하고 그 소중함을 깨닫는 것을 목표로 합니다. 먼저, 국가유산이 무엇인지 알아보고, 문화유산과 무형유산으로 나누어 살펴봅니다. 또한, 국가유산에 담긴 가치를 찾으며, 우리 지역의 국가유산을 조사하여 그 의미를 탐색합니다. 마지막으로, 국가유산 속 조상들의 생활 모습을 다양한 방법으로 표현하면서, 지역의 국가유산을 소중히 여기는 태도를 기르도록 합니다.
+  core_question: 우리 지역의 국가유산과 역사는 어떤 의미와 가치를 지니며, 우리는 그것을 어떻게 지켜 가야 할까?
+  concepts:
+    - term: 국가유산
+      def: 조상들이 남긴 것 가운데 보호하고 잘 지켜 가야 할 소중한 것을 말해요. 눈에 보이는 건물이나 그림 같은 문화유산과, 춤이나 노래처럼 모양이 없는 무형유산으로 나눌 수 있어요.
+    - term: 옛날 사람들의 생활 모습
+      def: 오래전 우리 조상들이 어떻게 입고 먹고 살았는지를 보여 주는 모습이에요. 옛 건물이나 물건 같은 국가유산을 살펴보면 그때 사람들의 생활을 알 수 있어요.
+  standards:
+    - code: "[4사06-01]"
+      text: 지역의 문화유산을 통해 문화유산의 의미와 유형을 알아보고, 문화유산의 가치를 탐색한다.
+stages:
+  - 국가유산
+items:
+  - key: v1
+    stage: 국가유산
+    title: 국가유산의 의미
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=QCGr4M69Lj8
+    desc: 국가 유산의 의미와 세부 분류인 문화유산, 자연유산, 무형유산을 간략히 설명한 영상
+    channel: 대구미래교육연구원
+  - key: v2
+    stage: 국가유산
+    title: 대구의 국가유산의 유형
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=XglM663vBgU
+    desc: 대구의 국가 유산을 소개하고 각 국가 유산을 분류해보는 영상
+    channel: 대구미래교육연구원
+  - key: v3
+    stage: 국가유산
+    title: 국가유산의 가치
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=zsgzmM0-34M
+    desc: 국가유산의 가치를 네 가지로 분류하여 소개하고, 대구의 국가유산은 어떤 가치를 지니고 있는지 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v4
+    stage: 국가유산
+    title: 도동서원으로 알 수 있는 옛날 사람들의 생활 모습
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=xo_aMgBdZfM
+    desc: 대구의 국가유산 '도동서원'을 통해 알 수 있는 옛날 사람들의 생활 모습을 다룬 영상
+    channel: 대구미래교육연구원
+  - key: v5
+    stage: 국가유산
+    title: 국가 유산의 소개
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=VWhP4vTnX8A
+    desc: 소개하고 싶은 대구의 국가유산을 정하고 조사하는 방법을 다룬 영상
+    channel: 대구미래교육연구원
+  - key: v6
+    stage: 국가유산
+    title: 자랑스러운 대구의 문화 유산_달성토성
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ablIu8LB6bw
+    desc: 국가유산 '대구 달성'을 간단히 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v7
+    stage: 국가유산
+    title: 대구 ‘달성공원’이 일제잔재라고?...‘달성토성’ 복원해야
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=y9YNgTmicSI
+    desc: 달성공원으로 흔히 알고 있는 '대구 달성'과 관련된 일제 잔재에 대해서 다룬 영상
+    channel: ch B tv 대구
+  - key: v8
+    stage: 국가유산
+    title: 달성공원 동물원 문제
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=JAQeLQg7fM8
+    desc: 대구 달성'과 관련된 동물원 이슈를 다룬 영상
+    channel: 대구MBC뉴스
+  - key: v9
+    stage: 국가유산
+    title: 자랑스러운 대구의 문화 유산_불로동 고분군
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=XxsDGrneX1c
+    desc: 국가유산 '불로동 고분군'을 간단히 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v10
+    stage: 국가유산
+    title: 자랑스러운 대구의 문화 유산_동화사
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=qMcz4hyQmiA
+    desc: 국가유산 '동화사'를 간단히 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v11
+    stage: 국가유산
+    title: 걸어서 달성군 속으로 - 하목정, 영벽정편
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=qLqdgyggzsg
+    desc: 국가유산 '하목정과 영벽정'을 간단히 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v12
+    stage: 국가유산
+    title: 걸어서 군위군 속으로 - 아미타여래삼존 석굴편
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=gI5OIPhtXnU
+    desc: 국가유산 '아미타여래삼존 석굴'을 간단히 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v13
+    stage: 국가유산
+    title: 국가유산, 미래를 담은 문화재의 새 이름!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=CwNrhon3cLY
+    desc: 문화재 명칭과 분류체계의 변화를 소개하는 영상
+    channel: 국가유산청 Korea Heritage Service
+  - key: v14
+    stage: 국가유산
+    title: 국가유산 가이드의 이야기
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=JphyMPQrwUY
+    desc: 문화재 명칭과 분류체계의 변화를 재미있게 소개하는 영상
+    channel: 국가유산청 Korea Heritage Service
+  - key: v15
+    stage: 국가유산
+    title: 북으로 추는춤 대구 날뫼북춤
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=EkFiczR-vT4
+    desc: 날뫼북춤 공연 모습과 함께 간단한 설명을 곁들인 영상
+    channel: 국가유산청 Korea Heritage Service
+quiz:
+  - statement: 국가유산은 조상들이 남긴 것 가운데 소중히 지켜 가야 할 것을 말한다.
+    answer: O
+    explain: 국가유산은 보호하고 지켜 가야 할 소중한 유산이다.
+  - statement: 국가유산은 문화유산과 무형유산으로 나누어 살펴볼 수 있다.
+    answer: O
+    explain: 단원에서 국가유산을 문화유산과 무형유산으로 나누어 살펴본다.
+  - statement: 춤이나 노래처럼 모양이 없는 것은 국가유산이 될 수 없다.
+    answer: X
+    explain: 춤이나 노래 같은 모양 없는 것도 무형유산으로 국가유산에 들어간다.
+  - statement: 옛 건물이나 물건을 살펴보면 옛날 사람들의 생활 모습을 알 수 있다.
+    answer: O
+    explain: 국가유산에는 조상들의 생활 모습이 담겨 있어 이를 알 수 있다.
+  - statement: 국가유산에는 우리가 찾아볼 만한 가치가 담겨 있다.
+    answer: O
+    explain: 단원의 목표는 국가유산에 담긴 가치를 찾아 그 소중함을 깨닫는 것이다.
+  - statement: 국가유산은 우리 지역에는 없고 다른 나라에만 있다.
+    answer: X
+    explain: 우리 지역에도 국가유산이 있으며, 우리 지역의 국가유산을 직접 조사하는 것이 이 단원의 활동이다.
+  - statement: 국가유산은 소중하므로 잘 지켜 가는 태도를 길러야 한다.
+    answer: O
+    explain: 지역의 국가유산을 소중히 여기는 태도를 기르는 것이 단원의 목표이다.

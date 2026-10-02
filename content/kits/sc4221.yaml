@@ -1,0 +1,203 @@
+id: sc4221
+title: 2. 생물과 환경
+grade: 4
+sem: 2학기
+subject: 과학
+unit: 생물과 환경
+unit_no: 2
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 다양한 생태계의 생물 요소와 비생물 요소를 관찰·조사 하고 분류하며 생물 요소를 생태계 내의 역할에 따라 생산자, 소비자, 분해자로 분류하고, 생물 요소 사이의 먹고 먹히는 관계를 이해하는 단원입니다. 또한 인간 활동이 생태계에 미치는 영향을 조사하고, 생태계 보전을 위한 생태계 구성원으로서 인간의 실천 방안을 토의하는 내용으로 구성되어 있습니다.
+  core_question: 생태계의 생물 요소와 비생물 요소는 서로 어떻게 영향을 주고받으며, 우리는 생태계를 어떻게 지킬 수 있을까?
+  concepts:
+    - term: 생태계
+      def: 어떤 장소에서 살아가는 생물들과, 그 생물을 둘러싼 햇빛·물·흙 같은 환경이 서로 영향을 주고받는 전체를 말해요. 숲, 연못, 바다처럼 다양한 생태계가 있어요.
+    - term: 생물요소
+      def: 생태계에서 살아 숨 쉬는 것들을 말해요. 식물, 동물, 곰팡이, 세균처럼 스스로 자라고 번식하는 모든 생명이 생물 요소예요.
+    - term: 비생물요소
+      def: 생태계에서 살아 있지 않지만 생물에게 영향을 주는 것들을 말해요. 햇빛, 공기, 물, 흙, 온도 등이 비생물 요소예요.
+    - term: 먹이관계
+      def: 생물들이 서로 먹고 먹히며 이어지는 관계예요. 이 관계가 그물처럼 여러 갈래로 얽히면 먹이그물이라고 불러요.
+    - term: 생태계보전
+      def: 망가진 생태계를 되살리고 건강한 생태계를 잘 지키는 것을 말해요. 쓰레기 줄이기처럼 우리가 실천할 수 있는 일로 생태계를 보호할 수 있어요.
+    - term: 생산자
+      def: 햇빛을 받아 스스로 양분을 만들어 살아가는 생물이에요. 벼나 나무 같은 식물이 대표적인 생산자예요.
+    - term: 소비자
+      def: 스스로 양분을 만들지 못해 다른 생물을 먹어서 양분을 얻는 생물이에요. 토끼, 참새, 호랑이 같은 동물이 소비자예요.
+    - term: 분해자
+      def: 죽은 생물이나 동물의 배설물을 분해해서 양분을 얻는 생물이에요. 곰팡이와 세균이 분해자이며 생태계의 청소부 역할을 해요.
+  standards:
+    - code: "[4과14-01]"
+      text: 생태계의 구성 요소를 조사하여 생물 요소와 비생물 요소로 분류할 수 있다.
+    - code: "[4과14-02]"
+      text: 생물 요소들의 먹고 먹히는 관계를 조사하여 먹이그물로 표현할 수 있다.
+    - code: "[4과14-03]"
+      text: 인간 활동이 생태계에 미치는 영향을 조사하고, 생태계 보전을 위해 우리가 할 수 있는 일을 토의하여 실천할 수 있다.
+stages:
+  - 생태계
+  - 생물요소
+  - 비생물요소
+  - 먹이관계
+  - 생태계보전
+  - 생산자
+  - 소비자
+  - 분해자
+items:
+  - key: v1
+    stage: 생태계
+    title: 광릉 숲 생태계는 100년 동안 어떻게 변했을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=o0100fGUXTo
+    desc: 광릉 숲 생태계에 대한 영상으로, 1900년대 광릉 숲에서는 호랑이, 표범, 늑대가 먹이 사슬 제일 꼭대기에 있었으나, 지금은 호랑이와 늑대가 자취를 감췄다.
+    channel: YTN 사이언스
+  - key: v2
+    stage: 생태계
+    title: 숲 생태계는 어떻게 이루어질까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=nvX_tX9k8sw
+    desc: 숲 생태계에 대한 영상으로, 숲의 의미와 숲 생태계에 살고 있는 생물을 소개함
+    channel: 유한킴벌리
+  - key: v3
+    stage: 생태계
+    title: 어느 나라에도 없는 특별한 생태계가 우리나라에 생겼다?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tQ5_mjWjVQM
+    desc: DMZ 생태계를 소개한 영상으로, 군사적 대치상황으로 인간의 간섭에서 벗어난 생태계의 모습을 소개함
+    channel: 국립생태원
+  - key: v4
+    stage: 생물요소
+    title: 늑대 14마리를 공원에 풀어 놓으면?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ghRAZnsR_iI
+    desc: 옐로스톤 국립공원에 풀어진 늑대로 인해 숲 생태계에 일어난 변화 영상, 식물이 자라고 다양한 동물이 서식하게 됨
+    channel: 포크포크
+  - key: v5
+    stage: 생물요소
+    title: 얘가 멸종하면 생태계가 초토화된다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=j58oXONRlww
+    desc: 하나의 종만 사라져도 생태계에 영향을 미치는 것을 소개한 영상으로, 해달의 사례를 소개함
+    channel: 스튜디오헤이 StudioHey
+  - key: v6
+    stage: 비생물요소
+    title: 아프리카 대륙 이상기후 근황
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=RBndsYaICSE
+    desc: 비생물요소가 생물요소에게 미치는 영향에 대한 영상으로, 물부족 등 기후변화로 인한 생활의 피해 모습을 보여줌
+    channel: 크랩 KLAB
+  - key: v7
+    stage: 비생물요소
+    title: 기후 변화로 먹거리 지도가 바뀐다고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=NJ64sUEwwLA
+    desc: 기후변화로 인해 사과, 배 재배 지역이 급감하고 바다에서는 명태에 이어 오징어를 찾기 어려워진 것을 소개하는 영상
+    channel: MBCNEWS
+  - key: v8
+    stage: 먹이관계
+    title: 먹고 먹히는 먹이사슬! 큰말똥가리 사냥 구경하기
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Bl_u68_rJVs
+    desc: 먹고 먹히는 생태계의 먹이사슬. 날카로운 부리로 큰모래쥐 사냥을 시작하는 큰말똥가리
+    start: 885
+    end: 1058
+    channel: "KBS동물티비 : 애니멀포유 animal4u"
+  - key: v9
+    stage: 먹이관계
+    title: 먹잇감을 잃은 북극곰이 새롭게 노리는 것은?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=bEgZTvKcYCw
+    desc: 먹이사슬이 깨져버린 북극곰을 소개하는 영상으로, 북극곰이 사냥한 적 없던 벨루가를 사냥하려고 시도하는 모습
+    channel: SBS 뉴스
+  - key: v10
+    stage: 먹이관계
+    title: 먹고 먹히는 자연의 경이로움
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=LqIm0FV6fZk
+    desc: 독사를 잡아먹는 다람쥐부터, 독사에게 잡아먹히는 새까지 먹고 먹히는 자연의 경이로움을 총망라한 영상
+    start: 427
+    end: 705
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v11
+    stage: 먹이관계
+    title: 논에서의 먹이 관계는?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=daF4UFrUUpA
+    desc: 논에서 메뚜기, 사마귀, 거미, 개구리, 뱀의 먹이관계 영상
+    channel: EBS 컬렉션 - 사이언스
+  - key: v13
+    stage: 생태계보전
+    title: 아마존 밀림을 볼 수 있는 건 우리 세대가 마지막이라고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ctytX-oG_sY
+    desc: 아마존 생태계에 대한 영상으로, 인간의 영향으로 제 기능을 못하는 지역이 250만㎢로 아마존 전체 면적 38%에 이름.
+    channel: KBS News
+  - key: v14
+    stage: 생태계보전
+    title: 해양 생태계가 위험하다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1gvVP8JjQIY
+    desc: 해양 생태계에 대한 영상으로, 어구쓰레기로 인한 해양생태계 파괴를 소개함
+    channel: 그린코리아포럼
+  - key: v15
+    stage: 생산자
+    title: 벼농사 과정으로 보는 식물의 역할
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=8rXJjoe-dnM
+    desc: 농부가 직접 촬영한 벼농사 과정 영상으로, 생산자(벼)의 기능을 이해하게 함
+    channel: Jina's life진아의풍경
+  - key: v16
+    stage: 생산자
+    title: 생태계에서의 식물의 역할
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=jkysjMFk1ts
+    desc: 식물이 우리 생태계에 어떤 영향을 미치는지에 대한 영상
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v17
+    stage: 소비자
+    title: 참새의 비밀
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=QNqIg7ZrQTU
+    desc: 주위에서 자주 볼 수 있는 참새가 생태계에 미치는 역할을 소개한 영상
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v18
+    stage: 소비자
+    title: 먹고 먹히는 관계
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=9X2aNlxPaDc
+    desc: 먹고 먹히는 관계를 보여주는 영상으로, 소비자 개념을 획득하기 위한 수업 전 사전지식을 활성화하는데 활용 가능한 영상
+    start: 0
+    end: 213
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v19
+    stage: 분해자
+    title: 생태계 속 청소부 이야기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=8BhnPLOgC8Y
+    desc: 생태계 속 청소부 분해자에 대한 영상, 세균, 균류들을 소개함번. (분해자) 지구에서 세균이 사라진다면?⟹ (수업 중) (0:39~5:18) 세균이 사라진 세상을 과학적으로 상상하는 영상으로, 세균이 육상, 바다 생태계에서 중요한 역할을 담당하는 것을 알려줌
+    start: 39
+    end: 318
+    channel: 서대문자연사박물관
+quiz:
+  - statement: 햇빛, 물, 공기, 흙처럼 살아 있지 않은 것은 비생물 요소이다.
+    answer: O
+    explain: 햇빛·물·공기·흙은 살아 있지 않지만 생물에게 영향을 주는 비생물 요소예요.
+  - statement: 벼나 나무처럼 스스로 양분을 만드는 생물을 생산자라고 한다.
+    answer: O
+    explain: 식물은 햇빛을 받아 스스로 양분을 만드는 생산자예요.
+  - statement: 토끼나 참새 같은 동물은 스스로 양분을 만들어 살아가는 생산자이다.
+    answer: X
+    explain: 동물은 다른 생물을 먹어 양분을 얻는 소비자이고, 스스로 양분을 만드는 것은 생산자예요.
+  - statement: 곰팡이나 세균은 죽은 생물을 분해하여 양분을 얻는 분해자이다.
+    answer: O
+    explain: 곰팡이와 세균은 죽은 생물이나 배설물을 분해하는 분해자예요.
+  - statement: 생물들이 서로 먹고 먹히는 관계는 먹이그물로 나타낼 수 있다.
+    answer: O
+    explain: 먹고 먹히는 관계가 여러 갈래로 얽힌 것을 먹이그물로 표현해요.
+  - statement: 사람의 활동은 생태계에 아무런 영향을 주지 않는다.
+    answer: X
+    explain: 사람의 활동은 생태계에 영향을 주므로, 생태계 보전을 위해 우리가 할 일을 실천해야 해요.
+  - statement: 생태계는 숲, 연못, 바다처럼 한 가지만 있고 종류가 다양하지 않다.
+    answer: X
+    explain: 생태계는 숲, 연못, 바다 등 종류가 매우 다양해요.

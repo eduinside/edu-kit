@@ -1,0 +1,176 @@
+id: sc4141
+title: 4. 다양한 생물과 우리 생활
+grade: 4
+sem: 1학기
+subject: 과학
+unit: 다양한 생물과 우리 생활
+unit_no: 4
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 동물과 식물 이외의 다양한 생물을 학습한다. 균류, 원생생물, 세균 등과 같이 주변에서 쉽게 관찰하기 어려운 다양한 생물들이 있음을 알고, 이들이 우리 생활에 영향을 주고 있음을 이해함으로써 학생들이 생명과학에 관심을 갖도록 한다. 이를 위하여 균류, 원생생물, 세균의 모습을 다양한 방법으로 관찰하고 특징과 사는 곳 우리 생활에 미치는 영향을 조사하며, 생물의 특징을 이용한 생명과학에 관심을 가짐으로써 다양한 생물은 생태계의 구성 요소이고, 생태계에서 물질 순환과 에너지 흐름, 생태계 안정과 유지에 기여하고 있음을 이해하도록 한다.
+  core_question: 우리 주변의 다양한 생물은 어떤 특징을 지니며, 우리 생활에 어떤 영향을 줄까?
+  concepts:
+    - term: 균류
+      def: 곰팡이나 버섯처럼 스스로 양분을 만들지 못하고 죽은 생물이나 다른 생물에서 양분을 얻는 생물이에요. 보통 따뜻하고 축축한 곳에서 잘 자라요.
+    - term: 생명과학
+      def: 생물의 특징과 생명 현상을 연구하는 학문이에요. 균류와 세균 같은 생물의 특징을 이용해 우리 생활을 이롭게 하는 데 도움을 줘요.
+    - term: 세균
+      def: 크기가 매우 작아 맨눈으로는 볼 수 없고 현미경으로만 볼 수 있는 생물이에요. 우리 주변 어디에나 살며 좋은 영향과 나쁜 영향을 모두 줄 수 있어요.
+    - term: 원생생물
+      def: 동물도 식물도 균류도 아닌 생물로, 해캄이나 짚신벌레처럼 주로 물에 살아요. 대부분 크기가 작아 현미경으로 관찰해요.
+  standards:
+    - code: "[4과12-01]"
+      text: 균류⋅원생생물⋅세균을 관찰하여 특징과 사는 곳을 설명할 수 있다.
+    - code: "[4과12-02]"
+      text: 균류⋅원생생물⋅세균이 우리 생활에 미치는 영향을 조사하여 발표할 수 있다.
+    - code: "[4과12-03]"
+      text: 우리 생활에 생명과학이 이용되는 사례를 소개하는 자료를 만들어 공유할 수 있다.
+stages:
+  - 균류
+  - 생명과학
+  - 세균
+  - 원생생물
+items:
+  - key: v1
+    stage: 균류
+    title: 옛날에는 나무만한 곰팡이가 있었다고??
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Xcgkqy4G83o
+    desc: 최대 8.8m까지 자랐던 나무만한 곰팡이
+    channel: 과학드림 [Science Dream]
+  - key: v2
+    stage: 균류
+    title: 표고버섯을 해부하면?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dlWM4zT9iU8
+    desc: 표고버섯이 식물이 아닌 이유, 표고버섯 해부 모습 실험
+    channel: 수상한생선 Life Science
+  - key: v3
+    stage: 균류
+    title: 지구를 구하는 곰팡이가 있다?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=CL6RzXSMgy0
+    desc: 포장재로 탄생한 곰팡이 이야기
+    channel: 과학드림 [Science Dream]
+  - key: v4
+    stage: 생명과학
+    title: 곰팡이 핀 음식을 떼내고 먹어도 될까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=-xDoBs0DIXM
+    desc: 음식에 곰팡이가 피면 어떻게 해야하는지에 대한 이야기
+    channel: 은근한 잡다한 지식
+  - key: v5
+    stage: 생명과학
+    title: 상한 음식을 먹으면 왜 신맛이 날까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=zmr1r6og_SE
+    desc: 상한 음식을 먹으면 신맛이 나는 이유
+    channel: 사물궁이 잡학지식
+  - key: v6
+    stage: 생명과학
+    title: 페니실린은 어떻게 발견 되었을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=bU4x_7XE6XI
+    desc: 푸른 곰팡이와 페니실린 이야기
+    channel: YTN 사이언스
+  - key: v13
+    stage: 생명과학
+    title: 미생물을 150만배 확대하면??
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=R0SsBhASMoc
+    desc: 원생생물과 세균 150만배율 현미경으로 관찰하기
+    channel: 국립호남권생물자원관
+  - key: v15
+    stage: 생명과학
+    title: 연못 물을 현미경으로 보면?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=WBU83rgec7M
+    desc: 연못물에서 볼 수 있는 작은 생물들 관찰하기
+    channel: 다크게 All Zoom
+  - key: v16
+    stage: 생명과학
+    title: 짚신벌레처럼 움직이는 로봇이 있다?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=c4xjMAPK-oU
+    desc: 짚신벌레처럼 움직이는 의료용 마이크로 로봇
+    channel: YTN 사이언스
+  - key: v7
+    stage: 세균
+    title: 씻지 않은 손은 얼마나 더러울까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=bkwa4ry4B6w
+    desc: 세균 관찰 배지 실험
+    channel: YTN 사이언스
+  - key: v8
+    stage: 세균
+    title: 세균은 어떤 것들이 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=2nLHtoTT324
+    desc: 다양한 세균의 종류와 특징
+    channel: 한국분석시험연구원KATR
+  - key: v17
+    stage: 세균
+    title: 지구에서 모든 세균이 사라진다면?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Gu7Z7eV7G2A
+    desc: 지구에서 세균이 사라지면 일어나는 일
+    channel: 과학드림 [Science Dream]
+  - key: v9
+    stage: 원생생물
+    title: 국립 대구과학관에는 어떤 원생생물이 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=5F8WjYvd4wo
+    desc: 국립대구과학관에 있는 원생생물 아메바, 짚신벌레, 해캄, 유글레나
+    channel: 사이언스플랫폼scienceplatform
+  - key: v10
+    stage: 원생생물
+    title: 해캄은 어디에 살고 어떻게 채집할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=jGVQZ2DKuds
+    desc: 해캄의 서식지와 채집방법
+    channel: ssuperti
+  - key: v11
+    stage: 원생생물
+    title: 해캄을 현미경으로 보면?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ejI6rFaYVlo
+    desc: 해캄 현미경으로 확대하여 관찰하기
+    channel: 마이크로세계여행- Journey to the microworld
+  - key: v12
+    stage: 원생생물
+    title: 바다에서 원생생물을 볼 수 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=JkPytxq_V6U
+    desc: 바다에서 원생생물 채집하기
+    channel: 국립호남권생물자원관
+  - key: v14
+    stage: 원생생물
+    title: 짚신벌래를 현미경으로 보면?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Za8o4co5ugA
+    desc: 짚신벌레 현미경으로 관찰하기
+    channel: 마이크로세계여행- Journey to the microworld
+quiz:
+  - statement: 버섯과 곰팡이는 균류에 속한다.
+    answer: O
+    explain: 버섯과 곰팡이는 모두 균류에 속하는 생물이에요.
+  - statement: 세균은 크기가 매우 작아서 맨눈으로 보기 어렵다.
+    answer: O
+    explain: 세균은 크기가 아주 작아 보통 현미경으로 관찰해요.
+  - statement: 균류는 스스로 햇빛을 받아 양분을 만든다.
+    answer: X
+    explain: 균류는 스스로 양분을 만들지 못하고 다른 생물에서 양분을 얻어요.
+  - statement: 해캄과 짚신벌레는 원생생물에 속한다.
+    answer: O
+    explain: 해캄과 짚신벌레는 모두 물에 사는 원생생물이에요.
+  - statement: 세균은 우리 생활에 나쁜 영향만 주고 좋은 영향은 전혀 주지 않는다.
+    answer: X
+    explain: 세균은 음식을 만드는 데 도움을 주는 등 좋은 영향도 줘요.
+  - statement: 곰팡이는 따뜻하고 축축한 곳에서 잘 자란다.
+    answer: O
+    explain: 곰팡이 같은 균류는 따뜻하고 축축한 환경에서 잘 자라요.
+  - statement: 균류, 원생생물, 세균은 모두 동물에 속하는 생물이다.
+    answer: X
+    explain: 균류, 원생생물, 세균은 동물이나 식물과 다른 종류의 생물이에요.

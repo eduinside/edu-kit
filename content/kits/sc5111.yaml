@@ -1,0 +1,210 @@
+id: sc5111
+title: 1. 지층과 화석
+grade: 5
+sem: 1학기
+subject: 과학
+unit: 지층과 화석
+unit_no: 1
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 흙, 모래, 자갈 등이 쌓여 만들어진 지층의 특징과 형성 과정을 알아보고, 지층을 이루는 퇴적암의 종류를 탐구하는 단원입니다. 또한, 화석의 생성 원리를 모형으로 설명하고, 화석을 통해 과거 지구의 환경과 생물을 추리해보며 화석의 가치를 인식하도록 합니다.
+  core_question: 지층과 화석은 어떻게 만들어지며, 우리는 그것으로 과거의 지구를 어떻게 알 수 있을까?
+  concepts:
+    - term: 지층
+      def: 자갈, 모래, 진흙 같은 알갱이가 오랜 시간 차곡차곡 쌓여 만들어진 줄무늬 모양의 층입니다. 보통 아래에 있는 층이 위에 있는 층보다 먼저 쌓인 것입니다.
+    - term: 퇴적암
+      def: 물에 운반된 자갈, 모래, 진흙 같은 알갱이가 쌓이고 단단하게 굳어져 만들어진 암석입니다. 지층은 대부분 이러한 퇴적암으로 이루어져 있습니다.
+    - term: 이암
+      def: 진흙처럼 매우 작은 알갱이가 굳어져 만들어진 퇴적암입니다. 알갱이가 작아서 만져 보면 부드럽고 매끈한 느낌이 납니다.
+    - term: 역암
+      def: 자갈처럼 큰 알갱이가 모래, 진흙과 함께 굳어져 만들어진 퇴적암입니다. 알갱이가 커서 울퉁불퉁한 모습이 잘 보입니다.
+    - term: 화석
+      def: 옛날에 살았던 생물의 몸체나 생활 흔적이 암석이나 지층 속에 남아 있는 것입니다. 화석을 보면 과거에 어떤 생물이 살았고 그곳 환경이 어땠는지 짐작할 수 있습니다.
+  standards:
+    - code: "[6과01-01]"
+      text: 지층의 특징을 알고, 지층의 형성 과정을 모형으로 표현할 수 있다.
+    - code: "[6과01-02]"
+      text: 지층이 퇴적암으로 이루어짐을 알고, 퇴적암을 알갱이의 크기에 따라 분류할 수 있다.
+    - code: "[6과01-03]"
+      text: 화석의 생성 과정을 모형으로 설명하고, 지구의 과거 생물과 환경을 추리하는 활동을 통해 화석의 가치를 인식할 수 있다.
+stages:
+  - 온도
+  - 열의 이동
+  - 전도
+  - 대류
+  - 단열
+items:
+  - key: v1
+    stage: 온도
+    title: 사물, 장소, 우주 행성들의 온도는 어떨까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=IJzkhvoC518
+    desc: 다양한 온도를 알아보고 온도에 관심 가지기
+    channel: 밝은 면 Bright Side Korea
+  - key: v2
+    stage: 온도
+    title: 섭씨온도에 숨겨진 이야기
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=dghbnM0Tq44
+    desc: 온도계가 만들어진 원리와 섭씨온도에 숨겨진 이야기
+    channel: YTN 사이언스
+  - key: v3
+    stage: 온도
+    title: 온도를 예측하는 접촉식 체온계의 구조는?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=zz6XUDJ3Vnw
+    desc: 접촉식 체온계의 원리와 구조 알아보기
+    channel: YTN 사이언스
+  - key: v4
+    stage: 온도
+    title: 온도계의 종류와 사용법
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=LL_pLxtcP_0
+    desc: 온도계의 종류와 사용법 알아보기
+    channel: 대구창의융합교육원
+  - key: v5
+    stage: 온도
+    title: 차갑거나 따뜻한 정도를 어떻게 표현할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=XiWJkArk9T4
+    desc: 온도를 사용하는 이유
+    channel: 엉뚱박사과학TV
+  - key: v6
+    stage: 열의 이동
+    title: 열의 이동원리, 대전에 살면 복이 있다?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=wq9XaYP88Tk
+    desc: 전도, 대류, 복사의 개념 정리
+    channel: YTN 사이언스
+  - key: v7
+    stage: 열의 이동
+    title: 열의 이동 Song!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=u5doBPQlgPg
+    desc: 노래로 익히는 열의 이동 개념
+    channel: LGScienceLand
+  - key: v8
+    stage: 열의 이동
+    title: 온천에서 벌어진 실험 경연대회! 열의 이동 방법 파헤치
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=y3Ng5VhgVRA
+    desc: 애니메이션으로 알아보는 열의 이동(대류, 복사, 전도)
+    channel: 지니어드벤쳐 GeniAdventure (공룡∙과학 Dinosaurs)
+  - key: v9
+    stage: 열의 이동
+    title: 열의 이동 방법과 우리나라 온돌의 우수성
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=IjObIDczMkA
+    desc: 전도, 대류, 복사 등 열의 이동 방법과 우리나라 온돌의 우수성
+    channel: 생밀실909호-쉬운과학
+  - key: v10
+    stage: 열의 이동
+    title: 불과 열을 다스리는 기술, 온돌의 원리
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=7-w_qM9GolA
+    desc: 온돌의 과학적인 원리와 선조들의 지혜
+    channel: YTN 사이언스
+  - key: v11
+    stage: 전도
+    title: 둥근 쇠막대에서 열은 어떻게 이동할까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ydIVWP9N4RE
+    desc: 둥근 모양의 철에서 열이 이동하는 모습
+    channel: TV와우쌤
+  - key: v12
+    stage: 전도
+    title: 어떤 물체에서 열의 전도가 가장 빠를까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=QLMatpFL3uY
+    desc: 물체별 열 전도 빠르기 실험
+    channel: EBS 키즈
+  - key: v13
+    stage: 대류
+    title: 따뜻한 물과 차가운 물이 만나면 어떻게 섞일까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=9PnGzJwtwWQ
+    desc: 열의 대류로 물이 섞이는 실험 영상
+    channel: EBS 키즈
+  - key: v14
+    stage: 대류
+    title: 냉기는 정말 위에서 아래로 흐를까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=xFUwDmbOysg
+    desc: 슐리렌 장치로 냉기가 흐르는 모습 살펴보기
+    channel: YTN 사이언스
+  - key: v15
+    stage: 대류
+    title: 눈으로 보는 뜨거운 공기의 흐름
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=347qWTc1HF8
+    desc: 슐리렌 장치로 보는 공기의 흐름 살펴보기
+    channel: YTN 사이언스
+  - key: v16
+    stage: 대류
+    title: 차가운 물과 뜨거운 물의 신비 '물의 대류'
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=3jM8_tgIpUk
+    desc: 대류현상을 눈으로 관찰하는 간단한 실험
+    channel: 국립대구과학관 Scientry
+  - key: v21
+    stage: 대류
+    title: 물은 어떻게 따뜻해질까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=8Tc2atSe1Ow
+    desc: 집에서 해보는 물의 대류현상 실험
+    channel: 국립중앙과학관
+  - key: v17
+    stage: 단열
+    title: 건물의 열손실을 최소화하는 최고의 재료는 '공기'?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=kuu4GhDoggM
+    desc: 건물의 열 손실을 줄이고 단열을 하는 방법
+    channel: YTN 사이언스
+  - key: v18
+    stage: 단열
+    title: 보온병이 따뜻함을 유지하는 이유는 무엇일까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=xk6Uje7jugs
+    desc: 보온병의 원리
+    channel: 태뿌리
+  - key: v19
+    stage: 단열
+    title: 한 겨울에 난방 안해도 저절로 따뜻한 에너지 절약 패시브 하우스
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ovNoMFZSdlU
+    desc: <건축탐구-집의 온도> 첨단 단열 공법으로 지은 패시브 하우스
+    start: 107
+    end: 342
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v20
+    stage: 단열
+    title: 보온병의 원리 알아보기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=xKWBffG6J8s
+    desc: 보온병의 원리
+    embed: false
+    channel: 클래스로그
+quiz:
+  - statement: 지층은 자갈, 모래, 진흙 같은 알갱이가 쌓여서 만들어진다.
+    answer: O
+    explain: 지층은 흙, 모래, 자갈 등이 쌓여 만들어집니다.
+  - statement: 지층은 보통 줄무늬 모양의 여러 층으로 보인다.
+    answer: O
+    explain: 지층은 여러 층이 쌓여 줄무늬 모양으로 나타납니다.
+  - statement: 지층을 이루는 대부분의 암석은 퇴적암이다.
+    answer: O
+    explain: 지층은 알갱이가 쌓여 굳은 퇴적암으로 이루어져 있습니다.
+  - statement: 이암은 자갈처럼 큰 알갱이로 이루어진 퇴적암이다.
+    answer: X
+    explain: 이암은 진흙처럼 작은 알갱이로 이루어진 퇴적암이고, 큰 자갈로 이루어진 것은 역암입니다.
+  - statement: 퇴적암은 알갱이의 크기에 따라 종류를 나눌 수 있다.
+    answer: O
+    explain: 퇴적암은 알갱이 크기에 따라 이암, 역암 등으로 분류합니다.
+  - statement: 화석을 살펴보면 옛날 지구의 생물이나 환경을 짐작할 수 있다.
+    answer: O
+    explain: 화석으로 과거의 생물과 환경을 추리할 수 있습니다.
+  - statement: 화석은 오늘날에 살아 있는 생물만을 말한다.
+    answer: X
+    explain: 화석은 옛날에 살았던 생물의 몸체나 흔적이 남은 것입니다.

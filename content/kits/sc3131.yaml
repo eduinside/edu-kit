@@ -1,0 +1,220 @@
+id: sc3131
+title: 3. 식물의 생활
+grade: 3
+sem: 1학기
+subject: 과학
+unit: 식물의 생활
+unit_no: 3
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 식물을 관찰하여 특징에 따라 식물을 분류하고 환경에 따른 식물의 생김새와 생활 방식을 탐구하며 식물의 특징을 활용한 생활용품을 설계해본다.
+  core_question: 식물의 생김새와 생활 방식은 사는 환경과 어떻게 관련되며, 우리는 그 특징을 어떻게 활용할까?
+  concepts:
+    - term: 우리 주변의 식물
+      def: 우리가 사는 곳 가까이에서 흔히 볼 수 있는 나무와 풀 같은 여러 식물을 말해요. 길가, 화단, 공원 등에서 자라며 종류마다 생김새가 달라요.
+    - term: 식물 분류
+      def: 여러 식물을 잎, 줄기, 사는 곳 같은 특징에 따라 비슷한 것끼리 나누어 묶는 것이에요. 분류를 하면 많은 식물을 쉽게 정리하고 알아볼 수 있어요.
+    - term: 들이나 산에 사는 식물
+      def: 들판이나 산처럼 땅 위에서 자라는 식물이에요. 민들레나 소나무처럼 뿌리로 흙에서 물을 빨아들이며 살아가요.
+    - term: 강이나 연못에 사는 식물
+      def: 물속이나 물 위에서 자라는 식물이에요. 연꽃이나 부레옥잠처럼 물에 떠 있거나 잠겨서 살 수 있는 특징을 가지고 있어요.
+    - term: 사막에 사는 식물
+      def: 비가 거의 오지 않는 메마른 사막에서 자라는 식물이에요. 선인장처럼 굵은 줄기에 물을 저장해 두고 오래 견디며 살아가요.
+    - term: 환경에 따른 식물의 모습
+      def: 식물이 사는 곳의 환경에 따라 잎, 줄기, 뿌리의 생김새가 달라지는 것이에요. 물이 많은 곳과 물이 적은 곳에 사는 식물의 모습이 서로 달라요.
+    - term: 식물의 특징
+      def: 식물마다 가지고 있는 잎 모양, 줄기, 향기, 사는 방식 같은 저마다의 성질이에요. 이런 특징을 살펴보면 식물을 더 잘 이해할 수 있어요.
+    - term: 식물 모방
+      def: 식물의 특징을 본떠서 우리 생활에 쓸모 있는 물건을 만드는 것이에요. 도꼬마리 열매를 본떠 만든 찍찍이(벨크로)가 대표적인 예예요.
+  standards:
+    - code: "[4과03-01]"
+      text: 여러 가지 식물을 관찰하여 특징에 따라 식물을 분류할 수 있다.
+    - code: "[4과03-02]"
+      text: 다양한 환경에 서식하는 식물을 조사하여 식물의 생김새와 생활 방식이 환경과 관련되어 있음을 설명할 수 있다.
+    - code: "[4과03-03]"
+      text: 식물의 특징을 이용하여 일상생활에서 활용할 수 있는 생활용품을 설계하여 협력적으로 소통할 수 있다.
+stages:
+  - 우리 주변의 식물
+  - 식물 분류
+  - 들이나 산에 사는 식물
+  - 강이나 연못에 사는 식물
+  - 사막에 사는 식물
+  - 식물 모방
+items:
+  - key: v1
+    stage: 우리 주변의 식물
+    title: 이름이 궁금한 식물들
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=yO12ukcFNfA
+    desc: 우리 주변의 다양한 식물들
+    channel: 최선생
+  - key: v2
+    stage: 우리 주변의 식물
+    title: 은행나무에서 똥 냄새 나는 이유는?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=3fGP3SPuraM
+    desc: 은행나무 열매에서 냄새가 나는 이유
+    channel: 식품의약품안전처
+  - key: v3
+    stage: 우리 주변의 식물
+    title: 벚꽃이 벚꽃이 아니다?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=M_o7GSDVk-Q
+    desc: 벚꽃과 매화 구분방법
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v4
+    stage: 우리 주변의 식물
+    title: 무궁화는 어떻게 우리나라를 대표하는 꽃이 되었을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=2tjcqO2rVCw
+    desc: 무궁화가 우리나라를 대표하는 꽃이 된 과정
+    channel: 국립과천과학관
+  - key: v5
+    stage: 식물 분류
+    title: 잎의 생김새에 따라 식물을 어떻게 분류할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Eveud126tx8
+    desc: 잎 채집 방법, 잎 관찰 방법, 잎에 따른 분류
+    start: 285
+    end: 525
+    channel: 촉촉한공룡초
+  - key: v6
+    stage: 들이나 산에 사는 식물
+    title: 들이나 산에는 어떤 식물이 살까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=l_f12jQtJAo
+    desc: 들이나 산에서 사는 다양한 식물
+    start: 0
+    end: 300
+    channel: 촉촉한공룡초
+  - key: v7
+    stage: 들이나 산에 사는 식물
+    title: 다섯잎, 여섯잎클로버의 꽃말은 뭘까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=v5UfbbrS2ZY
+    desc: 잎의 수에 따라 달라지는 클로버의 꽃말
+    channel: play 채널A
+  - key: v8
+    stage: 들이나 산에 사는 식물
+    title: 솔방울을 심으면 소나무가 자라나요?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=AzeI5tXqQaQ
+    desc: 솔방울의 생김새와 역할
+    channel: 바나나
+  - key: v9
+    stage: 들이나 산에 사는 식물
+    title: 민들레씨의 여행
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=iR2_pxiz4L4
+    desc: 민들레씨 이야기 단편 애니메이션
+    channel: ASIANNOIR 공손박
+  - key: v10
+    stage: 강이나 연못에 사는 식물
+    title: 강이나 연못에는 어떤 식물이 살까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=bzbQEHpMPL0
+    desc: 강이나 연못에 사는 다양한 식물
+    start: 0
+    end: 240
+    channel: 촉촉한공룡초
+  - key: v11
+    stage: 강이나 연못에 사는 식물
+    title: 부레옥잠 너는 누구니?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=IuVb7BE94vY
+    desc: 부레옥잠의 특징과 해부모습
+    channel: 클래스가 빵빵
+  - key: v12
+    stage: 강이나 연못에 사는 식물
+    title: 물에서 숨을 쉬는 식물?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=22hVbkhTCXg
+    desc: 수생식물 연꽃의 통기조직
+    start: 51
+    end: 120
+    channel: 에코센터 TV
+  - key: v13
+    stage: 강이나 연못에 사는 식물
+    title: 물 위에 떠서 사는 나무가 있다?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=lRvh8SDjCf8
+    desc: 낙우송의 미스터리 해결
+    embed: false
+    status: 임베드차단
+  - key: v14
+    stage: 사막에 사는 식물
+    title: 사막에도 식물이 살까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ECCzhoA73-8
+    desc: 사막 식물(회전초, 선인장)
+    channel: YTN 사이언스
+  - key: v15
+    stage: 사막에 사는 식물
+    title: 선인장도 말라죽는 폭염!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=McyHxK5Gc2Y
+    desc: 이상기후(폭염)의 심각성
+    channel: MBCNEWS
+  - key: v16
+    stage: 사막에 사는 식물
+    title: 선인장과 알로에는 어떻게 다를까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=OTFmqfoLwRQ
+    desc: 선인장과 알로에의 차이점
+    channel: SBS 공식 키즈 콘텐츠 '꾸러기탐구생활'
+  - key: v17
+    stage: 사막에 사는 식물
+    title: 달랑 2개의 잎으로 수천 년을 사는 식물!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=S3GkHT1GJvE
+    desc: 웰위치아의 비밀
+    start: 0
+    end: 80
+    channel: 과학드림 [Science Dream]
+  - key: v18
+    stage: 식물 모방
+    title: 연잎의 특징을 활용한다면?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=hu2tD6Qk08w
+    desc: 연잎의 특징을 모방한 제품
+    start: 71
+    end: 98
+    channel: YTN 사이언스
+  - key: v19
+    stage: 식물 모방
+    title: 찍찍이는 어떻게 발명되었을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=lWWZA7JrmK0
+    desc: 도꼬마리를 모방한 찍찍이
+    channel: YTN 사이언스
+  - key: v20
+    stage: 식물 모방
+    title: 프로펠러는 어떻게 발명되었을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=GF_4x8KbwnM
+    desc: 단풍나무 씨앗을 모방한 프로펠러
+    channel: YTN 사이언스
+quiz:
+  - statement: 여러 가지 식물은 잎의 생김새 같은 특징에 따라 비슷한 것끼리 분류할 수 있다.
+    answer: O
+    explain: 식물은 잎의 생김새 같은 특징에 따라 비슷한 것끼리 나누어 분류할 수 있어요.
+  - statement: 식물이 사는 환경은 식물의 생김새와 아무런 관련이 없다.
+    answer: X
+    explain: 식물의 생김새와 생활 방식은 식물이 사는 환경과 관련이 있어요.
+  - statement: 선인장은 사막처럼 물이 적은 곳에서도 살 수 있는 식물이다.
+    answer: O
+    explain: 선인장은 굵은 줄기에 물을 저장하고 잎이 가시로 변해 물이 적은 사막에서도 살아가요.
+  - statement: 부레옥잠은 연못이나 강처럼 물에서 사는 식물이다.
+    answer: O
+    explain: 부레옥잠은 잎자루에 공기주머니가 있어 물 위에 떠서 사는 식물이에요.
+  - statement: 우리 주변에서는 어떤 식물도 찾아볼 수 없다.
+    answer: X
+    explain: 길가, 화단, 공원 등 우리 주변에서 여러 가지 식물을 볼 수 있어요.
+  - statement: 식물의 특징을 본떠서 찍찍이(벨크로) 같은 생활용품을 만들 수 있다.
+    answer: O
+    explain: 찍찍이는 갈고리 모양 가시로 동물 털이나 옷에 잘 달라붙는 도꼬마리 열매의 특징을 본떠 만든 물건이에요.
+  - statement: 들이나 산에 사는 식물과 강이나 연못에 사는 식물의 생김새는 똑같다.
+    answer: X
+    explain: 사는 환경이 다르면 식물의 생김새도 서로 다른 경우가 많아요.

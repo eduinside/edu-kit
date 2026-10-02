@@ -1,0 +1,193 @@
+id: sc3211
+title: 1. 물체와 물질
+grade: 3
+sem: 2학기
+subject: 과학
+unit: 물체와 물질
+unit_no: 1
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 학생들이 일상에서 자주 접하는 다양한 물체와 그 구성 재료인 물질, 물질의 여러 성질, 그리고 고체·액체·기체와 같은 상태에 대해 자연스럽게 이해할 수 있도록 하는 단원입니다. 교실, 가정 등의 주변에서 흔히 볼 수 있는 물체를 중심으로 학생들이 물체와 물질의 개념을 보다 친근하고 흥미롭게 받아들일 수 있도록 합니다.
+  core_question: 물체를 이루는 물질은 저마다 어떤 성질을 지니며, 우리는 그 성질을 이용해 물체를 어떻게 만들까?
+  concepts:
+    - term: 고체
+      def: 나무나 돌처럼 일정한 모양과 부피를 가지고 있어서, 손에 쥐거나 다른 그릇에 옮겨 담아도 모양이 잘 변하지 않는 물질의 상태입니다.
+    - term: 액체
+      def: 물이나 우유처럼 담는 그릇에 따라 모양은 바뀌지만, 양(부피)은 변하지 않고 흘러내릴 수 있는 물질의 상태입니다.
+    - term: 기체
+      def: 공기처럼 눈에 잘 보이지 않으며, 담는 그릇 전체를 가득 채우고 모양과 부피가 자유롭게 변하는 물질의 상태입니다.
+    - term: 물질의 성질
+      def: 단단한 정도, 매끄러움, 색깔, 휘어지는 정도처럼 물질마다 저마다 다르게 가지고 있는 특징을 말합니다. 우리는 이 성질을 보고 물체를 어떤 물질로 만들지 정합니다.
+    - term: 물질의 상태
+      def: 물질이 고체, 액체, 기체 중 어떤 모습으로 있는지를 나타내는 말입니다. 같은 물질도 조건에 따라 상태가 달라질 수 있습니다.
+  standards:
+    - code: "[4과05-01]"
+      text: 물체를 이루는 여러 가지 물질의 성질을 비교하고, 물질의 종류에 따라 물체를 분류할 수 있다.
+    - code: "[4과05-02]"
+      text: 물질의 세 가지 상태인 고체, 액체, 기체의 성질을 관찰하여 비교할 수 있다.
+    - code: "[4과05-03]"
+      text: 다양한 물질의 성질을 이용하여 쓰임새 있는 물체를 설계할 수 있다.
+stages:
+  - 고체
+  - 액체
+  - 기체
+  - 물질의 성질
+  - 물질의 상태
+items:
+  - key: v1
+    stage: 고체
+    title: 세상에서 가장 가벼운 고체는 무엇일까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=d7ySWNAElkE
+    desc: 공기 99%로 이루어진 세상에서 가장 가벼운 고체, 에어로겔에 대해 알아본다.
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v2
+    stage: 고체
+    title: 연필심과 다이아몬드는 형제 사이라고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=loz8xnzzcaw
+    desc: 연필심의 물질인 흑연과 다이아몬드는 똑같이 탄소 원자로 이루어져 있지만, 원자 배열만 다르다.
+    channel: YTN 사이언스
+  - key: v7
+    stage: 고체
+    title: 고체였다, 액체였다 바뀌는 물질이 있다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Sjb2RxpFSxM
+    desc: 고체와 액체의 성질에 대한 수업 후, 녹말 가루가 반죽을 하면 고체 상태, 반죽을 멈추면 액체 상태로 변함을 관찰한다.
+    channel: YTN 사이언스
+  - key: v8
+    stage: 고체
+    title: 물에 젖은 교과서를 원래대로 되돌리는 방법은?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=tStmRSbclbw
+    desc: 책을 햇볕에 말리면 부피가 팽창에 쭈글쭈글해지지만, 냉동실에 넣어 말리면 원상태로 복구된다.
+    channel: YTN 사이언스
+  - key: v3
+    stage: 액체
+    title: 뜨거운 물이 빨리 얼까? 차가운 물이 빨리 얼까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Dj3zI_pNv1E
+    desc: 물질의 성질 및 액체의 성질에 대한 수업 전 수업에 대한 흥미를 높이기 위한 영상으로, 뜨거운 물이 차가운 물보다 빨리 언다.
+    channel: 크랩 KLAB
+  - key: v4
+    stage: 액체
+    title: 섞이지 않는 액체가 있을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=PbYzv8QLCBk
+    desc: 물질에 대한 성질, 액체의 성질에 대한 수업 후, 물질의 성질 중 하나인 밀도의 차이로 액체가 서로 섞이지 않는 실험을 관찰한다.
+    channel: YTN 사이언스
+  - key: v5
+    stage: 액체
+    title: 충격을 받은 액체는 어떤 모양일까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=YY_Q5eyur_M
+    desc: 각 액체가 가지고 있는 성질에 따라 액체에 충격을 주었을 때 현상이 다양함을 알아본다.
+    channel: YTN 사이언스
+  - key: v6
+    stage: 액체
+    title: 액체와 액체가 만나면 왕관이 만들어진다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=LEQxtb6ephQ
+    desc: 충돌한 액체가 다시 튀어 오를 때 관성과 중력의 균형이 깨지면서 왕관 모양을 이루는 현상을 '코로나 스플래시'라고 한다.
+    channel: YTN 사이언스
+  - key: v9
+    stage: 기체
+    title: 우리 주변에서 자주 볼 수 있는 기체들은 무엇일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=4PKizsx3LHI
+    desc: 우리 주변에서 자주 볼 수 있는 기체인 산소, 이산화탄소, 헬륨 등에 대해 알아본다.
+    channel: YTN 사이언스
+  - key: v10
+    stage: 기체
+    title: 과자를 포장할 때 넣는 기체는 무엇일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=fYnoe1paSXg
+    desc: 과자를 포장할 때 사용하는 질소의 역할에 대해 알아본다.
+    channel: YTN 사이언스
+  - key: v11
+    stage: 기체
+    title: 넘쳐나는 이산화탄소를 어떻게 활용할 수 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Es2IauppUAs
+    desc: 세계 여러 나라 및 기업들이 이산화탄소를 활용하는 다양한 방법을 소개한다.
+    channel: YTN 사이언스
+  - key: v12
+    stage: 기체
+    title: 세계 최초로 산소를 발견한 사람은?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=hZ1OmgyC-28
+    desc: 1771년, 영국의 과학자 조지프 프리스틀리는 실험 중 수상한 가스를 발견했고, 이것은 산소였다.
+    channel: YTN 사이언스
+  - key: v13
+    stage: 물질의 성질
+    title: 찢기고 잘려도 원래대로 돌아오는 물질이 있다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=rhBIGcxjjQU
+    desc: 새롭게 개발된 신소재인 '그래핀'은 변형되어도 원래대로 돌아오는 성질을 가지고 있다.
+    channel: YTN 사이언스
+  - key: v14
+    stage: 물질의 성질
+    title: 물을 1000배 흡수하는 물질이 있다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=F-8t8jLIpOA
+    desc: 물질의 성질에 대한 흥미 유발 영상으로, 기저귀 속에 들어있는 고분자 흡수체는 자기 부피의 약 1000배 가까이 되는 물을 흡수한다.
+    channel: YTN 사이언스
+  - key: v15
+    stage: 물질의 성질
+    title: 물에 충격을 가하면 얼어버린다?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=jGD9sR2iu2U
+    desc: 고체와 액체의 성질에 대한 수업 후, 과냉각 현상을 관찰해 보며 물질의 성질에 대한 호기심을 더 넓혀 본다.
+    channel: YTN 사이언스
+  - key: v16
+    stage: 물질의 상태
+    title: 불은 고체, 액체, 기체 중 뭘까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=QMOsAtTA2n0
+    desc: 수업 후 학생들의 추가적인 호기심을 자극하기 위한 영상으로, 불은 물질의 상태에 해당하지 않는다.
+    channel: 사물궁이 잡학지식
+  - key: v17
+    stage: 물질의 상태
+    title: 사실 유리는 고체가 아니라고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=hCIXIGfPw30
+    desc: 많은 사람들은 유리를 고체라고 생각하지만, 과학적인 관점에서는 고체라고 단정지을 수없다. 재료학적인 관점에서 유리는 액체이다.
+    channel: YTN 사이언스
+  - key: v18
+    stage: 물질의 상태
+    title: 액체괴물은 고체일까 엑체일까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=t3shK_Av4sM
+    desc: 우리가 좋아하는 액체괴물은, 액체도 고체도 아니다.
+    channel: 국립과천과학관
+  - key: v19
+    stage: 물질의 상태
+    title: 스티로폼을 녹이는 무시무시한 액체가 있다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=f-nXLQ-7t48
+    desc: 아세톤과 스티로폼이 만나면, 스티로폼은 녹아서 액체 상태가 된다.
+    channel: YTN 사이언스
+quiz:
+  - statement: 물체는 여러 가지 물질로 만들어집니다.
+    answer: O
+    explain: 물체는 물질을 재료로 하여 만들어지므로 맞습니다.
+  - statement: 물질의 상태에는 고체, 액체, 기체 세 가지가 있습니다.
+    answer: O
+    explain: 성취기준대로 물질의 세 가지 상태는 고체, 액체, 기체입니다.
+  - statement: 고체는 담는 그릇에 따라 모양이 쉽게 변합니다.
+    answer: X
+    explain: 고체는 모양과 부피가 일정해 그릇이 바뀌어도 모양이 변하지 않습니다.
+  - statement: 물처럼 흐르면서 담는 그릇에 따라 모양이 바뀌는 것은 액체입니다.
+    answer: O
+    explain: 액체는 담는 그릇에 따라 모양은 바뀌지만 양(부피)은 변하지 않으며 흘러내리는 성질이 있습니다.
+  - statement: 공기는 기체이며 눈에 잘 보이지 않습니다.
+    answer: O
+    explain: 공기는 대표적인 기체로 눈에 잘 보이지 않습니다.
+  - statement: 모든 물질은 단단한 정도나 색깔 같은 성질이 똑같습니다.
+    answer: X
+    explain: 물질마다 성질이 서로 다르기 때문에 그 성질을 비교할 수 있습니다.
+  - statement: 물질의 성질을 이용하면 쓰임새에 알맞은 물체를 만들 수 있습니다.
+    answer: O
+    explain: 성취기준대로 물질의 성질을 이용해 쓸모 있는 물체를 만들 수 있습니다.

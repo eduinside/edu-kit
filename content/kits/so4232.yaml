@@ -1,0 +1,117 @@
+id: so4232
+title: 3-2. 도시에서의 삶의 모습
+grade: 4
+sem: 2학기
+subject: 사회
+unit: 3단원
+unit_no: 3
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 여러 도시의 특징과 그곳에서 나타나는 생활 방식을 살펴보고, 도시에서의 다양한 삶의 모습을 알아보는 단원입니다.
+  core_question: 지역마다 다른 환경은 사람들의 삶에 어떤 영향을 주며, 도시에서의 생활 모습은 어떻게 나타날까?
+  concepts:
+    - term: 도시
+      def: 많은 사람이 모여 살며 회사, 가게, 공장 등이 발달한 곳이에요. 교통과 산업이 발달해서 일자리와 편의 시설이 많은 지역을 말해요.
+    - term: 도시문제
+      def: 많은 사람이 도시에 모여 살면서 생기는 어려움이에요. 쓰레기 증가, 집 부족, 교통 체증 같은 문제가 대표적이에요.
+  standards:
+    - code: "[4사10-02]"
+      text: 사례에서 도시의 인구, 교통, 산업 등의 특징을 탐구하고, 도시에서의 삶의 모습을 이해한다.
+stages:
+  - 도시
+  - 도시문제
+items:
+  - key: v1
+    stage: 도시
+    title: 우리나라의 도시는 어떻게 발달했을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=LOwb6mIL1PI
+    desc: 간단하게 지도로 알아보는 우리나라의 도시 발달
+    channel: 김쌤의 취미공작소
+  - key: v2
+    stage: 도시
+    title: 우리나라 도시의 인구는 어떻게 변화되고 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=8erOitFS5AA
+    desc: 국내 도시 인구 순위의 연도별 변화
+    channel: 데이터다람쥐
+  - key: v3
+    stage: 도시
+    title: 도시의 모습은 어떨까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=AcNBb1Ok6Ak
+    desc: 대구의 야경에서 볼 수 있는 높은 건물, 문화시설 등 도시의 경관
+    channel: 대구관광 공식 유튜브 | 비짓대구
+  - key: v4
+    stage: 도시
+    title: 도시의 교통수단은 어떨까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=3joO0BLn92M
+    desc: 서울에서 부산까지 2시간 17분, 새로운 고속 철도 등장
+    channel: SBS 뉴스
+  - key: v5
+    stage: 도시문제
+    title: 도시에는 어떤 문제점들이 있을까?(쓰레기)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tgxsZGOUuxM
+    desc: 수도권이 쓰레기 대란으로 힘들어하고 있는 사례
+    channel: " YTN"
+  - key: v6
+    stage: 도시문제
+    title: 도시에는 어떤 문제점들이 있을까?(주택 부족)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=v-iD2s1ASgU
+    desc: 도시 세대 수 급증으로 인한 주택 부족 사태
+    channel: KBS News
+  - key: v7
+    stage: 도시문제
+    title: 도시에는 어떤 문제점들이 있을까?(교통 체증)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dVbwvmBOpO8
+    desc: 최악의 교통 체증 도시로 뽑힌 런던
+    channel: YTN 사이언스 투데이
+  - key: v8
+    stage: 도시문제
+    title: 도시의 교통문제를 해결할 수 있는 스마트한 방법?!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=OwMI42IOT84
+    desc: 스마트 모빌리티의 실시간 교통 정보 등을 이용한 도시의 교통 문제 해결 방법
+    channel: K-VIBE
+  - key: v9
+    stage: 도시문제
+    title: 도시 환경문제를 해결할 수 있는 방법이 있다고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Z1sVs90Nepk
+    desc: 도시숲을 만들어 도시의 환경 문제에 대응할 수 있음
+    channel: YTN 사이언스
+  - key: v10
+    stage: 도시문제
+    title: 도시의 문제를 해결하기 위해 어떤 기술이 개발되어야 할까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=fVU7n4xDp5Q
+    desc: 글로벌 도시 문제를 해결하고 있는 K-스마트시티
+    channel: K-팩트체커
+quiz:
+  - statement: 도시는 많은 사람이 모여 살고 산업과 교통이 발달한 곳이다.
+    answer: O
+    explain: 도시는 인구가 많고 교통과 산업이 발달한 지역이에요.
+  - statement: 도시에서는 쓰레기, 주택 부족, 교통 체증 같은 도시문제가 나타날 수 있다.
+    answer: O
+    explain: 사람이 많이 모이면서 쓰레기, 집 부족, 교통 체증 같은 도시문제가 생겨요.
+  - statement: 도시에는 사람이 적게 살아서 일자리와 편의 시설이 거의 없다.
+    answer: X
+    explain: 도시는 사람이 많이 모여 살고 일자리와 편의 시설이 많은 곳이에요.
+  - statement: 교통 체증은 도시에서 나타나는 도시문제 중 하나이다.
+    answer: O
+    explain: 도시에 차가 많아지면 길이 막히는 교통 체증이 생겨요.
+  - statement: 도시문제는 한번 생기면 어떤 방법으로도 절대 해결할 수 없다.
+    answer: X
+    explain: 스마트 교통이나 환경 기술처럼 다양한 방법으로 도시문제를 해결할 수 있어요.
+  - statement: 우리나라 도시의 인구는 시간이 지나면서 변화해 왔다.
+    answer: O
+    explain: 도시의 인구는 시간이 지나면서 늘거나 줄며 변화해요.
+  - statement: 쓰레기가 늘어나는 것은 도시문제와 전혀 관계가 없다.
+    answer: X
+    explain: 쓰레기 증가는 도시에서 나타나는 대표적인 도시문제예요.

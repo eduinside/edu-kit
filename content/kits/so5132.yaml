@@ -1,0 +1,159 @@
+id: so5132
+title: 3-2. 법으로 보호하는 우리 생활
+grade: 5
+sem: 1학기
+subject: 사회
+unit: 3단원
+unit_no: 3
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 법이 우리의 행동과 삶에 미치는 영향력을 이해하고, 헌법에 규정된 인권이 일상생활에 적용된 사례를 조사하는 과정을 통해 준법 태도와 인권 의식을 함양합니다.
+  core_question: 인권은 왜 소중하며, 법은 우리의 인권과 생활을 어떻게 보호할까?
+  concepts:
+    - term: 법
+      def: 여러 사람이 함께 안전하고 평화롭게 살아가도록 나라에서 정한, 모두가 꼭 지켜야 하는 규칙이에요. 법을 지키면 다툼을 줄이고 서로의 권리를 보호할 수 있어요.
+    - term: 헌법
+      def: 우리나라의 법 가운데 가장 기본이 되는 최고의 법이에요. 국민의 권리와 나라를 운영하는 기본 원칙을 담고 있어서, 다른 모든 법은 헌법에 어긋나면 안 돼요.
+    - term: 기본권
+      def: 헌법이 모든 국민에게 보장해 주는 기본적인 권리예요. 자유롭게 생각하고 행동할 권리, 평등하게 대우받을 권리처럼 사람답게 살기 위해 꼭 필요한 권리들이에요.
+    - term: 인권
+      def: 사람이라면 누구나 태어날 때부터 가지는, 마땅히 존중받아야 할 소중한 권리예요. 나이나 성별, 생김새와 상관없이 모든 사람이 똑같이 가지고 있어요.
+  standards:
+    - code: "[6사03-01]"
+      text: 일상 사례에서 법의 의미와 역할을 이해하고, 헌법에 규정된 인권이 일상생활에서 구현되는 사례를 조사하여 인권 친화적 태도를 기른다.
+stages:
+  - 법
+  - 직업
+  - 역할
+  - 태도
+items:
+  - key: v1
+    stage: 법
+    title: 동물원에 적용된 법은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=cBZdDiiPyEc
+    desc: 법이 적용되는 다양한 상황 영상
+    channel: 채널A News
+  - key: v2
+    stage: 법
+    title: 우리 나이에 적용된 법은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=7oqKF5eiWbg
+    desc: 법이 적용되는 다양한 상황 영상
+    channel: SBS 뉴스
+  - key: v3
+    stage: 법
+    title: 교통과 관련한 법은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qEGPfyRVY4A
+    desc: 법이 적용되는 다양한 상황 영상
+    channel: 법률방송
+  - key: v4
+    stage: 법
+    title: 학교폭력과 법
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=CjYw9ExBK1o
+    desc: 법이 적용되는 다양한 상황 영상
+    channel: 핫한영상모음
+  - key: v5
+    stage: 법
+    title: 여러나라의 법원에 정의의 여신 디케가 있는 까닭은 무엇일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=K6JlaIWom0A
+    desc: 정의의 여신 디케 동상이 법원에 존재하는 이유 영상
+    channel: 법원도서관
+  - key: v6
+    stage: 법
+    title: 저작권법은 어디까지 적용이 될까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=9pjQrp9E2To
+    desc: 법이 적용되는 다양한 상황 영상
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v7
+    stage: 법
+    title: 민사와 형사 어떤 차이가 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=EkVXYIn0m7Q
+    desc: 민사와 형사 차이점 탐색 영상
+    channel: 3분차이
+  - key: v8
+    stage: 직업
+    title: 변호사는 어떤 일을 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Kz_Xa1GasvI
+    desc: 변호사가 하는 일 영상
+    channel: SBS Entertainment
+  - key: v9
+    stage: 직업
+    title: 법과 관련된 직업은 무엇이 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=4OttTU1TpQY
+    desc: 변호사, 검사, 판사 등 법과 관련된 직업 탐구 영상
+    channel: 3분차이
+  - key: v10
+    stage: 직업
+    title: 검사는 어떤 일을 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=shc8yeVwfh4
+    desc: 검사가 하는 일 영상
+    embed: false
+    channel: 클래스로그
+  - key: v11
+    stage: 역할
+    title: 법은 인권을 지키기 위해 어떤 역할을 할까?(1)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=W85gNkJGK3w
+    desc: 예금자보호법 관련 영상
+    channel: SBS STORY
+  - key: v12
+    stage: 역할
+    title: 법은 인권을 지키기 위해 어떤 역할을 할까?(2)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=RHmVDsckv8s
+    desc: Y대 대학생이 청소노동자를 고소한 사건 판결 뉴스 영상
+    channel: MBCNEWS
+  - key: v13
+    stage: 역할
+    title: 법은 인권을 지키기 위해 어떤 역할을 할까?(3)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=p-qaJ0ir_UU
+    desc: 전세사기 관련 판결 뉴스 영상
+    channel: MBCNEWS
+  - key: v14
+    stage: 태도
+    title: 지키면 정말 손해일까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=FzBO-32sLV8
+    desc: 일상 속 다양한 반칙들을 살피고, 법을 지켜야하는 이유에 대해 생각해보는 영상
+    channel: " YTN"
+  - key: v15
+    stage: 태도
+    title: 법으로 우리 사회가 완전히 정의로워질 수 있을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Un3LaZ8rS7U
+    desc: 정의로운 사회를 만들기 위한 개인의 역할 영상
+    channel: 유 퀴즈 온 더 튜브
+quiz:
+  - statement: 법은 여러 사람이 함께 안전하고 평화롭게 살아가도록 나라에서 정한 규칙이다.
+    answer: O
+    explain: 법은 사회 구성원이 지켜야 할 약속으로, 안전하고 평화로운 생활을 돕는다.
+  - statement: 인권은 어른이 된 다음에야 비로소 생기는 권리이다.
+    answer: X
+    explain: 인권은 사람이라면 누구나 태어날 때부터 가지는 권리이다.
+  - statement: 헌법은 우리나라 법 가운데 가장 기본이 되는 최고의 법이다.
+    answer: O
+    explain: 헌법은 국가의 최고 법으로, 다른 법은 헌법에 어긋날 수 없다.
+  - statement: 기본권은 헌법이 국민에게 보장해 주는 권리이다.
+    answer: O
+    explain: 기본권은 헌법에 규정되어 모든 국민에게 보장되는 기본적인 권리이다.
+  - statement: 법은 우리의 인권을 지키는 데 아무런 도움도 주지 않는다.
+    answer: X
+    explain: 법은 사람들의 인권과 생활을 보호하는 중요한 역할을 한다.
+  - statement: 법은 나만 편하면 마음대로 어겨도 되는 약속이다.
+    answer: X
+    explain: 법은 모두가 함께 지켜야 하는 규칙으로, 지킬 때 서로의 권리가 보호된다.
+  - statement: 인권은 나이나 성별, 생김새와 상관없이 모든 사람이 똑같이 가진다.
+    answer: O
+    explain: 인권은 사람이라면 누구에게나 차별 없이 주어지는 소중한 권리이다.

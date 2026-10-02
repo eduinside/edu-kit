@@ -1,0 +1,251 @@
+id: so4122
+title: 2-2. 우리 지역의 역사
+grade: 4
+sem: 1학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 지역에 있는 박물관, 기념관, 유적지를 방문하며 조상들의 생활 모습과 지혜가 담긴 국가유산을 비롯한 지역의 역사를 이해하는 것을 목표로 합니다. 학생들이 직접 온·오프라인으로 박물관, 기념관, 유적지를 탐방하며 지역의 역사에 대한 지식을 습득하고 해석할 수 있도록 합니다. 또한, 지역의 역사를 소중히 여기고 보존하기 위해 실천하는 태도를 기를 수 있도록 합니다.
+  core_question: 우리 지역의 국가유산과 역사는 어떤 의미와 가치를 지니며, 우리는 그것을 어떻게 지켜 가야 할까?
+  concepts:
+    - term: 박물관
+      def: 옛날 사람들이 쓰던 물건이나 유물을 모아서 보여 주는 곳이에요. 박물관에 가면 조상들의 생활 모습을 살펴볼 수 있어요.
+    - term: 유적지
+      def: 옛날 사람들이 살았던 흔적이나 건물 같은 것이 남아 있는 곳이에요. 그 자리에 가면 오래전 우리 지역의 역사를 알 수 있어요.
+    - term: 기념관
+      def: 중요한 사람이나 사건을 오래 기억하기 위해 세운 곳이에요. 그곳에서 우리 지역에서 일어난 일과 훌륭한 인물을 배울 수 있어요.
+    - term: 지역의 역사
+      def: 우리가 사는 고장에서 옛날부터 지금까지 일어난 일과 살아온 이야기예요. 박물관, 기념관, 유적지를 통해 알아볼 수 있어요.
+  standards:
+    - code: "[4사06-02]"
+      text: 지역의 박물관, 기념관, 유적지 등을 체험하고 지역의 역사를 이해한다.
+stages:
+  - 박물관
+  - 유적지
+  - 기념관
+  - 지역의 역사
+items:
+  - key: v1
+    stage: 박물관
+    title: 국립대구박물관 홍보 영상
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ORhAxeGnnhQ
+    desc: 대구의 대표 박물관인 대구국립박물관을 소개하는 영상
+    channel: 국립대구박물관 Daegu National Museum
+  - key: v2
+    stage: 박물관
+    title: 대구간송미술관 개관 소식
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=oTubngc920g
+    desc: 대구간송미술관을 소개하는 영상
+    start: 0
+    end: 229
+    channel: 대구MBC Program
+  - key: v3
+    stage: 유적지
+    title: 대구 달서구, 2만 년 삶터 선사유적
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=MQfcA8HX-fM
+    desc: 달서구의 선사유적지를 소개하는 영상
+    channel: KBS뉴스 대구경북
+  - key: v4
+    stage: 유적지
+    title: 자랑스러운 대구의 문화 유산_신숭겸 장군 유적지
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=oCte_yD-l8M
+    desc: 신숭겸 장군 유적지를 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v5
+    stage: 유적지
+    title: 읍성
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=nRBOdvFLS_A
+    desc: 읍성의 뜻과 대구읍성의 간략한 소개를 다룬 영상
+    channel: 대구미래교육연구원
+  - key: v6
+    stage: 기념관
+    title: 걸어서 동구 속으로 - 호국보훈테마공원 망우당공원을 찾아 (1) 임란호국영남충의단전시관과 곽재우 장군 동상편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=OxMc4FvBbTg
+    desc: 임란호국영남충의단전시관과 곽재우 장군 동상을 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v7
+    stage: 기념관
+    title: 걸어서 동구 속으로 - 호국보훈테마공원 망우당공원을 찾아 (2) 조양회관편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=43pHRf8lp60
+    desc: 조양회관을 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v8
+    stage: 기념관
+    title: 걸어서 동구 속으로 - 호국보훈테마공원 망우당공원을 찾아 (3) 항일독립운동기념탑편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1t0vr4BLJKw
+    desc: 항일독립운동기념탑편을 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v9
+    stage: 기념관
+    title: 걸어서 수성구 속으로 - 호국보훈테마공원 망우당공원을 찾아 (4) 영남제일관편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=k8YYvpvQ20Y
+    desc: 영남제일관을 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v10
+    stage: 지역의 역사
+    title: 걸어서 동구 속으로 - 옻골마을편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=8ZCm-gPfunc
+    desc: 옻골마을을 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v11
+    stage: 지역의 역사
+    title: 걸어서 수성구 속으로 - 모명재편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=vUJq0UaJWtc
+    desc: 모명재를 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v12
+    stage: 지역의 역사
+    title: 걸어서 중구 속으로 - 계성학교편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=eSMwXisuUWU
+    desc: 영남지역 최초의 양옥 건물이자 중등교육기관인 계성학교를 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v13
+    stage: 지역의 역사
+    title: 걸어서 중구 속으로 - 경상감영공원편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=a_Vcg8O9kSY
+    desc: 경상감영공원을 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v14
+    stage: 지역의 역사
+    title: 걸어서 중구 속으로 - 대구형무소 사적편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tcVAez5pxJk
+    desc: 대구형무소를 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v15
+    stage: 지역의 역사
+    title: 걸어서 달서구 속으로 - 입석편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=o0bojlgiaZw
+    desc: 선사시대 유적 입석을 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v16
+    stage: 지역의 역사
+    title: 걸어서 달서구 속으로 - 무형문화재(모필장)편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=f50BLY3Ltcc
+    desc: 무형문화재 모필장을 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v17
+    stage: 지역의 역사
+    title: 걸어서 달성군 속으로 - 용연사편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HcrRpVWRVZk
+    desc: 용연사를 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v18
+    stage: 지역의 역사
+    title: 걸어서 달성군 속으로 - 인흥마을편(남평문씨 본리세거지)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=IHeT-bVC6eY
+    desc: 인흥마을을 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v19
+    stage: 지역의 역사
+    title: 걸어서 달성군 속으로 - 현풍 석빙고편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=JUbP2BUAIJA
+    desc: 현풍 석빙고를 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v20
+    stage: 지역의 역사
+    title: 걸어서 달성군 속으로 - 녹동서원편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=K1CBMub7Ps4
+    desc: 녹동서원을 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v21
+    stage: 지역의 역사
+    title: 걸어서 남구 속으로 - 안일사, 왕굴편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=pMjWJcTqshU
+    desc: 안일사와 왕굴을 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v22
+    stage: 지역의 역사
+    title: 걸어서 군위군 속으로 - 삼국유사의 집필지 인각사편(1)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=N8STXDjXgJk
+    desc: 인각사를 소개하는 첫번째 영상
+    channel: 대구미래교육연구원
+  - key: v23
+    stage: 지역의 역사
+    title: 걸어서 군위군 속으로 - 삼국유사의 집필지 인각사편(2)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=vaWj_3ToEOI
+    desc: 인각사를 소개하는 두번째 영상
+    channel: 대구미래교육연구원
+  - key: v24
+    stage: 지역의 역사
+    title: 걸어서 군위군 속으로 - 임진왜란과 일제강점기에서 지켜낸 위패 의흥향교편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Xxf_QLx7coM
+    desc: 의흥향교를 소개하는 영상
+    channel: 대구미래교육연구원
+  - key: v25
+    stage: 지역의 역사
+    title: 걸어서 군위군 속으로 - 김수환 추기경 사랑과 나눔공원편(1)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=hRZ7t6wiFW4
+    desc: 나눔공원을 소개하는 첫번째 영상
+    channel: 대구미래교육연구원
+  - key: v26
+    stage: 지역의 역사
+    title: 걸어서 군위군 속으로 - 김수환 추기경 사랑과 나눔공원편(2)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=DwY60s5daHc
+    desc: 나눔공원을 소개하는 두번째 영상
+    channel: 대구미래교육연구원
+  - key: v28
+    stage: 지역의 역사
+    title: 국채보상운동
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=pNfsKdppjU8
+    desc: 국채보상의 뜻과 국채보상운동의 간략한 소개를 다룬 영상
+    channel: 대구미래교육연구원
+  - key: v29
+    stage: 지역의 역사
+    title: 2.28 민주운동
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=aogjtnyTJeI
+    desc: 민주의 뜻과 2.28 민주운동의 간략한 소개를 다룬 영상
+    channel: 대구미래교육연구원
+quiz:
+  - statement: 박물관에 가면 옛날 사람들이 쓰던 물건과 유물을 볼 수 있다.
+    answer: O
+    explain: 박물관은 조상들의 유물을 모아 보여 주는 곳이에요.
+  - statement: 유적지는 옛날 사람들이 살았던 흔적이 남아 있는 곳이다.
+    answer: O
+    explain: 유적지에는 옛날 사람들의 생활 흔적이나 건물이 남아 있어요.
+  - statement: 기념관은 중요한 사람이나 사건을 기억하기 위해 세운 곳이다.
+    answer: O
+    explain: 기념관은 소중한 인물과 사건을 오래 기억하려고 만든 곳이에요.
+  - statement: 우리 지역의 박물관, 기념관, 유적지를 직접 찾아가 체험할 수 있다.
+    answer: O
+    explain: 이 단원은 지역의 박물관·기념관·유적지를 체험하며 역사를 이해하는 것이 목표예요.
+  - statement: 지역의 역사는 다른 나라의 이야기일 뿐 우리 고장과는 관계가 없다.
+    answer: X
+    explain: 지역의 역사는 바로 우리가 사는 고장에서 일어난 일과 살아온 이야기예요.
+  - statement: 소중한 국가유산은 함부로 만지거나 망가뜨려도 괜찮다.
+    answer: X
+    explain: 지역의 역사와 국가유산은 소중히 여기고 보존해야 해요.
+  - statement: 우리 지역의 역사는 박물관이나 유적지를 찾아가도 전혀 알 수 없다.
+    answer: X
+    explain: 박물관, 기념관, 유적지를 방문하면 지역의 역사를 배우고 이해할 수 있어요.

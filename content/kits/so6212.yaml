@@ -1,0 +1,174 @@
+id: so6212
+title: 1-2. 세계의 다양한 기후와 생활 모습
+grade: 6
+sem: 2학기
+subject: 사회
+unit: 1. 세계의 자연환경
+unit_no: 1
+flow: activity
+sort_order: 2
+published: true
+intro:
+  core_idea: 기후 환경은 인간의 생활 방식에 영향을 미치며, 이는 다양한 삶의 모습으로 나타난다.
+  core_question: 세계의 다양한 기후 환경은 사람들의 생활 방식에 어떤 영향을 주는가?
+  concepts:
+    - term: 공간과 장소
+    - term: 상호작용
+    - term: 기후
+    - term: 환경
+    - term: 생활
+  standards:
+    - code: "[6사10-02]"
+      text: 세계의 다양한 기후를 알아보고 기후 환경과 인간생활 간의 관계를 탐구한다.
+stages:
+  - name: 생각열기
+    question: 날씨와 기후는 어떻게 다를까?
+  - name: 탐구하기1
+    question: 세계의 여러 기후는 각각 어떤 특징을 가질까?
+  - name: 탐구하기2
+    question: 기후는 사람들의 생활 모습에 어떤 영향을 줄까?
+  - name: 확장하기
+    question: 사람들은 자연환경에 맞추어 어떤 선택을 할까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 날씨와 기후는 어떻게 다를까?
+    url: https://www.youtube.com/watch?v=KoaKRkIHuoY
+    desc: 날씨와 기후의 차이를 알아보고 기후 평균치의 기준과 갱신을 이해함.
+    channel: 서울환경연합
+  - key: v02
+    stage: 생각열기
+    title: 기후를 결정하는 기후 요소와 기후 요인 알아보기
+    url: https://www.youtube.com/watch?v=dTs-2WnDSEM
+    desc: 기후 요소와 기후 요인의 구분을 알아보고 지역별 기온·강수·바람 차이를 살펴보며 기후를 결정하는 다양한 조건을 이해함.
+    channel: 지리탭탭
+  - key: v03
+    stage: 탐구하기1
+    title: 세계의 기후는 어떻게 분류되며 어떤 특징이 있을까?
+    url: https://www.youtube.com/watch?v=ep7dW8r-Z7A
+    desc: 세계 기후의 5가지 분류를 알아보고 기후대별 대표적 특징을 살펴보며 기후에 따른 자연환경을 이해함.
+    channel: 여니소리
+  - key: v04
+    stage: 탐구하기1
+    title: 식생을 기준으로 한 쾨펜의 기후 구분 알아보기
+    url: https://www.youtube.com/watch?v=eqR4t0T6rqY
+    desc: 쾨펜 기후 구분의 탄생 배경을 알아보고 식생을 활용한 기후 분류 기준을 살펴보며 열대·건조·온대·냉대·한대 기후를 이해함.
+    channel: 지리탭탭
+  - key: v05
+    stage: 탐구하기1
+    title: 위도에 따라 기온과 계절이 달라지는 이유는 무엇일까?
+    url: https://www.youtube.com/watch?v=YwAaaED8DmU
+    desc: 위도에 따른 기온 차이를 이해하고 계절 변화가 나타나는 원인을 파악하며 자전축 기울기와 태양의 관계를 탐색함.
+    channel: 여니소리
+  - key: v06
+    stage: 탐구하기1
+    title: 북반구와 남반구의 계절이 반대로 나타나는 이유는 무엇일까?
+    url: https://www.youtube.com/watch?v=1sMlhFz-_dg
+    desc: 자전축의 기울기와 지구의 공전을 알아보고 중위도 지역의 계절 변화를 살펴보며 북반구와 남반구의 계절 차이를 이해함.
+    channel: 여니소리
+  - key: v07
+    stage: 탐구하기1
+    title: 열대 기후 지역의 자연환경과 사람들의 생활 모습
+    url: https://www.youtube.com/watch?v=7ZXo5hCzSrU
+    desc: 열대기후의 분포와 형성 원인을 알아보고 열대 우림·사바나·열대 몬순 기후의 특징과 차이를 살펴보며 기후에 따른 주민 생활과 경제 활동의 모습을 이해함.
+    channel: 생각의 감칠맛, 다시답
+  - key: v08
+    stage: 탐구하기1
+    title: 온대 기후의 특징과 서안 해양성 기후가 공업 발달에 미친 영향
+    url: https://www.youtube.com/watch?v=zS8pA-pKaWM
+    desc: 온대기후의 특징과 세부 기후 유형의 분류를 알아보고 서안 해양성 기후의 기온·강수 특성과 분포 지역을 살펴보며 서안 해양성 기후가 공업 발달에 미친 영향을 이해함.
+    channel: 생각의 감칠맛, 다시답
+  - key: v09
+    stage: 탐구하기1
+    title: 건조 기후 지역 사람들의 환경 극복 과정과 유목 생활
+    url: https://www.youtube.com/watch?v=CLmjagGmTfg
+    desc: 사막기후와 스텝기후의 특징 및 차이점을 알아보고 두바이 사례를 통해 인간의 환경 극복 과정을 살펴보며 스텝기후의 유목 생활과 칭기스칸의 기동력을 이해함.
+    channel: 생각의 감칠맛, 다시답
+  - key: v10
+    stage: 탐구하기1
+    title: 냉대 기후의 특징과 북유럽 가구 산업이 발달한 이유
+    url: https://www.youtube.com/watch?v=yCPlQnV4jhQ
+    desc: 냉대기후의 특징과 세 가지 유형을 알아보고 긴 겨울밤이 만들어 낸 북유럽의 생활 모습을 살펴보며 가구 산업의 발달을 이해함.
+    channel: 생각의 감칠맛, 다시답
+  - key: v11
+    stage: 탐구하기1
+    title: 한대 기후의 특징과 극한 환경이 사람들의 생활에 미치는 영향
+    url: https://www.youtube.com/watch?v=07TGrRVpToc
+    desc: 한대기후의 특징과 툰드라 기후·빙설 기후의 구분을 알아보고 지구 자전축의 기울기로 나타나는 백야와 극야 현상을 살펴보며 극한의 환경이 사람들의 생활 방식에 미치는 영향을 이해함.
+    channel: 생각의 감칠맛, 다시답
+  - key: v12
+    stage: 탐구하기2
+    title: 세계의 다양한 기후는 사람들의 의식주와 산업에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=f-hsWKZ3ttQ
+    desc: 세계 기후의 종류와 특징을 알아보고 기후에 따른 의식주 변화를 살펴보며 기후와 산업·생활 모습의 관계를 이해함.
+    channel: 이투스 현수쌤
+  - key: v13
+    stage: 탐구하기2
+    title: 열대 기후와 건조 기후 지역 사람들의 생활 방식 비교하기
+    url: https://www.youtube.com/watch?v=Qkgq5X7WJOI
+    desc: 열대 기후의 자연환경과 농업 활동을 이해하고 건조 기후의 오아시스 농업과 유목 생활을 탐구하며 기후에 적응하며 살아가는 사람들의 생활 방식을 비교함.
+    channel: 한국환경공단
+  - key: v14
+    stage: 탐구하기2
+    title: 온대 기후와 고산 기후 지역 사람들의 생활 모습 알아보기
+    url: https://www.youtube.com/watch?v=IBiNjGkr2gE
+    desc: 온대 기후의 특징과 다양한 농업 활동을 이해하고 고산 기후가 나타나는 이유와 도시 발달을 탐구하며 기후에 따라 달라지는 인간의 생활 모습을 비교함.
+    channel: 스마트올TV
+  - key: v15
+    stage: 탐구하기2
+    title: 냉대 기후와 한대 기후 지역 사람들의 생활 모습 알아보기
+    url: https://www.youtube.com/watch?v=4YmH-DLcXrw
+    desc: 냉대 기후 지역의 농업과 임업 활동을 이해하고 한대 기후 지역의 유목 생활과 자원 개발을 탐구하며 기후에 적응하며 살아가는 다양한 생활 모습을 비교함.
+    channel: 스마트올TV
+  - key: v16
+    stage: 확장하기
+    title: 기후는 음식 문화와 향신료 사용에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=fXKvYjKMFjo
+    desc: 기후와 향신료 사용량의 관계를 알아보고 향신료의 항균 작용과 음식 보존을 살펴보며 자연환경에 따른 음식 문화의 형성 및 정착을 이해함.
+    channel: 과학드림 [Science Dream]
+  - key: v17
+    stage: 확장하기
+    title: 열대 우림 지역에서 화전 농업을 하는 이유와 그 영향
+    url: https://www.youtube.com/watch?v=TEtSIkiG22E
+    desc: 강수로 인한 토양 영양분의 유실을 알아보고 화전 농업을 통한 환경 적응과 산림 훼손 문제를 이해함.
+    channel: 지리는TV
+  - key: v18
+    stage: 확장하기
+    title: 툰드라 지역 사람들은 왜 집을 바닥에서 띄워 지을까?
+    url: https://www.youtube.com/watch?v=NE03UrvGO0o
+    desc: 툰드라 지역의 땅과 기후 특징을 이해하고 집을 바닥에서 띄워 짓는 이유를 탐구하며 환경에 적응한 생활 모습을 파악함.
+    channel: 지리는TV
+  - key: v19
+    stage: 확장하기
+    title: 고산 기후 지역 사람들은 서늘한 환경을 어떻게 활용할까?
+    url: https://www.youtube.com/watch?v=FUBtZpp9mfc
+    desc: 해발 고도가 높아질수록 기온이 낮아지는 모습을 알아보고 일 년 내내 서늘한 기후를 활용한 생활 모습을 살펴보며 감자와 옥수수 재배, 고산 도시 발달 사례를 탐구함.
+    channel: 황민수
+  - key: v20
+    stage: 확장하기
+    title: 기후에 따라 쌀 품종과 음식 문화는 어떻게 달라질까?
+    url: https://www.youtube.com/watch?v=AJvDiA9Vdrk
+    desc: 기후에 따라 달라지는 쌀 품종을 알아보고 지역별 쌀 재배 특징을 살펴보며 쌀이 음식 문화에 미치는 영향을 이해함.
+    channel: 지리탭탭
+quiz:
+  - statement: 기후는 한 지역에서 오랜 기간 반복되는 평균적인 날씨의 특징이다.
+    answer: O
+    explain: 짧은 기간의 대기 상태인 날씨와 달리 기후는 장기간의 특징을 나타낸다.
+  - statement: 열대 기후 지역에서는 높은 기온에 맞춘 옷차림과 생활 방식이 나타날 수 있다.
+    answer: O
+    explain: 기후 환경은 주거, 의복, 음식과 산업에 영향을 준다.
+  - statement: 건조 기후 지역은 비가 매우 많이 내려 울창한 숲이 널리 나타난다.
+    answer: X
+    explain: 강수량이 적어 사막이나 초원이 나타나며 물을 얻는 방법이 중요하다.
+  - statement: 한대 기후 지역에서는 추위를 견디기 위한 주거와 옷차림이 발달한다.
+    answer: O
+    explain: 낮은 기온과 눈, 얼음에 적응한 생활 모습이 나타난다.
+  - statement: 기후는 농업과 관광, 교통 같은 경제활동에 영향을 줄 수 있다.
+    answer: O
+    explain: 재배 작물과 활동 시기, 이동 조건 등이 기후에 따라 달라진다.
+  - statement: 같은 기후 지역에서는 문화와 기술이 달라도 생활 모습이 언제나 똑같다.
+    answer: X
+    explain: 기후 외에도 역사, 문화, 기술과 경제 수준이 생활에 영향을 준다.
+  - statement: 사람은 기후의 영향만 받을 뿐 냉난방 기술 등으로 생활 환경을 바꿀 수 없다.
+    answer: X
+    explain: 사람들은 기술과 시설을 이용해 기후에 적응하고 생활 조건을 개선한다.

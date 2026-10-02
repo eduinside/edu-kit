@@ -1,0 +1,147 @@
+id: sc4241
+title: 4. 기후 변화와 우리 생활
+grade: 4
+sem: 2학기
+subject: 과학
+unit: 기후 변화와 우리 생활
+unit_no: 4
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 기후변화 현상의 예, 최근 지구의 기온 변화, 기후변화와 인간 활동의 관련성, 기후변화가 우리 생활과 환경에 미치는 영향, 기후변화 대응 방법을 조사하여 일상생활 속에서 실천할 수 있도록 구성되어 있습니다.
+  core_question: 기후변화는 왜 일어나고 우리 생활에 어떤 영향을 주며, 우리는 어떻게 대응해야 할까?
+  concepts:
+    - term: 기온
+      def: 공기의 따뜻하고 차가운 정도를 숫자로 나타낸 것이에요. 보통 온도계로 재며 '도(°C)'로 표시해요.
+    - term: 강수량
+      def: 일정한 기간 동안 비나 눈이 내려 땅에 쌓인 물의 양이에요. 비와 눈이 얼마나 많이 왔는지를 알려 줘요.
+    - term: 기후변화
+      def: 오랜 시간에 걸쳐 지구의 기온이나 강수량 같은 날씨의 평균 모습이 달라지는 것이에요. 요즘은 지구가 점점 더워지는 변화가 나타나고 있어요.
+    - term: 기후대응
+      def: 기후변화로 생기는 문제를 줄이거나 막기 위해 우리가 하는 노력과 행동이에요. 에너지 아끼기처럼 생활 속에서 실천할 수 있어요.
+    - term: 생태계보전
+      def: 동물, 식물과 그들이 사는 환경을 잘 지키고 보살피는 것이에요. 기후변화로 위험해진 생물과 자연을 보호하는 일이에요.
+  standards:
+    - code: "[4과16-01]"
+      text: 기후변화 현상의 예를 알고, 기후변화가 인간의 활동과 관련되어 있음을 토의할 수 있다.
+    - code: "[4과16-02]"
+      text: 기후변화의 심각성에 관심을 가지고, 기후변화가 우리 생활과 환경에 미치는 영향을 설명할 수 있다.
+    - code: "[4과16-03]"
+      text: 기후변화 대응 방법을 조사하고, 생활 속에서 기후변화 대응 방법을 실천할 수 있다.
+stages:
+  - 기온
+  - 기후변화
+  - 기후대응
+  - 생태계보전
+items:
+  - key: v1
+    stage: 기온
+    title: 날씨 공식 깨는 기후변화
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=FN1nRy4EtaI
+    desc: 7월 장마, 8월 무더위라는 여름 날씨 공식은 이미 깨지고 있음을 소개하는 영상
+    channel: 연합뉴스TV
+  - key: v2
+    stage: 기온
+    title: 우리나라 날씨가 달라지고 있다?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=MlqmGs508UI
+    desc: 우리나라 날씨가 달려져서 단시간에 많은 비가 쏟아질 것으로 보여 침수와 하천 범람, 산사태 등 호우 피해에 철저한 대비가 요구되는 것을 안내하는 영상
+    channel: " YTN"
+  - key: v3
+    stage: 기후변화
+    title: 지구 온도 1도 상승으로 일어나는 참혹한 일
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=dhaERp8Z0Rs
+    desc: 지구 온도가 1도만 올라도 산불, 자연재해 등이 많이 발생함을 소개하는 영상
+    channel: JTBC Entertainment
+  - key: v4
+    stage: 기후변화
+    title: 지구온난화로 해양생태계가 죽는다?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=0omGr_w-lyM
+    desc: 지구온난화로 인해 호주의 해양 생물이 멸종위기에 처한 것을 소개하는 영상
+    channel: YTN 사이언스
+  - key: v5
+    stage: 기후변화
+    title: 기후 변화로 서울에서 바나나가 자란다고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=K9zPGyE4e6Y
+    desc: 기후변화로 서울에서 자라나는 바나나 등 기후변화로 인한 변화와 대응 영상
+    channel: JTBC News
+  - key: v6
+    stage: 기후변화
+    title: 기후 전문가들이 말하는 기후 재앙, 이대로 괜찮은가?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=dk7NQ-RiwEc
+    desc: 기후 위기 전문가들이 말하는 기후 재앙이야기, 기후와 생태계의 변화 사례를 소개하는 영상
+    start: 567
+    end: 845
+    channel: 디글 :Diggle
+  - key: v7
+    stage: 기후대응
+    title: 100년 뒤 우리나라 기후는 어떻게 변할까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=j_8HZzf-4AE
+    desc: 대기중 이산화탄소 농도에 따른 우리나라 기후 변화 예측 영상
+    channel: 대한민국 기상청
+  - key: v8
+    stage: 기후대응
+    title: 강수량 변화 예측의 정확도를 개선하는 방법
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=sA8UkGIMrwo
+    desc: 강수량 증가 예측의 정확도를 개선하려는 노력으로 기후 변화에 대응하는 영상
+    channel: YTN 사이언스 투데이
+  - key: v9
+    stage: 기후대응
+    title: 과학자들이 말하는 기후위기의 원인과 대비책은?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=_qRjz56Uwqk
+    desc: 전 세계에서 일어나는 기후변화로 인한 피해, 피해를 막기위한 대응 방안
+    start: 272
+    end: 579
+    channel: 디글 :Diggle
+  - key: v10
+    stage: 기후대응
+    title: 기후 위기는 누구의 책임일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=H9HwGsCZdzg
+    desc: 기후 위기는 누구 책임인지 국제사법재판소 첫 의견 영상, 기후 대응이 국가의 법적 의무임을 말함.
+    channel: KBS News
+  - key: v11
+    stage: 생태계보전
+    title: 아마존 밀림을 볼 수 있는 건 우리 세대가 마지막이라고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ctytX-oG_sY
+    desc: 아마존 생태계에 대한 영상으로, 인간의 영향으로 제 기능을 못하는 지역이 250만㎢로 아마존 전체 면적 38%에 이름.
+    channel: KBS News
+  - key: v12
+    stage: 생태계보전
+    title: 생물 멸종을 막을 마지막 기회
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=WPTw6FfJ5pQ
+    desc: 생물 멸종에 대한 경각심을 고취하는 영상으로, 인간의 서식지 파괴, 남획 등으로 생물이 멸종하는 것을 알려줌
+    channel: 국립생물자원관
+quiz:
+  - statement: 기후변화로 최근 지구의 기온이 점점 올라가고 있다.
+    answer: O
+    explain: 최근 지구는 점점 더워지는 기온 변화를 보이고 있어요.
+  - statement: 기후변화는 사람의 활동과는 전혀 관계가 없다.
+    answer: X
+    explain: 기후변화는 사람의 활동과 관련되어 있어요.
+  - statement: 기후변화는 우리 생활과 환경에 영향을 준다.
+    answer: O
+    explain: 기후변화는 우리 생활과 환경에 여러 영향을 미쳐요.
+  - statement: 강수량은 비나 눈이 내린 양을 나타낸다.
+    answer: O
+    explain: 강수량은 비와 눈이 내린 물의 양을 뜻해요.
+  - statement: 에너지를 아끼는 것은 기후변화 대응 방법이 될 수 있다.
+    answer: O
+    explain: 에너지 절약은 생활 속에서 실천하는 기후변화 대응 방법이에요.
+  - statement: 기후변화가 심해져도 동물과 식물에게는 아무런 위험이 없다.
+    answer: X
+    explain: 기후변화는 생물과 생태계에 위험을 줄 수 있어 생태계 보전이 필요해요.
+  - statement: 기온은 공기가 따뜻하고 차가운 정도를 나타낸 것이다.
+    answer: O
+    explain: 기온은 공기의 따뜻하고 차가운 정도를 숫자로 나타낸 것이에요.

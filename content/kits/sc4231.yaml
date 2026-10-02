@@ -1,0 +1,175 @@
+id: sc4231
+title: 3. 여러 가지 기체
+grade: 4
+sem: 2학기
+subject: 과학
+unit: 여러 가지 기체
+unit_no: 3
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 기체가 무게가 있다는 것과 온도나 압력에 따라 기체의 부피가 달라지는 현상을 실험을 통해 알아보고, 일상생활에서 이용되는 기체의 종류와 성질을 조사합니다. 기체의 성질에 대한 탐구를 통해 기체의 성질을 이용하여 작동시킬 수 있는 장치를 설계하고 만들어 보도록 구성되어 있습니다.
+  core_question: 기체는 어떤 성질을 지니며, 우리는 그 성질을 생활에서 어떻게 이용할까?
+  concepts:
+    - term: 온도와 기체 부피
+      def: 기체는 온도가 높아지면 부피가 커지고, 온도가 낮아지면 부피가 작아집니다. 그래서 따뜻한 곳에 둔 풍선은 부풀고, 차가운 곳에 둔 풍선은 쪼그라듭니다.
+    - term: 압력과 기체 부피
+      def: 기체에 누르는 힘(압력)을 더 세게 주면 부피가 작아지고, 누르는 힘을 약하게 하면 부피가 커집니다. 주사기 입구를 막고 밀대를 누르면 안의 공기가 줄어드는 것이 그 예입니다.
+    - term: 기압
+      def: 우리 주변을 둘러싼 공기가 누르는 힘을 기압이라고 합니다. 공기에도 무게가 있어서 우리 몸과 물체를 사방에서 누르고 있습니다.
+    - term: 산소
+      def: 우리가 숨을 쉴 때 꼭 필요한 기체로, 다른 물질이 타는 것을 돕는 성질이 있습니다. 색깔과 냄새가 없습니다.
+    - term: 이산화탄소
+      def: 우리가 숨을 내쉴 때 나오고, 물질이 탈 때 생기는 기체입니다. 불을 끄는 성질이 있어 소화기에 이용됩니다.
+    - term: 질소
+      def: 공기 중에 가장 많이 들어 있는 기체로, 색깔과 냄새가 없고 다른 물질과 잘 반응하지 않습니다. 그래서 과자 봉지를 채워 과자가 부서지거나 상하지 않도록 하는 데 쓰입니다.
+    - term: 공기
+      def: 우리 주변을 둘러싸고 있으며 산소, 질소, 이산화탄소 같은 여러 기체가 섞여 있습니다. 눈에 보이지 않지만 무게가 있고 자리(공간)를 차지합니다.
+  standards:
+    - code: "[4과15-01]"
+      text: 실험을 통해 기체가 무게가 있음을 설명할 수 있다.
+    - code: "[4과15-02]"
+      text: 온도나 압력에 따라 기체의 부피가 달라지는 현상을 관찰하고, 우리 주변에서 예를 찾을 수 있다.
+    - code: "[4과15-03]"
+      text: 일상생활에서 이용되는 기체의 종류와 성질을 조사하고, 여러 가지 기체에 대해 흥미를 느낄 수 있다.
+    - code: "[4과15-04]"
+      text: 기체의 성질을 이용하여 작동시킬 수 있는 장치를 설계하고 만들 수 있다.
+stages:
+  - 온도와 기체 부피
+  - 압력과 기체 부피
+  - 기압
+  - 산소
+  - 이산화탄소
+  - 질소
+  - 공기
+items:
+  - key: v1
+    stage: 온도와 기체 부피
+    title: 혼자서 움직이는 컵의 비밀
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=avVwbtPyAMs
+    desc: 온도에 따른 기체 부피 변화 일상 생활 사례 영상, 열기구, 컵 아래 기체 부피 변화로 움직임
+    channel: tvN Joy
+  - key: v2
+    stage: 온도와 기체 부피
+    title: 냉동실 속 페트병 부피 변화
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=8j0pdUlgXVA
+    desc: 샤를의 법칙 페트병 실험 영상으로, 구겨놓은 페트병을 냉동실에 넣었다가 꺼내면 다시 펴짐
+    channel: 송쌤과학
+  - key: v3
+    stage: 압력과 기체 부피
+    title: 풍선이 하늘 높이 올라가면?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Vn9DW1n2jhc
+    desc: 압력에 따른 기체 부피의 원리 이해 설명 영상으로, 기압과 입자들의 운동에 따른 부피 변화를 알려줌.
+    channel: 오레몽샘oreomong
+  - key: v4
+    stage: 압력과 기체 부피
+    title: 달걀이 깨진 이유는?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=YrFBSn7ZPCk
+    desc: 달걀을 삶을 때 껍질이 깨지는 이유를 설명함, 달걀 속 공기의 팽창으로 인해 깨짐
+    channel: " YTN"
+  - key: v5
+    stage: 압력과 기체 부피
+    title: 진공상태가 되면 물체의 부피가 커진다?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=EH-dRvAkkDg
+    desc: 진공상태에서 물체 부피가 커지는 원리 이해 영상으로, 진공 상태에서는 마시멜로 부피가 커짐
+    channel: YTN 사이언스
+  - key: v6
+    stage: 기압
+    title: 공기에도 무게가 있다?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=K3ZYqFLa9uw
+    desc: 공기에 무게가 있음을 이해하는데 도움을 주는 영상
+    channel: 방위사업청
+  - key: v7
+    stage: 기압
+    title: 공기 속에 숨은 힘, 기압이란?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=SOZ5bO5LGlM
+    desc: 기압을 눈으로 확인할 수 있는 몇 가지 실험을 소개한 영상
+    channel: 국립과천과학관
+  - key: v8
+    stage: 산소
+    title: 최초의 산소 발견자는 누구일까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=hZ1OmgyC-28
+    desc: 산소를 최초로 발견한 사람 소개 영상, 화학자 프리스틀리와 칼 빌헬름 셀레가 먼저 발견했지만, 프리스틀리 논문이 먼저 나옴
+    channel: YTN 사이언스
+  - key: v9
+    stage: 산소
+    title: 산소는 어떻게 발생했을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=c1KI5tDksQk
+    desc: 산소를 발생시키는 원시 생명체 소개 영상, 광합성 가능한 원시 생명체의 등장으로 지구 대기가 변화함
+    channel: YTN 사이언스
+  - key: v10
+    stage: 이산화탄소
+    title: 이산화탄소의 무게는?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=I5_wKnhQ1rU
+    desc: 이산화탄소의 무게를 알아보는 실험 영상, 이산화탄소도 무게가 있음
+    start: 0
+    end: 126
+    channel: 아꿈선 초등3분과학
+  - key: v11
+    stage: 이산화탄소
+    title: 누가 지구를 뜨겁게 만들었을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Af2an3IuNHw
+    desc: 지구 온난화, 탄소 중립 의미 이해 영상으로, 이산화탄소가 지구온난화에 미치는 영향을 소개함.
+    channel: EBSCulture (EBS 교양)
+  - key: v12
+    stage: 이산화탄소
+    title: 운좋은 과학자의 개발품
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=_V9OeyTO6Kk
+    desc: 최초의 탄산수를 만들어낸 과학자 영상으로, 프리스틀리는 우연히 맥주 기포에 호기심이 생겼고 기포의 비밀은 이산화탄소라는 것을 알아내 탄산수를 개발했다.
+    channel: YTN 사이언스
+  - key: v13
+    stage: 질소
+    title: 과자 봉지에 질소를 사용하는 이유는?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=fYnoe1paSXg
+    desc: 과자 봉지에 질소를 사용하는 이유를 설명하는 영상으로, 산소를 넣었을 때 산패가 일어남을 알려줌
+    channel: YTN 사이언스
+  - key: v14
+    stage: 공기
+    title: 우리 생활과 밀접한 기체는 무엇이 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=u7QPpU8RoC4
+    desc: 공기를 이루는 여러가지 기체의 종류와 쓰임을 설명하는 영상으로, 산소, 질소, 이산화탄소, 헬륨, 네온 등이 소개됨
+    channel: 찰쌤
+  - key: v15
+    stage: 공기
+    title: 만약 산소가 10초 동안 사라진다면 어떻게 될까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=yR9uffaPjTk
+    desc: 공기의 중요성과 소중함을 이해하는 영상으로, 10초 동안 지구에 공기가 사라진다면, 땅이 무너지는 등 재앙이 발생함
+    channel: 고구마머리 '만약' 유튜버
+quiz:
+  - statement: 기체인 공기에도 무게가 있다.
+    answer: O
+    explain: 공기에도 무게가 있어서 실험으로 그 무게를 확인할 수 있습니다.
+  - statement: 풍선을 따뜻한 곳에 두면 부피가 커진다.
+    answer: O
+    explain: 기체는 온도가 높아지면 부피가 커지기 때문입니다.
+  - statement: 기체를 더 세게 누르면(압력을 높이면) 부피가 커진다.
+    answer: X
+    explain: 기체는 누르는 힘이 셀수록 부피가 작아집니다.
+  - statement: 산소는 다른 물질이 타는 것을 돕는 성질이 있다.
+    answer: O
+    explain: 산소는 물질이 타는 것을 돕는 기체입니다.
+  - statement: 이산화탄소는 불을 더 잘 타게 하는 성질이 있어 불을 키울 때 쓴다.
+    answer: X
+    explain: 이산화탄소는 오히려 불을 끄는 성질이 있어 소화기에 이용됩니다.
+  - statement: 공기 중에 가장 많이 들어 있는 기체는 질소이다.
+    answer: O
+    explain: 공기에는 질소가 가장 많이 들어 있습니다.
+  - statement: 공기는 한 가지 기체로만 이루어져 있다.
+    answer: X
+    explain: 공기는 산소, 질소, 이산화탄소 등 여러 기체가 섞여 있습니다.

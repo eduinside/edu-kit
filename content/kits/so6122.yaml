@@ -1,0 +1,139 @@
+id: so6122
+title: 2-2. 민주주의를 실현하는 국가기관
+grade: 6
+sem: 1학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 우리나라의 국가기관인 국회, 행정부, 법원이 하는 일을 이해하고, 이를 바탕으로 국민의 자유와 권리 보장을 위해 각 국가기관의 권력을 분립하는 이유를 파악합니다.
+  core_question: 민주주의는 선거와 국가기관, 미디어를 통해 어떻게 실현되며, 시민은 어떻게 참여해야 할까?
+  concepts:
+    - term: 권력분립
+      def: 나라의 힘을 한 곳에 몰아주지 않고 국회, 행정부, 법원으로 나누어 맡기는 것입니다. 서로 잘못을 견제하여 국민의 자유와 권리를 지키기 위해서입니다.
+    - term: 국회
+      def: 국민이 뽑은 국회의원들이 모여 법을 만들고 고치는 국가기관입니다. 나라의 살림에 쓸 예산을 정하고 정부가 일을 잘하는지 살펴보기도 합니다.
+    - term: 행정부
+      def: 국회에서 만든 법에 따라 나라의 살림을 맡아 실제로 일을 하는 국가기관입니다. 대통령을 중심으로 여러 부서가 국민을 위한 다양한 일을 합니다.
+    - term: 법원
+      def: 법에 따라 다툼을 해결하고 옳고 그름을 가려 재판하는 국가기관입니다. 공정한 재판을 위해 한 사건을 여러 번 재판받을 수 있게 하고 있습니다.
+  standards:
+    - code: "[6사08-02]"
+      text: 민주 국가에서 국회, 행정부, 법원이 하는 일에 대해 이해하고, 각 국가기관의 권력을 분립하는 이유를 탐색한다.
+stages:
+  - 권력분립
+  - 국회
+  - 행정부
+  - 법원
+items:
+  - key: v1
+    stage: 권력분립
+    title: 입법부 vs 사법부 vs 행정부 삼권분립의 의미와 특징
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=rW8wamC-P30
+    desc: 삼권분립의 개념을 이해하는데 도움이 되는 짧은 영상으로 수업 중 삼권분립의 개념을 처음 소개할 때 활용 가능
+    channel: 사회탐구 스토리텔러 찬
+  - key: v2
+    stage: 권력분립
+    title: 민주주의의 견제 장치
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=fJG6nTsTAKo
+    desc: 국가 기관 간 상호 견제 방법을 설명하는 영상으로 삼권 분립의 개략적 정리를 하는데 활용 가능
+    start: 0
+    end: 148
+    channel: 생각의 감칠맛, 다시답
+  - key: v3
+    stage: 국회
+    title: 국회의 기능
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dOtkfU8FHEU
+    desc: 국회가 하는 일을 설명하는 영상으로 처음 국회의 역할을 다룰 때 설명을 대체하는 영상으로 활용 가능
+    channel: 여니소리
+  - key: v4
+    stage: 국회
+    title: 알고 가면 더 잘 보이는 국회
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=IeACpJZdWb8
+    desc: 국회가 하는 일을 배운 뒤, 국회 투어를 통해 정치 및 사회 구조에 대한 이해와 시민의식 함양 및 참여의 중요성을 인식하는데 활용 가능
+    channel: 국회 유튜브
+  - key: v5
+    stage: 국회
+    title: 어린이 국회
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=LvdZ3guuFe0
+    desc: 의회민주주의를 체험하고 민주시민의 역량을 기를 수 있는 어린이 국회의 진행 모습
+    channel: 국회 유튜브
+  - key: v6
+    stage: 행정부
+    title: 행정부가 하는 일
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=TCnyDIzoRYg
+    desc: 행정부가 하는 일을 퀴즈로 알아보는 영상으로 학습 후 정리 퀴즈로 활용 가능
+    channel: 여니소리
+  - key: v7
+    stage: 행정부
+    title: 대통령이 하는 일
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=NSun8vPe1o4
+    desc: 어린 아이들이 대통령이 무엇을 하는지 말하는 영상으로 동기유발 자료로 활용해서 학생이 가지고 있는 지식을 활용해서 대통령의 역할을 추론하게 하는 자료로 활용 가능
+    channel: Y Pictures
+  - key: v8
+    stage: 법원
+    title: 법원이 하는 일
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=HvQD-dgi2Yk
+    desc: 법원의 날을 맞이하여 만든 영상으로, 동기유발 자료롸 활용 가능
+    channel: 대한민국 대법원
+  - key: v9
+    stage: 법원
+    title: 판사, 검사, 변호사의 차이점
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=4OttTU1TpQY
+    desc: 사법부 관련 가장 익숙한 직업인 판사, 검사, 변호사의 차이점을 설명하는 영상으로 수업 외 배경지식 쌓는 자료로 활용 가능
+    channel: 3분차이
+  - key: v10
+    stage: 법원
+    title: 3심 제도
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=eMlAEfdiD8g
+    desc: 공정한 재판을 위한 3심 제도
+    channel: 3분차이
+  - key: v11
+    stage: 법원
+    title: 민사재판과 형사재판
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=EkVXYIn0m7Q
+    desc: 민사재판과 형사재판의 차이점을 소개한 영상
+    channel: 3분차이
+  - key: v12
+    stage: 법원
+    title: 대법원, 헌법재판소
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=u8anKm0M6Z4
+    desc: 대법원과 헌법재판소를 소개한 영상
+    channel: 3분차이
+quiz:
+  - statement: 우리나라는 나라의 힘을 국회, 행정부, 법원으로 나누어 맡깁니다.
+    answer: O
+    explain: 권력분립에 따라 세 국가기관이 권력을 나누어 맡습니다.
+  - statement: 법을 만들고 고치는 일을 하는 국가기관은 국회입니다.
+    answer: O
+    explain: 국회는 법을 만들고 고치는 일을 합니다.
+  - statement: 국회에서 만든 법에 따라 나라의 살림을 맡아 일하는 곳은 행정부입니다.
+    answer: O
+    explain: 행정부는 법에 따라 나라 살림을 맡아 실제로 일을 합니다.
+  - statement: 재판을 통해 옳고 그름을 가리는 일은 행정부가 합니다.
+    answer: X
+    explain: 재판을 하는 국가기관은 행정부가 아니라 법원입니다.
+  - statement: 권력분립을 하는 까닭은 국민의 자유와 권리를 지키기 위해서입니다.
+    answer: O
+    explain: 한 곳에 힘이 몰리는 것을 막아 국민의 자유와 권리를 보장하려는 것입니다.
+  - statement: 우리나라는 나라의 모든 힘을 국회 한 곳에만 몰아서 맡깁니다.
+    answer: X
+    explain: 힘은 국회, 행정부, 법원으로 나뉘어 있으므로 한 곳에 몰아주지 않습니다.
+  - statement: 행정부의 중심이 되어 일하는 사람은 대통령입니다.
+    answer: O
+    explain: 행정부는 대통령을 중심으로 여러 부서가 일을 합니다.

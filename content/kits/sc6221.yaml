@@ -1,0 +1,182 @@
+id: sc6221
+title: 2. 물질의 연소
+grade: 6
+sem: 2학기
+subject: 과학
+unit: 2. 물질의 연소
+unit_no: 2
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 물질의 상태 변화 및 화학 반응에는 에너지 출입이 수반되며, 이는 일상생활에 유용하게 활용된다.
+  core_question: 물질이 연소할 때 일어나는 변화와 생성물은 우리 생활을 어떻게 변화시킬까?
+  concepts:
+    - term: 성질
+    - term: 상호 작용
+    - term: 물질
+    - term: 연소
+    - term: 소화
+    - term: 조건
+    - term: 생성물
+  standards:
+    - code: "[6과14-01]"
+      text: 물질의 성질이 달라지는 변화와 달라지지 않는 변화를 관찰하여 비교할 수 있다.
+    - code: "[6과14-02]"
+      text: 물질이 연소할 때 나타나는 공통적인 현상을 관찰하고, 연소의 조건을 찾을 수 있다.
+    - code: "[6과14-03]"
+      text: 연소 전과 후의 물질을 비교하여 연소 과정에서 물질의 성질이 달라짐을 설명할 수 있다.
+    - code: "[6과14-04]"
+      text: 연소 과정에서 생성되는 물질로 인한 생태계의 피해 사례를 수집하고 분석하여 해결책을 제안하고 공유할 수 있다.
+stages:
+  - name: 생각열기
+    question: 불은 무엇일까?
+  - name: 탐구하기1
+    question: 물질의 연소는 무엇이고 어떻게 일어날까?
+  - name: 탐구하기2
+    question: 연소 후 생긴 물질은 생태계에 어떤 영향을 줄까?
+  - name: 확장하기
+    question: 연소 생성물로 인한 문제를 어떻게 해결할 수 있을까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 불은 물질이 아닌 에너지
+    url: https://www.youtube.com/watch?v=QMOsAtTA2n0
+    desc: 불의 과학적 정의와 물질의 상태에 대한 오해
+    channel: 사물궁이 잡학지식
+  - key: v02
+    stage: 생각열기
+    title: 식초와 베이킹파우더 혼합 실험
+    url: https://www.youtube.com/watch?v=7G9V9pecDB4
+    desc: 식초와 베이킹파우더의 반응을 통한 로켓 발사 원리
+    channel: YTN 사이언스
+  - key: v03
+    stage: 탐구하기1
+    title: 다양한 연소 실험으로 즐기는 불멍
+    url: https://www.youtube.com/watch?v=RPkM47846-E
+    desc: 성냥 연소 과정을 통해 물질이 타며 빛과 열을 내는 연소 현상
+    channel: YTN 사이언스
+  - key: v04
+    stage: 탐구하기1
+    title: 연소의 3요소
+    url: https://www.youtube.com/watch?v=YnY1ZeVHryU
+    desc: 실험을 통한 물질의 연소에 필요한 세 가지 필수 요소
+    channel: YTN 사이언스
+  - key: v05
+    stage: 탐구하기1
+    title: 달인의 불 피우기 스킬
+    url: https://www.youtube.com/watch?v=zumDlCpE_Rk
+    desc: 정글의 법칙 속 불 피우기 과정을 통한 연소 조건
+    channel: SBS Entertainment
+  - key: v06
+    stage: 탐구하기1
+    title: 밀가루 폭발 실험
+    url: https://www.youtube.com/watch?v=7p-xObcSRNM
+    desc: 고운 밀가루가 촛불을 만나 순간적으로 폭발하는 현상
+    channel: YTN 사이언스
+  - key: v07
+    stage: 탐구하기1
+    title: 촛불을 불면 불이 꺼지는 이유
+    url: https://www.youtube.com/watch?v=9WGi-TbYvIo
+    desc: 입김으로 공기를 이동시켜 연소의 조건을 없애 촛불을 끄는 방법
+    channel: 오레몽샘oreomong
+  - key: v08
+    stage: 탐구하기1
+    title: 화재 종류에 따라 다른 소화 방법
+    url: https://www.youtube.com/watch?v=o4gzdiCwtpU
+    desc: 화재 종류에 따른 올바른 초기 진화 방법
+    channel: 행정안전부
+  - key: v09
+    stage: 탐구하기2
+    title: 연소 생성물 확인 실험
+    url: https://www.youtube.com/watch?v=xLiXu019b8E
+    desc: 두 가지 실험으로 확인하는 연소 생성물
+    channel: 아꿈선 초등3분과학
+  - key: v10
+    stage: 탐구하기2
+    title: 연소 후 생기는 물질 확인하기 - 염화코발트종이
+    url: https://www.youtube.com/watch?v=kunw3nk-eo0
+    desc: 물질이 타고난 후 염화코발트종이의 변화
+    channel: 미래엔
+  - key: v11
+    stage: 탐구하기2
+    title: 연소 후 생기는 물질 확인하기 - 석회수
+    url: https://www.youtube.com/watch?v=_FL2ULVRCXY
+    desc: 물질이 타고난 후 석회수의 변화
+    channel: 미래엔
+  - key: v12
+    stage: 탐구하기2
+    title: 지구를 뜨겁게 만드는 원인
+    url: https://www.youtube.com/watch?v=Af2an3IuNHw
+    desc: 지구온난화의 원인인 탄소의 개념과 탄소중립의 의미
+    channel: EBSCulture (EBS 교양)
+  - key: v13
+    stage: 탐구하기2
+    title: 바다에 녹아든 이산화탄소로 인한 해양 오염
+    url: https://www.youtube.com/watch?v=kJcYGqDEv58
+    desc: 이산화탄소 유입으로 인한 바다 사막화 현상과 생태계 영향
+    channel: 목포MBC뉴스
+  - key: v14
+    stage: 탐구하기2
+    title: 지리산 구상나무 집단 고사 현상
+    url: https://www.youtube.com/watch?v=RY6yoloLCD0
+    desc: 지구 온난화로 인해 멸종 위기에 처한 지리산 구상나무의 집단 고사 원인
+    channel: YTN 사이언스
+  - key: v15
+    stage: 탐구하기2
+    title: 바닷속에 '불 소용돌이'가 생긴 이유
+    url: https://www.youtube.com/watch?v=TDpcWiudQDs
+    desc: 멕시코 바닷속 가스관 파손으로 발생한 해상 화재 원인
+    channel: 크랩 KLAB
+  - key: v16
+    stage: 탐구하기2
+    title: 우리 몸에 쌓이는 에너지 연소 후 찌꺼기
+    url: https://www.youtube.com/watch?v=mkiQXKViZwU
+    desc: 에너지 대사 과정에서 발생하는 활성산소가 인체에 미치는 영향
+    channel: JTBC Life
+  - key: v17
+    stage: 확장하기
+    title: 차량 연료의 연소 생성물을 저감시키는 배기가스 재순환 장치
+    url: https://www.youtube.com/watch?v=j8gKwIxpiPo
+    desc: 자동차 배기가스 재순환 장치의 원리와 환경 오염 저감 효과
+    channel: YTN 사이언스
+  - key: v18
+    stage: 확장하기
+    title: 친환경 연소 기술이 적용된 '굴뚝 없는 발전소'
+    url: https://www.youtube.com/watch?v=bb-4RWYHRTE
+    desc: 대기오염 물질을 줄이고 이산화탄소를 재활용하는 친환경 연소 기술
+    channel: YTN 사이언스 투데이
+  - key: v19
+    stage: 확장하기
+    title: 이산화탄소를 활용하는 다양한 방법
+    url: https://www.youtube.com/watch?v=Es2IauppUAs
+    desc: 이산화탄소를 포집하여 유용한 자원으로 재활용하는 기술
+    channel: YTN 사이언스
+  - key: v20
+    stage: 확장하기
+    title: 이산화탄소를 처리하는 새로운 방법, 우리나라 탄소 중립 근황
+    url: https://www.youtube.com/watch?v=Gdf8LcZLrXQ
+    desc: 이산화탄소를 땅속에 저장하는 탄소 포집 기술
+    channel: 크랩 KLAB
+quiz:
+  - statement: 연소는 물질이 산소와 반응하며 빛과 열을 내는 현상이다.
+    answer: O
+    explain: 연소할 때 물질의 성질이 달라지고 새로운 물질이 생긴다.
+  - statement: 물질이 계속 타려면 탈 물질, 산소, 발화점 이상의 온도가 필요하다.
+    answer: O
+    explain: 세 가지 연소 조건 가운데 하나라도 없으면 불이 붙거나 계속 타기 어렵다.
+  - statement: 촛불을 유리병으로 완전히 덮으면 산소가 계속 공급되어 더 오래 탄다.
+    answer: X
+    explain: 병 안의 산소가 줄어들어 얼마 뒤 불이 꺼진다.
+  - statement: 연소 전과 후에는 물질의 성질이 달라질 수 있다.
+    answer: O
+    explain: 연소는 새로운 물질이 생기는 화학 변화이다.
+  - statement: 불을 끄려면 연소 조건 세 가지를 모두 없애야만 한다.
+    answer: X
+    explain: 탈 물질, 산소, 온도 중 한 가지 조건만 없애도 소화할 수 있다.
+  - statement: 젖은 수건으로 불을 덮는 방법은 산소 공급을 줄이고 온도를 낮추는 데 도움이 된다.
+    answer: O
+    explain: 연소 조건을 없애 불을 끄는 소화 방법이다.
+  - statement: 연소 생성물은 생태계와 사람의 건강에 영향을 주지 않는다.
+    answer: X
+    explain: 연기와 여러 기체, 미세 먼지 등은 대기와 생물에 피해를 줄 수 있다.

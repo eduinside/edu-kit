@@ -1,0 +1,171 @@
+id: sc6211
+title: 1. 계절의 변화
+grade: 6
+sem: 2학기
+subject: 과학
+unit: 1. 계절의 변화
+unit_no: 1
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 지구의 공전 시스템에 따른 태양 고도의 변화는 지구상의 계절을 만들며, 모든 생명의 지속가능한 삶을 규정한다.
+  core_question: 태양의 움직임과 지구의 규칙적인 변화는 우리의 생활에 어떤 영향을 줄까?
+  concepts:
+    - term: 변화
+    - term: 시스템
+    - term: 태양
+    - term: 고도
+    - term: 계절
+    - term: 그림자
+    - term: 기온
+    - term: 낮
+    - term: 밤
+    - term: 공전
+  standards:
+    - code: "[6과13-01]"
+      text: 태양 고도 측정기로 하루 동안 태양 고도, 그림자 길이, 기온을 측정하여 이들의 관계를 찾을 수 있다.
+    - code: "[6과13-02]"
+      text: 계절에 따른 태양의 남중 고도와 낮의 길이 사이의 관계를 자료에 근거하여 추론할 수 있다.
+    - code: "[6과13-03]"
+      text: 계절 변화의 원인을 지구의 자전축이 기울어진 채 공전하는 것으로 설명할 수 있다.
+stages:
+  - name: 생각열기
+    question: 계절이 바뀌면 무엇이 달라질까?
+  - name: 탐구하기1
+    question: 태양의 움직임에 따라 어떤 것들이 달라질까?
+  - name: 탐구하기2
+    question: 계절이 바뀌는 이유는 무엇일까?
+  - name: 확장하기
+    question: 태양과 지구의 움직임을 생활 속에서 어떻게 활용할 수 있을까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 낮과 밤의 길이가 달라지는 이유
+    url: https://www.youtube.com/watch?v=KZEmNq5l5CM
+    desc: 계절에 따라 낮과 밤의 길이가 달라지는 원리
+    channel: 깨비키즈 [KEBIKIDS]
+  - key: v02
+    stage: 생각열기
+    title: 계절별 나무의 모습
+    url: https://www.youtube.com/watch?v=ZdsJBAqHlzA
+    desc: 사계절에 따른 나무의 변화
+    channel: David Mustac
+  - key: v03
+    stage: 생각열기
+    title: 국립수목원의 사계절 풍경
+    url: https://www.youtube.com/watch?v=bCb5sa3kyDY
+    desc: 국립수목원의 사계절 변화하는 자연 풍경
+    channel: 국립수목원
+  - key: v04
+    stage: 탐구하기1
+    title: 태양 고도, 그림자 길이, 기온 측정하기
+    url: https://www.youtube.com/watch?v=PkuSb8gEyCI
+    desc: 태양 고도에 따른 그림자 길이와 기온 변화
+    channel: 아꿈선 초등3분과학
+  - key: v05
+    stage: 탐구하기1
+    title: 태양 고도 측정 장치 만들기
+    url: https://www.youtube.com/watch?v=sfXVyxuqrBo
+    desc: 태양 고도 측정 장치 제작과 시간에 따른 태양의 위치 변화
+    channel: 대구창의융합교육원
+  - key: v06
+    stage: 탐구하기1
+    title: 어플리케이션으로 태양 고도 측정하기
+    url: https://www.youtube.com/watch?v=guBOVU6RjEU
+    desc: 스마트폰 어플리케이션을 활용한 하루 동안의 태양 고도 변화
+    channel: 김지은
+  - key: v07
+    stage: 탐구하기1
+    title: 하루 동안 태양 고도, 그림자 길이, 기온 정리하기
+    url: https://www.youtube.com/watch?v=RlApmW7wwHI
+    desc: 태양 고도 변화에 따른 그림자 길이와 기온의 관계
+    channel: 아꿈선 초등3분과학
+  - key: v08
+    stage: 탐구하기1
+    title: 계절별 태양의 남중고도와 낮의 길이 사이의 관계
+    url: https://www.youtube.com/watch?v=6YQV8fuTmX0
+    desc: 계절에 따른 태양 남중고도와 낮 길이의 관계
+    channel: 아꿈선 초등3분과학
+  - key: v09
+    stage: 탐구하기1
+    title: 태양의 고도에 따라 기온이 달라지는 까닭 알기
+    url: https://www.youtube.com/watch?v=yHjMXMNMLwE
+    desc: 태양의 고도와 기온의 관계 탐구 실험
+    channel: 아꿈선 초등3분과학
+  - key: v10
+    stage: 탐구하기2
+    title: 계절이 생기는 이유
+    url: https://www.youtube.com/watch?v=ldkhE8o4RJQ
+    desc: 지구의 자전축 기울기에 따른 태양 고도 변화로 계절이 생기는 원리
+    channel: "웨더노트 : Weather Note"
+  - key: v11
+    stage: 탐구하기2
+    title: 우리나라의 사계절 모습
+    url: https://www.youtube.com/watch?v=CY2VXqEpXzQ
+    desc: 사계절에 따른 우리나라 자연경관의 변화
+    channel: EBS 컬렉션 - 사이언스
+  - key: v12
+    stage: 탐구하기2
+    title: 기울어진 자전축과 계절의 변화
+    url: https://www.youtube.com/watch?v=xv9oheVjaYI
+    desc: 지구 자전축이 기울어져 계절이 생기는 원리
+    channel: 내셔널지오그래픽 - National Geographic Korea
+  - key: v13
+    stage: 탐구하기2
+    title: 계절의 변화송
+    url: https://www.youtube.com/watch?v=faVS9wUxU9g
+    desc: 지구 자전축 기울기와 공전으로 인한 계절과 태양 고도 변화
+    channel: LGScienceLand
+  - key: v14
+    stage: 탐구하기2
+    title: 자전축의 기울기에 따른 남중고도 변화
+    url: https://www.youtube.com/watch?v=z5Sw7MSQZLM
+    desc: 자전축 기울기에 따른 계절별 태양의 남중고도 변화
+    channel: 스마트올TV
+  - key: v15
+    stage: 탐구하기2
+    title: 1년을 나누는 24개의 절기
+    url: https://www.youtube.com/watch?v=qJ6Vhids-pc
+    desc: 태양의 움직임에 따른 기후 변화와 24절기의 의미
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v16
+    stage: 확장하기
+    title: 그림자를 통해 시간을 파악한 앙부일구
+    url: https://www.youtube.com/watch?v=iBWO8K9EbGE
+    desc: 그림자를 이용한 해시계 앙부일구의 원리와 시간 확인 방법
+    channel: YTN 사이언스
+  - key: v17
+    stage: 확장하기
+    title: 한옥에 숨겨진 과학원리
+    url: https://www.youtube.com/watch?v=Z55Ug-VKF8I
+    desc: 한옥 구조에 담긴 계절별 태양 고도와 과학적 원리
+    channel: EBS 컬렉션 - 사이언스
+  - key: v18
+    stage: 확장하기
+    title: 백야 현상과 극야 현상
+    url: https://www.youtube.com/watch?v=kdTbaU0vn8s
+    desc: 해가 지거나 뜨지 않는 현상
+    channel: 극지 톡톡
+quiz:
+  - statement: 하루 동안 태양의 고도가 높아지면 그림자의 길이는 대체로 짧아진다.
+    answer: O
+    explain: 태양이 높이 있을수록 빛이 더 수직에 가깝게 비쳐 그림자가 짧아진다.
+  - statement: 하루 중 태양이 남중할 때 태양 고도는 가장 높다.
+    answer: O
+    explain: 태양이 정남쪽에 위치하는 남중 무렵에 하루 중 고도가 가장 높다.
+  - statement: 계절이 달라도 태양의 남중 고도와 낮의 길이는 언제나 같다.
+    answer: X
+    explain: 계절에 따라 남중 고도와 낮의 길이가 규칙적으로 달라진다.
+  - statement: 우리나라에서는 여름이 겨울보다 태양의 남중 고도가 높고 낮이 길다.
+    answer: O
+    explain: 여름에는 태양이 높이 떠 지표면이 더 많은 에너지를 받고 낮도 길다.
+  - statement: 계절 변화는 지구와 태양 사이의 거리가 크게 달라지기 때문에 생긴다.
+    answer: X
+    explain: 주된 원인은 지구의 자전축이 기울어진 채 태양 주위를 공전하는 것이다.
+  - statement: 지구의 자전축이 기울어진 채 공전하므로 계절에 따라 햇빛을 받는 각도와 시간이 달라진다.
+    answer: O
+    explain: 태양 고도와 낮의 길이가 달라져 지표면이 받는 에너지 양이 변한다.
+  - statement: 태양 고도와 기온은 항상 같은 순간에 최고가 된다.
+    answer: X
+    explain: 지표면과 공기가 데워지는 데 시간이 걸려 보통 최고 기온은 남중 뒤에 나타난다.

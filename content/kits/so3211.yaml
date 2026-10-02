@@ -1,0 +1,204 @@
+id: so3211
+title: 1-1. 사회 변화로 달라진 생활 모습
+grade: 3
+sem: 2학기
+subject: 사회
+unit: 1단원
+unit_no: 1
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 최근의 사회 변화의 현상과 특징을 파악하고, 그로 인해 달라진 우리 생활 모습의 변화를 탐색하는 단원입니다.
+  core_question: 사회 변화는 우리의 생활 모습과 문화를 어떻게 바꾸며, 우리는 서로 다른 문화를 어떻게 대해야 할까?
+  concepts:
+    - term: 사회변화
+      def: 시간이 지나면서 사람들의 생활 모습과 사회의 모습이 달라지는 것이에요.
+    - term: 저출산
+      def: 태어나는 아이의 수가 예전보다 점점 줄어드는 현상이에요.
+    - term: 고령화
+      def: 전체 인구 가운데 노인이 차지하는 비율이 높아지는 현상이에요.
+    - term: 지능정보화
+      def: 인공지능과 정보통신 기술이 발달해 생활이 더 똑똑하고 편리해지는 변화예요.
+  standards:
+    - code: "[4사03-01]"
+      text: 최근 사회 변화의 양상과 특징을 파악하고, 그로 인해 나타난 생활모습의 변화를 탐색한다.
+stages:
+  - 사회변화
+  - 저출산
+  - 고령화
+  - 지능정보화
+items:
+  - key: v1
+    stage: 사회변화
+    title: 통계로 알아보는 우리나라의 사회 변화
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Bgzc6k8xOj8
+    desc: 통계로 알아보는 우리나라의 사회 변화 모습 알아보기
+    channel: 대한민국 국가데이터처
+  - key: v2
+    stage: 사회변화
+    title: 초등학교의 변화 모습
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=xDOmYTr_hdE
+    desc: 영상 자료로 알아보는 초등학교의 변화 모습 알아보기
+    channel: "옛날티비 : KBS Archive"
+  - key: v3
+    stage: 사회변화
+    title: 과거의 인기 직업
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=xDxmcPz5oN0
+    desc: 시대별로 인기가 있었던 직업에는 어떤 것들이 있었는지 정리
+    channel: 가족의 힘
+  - key: v4
+    stage: 저출산
+    title: 통계로 알아보는 우리나라 인구변화
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=SLabqoXn4gk
+    desc: 통계로 알아보는 우리나라의 인구 변화 모습
+    channel: 대한민국 국가데이터처
+  - key: v5
+    stage: 저출산
+    title: 인구피라미드로 알아보는 우리나라 인구변화
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=s4Og1UQwtSQ
+    desc: 저출산, 고령화 문제를 인구 피라미드로 이해하는 데 도움을 주는 영상
+    channel: 국토연구원
+  - key: v6
+    stage: 저출산
+    title: 대구경북의 저출산율
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=In0atFJvY9Y
+    desc: 대구와 경북 지역의 저출산 현상을 정리
+    start: 0
+    end: 268
+    channel: KBS뉴스 대구경북
+  - key: v7
+    stage: 저출산
+    title: 대구 초등학교 폐교 상황
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=xTMuS8azafk
+    desc: 도심 지역의 학령인구 감소 현상
+    channel: KBS뉴스 대구경북
+  - key: v8
+    stage: 저출산
+    title: 산골 학교 마지막 졸업식
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=nlIK5rTWfZs
+    desc: 초등학교 마지막 졸업식 풍경
+    channel: KBS News
+  - key: v9
+    stage: 저출산
+    title: 저출생 문제 해결을 위한 지역의 노력 사례
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Hu4uvcOSznE
+    desc: 지역의 저출생 문제 해결을 위한 자치단체의 노력
+    start: 0
+    end: 650
+    channel: 대구TV┃대구광역시 공식 유튜브
+  - key: v10
+    stage: 고령화
+    title: 유치원 대신 노치원
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=LWk5_X6TYvc
+    desc: 고령화로 인한 사회 변화의 단면을 소개하는 영상
+    channel: KBS News
+  - key: v11
+    stage: 고령화
+    title: 대구 지역의 고령화 현상
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=pxOHMyz5t_E
+    desc: 대구 지역의 고령화 문제
+    channel: KBS뉴스 대구경북
+  - key: v12
+    stage: 고령화
+    title: 고령화 문제 극복 방안
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Uv3UVnLTQjA
+    desc: 고령화 문제 극복을 위한 노력
+    channel: KBS뉴스 대구경북
+  - key: v13
+    stage: 고령화
+    title: 노인 일자리 사업
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1YM-z-6E2AY
+    desc: 노인 일자리 사업으로 고령화 문제 해결
+    channel: MBCNEWS
+  - key: v14
+    stage: 고령화
+    title: 노인 복지를 위한 시설 확충 필요성
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=8x9_0y4Ueo8
+    desc: 건강한 노년을 보내기 위한 시설 확충 필요성
+    channel: YTN 사이언스 투데이
+  - key: v15
+    stage: 고령화
+    title: 초고령 사회를 대비하는 노인 복지 정책
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_j1e_iGv6fU
+    desc: 고령화 사회를 대비하기 위한 정책 소개
+    channel: KTV 국민방송
+  - key: v21
+    stage: 고령화
+    title: AI 돌봄 로봇
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=BZJ047fnCT0
+    desc: 홀로 사는 어르신들을 위해 말벗과 건강 관리를 돕는 AI 로봇 소개 영상
+    channel: KTV 정책 K
+  - key: v16
+    stage: 지능정보화
+    title: 정보화 대신 지능정보화 사회?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=fDMcKQPw_2Q
+    desc: 지능정보화 사회로의 변화 모습을 소개하는 영상
+    channel: 뉴스쿨TV by News'Cool
+  - key: v17
+    stage: 지능정보화
+    title: 생활 속 인공지능 시대
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=-zJ8mda7Ifg
+    desc: 생활 속 사용되는 여러 인공지능을 소개하는 영상
+    channel: 미래아이TV
+  - key: v18
+    stage: 지능정보화
+    title: 장애인도 이용 가능한 키오스크
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=gk04AdcCJ1A
+    desc: 장애인도 이용할 수 있도록 개선된 배리어프리 키오스크 소개 영상
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v19
+    stage: 지능정보화
+    title: 스마트폰 과의존, 이렇게 해결해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HIT7ZgOEpoI
+    desc: 스마트폰 과의존 문제의 예방과 해결에 도움이 되는 영상
+    channel: 한국지능정보사회진흥원 스마트쉼센터
+  - key: v20
+    stage: 지능정보화
+    title: SNS에 공유한 사진에도 개인 정보가 들어있어요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=HPAIizWo-5I
+    desc: 개인 정보 보호를 위해 SNS 사용도 주의해야 함을 알려주는 영상
+    channel: 크랩 KLAB
+quiz:
+  - statement: 저출산은 태어나는 아이의 수가 점점 줄어드는 현상이다.
+    answer: O
+    explain: 출생아 수가 예전보다 줄어드는 것을 저출산이라고 한다.
+  - statement: 고령화는 전체 인구에서 어린이의 비율이 높아지는 것이다.
+    answer: X
+    explain: 노인(어르신)의 비율이 높아지는 것이 고령화이다.
+  - statement: 키오스크와 인공지능이 늘어나는 것은 지능정보화의 모습이다.
+    answer: O
+    explain: 정보통신·인공지능 기술이 생활에 퍼지는 변화이다.
+  - statement: 저출산이 계속되면 학생이 줄어 문을 닫는 학교가 생기기도 한다.
+    answer: O
+    explain: 저출산으로 폐교하는 학교가 나타나기도 한다.
+  - statement: 사회 변화는 우리의 생활 모습에 아무런 영향을 주지 않는다.
+    answer: X
+    explain: 사회 변화는 직업, 학교, 생활 모습 등을 다양하게 바꾼다.
+  - statement: 노인 일자리 사업과 노인 복지 시설은 고령화에 대비한 노력이다.
+    answer: O
+    explain: 고령화 사회에 맞춰 어르신을 돕는 노력들이다.
+  - statement: 옛날과 오늘날의 인기 직업이 달라진 것도 사회 변화의 모습이다.
+    answer: O
+    explain: 시대가 바뀌며 사람들이 하는 일도 달라진다.

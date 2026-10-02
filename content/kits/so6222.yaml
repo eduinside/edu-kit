@@ -1,0 +1,173 @@
+id: so6222
+title: 2-2. 우리나라의 경제성장
+grade: 6
+sem: 2학기
+subject: 사회
+unit: 2. 시장경제와 국가 간 거래
+unit_no: 2
+flow: activity
+sort_order: 2
+published: true
+intro:
+  core_idea: 경제 성장은 생활 수준의 향상을 가져오며, 그 과정에서 나타나는 사회·경제적 과제를 해결하기 위한 노력이 필요하다.
+  core_question: 경제 성장은 삶과 사회를 어떻게 변화시키는가?
+  concepts:
+    - term: 상호 작용
+    - term: 체제
+    - term: 경제성장
+    - term: 생활
+  standards:
+    - code: "[6사11-02]"
+      text: 경제성장이 우리 생활에 미치는 영향을 파악하고, 빠른 경제성장으로 발생한 문제의 해결방안을 탐색한다.
+stages:
+  - name: 생각열기
+    question: 가격은 어떤 요인에 의해 결정되고 변화할까?
+  - name: 탐구하기1
+    question: 우리나라 경제는 어떻게 성장해 왔을까?
+  - name: 탐구하기2
+    question: 경제 성장으로 인해 새롭게 나타난 문제는 무엇일까?
+  - name: 확장하기
+    question: 미래의 경제는 어떻게 바뀌어갈까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 물가 상승의 요인과 가격 변동의 원리 알아보기
+    url: https://www.youtube.com/watch?v=h2vFWxJM4YM
+    desc: 화폐 가치와 경제 상황의 변화를 알아보고 물가상승의 요인을 살펴보며 가격 변동의 원리를 이해함.
+    channel: 경제배움e+
+  - key: v02
+    stage: 탐구하기1
+    title: 대한민국의 경제는 어떻게 성장하고 발전해 왔을까?
+    url: https://www.youtube.com/watch?v=pBWaZxQ87-A
+    desc: 대한민국의 경제 성장 과정을 알아보고 산업화와 무역 발전의 과정을 살펴보며 경제 성장의 배경을 이해함.
+    channel: KBS News
+  - key: v03
+    stage: 탐구하기1
+    title: 우리나라의 경제 개발 계획과 산업 구조의 변화 과정
+    url: https://www.youtube.com/watch?v=7Qqp8EDLjuw
+    desc: 우리나라 경제 성장 과정을 알아보고 경제 개발 계획과 산업 구조의 변화를 살펴보며 경제 성장의 흐름을 이해함.
+    channel: KDI 경제교육·정보센터
+  - key: v04
+    stage: 탐구하기1
+    title: 대한민국 경제 성장의 배경과 산업화 과정 알아보기
+    url: https://www.youtube.com/watch?v=KzY7WW0WzkM
+    desc: 우리나라 경제 성장 과정을 알아보고 경제 개발 계획과 산업화의 과정을 살펴보며 경제 성장의 배경을 이해함.
+    channel: YTN 사이언스
+  - key: v05
+    stage: 탐구하기1
+    title: 국내총생산(GDP)이란 무엇이며 어떻게 계산할까?
+    url: https://www.youtube.com/watch?v=NTN9NOUxS_o
+    desc: 국내총생산(GDP)의 의미를 알아보고 국내에서 생산된 재화와 서비스의 가치를 살펴보며 GDP의 개념을 이해함.
+    channel: 여니소리
+  - key: v06
+    stage: 탐구하기1
+    title: 생산 활동이 국내총생산(GDP)에 포함되는 기준 알아보기
+    url: https://www.youtube.com/watch?v=2bH1GqaHBKk
+    desc: 국내총생산(GDP)의 의미를 알아보고 생산 활동이 GDP에 포함되는 기준을 살펴보며 국내총생산의 개념을 이해함.
+    channel: 재정경제부
+  - key: v07
+    stage: 탐구하기2
+    title: 경제 성장의 빛과 그림자, 지속 가능한 발전을 위한 노력
+    url: https://www.youtube.com/watch?v=KbHIZJfBNOY
+    desc: 경제 성장의 긍정적·부정적 영향을 알아보고 경제 발전 과정에서 나타나는 다양한 문제와 해결 노력을 살펴보며 지속 가능한 발전의 중요성을 이해함.
+    channel: KDI 경제교육·정보센터
+  - key: v08
+    stage: 탐구하기2
+    title: 경제 성장이 항상 국민의 행복과 삶의 질 향상으로 이어질까?
+    url: https://www.youtube.com/watch?v=W-H8aojPKb8
+    desc: 경제 성장과 삶의 질의 관계를 알아보고 행복지수와 양극화 등 경제 성장의 한계를 살펴보며 국민의 삶의 질을 고려한 지속 가능한 발전의 중요성을 이해함.
+    channel: KBS News
+  - key: v09
+    stage: 탐구하기2
+    title: 인구가 수도권에 집중되는 원인과 특징은 무엇일까?
+    url: https://www.youtube.com/watch?v=73XEeCn-OCE
+    desc: 산업화 이후 일자리와 생활 기회를 따라 인구가 이동하는 과정을 살펴보며 수도권 집중 현상의 원인과 특징을 이해함.
+    channel: 은근한 잡다한 지식
+  - key: v10
+    stage: 탐구하기2
+    title: 계층 간 소득 격차가 발생하는 원인과 공정한 분배의 중요성
+    url: https://www.youtube.com/watch?v=JPVBKWhexRM
+    desc: 경제 성장과 소득 분배의 관계를 알아보고 계층 간 소득 격차가 나타나는 원인을 살펴보며 공정한 분배와 포용적 경제 성장의 중요성을 이해함.
+    channel: 교양 Voyage
+  - key: v11
+    stage: 탐구하기2
+    title: 산업화 과정에서 나타난 노동 환경의 변화와 사회 문제
+    url: https://www.youtube.com/watch?v=FbpGWW16vyQ
+    desc: 산업혁명 이후 자본가와 노동자의 생활 변화를 알아보고 노동 환경과 소득 격차를 살펴보며 산업화 과정에서 나타난 사회 문제를 이해함.
+    channel: play 채널A
+  - key: v12
+    stage: 탐구하기2
+    title: 인공지능과 로봇 기술은 우리의 노동과 산업을 어떻게 바꿀까?
+    url: https://www.youtube.com/watch?v=IVmrG0sIr14
+    desc: 인공지능과 로봇 기술의 발전을 알아보고 생산 방식과 산업 구조의 변화를 살펴보며 기술 혁신이 경제와 사회에 미치는 영향을 이해함.
+    channel: KBS News
+  - key: v13
+    stage: 탐구하기2
+    title: 자원 고갈 문제를 해결하기 위한 지속 가능한 활용 방안
+    url: https://www.youtube.com/watch?v=GYmjiKqY_BU
+    desc: 자원 고갈 문제를 해결하기 위한 다양한 기술을 알아보고 재생 에너지와 자원 재활용 등 지속 가능한 활용 방안을 살펴보며 미래 사회의 대응 방안을 이해함.
+    channel: 우주의 경계 너머
+  - key: v14
+    stage: 탐구하기2
+    title: 인공지능 기술 발전은 환경에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=Qqqb-CkHf9Q
+    desc: 인공지능 기술이 환경에 미치는 영향을 알아보고 데이터 센터의 전력 소비와 탄소 배출 문제를 살펴보며 기술 발전과 환경의 관계를 이해함.
+    channel: KBS대전 뉴스
+  - key: v15
+    stage: 탐구하기2
+    title: 최저임금 제도의 의미와 경제적 역할 알아보기
+    url: https://www.youtube.com/watch?v=l_-StSf0dQM
+    desc: 최저임금 제도의 의미와 역할을 알아보고 근로자의 생활 보장과 기업의 경영 부담을 함께 살펴보며 최저임금의 중요성을 이해함.
+    channel: KBS뉴스 대구경북
+  - key: v16
+    stage: 탐구하기2
+    title: 경제 상황에 따라 소비 행동은 어떻게 달라질까?
+    url: https://www.youtube.com/watch?v=H_MpmE3cBFA
+    desc: 소비 문화의 변화를 알아보고 과소비와 절약 소비가 나타나는 원인을 살펴보며 경제 상황에 따른 소비 행동의 특징을 이해함.
+    channel: 머니인사이드
+  - key: v17
+    stage: 탐구하기2
+    title: 경제 성장으로 인한 사회 문제를 해결하기 위한 다양한 노력
+    url: https://www.youtube.com/watch?v=LwJ-5dgeVDc
+    desc: 경제 성장 과정에서 나타나는 사회 문제를 알아보고 경제적 양극화, 노사 갈등, 환경 문제 해결을 위한 다양한 노력을 살펴보며 지속 가능한 사회 발전의 중요성을 이해함.
+    channel: 뜨차TV Sung joon
+  - key: v18
+    stage: 확장하기
+    title: 탈세계화, 디지털 전환 등 새로운 경제 흐름에 어떻게 대응할까?
+    url: https://www.youtube.com/watch?v=llJve8_V_5c
+    desc: 경제 환경의 변화를 알아보고 탈세계화, 디지털 전환, 저탄소 경제 등 새로운 경제 흐름을 살펴보며 변화하는 경제 환경에 대응하는 중요성을 이해함.
+    channel: 한국은행
+  - key: v19
+    stage: 확장하기
+    title: 자원의 순환 과정을 통해 알아보는 지속 가능한 경제의 중요성
+    url: https://www.youtube.com/watch?v=DfNIKhDkWTk
+    desc: 순환 경제의 의미를 알아보고 자원의 생산, 소비, 재활용 과정을 살펴보며 지속 가능한 경제의 중요성을 이해함.
+    channel: 별별TV
+  - key: v20
+    stage: 확장하기
+    title: 고령화 등 인구 구조 변화는 경제 성장에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=I_jffdETsgc
+    desc: 고령화가 경제성장에 미치는 영향을 알아보고 노동력 변화와 경제활동참가율을 살펴보며 인구 구조 변화가 경제에 미치는 영향을 이해함.
+    channel: KDI
+quiz:
+  - statement: 경제성장은 한 나라에서 생산되는 재화와 서비스가 늘어나는 현상과 관련 있다.
+    answer: O
+    explain: 생산과 소득의 증가는 경제성장의 중요한 모습이다.
+  - statement: 우리나라의 경제성장은 산업 구조와 사람들의 생활 모습을 변화시켰다.
+    answer: O
+    explain: 농업 중심에서 제조업과 서비스업이 성장하고 소득과 생활 환경이 달라졌다.
+  - statement: 경제가 성장하면 모든 사람의 생활이 자동으로 똑같이 좋아진다.
+    answer: X
+    explain: 성장의 혜택이 고르게 나뉘지 않으면 소득 격차 같은 문제가 생길 수 있다.
+  - statement: 빠른 경제성장 과정에서 환경 오염과 지역 격차 같은 문제가 나타날 수 있다.
+    answer: O
+    explain: 산업화와 도시화가 빠르게 진행되며 여러 사회·환경 문제가 생겼다.
+  - statement: 경제성장으로 생긴 문제는 성장을 멈추는 방법으로만 해결할 수 있다.
+    answer: X
+    explain: 환경 보호, 공정한 분배, 안전한 노동 등 지속 가능한 성장 방안을 찾을 수 있다.
+  - statement: 교육과 기술 개발은 생산성을 높여 경제성장에 영향을 줄 수 있다.
+    answer: O
+    explain: 사람의 능력과 새로운 기술은 더 효율적인 생산과 새로운 산업을 가능하게 한다.
+  - statement: 경제성장을 평가할 때 생산량만 보고 삶의 질과 환경은 살필 필요가 없다.
+    answer: X
+    explain: 소득뿐 아니라 안전, 복지, 환경, 불평등 등 삶의 질도 함께 살펴야 한다.

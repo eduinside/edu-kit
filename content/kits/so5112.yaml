@@ -1,0 +1,163 @@
+id: so5112
+title: 1-2. 우리 땅 독도
+grade: 5
+sem: 1학기
+subject: 사회
+unit: 1단원
+unit_no: 1
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 독도의 지리적 특성을 파악하고 독도에 대한 주요 역사 기록을 분석 및 해석하여 독도가 우리나라 영토임을 확인하고 영토 주권 의식을 기르도록 합니다.
+  core_question: 우리나라 국토의 지형은 어떤 특징을 지니며, 우리는 우리 땅을 왜 소중히 여기고 지켜야 할까?
+  concepts:
+    - term: 독도
+      def: 우리나라 동쪽 끝에 있는 작은 섬으로, 옛날부터 우리나라 영토인 우리 땅이에요.
+    - term: 독도의 자연환경
+      def: 독도는 바닷속 화산이 굳어서 생긴 화산섬이에요. 가파른 바위섬이지만 철새가 쉬어 가고 여러 식물과 바다 생물이 사는 자연의 보금자리예요.
+    - term: 독도의 가치
+      def: 독도 둘레의 바다에는 다양한 물고기와 해저자원이 있고, 천연보호구역으로 지정될 만큼 자연이 소중해서 우리에게 큰 가치가 있어요.
+    - term: 독도의 역사
+      def: 안용복, 독도의용수비대처럼 옛날부터 독도를 지킨 사람들과 여러 역사 기록을 통해 독도가 우리나라 땅임을 알 수 있어요.
+  standards:
+    - code: "[6사01-02]"
+      text: 독도의 지리적 특성과 독도에 대한 역사 기록을 바탕으로 영토로서 독도의 중요성을 이해한다.
+stages:
+  - 독도
+  - 독도의 가치
+  - 독도의 자연환경
+  - 독도의 역사
+items:
+  - key: v1
+    stage: 독도
+    title: 독도의 위치와 자연환경
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=umAMujh9GrA
+    desc: 독도의 위치와 자연환경을 살펴보는 영상
+    channel: LX한국국토정보공사 Official
+  - key: v2
+    stage: 독도
+    title: 독도 여행 브이로그
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=KF7vFuuh1e8
+    desc: 울릉도에서 독도를 가는 방법 및 독도 여행 코스
+    start: 0
+    end: 240
+    embed: false
+    status: 임베드차단
+  - key: v3
+    stage: 독도
+    title: 독도의 날
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=nfhGBJZpCcQ
+    desc: 독도의 날을 10월 25일로 정한 이유
+    channel: 보물섬독도TV
+  - key: v4
+    stage: 독도
+    title: 독도의 영문표기 방법은?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=foXmtxjCciM
+    desc: 독도의 영문표기 방법은 Dokdo임을 설명한 영상
+    channel: 보물섬독도TV
+  - key: v5
+    stage: 독도의 가치
+    title: 독도의 바닷속
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=rRrMsPS2kTg
+    desc: 독도의 바다에서 볼 수 있는 해양생물
+    channel: 보물섬독도TV
+  - key: v6
+    stage: 독도의 가치
+    title: 독도의 해저자원
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ixi7_g0Qc5I
+    desc: 독도의 해저자원을 소개한 영상
+    channel: 보물섬독도TV
+  - key: v7
+    stage: 독도의 가치
+    title: 다양한 철새들의 보금자리가 된 독도
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6p6qyVGjmtA
+    desc: 독도를 찾는 여러 새들 이야기
+    embed: false
+    status: 임베드차단
+  - key: v8
+    stage: 독도의 자연환경
+    title: 독도천연보호구역
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=PRiBRuXp5ts
+    desc: 천연기념물로 지정된 독도천연보호구역 소개
+    start: 65
+    channel: 국가유산청 Korea Heritage Service
+  - key: v9
+    stage: 독도의 자연환경
+    title: 독도의 식물
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=rGZmAtee_3Q
+    desc: 독도의 특별한 식물 이야기
+    channel: 보물섬독도TV
+  - key: v10
+    stage: 독도의 자연환경
+    title: 독도 새우와 괭이갈매기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=xohHguH57qU
+    desc: 독도 새우와 괭이갈매기 소개
+    channel: 독도강치TV
+  - key: v11
+    stage: 독도의 역사
+    title: 화산섬 독도의 탄생 과정
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=o8NmV4kvR3E
+    desc: 독도가 만들어진 과정
+    channel: 보물섬독도TV
+  - key: v12
+    stage: 독도의 역사
+    title: 독도의 역사 속 기록
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=IHpWHL-zWjk
+    desc: 역사에 남겨진 독도 살펴보기
+    channel: 보물섬독도TV
+  - key: v13
+    stage: 독도의 역사
+    title: 안용복
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=zeFPv7efaA4
+    desc: 울릉도와 독도를 지킨 안용복
+    channel: 보물섬독도TV
+  - key: v14
+    stage: 독도의 역사
+    title: 독도의용수비대
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=LvHRnYjKkJM
+    desc: 독도를 지킨 독도의용수비대
+    channel: 보물섬독도TV
+  - key: v15
+    stage: 독도의 역사
+    title: 최종덕
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=6DEnCUUHAaA
+    desc: 독도의 최초 주민인 최종덕 이야기
+    channel: 보물섬독도TV
+quiz:
+  - statement: 독도는 우리나라 동쪽 끝에 있는 섬이다.
+    answer: O
+    explain: 독도는 우리나라 동쪽 끝에 위치한 우리 영토예요.
+  - statement: 독도는 화산 활동으로 만들어진 화산섬이다.
+    answer: O
+    explain: 독도는 바닷속 화산이 분출하여 굳어 생긴 화산섬이에요.
+  - statement: 독도에는 아무 생물도 살지 않는다.
+    answer: X
+    explain: 독도에는 철새, 괭이갈매기, 독도 새우 등 여러 생물이 살아요.
+  - statement: 독도 주변 바다에는 물고기와 해저자원이 있다.
+    answer: O
+    explain: 독도 둘레 바다에는 다양한 물고기와 해저자원이 있어요.
+  - statement: 독도는 우리 역사 기록에 전혀 나오지 않는 섬이다.
+    answer: X
+    explain: 독도는 삼국사기, 세종실록지리지 등 여러 역사 기록에 우리 영토로 남아 있어요.
+  - statement: 안용복은 독도가 우리 땅임을 지키려고 한 인물이다.
+    answer: O
+    explain: 안용복은 독도를 우리 영토로 지키기 위해 노력한 인물이에요.
+  - statement: 독도는 자연이 소중해서 천연보호구역으로 지정되었다.
+    answer: O
+    explain: 독도는 소중한 자연을 보호하기 위해 천연보호구역(천연기념물)으로 지정되었어요.

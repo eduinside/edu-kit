@@ -1,0 +1,228 @@
+id: so6112
+title: 1-2. 민주화와 산업화로 달라진 생활 문화
+grade: 6
+sem: 1학기
+subject: 사회
+unit: 1단원
+unit_no: 1
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 민주화와 산업화 과정에서 나타난 사람들의 노력과 달라진 생활 모습을 이해하고 우리 사회가 안고 있는 문제점을 해결하기 위해 노력하는 태도를 기릅니다.
+  core_question: 광복 이후 우리나라는 민주화와 산업화를 거치며 어떻게 변화했으며, 평화 통일을 위해 우리는 무엇을 할 수 있을까?
+  concepts:
+    - term: 4.19혁명
+      def: 1960년에 부정 선거에 맞서 학생과 시민들이 들고일어나 잘못된 정권을 물러나게 한 민주주의 운동이에요. 초등학생까지 거리로 나와 함께 외칠 만큼 온 국민이 참여했어요.
+    - term: 5.18민주화운동
+      def: 1980년에 광주에서 시민들이 군인들의 무력에 맞서 민주주의를 지키려고 일어선 운동이에요. 당시의 참상은 외국 언론을 통해 세계에 알려지기도 했어요.
+    - term: 6월 민주항쟁
+      def: 1987년 6월에 시민들이 대통령을 내 손으로 직접 뽑게 해 달라고 외치며 일어난 민주주의 운동이에요. 이 항쟁으로 대통령 직선제를 받아내는 큰 변화가 있었어요.
+    - term: 산업화
+      def: 공장을 세우고 여러 가지 물건을 만들어 팔며 나라 경제를 빠르게 키운 과정이에요. 우리나라는 이 과정을 거치며 농사 중심에서 공업 중심의 나라로 바뀌었어요.
+    - term: 산업화 문제
+      def: 산업화로 살림은 나아졌지만 환경 오염, 빈부 격차처럼 새롭게 생긴 어려움을 말해요. 이런 문제를 해결하려고 함께 노력하는 태도가 필요해요.
+  standards:
+    - code: "[6사07-02]"
+      text: 민주화와 산업화로 인해 달라진 생활 문화를 사례를 들어 이해한다.
+stages:
+  - 4.19혁명
+  - 5.18민주화운동
+  - 6월 민주항쟁
+  - 산업화
+items:
+  - key: v1
+    stage: 4.19혁명
+    title: 민주의 하루
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=j0SJRwogGu8
+    desc: 4.19 혁명을 소재로 한 만화로 동기유발 자료로 활용 가능
+    channel: 국가보훈부
+  - key: v2
+    stage: 4.19혁명
+    title: 학생들의 분노를 불러일으킨 사상 초유의 사건?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=FQsw5bO-vd8
+    desc: 4.19 혁명의 원인인 3.15 부정선거를 이해하는 자료로 활용 가능
+    channel: 달리 [SBS DALI] - SBS 공식 교양 채널
+  - key: v3
+    stage: 4.19혁명
+    title: 4.19혁명의 도화선이 된 단 한 장의 사진! 소년 '김주열'이 대한민국에 남긴 것
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=A_M6NbAHRhc
+    desc: 4.19 전체를 파악하는 영상으로 학습 후 배운 내용을 정리하는 차원에서 활용 가능
+    channel: 달리 [SBS DALI] - SBS 공식 교양 채널
+  - key: v4
+    stage: 4.19혁명
+    title: 4.19 혁명 당시 거리로 나온 초등학생들
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=HnpcKqG11Hs
+    desc: 나이가 어려도 민주주의에 대한 관심을 가져야 한다는 내용을 전달하는데 활용 가능
+    channel: MBCentertainment
+  - key: v5
+    stage: 5.18민주화운동
+    title: 끔찍한 광주 참상을 알린 비디오테이프
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=rXSs6zff84s
+    desc: 5.18민주화 운동이 알려진 계기를 알려주는 영상으로 배경지식을 쌓는데 활용 가능
+    channel: 달리 [SBS DALI] - SBS 공식 교양 채널
+  - key: v6
+    stage: 5.18민주화운동
+    title: 5.18을 알린 독일 언론인 힌츠페터
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=IHuyXuV1n2U
+    desc: 힌츠페터 사망을 다루는 뉴스로 배경지식을 쌓는데 활용 가능
+    channel: 광주MBC
+  - key: v7
+    stage: 6월 민주항쟁
+    title: 가슴 뜨거워지는 1987 6월의 이야기
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=LcKrL9i93ok
+    desc: 6월 민주 항쟁을 훑어 보는 영상으로 동기 유발로 활용 가능
+    channel: 민주화운동기념사업회_Kdemocracy
+  - key: v8
+    stage: 6월 민주항쟁
+    title: 탁'치니 '억'하고... 박종철 고문치사 사건
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=PC1_cdxCQOk
+    desc: 6월 민주 항쟁의 여러 원인 중 하나인 박종철 고문치사 사건 간단히 살펴보는 영상으로 수업 중 활용 가능
+    channel: 최태성 2TV
+  - key: v9
+    stage: 6월 민주항쟁
+    title: 박종철 고문치사의 현장 9호 조사실, 왜 이런 악행을 저질렀을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=rhF969Aotco
+    desc: 박종철 고문치사가 일어난 현장에 대한 영상으로 배경지식을 쌓는데 활용 가능
+    channel: MBCentertainment
+  - key: v10
+    stage: 6월 민주항쟁
+    title: 위기에 몰린 전두환! 4·13 호헌조치
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6hNvABKdL1o
+    desc: 4.13 호헌 조치 발표 상황에 대한 자세한 설명을 덧붙이는 영상으로 수업에 활용 가능
+    channel: KBS 히스토리
+  - key: v11
+    stage: 6월 민주항쟁
+    title: 노태우의 폭탄선언, 6.29선언
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1-8sR7gFjt0
+    desc: 노태우의 6.29 선언에 대한 상세한 설명을 하는데 활용 가능
+    channel: KBS 히스토리
+  - key: v12
+    stage: 6월 민주항쟁
+    title: 전두환의 민주화 선언 발표 모습
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6tHwjr0_jak
+    desc: 전두환의 민주화 선언 발표 뉴스로 6월 민주 항쟁 이후 벌어진 일을 생생하게 전달하는데 활용 가능
+    channel: KTV 아카이브
+  - key: v13
+    stage: 6월 민주항쟁
+    title: 박종철 고문치사 사건의 진실
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=1eJme37HLi0
+    desc: 6월 민주항쟁 전체를 연결성 있게 파악하는데 활용 가능
+    channel: 달리 [SBS DALI] - SBS 공식 교양 채널
+  - key: v14
+    stage: 6월 민주항쟁
+    title: 1987년 6월, 민주항쟁의 기억
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=IMeym_B8ROY
+    desc: 6월 민주항쟁 참여자의 생생한 기억을 담은 영상으로 당시 사람들의 감정을 느끼는데 활용 가능
+    start: 0
+    end: 381
+    channel: tvN D ENT
+  - key: v15
+    stage: 산업화
+    title: 우리나라 경제성장 과정
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=7Qqp8EDLjuw
+    desc: 대한민국 경제성장의 전반적인 개요를 소개하며 수업의 동기를 부여하는 자료로 활용 가능
+    channel: KDI 경제교육·정보센터
+  - key: v16
+    stage: 산업화
+    title: 1950년대 삼백산업(제당·제분·방직)의 발전
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=puzRiUALpqc
+    desc: 농업 중심 경제에서 초기 공업화가 시작된 배경을 이해하는 도입 자료로 활용
+    channel: KBS 히스토리
+  - key: v17
+    stage: 산업화
+    title: 1960년대 국토건설사업, 경제개발5개년 계획
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=oIG9b2Bt8NQ
+    desc: 경제 개발 초기 단계의 모습과 정책적 노력을 학습하며 경제성장 과정을 탐구
+    channel: KBS 히스토리
+  - key: v18
+    stage: 산업화
+    title: 1970년대 중화학공업(철강산업) 발달
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=W2GTQ38G0RA
+    desc: 산업화와 중화학 공업의 발전상을 설명하며 경제성장 과정에서 철강산업의 중요성을 이해하도록 활용
+    channel: KTV  다큐
+  - key: v19
+    stage: 산업화
+    title: 1970년대 중화학공업(조선산업) 발달
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=iH339ACFgZU
+    desc: 조선산업 발달 역사를 소개하는 영상
+    channel: 가족의 힘
+  - key: v20
+    stage: 산업화
+    title: 1980년대 중화학공업(자동차산업) 발달
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Ks80TPF3240
+    desc: 자동차산업 발달 역사를 소개하는 영상
+    channel: 지식의 창
+  - key: v21
+    stage: 산업화
+    title: 1980년대 중화학공업(전자산업) 발달
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ep8xkHqDicA
+    desc: 반도체 등 전자산업 발달 역사를 소개하는 영상
+    channel: KBS 히스토리
+  - key: v22
+    stage: 산업화
+    title: 1990년대 정보통신산업 발달
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=vQpVtDTjTYc
+    desc: 정보통신산업 발달 역사를 소개하는 영상
+    embed: false
+    channel: 클래스로그
+  - key: v23
+    stage: 산업화
+    title: 2000년대 고속 철도의 개통
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ueMjP0BuGEo
+    desc: 고속 철도의 개통 과정을 소개하는 영상
+    channel: KRRI한국철도기술연구원
+  - key: v24
+    stage: 산업화
+    title: 2000년대 스마트폰의 보급
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=lACjfRLpO9I
+    desc: 스마트폰 개발 업체의 이야기로 듣는 스마트폰의 발달 모습
+    start: 0
+    end: 114
+    channel: 삼성전자 뉴스룸 [Samsung Newsroom]
+quiz:
+  - statement: 4.19혁명은 부정 선거에 맞서 학생과 시민이 일어난 민주화 운동이다.
+    answer: O
+    explain: 4.19혁명은 부정 선거를 바로잡으려고 학생과 시민이 일어난 민주화 운동이에요.
+  - statement: 5.18민주화운동은 광주에서 일어난 민주화 운동이다.
+    answer: O
+    explain: 5.18민주화운동은 1980년 광주에서 민주주의를 지키려고 일어난 운동이에요.
+  - statement: 6월 민주항쟁은 시민들이 민주주의를 지키려고 일어난 운동이다.
+    answer: O
+    explain: 6월 민주항쟁은 1987년에 시민들이 민주주의를 위해 일어난 운동이에요.
+  - statement: 산업화는 공장을 세우고 물건을 만들며 나라 경제를 키운 과정이다.
+    answer: O
+    explain: 산업화는 공장에서 물건을 만들어 경제를 빠르게 키운 과정이에요.
+  - statement: 산업화가 진행되면서 환경 오염 같은 새로운 문제도 함께 생겨났다.
+    answer: O
+    explain: 산업화로 살림은 나아졌지만 환경 오염 같은 문제도 함께 생겼어요.
+  - statement: 민주화 운동은 시민들이 자유와 권리를 빼앗기기 위해 벌인 일이다.
+    answer: X
+    explain: 민주화 운동은 자유와 권리를 빼앗기려는 것이 아니라 지키고 되찾으려는 노력이었어요.
+  - statement: 산업화로 우리나라는 공업 중심에서 농사 중심의 나라로 바뀌었다.
+    answer: X
+    explain: 산업화로 우리나라는 반대로 농사 중심에서 공업 중심의 나라로 바뀌었어요.

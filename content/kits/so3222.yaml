@@ -1,0 +1,177 @@
+id: so3222
+title: 2-2. 교통의 변화와 달라진 생활 모습
+grade: 3
+sem: 2학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 옛날과 오늘날의 교통수단을 살펴보고, 교통의 변화에 따라 사람들의 이동과 생활 모습이 어떻게 달라졌는지 알아보도록 구성된 단원입니다.
+  core_question: 옛날과 오늘날을 비교하면 사람들의 생활 모습은 어떻게 달라졌으며, 그렇게 변화한 까닭은 무엇일까?
+  concepts:
+    - term: 교통수단
+      def: 사람이나 물건을 한 곳에서 다른 곳으로 옮길 때 이용하는 것을 말해요. 걸어서 가지 않고 자동차, 배, 비행기 같은 것을 타고 이동해요.
+    - term: 과거의 교통수단
+      def: 옛날 사람들이 이동할 때 이용하던 교통수단이에요. 가마, 지게, 인력거, 소달구지처럼 주로 사람이나 동물의 힘으로 움직였어요.
+    - term: 교통수단의 발달
+      def: 교통수단이 점점 더 빠르고 편리하게 바뀌어 온 것을 말해요. 사람의 힘으로 가던 것에서 자동차, 기차, 비행기처럼 빠른 것으로 발전했어요.
+    - term: 미래의 교통수단
+      def: 앞으로 우리가 이용하게 될 새로운 교통수단이에요. 드론이나 하늘을 나는 자동차처럼 더 빠르고 편리한 모습으로 바뀔 거예요.
+  standards:
+    - code: "[4사04-02]"
+      text: 옛날부터 오늘날까지 교통의 변화에 따른 이동과 생활 모습의 변화를 이해한다.
+stages:
+  - 교통수단
+  - 과거의 교통수단
+  - 교통수단의 발달
+  - 미래의 교통수단
+items:
+  - key: v1
+    stage: 교통수단
+    title: 편리한 교통수단
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=TMJBgpzdRh4
+    desc: 편리한 교통수단을 이용할 때 주의할 점과 교통수단의 종류를 소개하는 영상
+    channel: 차곡차곡TV
+  - key: v14
+    stage: 교통수단
+    title: 항공 관제사 이야기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=a5oGl_cAa5M
+    desc: 항공 관제사가 하는 일
+    channel: tvN D ENT
+  - key: v15
+    stage: 교통수단
+    title: 어린이 교통사고 예방
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qfkicH0qxho
+    desc: 안전한 교통수단 이용을 위한 방법을 소개한 영상
+    channel: 안전한TV
+  - key: v16
+    stage: 교통수단
+    title: 자전거, 인라인, 킥보드 탑승 안전
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=W-Unxjr4mY0
+    desc: 자전거, 인라인, 킥보드를 안전하게 타기 위한 방법을 소개한 영상
+    channel: 안전한TV
+  - key: v17
+    stage: 교통수단
+    title: KTX·고속버스가 있는 곳, 동대구 복합환승센터에서는 무엇을 할까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=UmF7p2ZTD0Y
+    desc: 대구의 가장 큰 교통의 중심지, KTX 및 기차와 고속버스를 탈 수 있는 복합환승센터의 모습이 담긴 영상
+    channel: " YTN"
+  - key: v2
+    stage: 과거의 교통수단
+    title: 갯벌의 이동수단, 널배
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Z1vS6l5icec
+    desc: 갯벌의 어민들이 이용하는 널배의 모습
+    start: 92
+    end: 180
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v3
+    stage: 과거의 교통수단
+    title: 가마
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ioiudKJGT64
+    desc: 외국인이 본 가마 이야기
+    channel: 대한여지도 Korean Geographic
+  - key: v4
+    stage: 과거의 교통수단
+    title: 지게
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=jQDCAYfYvuU
+    desc: 짐을 옮길 때 썼던 지게
+    embed: false
+    status: 임베드차단
+  - key: v5
+    stage: 과거의 교통수단
+    title: 인력거
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=0hCW5-uVzbU
+    desc: 구한말의 택시, 인력거
+    channel: 퍄퍄킴 역사
+  - key: v6
+    stage: 과거의 교통수단
+    title: 전차
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=XNCzzlb38_s
+    desc: 우리나라에 전차가 처음으로 운행된 날
+    start: 154
+    end: 267
+    channel: 대한여지도 Korean Geographic
+  - key: v7
+    stage: 교통수단의 발달
+    title: 비행기의 역사
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=3anAfKAe3WM
+    desc: 비행기의 발달 과정을 소개하는 영상
+    channel: 세상의모든지식
+  - key: v8
+    stage: 교통수단의 발달
+    title: 자전거의 역사
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=7scM2PbwDis
+    desc: 자전거의 발달 과정을 소개하는 영상
+    channel: YTN 사이언스
+  - key: v9
+    stage: 교통수단의 발달
+    title: 배의 역사
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=rk1plpb6398
+    desc: 배의 발달 과정을 소개하는 영상
+    channel: YTN 사이언스
+  - key: v10
+    stage: 교통수단의 발달
+    title: 철도의 역사
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=YDg7khWIDA0
+    desc: 철도의 발달 과정을 소개하는 영상
+    channel: YTN 사이언스
+  - key: v11
+    stage: 교통수단의 발달
+    title: 자동차의 역사
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=9N9ru8eYzpQ
+    desc: 자동차의 발달 과정을 소개하는 영상
+    channel: YTN 사이언스
+  - key: v12
+    stage: 미래의 교통수단
+    title: 미래의 교통수단
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=QHNaCM7t38o
+    desc: 미래의 교통수단 발달을 예상한 영상
+    channel: GS칼텍스
+  - key: v13
+    stage: 미래의 교통수단
+    title: 드론을 활용한 사례
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=DNY1pZjH49g
+    desc: 외벽 청소, 배달 등 다양하게 사용되고 있는 드론을 소개한 영상
+    channel: MBCNEWS
+quiz:
+  - statement: 교통수단은 사람이나 물건을 다른 곳으로 옮길 때 이용한다.
+    answer: O
+    explain: 교통수단은 사람과 물건을 다른 곳으로 옮길 때 쓰는 것이에요.
+  - statement: 가마, 지게, 인력거는 옛날에 사용하던 교통수단이다.
+    answer: O
+    explain: 가마, 인력거는 사람을 옮기던 옛날 교통수단이고, 지게는 사람이 등에 지고 물건을 나르던 옛날 운반 도구예요.
+  - statement: 교통수단이 발달하면서 사람들은 옛날보다 더 빠르고 편리하게 이동하게 되었다.
+    answer: O
+    explain: 교통수단이 발달하면서 더 빠르고 편리하게 이동할 수 있게 되었어요.
+  - statement: 옛날의 교통수단은 오늘날의 자동차나 기차보다 더 빨랐다.
+    answer: X
+    explain: 옛날 교통수단은 오늘날의 자동차나 기차보다 느렸고, 교통수단이 발달하면서 점점 빨라졌어요.
+  - statement: 드론처럼 앞으로 더 많이 쓰일 새로운 교통수단을 미래의 교통수단이라고 한다.
+    answer: O
+    explain: 드론처럼 앞으로 새롭게 쓰일 교통수단을 미래의 교통수단이라고 해요.
+  - statement: 교통수단은 옛날부터 지금까지 한 번도 변하지 않고 그대로이다.
+    answer: X
+    explain: 교통수단은 옛날부터 오늘날까지 계속 발달하며 변해 왔어요.
+  - statement: 교통이 발달해도 사람들의 생활 모습은 전혀 달라지지 않는다.
+    answer: X
+    explain: 교통이 발달하면서 이동하는 모습과 생활 모습이 함께 달라졌어요.

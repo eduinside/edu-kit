@@ -1,0 +1,176 @@
+id: sc3231
+title: 3. 소리의 성질
+grade: 3
+sem: 2학기
+subject: 과학
+unit: 소리의 성질
+unit_no: 3
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 일상에서 자주 접하는 소리에 대한 흥미와 관심을 바탕으로 소리의 성질을 이해할 수 있도록 하는 단원입니다. 다양한 물체에서 나는 소리를 관찰하고, 소리의 발생 원리를 알아보며, 소리의 세기와 높낮이를 구별하고, 소리가 어떻게 전달되는지 살펴봅니다. 더 나아가 주변의 소음을 인식하고 이를 줄이기 위한 방법을 찾아 실천함으로써, 건강하고 쾌적한 생활 환경을 만들기 위한 태도와 실천력을 함양하도록 합니다.
+  core_question: 소리는 어떻게 만들어지고 전달되며, 우리는 소음 문제를 어떻게 해결할 수 있을까?
+  concepts:
+    - term: 소리
+      def: 물체가 떨리면서 생기는 것으로, 우리 귀로 들을 수 있어요. 북을 치거나 목소리를 낼 때처럼 떨림이 있어야 소리가 나요.
+    - term: 소리의 전달
+      def: 소리가 공기, 물, 쇠 같은 물질을 통해 멀리 퍼져 나가 우리 귀까지 닿는 것이에요. 소리는 이런 물질이 없으면 전달되지 못해요.
+    - term: 소리의 세기
+      def: 소리가 크고 작은 정도를 말해요. 물체를 세게 떨리게 하면 큰 소리가 나고, 약하게 떨리게 하면 작은 소리가 나요.
+    - term: 소음
+      def: 사람을 시끄럽고 불편하게 만드는 듣기 싫은 소리예요. 공사장 소리나 층간 소음처럼 우리 생활을 방해하는 소리를 줄이려고 노력해야 해요.
+  standards:
+    - code: "[4과07-01]"
+      text: 여러 가지 물체를 이용하여 소리를 내보고, 소리가 나는 물체는 떨림이 있음을 설명할 수 있다.
+    - code: "[4과07-02]"
+      text: 큰 소리와 작은 소리, 높은 소리와 낮은 소리를 구분하고, 세기와 높낮이가 다른 소리를 낼 수 있다.
+    - code: "[4과07-03]"
+      text: 여러 가지 물질을 통하여 소리가 전달되는 것을 관찰하고, 소음을 줄이는 방법을 찾아 일상생활에서 실천할 수 있다.
+stages:
+  - 소리
+  - 소리의 전달
+  - 소리의 세기
+  - 소음
+items:
+  - key: v1
+    stage: 소리
+    title: 우주의 소리는 어떨까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ePKl0HMJJ_Y
+    desc: NASA가 포착한 우주의 소리를 들으며, 소리에 대한 흥미를 유발한다.
+    channel: 우주의 발견
+  - key: v2
+    stage: 소리
+    title: 내 귀는 몇 살? 나이마다 들을 수 있는 소리가 다르다고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=34312wuTvQg
+    desc: 연령별 주파수 테스트를 통해 소리에 대한 흥미를 유발한다.
+    channel: YTN 사이언스
+  - key: v3
+    stage: 소리
+    title: 소리 없이 유튜브 영상을 본다면 어떨까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=dFRXcYJVfMM
+    desc: 청각장애인은 유튜브를 어떻게 보는지 관찰하며, 뉴스와 정보 등 다양한 영상들에 대한 접근권에 대해 생각해 본다.
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v4
+    stage: 소리
+    title: 소리를 만드는 '직업'이 있다고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=uf1MbDwCHgc
+    desc: 영화 속 소리를 만드는 '폴리 아티스트'에 대해 알아본다.
+    channel: 비디오머그 - VIDEOMUG
+  - key: v5
+    stage: 소리
+    title: 새들은 종류에 따라 다 다른 소리를 낸다고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=7aWAND5AiHM
+    desc: 한국의 새 35종의 울음소리를 통해, 소리에 대한 흥미를 유발한다.
+    channel: 숲PRO-TV
+  - key: v6
+    stage: 소리의 전달
+    title: 소리는 주파수마다 다른 모양을 가지고 있다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=OJbTInVod6U
+    desc: 귀로는 들을 수 있지만 눈으로는 볼 수 없는 소리 주파수를 다양한 방법으로 시각화한다.
+    channel: YTN 사이언스
+  - key: v7
+    stage: 소리의 전달
+    title: 소리를 눈으로 볼 수 있다?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=wbgIr3Aai9c
+    desc: 슐리렌 장치로 파동을 시각적으로 볼 수 있다. 구슬을 떨어뜨리면 생기는 주변의 와이파이 모양, 이것을 바로 파동이라고 한다.
+    channel: YTN 사이언스
+  - key: v8
+    stage: 소리의 전달
+    title: 소리로 촛불을 끌 수 있을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=xVid9wKsbKo
+    desc: 강력한 소리는 공기를 진동시킨다. 소리가 공기를 진동시켜 촛불을 끌 수 있다.
+    channel: YTN 사이언스
+  - key: v9
+    stage: 소리의 세기
+    title: 우주에서 가장 조용한 소리부터 가장 시끄러운 소리까지!
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=EuFtYUILn0Y
+    desc: 우주에서 가장 조용한 소리와, 가장 시끄러운 소리들은 무엇인지 알아 본다.
+    channel: 밝은 면 Bright Side Korea
+  - key: v10
+    stage: 소리의 세기
+    title: 청진기는 어떻게 우리 몸 속의 작은 소리들을 들을 수 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=Iwi9B1d2v0k
+    desc: 간이 청진기를 만들어 보며, 우리 몸 속의 작은 소리를 크게 들을 수 있는 청진기의 원리를 알아본다.
+    channel: YTN 사이언스
+  - key: v11
+    stage: 소리의 세기
+    title: 청진기에서는 어떤 소리가 날까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=d6eXknzPork
+    desc: 작은 소리를 크게 들을 수 있게 하는 청진기, 청진기에선 어떤 소리가 나는지 들어본다.
+    channel: 심닥의 의학이야기
+  - key: v12
+    stage: 소리의 세기
+    title: 이어폰으로 큰 소리를 많이 듣는 너, 난청일 수 있다!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=34YGFW6imRQ
+    desc: 지나치게 큰 소리로 장기간 음악을 들으면 소음청 난청이 생길 수 있다.
+    channel: KBS News
+  - key: v13
+    stage: 소음
+    title: 실제 사례로 알아보는 층간 소음 문제!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=6JJjG8A3T5Q
+    desc: 층간소음으로 윗집 이웃과 갈등을 겪고 이는 아랫집의 실제 사례
+    channel: SBS 뉴스
+  - key: v14
+    stage: 소음
+    title: 낮에는 작은 소리, 밤에는 큰 소음!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=hT4pO5CigYM
+    desc: 한국환경공단의 층간소음 예방 홍보영상
+    channel: 국가환경교육센터
+  - key: v15
+    stage: 소음
+    title: 초등학생이 제시한 층간 소음 해결법?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=nUEs0-N1DT0
+    desc: 초등학생이 아파트 주민들에게 보낸 편지
+    channel: KNN NEWS
+  - key: v16
+    stage: 소음
+    title: 대구에서 공사장 소음으로 하루 30건의 소음 민원이 발생한다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Q01bf0oOxPA
+    desc: 평일-주말 가리지 않는 공사장 소음으로 고통 받는 대구 시민들의 모습
+    channel: 대구MBC뉴스
+  - key: v17
+    stage: 소음
+    title: 우리들의 생명을 지키기 위해 출동하는 소방차 사이렌 소리가 '소음' 이라고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=PMrrnlagkWg
+    desc: 시민들의 생명을 구하기 위해 출동하는 소방차 사이렌 소리도 '소음'일까? 함께 생각해 보자.
+    channel: SBS 뉴스
+quiz:
+  - statement: 소리가 나는 물체는 떨림이 있다.
+    answer: O
+    explain: 소리는 물체가 떨릴 때 생기므로 소리 나는 물체에는 떨림이 있어요.
+  - statement: 물체를 세게 떨리게 하면 큰 소리가 난다.
+    answer: O
+    explain: 물체가 세게 떨릴수록 소리의 세기가 커져서 큰 소리가 나요.
+  - statement: 소리는 공기나 물 같은 물질이 없어도 잘 전달된다.
+    answer: X
+    explain: 소리는 공기, 물, 물체 같은 물질을 통해 전달되므로 전달해 줄 물질이 필요해요.
+  - statement: 소음은 우리를 시끄럽고 불편하게 만드는 듣기 싫은 소리이다.
+    answer: O
+    explain: 사람을 불편하게 하는 듣기 싫은 소리를 소음이라고 해요.
+  - statement: 소리의 세기는 소리가 크고 작은 정도를 말한다.
+    answer: O
+    explain: 소리가 크고 작은 정도가 바로 소리의 세기예요.
+  - statement: 층간 소음이나 공사장 소리는 줄이지 않고 그대로 두는 것이 좋다.
+    answer: X
+    explain: 소음은 생활을 방해하므로 줄이는 방법을 찾아 실천해야 해요.
+  - statement: 북을 칠 때 북이 떨려야 소리가 난다.
+    answer: O
+    explain: 북도 떨림이 있어야 소리가 나며, 떨림이 멈추면 소리도 멈춰요.

@@ -1,0 +1,160 @@
+id: sc4111
+title: 1. 자석의 이용
+grade: 4
+sem: 1학기
+subject: 과학
+unit: 자석의 이용
+unit_no: 1
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 자석과 물체를 가까이 했을 때 나타나는 현상을 관찰하여 자석과 자석에 붙는 물체 사이에 작용하는 힘의 특징에 대해 알아보고, 자석과 자석을 가까이 했을 때 나타나는 현상을 관찰하여 그 특징을 자석의 극과 관련지어 알아본다. 또한 생활 속에서 자석을 이용한 장치를 찾아보고 자석을 이용하여 일상생활을 편리하게 하는 장치를 설계하는 활동을 하도록 구성되었다.
+  core_question: 자석은 어떤 힘의 특징을 지니며, 우리는 그것을 생활에서 어떻게 이용할까?
+  concepts:
+    - term: 자석
+      def: 철로 된 물체를 끌어당기는 성질을 가진 물체예요. 막대자석, 말굽자석, 동전자석처럼 여러 가지 모양이 있어요.
+    - term: 자석에 붙는 물체
+      def: 자석에 가까이 가져가면 끌려와 붙는 물체로, 철과 같은 금속으로 만들어진 것들이에요. 클립, 못, 철로 만든 가위 같은 것이 여기에 속해요.
+    - term: 자력
+      def: 자석이 물체를 끌어당기거나 밀어내는 힘이에요. 자석과 물체가 직접 닿지 않아도 작용해요.
+    - term: 자석의 극
+      def: 자석에서 끌어당기는 힘이 가장 센 양쪽 끝부분이에요. N극과 S극 두 가지가 있어요.
+    - term: 같은 극
+      def: N극과 N극, 또는 S극과 S극처럼 종류가 같은 극끼리를 말해요. 같은 극끼리 가까이 하면 서로 밀어내요.
+    - term: 다른 극
+      def: N극과 S극처럼 종류가 다른 극끼리를 말해요. 다른 극끼리 가까이 하면 서로 끌어당겨요.
+  standards:
+    - code: "[4과09-01]"
+      text: 자석과 여러 가지 물체를 가까이했을 때 나타나는 현상을 관찰하고, 자석과 자석에 붙는 물체 사이에 작용하는 힘의 특징을 말할 수 있다.
+    - code: "[4과09-02]"
+      text: 자석과 자석을 가까이했을 때 나타나는 현상을 관찰하여 그 특징을 자석의 극과 관련지어 설명할 수 있다.
+    - code: "[4과09-03]"
+      text: 자석을 이용하여 일상생활을 편리하게 하는 장치를 설계할 수 있다.
+stages:
+  - 자석
+  - 자석에 붙는 물체
+  - 자력
+  - 자석의 극
+items:
+  - key: v4
+    stage: 자석
+    title: 공중에 클립을 띄울 수 있다고?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=UO5DoopSyJk
+    desc: 자석으로 클립 공중에 띄우기 놀이
+    start: 531
+    end: 619
+    channel: 유라야놀자(Let's play YURA)
+  - key: v5
+    stage: 자석
+    title: 자석의 역사는?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=XvIducUG_tk
+    desc: 자석의 역사(발견, 이름 유래)
+    start: 30
+    end: 92
+    channel: 보다 BODA
+  - key: v6
+    stage: 자석
+    title: 자석은 어떻게 만들까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=gpZ7RNMVWRw
+    desc: 자석을 만드는 방법
+    start: 0
+    end: 147
+    channel: 국립어린이과학관
+  - key: v7
+    stage: 자석
+    title: 자석으로 돌아가는 팽이 만들기
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=GckO6SQ1LFo
+    desc: 자석으로 돌아가는 팽이 만들기 실험
+    start: 0
+    end: 124
+    channel: YTN 사이언스
+  - key: v10
+    stage: 자석에 붙는 물체
+    title: 자석이 밀어내는 물질과 끌어당기는 물질은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-Jtxem_7Z2k
+    desc: 자석과 플라스틱, 유리, 종이, 알루미늄 캔을 가까이 했을때 나타나는 현상 실험
+    start: 138
+    end: 340
+    channel: 타조맨 씨, 과학도 잘하시네!
+  - key: v11
+    stage: 자석에 붙는 물체
+    title: 자석을 물체에 대면 어떻게 될까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=x6Uh2MNCqDM
+    desc: 자석과 오이(2:37~5:05), 지폐(6:02~8:22), 성냥(9:25~11:25)을 가까이 했을때 나타나는 현상 실험
+    start: 157
+    end: 305
+    channel: YTN 사이언스
+  - key: v8
+    stage: 자력
+    title: 자석을 녹이면 어떻게 될까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ezAXvZKf-cw
+    desc: 자석을 녹이면 나타나는 현상 실험
+    start: 0
+    end: 309
+    channel: 공돌이 용달
+  - key: v9
+    stage: 자력
+    title: 네오디뮴 자석의 힘
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=uI6t5HGjHDQ
+    desc: 네오디뮴 자석을 가방에 넣어 자석의 힘 실험
+    start: 0
+    end: 132
+    channel: YTN 사이언스
+  - key: v1
+    stage: 자석의 극
+    title: 막대자석을 자르면 어떻게 될까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=7Rm23-nCcqU
+    desc: 자석을 자르면 나타나는 현상 실험
+    start: 0
+    end: 184
+    channel: YTN 사이언스
+  - key: v2
+    stage: 자석의 극
+    title: N극이 셀까? S극이 셀까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=_Dd4c_FHmlk
+    desc: 자석의 세기를 알아보는 실험
+    start: 0
+    end: 396
+    channel: 아하 사이언스[ Aha! Science ]
+  - key: v3
+    stage: 자석의 극
+    title: 고무자석은 왜 뒷면이 안붙을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=85Dl4q8pqPE
+    desc: 고무자석의 뒷면이 붙지 않는 이유
+    start: 0
+    end: 139
+    channel: 3분차이
+quiz:
+  - statement: 자석은 클립이나 못처럼 철로 된 물체를 끌어당긴다.
+    answer: O
+    explain: 자석은 철로 된 물체를 끌어당기는 성질이 있어요.
+  - statement: 종이나 나무로 만든 물체는 자석에 붙는다.
+    answer: X
+    explain: 자석에는 철로 된 물체만 붙고, 종이나 나무는 붙지 않아요.
+  - statement: 자석에서 끌어당기는 힘이 가장 센 부분은 양쪽 끝의 극이다.
+    answer: O
+    explain: 자석의 극인 양쪽 끝부분에서 끌어당기는 힘이 가장 세요.
+  - statement: 자석의 N극과 S극을 가까이 하면 서로 밀어낸다.
+    answer: X
+    explain: N극과 S극은 다른 극이라서 서로 끌어당겨요.
+  - statement: 자석의 N극과 N극을 가까이 하면 서로 밀어낸다.
+    answer: O
+    explain: 같은 극끼리는 서로 밀어내는 힘이 작용해요.
+  - statement: 자석은 물체에 직접 닿아야만 끌어당기는 힘이 작용한다.
+    answer: X
+    explain: 자석의 힘인 자력은 떨어져 있어도 작용해요.
+  - statement: 우리 생활 속에서 자석을 이용해 편리한 물건을 만들 수 있다.
+    answer: O
+    explain: 냉장고 문이나 필통처럼 생활 속 여러 장치에 자석이 쓰여요.

@@ -1,0 +1,185 @@
+id: so4222
+title: 2-2. 지역을 알리려는 노력
+grade: 4
+sem: 2학기
+subject: 사회
+unit: 2단원
+unit_no: 2
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 지역의 자연환경, 역사, 문화, 생산물 등을 알리려는 지역사회의 노력을 알고 관심을 가질 수 있도록 구성되었습니다.
+  core_question: 우리 지역의 문제는 어떻게 해결할 수 있으며, 지역의 가치는 어떻게 알릴 수 있을까?
+  concepts:
+    - term: 자연환경
+      def: 산, 강, 바다, 들처럼 사람이 만들지 않고 자연이 만들어 낸 우리 주변의 환경이에요. 통영 한려해상국립공원이나 제주 새별오름처럼 지역을 대표하는 멋진 자연환경이 있어요.
+    - term: 역사
+      def: 옛날부터 지금까지 우리 지역에서 일어난 일들의 이야기예요. 화성시 정조대왕 능행차처럼 오랜 역사를 지닌 곳은 그 지역을 대표하기도 해요.
+    - term: 문화
+      def: 지역 사람들이 함께 즐기고 이어 온 축제, 공연, 풍습 같은 생활 모습이에요. 춘천 연극제처럼 그 지역만의 특색 있는 문화가 있어요.
+    - term: 생산물
+      def: 그 지역에서 자라거나 만들어지는 물건이나 먹을거리예요. 이천 도자기, 이천 쌀, 횡성 한우처럼 지역을 대표하는 특별한 생산물이 있어요.
+    - term: 홍보
+      def: 우리 지역의 좋은 점을 여러 사람에게 널리 알리는 일이에요. 마스코트, 캐릭터, 홍보 영상, 공모전 같은 다양한 방법으로 지역을 알릴 수 있어요.
+    - term: 참여
+      def: 지역을 위해 내가 직접 나서서 함께하는 것이에요. 우리도 지역 축제나 홍보 활동에 참여해 지역을 알리는 데 힘을 보탤 수 있어요.
+  standards:
+    - code: "[4사09-02]"
+      text: 지역의 자연환경, 역사, 문화, 생산물 등을 알리려는 지역사회의 노력을 알고 관심을 갖는다.
+stages:
+  - 자연환경
+  - 역사
+  - 문화
+  - 생산물
+  - 홍보
+  - 참여
+items:
+  - key: v1
+    stage: 자연환경
+    title: 지역을 대표하는 역사적인 장소에는 무엇이 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=DT0o8Vm3_G8
+    desc: 충남 공주의 국가유산이자 유네스코 세계유산으로 지정된 공산성
+    channel: Gongju흥미진진 공주시
+  - key: v2
+    stage: 자연환경
+    title: 지역을 대표하는 아름다운 자연환경 / 통영 한려해상국립공원
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=AzU_p870fIE
+    desc: 한려해상국립공원의 아름다운 바닷 속 모습
+    channel: 국립공원TV
+  - key: v3
+    stage: 자연환경
+    title: 지역을 대표하는 아름다운 자연환경 / 제주 새별오름
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=5mwIRt1b38E
+    desc: 상공에서 본 새별오름의 모습
+    channel: WOOGINOTE우기노트
+  - key: v9
+    stage: 자연환경
+    title: 우리 지역의 주요 명소는 어디일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=8F89-Ylhnqk
+    desc: 드론으로 감상하는 대구의 주요 명소
+    channel: 대구TV┃대구광역시 공식 유튜브
+  - key: v11
+    stage: 자연환경
+    title: 지역사회는 지역을 알리기 위해 어떤 노력을 할까? / 무주 반딧불 축제
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=VylZVQSI_hQ
+    desc: 넓은 산지를 자랑하는 무주군의 천연기념물 반딧불이를 볼 수 있는 무주 반딧불 축제
+    channel: " YTN"
+  - key: v6
+    stage: 역사
+    title: 지역을 대표하는 오랜 역사 / 화성시 정조대왕 능행차
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=gO6O9w5Hc3Q
+    desc: 장관 이룬 정조대왕 능행차 공동재현과 능행차 구간에서 진행된 수원 화성 축제
+    channel: OBS뉴스
+  - key: v7
+    stage: 문화
+    title: 지역을 대표하는 특색 있는 문화 / 춘천 연극제
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=eIwSWQ8spYQ
+    desc: 지역 곳곳이 연극 무대가 되는 춘천 연극제
+    channel: 춘천MBC뉴스
+  - key: v8
+    stage: 문화
+    title: 우리 지역을 대표하는 장소에는 무엇이 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=u1yKAaW5_vc
+    desc: 대구의 다양한 옛 골목들의 모습을 배경으로 한 댄스 퍼포먼스
+    channel: VISITKOREA
+  - key: v16
+    stage: 문화
+    title: 우리 지역의 특징을 잘 나타내는 대표 캐릭터
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ofIc3AYoBVM
+    desc: 지방 도시를 살리고 있는 지역 캐릭터들
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v17
+    stage: 문화
+    title: 지역 마스코트는 어떤 역할을 할까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=bVVOMtGV4YA
+    desc: 지역 캐릭터의 인지도를 높이고 경쟁력을 살리기 위한 서울시의 마스코트 재탄생
+    channel: 크랩 KLAB
+  - key: v4
+    stage: 생산물
+    title: 지역을 대표하는 특별한 생산물 / 이천 도자기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_4yla6Yta8k
+    desc: 도자기가 유명한 고장 이천에서 이루어지는 이천 도자기 축제
+    channel: " YTN"
+  - key: v5
+    stage: 생산물
+    title: 지역을 대표하는 특별한 산업 / 울산 조선산업
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=s2qqfZ4OORQ
+    desc: LNG 운반선 시장에서 독보적인 수출 기록을 세운 울산
+    channel: 울산MBC뉴스
+  - key: v10
+    stage: 홍보
+    title: 지역사회는 지역을 알리기 위해 어떤 노력을 할까? / 이천 쌀문화 축제
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=y7PKKP_DYvk
+    desc: 이천 특산물 쌀을 이용한 식문화 체험의 장, 이천 쌀문화 축제
+    channel: KBS News
+  - key: v12
+    stage: 홍보
+    title: 지역사회는 지역을 알리기 위해 어떤 노력을 할까? / 횡성 한우 축제
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=TINgWZLuuuE
+    desc: 20년째 이어져오고 있는, 국산 한우의 대표 주자 횡성 한우 축제
+    channel: KBS News
+  - key: v13
+    stage: 홍보
+    title: 지역사회를 알리는 다양한 방법에는 무엇이 있을까? / 공모전
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=yWIeXvFp3k0
+    desc: 지역 홍보를 위한 충청북도 60초 영상 공모전 최우수작
+    channel: 충청북도
+  - key: v14
+    stage: 홍보
+    title: 지역사회를 알리는 다양한 방법에는 무엇이 있을까? / 홍보영상
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=0XLKt0fystU
+    desc: 경상북도 의성 홍보 영상
+    channel: 컬처라인
+  - key: v15
+    stage: 홍보
+    title: 지역을 알리기 위한 지역과 다양한 업계의 협업
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=89IVWXtwAuU
+    desc: 이제는 트렌드가 된 식품업계의 지역상생, 로코노미
+    channel: 크랩 KLAB
+  - key: v18
+    stage: 참여
+    title: 우리가 지역을 위해 무슨 일을 할 수 있을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=dNfqYMrhXbk
+    desc: 우리가 박물관을 바꿨어요' 책 소개 영상
+    channel: 초록개구리 출판사
+quiz:
+  - statement: 산, 강, 바다처럼 자연이 만들어 낸 것을 자연환경이라고 한다.
+    answer: O
+    explain: 자연환경은 사람이 만들지 않고 자연이 만든 환경을 말한다.
+  - statement: 이천 도자기나 횡성 한우처럼 그 지역에서 만들어지거나 나는 것을 생산물이라고 한다.
+    answer: O
+    explain: 생산물은 지역에서 자라거나 만들어지는 물건과 먹을거리를 가리킨다.
+  - statement: 우리 지역에는 자연환경, 역사, 문화, 생산물처럼 알릴 만한 좋은 점이 하나도 없다.
+    answer: X
+    explain: 지역마다 자연환경, 역사, 문화, 생산물 등 알릴 만한 가치가 있다.
+  - statement: 지역 마스코트나 홍보 영상은 우리 지역을 널리 알리는 데 도움을 준다.
+    answer: O
+    explain: 마스코트와 홍보 영상은 지역을 알리는 대표적인 홍보 방법이다.
+  - statement: 지역을 알리는 일은 어른들만 할 수 있고 어린이는 참여할 수 없다.
+    answer: X
+    explain: 어린이도 축제나 홍보 활동에 참여해 지역을 알리는 데 힘을 보탤 수 있다.
+  - statement: 춘천 연극제처럼 지역 사람들이 함께 즐기는 공연이나 축제도 그 지역의 문화이다.
+    answer: O
+    explain: 문화는 지역 사람들이 함께 즐기고 이어 온 축제, 공연 같은 생활 모습이다.
+  - statement: 화성시 정조대왕 능행차처럼 옛날부터 이어 온 행사는 지역의 역사와 관계가 없다.
+    answer: X
+    explain: 능행차처럼 옛날부터 이어 온 행사와 전통은 지역의 역사에 해당한다.

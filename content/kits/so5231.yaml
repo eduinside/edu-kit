@@ -1,0 +1,183 @@
+id: so5231
+title: 3-1. 일제의 식민 통치와 저항
+grade: 5
+sem: 2학기
+subject: 사회
+unit: 3. 식민 통치와 저항, 전쟁이 바꾼 사회와 생활
+unit_no: 3
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회⋅문화적 변화를 반영한다.
+  core_question: 식민지 체제는 우리가 살아가는 공간과 삶의 모습을 어떻게 변화시켰으며, 이에 맞선 저항은 사회에 어떤 영향을 주었을까?
+  concepts:
+    - term: 공간과 장소
+    - term: 변화
+    - term: 체제
+    - term: 생활 모습
+    - term: 문화
+    - term: 사건
+    - term: 식민 통치
+  standards:
+    - code: "[6사06-01]"
+      text: 일제의 식민 통치와 이에 대한 저항이 사회와 생활에 미친 영향을 이해한다.
+stages:
+  - name: 생각열기
+    question: 조선에 놓인 '철도'는 편리한 길이었을까, 빼앗아 가는 길이었을까?
+  - name: 탐구하기1
+    question: 일제의 침략에 맞선 우리 민족의 저항은 어떤 모습이었을까?
+  - name: 탐구하기2
+    question: 나라를 되찾으려는 노력에는 어떤 것들이 있었을까?
+  - name: 확장하기
+    question: 세종대왕의 애민정신은 일제 강점기에도 어떤 모습으로 남아 있을까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 일제 강점기 시절, 등산과 친일의 상관관계
+    url: https://www.youtube.com/watch?v=WawzME5Ho6A
+    desc: 일제가 조선인들에게 등산을 '취미 생활'처럼 권장했던 속내에는 철도 부설을 위한 지형 정찰과 침략 기지 구축이라는 목적이 숨어 있었음을 이해함.
+    channel: EBS 지식채널e
+  - key: v02
+    stage: 생각열기
+    title: 도깨비마저 빼앗아간 일본
+    url: https://www.youtube.com/watch?v=8B0BHli_aPg
+    desc: 도깨비의 외형 중에는 일제강점기를 거치며 일본의 요괴 문화와 뒤섞인 왜곡된 부분들이 많음을 이해함.
+    channel: EBS 지식채널e
+  - key: v03
+    stage: 탐구하기1
+    title: 일제에게 나라를 빼앗기다
+    url: https://www.youtube.com/watch?v=xt5GtNjj774
+    desc: 나라를 빼앗긴 과정과 일제의 수탈 통치에 대해 알아봄.
+    channel: 지니스쿨 역사 GeniSchool History
+  - key: v04
+    stage: 탐구하기1
+    title: 을사조약이 무효임을 알리기 위한 노력, 헤이그 특사
+    url: https://www.youtube.com/watch?v=nBXKvHjdUxw
+    desc: 을사조약이 무효임을 알리기 위해 노력한 헤이그 특사의 활동을 이해함.
+    channel: 공부방찐천재
+  - key: v05
+    stage: 탐구하기1
+    title: 의병은 어떻게 일제의 침략에 맞섰을까?
+    url: https://www.youtube.com/watch?v=eMhLFPSfx9g
+    desc: 국권 침탈에 맞선 항일 의병 투쟁의 과정을 알아봄.
+    channel: 공부방찐천재
+  - key: v06
+    stage: 탐구하기1
+    title: 우리나라 최초의 여성의병장 윤희순
+    url: https://www.youtube.com/watch?v=huuedjzvy3I
+    desc: 여성 의병장 윤희순의 활동을 통해 광복을 위해 힘쓴 인물을 탐구함.
+    channel: KBS 히스토리
+  - key: v07
+    stage: 탐구하기1
+    title: 민족의 힘을 키워나간 애국계몽운동
+    url: https://www.youtube.com/watch?v=06iX6zr2u3I
+    desc: 애국 계몽 운동의 내용과 이 운동을 실시하게 된 까닭을 추론함.
+    channel: 공부방찐천재
+  - key: v08
+    stage: 탐구하기1
+    title: 안중근이 낼 수 있었던 용기
+    url: https://www.youtube.com/watch?v=EJifvw4wEAg
+    desc: 안중근이 이토 히로부미를 암살한 장면을 각색한 부분으로 인물을 탐구함.
+    start: 1017
+    channel: 국가보훈부
+  - key: v09
+    stage: 탐구하기1
+    title: 시대와 국경을 넘어 빛나는 이름, 도산 안창호
+    url: https://www.youtube.com/watch?v=c2xt0IHEh6Y
+    desc: 안창호에 대한 인물 탐구를 바탕으로 광복을 위해 힘쓴 노력에 대해 알아봄.
+    channel: KB국민은행
+  - key: v10
+    stage: 탐구하기2
+    title: 조선인 강제징용의 역사
+    url: https://www.youtube.com/watch?v=KDht0pwKG50
+    desc: 동굴 속에 숨겨진 조선인 강제 동원과 노동 수탈의 아픈 역사를 알아봄.
+    channel: EBS 지식채널e
+  - key: v11
+    stage: 탐구하기2
+    title: 긴 여정 끝에 돌아온 한국의 탑
+    url: https://www.youtube.com/watch?v=WJyFMlmv6Eo
+    desc: 일제강점기 때 수탈당했다가 112년 만에 고향인 강원도 원주로 돌아온 '법천사지 지광국사탑'에 대해 알아봄.
+    channel: EBS 지식채널e
+  - key: v12
+    stage: 탐구하기2
+    title: 무력으로 조선을 통치한 '무단 통치'
+    url: https://www.youtube.com/watch?v=kyE7c768t24
+    desc: 1910년대 일제가 조선을 강점한 직후 시행한 혹독한 무단 통치의 실상과 우리 민족의 저항을 알아봄.
+    channel: 공부방찐천재
+  - key: v13
+    stage: 탐구하기2
+    title: 3·1운동은 어떻게 전국으로 퍼져나갈 수 있었나?
+    url: https://www.youtube.com/watch?v=Qc63gD2PJL4
+    desc: 3·1운동의 전개 과정과 힘쓴 인물에 대해 알아봄.
+    channel: EBS Learning
+  - key: v14
+    stage: 탐구하기2
+    title: 독립을 향한 용기
+    url: https://www.youtube.com/watch?v=2MPeR9yYRQ8
+    desc: 독립을 향해 목숨을 바칠 수 있었던 용기와 3·1운동의 의의를 탐구함.
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v15
+    stage: 탐구하기2
+    title: 우리가 3·1운동을 기억해야 하는 이유
+    url: https://www.youtube.com/watch?v=PI2AG4V7u6E
+    desc: 3·1운동의 의의와 그 영향을 탐구함.
+    channel: 씨리얼
+  - key: v16
+    stage: 탐구하기2
+    title: 대한민국으로의 첫걸음, 대한민국 임시정부
+    url: https://www.youtube.com/watch?v=0pzky1MN8BQ
+    desc: 대한민국 임시정부의 수립 과정에 대해 알아봄.
+    channel: 공부방찐천재
+  - key: v17
+    stage: 탐구하기2
+    title: 대한민국 임시정부 수립, 우리가 기억해야 할 그 날
+    url: https://www.youtube.com/watch?v=3z0fvfTJZdA
+    desc: 대한민국 임시정부의 수립 과정과 역사적 의의에 대해 알아봄.
+    channel: 국가보훈부
+  - key: v18
+    stage: 탐구하기2
+    title: 윤봉길 의사의 상하이 의거
+    url: https://www.youtube.com/watch?v=L3QkKYFtKEQ
+    desc: 윤봉길에 대한 인물 탐구를 바탕으로 광복을 위해 힘쓴 노력에 대해 알아봄.
+    channel: tvN STORY 티비엔 스토리
+  - key: v19
+    stage: 확장하기
+    title: 점자로 하는 필기
+    url: https://www.youtube.com/watch?v=0QJnWZM6Zx0
+    desc: 11월 4일 점자의 날은 송암 박두성 선생이 훈맹정음을 반포한 1926년 11월 4일을 기념하는 날임을 알아봄.
+    channel: EBS 지식채널e
+  - key: v20
+    stage: 확장하기
+    title: 광복을 맞이한 독립운동가의 만세?
+    url: https://www.youtube.com/watch?v=dTtNppeROyE
+    desc: AI 기술로 다양하게 복원된 독립운동가들의 사진을 알아봄.
+    channel: EBS 지식채널e
+  - key: v21
+    stage: 확장하기
+    title: 영화 속 독립운동가들과 얽힌 이야기
+    url: https://www.youtube.com/watch?v=WUFlr8Sm54Y
+    desc: 영화 《파묘》의 주인공 4인방(김상덕, 고영근, 윤봉길, 이화림)의 이름이 모두 실제 독립운동가의 이름에서 따왔다는 사실을 알아봄.
+    channel: EBS 지식채널e
+quiz:
+  - statement: 일제의 식민 통치는 우리나라의 주권과 사람들의 생활을 억압했다.
+    answer: O
+    explain: 정치적 권리를 빼앗고 경제와 교육, 문화 등 여러 분야를 통제했다.
+  - statement: 3·1 운동은 많은 사람이 독립 의사를 평화적으로 알린 운동이다.
+    answer: O
+    explain: 전국 각지에서 사람들이 만세를 외치며 독립을 요구했다.
+  - statement: 일제는 우리말과 우리 문화를 자유롭게 발전하도록 적극 지원했다.
+    answer: X
+    explain: 일제는 우리말 사용과 민족 문화를 억압하고 일본식 생활을 강요했다.
+  - statement: 독립운동은 국내에서만 일어났고 국외에서는 전혀 이루어지지 않았다.
+    answer: X
+    explain: 만주, 연해주, 중국 등 국외에서도 무장 투쟁과 외교 활동이 이어졌다.
+  - statement: 대한민국 임시 정부는 독립운동을 조직하고 새로운 나라를 준비했다.
+    answer: O
+    explain: 임시 정부는 독립운동의 구심점 역할을 하며 민주 공화국을 지향했다.
+  - statement: 일제의 수탈은 토지와 식량, 인력 등 사람들의 경제생활에 피해를 주었다.
+    answer: O
+    explain: 자원과 생산물을 빼앗고 전쟁에 사람들을 강제로 동원했다.
+  - statement: 식민 통치와 저항을 공부할 때 피해 사실만 알고 사람들의 선택과 노력은 살피지 않아도 된다.
+    answer: X
+    explain: 억압 속에서도 이어진 다양한 저항과 연대의 의미를 함께 이해해야 한다.

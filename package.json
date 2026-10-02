@@ -4,12 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "sync": "tsx scripts/sheet-to-json.ts",
+    "data": "tsx scripts/build-data.ts",
+    "check": "tsx scripts/check.ts",
+    "videos": "tsx scripts/videos.ts",
+    "report": "tsx scripts/report.ts",
     "seed:stats": "tsx scripts/seed-stats.ts",
     "og": "python scripts/gen-og.py",
-    "predev": "npm run sync",
+    "predev": "npm run data",
     "dev": "vite",
-    "prebuild": "npm run sync",
+    "prebuild": "npm run data",
     "build": "vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
@@ -31,6 +34,7 @@
     "tsx": "^4.22.0",
     "typescript": "^5.7.0",
     "vite": "^8.0.14",
+    "yaml": "^2.9.1",
     "zod": "^3.24.0"
   }
 }

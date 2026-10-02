@@ -1,0 +1,200 @@
+id: sc3141
+title: 4. 생물의 한살이
+grade: 3
+sem: 1학기
+subject: 과학
+unit: 생물의 한살이
+unit_no: 4
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 동물의 한살이를 관찰하고 실험을 통해 식물의 성장 조건을 탐구하며 생물에 따라 한살이의 유형이 다양함을 이해한다.
+  core_question: 동물과 식물은 어떤 한살이 과정을 거치며, 생물에 따라 그 모습은 어떻게 다를까?
+  concepts:
+    - term: 배추흰나비의 한살이
+      def: 배추흰나비는 알에서 깨어나 애벌레, 번데기를 거쳐 어른벌레(나비)가 됩니다. 이렇게 모습이 크게 바뀌며 자라는 과정을 한살이라고 합니다.
+    - term: 동물의 한살이
+      def: 동물이 태어나서 자라 어른이 되고 새끼나 알을 낳는 과정을 동물의 한살이라고 합니다. 동물마다 자라는 모습과 차례가 조금씩 다릅니다.
+    - term: 씨의 싹 틔움
+      def: 씨가 알맞은 물과 온도, 공기를 만나면 싹이 트고 뿌리와 잎이 나옵니다. 이렇게 씨에서 싹이 나오는 것을 싹 틔움이라고 합니다.
+    - term: 식물의 성장
+      def: 싹이 튼 식물은 빛과 물, 알맞은 온도가 있어야 잎과 줄기가 점점 커지며 자랍니다. 자라는 데 필요한 조건이 갖춰지면 더 잘 자랍니다.
+    - term: 식물의 한살이
+      def: 식물은 씨가 싹이 터서 자라 꽃이 피고 열매를 맺으며 다시 씨를 만듭니다. 이렇게 씨에서 씨로 이어지는 과정을 식물의 한살이라고 합니다.
+  standards:
+    - code: "[4과04-01]"
+      text: 동물의 한살이를 직접 관찰하고, 관찰한 내용을 글과 그림으로 표현할 수 있다.
+    - code: "[4과04-02]"
+      text: 식물이 자라는 데 필요한 조건을 찾는 실험을 설계하여 수행할 수 있다.
+    - code: "[4과04-03]"
+      text: 생물의 한살이 과정을 조사하여 생물에 따라 한살이의 유형이 다양함을 소개하는 자료를 만들어 공유할 수 있다.
+stages:
+  - 배추흰나비의 한살이
+  - 동물의 한살이
+  - 씨의 싹 틔움
+  - 식물의 성장
+  - 식물의 한살이
+items:
+  - key: v1
+    stage: 배추흰나비의 한살이
+    title: 알에서 어떻게 배추흰나비 애벌래가 될까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=UoGmDNehmiA
+    desc: 알에서 배추흰나비 애벌레가 되는 과정
+    channel: 벨로로그(VeloLog)
+  - key: v2
+    stage: 배추흰나비의 한살이
+    title: 배추흰나비 애벌레는 어떻게 성장할까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=vuz6-zYQsuM
+    desc: 배추흰나비 애벌레 성장 과정
+    channel: 벨로로그(VeloLog)
+  - key: v3
+    stage: 배추흰나비의 한살이
+    title: 배추흰나비 애벌레의 똥은 어떻게 생겼을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=LMUQyV9_aow
+    desc: 배추흰나비 애벌레의 똥
+    channel: 벨로로그(VeloLog)
+  - key: v4
+    stage: 배추흰나비의 한살이
+    title: 배추흰나비 애벌레에서 어떻게 번데기가 될까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=x2eJQU04Fls
+    desc: 배추흰나비 애벌레에서 번데기가 되는 과정
+    channel: 벨로로그(VeloLog)
+  - key: v5
+    stage: 배추흰나비의 한살이
+    title: 번데기에서 어떻게 배추흰나비가 될까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=5Xy09Rsk9aM
+    desc: 번데기에서 배추흰나비가 되는 과정
+    channel: 벨로로그(VeloLog)
+  - key: v6
+    stage: 동물의 한살이
+    title: 포켓몬 캐터피, 호랑나비의 한살이
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=LKXfK2Luscc
+    desc: 호랑나비의 한살이
+    channel: 남들은 모르는 신기한 곤충 세상
+  - key: v7
+    stage: 동물의 한살이
+    title: 장수풍뎅이는 어떻게 태어나서 성충이 될까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=5ldz6OL4EKM
+    desc: 장수풍뎅이의 한살이
+    channel: 꼬마농부의 텃밭 이야기Korean farmer
+  - key: v8
+    stage: 동물의 한살이
+    title: 숲속의 무법자 사마귀는 어떻게 태어나서 성충이 될까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=lk0Nl1RpLtc
+    desc: 사마귀의 한살이
+    channel: DocuRain 다큐레인
+  - key: v9
+    stage: 동물의 한살이
+    title: 개굴개굴 개구리의 성장과정
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=_zP1zKwPOWM
+    desc: 개구리의 한살이
+    channel: 토도원 TODO ONE
+  - key: v10
+    stage: 동물의 한살이
+    title: 병아리가 200일만에 수탉으로 변했어요!
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=nkLVZVOQ31Q
+    desc: 닭의 한살이
+    channel: CORAM101 STORY
+  - key: v11
+    stage: 동물의 한살이
+    title: 푸바오는 어떻게 태어났을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=9g7FSs6dELk
+    desc: 새끼를 낳는 판다
+    channel: SBS TV동물농장x애니멀봐
+  - key: v12
+    stage: 동물의 한살이
+    title: 돌고래는 알을 낳을까? 새끼를 낳을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=ODX9NfnNAmU
+    desc: 새끼를 낳는 돌고래
+    channel: SBS STORY
+  - key: v13
+    stage: 씨의 싹 틔움
+    title: 강낭콩이 싹을 틔우려면 어떤 조건이 필요할까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=suTtePUCtco
+    desc: 강낭콩 싹트기 실험 정리
+    channel: 최영우
+  - key: v14
+    stage: 씨의 싹 틔움
+    title: 땅속에 심은 강낭콩은 어떻게 싹을 틔울까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=w77zPAtVTuI
+    desc: 땅속에 심은 강낭콩이 싹트는 모습
+    channel: GPhase
+  - key: v15
+    stage: 식물의 성장
+    title: 식물이 자랄려면 빛이 필요할까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=1CNVzuio6fI
+    desc: 식물이 자라려면 빛이 필요한지 알아보는 실험
+    channel: 데팡스｜depanse
+  - key: v16
+    stage: 식물의 성장
+    title: 식물은 초록색을 싫어한다?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=quNZiqW2JU0
+    desc: 식물이 초록색 빛을 싫어하는 이유
+    channel: 국립과천과학관
+  - key: v17
+    stage: 식물의 성장
+    title: 식물이 자라려면 물이 필요할까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=b8vbiAwHJ7U
+    desc: 식물이 자라려면 물이 필요한지 알아보는 실험
+    channel: 라떼티처K
+  - key: v18
+    stage: 식물의 한살이
+    title: 강낭콩의 한살이를 관찰해볼까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=t12IVp-SzUc
+    desc: 강낭콩의 한살이
+    channel: 마음치유 동화
+  - key: v19
+    stage: 식물의 한살이
+    title: 감나무의 한살이를 관찰해볼까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qtJ54ikiK5g
+    desc: 감나무의 한살이
+    channel: studying
+  - key: v20
+    stage: 식물의 한살이
+    title: 2m가 넘는 맘모스 해바라기를 키워볼래?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=1tZ515O9hNs
+    desc: 맘모스 해바라기의 한살이
+    channel: 쑥쑥크리 SSUG Garden
+quiz:
+  - statement: 배추흰나비는 알, 애벌레, 번데기를 거쳐 어른벌레가 됩니다.
+    answer: O
+    explain: 배추흰나비의 한살이는 알에서 애벌레, 번데기를 거쳐 어른벌레(나비)가 되는 과정입니다.
+  - statement: 씨는 물이 전혀 없어도 싹을 잘 틔울 수 있습니다.
+    answer: X
+    explain: 씨가 싹을 틔우려면 알맞은 물이 꼭 필요합니다.
+  - statement: 식물이 잘 자라려면 빛이 필요합니다.
+    answer: O
+    explain: 식물은 빛을 받아야 잎과 줄기가 잘 자랍니다.
+  - statement: 동물은 종류에 상관없이 모두 똑같은 차례로 자랍니다.
+    answer: X
+    explain: 동물마다 한살이의 모습과 자라는 차례가 서로 다를 수 있습니다.
+  - statement: 강낭콩 같은 식물은 씨가 싹이 터서 자라 꽃이 피고 열매를 맺습니다.
+    answer: O
+    explain: 식물의 한살이는 씨에서 싹이 터 자라 꽃이 피고 열매를 맺는 과정입니다.
+  - statement: 개구리와 나비는 똑같은 모습으로 자라며 한살이가 완전히 같습니다.
+    answer: X
+    explain: 생물에 따라 한살이의 유형이 달라서 개구리와 나비는 자라는 모습이 다릅니다.
+  - statement: 식물이 자라는 데 필요한 조건은 실험을 통해 알아볼 수 있습니다.
+    answer: O
+    explain: 빛이나 물 같은 조건을 다르게 하여 실험하면 식물이 자라는 데 필요한 조건을 찾을 수 있습니다.

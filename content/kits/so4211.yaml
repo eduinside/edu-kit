@@ -1,0 +1,130 @@
+id: so4211
+title: 1-1. 학교 자치와 민주주의
+grade: 4
+sem: 2학기
+subject: 사회
+unit: 1단원
+unit_no: 1
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 학교 자치 사례를 통해 민주주의의 의미를 알아보고, 학교생활에서 민주주의를 실천하는 능력을 기를 수 있도록 구성되어 있습니다.
+  core_question: 민주주의는 학교와 지역에서 어떻게 실현되며, 우리는 자치와 참여에 어떻게 함께할 수 있을까?
+  concepts:
+    - term: 정치
+      def: 사람들이 함께 살아가면서 생기는 여러 문제를 의논하고 함께 결정하여 풀어 가는 활동이에요. 학급에서 규칙을 정하는 일도 작은 정치랍니다.
+    - term: 민주주의
+      def: 나라나 모임의 일을 한 사람이 마음대로 정하지 않고, 모두가 함께 의논하고 결정하는 방식이에요. 모든 사람을 똑같이 소중하게 여기는 생각이 바탕이 됩니다.
+    - term: 학교자치
+      def: 학교의 일을 학생, 선생님이 스스로 의논하고 함께 정해 나가는 것이에요. 학급회의나 학생자치회 활동이 대표적인 예랍니다.
+    - term: 학교생활
+      def: 학교에서 공부하고 친구들과 지내며 여러 활동에 참여하는 모든 생활이에요. 이 안에서 회의와 선거로 민주주의를 직접 실천할 수 있어요.
+  standards:
+    - code: "[4사08-01]"
+      text: 학교 자치 사례를 통하여 민주주의의 의미를 이해하고, 학교생활에서 민주주의를 실천하는 능력을 기른다.
+stages:
+  - 정치
+  - 민주주의
+  - 학교자치
+  - 학교생활
+items:
+  - key: v1
+    stage: 정치
+    title: 정치란 무엇일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=BYoMaIUHPPo
+    desc: 좁은 의미에서는 정치 권력의 획득과 행사, 넓은 의미에서는 의견을 나눠 문제를 함께 해결하는 것
+    channel: 여니소리
+  - key: v2
+    stage: 민주주의
+    title: 민주주의는 무엇일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=IPylIPw_hCo
+    desc: 다양한 사회에서 여러 사람들과 살아가기 위한 결정을 돕는 민주주의
+    channel: 아이스크림 홈런
+  - key: v3
+    stage: 민주주의
+    title: 민주주의는 어떤 이념과 원리를 가지고 있을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=IKcxoG7mfTQ
+    desc: 인간의 존엄성, 자유, 평등이라는 민주주의의 이념과 국민주권, 국민자치, 입헌주의, 권력분립의 민주주의 원리
+    channel: 여니소리
+  - key: v4
+    stage: 민주주의
+    title: 다수결은 진정한 민주주의일까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=w6C0shYqgn8
+    desc: 토의나 토론을 통해 가장 좋은 방법을 찾아내는 것이 진정한 민주주의
+    channel: 용툰과 교육영상
+  - key: v5
+    stage: 학교자치
+    title: 학급회의, 어떻게 하면 제대로 할 수 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ap8Q0PrHI_4
+    desc: 각 의견의 장점과 단점을 비교해보며 의견 모아보기
+    channel: 용툰과 교육영상
+  - key: v6
+    stage: 학교자치
+    title: 학생자치활동으로 학교는 어떻게 변화될 수 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-bNDWyHXwDE
+    desc: 민주적 의사소통과 의사결정으로 학교의 주인이 된 학생들, 학생자치회 활동으로 직접 정하고 바꾸는 학교 규칙과 공간
+    channel: 울산광역시교육청
+  - key: v7
+    stage: 학교자치
+    title: 학생자치활동을 지원하기 위한 움직임에는 무엇이 있을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=B4-w98OeYs0
+    desc: 학생자치활동을 지원하기 위해서 세종시교육청에서는 학생연합회를 구성하고 지원 조레를 제정함
+    channel: ch B tv 중부
+  - key: v8
+    stage: 학교자치
+    title: 학생자치를 위해 교육청에서는 무엇을 할 수 있을까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=C_Qbm8EN6go
+    desc: 원탁토론을 통해 학생참여예산제 등 교육청 차원의 학생자치 관련 정책 수립 과정에 참여
+    channel: 서울시교육청TV
+  - key: v9
+    stage: 학교생활
+    title: 과거의 학교 선거는 어떤 모습이었을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=5Xgew2suvy8
+    desc: 적극적인 선거유세와 공정한 선관위 활동, 그리고 학교와 학생들의 노력으로 되찾은 깨끗하고 공정한 선거
+    channel: 크랩 KLAB
+  - key: v10
+    stage: 학교생활
+    title: 학급 선거, 어떤 후보를 뽑을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6FjeqOlAeys
+    desc: 성실, 배려, 존중, 현실성 등 기준을 세워 선거에 정직하게 참여하기
+    channel: 몽당분필
+  - key: v11
+    stage: 학교생활
+    title: 학급 선거에 성실하고 공정하게 참여하지 않는다면 어떤 일이 생길까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=FWmQc1--Fos
+    desc: 반장이 되고 싶은 초등학생 해리의 옳지 못한 선거 참여 사례
+    channel: MBCentertainment
+quiz:
+  - statement: 정치는 사람들이 함께 사는 데 생기는 문제를 의논해서 해결하는 활동이다.
+    answer: O
+    explain: 정치는 함께 사는 문제를 의논하고 결정해 풀어 가는 활동이에요.
+  - statement: 민주주의에서는 모든 일을 한 사람이 혼자서 마음대로 정한다.
+    answer: X
+    explain: 민주주의는 모두가 함께 의논하고 결정하는 방식이에요.
+  - statement: 학급회의는 학교에서 민주주의를 실천하는 방법 중 하나이다.
+    answer: O
+    explain: 학급회의처럼 함께 의논해 정하는 것이 학교에서의 민주주의 실천이에요.
+  - statement: 학교자치는 학교의 일을 학생과 선생님이 함께 의논해 정해 가는 것이다.
+    answer: O
+    explain: 학교자치는 학교의 일을 스스로 의논하고 함께 결정하는 것이에요.
+  - statement: 민주주의는 모든 사람을 똑같이 소중하게 여기는 생각을 바탕으로 한다.
+    answer: O
+    explain: 민주주의는 모든 사람을 소중히 여기는 마음을 바탕으로 해요.
+  - statement: 학급 선거에서 후보를 뽑는 것은 학교생활과 아무 상관이 없는 일이다.
+    answer: X
+    explain: 학급 선거는 학교생활 속에서 민주주의를 실천하는 중요한 활동이에요.
+  - statement: 학급회의에서 의견이 갈릴 때 다수결로 함께 결정할 수 있다.
+    answer: O
+    explain: 다수결은 의견이 나뉠 때 함께 결정하는 민주적인 방법 중 하나예요.

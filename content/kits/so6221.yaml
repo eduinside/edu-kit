@@ -1,0 +1,161 @@
+id: so6221
+title: 2-1. 경제 주체의 역할과 바람직한 경제활동
+grade: 6
+sem: 2학기
+subject: 사회
+unit: 2. 시장경제와 국가 간 거래
+unit_no: 2
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 시장경제에서 가계와 기업은 권리와 책임을 바탕으로 상호 작용한다.
+  core_question: 시장경제에서 가계와 기업은 어떤 관계를 맺는가?
+  concepts:
+    - term: 상호 작용
+    - term: 체제
+    - term: 경제활동
+    - term: 상호의존
+  standards:
+    - code: "[6사11-01]"
+      text: 시장경제에서 가계와 기업의 역할을 이해하고, 근로자의 권리와 기업의 자유 및 사회적 책임을 탐색한다.
+stages:
+  - name: 생각열기
+    question: 생산, 소득, 소비는 어떻게 연결될까?
+  - name: 탐구하기1
+    question: 경제 주체의 역할은 무엇일까?
+  - name: 탐구하기2
+    question: 기업의 사회적 역할은 무엇일까?
+  - name: 확장하기
+    question: 기업은 어떻게 사회적 책임을 다할까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 경제란 무엇이며 합리적인 선택이 왜 중요할까?
+    url: https://www.youtube.com/watch?v=c_fN59k2xnk
+    desc: 경제의 의미를 알아보고 희소성으로 인해 선택이 필요한 이유를 살펴보며 합리적인 선택과 경제적 사고의 중요성을 이해함.
+    channel: KDI 경제교육·정보센터
+  - key: v02
+    stage: 생각열기
+    title: 우리 생활에 생산 활동이 필요한 이유는 무엇일까?
+    url: https://www.youtube.com/watch?v=lJOX69viV1E
+    desc: 생산 활동의 의미를 알아보고 물건과 서비스를 만드는 다양한 활동을 살펴보며 생산 활동이 우리 생활에 필요한 이유를 이해함.
+    channel: 재정경제부
+  - key: v03
+    stage: 생각열기
+    title: 소득과 소비는 경제 활동에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=hMEScvDzSKs
+    desc: 소득과 소비의 관계를 알아보고 돈이 순환하는 과정을 살펴보며 소득과 소비가 경제 활동에 미치는 영향을 이해함.
+    channel: 재정경제부
+  - key: v04
+    stage: 탐구하기1
+    title: 기업은 어떤 역할을 하며 어떻게 소득을 창출할까?
+    url: https://www.youtube.com/watch?v=0kYSo8p_m_k
+    desc: 기업의 역할을 알아보고 재화와 서비스를 생산·판매하는 과정을 살펴보며 기업이 소득을 창출하는 원리를 이해함.
+    channel: 에디스교육
+  - key: v05
+    stage: 탐구하기1
+    title: 경제 주체들은 어떻게 상호작용하며 국가 경제를 운영할까?
+    url: https://www.youtube.com/watch?v=3d0hpxsD_Us
+    desc: 경제 주체들이 생산·소비·분배 활동을 통해 서로 상호작용하는 과정을 알아보고 국가 경제가 운영되는 원리를 이해함.
+    channel: 에디스교육
+  - key: v06
+    stage: 탐구하기1
+    title: 가계, 기업, 정부는 경제에서 어떤 역할을 할까?
+    url: https://www.youtube.com/watch?v=C3-F4r5H1GI
+    desc: 경제를 이루는 가계, 기업, 정부의 역할을 알아보고 경제 주체들이 서로 상호작용하는 과정을 살펴보며 경제가 순환하는 원리를 이해함.
+    channel: 여니소리
+  - key: v07
+    stage: 탐구하기1
+    title: 시장에서 가계와 기업은 어떻게 상호작용할까?
+    url: https://www.youtube.com/watch?v=ZIEb_i_xF34
+    desc: 시장의 의미를 알아보고 가계와 기업이 재화와 서비스를 거래하는 과정을 살펴보며 경제 주체 간의 상호작용과 경제 순환의 원리를 이해함.
+    channel: 비상교육 비바샘
+  - key: v08
+    stage: 탐구하기1
+    title: 자유로운 경쟁은 국가 경제 발전에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=jvdUNEAZA_A
+    desc: 자유로운 경쟁이 개인, 기업, 소비자에게 미치는 영향을 알아보고 국가 경제 발전과의 관계를 살펴보며 자유 경쟁의 긍정적인 역할을 이해함.
+    channel: 교육부
+  - key: v09
+    stage: 탐구하기2
+    title: 근로자의 권리와 의무는 경제활동에서 왜 중요할까?
+    url: https://www.youtube.com/watch?v=r-GgfIDRO48
+    desc: 근로자의 의무를 알아보고 근로계약에 따라 성실하게 일하는 중요성을 살펴보며 권리와 의무가 조화를 이루는 경제활동의 원리를 이해함.
+    channel: KDI 경제교육·정보센터
+  - key: v10
+    stage: 탐구하기2
+    title: 근로자의 날의 의미와 노동의 가치 알아보기
+    url: https://www.youtube.com/watch?v=LC53J7HrPl0
+    desc: 근로자의 날의 의미와 유래를 알아보고 노동자의 권리가 보장되어 온 과정을 살펴보며 노동의 가치를 이해함.
+    channel: 서울시교육청TV
+  - key: v11
+    stage: 탐구하기2
+    title: 노동자의 권리 보호를 위한 노력과 노동권의 중요성
+    url: https://www.youtube.com/watch?v=xQRR4Ynuyg4
+    desc: 근로기준법 준수를 위해 노력한 과정을 알아보고 노동자의 권리 보호를 위한 활동을 살펴보며 노동권의 중요성을 이해함.
+    channel: 서울시교육청TV
+  - key: v12
+    stage: 탐구하기2
+    title: ESG 소비란 무엇이며 지속 가능한 소비가 왜 중요할까?
+    url: https://www.youtube.com/watch?v=4M_3o3rTBRI
+    desc: ESG 소비의 의미를 알아보고 환경, 사회, 지배구조를 고려하는 소비 활동을 살펴보며 지속 가능한 소비의 중요성을 이해함.
+    channel: EBS뉴스
+  - key: v13
+    stage: 탐구하기2
+    title: 기업의 ESG 경영은 사회와 환경에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=BLugz_7IcDA
+    desc: 환경, 사회, 지배구조를 고려한 ESG 경영 사례를 알아보고 기업의 의사결정이 사회와 환경에 미치는 영향을 살펴보며 지속 가능한 발전의 의미를 이해함.
+    channel: KDI 경제교육·정보센터
+  - key: v14
+    stage: 탐구하기2
+    title: 기업의 경제활동은 사회에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=udyCc-tGZUc
+    desc: 기업의 역할을 알아보고 생산 활동과 일자리 창출, 세금 납부 등 다양한 경제활동을 살펴보며 기업이 사회에 미치는 영향을 이해함.
+    channel: 여니소리
+  - key: v15
+    stage: 탐구하기2
+    title: 기업가정신은 사회 문제 해결에 어떻게 기여할까?
+    url: https://www.youtube.com/watch?v=9cSdRMDvC48
+    desc: 기업가정신의 의미를 알아보고 사회 문제 해결을 위한 발명가들의 다양한 활동을 살펴보며 기업가정신의 사회적 가치를 이해함.
+    channel: IP STORY CENTER
+  - key: v16
+    stage: 확장하기
+    title: 적정기술은 지역 사회의 문제를 어떻게 해결할까?
+    url: https://www.youtube.com/watch?v=07eXt_aAGlc
+    desc: 적정기술의 다양한 사례를 알아보고 지역 사회의 문제를 해결하는 과정을 살펴보며 기술이 인간과 환경에 미치는 긍정적인 영향을 이해함.
+    channel: 적정온 l 적정ON [적정기술과 메이커]
+  - key: v17
+    stage: 확장하기
+    title: 기업의 사회적 책임 실천이 사회와 경제에 미치는 영향
+    url: https://www.youtube.com/watch?v=HYKJuwoDRpY
+    desc: 기업의 사회적 책임 실천 사례를 알아보고 기업 활동이 사회와 경제에 미치는 영향을 살펴보며 지속 가능한 기업 경영의 중요성을 이해함.
+    channel: KBS News
+  - key: v18
+    stage: 확장하기
+    title: 소비자의 가치 소비는 기업의 ESG 경영에 어떤 영향을 미칠까?
+    url: https://www.youtube.com/watch?v=UAo1or_bHqQ
+    desc: 소비자의 가치 소비 사례를 알아보고 기업의 사회적 책임과 ESG 경영에 미치는 영향을 살펴보며 책임 있는 소비의 중요성을 이해함.
+    channel: SBS 뉴스
+quiz:
+  - statement: 가계는 주로 노동을 제공해 소득을 얻고 재화와 서비스를 소비한다.
+    answer: O
+    explain: 가계는 소비의 주체이며 기업에 노동을 제공하기도 한다.
+  - statement: 기업은 재화와 서비스를 생산하고 판매하는 경제 주체이다.
+    answer: O
+    explain: 기업은 생산 요소를 활용해 상품과 서비스를 공급한다.
+  - statement: 가계와 기업은 서로 아무런 영향을 주지 않고 따로 경제활동을 한다.
+    answer: X
+    explain: 가계는 노동과 소비를 제공하고 기업은 일자리와 상품을 제공하며 상호의존한다.
+  - statement: 근로자는 안전한 환경에서 일하고 정당한 대가를 받을 권리가 있다.
+    answer: O
+    explain: 근로 조건과 임금, 휴식 등은 보호되어야 할 근로자의 권리이다.
+  - statement: 기업의 자유는 사회적 책임이나 법을 지키지 않아도 된다는 뜻이다.
+    answer: X
+    explain: 기업은 자유롭게 활동하면서도 법, 환경, 소비자와 근로자에 대한 책임을 져야 한다.
+  - statement: 바람직한 소비를 위해 가격뿐 아니라 품질과 환경 영향도 살필 수 있다.
+    answer: O
+    explain: 소비 선택은 가계의 만족과 기업의 생산, 사회와 환경에 영향을 준다.
+  - statement: 경제활동에서 권리만 중요하고 책임은 생각할 필요가 없다.
+    answer: X
+    explain: 경제 주체는 권리를 누리는 동시에 계약과 법, 공동체에 대한 책임을 지켜야 한다.

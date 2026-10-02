@@ -1,0 +1,222 @@
+id: sc5241
+title: 4. 자원과 에너지
+grade: 5
+sem: 2학기
+subject: 과학
+unit: 자원과 에너지
+unit_no: 4
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 자원은 유한하며, 이를 책임 있게 이용하려는 노력이 지속가능한 미래로 이어진다.
+  core_question: 유한한 자원에 대한 우리의 선택은 미래와 어떻게 연결될까?
+  concepts:
+    - term: 관계
+    - term: 상호작용
+    - term: 자원
+    - term: 에너지
+    - term: 재생에너지
+    - term: 지속 가능성
+    - term: 유한성
+  standards:
+    - code: "[6과08-01]"
+      text: 우리가 생활에서 이용하는 다양한 자원을 조사하고, 자원의 유한함을 설명할 수 있다.
+    - code: "[6과08-02]"
+      text: 재생에너지의 종류를 조사하고, 에너지를 지속가능하게 이용하는 방법에 관심을 갖는다.
+    - code: "[6과08-03]"
+      text: 자원과 에너지의 효율적인 이용 방법에 대해 탐색하고, 생활 속에서 실천할 수 있는 다양한 사례를 공유할 수 있다.
+stages:
+  - name: 생각열기
+    question: 자원이 한정되어 있다면 어떤 문제가 생길까?
+  - name: 탐구하기1
+    question: 화석 연료를 대신할 새로운 에너지에는 무엇이 있을까?
+  - name: 탐구하기2
+    question: 우리나라의 신재생 에너지는 지금 어디쯤 와 있을까?
+  - name: 확장하기
+    question: 신재생 에너지 기술은 어떤 한계를 넘어서고 있을까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 우리와 함께하는 생물자원, 이것들의 공통점은 무엇일까요?
+    url: https://www.youtube.com/watch?v=O1o65RBMAkY
+    desc: 딸기 우유·바닐라 아이스크림·머스크 향·립스틱에 담긴 생물 자원
+    channel: 생물누리TV
+  - key: v02
+    stage: 생각열기
+    title: 생물 자원은 우리의 힘!
+    url: https://www.youtube.com/watch?v=GDUJfjX0ixw
+    desc: 우리 주변의 자원 가운데 생물 자원의 종류와 쓰임
+    channel: 국립생물자원관
+  - key: v03
+    stage: 생각열기
+    title: 세계가 뛰어들고 있는 '자원 전쟁'
+    url: https://www.youtube.com/watch?v=ZM7cZp_UJFk
+    desc: 첨단 산업의 필수 자원인 희토류를 둘러싼 국가 간 자원 전쟁
+    channel: KBS 뉴스 부산
+  - key: v04
+    stage: 생각열기
+    title: "자원의 유한성, 자원 총량제: 만약에 자연 자원이 모두 고갈된다면?"
+    url: https://www.youtube.com/watch?v=Z7DVs9owj54
+    desc: 자연 자원이 모두 고갈되었을 때 벌어지는 일
+    channel: 교육학과_HYUN
+  - key: v05
+    stage: 생각열기
+    title: 자연 자원 고갈, 줄어드는 물과 사라지는 숲
+    url: https://www.youtube.com/watch?v=nleitsurNPc
+    desc: 제주의 생존을 위협하는 물 부족과 숲 감소 등 자연 자원 고갈
+    channel: 제주MBC NEWS
+  - key: v06
+    stage: 탐구하기1
+    title: 어느날 갑자기 석유가 사라진다면?
+    url: https://www.youtube.com/watch?v=DKgOUKsvMV8
+    desc: 석유가 사라진 세상과 그 대안이 되는 신재생 에너지
+    channel: 국가인적자원개발컨소시엄
+  - key: v07
+    stage: 탐구하기1
+    title: 자연이 선사하는 무한한 에너지, 신재생에너지란?
+    url: https://www.youtube.com/watch?v=J038yiH6jEc
+    desc: 환경 문제의 해결책으로 제시되는 신재생 에너지의 뜻
+    channel: YTN 사이언스
+  - key: v08
+    stage: 탐구하기1
+    title: "지구를 위한 친환경 에너지 4총사: 풍력, 파력, 태양력, 수소"
+    url: https://www.youtube.com/watch?v=WlzGRwaCJ2I
+    desc: 온실가스를 내뿜지 않는 친환경 에너지 네 가지, 풍력·파력·태양력·수소
+    channel: 국립부산과학관
+  - key: v09
+    stage: 탐구하기1
+    title: "친환경 신재생 에너지: 태양광, 풍력, 수력"
+    url: https://www.youtube.com/watch?v=Of07hQfiFaY
+    desc: 과학 기술로 태양광·풍력·수력에서 에너지를 얻는 방법
+    channel: YTN 사이언스
+  - key: v10
+    stage: 탐구하기1
+    title: 자원 고갈 걱정이 없는 깨끗한 에너지, 플라스마
+    url: https://www.youtube.com/watch?v=oV6BZhJ3V0s
+    desc: 자원 고갈 걱정이 없고 활용도가 높은 차세대 에너지 플라스마
+    channel: YTN 사이언스
+  - key: v11
+    stage: 탐구하기1
+    title: 한국에서 만든 155m 초대형 풍력발전기!
+    url: https://www.youtube.com/watch?v=1UT2hD3osBs
+    desc: 전북 부안·고창 앞바다에 세운 국내 최대 155m 풍력발전기
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v12
+    stage: 탐구하기1
+    title: 태양 에너지를 활용하는 두 가지 방식
+    url: https://www.youtube.com/watch?v=XFgzdob_tao
+    desc: 태양 에너지를 활용하는 두 가지 방식, 태양열과 태양광
+    channel: YTN 사이언스
+  - key: v13
+    stage: 탐구하기1
+    title: 지하 열, 친환경 에너지원으로 발굴되었다!
+    url: https://www.youtube.com/watch?v=jAq9qnOaFaU
+    desc: 땅속 깊은 곳의 열을 에너지원으로 쓰기 위한 지열 사업
+    channel: " YTN"
+  - key: v14
+    stage: 탐구하기1
+    title: 댐으로 신재생 에너지 '물을 활용하라'
+    url: https://www.youtube.com/watch?v=8yyY2nfXhSk
+    desc: 바다가 없는 충청북도가 댐의 물을 재생 에너지원으로 활용하는 방법
+    channel: MBC충북NEWS
+  - key: v15
+    stage: 탐구하기2
+    title: 수소전기차는 어떻게 도로를 달리는 것일까?
+    url: https://www.youtube.com/watch?v=pUQkBOIt0KM
+    desc: 세계 최초이자 최고인 우리나라 수소전기차가 달리는 원리
+    channel: YTN 사이언스
+  - key: v16
+    stage: 탐구하기2
+    title: 친환경 모빌리티, 수소 전기차
+    url: https://www.youtube.com/watch?v=9XN0pBxVR2k
+    desc: 수소 전기차의 구조와 수소·산소를 결합해 에너지와 물을 만드는 원리
+    channel: YTN 사이언스
+  - key: v17
+    stage: 탐구하기2
+    title: 궁극의 친환경 대중교통, 수소버스
+    url: https://www.youtube.com/watch?v=N3gYkvFOncc
+    desc: 부산에서 운행 중인 친환경 대중교통 수소버스
+    channel: YTN 사이언스
+  - key: v18
+    stage: 탐구하기2
+    title: 소똥으로 전기 만든다... 환경과 에너지를 둘 다 잡는 친환경 기술
+    url: https://www.youtube.com/watch?v=pq5a_1J-9gg
+    desc: 정화가 어려운 소 분뇨로 전기를 만드는 친환경 기술
+    channel: KBS News
+  - key: v19
+    stage: 탐구하기2
+    title: 신재생 에너지로 스마트팜을 운영하는 방법!
+    url: https://www.youtube.com/watch?v=OLQ_ykhCIpQ
+    desc: 기후 변화와 농촌 일손 부족에 대응해 신재생 에너지로 운영하는 스마트팜
+    channel: KBS News
+  - key: v20
+    stage: 탐구하기2
+    title: 여름 정전 막은 주인공, 바로 태양광 에너지라고?
+    url: https://www.youtube.com/watch?v=Tpn3r1hpy9I
+    desc: 역대 최다 전력을 쓴 여름에 안정적인 전력 공급을 뒷받침한 태양광 에너지
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v21
+    stage: 탐구하기2
+    title: 우리나라가 재생에너지 활용을 잘 못하는 이유
+    url: https://www.youtube.com/watch?v=zvtj0JfQxnA
+    desc: 좋은 재생 자원을 갖고도 우리나라가 활용하지 못하는 까닭
+    channel: YTN 사이언스
+  - key: v22
+    stage: 탐구하기2
+    title: 한국이 재생 에너지로 전환하지 못하면 생기는 문제점
+    url: https://www.youtube.com/watch?v=EU8DGJLhvQ4
+    desc: 세계가 재생 에너지로 빠르게 옮겨 가는 흐름과 우리나라의 현실
+    channel: "리뷰엉이: Owl's Review"
+  - key: v23
+    stage: 탐구하기2
+    title: 실질적인 재활용 비율이 16%밖에 되지 않는다고?
+    url: https://www.youtube.com/watch?v=IqyKvVqSbgQ
+    desc: 폐플라스틱의 실질 재활용 비율이 16%에 그치는 까닭
+    channel: " YTN"
+  - key: v24
+    stage: 확장하기
+    title: 재생 에너지 증가에 따른 문제점과 도전 과제
+    url: https://www.youtube.com/watch?v=LeAh5VUdk64
+    desc: 재생 에너지가 늘어나며 드러난 한계점과 도전 과제
+    channel: YTN 사이언스
+  - key: v25
+    stage: 확장하기
+    title: 풍력발전기 날개가 사라진 이유
+    url: https://www.youtube.com/watch?v=z1x_YxXaSxc
+    desc: 날개 없는 풍력 발전기가 등장한 까닭
+    channel: 크랩 KLAB
+  - key: v26
+    stage: 확장하기
+    title: 손바닥만한 태양광 발전기가 있다고?
+    url: https://www.youtube.com/watch?v=ztVKBMtwA-E
+    desc: 에너지 혁신을 이끌 손바닥만 한 초소형 태양광 발전기
+    channel: YTN 사이언스
+  - key: v27
+    stage: 확장하기
+    title: 한국의 '친환경 에너지'가 동남아의 삼림을 파괴하고 있다?!
+    url: https://www.youtube.com/watch?v=2aIdnDpj0Ac
+    desc: 석탄 대체 연료인 바이오매스 생산 과정에서 파괴되는 동남아의 삼림
+    channel: 뉴스타파 Newstapa
+quiz:
+  - statement: 석유와 석탄 같은 자원은 사용하면 줄어들어 끝없이 쓸 수 없다.
+    answer: O
+    explain: 만들어지는 데 매우 오랜 시간이 걸리므로 매장량이 한정되어 있다.
+  - statement: 햇빛과 바람은 자연에서 다시 얻을 수 있어 재생에너지로 이용된다.
+    answer: O
+    explain: 태양광과 풍력은 자연의 순환 속에서 계속 얻을 수 있다.
+  - statement: 재생에너지는 어떤 환경에서도 아무런 제한 없이 같은 양을 생산한다.
+    answer: X
+    explain: 햇빛, 바람, 지형 등 지역과 날씨 조건에 따라 생산량이 달라진다.
+  - statement: 자원을 효율적으로 이용하면 같은 일을 하면서도 자원과 에너지 사용을 줄일 수 있다.
+    answer: O
+    explain: 고효율 제품 사용과 낭비 줄이기는 자원 소비와 환경 부담을 낮춘다.
+  - statement: 한 번 쓰고 버리는 물건을 많이 사용할수록 지속 가능한 생활에 도움이 된다.
+    answer: X
+    explain: 재사용과 수리, 재활용을 늘려 자원 소비와 쓰레기를 줄여야 한다.
+  - statement: 에너지를 절약하는 행동은 미래 세대가 이용할 자원과 환경을 지키는 데 도움이 된다.
+    answer: O
+    explain: 불필요한 소비를 줄이면 자원 고갈과 오염을 줄일 수 있다.
+  - statement: 자원 문제는 개인의 생활 습관과 관계가 없고 국가만 해결할 수 있다.
+    answer: X
+    explain: 개인의 소비 선택과 절약 실천도 사회의 자원 사용량에 영향을 준다.

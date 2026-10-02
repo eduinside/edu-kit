@@ -1,0 +1,150 @@
+id: so4111
+title: 1-1. 지도로 본 우리 지역
+grade: 4
+sem: 1학기
+subject: 사회
+unit: 1단원
+unit_no: 1
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 우리 지역을 나타내는 다양한 지도를 살펴보며, 방향(방위), 기호와 범례, 축척, 땅의 높낮이 표현 방법 등 지도의 기본 요소를 이해하는 것을 목표로 합니다. 이를 통해 지도에 대한 이해를 높이고, 일상생활에서 지도를 활용하는 능력을 키울 수 있도록 합니다. 이를 위해 방향 익히기, 기호와 범례 읽기, 축척 막대자로 실제 거리 측정하기, 등고선 모형 만들기 등의 활동을 통해 지도의 기본 요소를 배웁니다. 또한, 지도 애플리케이션을 활용한 체험 학습 계획을 세우면서, 실제 생활에서 지도를 효과적으로 활용하는 방법을 익힙니다.
+  core_question: 지도를 이용하면 우리 지역의 모습과 정보를 어떻게 파악할 수 있을까?
+  concepts:
+    - term: 지도
+      def: 우리가 사는 땅의 모습을 위에서 내려다본 것처럼 작게 줄여서 약속된 기호로 그린 그림이에요. 지도를 보면 우리 지역의 모습과 정보를 한눈에 알 수 있어요.
+    - term: 방위
+      def: 동, 서, 남, 북처럼 방향을 나타내는 것이에요. 지도에서 방위표를 보면 어느 쪽이 동쪽인지, 북쪽인지 알 수 있어요.
+    - term: 기호
+      def: 학교, 우체국, 병원처럼 땅에 있는 것을 지도에 간단하게 나타낸 약속된 그림이나 표시예요. 기호를 쓰면 복잡한 것을 쉽게 그릴 수 있어요.
+    - term: 범례
+      def: 지도에 쓰인 기호가 무엇을 뜻하는지 설명해 놓은 표예요. 범례를 보면 지도의 기호가 어떤 장소나 시설을 나타내는지 알 수 있어요.
+    - term: 축척
+      def: 실제 땅의 거리를 지도에서 얼마나 줄였는지 나타낸 것이에요. 축척을 이용하면 지도 위의 거리로 실제 거리를 알아낼 수 있어요.
+    - term: 등고선
+      def: 땅의 높이가 같은 곳을 이어서 그린 선이에요. 등고선을 보면 어디가 높고 낮은지, 땅의 높낮이를 알 수 있어요.
+  standards:
+    - code: "[4사05-01]"
+      text: 우리 지역을 표현한 다양한 종류의 지도를 찾아보고, 지도의 요소를 이해한다.
+stages:
+  - 지도
+  - 방위
+  - 기호
+  - 범례
+  - 축척
+  - 등고선
+items:
+  - key: v1
+    stage: 지도
+    title: 사회 용어 풀이 - 지도
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=MNPr9bSkzLg
+    desc: 지도의 의미를 알아봅시다. 지도는 어떤 모습이고, 어떻게 활용될까요? 지도의 특징도 정리해 봅시다.
+    channel: 대구미래교육연구원
+  - key: v7
+    stage: 지도
+    title: 실생활에서 쓰는 지도어플! 지도는 어떻게 만들어질까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=A_UzsVEBMek
+    desc: 항공사진을 바탕으로 한 지도 어플이 만들어지는 과정을 다룬 영상
+    channel: 국토교통부
+  - key: v8
+    stage: 지도
+    title: 조선을 한 손에 담다
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=2oMOrXkG-gs
+    desc: 조선 시대에 제작된 지도를 가볍게 소개하는 영상
+    channel: 국가유산채널(K-Heritage Channel)
+  - key: v9
+    stage: 지도
+    title: 대구 맷돼지 출몰 지도
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=8BLUrs6u3Vo
+    desc: 대구광역시 지도의 다양한 활용 사례를 알 수 있는 영상
+    channel: LG헬로비전 대구경북
+  - key: v10
+    stage: 지도
+    title: 대구 지도가 바뀌는 이유
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=SeMGPR3iOjA
+    desc: 대구광역시 지도의 변화를 다룬 영상으로 행정구역이 변하면 지도도 변함을 알 수 있는 영상
+    channel: 크랩 KLAB
+  - key: v11
+    stage: 지도
+    title: 대구 도시생태의 특징
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=yd56792X7Xg
+    desc: 대구광역시의 생태에 대한 간략한 설명과 생태지도를 소개하는 영상. 지도의 다양한 활용 사례를 확인할 수 있는 영상
+    channel: 대구MBC Program
+  - key: v12
+    stage: 지도
+    title: 간단하고 활용성 좋은 대구3D지도
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=7tBvdcI0W8U
+    desc: 대구3D지도를 소개하는 영상으로서 우리 지역을 나타낸 다양한 지도 사례를 확인할 수 있는 영상
+    channel: 대구TV┃대구광역시 공식 유튜브
+  - key: v13
+    stage: 지도
+    title: 대구 폭염 지도
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=E_uyWvC94jY
+    desc: 대구 폭염 취약 지도를 다룬 영상으로 우리 지역을 나타낸 다양한 지도 사례를 확인할 수 있는 영상
+    channel: TBC뉴스
+  - key: v2
+    stage: 방위
+    title: 사회 용어 풀이 - 방위
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=8YIr-toLxPA
+    desc: 4학년 수준에 맞게 방위의 뜻과 전반적인 정보를 다루는 영상
+    channel: 대구미래교육연구원
+  - key: v3
+    stage: 기호
+    title: 사회 용어 풀이 - 기호
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=O1cIsnVMzlc
+    desc: 4학년 수준에 맞게 기호의 뜻과 전반적인 정보를 다루는 영상
+    channel: 대구미래교육연구원
+  - key: v4
+    stage: 범례
+    title: 사회 용어 풀이 - 범례
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=TfFLL2L9skw
+    desc: 4학년 수준에 맞게 범례의 뜻과 전반적인 정보를 다루는 영상
+    channel: 대구미래교육연구원
+  - key: v5
+    stage: 축척
+    title: 사회 용어 풀이 - 축척
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HSToYlba8j8
+    desc: 4학년 수준에 맞게 축척의 뜻과 전반적인 정보를 다루는 영상
+    channel: 대구미래교육연구원
+  - key: v6
+    stage: 등고선
+    title: 사회 용어 풀이 - 등고선
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=acj_xUmEsf8
+    desc: 4학년 수준에 맞게 등고선의 뜻과 전반적인 정보를 다루는 영상
+    channel: 대구미래교육연구원
+quiz:
+  - statement: 지도는 땅의 모습을 위에서 내려다본 것처럼 작게 줄여서 나타낸 것이다.
+    answer: O
+    explain: 지도는 실제 땅의 모습을 위에서 본 것처럼 줄여서 그린 그림이다.
+  - statement: 방위는 동, 서, 남, 북처럼 방향을 나타낸다.
+    answer: O
+    explain: 방위는 동·서·남·북과 같은 방향을 가리키는 것이다.
+  - statement: 지도에서 학교나 우체국 같은 장소는 약속된 기호로 나타낸다.
+    answer: O
+    explain: 기호는 땅에 있는 것을 지도에 간단하게 나타낸 약속된 표시이다.
+  - statement: 범례는 지도에 쓰인 기호가 무엇을 뜻하는지 알려 준다.
+    answer: O
+    explain: 범례는 기호의 뜻을 설명해 놓은 표이다.
+  - statement: 축척은 땅의 높낮이를 나타내는 선이다.
+    answer: X
+    explain: 땅의 높낮이를 나타내는 것은 등고선이고, 축척은 실제 거리를 얼마나 줄였는지를 나타낸다.
+  - statement: 등고선은 높이가 서로 다른 곳을 이어서 그린 선이다.
+    answer: X
+    explain: 등고선은 높이가 같은 곳을 이어서 그린 선이다.
+  - statement: 지도를 이용하면 우리 지역의 모습과 정보를 알 수 있다.
+    answer: O
+    explain: 지도를 보면 우리 지역의 모습과 여러 정보를 한눈에 파악할 수 있다.

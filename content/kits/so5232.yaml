@@ -1,0 +1,192 @@
+id: so5232
+title: 3-2. 8·15 광복과 6·25 전쟁
+grade: 5
+sem: 2학기
+subject: 사회
+unit: 3. 식민 통치와 저항, 전쟁이 바꾼 사회와 생활
+unit_no: 3
+flow: activity
+sort_order: 2
+published: true
+intro:
+  core_idea: 각 시대의 생활 모습은 사회 체제의 특징과 그것이 가져온 사회⋅문화적 변화를 반영한다.
+  core_question: 서로 다른 체제와 분단의 아픔이 남아있는 장소를 어떻게 평화의 공간으로 변화시킬 수 있으며, 이를 위해 우리는 무엇을 할 수 있을까?
+  concepts:
+    - term: 공간과 장소
+    - term: 변화
+    - term: 체제
+    - term: 생활 모습
+    - term: 문화
+    - term: 사건
+    - term: 분단
+    - term: 평화 통일
+  standards:
+    - code: "[6사07-01]"
+      text: 분단으로 나타난 문제점과 분단과 관련된 장소를 평화의 장소로 만들려는 노력 등을 알아보고, 평화 통일을 위해 우리가 할 수 있는 일을 탐색한다.
+stages:
+  - name: 생각열기
+    question: 8·15 광복을 맞은 사람들의 마음은 어땠을까?
+  - name: 탐구하기1
+    question: 8·15 광복의 의미와 광복이 사회와 생활에 끼친 영향은 무엇일까?
+  - name: 탐구하기2
+    question: 6·25 전쟁은 어떻게 전개되었으며 사회와 생활에 끼친 영향은 무엇일까?
+  - name: 확장하기
+    question: 정부는 왜 80년이 지난 지금, 웅장한 환영식을 열었을까?
+items:
+  - key: v01
+    stage: 생각열기
+    title: 해방 당시 모습은 어땠을까?
+    url: https://www.youtube.com/watch?v=SNJmg1oPfRM
+    desc: 해방 당시 국민들의 실제 모습을 알아봄.
+    channel: " YTN"
+  - key: v02
+    stage: 생각열기
+    title: 6.25와 국립박물관 - 문화재를 지켜라!
+    url: https://www.youtube.com/watch?v=8OrvRhpeW6s
+    desc: 6.25전쟁 당시 우리의 문화재들을 지키고자 한 노력에 대해 알아봄.
+    embed: false
+    status: 임베드차단
+  - key: v03
+    stage: 탐구하기1
+    title: 광복은 어떻게 되었을까?
+    url: https://www.youtube.com/watch?v=EX4zSekqkd4
+    desc: 광복 당시의 모습을 통해 광복의 과정을 이해함.
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v04
+    stage: 탐구하기1
+    title: 광복절의 의미
+    url: https://www.youtube.com/watch?v=HiBw7oO3Ffc
+    desc: 광복절의 의미를 되새기며 광복의 상황을 이해함.
+    channel: 대구미래교육연구원
+  - key: v05
+    stage: 탐구하기1
+    title: 광복 이후 대한민국은 어떻게 되었을까?
+    url: https://www.youtube.com/watch?v=vNBoZcpwDns
+    desc: 광복 이후 국내 정세를 탐구함.
+    channel: 공부방찐천재
+  - key: v06
+    stage: 탐구하기1
+    title: 대한민국 임시정부 요인들의 환국 과정과 그 역사적 의의
+    url: https://www.youtube.com/watch?v=1zC4NAqoxLM
+    desc: 광복 후 대한민국 임시정부 요인들의 환국 과정과 그 역사적 의의를 알아봄.
+    channel: 광복회TV
+  - key: v07
+    stage: 탐구하기1
+    title: 미국은 왜 한국을 신탁통치 하려고 했을까?
+    url: https://www.youtube.com/watch?v=fW3Gd3WGo7A
+    desc: 신탁 통치에 대한 사람들의 의견을 비교함.
+    channel: KBS 히스토리
+  - key: v08
+    stage: 탐구하기1
+    title: 좌, 우로 갈라진 대한민국
+    url: https://www.youtube.com/watch?v=RrHwd5Ve0Nw
+    desc: 광복 이후 이념에 따라 좌우로 갈라지게 된 배경에 대해 알아봄.
+    channel: KBS 히스토리
+  - key: v09
+    stage: 탐구하기1
+    title: 모스크바 3국 외상회의
+    url: https://www.youtube.com/watch?v=c_sdVVSlxTU
+    desc: 모스크바 3국 외상회의에 대한 이야기를 통해 통일 정부 수립의 어려움을 탐구함.
+    channel: 교양 Voyage
+  - key: v10
+    stage: 탐구하기1
+    title: 대한민국? 누가 정했지?
+    url: https://www.youtube.com/watch?v=UaDhmaapFtg
+    desc: 대한민국 정부 수립 과정을 정리함.
+    channel: 밀크티타임
+  - key: v11
+    stage: 탐구하기1
+    title: 5·10 총선거는 어떻게 이루어졌는가?
+    url: https://www.youtube.com/watch?v=-mk1iMYbyYE
+    desc: 5.10총선거 과정 및 대한민국 정부 수립 과정을 이해함.
+    channel: 최태성 2TV
+  - key: v12
+    stage: 탐구하기1
+    title: 영상으로 보는 5·10 총선거
+    url: https://www.youtube.com/watch?v=QLOz_HWvcO8
+    desc: 5.10 총선거 실제 영상을 보고 선거 과정을 이해함.
+    channel: KBS News
+  - key: v13
+    stage: 탐구하기1
+    title: 김구와 이승만은 어떤 관계였을까?
+    url: https://www.youtube.com/watch?v=p7N_wiCDZBc
+    desc: 김구와 이승만의 입장을 살펴보고 시대 상황을 짐작함.
+    channel: KBS 히스토리
+  - key: v14
+    stage: 탐구하기1
+    title: 대한민국 최초의 민주선거
+    url: https://www.youtube.com/watch?v=SWL7kTASK9U
+    desc: 제헌 국회의원 선거의 과정과 의의를 탐구함.
+    channel: 교양 Voyage
+  - key: v15
+    stage: 탐구하기2
+    title: 6·25 전쟁은 어떤 과정으로 전개되었을까?
+    url: https://www.youtube.com/watch?v=OawPpXGztlU
+    desc: 6.25 전쟁의 전개 과정을 이해함.
+    channel: 쏨작가의지식사전
+  - key: v16
+    stage: 탐구하기2
+    title: 성공확률 5분의 1, 인천 상륙 작전
+    url: https://www.youtube.com/watch?v=-RJXyxAC-5w
+    desc: 인천 상륙 작전의 과정을 통해 6.25 전쟁의 전개 과정을 이해함.
+    channel: KBS 히스토리
+  - key: v17
+    stage: 탐구하기2
+    title: 불가능은 없다! 맥아더 장군
+    url: https://www.youtube.com/watch?v=r7DhpD6-3Mc
+    desc: 맥아더 장군의 인물 탐구를 통해 6.25 전쟁의 전개 과정을 이해함.
+    channel: KFN
+  - key: v18
+    stage: 탐구하기2
+    title: 6·25 전쟁 당시는 실제 어떤 모습이었을까?
+    url: https://www.youtube.com/watch?v=pLDkfZ8s8Ew
+    desc: 6.25전쟁의 실제 영상을 보며 전쟁의 참혹함 및 영향을 탐구함.
+    start: 117
+    channel: YTN 사이언스
+  - key: v19
+    stage: 탐구하기2
+    title: 6·25 전쟁이 남긴 상처, 전쟁고아
+    url: https://www.youtube.com/watch?v=kZaq-x-tUlo
+    desc: 6.25전쟁의 아픔과 전쟁고아에 대해 이해함.
+    channel: 국가보훈부
+  - key: v20
+    stage: 탐구하기2
+    title: 6·25 전쟁, 잊을 수 없는 상처
+    url: https://www.youtube.com/watch?v=-ECci4sNuYc
+    desc: 6.25전쟁의 결과와 아픔에 대해 이해함.
+    start: 502
+    channel: EBS Learning
+  - key: v21
+    stage: 확장하기
+    title: 임시정부 요인 환국 재현
+    url: https://www.youtube.com/watch?v=00hNMcmdYJM
+    desc: 대한민국 임시정부 요인들의 귀환(환국)을 재현하는 행사의 의의에 대해 알아봄.
+    channel: " YTN"
+  - key: v22
+    stage: 확장하기
+    title: 광복 80주년, 다시 찾은 얼굴들
+    url: https://www.youtube.com/watch?v=f7FwY3Kx0Qk
+    desc: 조국의 독립을 보지 못하고 순국한 안중근, 유관순, 이봉창, 윤봉길, 안창호 등 다섯 분의 독립운동가 얼굴을 인공지능(AI) 기술로 복원함.
+    channel: 국립중앙박물관
+quiz:
+  - statement: 8·15 광복은 우리 민족이 일제의 식민 통치에서 벗어난 사건이다.
+    answer: O
+    explain: 1945년 8월 15일 일본의 패전으로 우리나라는 광복을 맞았다.
+  - statement: 광복 직후 남과 북에는 서로 다른 정부가 세워지며 분단이 굳어졌다.
+    answer: O
+    explain: 냉전과 국내외 갈등 속에서 1948년 남북에 별도의 정부가 수립되었다.
+  - statement: 6·25 전쟁은 분단 문제를 완전히 해결하고 한반도에 평화를 가져왔다.
+    answer: X
+    explain: 전쟁은 큰 피해를 남겼고 정전 뒤에도 분단은 계속되고 있다.
+  - statement: 6·25 전쟁으로 많은 사람이 목숨과 삶의 터전을 잃고 가족과 헤어졌다.
+    answer: O
+    explain: 전쟁은 이산가족, 피란, 시설 파괴 등 큰 고통을 남겼다.
+  - statement: 정전 협정은 전쟁을 완전히 끝내는 평화 조약과 같다.
+    answer: X
+    explain: 정전은 전투를 멈춘 상태이며 평화 체제가 완성된 것은 아니다.
+  - statement: 분단과 관련된 장소를 평화의 공간으로 바꾸려는 노력은 평화 통일에 도움이 된다.
+    answer: O
+    explain: 기억과 대화, 협력의 공간은 갈등을 줄이고 평화의 가치를 알릴 수 있다.
+  - statement: 평화 통일을 위해 어린이는 할 수 있는 일이 전혀 없다.
+    answer: X
+    explain: 서로를 존중하고 평화와 통일 문제를 배우며 교류와 협력을 지지할 수 있다.

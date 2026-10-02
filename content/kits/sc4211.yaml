@@ -1,0 +1,195 @@
+id: sc4211
+title: 1. 밤하늘 관찰
+grade: 4
+sem: 2학기
+subject: 과학
+unit: 밤하늘 관찰
+unit_no: 1
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 달의 모양과 표면, 달의 위상 변화 관찰, 태양계를 구성하고 있는 천체들, 별의 정의와 북극성 주변의 별자리를 관찰하는 방법을 알아보고 직접 밤하늘을 관찰하는 내용으로 구성되어 있습니다.
+  core_question: 밤하늘의 달과 별, 태양계는 어떤 모습이며, 우리는 그것을 어떻게 관찰할 수 있을까?
+  concepts:
+    - term: 태양계
+      def: 태양과 그 둘레를 도는 행성, 달, 별똥별 등 여러 천체가 모여 이루는 무리예요. 우리가 사는 지구도 태양계 안에 있어요.
+    - term: 태양
+      def: 태양계의 중심에서 스스로 빛과 열을 내는 큰 별이에요. 태양 덕분에 지구가 따뜻하고 밝아져요.
+    - term: 행성
+      def: 태양 둘레를 일정한 길을 따라 도는 천체예요. 스스로 빛을 내지 못하고 태양 빛을 받아 보여요. 지구도 행성 가운데 하나예요.
+    - term: 별
+      def: 태양처럼 스스로 빛을 내는 천체예요. 밤하늘에서 반짝이는 별빛은 아주 멀리 있는 별이 스스로 내는 빛이에요.
+    - term: 별자리
+      def: 밤하늘의 별들을 이어서 동물이나 사물 모양으로 이름 붙인 것이에요. 별의 위치를 찾고 기억하는 데 도움을 줘요.
+    - term: 북극성
+      def: 밤하늘에서 거의 한자리에 멈춰 있는 것처럼 보이는 별이에요. 북쪽 방향을 알려 주어 길을 찾을 때 쓸 수 있어요.
+    - term: 달
+      def: 지구 둘레를 도는 천체로, 밤하늘에서 가장 밝고 크게 보여요. 스스로 빛을 내지 못하고 태양 빛을 받아 빛나요.
+    - term: 달의 위상변화
+      def: 날마다 달의 모양이 초승달, 반달, 보름달처럼 조금씩 달라져 보이는 것이에요. 달과 지구, 태양의 위치 관계 때문에 생겨요.
+  standards:
+    - code: "[4과13-01]"
+      text: 달의 모양과 표면, 달의 위상변화를 관찰하여 밤하늘 관찰에 흥미를 가질 수 있다.
+    - code: "[4과13-02]"
+      text: 태양계 구성원을 알고, 태양과 행성을 조사할 수 있다.
+    - code: "[4과13-03]"
+      text: 별의 정의를 알고, 북극성 주변의 별자리를 관찰할 수 있다.
+stages:
+  - 태양계
+  - 태양
+  - 행성
+  - 별
+  - 별자리
+  - 북극성
+  - 달
+  - 달의 위상변화
+items:
+  - key: v1
+    stage: 태양계
+    title: 만약 태양계에서 행성 하나가 사라진다면?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=RawChGDK170
+    desc: 태양계에서 행성이 사라진다면, 다른 행성의 궤도, 태양계 균형이 깨짐, 소행성을 막아주지 못함 등 이다.
+    channel: 밝은 면 Bright Side Korea
+  - key: v2
+    stage: 태양계
+    title: 우주박물관에서 알아보는 태양계의 8가지 행성
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Eyvy_dCZH2A
+    desc: 태양계의 8가지 행성과 우주탐사의 역사 알아보기, 태양계의 행성은 수성, 금성, 지구, 화성, 목성, 토성, 천왕성, 해왕성으로 구성됨.
+    channel: 유라야놀자(Let's play YURA)
+  - key: v3
+    stage: 태양계
+    title: 태양계는 무엇일까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Epwt-j0ASpo
+    desc: 태양계의 의미와 구성 전체 이해하기, 태양계란 태양의 영향을 받는 천체, 그리고 이들이 있는 공간
+    channel: 쉬운우주
+  - key: v4
+    stage: 태양
+    title: 태양에 대한 재미있는 사실들
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=SRl_JRZtye8
+    desc: 태양에 대한 배경 지식 영상으로, 태양의 나이는 약 46억년, 수명은 약 100억년, 표면 온도는 약 6,000 캘빈 등 이다.
+    channel: 우주아저씨
+  - key: v5
+    stage: 태양
+    title: 생명의 어머니 태양은 도대체 어떻게 탄생된걸까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=bi3pBwXaNpU
+    desc: 태양의 탄생에 대한 배경 지식 영상으로, 성간 물질이 성운이 되고 성운이 원시성이 된 후, 핵융합 반응으로 탄생했다.
+    channel: "리뷰엉이: Owl's Review"
+  - key: v6
+    stage: 행성
+    title: 태양계 행성의 크기는?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1tcCKVKS92k
+    desc: 태양계 행성들의 실제 크기 비교, 목성이 가장 크고 토성, 천왕성, 해왕성, 지구, 금성, 화성, 수성 순서
+    channel: Algol
+  - key: v7
+    stage: 별
+    title: 지구는 왜 별이 아닌가요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=TFRuWJOuaW8
+    desc: 지구와 별의 차이(항성과 행성), 별은 강한 빛과 에너지를 방출하는 천체, 행성은 스스로 빛을 내지 못하고 별 주위를 도는 천체
+    channel: 3분차이
+  - key: v8
+    stage: 별
+    title: 밤하늘에 밝게 빛나는 건 별일까? 인공위성일까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=hjfJC6gfd5E
+    desc: 밤하늘 밝게 빛나는 것의 정체, 인공위성은 스스로 빛을 내지 못하고 작으며, 빠르기 때문에 맨눈으로 밝게 보이지 않음
+    channel: 크랩 KLAB
+  - key: v9
+    stage: 별자리
+    title: 일년 내내, 밤새도록 볼 수 있는 별!
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=r2pyGp46pPI
+    desc: 일년 내내 관찰 가능한 북쪽 하늘 별자리, 북극성 주변 큰곰자리, 작은곰자리, 카시오페이아 자리 등
+    channel: YTN 사이언스 투데이
+  - key: v10
+    stage: 별자리
+    title: 별자리의 종류와 유래
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=dy13IeK8nvo
+    desc: 별자리의 종류와 유래에 대한 영상으로, 밤하늘의 별을 보고 특정 패턴을 발견하고 동물이나 신화 속 인물에 비유하며 만들어짐
+    channel: 한국천문연구원(KASI)
+  - key: v11
+    stage: 북극성
+    title: 북극성과 북두칠성은 어떤 별일까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Uj06yjGkZ6Y
+    desc: 북극성과 북두칠성에 대한 영상, 북극성은 지구 회전축에 아주 가까이 있고 434광년 떨어져있음.
+    channel: 전파과학사 Science Wave
+  - key: v12
+    stage: 북극성
+    title: 북극성은 정말 한자리에 멈춰있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=sKwFpA1L8Ww
+    desc: 실제 북극성의 모습 관찰 영상으로. 매우 조금씩 궤도가 바뀌는 것을 볼 수 있음.
+    channel: 나쫌NaZZom
+  - key: v13
+    stage: 달
+    title: 달은 어떻게 만들어 졌을까?
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=gBxLVEVly90
+    desc: 달의 생성 과정과 달에 대한 배경지식 영상, 달과 지구와의 평균 거리는 약 385000km, 지름은 1/4, 부피는 1/50이다.
+    channel: EBS 컬렉션 - 사이언스
+  - key: v14
+    stage: 달
+    title: 24분만에 달 박사되기
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=XFqBuCNFX0U
+    desc: 달과 관련한 여러가지 과학적 지식 이야기 영상
+    channel: 교양 Voyage
+  - key: v15
+    stage: 달
+    title: 달의 표면은 어떻게 생겼을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=D3amJnG7Kyc
+    desc: 달 표면 초 고화질 영상으로, 달 표면의 밝은 부분과 어두운 부분, 크레이터 등을 관찰할 수 있음.
+    channel: 나쫌NaZZom
+  - key: v16
+    stage: 달의 위상변화
+    title: 달의 위상변화 알아보기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=68oEXknFurE
+    desc: 달의 위상변화를 그림으로 쉽게 알아보는 영상
+    channel: 쉬운우주
+  - key: v17
+    stage: 달의 위상변화
+    title: 달의 위상변화 그래픽
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=C_bjcBGgTxw
+    desc: 지구와 달, 태양의 위치 변화에 따른 달의 모습 변화 영상
+    channel: SurferToday
+  - key: v18
+    stage: 달의 위상변화
+    title: 실제 달의 위상변화 모습
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=wq5FKWEkhVs
+    desc: 실제 달의 위상변화 모습 영상
+    channel: Ahn안병길 (Gil Ahn)
+quiz:
+  - statement: 태양은 스스로 빛과 열을 내는 별이다.
+    answer: O
+    explain: 태양은 스스로 빛을 내는 별로 태양계의 중심에 있어요.
+  - statement: 지구는 스스로 빛을 내는 별이다.
+    answer: X
+    explain: 지구는 스스로 빛을 내지 못하고 태양 빛을 받는 행성이에요.
+  - statement: 행성은 태양 둘레를 돌며 스스로 빛을 내지 못한다.
+    answer: O
+    explain: 행성은 태양 빛을 받아 보이는 천체로 스스로 빛을 내지 못해요.
+  - statement: 달은 지구 둘레를 도는 천체이다.
+    answer: O
+    explain: 달은 지구 둘레를 도는 천체로 밤하늘에서 밝게 보여요.
+  - statement: 달은 항상 똑같은 모양으로만 보인다.
+    answer: X
+    explain: 달은 초승달, 반달, 보름달처럼 모양이 바뀌는 위상변화가 나타나요.
+  - statement: 북극성은 북쪽 방향을 찾는 데 도움을 주는 별이다.
+    answer: O
+    explain: 북극성은 거의 한자리에 있어 북쪽 방향을 알려 줘요.
+  - statement: 별자리는 별들의 실제 무게를 재서 만든 것이다.
+    answer: X
+    explain: 별자리는 별들을 이어 모양과 이름을 붙인 것으로 무게와는 관계가 없어요.
