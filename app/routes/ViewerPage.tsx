@@ -184,6 +184,8 @@ export default function ViewerPage() {
                   return d ? <div style={{ marginTop: 5, fontSize: 13.5, fontWeight: 500, color: "var(--color-slate-600)", lineHeight: 1.55 }}>{hi(d, hl)}</div> : null;
                 })()}
                 {sel?.item.type === "video" && sel.item.caption && <div style={{ marginTop: 3, fontSize: 11.5, fontWeight: 500, color: "var(--color-slate-400)" }}>{sel.item.caption}</div>}
+                {/* 출처 — 영상을 올린 유튜브 채널(npm run videos가 기록). 교사가 자료의 신뢰를 판단하는 단서. */}
+                {sel?.item.type === "video" && sel.item.channel && <div style={{ marginTop: 4, fontSize: 11.5, fontWeight: 600, color: "var(--color-slate-400)" }}>출처 · {sel.item.channel} (YouTube)</div>}
               </div>
             </div>
           </div>
