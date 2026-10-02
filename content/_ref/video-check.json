@@ -1,12 +1,13 @@
 {
  "date": "2026-10-02",
- "mode": "oEmbed(키 없음 — 연령제한·국내차단 판정 못 함)",
+ "mode": "YouTube Data API",
  "videos": 1446,
- "problems": 14,
+ "problems": 15,
  "counts": {
-  "임베드차단": 14
+  "임베드차단": 14,
+  "국내차단": 1
  },
- "seconds": 16,
+ "seconds": 9,
  "list": [
   {
    "kit": "sc3131",
@@ -73,6 +74,12 @@
    "key": "v11",
    "verdict": "임베드차단",
    "url": "https://www.youtube.com/watch?v=v71G39yFFKg"
+  },
+  {
+   "kit": "so5213",
+   "key": "v10",
+   "verdict": "국내차단",
+   "url": "https://www.youtube.com/watch?v=PYFVq8dUjUs"
   },
   {
    "kit": "so5232",

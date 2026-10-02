@@ -90,6 +90,7 @@ items:
     url: https://www.youtube.com/watch?v=PYFVq8dUjUs
     desc: 고려의 불교문화 특징과 대표 행사를 탐구함.
     channel: EBS BOOK STORY
+    status: 국내차단
   - key: v11
     stage: 탐구하기2
     title: 고려는 불심을 어떻게 그림으로 나타냈을까?

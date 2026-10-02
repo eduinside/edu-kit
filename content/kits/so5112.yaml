@@ -46,6 +46,7 @@ items:
     end: 240
     embed: false
     status: 임베드차단
+    channel: 한국관광공사TV
   - key: v3
     stage: 독도
     title: 독도의 날
@@ -82,6 +83,7 @@ items:
     desc: 독도를 찾는 여러 새들 이야기
     embed: false
     status: 임베드차단
+    channel: 보물섬독도TV
   - key: v8
     stage: 독도의 자연환경
     title: 독도천연보호구역

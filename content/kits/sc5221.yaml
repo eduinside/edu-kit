@@ -81,6 +81,7 @@ items:
     desc: 찬 이슬이 맺히고 서리로 변하는 절기 한로의 의미
     embed: false
     status: 임베드차단
+    channel: KTV 정책 K
   - key: v08
     stage: 탐구하기2
     title: 안개가 잘 생기는 계절과 그 이유
@@ -100,6 +101,7 @@ items:
     desc: 구름이 만들어지는 과정과 안개와의 차이점
     embed: false
     status: 임베드차단
+    channel: 대한민국 기상청
   - key: v11
     stage: 탐구하기2
     title: 안개와 구름이 흰색으로 보이는 이유는?

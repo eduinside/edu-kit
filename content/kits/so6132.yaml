@@ -55,6 +55,7 @@ items:
     desc: 아프리카 대륙의 국경선이 반듯한 이유를 역사적 관점에서 살펴보는 데 활용
     embed: false
     status: 임베드차단
+    channel: 사건탐구 과거탐구 STGT
   - key: v5
     stage: 대륙과 대양
     title: 오세아니아 여행

@@ -88,6 +88,7 @@ items:
     desc: 짐을 옮길 때 썼던 지게
     embed: false
     status: 임베드차단
+    channel: 국립민속박물관
   - key: v5
     stage: 과거의 교통수단
     title: 인력거

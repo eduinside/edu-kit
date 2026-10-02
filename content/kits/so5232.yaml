@@ -46,6 +46,7 @@ items:
     desc: 6.25전쟁 당시 우리의 문화재들을 지키고자 한 노력에 대해 알아봄.
     embed: false
     status: 임베드차단
+    channel: 국립중앙박물관
   - key: v03
     stage: 탐구하기1
     title: 광복은 어떻게 되었을까?

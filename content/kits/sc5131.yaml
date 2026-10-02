@@ -103,6 +103,7 @@ items:
     desc: 무지개 물탑 쌓기(한국화학연구원)
     embed: false
     status: 임베드차단
+    channel: ScienceGraphic.net과학기술영상
   - key: v14
     stage: 용액의 진하기
     title: 무지개 설탕물 탑을 쌓아보자!
@@ -132,6 +133,7 @@ items:
     desc: <과학동화-돌멩이로 만든 수프> 보고 용해와 용액 알아보기
     embed: false
     status: 임베드차단
+    channel: 도서출판성우&성우주니어
   - key: v9
     stage: 녹는 양
     title: 각설탕, 물에 넣어도 안 녹는다?
@@ -147,6 +149,7 @@ items:
     desc: 물의 온도에 따라 용질이 용해되는 양
     embed: false
     status: 임베드차단
+    channel: 과학-내 손안의 뉴트로 물체주머니
 quiz:
   - statement: 설탕이 물에 녹아 골고루 섞이는 것을 용해라고 한다.
     answer: O

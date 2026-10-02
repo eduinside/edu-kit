@@ -150,6 +150,7 @@ items:
     desc: 고싸움놀이와 차전놀이 모습 소개
     embed: false
     status: 임베드차단
+    channel: Korea UHD Showcase
   - key: v18
     stage: 놀이
     title: 강강술래를 대보름에 춘 이유

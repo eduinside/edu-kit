@@ -143,6 +143,7 @@ items:
     desc: 낙우송의 미스터리 해결
     embed: false
     status: 임베드차단
+    channel: KBS 다큐
   - key: v14
     stage: 사막에 사는 식물
     title: 사막에도 식물이 살까?
