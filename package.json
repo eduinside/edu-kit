@@ -8,6 +8,7 @@
     "check": "tsx scripts/check.ts",
     "videos": "tsx scripts/videos.ts",
     "report": "tsx scripts/report.ts",
+    "changes": "tsx scripts/changes.ts",
     "seed:stats": "tsx scripts/seed-stats.ts",
     "og": "python scripts/gen-og.py",
     "predev": "npm run data",
