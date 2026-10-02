@@ -7,7 +7,7 @@
 ## 명령
 - `npm run check` — 발행 전 점검(오류 0이어야 발행). 꾸러미 지정: `npm run check -- so5121`
 - `npm run report` — 변경 보고서(작업본 ↔ origin/main) — 발행 전 운영자에게 보인다
-- `npm run videos` — 영상 점검(`YT_API_KEY` 있으면 Data API, 없으면 oEmbed) → YAML의 `channel`·`status`
+- `npm run videos` — 영상 점검(`.env`의 `YT_API_KEY` 있으면 Data API, 없으면 oEmbed) → YAML의 `channel`·`status`
 - `npm run data` — YAML → `data/*.json`(predev·prebuild가 자동)
 - `npm run og` — 공유 카드(새 꾸러미·제목 변경 때만, 같은 커밋에)
 - `npm run dev` / `npm run build` / `npm run typecheck`

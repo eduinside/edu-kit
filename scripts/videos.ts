@@ -17,6 +17,8 @@ type Verdict = "정상" | "삭제·비공개" | "비공개" | "연령제한" | "
 interface Result { verdict: Verdict; channel?: string; detail?: string }
 
 const REGION = "KR";
+// 키는 저장소 밖에 둔다: edu-kit/.env(.gitignore 대상)에 YT_API_KEY=… 한 줄. 환경 변수가 있으면 그쪽이 먼저.
+try { process.loadEnvFile(resolve(ROOT, ".env")); } catch { /* .env 없음 → oEmbed */ }
 const KEY = process.env.YT_API_KEY?.trim();
 const today = new Date().toISOString().slice(0, 10);
 
