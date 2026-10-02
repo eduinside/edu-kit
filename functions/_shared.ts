@@ -3,7 +3,7 @@
 
 // D1의 사용 부분집합만 구조적으로 선언(@cloudflare/workers-types 의존 회피).
 export interface D1Result {
-  meta: { changes: number };
+  meta: { changes: number; last_row_id?: number };
 }
 export interface D1Stmt {
   bind(...values: unknown[]): D1Stmt;

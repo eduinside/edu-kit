@@ -18,7 +18,7 @@
 |---|---|
 | `npm run check` | 발행 전 점검(§4). 꾸러미만 보려면 `npm run check -- so5121 sc5111`. 오류가 있으면 종료 코드 1 |
 | `npm run report` | 변경 보고서 — 작업본을 `origin/main`과 꾸러미별로 비교. 기준을 바꾸려면 `npm run report -- <커밋>` |
-| `npm run videos` | 영상 점검(§3-4). 결과를 YAML의 `channel`·`status`에 적는다 |
+| `npm run videos` | 영상 점검(§3-4). 결과를 YAML의 `channel`·`status`에 적는다. 꾸러미만: `npm run videos -- so4111` |
 | `npm run changes -- <기준> <이름> [사유.json]` | **변경 문서** — 기준 커밋과 지금을 비교해 `docs/changes/<이름>.md`(요약)·`.csv`(전체 행, 엑셀용)를 만든다. 큰 정리·협업 반영을 배포할 때 같은 커밋에 넣는다 |
 | `npm run data` | YAML → `data/*.json`(빌드·개발 서버가 자동으로 돌림). 형식 오류가 있으면 실패 |
 | `npm run og` | 꾸러미 공유 카드(`public/og/<id>.png`). **새 꾸러미·제목 변경 때만**, 결과를 같은 커밋에 |
@@ -133,6 +133,28 @@ quiz:                      # 개념 확인 OX — 단원당 5~8개 권장, 화�
 7. 브랜치를 push한다. Pages가 미리보기 주소 `https://<브랜치>.edu-kit-br4.pages.dev`를 만든다. 이 주소는 확인용이며 정본 주소가 아니다.
 8. 운영자가 미리보기에서 표본 단원을 연다. 확인이 끝나면 `main`에 병합하고, `kit.dgedu.link`에 자동으로 배포된다.
 9. 배포 뒤 표본 단원 1~2개를 실제 사이트에서 연다.
+
+### 3-7. 신고 처리("수업꾸러미 신고 확인해 줘")
+영상 화면의 「문제 알리기」가 D1 `edukit_reports`에 쌓이고, 운영자 메일로 알림이 온다(하루 상한 `REPORT_EMAIL_DAILY_CAP`, 기본 20통). 계획: [FEATURE_PLAN_report.md](FEATURE_PLAN_report.md).
+
+1. 읽기(묻지 않고 해도 된다):
+   ```bash
+   npx wrangler d1 execute edu-link-db --remote --json --command "SELECT id,kit_id,item_key,reason,note,item_title,video_id,created_at FROM edukit_reports WHERE status='new' ORDER BY id"
+   ```
+2. 진단(묻지 않고 해도 된다):
+   - 해당 꾸러미를 `npm run videos -- <id>`로 다시 점검한다(실행 기록은 안 남는다).
+   - 영상을 직접 열어 본다.
+3. **처리 전에 운영자에게 묻는다.** 건마다 다음을 보인다:
+   - 신고 요약
+   - 진단(실제 문제인지, 이미 고친 것인지)
+   - 제안: 교체 · 빼기 · `embed: false` · 문제없음
+4. 승인받은 건만 진행한다:
+   - §3-5대로 꾸러미를 고쳐 발행한다.
+   - D1에 처리 결과를 적는다:
+     ```bash
+     npx wrangler d1 execute edu-link-db --remote --command "UPDATE edukit_reports SET status='resolved', resolution='<무엇을 했는지>' WHERE id IN (<id들>)"
+     ```
+   - 문제없음이나 장난 신고는 `status='rejected'`로 적는다.
 
 ### 3-6. 되돌리기
 - `main`에서 문제 커밋을 `git revert`하고 push한다. Pages가 자동으로 다시 배포한다.

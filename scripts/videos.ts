@@ -23,7 +23,9 @@ const KEY = process.env.YT_API_KEY?.trim();
 const today = new Date().toISOString().slice(0, 10);
 
 // ── 대상 모으기
-const files = readdirSync(KITS_DIR).filter((f) => f.endsWith(".yaml")).sort();
+// 꾸러미를 지정하면(npm run videos -- so4111 sc5121) 그 꾸러미만 점검한다 — 신고 처리 등. 이때 실행 기록은 남기지 않는다.
+const only = new Set(process.argv.slice(2).filter((a) => !a.startsWith("-")));
+const files = readdirSync(KITS_DIR).filter((f) => f.endsWith(".yaml") && (!only.size || only.has(f.replace(/\.yaml$/, "")))).sort();
 const docs = files.map((f) => ({ f, doc: YAML.parseDocument(readFileSync(resolve(KITS_DIR, f), "utf8")) }));
 const ids = new Set<string>();
 for (const { doc } of docs) {
@@ -117,7 +119,8 @@ const log = {
   seconds: Math.round((Date.now() - started) / 1000),
   list: problems,
 };
-writeFileSync(resolve(ROOT, "content/_ref/video-check.json"), JSON.stringify(log, null, 1) + "\n");
+if (!only.size) writeFileSync(resolve(ROOT, "content/_ref/video-check.json"), JSON.stringify(log, null, 1) + "\n");
+else for (const p of problems) console.log(`  · ${p.kit}/${p.key} ${p.verdict}${p.detail ? ` (${p.detail})` : ""}`);
 
 console.log(`영상 점검 ${today} · ${log.mode}`);
 console.log(`  고유 영상 ${ids.size} · 문제 ${problems.length} ${JSON.stringify(counts)} · ${log.seconds}초`);

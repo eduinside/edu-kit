@@ -5,11 +5,13 @@ interface Props {
   onClose: () => void;
   labelledBy?: string;
   align?: "center" | "top"; // top: 상단 고정(검색 — 결과가 아래로 확장)
+  maxWidth?: number; // 기본 780
+
   children: ReactNode;
 }
 
 /** 접근성 모달: scrim, Esc 닫기, 포커스 진입/복귀, 기본 Tab 트랩. */
-export default function Modal({ open, onClose, labelledBy, align = "center", children }: Props) {
+export default function Modal({ open, onClose, labelledBy, align = "center", maxWidth = 780, children }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const prevFocus = useRef<HTMLElement | null>(null);
 
@@ -72,7 +74,7 @@ export default function Modal({ open, onClose, labelledBy, align = "center", chi
         className="sk-scroll"
         style={{
           width: "100%",
-          maxWidth: 780,
+          maxWidth,
           maxHeight: "88vh",
           overflowY: "auto",
           background: "#fff",

@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams, Navigate, useSearchParams } from "react-router-dom";
-import { ChevronLeft, ChevronRight, Link2, Eye, Heart, Menu, Check } from "lucide-react";
+import { ChevronLeft, ChevronRight, Link2, Eye, Heart, Menu, Check, Flag } from "lucide-react";
 
 const NARROW_Q = "(max-width: 860px)";
 import Sidebar from "../components/viewer/Sidebar.tsx";
 import ContentPane, { VideoPlayer } from "../components/viewer/ContentPane.tsx";
 import QuizPane from "../components/viewer/QuizPane.tsx";
+import ReportModal from "../components/ReportModal.tsx";
 import { hi } from "../components/Hi.tsx";
 import { getKit } from "../lib/data.ts";
 import { getGroups, flatItems } from "../lib/kit-content.ts";
@@ -27,6 +28,7 @@ export default function ViewerPage() {
   const [isNarrow, setIsNarrow] = useState(initialNarrow);
   const [sidebarOpen, setSidebarOpen] = useState(!initialNarrow); // 모바일/탭에선 기본 숨김
   const [copied, setCopied] = useState(false);
+  const [reportOpen, setReportOpen] = useState(false); // 영상 "문제 알리기" 창
   const [stats, setStats] = useState<Stats>(() => ({ ...statsFor(kitId), liked: false }));
 
   // 화면 폭 변화 → 좁으면 사이드바 숨김(오버레이), 넓으면 표시
@@ -185,7 +187,15 @@ export default function ViewerPage() {
                 })()}
                 {sel?.item.type === "video" && sel.item.caption && <div style={{ marginTop: 3, fontSize: 11.5, fontWeight: 500, color: "var(--color-slate-400)" }}>{sel.item.caption}</div>}
                 {/* 출처 — 영상을 올린 유튜브 채널(npm run videos가 기록). 교사가 자료의 신뢰를 판단하는 단서. */}
-                {sel?.item.type === "video" && sel.item.channel && <div style={{ marginTop: 4, fontSize: 11.5, fontWeight: 600, color: "var(--color-slate-400)" }}>출처 · {sel.item.channel} (YouTube)</div>}
+                {sel?.item.type === "video" && (
+                  <div style={{ marginTop: 4, display: "flex", flexWrap: "wrap", alignItems: "center", gap: "4px 12px", fontSize: 11.5, fontWeight: 600, color: "var(--color-slate-400)" }}>
+                    {sel.item.channel && <span>출처 · {sel.item.channel} (YouTube)</span>}
+                    <button type="button" onClick={() => setReportOpen(true)} className="report-link"
+                      style={{ display: "inline-flex", alignItems: "center", gap: 4, padding: 0, border: 0, background: "none", cursor: "pointer", font: "inherit", color: "var(--color-slate-400)", textDecoration: "underline", textUnderlineOffset: 2 }}>
+                      <Flag size={11} aria-hidden /> 문제 알리기
+                    </button>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -211,6 +221,10 @@ export default function ViewerPage() {
           )}
         </div>
       </div>
+      {sel?.item.type === "video" && kit && (
+        <ReportModal open={reportOpen} onClose={() => setReportOpen(false)} kitId={kitId} kitTitle={kit.title}
+          item={{ item_key: sel.item.item_key, title: sel.item.title, video_id: sel.item.video_id }} />
+      )}
     </div>
   );
 }

@@ -35,6 +35,23 @@ export function postView(id: string): Promise<Stats> {
   return fetch(`/api/kits/${id}/view`, { method: "POST", credentials: "same-origin" }).then(asStats);
 }
 
+// 영상 "문제 알리기"(docs/FEATURE_PLAN_report.md). 실패하면 던진다 — 호출측이 안내 문구를 보인다.
+export type ReportReason = "play" | "inappropriate" | "other";
+export async function postReport(kitId: string, body: {
+  item: string; reason: ReportReason; note?: string; kitTitle?: string; itemTitle?: string; videoId?: string; website?: string;
+}): Promise<void> {
+  const r = await fetch(`/api/kits/${kitId}/report`, {
+    method: "POST",
+    credentials: "same-origin",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  if (!r.ok) {
+    const msg = await r.json().then((d: { error?: string }) => d.error).catch(() => undefined);
+    throw new Error(msg || "보내지 못했어요. 잠시 뒤 다시 해 주세요.");
+  }
+}
+
 export function postLike(id: string, on: boolean): Promise<Stats> {
   return fetch(`/api/kits/${id}/like`, {
     method: "POST",
