@@ -100,6 +100,30 @@ const MANUAL: Record<string, [Kind, boolean?, string?]> = {
   "깨비키즈 [KEBIKIDS]": ["기업"], "꼬마TV Kid's TV": ["기업"], "GoGoMovie 고고무비": ["개인"], "Y Pictures": ["개인", true],
 };
 
+// YouTube 채널 설명으로 확인(10/3) — 위 손 분류를 덮는다
+const SEEN = "채널 설명 확인: ";
+Object.assign(MANUAL, {
+  "지역N문화 ": ["정부·공공기관", false, SEEN + "한국문화원연합회"], "에디스교육": ["교육 기업·출판사", false, SEEN + "어린이 경제교육 업체"],
+  "공식 환경보호 채널.": ["개인", false, SEEN + "개인"], "산소DOCU": ["개인", false, SEEN + "순위형 정보 채널"], "바다 다큐": ["개인", false, SEEN + "개인 다큐 채널"],
+  "DocuRain 다큐레인": ["개인", false, SEEN + "개인 다큐 채널"], "대구가이드": ["개인", false, SEEN + "대구 소개 개인 채널"],
+  "IP STORY CENTER": ["정부·공공기관", false, SEEN + "지식재산처·한국발명진흥회"],
+  "클래스로그": ["교육 기업·출판사", false, SEEN + "에듀립 — EBS 콘텐츠를 교과 진도에 맞춰 큐레이션"],
+  "뉴스쿨TV by News'Cool": ["교육 기업·출판사", false, SEEN + "초등 뉴스 학습 플랫폼"],
+  "전북수업샘터": ["교육청·교육연구기관", false, SEEN + "전북교육청교육연구정보원"], "경기온나눔콘텐츠": ["교육청·교육연구기관", false, SEEN + "경기도교육청"],
+  "미래과학교육원TV": ["기업", false, SEEN + "초등 과학실험 교구 업체"], "생물누리TV": ["정부·공공기관", false, SEEN + "국립낙동강생물자원관"],
+  "Y Pictures": ["개인", false, SEEN + "개인 제작사"], "건강의 벗": ["개인", false, SEEN + "건강 정보 채널"],
+  "K-VIBE": ["언론(뉴스)", false, SEEN + "연합뉴스"], "다경뉴스TV": ["개인", false, SEEN + "뉴스 크리에이터(언론사 아님)"],
+  "kculturechannel": ["공공 연구기관", false, SEEN + "한국학중앙연구원"], "경제배움e+": ["정부·공공기관", false, SEEN + "재정경제부 경제교육 플랫폼"],
+  "독도강치TV": ["정부·공공기관", false, SEEN + "경상북도콘텐츠진흥원 애니메이션"], "온클래스": ["개인", false, SEEN + "교사 개인"],
+  "K-팩트체커": ["정부·공공기관", false, SEEN + "KTV 정책 팩트체크"], "한국분석시험연구원KATR": ["기업", false, SEEN + "민간 시험기관"],
+  "환경스페셜": ["방송(교양·다큐)", false, SEEN + "KBS 공식"], "대구는 요즘 어때?": ["개인", false, SEEN + "대구 소식 개인 채널"],
+  "머니인사이드": ["개인", false, SEEN + "경제 정보 개인 채널"],
+  "보물섬독도TV": ["개인", true, "채널 설명에 운영 주체 없음(독도 가족 콘텐츠) — 공공일 수 있음"],
+  "극지 톡톡": ["공공 연구기관", true, "채널 설명 없음 — 극지연구소 계열로 보임"], "nsmscience": ["국립 박물관·과학관", true, "채널 설명 없음 — 국립서울과학관으로 보임"],
+  "에코센터 TV": ["단체", true, "채널 설명 없음(@ndecocenter)"], "에듀가이드": ["개인", true, "채널 설명 없음"],
+  "Korea UHD Showcase": ["개인", true, "채널 설명 없음"],
+} as Record<string, [Kind, boolean?, string?]>);
+
 // 이름 규칙(손 분류에 없을 때). 위에서부터 처음 맞는 것.
 const RULES: [RegExp, Kind][] = [
   [/^EBS|EBS\s|\(EBS|EBS뉴스/, "EBS"],
