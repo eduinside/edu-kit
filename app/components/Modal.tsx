@@ -14,20 +14,24 @@ interface Props {
 export default function Modal({ open, onClose, labelledBy, align = "center", maxWidth = 780, children }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const prevFocus = useRef<HTMLElement | null>(null);
+  // onClose는 부르는 쪽이 렌더마다 새로 만들 수 있다(모음 만들기 창). 효과가 그것에 기대면
+  // 글자를 칠 때마다 포커스를 되돌렸다가 첫 단추로 옮겨 입력이 끊겼다(2026-10-03 운영 신고) — 열릴 때 한 번만 돈다.
+  const onCloseRef = useRef(onClose);
+  onCloseRef.current = onClose;
 
   useEffect(() => {
     if (!open) return;
     prevFocus.current = document.activeElement as HTMLElement;
     const el = ref.current;
-    const focusable = el?.querySelectorAll<HTMLElement>(
-      'button,[href],input,select,textarea,[tabindex]:not([tabindex="-1"])'
-    );
-    focusable?.[0]?.focus();
+    const SEL = 'button:not([disabled]),[href],input,select,textarea,[tabindex]:not([tabindex="-1"])';
+    el?.querySelector<HTMLElement>(SEL)?.focus();
 
     function onKey(e: KeyboardEvent) {
+      // 내용이 바뀌어도(단추 활성·안내 줄) 지금 있는 것으로 가둔다
+      const focusable = el?.querySelectorAll<HTMLElement>(SEL);
       if (e.key === "Escape") {
         e.preventDefault();
-        onClose();
+        onCloseRef.current();
       } else if (e.key === "Tab" && focusable && focusable.length) {
         const first = focusable[0]!;
         const last = focusable[focusable.length - 1]!;
@@ -45,7 +49,7 @@ export default function Modal({ open, onClose, labelledBy, align = "center", max
       document.removeEventListener("keydown", onKey);
       prevFocus.current?.focus();
     };
-  }, [open, onClose]);
+  }, [open]);
 
   if (!open) return null;
 
