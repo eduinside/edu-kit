@@ -69,7 +69,7 @@ export default function MixBuilderModal({ open, onClose }: { open: boolean; onCl
               <div style={{ flex: 1, minWidth: 220, display: "flex", flexDirection: "column", gap: 8 }}>
                 {[made.shortUrl, made.url].filter((u): u is string => !!u).map((u) => (
                   <div key={u} style={{ display: "flex", alignItems: "center", gap: 8, padding: "9px 12px", borderRadius: 11, border: "1px solid var(--color-slate-100)", background: "var(--color-slate-50)" }}>
-                    <span style={{ flex: 1, minWidth: 0, fontSize: u === made.shortUrl ? 15 : 12.5, fontWeight: 800, color: "var(--color-brand-600)", wordBreak: "break-all" }}>{u.replace(/^https:\/\//, "")}</span>
+                    <span style={{ flex: 1, minWidth: 0, fontSize: u === made.shortUrl ? 15 : 12.5, fontWeight: 800, color: "var(--color-brand-600)", wordBreak: "break-all" }}>{shown(u)}</span>
                     <button type="button" onClick={() => copy(u)} aria-label="주소 복사" style={iconBtn}>{copied === u ? <Check size={14} /> : <Link2 size={14} />}</button>
                   </div>
                 ))}
@@ -140,6 +140,12 @@ export default function MixBuilderModal({ open, onClose }: { open: boolean; onCl
       </div>
     </Modal>
   );
+}
+
+// 보여 줄 때만 한글을 풀어 쓴다(복사는 인코딩된 주소 그대로 — 메신저·게시판에서 깨지지 않게)
+function shown(u: string): string {
+  const s = u.replace(/^https:\/\//, "");
+  try { return decodeURIComponent(s.replace(/\+/g, " ")); } catch { return s; }
 }
 
 const iconBtn = { display: "inline-flex", alignItems: "center", justifyContent: "center", width: 28, height: 28, borderRadius: 8, border: "1px solid var(--color-slate-200)", background: "#fff", color: "var(--color-slate-500)", cursor: "pointer", flexShrink: 0 } as const;
