@@ -7,7 +7,7 @@ import path from "node:path";
 type Kind = string;
 const GRADE: Record<Kind, string> = {
   "정부·공공기관": "public", "지자체": "public", "국립 박물관·과학관": "public", "공공 연구기관": "public",
-  "교육청·교육연구기관": "edu", "EBS": "edu",
+  "교육청·교육연구기관": "edu", "EBS": "edu", "교사 연구회": "edu",
   "언론(뉴스)": "press", "방송(교양·다큐)": "press", "방송(예능)": "press",
   "대학·병원": "public",
   "교육 기업·출판사": "personal", "기업": "personal", "단체": "personal", "개인": "personal",
@@ -124,6 +124,13 @@ Object.assign(MANUAL, {
   "Korea UHD Showcase": ["개인", true, "채널 설명 없음"],
 } as Record<string, [Kind, boolean?, string?]>);
 
+// 운영자 결정(10/3): 방송 예능 클립은 언론·방송 유지 · 교사 연구회 채널은 교육
+const DECIDED = "운영자 결정(10/3): ";
+Object.assign(MANUAL, {
+  "아꿈선 초등3분과학": ["교사 연구회", false, DECIDED + "교사 연구회(아름다운 꿈을 꾸는 선생님들) → 교육"],
+  "참쌤스쿨": ["교사 연구회", false, DECIDED + "교사 모임 → 교육"], "참쌤튜브": ["교사 연구회", false, DECIDED + "교사 모임 → 교육"],
+} as Record<string, [Kind, boolean?, string?]>);
+
 // 이름 규칙(손 분류에 없을 때). 위에서부터 처음 맞는 것.
 const RULES: [RegExp, Kind][] = [
   [/^EBS|EBS\s|\(EBS|EBS뉴스/, "EBS"],
@@ -164,7 +171,7 @@ const out = [...rows.values()].map((r) => {
     if (hit) { kind = hit[1]; basis = `이름 규칙 ${hit[0].source.slice(0, 24)}`; }
     else { kind = "개인"; basis = "규칙 없음 → 개인"; }
   }
-  if (kind === "방송(예능)" && !check) { check = true; memo ||= "예능 클립 — 언론·방송으로 둘지"; }
+  if (kind === "방송(예능)") { check = false; memo = DECIDED + "예능 클립도 언론·방송 유지"; }
   return { ...r, kind, grade: GRADE[kind], check, memo, basis };
 });
 const order = { public: 0, edu: 1, press: 2, personal: 3 } as Record<string, number>;
