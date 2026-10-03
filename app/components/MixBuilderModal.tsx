@@ -50,6 +50,7 @@ export default function MixBuilderModal({ open, onClose }: { open: boolean; onCl
   }
 
   const canMake = title.trim().length > 0 && rows.some((x) => x.it) && state !== "sending";
+  const needTitle = !title.trim() && rows.some((x) => x.it); // 담은 영상은 있는데 제목이 비었을 때만 알린다
 
   return (
     <Modal open={open} onClose={close} labelledBy="mix-title" maxWidth={560}>
@@ -72,6 +73,11 @@ export default function MixBuilderModal({ open, onClose }: { open: boolean; onCl
                     <button type="button" onClick={() => copy(u)} aria-label="주소 복사" style={iconBtn}>{copied === u ? <Check size={14} /> : <Link2 size={14} />}</button>
                   </div>
                 ))}
+                {!made.shortUrl && (
+                  <div role="status" style={{ fontSize: 12, fontWeight: 600, color: "var(--color-slate-500)", lineHeight: 1.5 }}>
+                    짧은 주소를 만들지 못했어요. 위 주소를 그대로 써도 같은 모음이 열려요.
+                  </div>
+                )}
                 <a href={made.url.replace(/^https:\/\/kit\.dgedu\.link/, "")} style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: 13, fontWeight: 700, color: "var(--color-slate-600)" }}>
                   <ExternalLink size={13} /> 모음 열어 보기
                 </a>
@@ -110,8 +116,16 @@ export default function MixBuilderModal({ open, onClose }: { open: boolean; onCl
                 })}
               </ol>
             )}
-            <input value={title} onChange={(e) => setTitle(e.target.value.slice(0, 60))} placeholder="모음 제목(예: 4학년 우리 지역의 옛날과 오늘)" aria-label="모음 제목"
-              style={{ ...field, marginTop: 14 }} />
+            <label htmlFor="mix-title-input" style={{ display: "block", marginTop: 14, marginBottom: 6, fontSize: 12.5, fontWeight: 800, color: "var(--color-slate-600)" }}>
+              모음 제목 <span style={{ color: "var(--color-danger, #dc2626)" }}>*필수</span>
+            </label>
+            <input id="mix-title-input" value={title} onChange={(e) => setTitle(e.target.value.slice(0, 60))} placeholder="예: 4학년 우리 지역의 옛날과 오늘" aria-required="true" aria-describedby="mix-title-hint"
+              style={{ ...field, ...(needTitle ? { border: "1px solid var(--color-warning-400, #f59e0b)" } : {}) }} />
+            {needTitle && (
+              <div id="mix-title-hint" role="status" style={{ marginTop: 6, fontSize: 12.5, fontWeight: 700, color: "var(--color-warning-700, #b45309)" }}>
+                제목을 적어야 모음 주소를 만들 수 있어요. 제목은 모음 화면 맨 위와 링크 미리보기에 보여요.
+              </div>
+            )}
             <textarea value={note} onChange={(e) => setNote(e.target.value.slice(0, 300))} rows={2} placeholder="안내 글(선택) — 모음 화면 목차 위에 보여요" aria-label="안내 글(선택)"
               style={{ ...field, marginTop: 8, resize: "vertical" }} />
             {state === "error" && <div role="alert" style={{ marginTop: 10, fontSize: 13, fontWeight: 600, color: "var(--color-danger, #dc2626)" }}>{error}</div>}
