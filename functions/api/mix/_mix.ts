@@ -25,12 +25,11 @@ export async function ensureSchema(db: D1DB): Promise<void> {
   ready = true;
 }
 
-// 모음을 만들 수 있는 화면 — 꾸러미 사이트, 수업나래, 미리보기·로컬
+// 예전 모음(/m/:id)을 읽는 화면 — 꾸러미 사이트·미리보기·로컬. 2026-10-03부터 모음은 주소(?i=)에 담고
+// 새로 저장하지 않는다(POST /api/mix 없앰). 수업나래는 이 API를 부르지 않는다.
 const ALLOWED = [
   /^https:\/\/kit\.dgedu\.link$/,
-  /^https:\/\/narae\.dgedu\.link$/,
   /^https:\/\/[a-z0-9-]+\.edu-kit-br4\.pages\.dev$/,
-  /^https:\/\/edu-narae-internal\.eduin\.workers\.dev$/,
   /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/,
 ];
 export function corsHeaders(request: Request): Record<string, string> {
@@ -38,16 +37,12 @@ export function corsHeaders(request: Request): Record<string, string> {
   if (!ALLOWED.some((re) => re.test(origin))) return {};
   return {
     "access-control-allow-origin": origin,
-    "access-control-allow-methods": "GET, POST, OPTIONS",
+    "access-control-allow-methods": "GET, OPTIONS",
     "access-control-allow-headers": "content-type",
     "access-control-max-age": "86400",
     vary: "origin",
   };
 }
-export const originAllowed = (request: Request) => {
-  const origin = request.headers.get("origin");
-  return !origin || ALLOWED.some((re) => re.test(origin)); // Origin 없는 요청(서버 간)은 남용 상한으로만 막는다
-};
 
 export function json(request: Request, body: unknown, status = 200, extra: Record<string, string> = {}): Response {
   return new Response(JSON.stringify(body), {

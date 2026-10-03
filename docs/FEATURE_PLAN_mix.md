@@ -13,6 +13,12 @@
 > - `POST /api/mix`·`edukit_mixes` 쓰기는 없앤다. `GET /api/mix/:id`와 `/m/:id`는 이미 만든 모음을 열기 위해 남긴다. CORS 목록의 narae도 뺀다.
 > - 아래 §1~§2의 저장·한도·CORS 부분은 이 결정으로 대체된다.
 > - 작업 목록: 수업나래 [REAL-LIFE-MATERIALS-PLAN.md](../../dge-narae/docs/plans/REAL-LIFE-MATERIALS-PLAN.md) §2(K1~K4)
+> - **구현(10/3, 브랜치 `narae-catalog`)**:
+>   - 모음 주소 `/m?i=<kit>.<key>,…&t=<제목>[&n=<안내 300자>][&v=<보는 영상>]` — `app/lib/mix.ts`의 `mixUrl`·`parseMixQuery`, `MixPage`
+>   - `POST /api/shorten`(`functions/api/shorten.ts`): 같은 사이트에서만 받는다. 같은 주소는 D1 `edukit_shortens`에서 다시 돌려준다. 새로 줄이는 것은 IP 해시당 하루 30개다
+>   - OG는 `t`와 첫 영상 단원 카드로 만든다(`_middleware.ts`)
+>   - `POST /api/mix`(`functions/api/mix/index.ts`)를 지웠다. CORS 목록에서 narae를 뺐다
+>   - 공개 카탈로그 `/catalog.json`은 `scripts/catalog.ts`가 build-data에서 만든다. 채널 등급 표는 `content/channels.yaml`(운영자 검수 완료)이다
 >
 > 관련: 수업나래 연계 노트 §5-3 ②(`dge-narae/docs/research/REAL-LIFE-CONTEXT-MATERIALS-NOTES.md`), [IMPROVEMENT_PLAN_claude-ops.md](IMPROVEMENT_PLAN_claude-ops.md) §4 S6
 

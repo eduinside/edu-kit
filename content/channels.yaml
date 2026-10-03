@@ -1,6 +1,6 @@
 # 채널 등급 — 수업나래 실생활 맥락 탐구자료(출처 칩·고르기 순서)가 읽는다
 # public: 공공기관·공공연구·지자체 · edu: 교육청·교육연구기관·EBS · press: 언론·방송 · personal: 개인·기업·단체
-# 2026-10-03 초안(scripts/once/2026-10-03-channel-grades.ts) — 운영자 검수 전
+# 2026-10-03 초안(scripts/once/2026-10-03-channel-grades.ts) · 운영자 검수 완료(10/3, 변경 없음). 새 채널은 npm run check가 알려 준다
 public:
   - "[공식]부산과학체험관"
   - "강남구"

@@ -3,16 +3,16 @@ import { ArrowUp, ArrowDown, X, Link2, Check, ExternalLink, Layers } from "lucid
 import Modal from "./Modal.tsx";
 import { getKit } from "../lib/data.ts";
 import { ITEMS } from "../lib/kit-content.ts";
-import { useBasket, setBasket, createMix, qrSrc, MAX_MIX, type MixCreated } from "../lib/mix.ts";
+import { useBasket, setBasket, mixUrl, shortenMix, qrSrc, MAX_MIX, type Shortened } from "../lib/mix.ts";
 
-// 모음 만들기 창 — 담은 영상 순서 바꾸기·빼기 + 제목·안내 → 모음 주소(짧은 주소·QR). 무거운 영상 목록을 쓰므로 지연 로드.
+// 모음 만들기 창 — 담은 영상 순서 바꾸기·빼기 + 제목·안내 → 모음 주소(?i=, 저장 없음) + 짧은 주소·QR. 무거운 영상 목록을 쓰므로 지연 로드.
 export default function MixBuilderModal({ open, onClose }: { open: boolean; onClose: () => void }) {
   const basket = useBasket();
   const [title, setTitle] = useState("");
   const [note, setNote] = useState("");
   const [state, setState] = useState<"idle" | "sending" | "error">("idle");
   const [error, setError] = useState("");
-  const [made, setMade] = useState<MixCreated | null>(null);
+  const [made, setMade] = useState<Shortened | null>(null);
   const [copied, setCopied] = useState<string | null>(null);
 
   const byRef = new Map(ITEMS.filter((i) => i.type === "video").map((i) => [`${i.kit_id}/${i.item_key}`, i]));
@@ -30,7 +30,7 @@ export default function MixBuilderModal({ open, onClose }: { open: boolean; onCl
     setState("sending");
     try {
       const items = rows.filter((x) => x.it).map((x) => x.r);
-      setMade(await createMix({ title: title.trim(), note: note.trim() || undefined, items }));
+      setMade(await shortenMix(mixUrl({ title: title.trim(), note: note.trim() || undefined, items }), title.trim()));
       setState("idle");
     } catch (e) {
       setError((e as Error).message);
@@ -72,7 +72,7 @@ export default function MixBuilderModal({ open, onClose }: { open: boolean; onCl
                     <button type="button" onClick={() => copy(u)} aria-label="주소 복사" style={iconBtn}>{copied === u ? <Check size={14} /> : <Link2 size={14} />}</button>
                   </div>
                 ))}
-                <a href={`/m/${made.id}`} style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: 13, fontWeight: 700, color: "var(--color-slate-600)" }}>
+                <a href={made.url.replace(/^https:\/\/kit\.dgedu\.link/, "")} style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: 13, fontWeight: 700, color: "var(--color-slate-600)" }}>
                   <ExternalLink size={13} /> 모음 열어 보기
                 </a>
               </div>

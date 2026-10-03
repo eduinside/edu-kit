@@ -46,7 +46,17 @@ export const onRequest = async (context: Ctx): Promise<Response> => {
 
   const [first, second] = url.pathname.split("/").filter(Boolean);
   let title: string, desc: string, ogUrl: string, img: string;
-  if (first === "m" && second && /^[a-z0-9]{6}$/.test(second)) {
+  if (first === "m" && !second) {
+    // 주소 모음 /m?i=<kit>.<key>,…&t=<제목> — 제목은 t, 그림은 첫 영상 단원의 카드(저장 없음, 2026-10-03~)
+    const refs = (url.searchParams.get("i") ?? "").split(",").filter((s) => /^[A-Za-z0-9]{3,8}\.[A-Za-z0-9_]{1,20}$/.test(s));
+    if (!refs.length) return res;
+    const t = (url.searchParams.get("t") ?? "").replace(/[\u0000-\u001f]/g, "").trim().slice(0, 60) || "모음";
+    const firstKit = BY_ID.get(refs[0]!.split(".")[0]!);
+    title = `${t} · 수업꾸러미 모음`;
+    desc = `수업꾸러미 모음 · 영상 ${Math.min(refs.length, 30)}개`;
+    ogUrl = `${url.origin}/m${url.search}`;
+    img = firstKit ? `${url.origin}/og/${firstKit.id}.png` : `${url.origin}/og/default.png`;
+  } else if (first === "m" && second && /^[a-z0-9]{6}$/.test(second)) {
     // 모음 /m/:id — 제목은 D1에서, 그림은 첫 영상 단원의 카드(docs/FEATURE_PLAN_mix.md)
     const mix = await context.env.DB?.prepare("SELECT title, items FROM edukit_mixes WHERE id=?").bind(second)
       .first<{ title: string; items: string }>().catch(() => null);

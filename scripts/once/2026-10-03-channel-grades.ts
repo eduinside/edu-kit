@@ -1,5 +1,6 @@
 // 채널 등급 초안 — content/channels.yaml + docs/drafts/channel-grades-draft.csv (2026-10-03)
-// 수업나래 실생활 맥락 탐구자료 계획 §2 K2. 이름 규칙 + 손 분류. 운영자 검수 뒤 yaml이 정본이 된다.
+// 수업나래 실생활 맥락 탐구자료 계획 §2 K2. 이름 규칙 + 손 분류. 운영자 검수 완료(10/3, 변경 없음) — 이제 yaml이 정본이고
+// 이 스크립트는 기록용이다(다시 돌리면 yaml을 덮어쓴다). 새 채널은 yaml에 직접 넣는다.
 // 등급: public(공공기관·공공연구·지자체) · edu(교육청·교육연구기관·EBS) · press(언론·방송) · personal(개인·기업·단체)
 import fs from "node:fs";
 import path from "node:path";
@@ -181,7 +182,7 @@ out.sort((a, b) => Number(b.check) - Number(a.check) || order[a.grade] - order[b
 const yq = (s: string) => JSON.stringify(s);
 let yaml = "# 채널 등급 — 수업나래 실생활 맥락 탐구자료(출처 칩·고르기 순서)가 읽는다\n" +
   "# public: 공공기관·공공연구·지자체 · edu: 교육청·교육연구기관·EBS · press: 언론·방송 · personal: 개인·기업·단체\n" +
-  "# 2026-10-03 초안(scripts/once/2026-10-03-channel-grades.ts) — 운영자 검수 전\n";
+  "# 2026-10-03 초안(scripts/once/2026-10-03-channel-grades.ts) · 운영자 검수 완료(10/3, 변경 없음). 새 채널은 npm run check가 알려 준다\n";
 for (const g of ["public", "edu", "press", "personal"]) {
   yaml += `${g}:\n`;
   for (const r of out.filter((r) => r.grade === g).sort((a, b) => a.channel.localeCompare(b.channel, "ko"))) yaml += `  - ${yq(r.channel)}\n`;

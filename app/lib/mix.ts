@@ -1,4 +1,4 @@
-// 모음(맞춤 목록) — 담은 영상 바구니(이 브라우저 localStorage) + 모음 API. 계획: docs/FEATURE_PLAN_mix.md
+// 모음(맞춤 목록) — 담은 영상 바구니(이 브라우저 localStorage) + 모음 주소(?i=)·짧은 주소. 계획: docs/FEATURE_PLAN_mix.md
 import { useEffect, useState } from "react";
 
 export const MAX_MIX = 30;
@@ -42,21 +42,58 @@ export function useBasket(): string[] {
   return list;
 }
 
-export interface MixCreated { id: string; url: string; shortUrl: string | null; qr: string | null }
-export interface MixData { id: string; title: string; note: string | null; items: string[]; shortUrl: string | null; createdAt: string }
+export interface MixData { id: string | null; title: string; note: string | null; items: string[]; shortUrl: string | null; createdAt: string | null }
 
-export async function createMix(body: { title: string; note?: string; items: string[] }): Promise<MixCreated> {
-  const r = await fetch("/api/mix", {
-    method: "POST",
-    credentials: "same-origin",
-    headers: { "content-type": "application/json" },
-    body: JSON.stringify({ ...body, source: "kit" }),
-  });
-  const d = (await r.json().catch(() => ({}))) as Partial<MixCreated> & { error?: string };
-  if (!r.ok || !d.id) throw new Error(d.error || "모음을 만들지 못했어요. 잠시 뒤 다시 해 주세요.");
-  return d as MixCreated;
+// ── 주소에 담는 모음 /m?i=<kit>.<key>,…&t=<제목>[&n=<안내>] — 저장하지 않는다(2026-10-03 결정).
+// 수업나래도 같은 주소를 만든다(dge-narae docs/plans/REAL-LIFE-MATERIALS-PLAN.md §2 K3).
+export const MIX_TITLE_MAX = 60;
+export const MIX_NOTE_MAX = 300;
+const QREF = /^[A-Za-z0-9]{3,8}\.[A-Za-z0-9_]{1,20}$/;
+const clean = (v: string | null, n: number) => (v ?? "").replace(/[\u0000-\u001f]/g, "").trim().slice(0, n);
+
+/** 바구니 항목("kit/key") → 모음 주소 */
+export function mixUrl(body: { title: string; note?: string; items: string[] }, origin = "https://kit.dgedu.link"): string {
+  const q = new URLSearchParams();
+  q.set("i", body.items.slice(0, MAX_MIX).map((r) => r.replace("/", ".")).join(","));
+  q.set("t", clean(body.title, MIX_TITLE_MAX));
+  const note = clean(body.note ?? null, MIX_NOTE_MAX);
+  if (note) q.set("n", note);
+  return `${origin}/m?${mixQuery(q)}`;
 }
 
+/** 쿼리 문자열 — 영상 목록의 쉼표는 읽기 쉽게 그대로 둔다(%2C로 바꾸지 않음) */
+export const mixQuery = (q: URLSearchParams) => q.toString().replace(/%2C/gi, ",");
+
+/** 모음 주소의 쿼리 → 모음. 형식이 틀린 항목은 버리고, 남는 게 없으면 null. */
+export function parseMixQuery(search: string): MixData | null {
+  const q = new URLSearchParams(search);
+  const items = [...new Set((q.get("i") ?? "").split(",").map((s) => s.trim()).filter((s) => QREF.test(s)))]
+    .slice(0, MAX_MIX).map((s) => s.replace(".", "/"));
+  if (!items.length) return null;
+  return { id: null, title: clean(q.get("t"), MIX_TITLE_MAX) || "수업꾸러미 모음", note: clean(q.get("n"), MIX_NOTE_MAX) || null, items, shortUrl: null, createdAt: null };
+}
+
+export interface Shortened { url: string; shortUrl: string | null; qr: string | null }
+
+/** 꾸러미 서버가 dgedu.link로 줄인다. 실패하면 긴 주소만(던지지 않음 — 긴 주소도 그대로 쓸 수 있다). */
+export async function shortenMix(url: string, title: string): Promise<Shortened> {
+  try {
+    const r = await fetch("/api/shorten", {
+      method: "POST",
+      credentials: "same-origin",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ url, title }),
+    });
+    const d = (await r.json().catch(() => ({}))) as { shortUrl?: string; qr?: string; error?: string };
+    if (r.ok && d.shortUrl) return { url, shortUrl: d.shortUrl, qr: d.qr ?? null };
+    if (r.status === 429 && d.error) throw new Error(d.error);
+  } catch (e) {
+    if ((e as Error).message?.includes("오늘은")) throw e;
+  }
+  return { url, shortUrl: null, qr: null };
+}
+
+/** 예전 모음 /m/:id(10/2~10/3 D1 저장분)를 연다 */
 export async function getMix(id: string): Promise<MixData | null> {
   const r = await fetch(`/api/mix/${encodeURIComponent(id)}`, { credentials: "same-origin" });
   if (r.status === 404) return null;

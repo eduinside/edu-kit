@@ -1,28 +1,37 @@
 import { useEffect, useMemo, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { Link2, Check, QrCode } from "lucide-react";
 import ViewerShell from "../components/viewer/ViewerShell.tsx";
 import Modal from "../components/Modal.tsx";
 import { getKit, type Item, type Stage } from "../lib/data.ts";
 import { ITEMS, type ViewerGroup } from "../lib/kit-content.ts";
-import { getMix, qrSrc, type MixData } from "../lib/mix.ts";
+import { getMix, mixQuery, parseMixQuery, qrSrc, type MixData } from "../lib/mix.ts";
 
-// 모음 뷰어 /m/:mixId(/:itemId) — 교사가 고른 영상만, 고른 순서대로. 같은 단원에서 이어지는 영상끼리 단원 이름표로 묶는다.
+// 모음 뷰어 — 교사가 고른 영상만, 고른 순서대로. 같은 단원에서 이어지는 영상끼리 단원 이름표로 묶는다.
+// · /m?i=<kit>.<key>,…&t=<제목>[&n=<안내>][&v=<보는 영상>] — 주소에 담긴 모음(저장 없음, 2026-10-03~). 수업나래도 이 주소를 만든다.
+// · /m/:mixId(/:itemId) — 10/2~10/3에 D1에 저장한 예전 모음.
 // 모음 안의 항목 key는 "<kit>.<key>"(원래 꾸러미·key는 신고에 쓴다). 계획: docs/FEATURE_PLAN_mix.md
 export default function MixPage() {
-  const { mixId = "", itemId } = useParams();
+  const { mixId = "", itemId: pathItem } = useParams();
+  const { search } = useLocation();
   const navigate = useNavigate();
-  const [mix, setMix] = useState<MixData | null | undefined>(undefined); // undefined = 불러오는 중, null = 없음
+  const queryMode = !mixId;
+  const queryMix = useMemo(() => (queryMode ? parseMixQuery(search) : null), [queryMode, search]);
+  const [stored, setStored] = useState<MixData | null | undefined>(undefined); // undefined = 불러오는 중, null = 없음
   const [failed, setFailed] = useState(false);
   const [copied, setCopied] = useState(false);
   const [qrOpen, setQrOpen] = useState(false);
 
   useEffect(() => {
+    if (queryMode) return;
     let cancelled = false;
-    setMix(undefined); setFailed(false);
-    getMix(mixId).then((m) => { if (!cancelled) setMix(m); }).catch(() => { if (!cancelled) setFailed(true); });
+    setStored(undefined); setFailed(false);
+    getMix(mixId).then((m) => { if (!cancelled) setStored(m); }).catch(() => { if (!cancelled) setFailed(true); });
     return () => { cancelled = true; };
-  }, [mixId]);
+  }, [queryMode, mixId]);
+
+  const mix = queryMode ? queryMix : stored;
+  const itemId = queryMode ? new URLSearchParams(search).get("v") ?? undefined : pathItem;
 
   // 모음 항목 → 뷰어 묶음. 꾸러미에서 빠진 영상은 건너뛴다.
   const { groups, origin } = useMemo(() => {
@@ -46,7 +55,16 @@ export default function MixPage() {
   }, [mix]);
 
   const count = groups.reduce((a, g) => a + g.items.length, 0);
-  const pageUrl = `https://kit.dgedu.link/m/${mixId}`;
+  // 주소 모음은 보는 영상(v)만 뺀 지금 주소가 곧 모음 주소다
+  const pageUrl = queryMode
+    ? (() => { const q = new URLSearchParams(search); q.delete("v"); return `https://kit.dgedu.link/m?${mixQuery(q)}`; })()
+    : `https://kit.dgedu.link/m/${mixId}`;
+  const select = (k: string) => {
+    if (!queryMode) return navigate(`/m/${mixId}/${k}`);
+    const q = new URLSearchParams(search);
+    q.set("v", k);
+    navigate(`/m?${mixQuery(q)}`);
+  };
   const shareUrl = mix?.shortUrl || pageUrl;
 
   function copyLink() {
@@ -69,7 +87,7 @@ export default function MixPage() {
 
   const status = failed ? "모음을 불러오지 못했어요. 잠시 뒤 다시 열어 주세요."
     : mix === undefined ? "모음을 불러오는 중…"
-    : mix === null ? "이 모음을 찾을 수 없어요."
+    : mix === null ? (queryMode ? "모음 주소가 올바르지 않아요." : "이 모음을 찾을 수 없어요.")
     : count === 0 ? "이 모음의 영상을 찾을 수 없어요."
     : undefined;
 
@@ -81,7 +99,7 @@ export default function MixPage() {
         groups={groups}
         flowLabel="모음 순서"
         itemKey={itemId}
-        onSelect={(k) => navigate(`/m/${mixId}/${k}`)}
+        onSelect={select}
         onBack={() => navigate("/")}
         docTitle={(head) => `${head ? head + " · " : ""}${mix?.title ?? "모음"} · 수업꾸러미`}
         topRight={topRight}

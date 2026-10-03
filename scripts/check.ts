@@ -7,6 +7,7 @@ import { resolve } from "node:path";
 import { ROOT, loadKitDocs, toSheetRows, stageName, type KitDoc } from "./content.ts";
 import { transform } from "./transform.ts";
 import { extractVideoId } from "./field-map.ts";
+import { loadChannelGrades } from "./catalog.ts";
 
 type Level = "error" | "warn";
 const found: { level: Level; kit: string; msg: string }[] = [];
@@ -22,6 +23,10 @@ const docs = loaded.map((k) => k.doc);
 
 // ── 2. 빌드 변환(사이트 데이터로 바꿀 때 건너뛰는 행이 있으면 오류)
 for (const w of transform(toSheetRows(docs)).warnings) err("빌드", w);
+
+// ── 2-1. 채널 등급 표(content/channels.yaml) — 수업나래 출처 칩·고르기 순서가 읽는다
+const channelGrades = loadChannelGrades();
+for (const e of channelGrades.errors) err("채널 등급", e);
 
 // ── 3. 성취기준 기준표(2022 사회·과학)
 const ref = JSON.parse(readFileSync(resolve(ROOT, "content/_ref/standards-2022.json"), "utf8")) as {
@@ -97,6 +102,7 @@ for (const d of docs) {
     if (d.flow === "flow" && !it.use) noUse++;
     if (d.flow === "activity") noUse++;
     if (!it.channel) noChannel++;
+    else if (!channelGrades.grades.has(it.channel)) warn(K, `${it.key}: 채널 "${it.channel}"이 등급 표(content/channels.yaml)에 없음 — 넣지 않으면 수업나래에서 "개인 제작"으로 보임`);
     if (it.status && BAD_STATUS.has(it.status)) err(K, `${it.key}: 영상 상태 ${it.status} — 교체 필요 (${at})`);
     else if (it.status === "임베드차단" && it.embed !== false) warn(K, `${it.key}: 임베드차단 — 교체하거나 embed: false`);
     else if (!it.status && it.embed === false && it.channel) warn(K, `${it.key}: embed: false인데 마지막 점검에서는 삽입 재생이 됨 — YouTube API 점검으로 확인 뒤 지울 수 있음`);
@@ -123,7 +129,7 @@ for (const [s, ks] of statements) {
 }
 
 // ── 출력
-const show = found.filter((f) => !only.size || only.has(f.kit) || f.kit === "빌드");
+const show = found.filter((f) => !only.size || only.has(f.kit) || f.kit === "빌드" || f.kit === "채널 등급");
 const byKit = new Map<string, typeof show>();
 for (const f of show) (byKit.get(f.kit) ?? byKit.set(f.kit, []).get(f.kit)!).push(f);
 for (const [kit, list] of [...byKit].sort(([a], [b]) => a.localeCompare(b))) {

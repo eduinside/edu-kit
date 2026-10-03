@@ -75,6 +75,7 @@ export default function App() {
       <Suspense fallback={viewerFallback}>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/m" element={<MixPage />} />
           <Route path="/m/:mixId" element={<MixPage />} />
           <Route path="/m/:mixId/:itemId" element={<MixPage />} />
           <Route path="/:kitId" element={<ViewerPage />} />
