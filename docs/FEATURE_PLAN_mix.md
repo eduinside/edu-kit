@@ -6,6 +6,14 @@
 > - dgedu.link 짧은 주소는 **꾸러미 서버 함수**가 만든다.
 > - 화면은 **기존 뷰어를 재사용**한다.
 >
+> **⚠ 2026-10-03 운영자 결정으로 바뀜 — 모음을 D1에 저장하지 않는다.**
+> - 꾸러미는 **데이터(공개 `/catalog.json`)와 뷰어(`/m?i=<kit>.<key>,…&t=<제목>`)만** 맡는다.
+> - 모음을 고르고 묶는 일은 수업나래가 한다. 나래는 긴 주소를 만들어 직접 dgedu.link로 줄인다.
+> - 꾸러미 사이트의 「모음에 담기」도 같은 `?i=` 주소를 만들고, 서버(`POST /api/shorten`)는 줄이기만 한다.
+> - `POST /api/mix`·`edukit_mixes` 쓰기는 없앤다. `GET /api/mix/:id`와 `/m/:id`는 이미 만든 모음을 열기 위해 남긴다. CORS 목록의 narae도 뺀다.
+> - 아래 §1~§2의 저장·한도·CORS 부분은 이 결정으로 대체된다.
+> - 작업 목록: 수업나래 [REAL-LIFE-MATERIALS-PLAN.md](../../dge-narae/docs/plans/REAL-LIFE-MATERIALS-PLAN.md) §2(K1~K4)
+>
 > 관련: 수업나래 연계 노트 §5-3 ②(`dge-narae/docs/research/REAL-LIFE-CONTEXT-MATERIALS-NOTES.md`), [IMPROVEMENT_PLAN_claude-ops.md](IMPROVEMENT_PLAN_claude-ops.md) §4 S6
 
 ## 1. 화면
