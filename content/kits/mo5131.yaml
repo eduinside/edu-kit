@@ -1,0 +1,109 @@
+id: mo5131
+title: 3. 함께 사는 세상, 봉사하는 우리
+grade: 5
+sem: 1학기
+subject: 도덕
+unit: 3단원
+unit_no: 3
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 봉사는 대가를 바라지 않고 이웃과 사회를 돕는 일이에요. 도움이 필요한 사람의 상황에 관심을 가지고 계획을 세워 꾸준히 실천하면 나와 우리 모두에게 좋은 변화가 생겨요.
+  core_question: 도움이 필요한 이웃을 위해 나는 어떤 봉사를 계획하고 꾸준히 실천할 수 있을까?
+  concepts:
+    - term: 봉사
+      def: 대가를 바라지 않고 이웃이나 사회를 위해 힘과 시간, 재능을 내어 돕는 일이에요.
+    - term: 나눔
+      def: 내가 가진 물건, 시간, 재능, 마음을 다른 사람과 함께 나누는 것이에요.
+    - term: 이웃
+      def: 가까이 사는 사람뿐 아니라 우리와 함께 살아가는 사람들을 말해요. 멀리 사는 사람도 도움이 필요하면 이웃이 될 수 있어요.
+    - term: 자원봉사
+      def: 자기가 스스로 원해서 아무 대가 없이 다른 사람과 사회를 위해 하는 봉사 활동이에요.
+    - term: 실천
+      def: 실천은 알게 된 것을 생각으로만 그치지 않고 직접 행동으로 옮기는 것이에요. 계획한 봉사를 직접 해 보는 것도 실천이에요.
+  standards:
+    - code: "[6도02-01]"
+      text: 봉사의 의미와 중요성을 이해하고, 타인이 처한 상황과 환경에 대한 주의 깊은 관심을 바탕으로 봉사를 실천한다.
+stages:
+  - name: 생각열기
+    question: 봉사란 무엇이고 왜 필요할까?
+  - name: 탐구하기
+    question: 도움이 필요한 이웃은 누구이고, 어떻게 봉사를 계획하고 실천할까?
+  - name: 확장하기
+    question: 봉사를 꾸준히 이어 가려면 어떤 마음과 방법이 필요할까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 아는 사람 이야기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=B0lCkUfecY0
+    desc: 한국중앙자원봉사센터와 EBS 지식채널e가 함께 만든, 가까운 사람의 봉사 이야기예요.
+    channel: 한국중앙자원봉사센터
+  - key: v2
+    stage: 생각열기
+    title: 여러분에게 자원봉사란?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=VUFG39MV5Qc
+    desc: 자원봉사 홍보대사인 작곡가와 아나운서가 자원봉사가 무엇인지 이야기해요.
+    channel: 한국중앙자원봉사센터
+  - key: v3
+    stage: 생각열기
+    title: 자원봉사 동화 — 도움을 주면 돌아오는 행복
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=imXwj8CbYG0
+    desc: 도움이 필요한 친구를 돕고 동네를 청소하는 '봉사 대장 자봉이' 이야기로 자원봉사는 주는 사람도 행복해진다는 것을 알려 줘요.
+    channel: 경기도자원봉사센터
+  - key: v4
+    stage: 탐구하기
+    title: 봉사는 즐거워요 — 어린이 봉사단체
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=PbsznkUTy2M
+    desc: 안동의 초등학생들이 스스로 봉사 단체를 만들어 매달 봉사 활동을 하는 이야기를 전해요.
+    channel: KBS뉴스 대구경북
+  - key: v5
+    stage: 탐구하기
+    title: 자원봉사센터란?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ZFQHlKFbmCE
+    desc: 자원봉사센터가 어떤 일을 하는 곳인지, 봉사하고 싶을 때 어디로 가면 되는지 알려 줘요.
+    channel: 한국중앙자원봉사센터
+  - key: v6
+    stage: 확장하기
+    title: 작은 손길, 큰 감동 — 대구 청소년 재능기부봉사 한마당
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=jLsG5ams4W0
+    desc: 대구시청소년재능기부봉사단이 어린이공원에서 재능기부 봉사한마당을 연 소식이에요.
+    channel: 대구일보TV
+  - key: v7
+    stage: 확장하기
+    title: 급여 끝전 모아 6년째 나눔 실천
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=eBFSL4rbMTQ
+    desc: 서구청 공무원들이 6년째 급여의 끝전을 모아 어려운 이웃을 돕는 나눔을 전해요.
+    channel: ch B tv 대구
+quiz:
+  - statement: 봉사는 대가를 바라지 않고 이웃이나 사회를 돕는 일이다.
+    answer: O
+    explain: 봉사는 보상이나 칭찬을 바라지 않고 마음에서 우러나 돕는 일이에요.
+  - statement: 칭찬이나 상을 받으려고 하는 일도 참된 봉사이다.
+    answer: X
+    explain: 참된 봉사는 칭찬이나 상 같은 대가를 바라지 않고 하는 일이에요.
+  - statement: 도움이 필요한 이웃은 가까운 곳뿐 아니라 다른 나라에도 있다.
+    answer: O
+    explain: 도움이 필요한 사람은 우리 동네뿐 아니라 먼 나라에도 있어요.
+  - statement: 물건이나 돈이 많아야만 봉사나 나눔을 할 수 있다.
+    answer: X
+    explain: 시간과 재능, 따뜻한 마음으로도 봉사와 나눔을 할 수 있어요.
+  - statement: 봉사를 할 때는 목표와 역할, 기간을 정해 계획을 세우면 도움이 된다.
+    answer: O
+    explain: 계획을 세우면 누구와 무엇을 언제까지 할지 분명해져서 꾸준히 실천하기 쉬워요.
+  - statement: 멀리 사는 사람은 나와 상관없는 남이라서 도울 필요가 없다.
+    answer: X
+    explain: 멀리 사는 사람도 함께 살아가는 이웃이에요. 도움이 필요하면 관심을 가질 수 있어요.
+  - statement: 자원봉사센터는 봉사할 곳을 알아보고 봉사 활동을 연결해 주는 곳이다.
+    answer: O
+    explain: 자원봉사를 하고 싶을 때 자원봉사센터에서 정보를 얻고 도움을 받을 수 있어요.
+  - statement: 봉사는 한 번 하면 충분해서 돌아보거나 고칠 점을 찾을 필요가 없다.
+    answer: X
+    explain: 봉사를 한 뒤에는 돌아보고 고칠 점을 찾아 다음 봉사에 이어 가야 해요.

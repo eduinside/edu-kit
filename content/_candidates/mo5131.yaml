@@ -41,7 +41,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "1차시 봉사의 뜻과 가치"
     desc: "한국중앙자원봉사센터와 EBS 지식채널e가 함께 만든, 가까운 사람의 봉사 이야기예요."
-    verdict: 추천
+    verdict: 채택
+    reviewer: 운영자
     note: "2019. 설명란에 종료된 방송 이벤트 안내 문구가 있으나 영상 내용과는 무관. 지도서가 인용한 1365·한국중앙자원봉사센터 계열."
   - cand_no: c02
     stage: 생각열기
@@ -54,7 +55,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "1차시 봉사의 뜻"
     desc: "자원봉사 홍보대사인 작곡가와 아나운서가 자원봉사가 무엇인지 이야기해요."
-    verdict: 추천
+    verdict: 채택
+    reviewer: 운영자
     note: "유명인(홍보대사) 출연 홍보 영상(2019). 1분 50초 동기 유발용."
   - cand_no: c03
     stage: 생각열기
@@ -67,7 +69,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "1차시 봉사의 뜻과 가치"
     desc: "도움이 필요한 친구를 돕고 동네를 청소하는 '봉사 대장 자봉이' 이야기로 자원봉사는 주는 사람도 행복해진다는 것을 알려 줘요."
-    verdict: 추천
+    verdict: 채택
+    reviewer: 운영자
     note: "어린이용 동화(2020). 경기도 센터 제작."
   - cand_no: c04
     stage: 탐구하기
@@ -81,7 +84,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "3차시 봉사자 인터뷰·실천"
     desc: "안동의 초등학생들이 스스로 봉사 단체를 만들어 매달 봉사 활동을 하는 이야기를 전해요."
-    verdict: 추천
+    verdict: 채택
+    reviewer: 운영자
     note: "지도서가 인용한 KBS뉴스 대구경북 어린이 봉사 보도 계열(2022, 안동). 학생 출연 뉴스."
   - cand_no: c05
     stage: 탐구하기
@@ -94,7 +98,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "3차시 봉사 계획·점검"
     desc: "자원봉사 활동 현장에서 생길 수 있는 위험과 안전 수칙을 알려 줘요."
-    verdict: 확인필요
+    verdict: 제외
+    reviewer: 운영자
     note: "청소년 대상(2026-01) — 5학년 눈높이와 봉사 계획의 안전 점검에 맞는지 시청 확인 필요."
   - cand_no: c06
     stage: 탐구하기
@@ -107,7 +112,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "2차시 도울 방법 찾기"
     desc: "자원봉사센터가 어떤 일을 하는 곳인지, 봉사하고 싶을 때 어디로 가면 되는지 알려 줘요."
-    verdict: 추천
+    verdict: 채택
+    reviewer: 운영자
     note: "2017 영상. 봉사 정보를 찾는 방법과 연결."
   - cand_no: c07
     stage: 탐구하기
@@ -120,7 +126,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "2차시 도울 방법 찾기"
     desc: "코로나로부터 우리를 지키기 위해 움직인 자원봉사자들의 활동을 이야기로 담았어요."
-    verdict: 보류
+    verdict: 제외
+    reviewer: 운영자
     note: "행정안전부 제작(2020), 코로나 시기 맥락이 지나가 학생 눈높이·현재성이 약함."
   - cand_no: c08
     stage: 확장하기
@@ -134,7 +141,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "4차시 꾸준한 실천"
     desc: "대구시청소년재능기부봉사단이 어린이공원에서 재능기부 봉사한마당을 연 소식이에요."
-    verdict: 추천
+    verdict: 채택
+    reviewer: 운영자
     note: "대구 지역 언론(2025). 새 채널(대구일보TV)."
   - cand_no: c09
     stage: 확장하기
@@ -148,7 +156,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "3차시 봉사자 인터뷰"
     desc: "그린기프트봉사단장이 책을 소개하는 대구 뉴스 코너예요."
-    verdict: 보류
+    verdict: 제외
+    reviewer: 운영자
     note: "책 소개 코너 성격이라 봉사 내용이 약함(2021)."
   - cand_no: c10
     stage: 생각열기
@@ -162,7 +171,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "1차시 봉사의 뜻"
     desc: "대구 청소년들이 4가지 질문에 자원봉사에 대한 생각을 말해요."
-    verdict: 확인필요
+    verdict: 제외
+    reviewer: 운영자
     note: "대구 공공기관 제작(2023), 1분 1초. 쇼츠가 아님을 API로 확인. 청소년 인터뷰라 눈높이·내용 확인 필요. 새 채널."
   - cand_no: c11
     stage: 탐구하기
@@ -176,7 +186,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "2차시 도울 방법 찾기"
     desc: "대구광역시자원봉사센터가 소개하는 대구 자원봉사 이야기예요."
-    verdict: 보류
+    verdict: 제외
+    reviewer: 운영자
     note: "센터 홍보 성격, 내용이 얕음(2020). 새 채널."
   - cand_no: c12
     stage: 확장하기
@@ -190,7 +201,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "4차시 꾸준한 실천"
     desc: "서구청 공무원들이 6년째 급여의 끝전을 모아 어려운 이웃을 돕는 나눔을 전해요."
-    verdict: 추천
+    verdict: 채택
+    reviewer: 운영자
     note: "대구 지역 언론(2021). 어른 사례지만 '꾸준한 나눔' 모범."
   - cand_no: c13
     stage: 확장하기
@@ -204,7 +216,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "4차시 꾸준한 실천"
     desc: "20년 넘게 한결같이 봉사해 온 사람의 이야기를 전해요."
-    verdict: 보류
+    verdict: 제외
+    reviewer: 운영자
     note: "2013 보도라 오래됨. c12와 겹침."
   - cand_no: c14
     stage: 확장하기
@@ -217,7 +230,8 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "4차시 꾸준한 실천"
     desc: "청소년 자원봉사자가 봉사하며 성장해 간 이야기를 담았어요."
-    verdict: 보류
+    verdict: 제외
+    reviewer: 운영자
     note: "청소년 대상(2017), 경기 지역."
   - cand_no: c15
     stage: 확장하기
@@ -230,5 +244,6 @@ candidates:
     basis_code: "[6도02-01]"
     basis_lesson: "교사 배경"
     desc: "자원봉사로 사회 변화를 이끄는 방식과 활동 기획을 설명하는 전문 교육 영상이에요."
-    verdict: 보류
+    verdict: 제외
+    reviewer: 운영자
     note: "성인·활동가 대상(2021), 8분 21초 — 교사 배경지식으로만."
