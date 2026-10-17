@@ -60,7 +60,7 @@ items:
     channel: 엔트리 공식 채널
   - key: v4
     stage: 순서도
-    title: 기계에 필요한 순서도 (국과대표)
+    title: 기계에 필요한 순서도
     use: 수업 중
     url: https://www.youtube.com/watch?v=L7AM4CxFM-s
     desc: 기계가 일하려면 순서도로 일의 순서를 알려 줘야 한다는 것을 보여 줘요.
@@ -81,21 +81,21 @@ items:
     channel: 엔트리 공식 채널
   - key: v9
     stage: 변수
-    title: 뚜앙코딩 변수풀이 1
+    title: 변수 풀이 1
     use: 수업 중
     url: https://www.youtube.com/watch?v=R_LBLd68FUE
     desc: 대구 선생님이 변수를 쓰는 블록 코딩 미션을 하나씩 풀어 줘요.
     channel: 대구미래교육연구원
   - key: v10
     stage: 변수
-    title: 뚜앙코딩 변수풀이 2
+    title: 변수 풀이 2
     use: 수업 후
     url: https://www.youtube.com/watch?v=3CSGwgkJvIo
     desc: 변수 값이 바뀌는 다음 미션을 풀어 보며 변수를 연습해요.
     channel: 대구미래교육연구원
   - key: v11
     stage: 변수
-    title: 엔트리 변수와 리스트 2-2
+    title: 변수와 리스트 2-2
     use: 수업 중
     url: https://www.youtube.com/watch?v=APdxS6iIg_M
     desc: 변수 만들기와 쓰는 방법을 짧게 보여 줘요.
@@ -109,7 +109,7 @@ items:
     channel: 엔트리 공식 채널
   - key: v13
     stage: 순차 구조
-    title: 엔트리 순차 4-1
+    title: 순차 구조 4-1
     use: 수업 중
     url: https://www.youtube.com/watch?v=kkM2L6Szt3k
     desc: 블록이 위에서 아래로 차례로 실행되는 순차 구조를 설명해요.
@@ -123,14 +123,14 @@ items:
     channel: 엔트리 공식 채널
   - key: v15
     stage: 선택 구조
-    title: 뚜앙코딩 선택구조 풀이 6
+    title: 선택 구조 풀이 6
     use: 수업 중
     url: https://www.youtube.com/watch?v=iEC_IjFWWUQ
     desc: 대구 선생님이 선택 구조가 필요한 미션을 풀어 줘요.
     channel: 대구미래교육연구원
   - key: v16
     stage: 선택 구조
-    title: 뚜앙코딩 선택구조 풀이 8
+    title: 선택 구조 풀이 8
     use: 수업 후
     url: https://www.youtube.com/watch?v=RhNQt2i2ar0
     desc: 조건에 따라 달라지는 미션을 풀어 보며 선택 구조를 연습해요.
@@ -144,7 +144,7 @@ items:
     channel: 엔트리 공식 채널
   - key: v18
     stage: 반복 구조
-    title: 엔트리 반복 5-3
+    title: 반복 구조 5-3
     use: 수업 중
     url: https://www.youtube.com/watch?v=-bLPWlAmBAE
     desc: 블록을 되풀이해 실행하는 반복 구조를 보여 줘요.

@@ -51,21 +51,21 @@ items:
     channel: 국가인권위원회
   - key: v3
     stage: 생각열기
-    title: 학생인권 초등 1화 인권, 넌 누구
+    title: 인권, 넌 누구
     use: 수업 전
     url: https://www.youtube.com/watch?v=eN_fuoq3_Rk
     desc: 인권이 무엇인지 초등학생 눈높이로 처음 만나 보는 서울시교육청 학생인권 시리즈 1화예요.
     channel: 서울시교육청TV
   - key: v4
     stage: 탐구하기
-    title: 학생인권 초등 8화 권리와 책임은 단짝 친구
+    title: 권리와 책임은 단짝 친구
     use: 수업 중
     url: https://www.youtube.com/watch?v=ioVv14tO4-Q
     desc: 내 권리를 지키려면 다른 사람의 권리와 책임도 함께 생각해야 한다는 이야기예요.
     channel: 서울시교육청TV
   - key: v5
     stage: 탐구하기
-    title: 우리의 권리, 우리가 지켜요!(2분 수업 끝)
+    title: 우리의 권리, 우리가 지켜요!
     use: 수업 중
     url: https://www.youtube.com/watch?v=adu7ZVwplSM
     desc: 인권이 무엇인지와 유엔 아동권리협약이 말하는 아동의 네 가지 권리를 알려 줘요.
@@ -79,21 +79,21 @@ items:
     channel: my Mapo마포구
   - key: v7
     stage: 탐구하기
-    title: 학생인권 초등 7화 차별일까 차이일까
+    title: 차별일까 차이일까
     use: 수업 중
     url: https://www.youtube.com/watch?v=e07Wnxts41w
     desc: 다른 점을 차별로 보아야 할 때와 차이로 받아들일 때를 구분해 봐요.
     channel: 서울시교육청TV
   - key: v8
     stage: 탐구하기
-    title: 학생인권 초등 3화 다를까? 틀릴까?
+    title: 다를까? 틀릴까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=hRjocQkE3UE
     desc: 나와 다른 것을 틀렸다고 말하는 것과 다르다고 말하는 것의 차이를 알아봐요.
     channel: 서울시교육청TV
   - key: v9
     stage: 탐구하기
-    title: 인권지킴이 지키 — 혐오와 차별편
+    title: 혐오와 차별, 인권지킴이와 함께
     use: 수업 중
     url: https://www.youtube.com/watch?v=g8xkO7AHJ3g
     desc: 혐오와 차별이 왜 인권을 해치는지 보여 주는 인권 존중 학교용 애니메이션이에요.
@@ -121,7 +121,7 @@ items:
     channel: KBS뉴스 대구경북
   - key: v14
     stage: 확장하기
-    title: 편견과 차별 — 휠체어 체험(VR)
+    title: 편견과 차별 — 휠체어 체험(가상현실)
     use: 수업 후
     url: https://www.youtube.com/watch?v=KBK50p5vjzc
     desc: 휠체어를 탄 사람의 불편을 가상 현실로 체험해 편견과 차별 문제를 생각해 봐요.

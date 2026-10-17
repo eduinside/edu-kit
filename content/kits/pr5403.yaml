@@ -58,21 +58,21 @@ items:
     channel: 대구미래교육연구원
   - key: v4
     stage: 탐구하기
-    title: 따라만 해도 발표 자료 만들기 - 실전편 Lv.1
+    title: 따라만 해도 발표 자료 만들기 - 실전편 1단계
     use: 수업 중
     url: https://www.youtube.com/watch?v=A9howX-54ww
     desc: 발표 자료를 더 잘 보이게 하는 배치(레이아웃) 방법을 알려 줘요.
     channel: 대구미래교육연구원
   - key: v5
     stage: 탐구하기
-    title: 따라만 해도 발표 자료 만들기 - 실전편 Lv.2
+    title: 따라만 해도 발표 자료 만들기 - 실전편 2단계
     use: 수업 중
     url: https://www.youtube.com/watch?v=4-nuPZInvz8
     desc: 그림과 글을 알맞게 넣어 발표 자료의 모습을 다듬는 방법을 알려 줘요.
     channel: 대구미래교육연구원
   - key: v6
     stage: 탐구하기
-    title: 따라만 해도 발표 자료 만들기 - 실전편 Lv.3
+    title: 따라만 해도 발표 자료 만들기 - 실전편 3단계
     use: 수업 후
     url: https://www.youtube.com/watch?v=GmXMBbgqHm8
     desc: 발표 자료를 다시 살펴보고 고쳐서 완성하는 방법을 알려 줘요.
@@ -86,14 +86,14 @@ items:
     channel: 교육부
   - key: v8
     stage: 확장하기
-    title: 헤이대구 정보통신 윤리교육 - 소중한 개인정보
+    title: 정보통신 윤리교육 - 소중한 개인정보
     use: 수업 전
     url: https://www.youtube.com/watch?v=M2H-J8QxA_Y
     desc: 대구에서 만든 짧은 영상으로 소중한 개인정보를 지키는 이유를 알려 줘요.
     channel: 헤이대구
   - key: v9
     stage: 확장하기
-    title: 헤이대구 정보통신 윤리교육 - 네티켓
+    title: 정보통신 윤리교육 - 네티켓
     use: 수업 전
     url: https://www.youtube.com/watch?v=mOQWXKPpsG8
     desc: 인터넷에서 지켜야 할 예절인 네티켓을 짧게 알려 줘요.
@@ -107,14 +107,14 @@ items:
     channel: 저작권TV
   - key: v11
     stage: 확장하기
-    title: 알기 쉬운 지식재산권 - 저작권 (초등 고학년)
+    title: 저작권, 알기 쉽게 (초등 고학년)
     use: 수업 중
     url: https://www.youtube.com/watch?v=PtGLuX225V0
     desc: 초등 고학년에게 저작권이 무엇인지와 지키는 방법을 설명해요.
     channel: 서울시교육청TV
   - key: v12
     stage: 확장하기
-    title: 공유마당 - 저작권 걱정 없는 공유 저작물
+    title: 저작권 걱정 없는 공유 저작물
     use: 수업 중
     url: https://www.youtube.com/watch?v=d--d47lJsLk
     desc: 누구나 자유롭게 쓸 수 있는 공유 저작물을 어디서 찾는지 보여 줘요.

@@ -84,14 +84,14 @@ items:
     channel: 울산광역시교육청
   - key: v8
     stage: 탐구하기
-    title: "[경청] 친구 말 듣기 평가"
+    title: 친구 말 듣기 평가
     use: 수업 중
     url: https://www.youtube.com/watch?v=_5G0LyhjDtw
     desc: 친구의 말을 귀 기울여 듣는 태도를 다룬 서울시 인성교육 애니메이션이에요.
     channel: 서울시 인성교육 애니메이션
   - key: v9
     stage: 확장하기
-    title: "[배려] 체인지"
+    title: 배려, 체인지
     use: 수업 후
     url: https://www.youtube.com/watch?v=Uwj-tq99vms
     desc: 서로의 처지를 헤아려 배려하는 마음을 다룬 서울시 인성교육 애니메이션이에요.

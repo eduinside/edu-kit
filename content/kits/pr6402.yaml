@@ -62,7 +62,7 @@ items:
     channel: 국가환경교육센터
   - key: v4
     stage: 친환경 농업
-    title: 친환경농업 이야기 1화 - 지구를 지킬 팀을 만들어라
+    title: 친환경농업 이야기 — 지구를 지킬 팀을 만들어라
     use: 수업 전
     url: https://www.youtube.com/watch?v=sTFFlXH1hPY
     desc: 자연 친구들과 함께 친환경농업 여행을 떠나는 어린이용 애니메이션이에요.
@@ -76,7 +76,7 @@ items:
     channel: MBClife
   - key: v6
     stage: 친환경 인증
-    title: 3분 스트리트 식품표시 파이터 9화 - 친환경 농산물 표시
+    title: 친환경 농산물 표시
     use: 수업 중
     url: https://www.youtube.com/watch?v=t9gsyMGwzG4
     desc: 친환경 농산물에 붙은 표시가 무슨 뜻인지 짧게 설명해요.
@@ -90,7 +90,7 @@ items:
     channel: 지구를 지키는 농부
   - key: v8
     stage: 스마트팜
-    title: "[신산업 진로체험] 미래농업 - 스마트팜 기술"
+    title: 미래농업 — 스마트팜 기술
     use: 수업 전
     url: https://www.youtube.com/watch?v=HVT1kwdBx8U
     desc: 초등 신산업 진로체험 수업에 쓰는 짧은 영상으로 스마트팜 기술을 소개해요.
@@ -111,7 +111,7 @@ items:
     channel: 농림수산식품교육문화정보원
   - key: v11
     stage: 스마트팜
-    title: "[달팜] 대구 최대 도심형 스마트팜"
+    title: 도심형 스마트팜
     use: 수업 후
     url: https://www.youtube.com/watch?v=Z_Jxn9yEw80
     desc: 대구 달서구에 문을 연 복층 도심형 스마트팜에서 채소가 자라는 모습을 보여 줘요.
@@ -139,14 +139,14 @@ items:
     channel: 농림수산식품교육문화정보원
   - key: v15
     stage: 농업·농촌의 가치
-    title: 보고, 배우고, 가꾸고 - 대구 최초 도시농업체험장 개관
+    title: 보고, 배우고, 가꾸고 — 도시농업체험장 개관
     use: 수업 후
     url: https://www.youtube.com/watch?v=7NLuzKuF3oQ
     desc: 어린이들이 화분을 만들며 농업을 체험하는 대구 도시농업체험장 소식이에요.
     channel: ch B tv 대구
   - key: v16
     stage: 미래 농업 직업
-    title: "[신산업 진로체험] 미래농업 - 다양한 미래 농업 직업"
+    title: 미래농업 — 다양한 미래 농업 직업
     use: 수업 전
     url: https://www.youtube.com/watch?v=YYvY8QX4Njs
     desc: 초등 신산업 진로체험 수업에서 다양한 미래 농업 직업을 소개해요.

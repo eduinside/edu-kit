@@ -42,7 +42,7 @@ items:
     channel: JTBC Life
   - key: v2
     stage: 생각열기
-    title: 기후변화 — 어린이 초록세상(5·6학년)
+    title: 기후변화
     use: 수업 중
     url: https://www.youtube.com/watch?v=l9Eij2_hVWc
     desc: 초등 5·6학년 환경 교과서 자료로, 기후 변화가 무엇이고 왜 생기는지 차근차근 알려 줘요.
@@ -84,14 +84,14 @@ items:
     channel: EBS 지식채널e
   - key: v9
     stage: 탐구하기
-    title: 지구 온난화를 막는 저탄소 사회 — 어린이 초록세상(5·6학년)
+    title: 지구 온난화를 막는 저탄소 사회
     use: 수업 중
     url: https://www.youtube.com/watch?v=5KBnNfvBw64
     desc: 지구 온난화를 막으려면 사회가 어떻게 달라져야 하는지, 저탄소 생활을 5·6학년 눈높이로 설명해요.
     channel: 국가환경교육센터
   - key: v10
     stage: 탐구하기
-    title: 한국업사이클센터 현장체험학습
+    title: 업사이클링 현장체험학습
     use: 수업 중
     url: https://www.youtube.com/watch?v=_niM7ZlV-aw
     desc: 대구 초등 교사들이 만든 영상으로, 한국업사이클센터를 찾아가 새 활용 체험을 둘러봐요.
@@ -119,21 +119,21 @@ items:
     channel: 스브스뉴스 SUBUSUNEWS
   - key: v14
     stage: 확장하기
-    title: 논공초등학교 제로웨이스트
+    title: 학교 제로웨이스트 실천
     use: 수업 후
     url: https://www.youtube.com/watch?v=OyfMzmyMefU
     desc: 생활 속 쓰레기를 줄이는 제로 웨이스트를 실천하는 대구 논공초등학교 학생들의 모습이에요.
     channel: ch B tv 대구
   - key: v15
     stage: 확장하기
-    title: 운암초등학교 나눔장터
+    title: 학교 나눔장터
     use: 수업 후
     url: https://www.youtube.com/watch?v=ewQwtF2u4uY
     desc: 물건의 생산부터 폐기까지 탄소가 생긴다는 것을 알고 나눔장터를 여는 대구 운암초 학생들을 보도해요.
     channel: ch B tv 대구
   - key: v16
     stage: 확장하기
-    title: 월촌초 환경 지킴이
+    title: 학교 환경 지킴이
     use: 수업 후
     url: https://www.youtube.com/watch?v=Uxpe6LAcGM0
     desc: 환경 동아리가 교내 텃밭을 가꾸고 수확물을 나누는 대구 월촌초등학교의 실천을 보도해요.
@@ -147,7 +147,7 @@ items:
     channel: 대구MBC뉴스
   - key: v18
     stage: 확장하기
-    title: 기후 위기와 지속가능한 발전 — 함께 사는 세계시민
+    title: 기후 위기와 지속가능한 발전
     use: 수업 후
     url: https://www.youtube.com/watch?v=djR8MeuOYZs
     desc: 탄소 발자국을 생활 속에서 줄이는 실천으로 지속가능한 발전에 한 걸음 다가가 봐요.

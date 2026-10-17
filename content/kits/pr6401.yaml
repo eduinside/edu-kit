@@ -59,7 +59,7 @@ items:
     channel: 국립어린이과학관
   - key: v4
     stage: 로봇
-    title: 창의나래관에 로봇이 살아 있다
+    title: 로봇이 살아 있는 전시관
     use: 수업 후
     url: https://www.youtube.com/watch?v=6RSicz474Xw
     desc: 내 마음대로 움직이는 손이 하나 더 있다면 어떨지 로봇 체험 전시를 보여 줘요.
@@ -94,7 +94,7 @@ items:
     channel: 국가과학기술연구회(nst)
   - key: v9
     stage: 제어 장치
-    title: 로봇 탐구 생활 2화 - 구조편
+    title: 로봇 탐구 — 구조편
     use: 수업 중
     url: https://www.youtube.com/watch?v=_4XIpv0S_ts
     desc: 로봇 본체와 뇌에 해당하는 제어기, 제어 기술까지 로봇의 구성과 원리를 차례로 설명해요.
@@ -122,7 +122,7 @@ items:
     channel: KISTI의 과학향기
   - key: v13
     stage: 융합 기술
-    title: KIST 비대면 방역 배송 로봇
+    title: 비대면 방역 배송 로봇
     use: 수업 후
     url: https://www.youtube.com/watch?v=NSoU-1AbcJA
     desc: 병원에서 사람 대신 물건을 나르고 방역까지 하는 로봇을 실제로 써 본 소식이에요.
@@ -136,7 +136,7 @@ items:
     channel: 대구MBC뉴스
   - key: v15
     stage: 융합 기술
-    title: AI 로봇 수도 대구, 휴머노이드 선점 총력
+    title: 인공지능 로봇 산업, 휴머노이드 선점 경쟁
     use: 수업 후
     url: https://www.youtube.com/watch?v=dF-ay8mWMGM
     desc: 대구가 로봇 산업의 중심이 되려고 준비하는 모습을 지역 뉴스로 전해요.

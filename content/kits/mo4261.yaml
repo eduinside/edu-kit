@@ -35,21 +35,21 @@ stages:
 items:
   - key: v1
     stage: 생각열기
-    title: "[클립영상] 우리는 언제부터 분단국가였을까?"
+    title: 우리는 언제부터 분단국가였을까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=kdkWC74a2o8
     desc: 할아버지와 할머니의 어린 시절을 떠올리며 우리나라가 언제 어떻게 나뉘었는지 알아봐요.
     channel: 국립평화통일민주교육원
   - key: v2
     stage: 생각열기
-    title: "[클립영상] 남북 분단과 이산가족"
+    title: 남북 분단과 이산가족
     use: 수업 중
     url: https://www.youtube.com/watch?v=dOXs5t3A5Dw
     desc: 가족을 영영 볼 수 없다면 어떨까 생각하며 분단이 남긴 이산가족의 아픔을 알아봐요.
     channel: 국립평화통일민주교육원
   - key: v3
     stage: 생각열기
-    title: "[통일교육 동영상] 이산가족 마지막 소원"
+    title: 이산가족 마지막 소원
     use: 수업 중
     url: https://www.youtube.com/watch?v=b622iITs_f0
     desc: 이산가족이 가족을 만나고 싶어 하는 마지막 소원을 담은 통일교육 영상이에요.
@@ -63,42 +63,42 @@ items:
     channel: KBS News
   - key: v5
     stage: 탐구하기
-    title: "[학교 종이 통통통] EP1-1 우리가 통일을 해야 하는 이유"
+    title: 우리가 통일을 해야 하는 이유
     use: 수업 중
     url: https://www.youtube.com/watch?v=UQ_GZ7lMHLI
     desc: 통일이 왜 필요한지 낱말 풀이로 알아보는 통일교육원 어린이 프로그램이에요.
     channel: 국립평화통일민주교육원
   - key: v6
     stage: 탐구하기
-    title: "[클립영상] 독일은 어떻게 통일했을까?"
+    title: 독일은 어떻게 통일했을까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=J5AivH_jO8k
     desc: 통일이 된 한국을 상상해 보며 독일이 어떻게 통일했는지 알아봐요.
     channel: 국립평화통일민주교육원
   - key: v7
     stage: 탐구하기
-    title: "[클립영상] 통일을 위한 여러가지의 노력들"
+    title: 통일을 위한 여러 가지 노력들
     use: 수업 중
     url: https://www.youtube.com/watch?v=l7L5mUuz9og
     desc: 지금까지 통일을 이루기 위해 해 온 여러 노력을 알아봐요.
     channel: 국립평화통일민주교육원
   - key: v8
     stage: 탐구하기
-    title: "[애니메이션] 이혜리와 리혜리"
+    title: 이혜리와 리혜리
     use: 수업 중
     url: https://www.youtube.com/watch?v=Y0YFtVoUPw0
     desc: 남과 북의 어린이가 다름을 인정하고 진정한 친구가 되는 통일 그림동화 애니메이션이에요.
     channel: 국립평화통일민주교육원
   - key: v9
     stage: 탐구하기
-    title: "[공감영상] 뽀로로와 친구들"
+    title: 화해하고 협력하는 이야기 — 통일을 생각해요
     use: 수업 중
     url: https://www.youtube.com/watch?v=4YP_vQIuZtg
     desc: 뽀로로와 크롱의 화해 이야기를 통해 남북이 서로 협력하는 통일을 생각해 봐요.
     channel: 국립평화통일민주교육원
   - key: v10
     stage: 탐구하기
-    title: 2015년 통일교육 수달의 꿈
+    title: 비무장지대 수달의 꿈
     use: 수업 후
     url: https://www.youtube.com/watch?v=fF8lA1-cQFE
     desc: DMZ에서 힘들게 살아가는 수달의 모습을 통해 한반도의 평화와 통일을 바라는 이야기예요.
@@ -112,21 +112,21 @@ items:
     channel: 통일부UNITV
   - key: v12
     stage: 확장하기
-    title: "[클립영상] 북한학생들의 학교 생활은 어떨까?"
+    title: 북한 학생들의 학교 생활은 어떨까?
     use: 수업 후
     url: https://www.youtube.com/watch?v=c_iaGi0LCm0
     desc: 북한 학생들의 하루를 보며 우리와 같은 점과 다른 점을 찾아봐요.
     channel: 국립평화통일민주교육원
   - key: v13
     stage: 확장하기
-    title: 2019 초등 6학년 도덕 통일, 무엇이든 물어보세요
+    title: 통일, 무엇이든 물어보세요
     use: 수업 후
     url: https://www.youtube.com/watch?v=nNI5j0nOj5s
     desc: 레고 캐릭터가 나오는 스톱모션 대담쇼로 통일에 대한 궁금증을 풀어 줘요.
     channel: 국립평화통일민주교육원
   - key: v14
     stage: 확장하기
-    title: 대구장산초 제10회 통일교육주간 현장이야기
+    title: 통일교육주간 학교 현장 이야기
     use: 수업 후
     url: https://www.youtube.com/watch?v=BqTN7s9X3JY
     desc: 대구의 한 초등학교에서 통일교육주간에 한 활동을 보여 줘요.

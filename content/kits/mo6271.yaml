@@ -37,42 +37,42 @@ stages:
 items:
   - key: v1
     stage: 생각열기
-    title: 국가 지속가능발전목표(K-SDGs)
+    title: 국가 지속가능발전목표
     use: 수업 중
     url: https://www.youtube.com/watch?v=GJZXJaZx0WQ
     desc: 환경, 경제, 사회가 함께 발전해야 한다는 국가 지속가능발전목표가 무엇인지 소개해요.
     channel: 기후에너지환경부
   - key: v2
     stage: 생각열기
-    title: 지속가능발전교육(ESD)이란
+    title: 지속가능발전교육이란
     use: 수업 중
     url: https://www.youtube.com/watch?v=B7P3ojRQI8Y
     desc: 지속가능발전, 지속가능발전목표, 이를 배우는 교육의 개념을 쉽게 풀어 줘요.
     channel: 유네스코한국위원회 - KNCU
   - key: v3
     stage: 생각열기
-    title: 펭수가 알려주는 잘 먹고 잘 사는 법 — K-SDGs
+    title: 잘 먹고 잘 사는 법 — 지속가능발전목표
     use: 수업 전
     url: https://www.youtube.com/watch?v=b_g8uI3svDw
     desc: 펭수와 범이가 사람·번영·환경·평화를 지키며 함께 잘 사는 법을 알려 줘요.
     channel: 기후에너지환경부
   - key: v4
     stage: 생각열기
-    title: 지구를 구하는 ESD 실천 캠페인 1편 — ESD란 무엇인가요?
+    title: 지구를 구하는 지속가능발전교육 실천 캠페인
     use: 수업 전
     url: https://www.youtube.com/watch?v=2f33pTcfiQY
     desc: 지속가능발전교육이 무엇인지 짧게 소개하고 실천 행동으로 이어지게 하는 교육청 캠페인 영상이에요.
     channel: 세종시교육청
   - key: v5
     stage: 생각열기
-    title: 달콤기후 만들기 — 기상청×브레드이발소
+    title: 달콤 기후 만들기
     use: 수업 전
     url: https://www.youtube.com/watch?v=YJ-zO_Zplqs
     desc: 베이커리타운이 점점 더워지는 까닭을 찾고 탄소 배출을 줄이는 노력을 알아보는 애니메이션이에요.
     channel: 대한민국 기상청
   - key: v6
     stage: 탐구하기
-    title: 빌려 쓴 걸 망가뜨려서 돌려주진 않잖아요 — 미래세대, 미래를 말하다
+    title: 빌려 쓴 걸 망가뜨려서 돌려주진 않잖아요
     use: 수업 중
     url: https://www.youtube.com/watch?v=FXrsw2vQPuU
     desc: 먼 미래에 온전한 지구를 돌려주기 위해 일상의 작은 것부터 바꿔 가자는 환경부 영상이에요.
@@ -86,7 +86,7 @@ items:
     channel: KBS뉴스 대구경북
   - key: v8
     stage: 탐구하기
-    title: 그린벨 환경교육 영상 — 기후위기편
+    title: 기후위기 환경교육 영상
     use: 수업 중
     url: https://www.youtube.com/watch?v=L7WY7Nm0WjA
     desc: 대구녹색학습원이 환경교육용으로 만든 기후 위기 영상 자료예요.
@@ -100,7 +100,7 @@ items:
     channel: "EBSi "
   - key: v10
     stage: 탐구하기
-    title: 탄소이야기 1 — 누가 지구를 뜨겁게 만들었나?
+    title: 누가 지구를 뜨겁게 만들었나?
     use: 수업 중
     url: https://www.youtube.com/watch?v=Af2an3IuNHw
     desc: 탄소중립이 무엇이고 지구가 뜨거워진 까닭이 무엇인지 한 번에 정리해 줘요.
@@ -128,14 +128,14 @@ items:
     channel: ch B tv 대구
   - key: v14
     stage: 확장하기
-    title: 다회용기로 환경 지키는 소셜픽션협동조합
+    title: 다회용기로 환경 지키기
     use: 수업 후
     url: https://www.youtube.com/watch?v=WkAJ0idh_BU
     desc: 축제와 행사에서 다회용기를 빌려주고 거두어 씻어 쓰는 대구의 사회적경제기업 이야기예요.
     channel: KBS뉴스 대구경북
   - key: v15
     stage: 확장하기
-    title: 탄소중립 '지금 우리는' — 자전거로 실천하는 학교
+    title: 자전거로 실천하는 학교
     use: 수업 후
     url: https://www.youtube.com/watch?v=_hJm9C28hXA
     desc: 대구진월초 5·6학년이 자전거를 타고 쓰레기를 주우며 탄소중립을 실천하는 모습을 전해요.

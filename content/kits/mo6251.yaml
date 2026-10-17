@@ -51,7 +51,7 @@ items:
     channel: 국립평화통일민주교육원
   - key: v3
     stage: 생각열기
-    title: 통일한국 미리보기 — 한반도통일미래센터
+    title: 통일한국 미리보기
     use: 수업 중
     url: https://www.youtube.com/watch?v=9Edapnpmlu8
     desc: 미래행 열차를 타고 통일 한국의 모습을 미리 둘러보는 체험 영상이에요.
@@ -93,7 +93,7 @@ items:
     channel: 국립평화통일민주교육원
   - key: v9
     stage: 탐구하기
-    title: 북한 평양 아이들이 즐기는 놀이
+    title: 북한 아이들이 즐기는 놀이
     use: 수업 중
     url: https://www.youtube.com/watch?v=F2qctXqSP5Y
     desc: 북한 아이들이 즐기는 놀이를 보며 우리 놀이와 닮은 점을 찾아봐요.
@@ -128,7 +128,7 @@ items:
     channel: 국립평화통일민주교육원
   - key: v14
     stage: 확장하기
-    title: 슬기로운 초딩생활 — 통일부 어린이기자단
+    title: 어린이기자단이 하는 일
     use: 수업 후
     url: https://www.youtube.com/watch?v=EI7l-MoDEwg
     desc: 통일부 어린이 기자단이 어떤 활동을 하는지 소개해 어린이가 통일을 위해 할 수 있는 일을 떠올리게 해요.

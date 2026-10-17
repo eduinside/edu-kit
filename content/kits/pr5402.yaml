@@ -94,7 +94,7 @@ items:
     channel: 국토교통부
   - key: v10
     stage: 토목 구조물
-    title: 보령해저터널은 어떻게 만들어졌을까
+    title: 해저터널은 어떻게 만들어졌을까
     use: 수업 중
     url: https://www.youtube.com/watch?v=6PV-J3ZMYTY
     desc: 바닷속 80m 아래에 국내에서 가장 긴 터널을 어떻게 만들었는지 알려 줘요.
@@ -129,7 +129,7 @@ items:
     channel: YTN 사이언스
   - key: v15
     stage: 친환경 건설
-    title: 재생에너지 도입한 친환경 건축물 서울시 청사
+    title: 재생에너지를 도입한 친환경 건축물 청사
     use: 수업 후
     url: https://www.youtube.com/watch?v=xBIXRvg7nu0
     desc: 서울시 청사가 재생에너지를 도입해 에너지를 아끼는 모습을 소개해요.

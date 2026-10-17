@@ -72,14 +72,14 @@ items:
     channel: KTV 국민방송
   - key: v6
     stage: 탐구하기
-    title: 은혜를 갚는 대한민국 — 6·25 해외 참전국 ODA
+    title: 은혜를 갚는 대한민국 — 6·25 참전국 지원
     use: 수업 중
     url: https://www.youtube.com/watch?v=y_-evWQ_F4E
     desc: 6·25 때 우리를 도운 에티오피아, 콜롬비아, 필리핀에 이제 우리가 개발협력으로 보답하는 이야기예요.
     channel: ODA Korea Official Channel
   - key: v7
     stage: 탐구하기
-    title: 울산 안착 1년 4개월, 아프간 아이들의 한국어 교실
+    title: 아프간 아이들의 한국어 교실
     use: 수업 중
     url: https://www.youtube.com/watch?v=gMW4y-lpx70
     desc: 아프가니스탄에서 온 아이들이 울산에서 한국어를 배우며 적응해 가는 모습을 전해요.
@@ -93,7 +93,7 @@ items:
     channel: EBS뉴스
   - key: v9
     stage: 탐구하기
-    title: ODA, 6살 어린이도 이해한다고? — knock knock knock
+    title: 공적개발원조, 6살 어린이도 이해한다고?
     use: 수업 중
     url: https://www.youtube.com/watch?v=6RHu1nwsLG0
     desc: 도움을 받던 나라에서 도움을 주는 나라가 되기까지 이야기를 전래동화처럼 쉽게 들려줘요.
@@ -121,14 +121,14 @@ items:
     channel: KBS News
   - key: v13
     stage: 확장하기
-    title: 봉사도 하고 문화도 알려요 — 대구 학생 해외체험
+    title: 봉사도 하고 문화도 알려요 — 학생 해외체험
     use: 수업 후
     url: https://www.youtube.com/watch?v=eEOwQPJEZw4
     desc: 대구교육청이 학생 해외 파견에서 한국 문화를 알리고 봉사 활동을 하는 방향으로 바꾼 소식이에요.
     channel: KBS뉴스 대구경북
   - key: v14
     stage: 확장하기
-    title: 모두가 원하는 세상이 오다(ODA)
+    title: 모두가 원하는 세상이 오다 (공적개발원조)
     use: 수업 후
     url: https://www.youtube.com/watch?v=Xro4C-CCcIY
     desc: 우리의 관심이 누군가의 내일을 밝힌다는 메시지로 ODA를 알리는 국무조정실 홍보영상이에요.

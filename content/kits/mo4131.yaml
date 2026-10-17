@@ -35,7 +35,7 @@ stages:
 items:
   - key: v1
     stage: 생각열기
-    title: 배려는 언제 필요할까? 또깨비 가족
+    title: 배려는 언제 필요할까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=Zor16s9tQZs
     desc: 배려가 어떤 마음인지 이야기로 알아보고 언제 배려가 필요한지 생각해 봐요.
@@ -49,7 +49,7 @@ items:
     channel: 서울시 인성교육 애니메이션
   - key: v3
     stage: 생각열기
-    title: 생소한이유 10. 친구는 소중해
+    title: 친구는 소중해
     use: 수업 중
     url: https://www.youtube.com/watch?v=PrYfC6ALgCs
     desc: 친구가 왜 소중한지 생각해 보는 대구미래교육연구원 생명존중교육 영상이에요.
@@ -63,7 +63,7 @@ items:
     channel: 서울시 인성교육 애니메이션
   - key: v5
     stage: 탐구하기
-    title: 배려가 필요해! 경남교육영상공모대회 초등부문
+    title: 배려가 필요해! 초등학생이 만든 영상
     use: 수업 중
     url: https://www.youtube.com/watch?v=PfDwHNreWZk
     desc: 초등학생들이 만든 영상으로 배려가 필요한 장면을 보여 줘요.

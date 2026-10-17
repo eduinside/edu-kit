@@ -154,14 +154,14 @@ items:
     channel: 한국에너지기술연구원
   - key: v18
     stage: 미래 수송 수단
-    title: K-UAM이 가져올 미래 미리보기
+    title: 도심항공교통이 가져올 미래 미리보기
     use: 수업 후
     url: https://www.youtube.com/watch?v=_XutdcHRBUk
     desc: 도심 하늘을 나는 UAM 같은 미래 수송 수단을 소개해요.
     channel: 국토교통부
   - key: v19
     stage: 미래 수송 수단
-    title: 하이퍼루프는 머스크의 아이디어일까 (1분 레일테크)
+    title: 하이퍼루프는 머스크의 아이디어일까
     use: 수업 후
     url: https://www.youtube.com/watch?v=FfXYheE8jd0
     desc: 하이퍼루프의 원리와 우리 기술을 철도기술연구원이 설명해요.

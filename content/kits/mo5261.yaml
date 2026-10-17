@@ -72,21 +72,21 @@ items:
     channel: ch B tv 대구
   - key: v6
     stage: 확장하기
-    title: 왕의 재판에서 오늘의 법정까지 — 찰리와 함께 하는 재판 이야기 1화
+    title: 왕의 재판에서 오늘의 법정까지
     use: 수업 중
     url: https://www.youtube.com/watch?v=VUxsjSP3hVs
     desc: 옛날 왕의 재판부터 오늘날의 공정한 사법제도까지 재판이 어떻게 달라졌는지 알려 줘요.
     channel: 대한민국 대법원
   - key: v7
     stage: 확장하기
-    title: 법정의 숨은 원칙 — 찰리와 함께 하는 재판 이야기 2화
+    title: 법정의 숨은 원칙
     use: 수업 중
     url: https://www.youtube.com/watch?v=vFE7TVNJY1s
     desc: 재판청구권, 공개재판, 삼권분립, 3심제처럼 우리를 지켜 주는 법정의 원칙을 알려 줘요.
     channel: 대한민국 대법원
   - key: v8
     stage: 확장하기
-    title: 판사님과의 두근두근 만남 — 찰리와 함께 하는 재판 이야기 4화
+    title: 판사님과의 두근두근 만남
     use: 수업 후
     url: https://www.youtube.com/watch?v=1lmsMiBYiXs
     desc: 좋은 판사가 되기 위한 자세와 공정한 재판의 중요성을 판사님을 만나며 알려 줘요.

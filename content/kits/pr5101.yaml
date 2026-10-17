@@ -58,28 +58,28 @@ items:
     channel: EBS 지식채널e
   - key: v4
     stage: 탐구하기
-    title: 골고루 키쑤욱 — 키 성장과 7가지 건강생활습관
+    title: 키 성장과 7가지 건강생활습관
     use: 수업 전
     url: https://www.youtube.com/watch?v=zQ9Fs67dqQw
     desc: 키가 자라는 데 영향을 주는 7가지 건강 생활 습관을 짧게 알려 줘요.
     channel: 제주특별자치도교육청
   - key: v5
     stage: 탐구하기
-    title: 골고루 키쑤욱 — 올바른 수면과 성장호르몬
+    title: 올바른 수면과 성장호르몬
     use: 수업 중
     url: https://www.youtube.com/watch?v=GqEOWJZsonw
     desc: 잘 자는 것이 성장호르몬과 어떻게 이어지는지 알려 줘요.
     channel: 제주특별자치도교육청
   - key: v6
     stage: 탐구하기
-    title: 골고루 키쑤욱 — 성장판을 자극하는 신체활동
+    title: 성장판을 자극하는 신체활동
     use: 수업 중
     url: https://www.youtube.com/watch?v=_pqc22DVBU8
     desc: 몸을 움직이는 활동이 성장에 도움이 되는 까닭을 알려 줘요.
     channel: 제주특별자치도교육청
   - key: v7
     stage: 탐구하기
-    title: 대구 영양상담 — 올바른 성장
+    title: 영양상담 — 올바른 성장
     use: 수업 중
     url: https://www.youtube.com/watch?v=9wJqPo5oEco
     desc: 성장에 필요한 영양과 식습관을 대구광역시교육청 영양교사가 안내해요.

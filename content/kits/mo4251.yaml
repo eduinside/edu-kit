@@ -35,14 +35,14 @@ stages:
 items:
   - key: v1
     stage: 생각열기
-    title: "[생명존중교육] 사이버 공간 속 예절"
+    title: 사이버 공간 속 예절
     use: 수업 전
     url: https://www.youtube.com/watch?v=pTiuYp57bWM
     desc: 사이버 공간에서도 지켜야 할 예절이 무엇인지 짧게 알려 주는 대구 교육연구기관 영상이에요.
     channel: 대구미래교육연구원
   - key: v2
     stage: 생각열기
-    title: 헤이대구 정보통신 윤리교육 — 초등편
+    title: 정보통신 윤리교육 — 초등편
     use: 수업 전
     url: https://www.youtube.com/watch?v=NEeOCYl-tYM
     desc: 사이버 폭력은 나도 피해자가 될 수 있다는 점을 짧게 알려 주는 대구 사례 영상이에요.
@@ -56,14 +56,14 @@ items:
     channel: 저작권TV
   - key: v4
     stage: 생각열기
-    title: 개인정보보호 교육과정 초등학생용 ① 개인정보? 그게 뭐예요?
+    title: 개인정보? 그게 뭐예요?
     use: 수업 중
     url: https://www.youtube.com/watch?v=TMQEK5MAwFE
     desc: 개인정보가 무엇이고 왜 중요한지 초등학생에게 알려 주는 한국인터넷진흥원 강의예요.
     channel: 한국인터넷진흥원(KISA118)
   - key: v5
     stage: 생각열기
-    title: 개인 정보는 소중해 또깨비 가족
+    title: 개인 정보는 소중해
     use: 수업 중
     url: https://www.youtube.com/watch?v=9vlW2w5TfV8
     desc: 경품을 받으려고 가족의 전화번호를 적어 주었다가 생긴 일을 보며 개인 정보가 왜 소중한지 생각해 봐요.
@@ -77,35 +77,35 @@ items:
     channel: 경기도교육청TV
   - key: v7
     stage: 탐구하기
-    title: 사이버폭력 사례 애니메이션 — 넌 빠져
+    title: 사이버폭력 이야기 — 넌 빠져
     use: 수업 중
     url: https://www.youtube.com/watch?v=TH_ZkLozlz4
     desc: 체육 시간의 실수 뒤 온라인에서 언어폭력이 생기는 사례를 보며 해결 방법을 생각해 봐요.
     channel: 아름다운 디지털 세상
   - key: v8
     stage: 탐구하기
-    title: 사이버폭력 사례 애니메이션 — 켜지말걸그랬어
+    title: 사이버폭력 이야기 — 켜지 말걸 그랬어
     use: 수업 중
     url: https://www.youtube.com/watch?v=l24YIXd_lGI
     desc: 친구의 휴대폰 속 아이디를 도용했다가 생기는 일을 통해 사이버 도용이 왜 잘못인지 생각해 봐요.
     channel: 아름다운 디지털 세상
   - key: v9
     stage: 탐구하기
-    title: 개인정보보호 교육과정 초등학생용 ② 개인정보가 위험해요!
+    title: 개인정보가 위험해요!
     use: 수업 중
     url: https://www.youtube.com/watch?v=5bE8xmOzAfg
     desc: 개인정보가 유출되는 사례와 유출됐을 때의 대응 방법을 알려 줘요.
     channel: 한국인터넷진흥원(KISA118)
   - key: v10
     stage: 탐구하기
-    title: 알기 쉬운 지식재산권 — 저작권(초등 고학년)
+    title: 저작권, 알기 쉽게 (초등 고학년)
     use: 수업 중
     url: https://www.youtube.com/watch?v=PtGLuX225V0
     desc: 학생이 알아야 할 저작권 상식을 쉽게 정리한 서울시교육청 영상이에요.
     channel: 서울시교육청TV
   - key: v11
     stage: 탐구하기
-    title: 사이버 언어폭력 예방교육 동영상
+    title: 사이버 언어폭력 예방교육
     use: 수업 중
     url: https://www.youtube.com/watch?v=IVGaKrYHKwA
     desc: 사이버 공간에서 말로 상처 주는 일을 막는 방법을 알려 주는 충남교육청·충남경찰청 공동 제작 영상이에요.
@@ -119,21 +119,21 @@ items:
     channel: 대구POL TV
   - key: v13
     stage: 확장하기
-    title: "[초등학생] 1차시 스마트폰 과의존, 초등학생에게 묻다"
+    title: 스마트폰 과의존, 초등학생에게 묻다
     use: 수업 중
     url: https://www.youtube.com/watch?v=HIT7ZgOEpoI
     desc: 초등학생에게 스마트폰 과의존이 무엇인지 묻고 답하며 내 사용 습관을 돌아보게 해요.
     channel: 한국지능정보사회진흥원 스마트쉼센터
   - key: v14
     stage: 확장하기
-    title: "[대구MBC뉴스] 청소년 스마트폰 과의존 치유"
+    title: 청소년 스마트폰 과의존 치유
     use: 수업 후
     url: https://www.youtube.com/watch?v=PGpqqj6711c
     desc: 청소년 스마트폰 과의존을 치유하는 프로그램을 소개하는 대구 지역 뉴스예요.
     channel: 대구MBC뉴스
   - key: v15
     stage: 확장하기
-    title: 신중한 Enter, 디지털폭력 Esc — 캠페인
+    title: 신중하게 누르고 디지털폭력은 멈추기 — 캠페인
     use: 수업 후
     url: https://www.youtube.com/watch?v=ySdb5OlFNtE
     desc: 디지털 폭력을 막기 위해 누르기 전에 한 번 더 생각하자는 캠페인 영상이에요.

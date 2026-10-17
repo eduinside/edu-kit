@@ -73,7 +73,7 @@ items:
     channel: 국립대구과학관 Scientry
   - key: v6
     stage: 적정 기술
-    title: 초록보물찾기 4 적정기술
+    title: 적정기술 이야기
     use: 수업 중
     url: https://www.youtube.com/watch?v=1rNsUT4aBGI
     desc: 초등 5~6학년 환경 체험 교재로 만든 영상으로 적정기술이 무엇이고 환경과 어떻게 이어지는지 알려 줘요.
@@ -94,14 +94,14 @@ items:
     channel: 대구미래교육연구원
   - key: v9
     stage: 발명 기법
-    title: TRIZ 발명 기법 1 - 분할
+    title: 발명 기법 — 분할
     use: 수업 중
     url: https://www.youtube.com/watch?v=soFjNxWqQ1A
     desc: 물건이나 공간을 여러 부분으로 나누어 쓰는 분할 발명 기법을 이야기로 보여 줘요.
     channel: IP STORY CENTER
   - key: v10
     stage: 발명 기법
-    title: TRIZ 발명 기법 3 - 국소적 성질
+    title: 발명 기법 — 국소적 성질
     use: 수업 중
     url: https://www.youtube.com/watch?v=RZJz60B3-Bg
     desc: 장갑 손가락 끝만 성질을 바꾸어 장갑을 낀 채 스마트폰을 쓰게 한 예로 발명 기법을 알려 줘요.
@@ -129,14 +129,14 @@ items:
     channel: 지식재산처
   - key: v14
     stage: 특허
-    title: 웹캠에 담긴 특허 이야기 (갑.특.튀)
+    title: 웹캠에 담긴 특허 이야기
     use: 수업 후
     url: https://www.youtube.com/watch?v=mrvpI7OoY2Q
     desc: 일상에서 쓰는 웹캠 속에 어떤 특허가 숨어 있는지 브이로그로 보여 줘요.
     channel: 지식재산처
   - key: v15
     stage: 지식 재산권
-    title: 알기 쉬운 지식재산권 - 저작권 (초등 고학년)
+    title: 저작권, 알기 쉽게 (초등 고학년)
     use: 수업 중
     url: https://www.youtube.com/watch?v=PtGLuX225V0
     desc: 초등 고학년 눈높이로 저작권이 무엇이고 왜 지켜야 하는지 알려 줘요.

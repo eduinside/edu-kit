@@ -35,21 +35,21 @@ stages:
 items:
   - key: v1
     stage: 생각열기
-    title: 한국환경공단 — 인간도 멸종될 수 있습니다
+    title: 인간도 멸종될 수 있습니다
     use: 수업 전
     url: https://www.youtube.com/watch?v=MqUCO-UZCCo
     desc: 생물다양성이 줄어들면 사람도 위험해질 수 있다는 점을 짧게 알려 주는 공익 영상이에요.
     channel: 한국환경공단
   - key: v2
     stage: 생각열기
-    title: 어린이 초록나라 2. 생물들의 보금자리 (초등 3·4학년)
+    title: 생물들의 보금자리
     use: 수업 중
     url: https://www.youtube.com/watch?v=C7iBsq7kLXU
     desc: 초등 3·4학년을 위해 만든 환경교육 영상으로 생물들이 사는 보금자리를 알아봐요.
     channel: 국가환경교육센터
   - key: v3
     stage: 생각열기
-    title: "[생물다양성 교육] 생물다양성과 사라진 친구들"
+    title: 생물다양성과 사라진 친구들
     use: 수업 중
     url: https://www.youtube.com/watch?v=jbstGSxjASU
     desc: 생물다양성의 뜻과 중요성, 줄어드는 원인과 회복 노력을 알려 줘요.
@@ -84,21 +84,21 @@ items:
     channel: 기후에너지환경부
   - key: v8
     stage: 탐구하기
-    title: 어린이 초록나라 12. 저탄소 생활 (초등 3·4학년)
+    title: 저탄소 생활
     use: 수업 중
     url: https://www.youtube.com/watch?v=ro5F5Xb97TI
     desc: 초등 3·4학년을 위한 환경교육 영상으로 탄소를 줄이는 생활을 알아봐요.
     channel: 국가환경교육센터
   - key: v9
     stage: 탐구하기
-    title: 2021 그린벨 환경교육 영상(기후위기편)
+    title: 기후위기 환경교육 영상
     use: 수업 중
     url: https://www.youtube.com/watch?v=L7WY7Nm0WjA
     desc: 대구녹색학습원이 환경교육용으로 만든 기후위기 관련 영상이에요.
     channel: 대구녹색학습원 공식채널
   - key: v10
     stage: 탐구하기
-    title: (어린이 환경교육용) 할아버지와 손녀가 함께하는 분리배출
+    title: 할아버지와 손녀가 함께하는 분리배출
     use: 수업 중
     url: https://www.youtube.com/watch?v=hFnEnUdlr0w
     desc: 할아버지와 손녀를 따라 하며 분리배출 방법을 익히는 어린이 환경교육 영상이에요.
@@ -112,28 +112,28 @@ items:
     channel: 해양수산부
   - key: v12
     stage: 확장하기
-    title: "[국립생태원] 멸종위기종이 사라진다면 인간도 큰일난다고?"
+    title: 멸종위기종이 사라진다면 인간도 큰일난다고?
     use: 수업 중
     url: https://www.youtube.com/watch?v=EEvBV8mBG9o
     desc: 멸종위기종을 왜 보호해야 하는지 사람과 연결해 설명해 줘요.
     channel: 국립생태원
   - key: v13
     stage: 확장하기
-    title: "[국립생태원] 멸종위기 야생생물 저어새 이야기"
+    title: 멸종위기 야생생물 저어새 이야기
     use: 수업 후
     url: https://www.youtube.com/watch?v=1mFMs73r1qE
     desc: 멸종위기 야생생물인 저어새의 삶과 처지를 알려 줘요.
     channel: 국립생태원
   - key: v14
     stage: 확장하기
-    title: 대구 자연체험 여행 — 달성습지생태학습관
+    title: 습지 생태학습관 자연체험 여행
     use: 수업 후
     url: https://www.youtube.com/watch?v=KSrpUNrVpb4
     desc: 대구 달성습지생태학습관에서 우리 지역 자연을 체험하는 모습을 소개해요.
     channel: "달성사이다 : 대구광역시 달성군"
   - key: v15
     stage: 확장하기
-    title: "[B tv 대구뉴스] 탄소중립 지금 우리는 — 논공초등학교 제로웨이스트"
+    title: 학교에서 실천하는 제로웨이스트
     use: 수업 후
     url: https://www.youtube.com/watch?v=OyfMzmyMefU
     desc: 대구의 한 초등학교에서 쓰레기를 줄이는 제로웨이스트 활동을 하는 모습을 전해요.

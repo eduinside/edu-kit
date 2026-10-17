@@ -33,7 +33,7 @@ stages:
 items:
   - key: v1
     stage: 생각열기
-    title: 되돌아보다 / 반성 — 똑똑 문해력 박사
+    title: 되돌아보다 / 반성
     use: 수업 중
     url: https://www.youtube.com/watch?v=8u_IEPmIDPw
     desc: "'되돌아보다'와 '반성'이라는 낱말의 뜻을 배우고 짧은 글짓기로 써 보는 EBS 키즈 어휘 영상이에요."

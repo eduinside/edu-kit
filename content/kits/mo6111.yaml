@@ -65,7 +65,7 @@ items:
     channel: " YTN"
   - key: v5
     stage: 탐구하기
-    title: 쓸모없는 직업도 있나요? — 지식채널e
+    title: 쓸모없는 직업도 있나요?
     use: 수업 중
     url: https://www.youtube.com/watch?v=TCcLwouwiGQ
     desc: 모든 직업이 사회에서 맡는 몫을 생각하며 일의 가치를 어떻게 바라볼지 이야기해요.
@@ -121,7 +121,7 @@ items:
     channel: ch B tv 대구
   - key: v13
     stage: 확장하기
-    title: 대구 청소년 재능기부 봉사 한마당
+    title: 청소년 재능기부 봉사 한마당
     use: 수업 후
     url: https://www.youtube.com/watch?v=jLsG5ams4W0
     desc: 대구 청소년 봉사단이 공원에서 재능기부 봉사 한마당을 여는 모습이에요.

@@ -39,7 +39,7 @@ stages:
 items:
   - key: v1
     stage: 영양소
-    title: 영양쌤이 알려주는 6대 영양소
+    title: 6대 영양소 알아보기
     use: 수업 중
     url: https://www.youtube.com/watch?v=LspLi79-XzE
     desc: 영양교사가 여섯 영양소의 종류와 몸에서 하는 일을 차례로 설명해요.
@@ -81,7 +81,7 @@ items:
     channel: 평택·송탄보건소(몸마음 튼튼)
   - key: v7
     stage: 식품군
-    title: 영양식생활교육 — 다양한 채소 과일
+    title: 다양한 채소와 과일
     use: 수업 중
     url: https://www.youtube.com/watch?v=MJxAqmKBaUg
     desc: 다양한 채소와 과일을 먹어야 하는 까닭과 색깔별 특징을 알려 줘요.
@@ -102,21 +102,21 @@ items:
     channel: 식품의약품안전처
   - key: v10
     stage: 균형 잡힌 식사
-    title: 영양식생활교육 — 건강습관 삼시세끼
+    title: 건강습관 삼시세끼
     use: 수업 후
     url: https://www.youtube.com/watch?v=2n2ZSRorz54
     desc: 하루 세 끼를 규칙적으로 먹는 건강한 식습관을 알려 줘요.
     channel: 대구미래교육연구원
   - key: v11
     stage: 간식
-    title: "[실과 완전 정복] 건강한 간식 선택하기"
+    title: 건강한 간식 선택하기
     use: 수업 중
     url: https://www.youtube.com/watch?v=iKEk2RFr5Z0
     desc: 맛과 영양을 함께 생각해 몸에 좋은 간식을 고르는 방법을 알려 줘요.
     channel: 대구미래교육연구원
   - key: v12
     stage: 간식
-    title: 영양식생활교육 — 간식! 먹어야 할까?
+    title: 간식! 먹어야 할까?
     use: 수업 전
     url: https://www.youtube.com/watch?v=NscxZqIQPXY
     desc: 성장기에 간식이 왜 필요하고 어떻게 먹어야 하는지 묻고 답해요.
@@ -130,49 +130,49 @@ items:
     channel: 식품의약품안전처
   - key: v14
     stage: 간식
-    title: 영양식생활교육 — 영양표시 확인하기
+    title: 영양표시 확인하기
     use: 수업 후
     url: https://www.youtube.com/watch?v=MdDxCo1k6iI
     desc: 식품 포장의 영양표시를 읽는 방법을 알려 줘요.
     channel: 대구미래교육연구원
   - key: v15
     stage: 조리
-    title: "[실과 완전 정복] 건강 간식 만들기 1 — 찌기"
+    title: 건강 간식 만들기 1 — 찌기
     use: 수업 중
     url: https://www.youtube.com/watch?v=XxgKuSkVia0
     desc: 수증기의 열로 식품을 익히는 찌기를 감자를 예로 보여 줘요.
     channel: 대구미래교육연구원
   - key: v16
     stage: 조리
-    title: "[실과 완전 정복] 건강 간식 만들기 2 — 삶기"
+    title: 건강 간식 만들기 2 — 삶기
     use: 수업 중
     url: https://www.youtube.com/watch?v=b5E8pl-RuRM
     desc: 물에 넣고 익히는 삶기를 달걀을 예로 보여 줘요.
     channel: 대구미래교육연구원
   - key: v17
     stage: 조리
-    title: "[실과 완전 정복] 한 그릇 음식 만들기 2 — 볶음밥"
+    title: 한 그릇 음식 만들기 2 — 볶음밥
     use: 수업 후
     url: https://www.youtube.com/watch?v=bCe6pq4-KK0
     desc: 재료를 썰고 볶아 볶음밥을 만드는 과정을 보여 줘요.
     channel: 대구미래교육연구원
   - key: v18
     stage: 위생과 안전
-    title: "[실과 완전 정복] 실습 안전지도 및 썰기방법"
+    title: 실습 안전지도 및 썰기 방법
     use: 수업 전
     url: https://www.youtube.com/watch?v=V7rQnsiml1g
     desc: 조리 실습 안전 수칙과 기본 썰기 방법을 알려 줘요.
     channel: 대구미래교육연구원
   - key: v19
     stage: 위생과 안전
-    title: 영양식생활교육 — 식중독 예방 식품관리요령
+    title: 식중독 예방 식품관리 요령
     use: 수업 중
     url: https://www.youtube.com/watch?v=26BqyMWmwcE
     desc: 식중독을 막기 위한 식품 보관과 관리 요령을 알려 줘요.
     channel: 대구미래교육연구원
   - key: v20
     stage: 위생과 안전
-    title: 영양식생활교육 — 식중독 사례 및 원인식품
+    title: 식중독 사례 및 원인식품
     use: 수업 중
     url: https://www.youtube.com/watch?v=PF5oGbE4gfY
     desc: 식중독이 생긴 사례와 원인이 되는 식품을 살펴봐요.

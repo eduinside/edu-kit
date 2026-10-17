@@ -64,28 +64,28 @@ items:
     channel: 미래아이TV
   - key: v5
     stage: 인공지능
-    title: 인공지능(AI)이란?
+    title: 인공지능이란?
     use: 수업 전
     url: https://www.youtube.com/watch?v=Sxlz-r5FeCo
     desc: 사람의 지능을 흉내 내는 소프트웨어와 장치를 인공지능이라고 한다는 것을 짧게 알려 줘요.
     channel: 소프트웨어야 놀자
   - key: v6
     stage: 인공지능
-    title: 인공지능 활용 (AI Applications)
+    title: 인공지능 활용
     use: 수업 중
     url: https://www.youtube.com/watch?v=MFLRRjcMR7I
     desc: 얼굴과 말을 알아보고 물건을 찾아 주는 등 생활 곳곳의 인공지능 쓰임을 알려 줘요.
     channel: 소프트웨어야 놀자
   - key: v7
     stage: 인공지능
-    title: 클릭! 소프트웨어 1부 - 인공지능
+    title: 인공지능 알아보기
     use: 수업 중
     url: https://www.youtube.com/watch?v=D1Tfbg4fHNs
     desc: 인공지능을 전체적으로 설명하고 사례를 통해 머신러닝과 딥러닝까지 소개해요.
     channel: EBSCulture (EBS 교양)
   - key: v8
     stage: 기계 학습
-    title: 북돋움 인공지능(초등편) - 머신러닝과 딥러닝 이해하기
+    title: 머신러닝과 딥러닝 이해하기 (초등)
     use: 수업 중
     url: https://www.youtube.com/watch?v=5bS_a2UwF9Q
     desc: 초등 눈높이로 머신러닝과 딥러닝이 무엇인지 이해하게 도와줘요.
@@ -99,7 +99,7 @@ items:
     channel: 소프트웨어야 놀자
   - key: v10
     stage: 기계 학습
-    title: 지도학습 (Supervised Learning)
+    title: 지도학습
     use: 수업 중
     url: https://www.youtube.com/watch?v=zXzFsWHToeg
     desc: 정답이 있는 데이터를 보고 학습하는 지도학습이 무엇이고 어디에 쓰이는지 알려 줘요.
@@ -127,21 +127,21 @@ items:
     channel: 직능연KRIVET
   - key: v14
     stage: 인공지능의 영향
-    title: 인공지능 윤리 (AI Ethics)
+    title: 인공지능 윤리
     use: 수업 중
     url: https://www.youtube.com/watch?v=rABDGSJm8tg
     desc: 인공지능이 생활을 편리하게 하지만 데이터를 다룰 때 생각해야 할 점도 있음을 알려 줘요.
     channel: 소프트웨어야 놀자
   - key: v15
     stage: 인공지능의 영향
-    title: 대구인공지능AI교육센터 소개
+    title: 인공지능 교육센터 소개
     use: 수업 후
     url: https://www.youtube.com/watch?v=QGGdc3tq59U
     desc: 대구에 문을 연 인공지능 교육센터에서 어떤 체험을 할 수 있는지 소개해요.
     channel: 대구창의융합교육원
   - key: v16
     stage: 인공지능의 영향
-    title: 생성형 AI 활용 시 주의할 점 - 생성형 AI 윤리 Check
+    title: 생성형 인공지능 활용 시 주의할 점
     use: 수업 후
     url: https://www.youtube.com/watch?v=IdmMEgDAVQQ
     desc: 생성형 AI를 쓸 때 주의할 점을 윤리 점검으로 확인해 보는 영상이에요.

@@ -55,14 +55,14 @@ items:
     channel: 아꿈선 초등3분과학
   - key: v3
     stage: 탐구하기1
-    title: "[실과 완전 정복] 시간관리"
+    title: 시간 관리
     use: 수업 중
     url: https://www.youtube.com/watch?v=Kmym3SRXcx4
     desc: 모두에게 똑같이 주어진 시간을 효율적으로 쓰는 계획 세우기를 알려 줘요.
     channel: 대구미래교육연구원
   - key: v4
     stage: 탐구하기1
-    title: "[실과 완전 정복] 용돈관리"
+    title: 용돈 관리
     use: 수업 중
     url: https://www.youtube.com/watch?v=OE2IhH5IXUU
     desc: 용돈 관리가 왜 필요한지 알고 사용 계획을 세우는 방법을 알려 줘요.
@@ -76,14 +76,14 @@ items:
     channel: 아꿈선 초등3분과학
   - key: v6
     stage: 탐구하기1
-    title: 초등 슬기로운 생활금융 6차시 — 용돈 관리의 달인
+    title: 용돈 관리의 달인
     use: 수업 중
     url: https://www.youtube.com/watch?v=x2A1wAOnXfM
     desc: 금융감독원이 만든 초등 금융교육으로 용돈 관리의 중요성과 방법을 알려 줘요.
     channel: 금융감독원(Financial Supervisory Service)
   - key: v7
     stage: 탐구하기2
-    title: "[실과 완전 정복] 생활 공간 관리(내 교실)"
+    title: 생활 공간 관리 (내 교실)
     use: 수업 중
     url: https://www.youtube.com/watch?v=QiQDp8mQlWY
     desc: 교실 공간을 어떻게 정리하고 관리하면 좋은지 알려 줘요.
@@ -97,7 +97,7 @@ items:
     channel: 질병관리청 아프지마TV
   - key: v9
     stage: 탐구하기2
-    title: "[실과 완전 정복] 분리배출"
+    title: 분리배출 방법
     use: 수업 중
     url: https://www.youtube.com/watch?v=VTRylIk0d9s
     desc: 쓰레기를 종류별로 나누어 버려 생활 공간을 쾌적하게 지키는 방법을 알려 줘요.
@@ -125,14 +125,14 @@ items:
     channel: my Mapo마포구
   - key: v13
     stage: 확장하기
-    title: "[실과 완전 정복] 우리 집에서"
+    title: 우리 집에서 스스로 하는 집안일
     use: 수업 후
     url: https://www.youtube.com/watch?v=acMMZh3qcVE
     desc: 집에서 스스로 할 수 있는 집안일을 차근차근 알려 줘요.
     channel: 대구미래교육연구원
   - key: v14
     stage: 확장하기
-    title: "[실과 완전 정복] 부엌에서"
+    title: 부엌에서 스스로 하는 가정일
     use: 수업 후
     url: https://www.youtube.com/watch?v=jtFCEnTI40c
     desc: 부엌에서 스스로 할 수 있는 기본적인 가정일을 알려 줘요.

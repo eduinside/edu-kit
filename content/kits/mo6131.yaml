@@ -37,35 +37,35 @@ stages:
 items:
   - key: v1
     stage: 생각열기
-    title: K-로봇을 직접 보고 체험하는 어린이 로봇행사
+    title: 우리나라 로봇을 보고 체험하는 어린이 로봇행사
     use: 수업 전
     url: https://www.youtube.com/watch?v=C88AyzUMJTI
     desc: 가족이 함께 로봇을 직접 조종하고 만들어 보며 체험하는 어린이 로봇행사를 소개해요.
     channel: 연합뉴스TV
   - key: v2
     stage: 생각열기
-    title: 집사가 된 AI 로봇 — 반려부터 노동까지
+    title: 집사가 된 인공지능 로봇 — 반려부터 노동까지
     use: 수업 중
     url: https://www.youtube.com/watch?v=h9nQNPXPWig
     desc: 세계 가전 박람회에 나온 집사 로봇, 농업용 로봇처럼 생활 속으로 들어오는 로봇들을 보여 줘요.
     channel: KBS News
   - key: v3
     stage: 생각열기
-    title: 아이와 대화하고 춤추는 돌봄 AI 로봇
+    title: 아이와 대화하고 춤추는 돌봄 인공지능 로봇
     use: 수업 중
     url: https://www.youtube.com/watch?v=6uemBagZNG4
     desc: 혼자 있는 아이와 대화하고 춤추며 돌봄 공백을 메우는 인공지능 로봇을 소개해요.
     channel: 연합뉴스TV
   - key: v4
     stage: 생각열기
-    title: 말하는 AI 장난감, 정말 친구가 될 수 있을까?
+    title: 말하는 인공지능 장난감, 정말 친구가 될 수 있을까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=UD3dNEQNfes
     desc: 언제든 대답해 주는 AI 장난감이 아이의 친구가 될 수 있는지 친구의 조건을 생각해 봐요.
     channel: EBS 지식채널e
   - key: v5
     stage: 탐구하기
-    title: 친구보다 친구 같은 AI
+    title: 친구보다 친구 같은 인공지능
     use: 수업 중
     url: https://www.youtube.com/watch?v=PjsbS3iFzk4
     desc: AI를 사람처럼 느끼며 의존하는 어린 학생들의 모습과 그에 따른 걱정을 전해요.
@@ -100,21 +100,21 @@ items:
     channel: KBS News
   - key: v10
     stage: 확장하기
-    title: 대구 최초 어르신 돌봄 로봇 도입
+    title: 어르신 돌봄 로봇 도입
     use: 수업 후
     url: https://www.youtube.com/watch?v=ecwWtPt6IFA
     desc: 대구 달서구가 어르신의 대화와 신체활동을 돕는 돌봄 로봇을 처음 도입한 소식이에요.
     channel: ch B tv 대구
   - key: v11
     stage: 확장하기
-    title: AI 돌봄 로봇 첫선
+    title: 인공지능 돌봄 로봇 첫선
     use: 수업 후
     url: https://www.youtube.com/watch?v=UxP30zUq8Ro
     desc: 돌봄 인력이 부족한 상황에서 AI 돌봄 로봇이 도움이 될 수 있다는 기대를 전해요.
     channel: TBC뉴스
   - key: v12
     stage: 확장하기
-    title: 학교에 들어온 로봇·AI, 장애 벽 넘는다
+    title: 학교에 들어온 로봇·인공지능, 장애 벽 넘는다
     use: 수업 후
     url: https://www.youtube.com/watch?v=OcXSTUMj5VY
     desc: 학교에 들어온 로봇과 인공지능이 장애 학생의 어려움을 덜어 주는 모습을 전해요.
@@ -128,7 +128,7 @@ items:
     channel: KBS News
   - key: v14
     stage: 확장하기
-    title: 헤이대구 진로교육 — 로봇 윤리 학자
+    title: 로봇 윤리 학자 진로 이야기
     use: 수업 후
     url: https://www.youtube.com/watch?v=pRpIYV4VEbs
     desc: 로봇 윤리 학자가 어떤 일을 하는 사람인지 알아봐요.

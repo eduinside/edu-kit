@@ -84,7 +84,7 @@ items:
     channel: 국가환경교육센터
   - key: v7
     stage: 제철 식재료
-    title: 대구 로컬푸드 인기
+    title: 로컬푸드 인기
     use: 수업 후
     url: https://www.youtube.com/watch?v=To9viVb8B28
     desc: 대구에서 가까운 곳에서 난 신선한 농산물을 사는 로컬푸드 직매장이 인기라는 소식이에요.
@@ -154,7 +154,7 @@ items:
     channel: 서울특별시교육청보건안전진흥원
   - key: v17
     stage: 식사 예절
-    title: 한국인의 밥상 — 젓가락질의 정석
+    title: 젓가락질의 정석
     use: 배경지식
     url: https://www.youtube.com/watch?v=AaN5x-PSed8
     desc: 젓가락질이 서툴러도 밥은 잘 먹을 수 있다는 이야기로 식사 예절을 되돌아보게 해요.

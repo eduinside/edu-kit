@@ -65,7 +65,7 @@ items:
     channel: 기후에너지환경부
   - key: v5
     stage: 탐구하기
-    title: 지구를 위한 에티켓 — 분리배출(교실편)
+    title: 분리배출 에티켓 — 교실편
     use: 수업 중
     url: https://www.youtube.com/watch?v=fEmIG63XuKE
     desc: 분리배출이 왜 필요한지 알고 네 가지 방법과 퀴즈로 분리배출을 익혀요.
@@ -86,7 +86,7 @@ items:
     channel: 기후에너지환경부
   - key: v8
     stage: 탐구하기
-    title: 우리반 당근마켓
+    title: 우리 반 벼룩시장
     use: 수업 중
     url: https://www.youtube.com/watch?v=fTDNDRvPreE
     desc: 쓰지 않는 학용품을 우리 반 중고 거래로 바꿔 쓰며 쓰레기와 탄소를 줄이는 방법을 알려 줘요.
@@ -107,35 +107,35 @@ items:
     channel: 대구TV┃대구광역시 공식 유튜브
   - key: v11
     stage: 탐구하기
-    title: 한국업사이클센터 현장체험학습
+    title: 업사이클링 현장체험학습
     use: 수업 후
     url: https://www.youtube.com/watch?v=_niM7ZlV-aw
     desc: 업사이클 제품을 만들고 체험할 수 있는 한국업사이클센터를 찾아가 봐요.
     channel: 대구미래교육연구원
   - key: v12
     stage: 확장하기
-    title: 지구를 위한 에티켓 — 가정편
+    title: 환경 에티켓 — 가정편
     use: 수업 중
     url: https://www.youtube.com/watch?v=VXgkLfLFGJ0
     desc: 탄소포인트 제도를 알고 에너지·소비·수송에서 가정이 실천할 일을 살펴봐요.
     channel: 대구미래교육연구원
   - key: v13
     stage: 확장하기
-    title: 지구를 위한 에티켓 — 채식편
+    title: 환경 에티켓 — 채식편
     use: 수업 중
     url: https://www.youtube.com/watch?v=ScV0d3UGQ1A
     desc: 환경을 위해 채식이 왜 필요한지 알고 채식 요리와 레시피 북 만들기를 살펴봐요.
     channel: 대구미래교육연구원
   - key: v14
     stage: 확장하기
-    title: 지구를 위한 에티켓 — 다짐편
+    title: 환경 에티켓 — 다짐편
     use: 수업 후
     url: https://www.youtube.com/watch?v=xc5vsryHXaI
     desc: 환경 골든벨로 내용을 정리하고 환경 에티켓을 꼭 실천하겠다고 다짐해 봐요.
     channel: 대구미래교육연구원
   - key: v15
     stage: 확장하기
-    title: 스스로 하는 지속가능한 생활 — 탄소발자국
+    title: 탄소발자국 줄이는 생활
     use: 수업 중
     url: https://www.youtube.com/watch?v=8geakR8LltY
     desc: 탄소발자국의 뜻을 알고 환경과 연결해 살펴봐요.
@@ -149,7 +149,7 @@ items:
     channel: 국립대구과학관 Scientry
   - key: v17
     stage: 확장하기
-    title: 도달쑤와 함께 일회용품 사용 줄이기
+    title: 일회용품 사용 줄이기
     use: 수업 후
     url: https://www.youtube.com/watch?v=Kgm02ufJhXE
     desc: 일회용 컵 대신 텀블러, 비닐 대신 장바구니처럼 일회용품을 줄이는 실천을 알려 줘요.

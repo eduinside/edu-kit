@@ -42,14 +42,14 @@ items:
     channel: 서울시 인성교육 애니메이션
   - key: v2
     stage: 생각열기
-    title: 칭찬 왕이 될 거야! 또깨비 가족
+    title: 칭찬 왕이 될 거야!
     use: 수업 중
     url: https://www.youtube.com/watch?v=klGU5HlQbDg
     desc: 칭찬 스티커만 많이 받으면 좋은 걸까 묻는 이야기로 도덕적 행동이 무엇인지 생각해 봐요.
     channel: EBS 키즈
   - key: v3
     stage: 탐구하기
-    title: 그만 좀 싸워! 또깨비 가족
+    title: 그만 좀 싸워!
     use: 수업 중
     url: https://www.youtube.com/watch?v=SqDXr05fyPw
     desc: 친한 친구들이 다투는 사이에 끼어 곤란해진 태양이를 보며 서로의 입장을 생각해 봐요.
@@ -91,14 +91,14 @@ items:
     channel: 서울시 인성교육 애니메이션
   - key: v9
     stage: 확장하기
-    title: 이기고 싶어! 또깨비 가족
+    title: 이기고 싶어!
     use: 수업 후
     url: https://www.youtube.com/watch?v=H6qUUlmT0bg
     desc: 늘 이기고 싶어 졌을 때 화를 참지 못하는 태양이의 모습을 돌아보게 하는 이야기예요.
     channel: EBS 키즈
   - key: v10
     stage: 확장하기
-    title: 내가 더 행복해지는 선행 또깨비 가족
+    title: 내가 더 행복해지는 선행
     use: 수업 후
     url: https://www.youtube.com/watch?v=6Jq4sxTOuts
     desc: 내가 한 착한 일이 다른 사람의 기쁨이 되면서 나도 행복해지는 이야기예요.

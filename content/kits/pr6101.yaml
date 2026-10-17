@@ -53,7 +53,7 @@ items:
     channel: 국가인권위원회
   - key: v3
     stage: 생각열기
-    title: 모든 가족이 행복한 대구, 가족센터가 응원해요
+    title: 모든 가족이 행복한 우리 동네, 가족센터가 응원해요
     use: 수업 중
     url: https://www.youtube.com/watch?v=igu-T8lZPCY
     desc: 1인 가구, 맞벌이, 조손, 다문화처럼 다양한 가족의 행복을 돕는 가족센터를 소개해요.
@@ -67,7 +67,7 @@ items:
     channel: 한국건강가정진흥원
   - key: v5
     stage: 탐구하기2
-    title: 집안일 해본 아이 vs 안 해본 아이
+    title: 집안일 해본 아이와 안 해본 아이
     use: 수업 중
     url: https://www.youtube.com/watch?v=Xtq_yFuoqG0
     desc: 집안일을 해 본 아이와 안 해 본 아이의 차이를 살펴보며 가정일을 함께하는 일의 뜻을 생각해 봐요.
@@ -109,7 +109,7 @@ items:
     channel: 소비자안전센터
   - key: v11
     stage: 확장하기
-    title: 집사가 된 AI 로봇 — 반려부터 노동까지
+    title: 집사가 된 인공지능 로봇 — 반려부터 노동까지
     use: 수업 후
     url: https://www.youtube.com/watch?v=h9nQNPXPWig
     desc: 세계 가전 박람회에서 집안일을 돕는 집사 로봇이 소개된 소식을 전해요.

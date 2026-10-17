@@ -49,35 +49,35 @@ items:
     channel: 아꿈선 초등3분과학
   - key: v3
     stage: 옷 관리
-    title: "[실과 완전 정복] 내 옷 관리"
+    title: 내 옷 관리
     use: 수업 중
     url: https://www.youtube.com/watch?v=5wCUdObxz6M
     desc: 매일 입는 옷을 깔끔하게 개고 관리하는 방법을 알려 줘요.
     channel: 대구미래교육연구원
   - key: v4
     stage: 손바느질
-    title: "[실과 완전 정복] 손바느질의 기초"
+    title: 손바느질의 기초
     use: 수업 중
     url: https://www.youtube.com/watch?v=znbiNltak-Q
     desc: 간단한 손바느질의 기초와 매듭짓는 법을 보여 줘요.
     channel: 대구미래교육연구원
   - key: v5
     stage: 손바느질
-    title: "[실과 완전 정복] 손바느질로 단추달기, 카드지갑 만들기"
+    title: 손바느질로 단추달기, 카드지갑 만들기
     use: 수업 중
     url: https://www.youtube.com/watch?v=t4AHS92OLFY
     desc: 손바느질로 단추를 달고 카드지갑을 만드는 과정을 보여 줘요.
     channel: 대구미래교육연구원
   - key: v6
     stage: 손바느질
-    title: "[실과 완전 정복] 손바느질로 주머니 만들기"
+    title: 손바느질로 주머니 만들기
     use: 수업 후
     url: https://www.youtube.com/watch?v=4SkNuJery9w
     desc: 손바느질로 작은 주머니를 만드는 과정을 보여 줘요.
     channel: 대구미래교육연구원
   - key: v7
     stage: 옷 수선
-    title: "[고치는 사람들] 금손이 아니라 곰손이여도 괜찮아"
+    title: 금손이 아니라 곰손이여도 괜찮아
     use: 수업 후
     url: https://www.youtube.com/watch?v=JjIeQ5MGxBM
     desc: 구멍 난 옷을 다닝 기법으로 직접 고치는 곳을 소개해요.

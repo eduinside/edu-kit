@@ -35,28 +35,28 @@ stages:
 items:
   - key: v1
     stage: 생각열기
-    title: 귀신소동 — 정직 애니메이션
+    title: 귀신 소동 — 정직 이야기
     use: 수업 중
     url: https://www.youtube.com/watch?v=6qNN9SeugRU
     desc: 정직을 주제로 한 서울시 인성교육 애니메이션으로, 이야기 속 인물의 선택을 보며 정직의 뜻을 생각해 봐요.
     channel: 서울시 인성교육 애니메이션
   - key: v2
     stage: 생각열기
-    title: 솔직하게 말할까? 또깨비 가족
+    title: 솔직하게 말할까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=Jzu1Z9IMWW0
     desc: 무심코 한 거짓말 때문에 할아버지가 오해를 받게 되자 어떻게 해야 할지 고민하는 이야기예요.
     channel: EBS 키즈
   - key: v3
     stage: 생각열기
-    title: TV동화 양심 판매대
+    title: 양심 판매대 동화
     use: 수업 중
     url: https://www.youtube.com/watch?v=tmS2gI5E1sM
     desc: 돈이 없어 물건을 그냥 가져갔던 사람이 나중에 외상값을 갚는 양심 이야기예요.
     channel: "KBS HUMAN : 뭉클티비"
   - key: v4
     stage: 탐구하기
-    title: 책으로 읽어주는 청렴이야기 — 우리들의 약속
+    title: 청렴 이야기 — 우리들의 약속
     use: 수업 중
     url: https://www.youtube.com/watch?v=Wek-5v6AMwE
     desc: 수업 중 휴대폰을 내기로 한 약속을 친구가 지킬 수 있을지 보며 약속과 책임감을 생각해 봐요.

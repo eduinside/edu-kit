@@ -64,14 +64,14 @@ items:
     channel: 양주시
   - key: v5
     stage: 옷이 만들어지는 과정
-    title: 어떻게 만들까 — 청바지
+    title: 청바지는 어떻게 만들까
     use: 수업 중
     url: https://www.youtube.com/watch?v=VzJNCpT11gU
     desc: 청 원단이 공장에서 청바지로 변하는 과정을 단계별로 보여 줘요.
     channel: EBS 키즈
   - key: v6
     stage: 옷이 만들어지는 과정
-    title: 어떻게 만들까 — 양말
+    title: 양말은 어떻게 만들까
     use: 수업 중
     url: https://www.youtube.com/watch?v=6RXVG1CwoRM
     desc: 양말을 디자인하고 실로 짜서 완성하는 과정을 보여 줘요.
@@ -92,21 +92,21 @@ items:
     channel: 대구미래교육연구원
   - key: v9
     stage: 뜨개질
-    title: 실과 코바늘로 수세미 만들기 1 — 사슬코 만들기
+    title: 코바늘로 수세미 만들기 1 — 사슬코 만들기
     use: 수업 중
     url: https://www.youtube.com/watch?v=Y0xQz01EcyA
     desc: 코바늘과 실 잡는 법, 사슬코 만드는 법을 보여 줘요.
     channel: 하늘소리
   - key: v10
     stage: 뜨개질
-    title: 실과 코바늘로 수세미 만들기 2 — 긴뜨기
+    title: 코바늘로 수세미 만들기 2 — 긴뜨기
     use: 수업 중
     url: https://www.youtube.com/watch?v=RXRTvAanDVQ
     desc: 사슬코 20코를 만든 뒤 긴뜨기로 뜨는 방법을 보여 줘요.
     channel: 하늘소리
   - key: v11
     stage: 뜨개질
-    title: 실과 코바늘로 수세미 만들기 5 — 마무리
+    title: 코바늘로 수세미 만들기 5 — 마무리
     use: 수업 후
     url: https://www.youtube.com/watch?v=720zejDmnpU
     desc: 빼뜨기로 끝을 마무리하고 고리를 만들어 수세미를 완성해요.
@@ -120,7 +120,7 @@ items:
     channel: 대구미래교육연구원
   - key: v13
     stage: 생활용품 만들기
-    title: 문화재 돋보기 — 조각보
+    title: 조각보 이야기
     use: 수업 후
     url: https://www.youtube.com/watch?v=tDszf3AtjvQ
     desc: 남은 천 조각을 이어 붙여 만든 우리 전통 조각보를 쉽게 소개해요.
