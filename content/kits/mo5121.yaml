@@ -1,0 +1,72 @@
+id: mo5121
+title: 2. 반성과 성찰로 성장하는 나
+grade: 5
+sem: 1학기
+subject: 도덕
+unit: 2단원
+unit_no: 2
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 반성과 성찰은 잘못만 따지는 일이 아니라 내 생활을 돌아보고 더 나은 모습으로 바꾸어 가는 일이에요. 나를 탓하지 않고 성장으로 이어 가는 마음가짐이 중요해요.
+  core_question: 나는 내 생활을 어떻게 돌아보고 더 나은 나로 바꾸어 갈 수 있을까?
+  concepts:
+    - term: 반성
+      def: 지나간 일과 내 행동을 되돌아보고, 아쉬웠던 점을 고쳐 가려는 마음을 갖는 것이에요.
+    - term: 성찰
+      def: 내 생각과 행동, 생활을 깊이 살펴보고 어떻게 더 나아질지 생각하는 것이에요.
+    - term: 성장
+      def: 몸뿐 아니라 생각과 마음, 행동이 더 나은 모습으로 자라 가는 것이에요.
+    - term: 자기 점검
+      def: 내가 계획한 대로 하고 있는지, 잘 지켜지고 있는지 스스로 확인해 보는 것이에요.
+    - term: 실천
+      def: 실천은 알게 된 것을 생각으로만 그치지 않고 직접 행동으로 옮기는 것이에요. 내가 세운 계획을 하루하루 지켜 가는 것도 실천이에요.
+  standards:
+    - code: "[6도01-02]"
+      text: 생활 습관에 대한 성찰을 통해 자기 생활을 점검하고 올바른 계획을 세워 이를 실천한다.
+stages:
+  - name: 생각열기
+    question: 반성은 무엇이고 왜 필요할까?
+  - name: 확장하기
+    question: 나를 탓하지 않고 성장으로 이어 가려면 어떤 마음이 필요할까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 되돌아보다 / 반성 — 똑똑 문해력 박사
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=8u_IEPmIDPw
+    desc: "'되돌아보다'와 '반성'이라는 낱말의 뜻을 배우고 짧은 글짓기로 써 보는 EBS 키즈 어휘 영상이에요."
+    channel: EBS 키즈
+  - key: v2
+    stage: 확장하기
+    title: 나를 사랑하는, 가장 쉬운 방법 — 자기자비
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-Z51loHlJgk
+    desc: 내 자신이 괜찮지 않다고 느낄 때 나를 탓하지 않고 대하는 방법을 알아봐요.
+    channel: EBS 지식채널e
+quiz:
+  - statement: 반성은 지난 일을 되돌아보고 아쉬웠던 점을 고치려는 마음을 갖는 것이다.
+    answer: O
+    explain: 반성은 지난 일을 돌아보며 더 나은 모습으로 바꾸려는 마음이에요.
+  - statement: 반성은 잘못한 일만 돌아보는 것이다.
+    answer: X
+    explain: 잘못한 일뿐 아니라 내 생활 전체를 돌아보고 더 나아질 방법을 찾는 것이 반성과 성찰이에요.
+  - statement: 성찰은 내 생각과 행동을 깊이 살펴 더 나은 모습으로 바꾸어 가는 일이다.
+    answer: O
+    explain: 성찰은 나를 깊이 들여다보고 바꿀 점을 찾는 일이에요.
+  - statement: 자신을 탓하고 미워하는 것이 바른 반성이다.
+    answer: X
+    explain: 자신을 탓하기보다 내가 바꿀 점을 찾아 성장으로 이어 가는 것이 바른 반성이에요.
+  - statement: 성찰 질문을 만들어 일주일 동안 실천해 보면 나를 점검하는 데 도움이 된다.
+    answer: O
+    explain: 질문을 정하고 실천 여부를 확인하면 내 생활을 스스로 돌아보기 쉬워요.
+  - statement: 반성과 성찰은 남에게 잘 보이려고 하는 일이다.
+    answer: X
+    explain: 반성과 성찰은 나를 위해 스스로 돌아보고 바꾸어 가는 일이에요.
+  - statement: 바꾸고 싶은 모습은 긍정적이고 구체적으로 정하면 실천하기 좋다.
+    answer: O
+    explain: 하지 말아야 할 일보다 해야 할 일을 구체적으로 정하면 실천하기 쉬워요.
+  - statement: 반성은 한 번 하면 끝나므로 실천한 뒤에 다시 점검할 필요가 없다.
+    answer: X
+    explain: 실천한 뒤에 다시 돌아보며 점검해야 변화가 이어져요.

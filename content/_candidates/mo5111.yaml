@@ -41,7 +41,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "1차시 자주의 뜻"
     desc: "자주적인 생활이 무엇이고 어떻게 시작하는지 설명하는 초등 도덕 수업 영상이에요."
-    verdict: 확인필요
+    verdict: 제외
+    reviewer: 운영자
     note: "교사 개인 채널(2020), 2015 교육과정 6학년 도덕 1단원 영상이라 현행 5학년과 내용이 다를 수 있음. 공공 대안이 없어 personal 사유 기록 — 운영자 판단."
   - cand_no: c02
     stage: 탐구하기
@@ -55,7 +56,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "3차시 자주 실천 계획"
     desc: "방학 동안 독서와 자기주도학습을 스스로 계획하고 실천하는 방법을 알려 줘요."
-    verdict: 확인필요
+    verdict: 제외
+    reviewer: 운영자
     note: "대구 교육연구기관 제작(2023). 10분 56초라 구간 필수 — 시청 후 구간을 정하거나 제외."
   - cand_no: c03
     stage: 탐구하기
@@ -69,7 +71,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "2차시 자주적인 삶의 좋은 점"
     desc: "대구 천내초등학교 학생들이 스스로 주제를 정해 탐구하는 학습을 전해요."
-    verdict: 추천
+    verdict: 채택
+    reviewer: 운영자
     note: "대구 지역 언론의 대구미래학교 시리즈(2025). 학생이 결정하고 책임지는 학습 사례."
   - cand_no: c04
     stage: 탐구하기
@@ -83,7 +86,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "교사 배경"
     desc: "대구시교육감이 학생의 주도성·자율성 교육을 강화하겠다고 밝힌 기자간담회 뉴스예요."
-    verdict: 보류
+    verdict: 제외
+    reviewer: 운영자
     note: "교육감 인물 중심 정책 보도(2022) — 학생용 아님·인물 홍보 우려."
   - cand_no: c05
     stage: 탐구하기
@@ -96,7 +100,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "3차시 자주 실천 계획"
     desc: "의지력이 약해서가 아니라 방법의 문제일 수 있다는 것을 과학적으로 짚어 줘요."
-    verdict: 보류
+    verdict: 제외
+    reviewer: 운영자
     note: "성인 대상 지식채널e(2021) — 5학년 눈높이 아님."
   - cand_no: c06
     stage: 확장하기
@@ -109,7 +114,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "4차시 본받을 인물"
     desc: "독립운동가 유관순이 스스로 선택하고 행동한 이야기를 독립기념관 교육콘텐츠로 만나요."
-    verdict: 추천
+    verdict: 채택
+    reviewer: 운영자
     note: "독립기념관 학교 배부 콘텐츠 '배움상자' 신규 주제(2026-03). 자주(독립)와 개인의 자주적 선택을 잇는 설명은 교사가 보충. 새 채널."
   - cand_no: c07
     stage: 확장하기
@@ -122,7 +128,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "4차시 본받을 인물"
     desc: "이화학당 학생이던 유관순 열사와 친구들이 3·1운동에 참여한 이야기예요."
-    verdict: 추천
+    verdict: 채택
+    reviewer: 운영자
     note: "사실 전달 중심의 공식 영상(2019). c06과 둘 중 하나만 써도 됨."
   - cand_no: c08
     stage: 확장하기
@@ -135,7 +142,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "4차시 본받을 인물"
     desc: "독립운동가 유관순 열사의 삶을 짧게 소개해요."
-    verdict: 보류
+    verdict: 제외
+    reviewer: 운영자
     note: "2015 영상으로 c07과 겹침."
   - cand_no: c09
     stage: 확장하기
@@ -148,7 +156,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "4차시 옛 산수화와 실제 풍경"
     desc: "조선 화가 겸재 정선과 단원 김홍도가 우리 금수강산을 직접 보고 그린 실경산수화를 소개해요."
-    verdict: 추천
+    verdict: 채택
+    reviewer: 운영자
     note: "지도서의 옛 산수화·실제 풍경 사진 자료와 맞음(2019). 자주적 시선(우리 눈으로 우리 땅을 그림)은 교사가 연결."
   - cand_no: c10
     stage: 확장하기
@@ -162,7 +171,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "4차시 옛 산수화"
     desc: "대구간송미술관 겸재 정선 특별전을 알리는 짧은 영상이에요."
-    verdict: 보류
+    verdict: 제외
+    reviewer: 운영자
     note: "전시 홍보 영상 0분 30초(쇼츠는 아님). 새 채널."
   - cand_no: c11
     stage: 확장하기
@@ -176,7 +186,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "4차시 본받을 인물"
     desc: "대구에서 시작된 국채보상운동과 서상돈 선생의 이야기를 골목 이야기로 만나요."
-    verdict: 확인필요
+    verdict: 제외
+    reviewer: 운영자
     note: "대구 지역 이야기이지만 국채보상운동은 나라의 경제 자주(공동체 행동)라 개인의 자주적 삶과는 결이 다름 — 연결할지 운영자 판단. 새 채널."
   - cand_no: c12
     stage: 확장하기
@@ -190,7 +201,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "4차시 본받을 인물"
     desc: "서상돈 선생의 업적을 되새기는 대구 특별전을 전하는 뉴스예요."
-    verdict: 확인필요
+    verdict: 제외
+    reviewer: 운영자
     note: "c11과 같은 이유로 연결 판단 필요. 전시 홍보 성격."
   - cand_no: c13
     stage: 확장하기
@@ -204,7 +216,8 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "4차시 본받을 인물"
     desc: "대구동덕초등학교 학생들이 우리 지역 역사 인물 서상돈을 소개한 영상이에요."
-    verdict: 보류
+    verdict: 제외
+    reviewer: 운영자
     note: "4학년 사회 수업 산출물 — 학년 맞지 않음, 학생 출연. 새 채널."
   - cand_no: c14
     stage: 확장하기
@@ -217,5 +230,6 @@ candidates:
     basis_code: "[6도01-01]"
     basis_lesson: "4차시 본받을 인물"
     desc: "국채보상운동의 의의와 서상돈 선생의 업적을 기획 보도로 알려 줘요."
-    verdict: 보류
+    verdict: 제외
+    reviewer: 운영자
     note: "2019 보도. 종교 방송 — 지역 뉴스(c11) 대안 있으면 제외."

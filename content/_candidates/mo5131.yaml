@@ -1,0 +1,249 @@
+# mo5131 후보 기록 — 도덕 5학년 1학기 3단원 「함께 사는 세상, 봉사하는 우리」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo5131 --dry
+# 2026-10-17 수집. 재생·임베드·연령·국내·길이·쇼츠 여부는 YouTube Data API로 후보 전부 확인. 쇼츠로 확인된 3편(한국중앙자원봉사센터 1, 보건복지부TV 2)은 후보에서 뺌(운영자 지시). 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님.
+# 새 채널(channels.yaml에 없을 수 있음) 후보: 한국중앙자원봉사센터 · 경기도자원봉사센터 · 대구일보TV · 대구광역시청소년활동진흥센터 · 대구광역시자원봉사센터 — 채택·후보 채널 등급은 운영자에게 질문.
+kit:
+  id: mo5131
+  title: "3. 함께 사는 세상, 봉사하는 우리"
+  grade: 5
+  sem: 1학기
+  subject: 도덕
+  unit: 3단원
+  unit_no: 3
+  flow: activity
+  codes: ["[6도02-01]"]
+  core_idea: "봉사는 대가를 바라지 않고 이웃과 사회를 돕는 일이에요. 도움이 필요한 사람의 상황에 관심을 가지고 계획을 세워 꾸준히 실천하면 나와 우리 모두에게 좋은 변화가 생겨요."
+  core_question: "도움이 필요한 이웃을 위해 나는 어떤 봉사를 계획하고 꾸준히 실천할 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "봉사란 무엇이고 왜 필요할까?"
+    - name: 탐구하기
+      question: "도움이 필요한 이웃은 누구이고, 어떻게 봉사를 계획하고 실천할까?"
+    - name: 확장하기
+      question: "봉사를 꾸준히 이어 가려면 어떤 마음과 방법이 필요할까?"
+  concepts:
+    - "봉사"
+    - "나눔"
+    - "이웃"
+    - "자원봉사"
+    - "실천"
+  source_notes: "정리본 도덕5.국정.u3(1차시 봉사의 뜻·가치 → 2차시 가까운 곳부터 다른 나라까지 이웃과 도울 방법 → 3차시 봉사 목표·역할·기간 계획 실천 점검 → 4차시 봉사 고민 조언·꾸준히) · 지도서 인용: KBS뉴스 대구경북 어린이 봉사 보도, 1365 자원봉사포털·한국중앙자원봉사센터 · 오개념: 칭찬·상을 받으려는 것도 봉사, 가진 것이 많아야 봉사, 먼 사람은 남 · cautions: 버거운 부탁은 정중히 거절 가능, 실천 뒤 돌아보기"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "아는 사람 이야기"
+    url: https://www.youtube.com/watch?v=B0lCkUfecY0
+    channel: "한국중앙자원봉사센터"
+    channel_grade: public
+    duration: "5:25"
+    use: 수업 중
+    basis_code: "[6도02-01]"
+    basis_lesson: "1차시 봉사의 뜻과 가치"
+    desc: "한국중앙자원봉사센터와 EBS 지식채널e가 함께 만든, 가까운 사람의 봉사 이야기예요."
+    verdict: 채택
+    reviewer: 운영자
+    note: "2019. 설명란에 종료된 방송 이벤트 안내 문구가 있으나 영상 내용과는 무관. 지도서가 인용한 1365·한국중앙자원봉사센터 계열."
+  - cand_no: c02
+    stage: 생각열기
+    title: "여러분에게 자원봉사란?"
+    url: https://www.youtube.com/watch?v=VUFG39MV5Qc
+    channel: "한국중앙자원봉사센터"
+    channel_grade: public
+    duration: "1:50"
+    use: 수업 전
+    basis_code: "[6도02-01]"
+    basis_lesson: "1차시 봉사의 뜻"
+    desc: "자원봉사 홍보대사인 작곡가와 아나운서가 자원봉사가 무엇인지 이야기해요."
+    verdict: 채택
+    reviewer: 운영자
+    note: "유명인(홍보대사) 출연 홍보 영상(2019). 1분 50초 동기 유발용."
+  - cand_no: c03
+    stage: 생각열기
+    title: "자원봉사 동화 — 도움을 주면 돌아오는 행복"
+    url: https://www.youtube.com/watch?v=imXwj8CbYG0
+    channel: "경기도자원봉사센터"
+    channel_grade: public
+    duration: "3:14"
+    use: 수업 중
+    basis_code: "[6도02-01]"
+    basis_lesson: "1차시 봉사의 뜻과 가치"
+    desc: "도움이 필요한 친구를 돕고 동네를 청소하는 '봉사 대장 자봉이' 이야기로 자원봉사는 주는 사람도 행복해진다는 것을 알려 줘요."
+    verdict: 채택
+    reviewer: 운영자
+    note: "어린이용 동화(2020). 경기도 센터 제작."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "봉사는 즐거워요 — 어린이 봉사단체"
+    url: https://www.youtube.com/watch?v=PbsznkUTy2M
+    channel: "KBS뉴스 대구경북"
+    channel_grade: press
+    local: 대구
+    duration: "3:00"
+    use: 수업 후
+    basis_code: "[6도02-01]"
+    basis_lesson: "3차시 봉사자 인터뷰·실천"
+    desc: "안동의 초등학생들이 스스로 봉사 단체를 만들어 매달 봉사 활동을 하는 이야기를 전해요."
+    verdict: 채택
+    reviewer: 운영자
+    note: "지도서가 인용한 KBS뉴스 대구경북 어린이 봉사 보도 계열(2022, 안동). 학생 출연 뉴스."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "즐겁고 안전한 청소년 자원봉사를 위한 완벽 가이드"
+    url: https://www.youtube.com/watch?v=CqCBMInABFE
+    channel: "한국중앙자원봉사센터"
+    channel_grade: public
+    duration: "4:06"
+    use: 수업 중
+    basis_code: "[6도02-01]"
+    basis_lesson: "3차시 봉사 계획·점검"
+    desc: "자원봉사 활동 현장에서 생길 수 있는 위험과 안전 수칙을 알려 줘요."
+    verdict: 제외
+    reviewer: 운영자
+    note: "청소년 대상(2026-01) — 5학년 눈높이와 봉사 계획의 안전 점검에 맞는지 시청 확인 필요."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "자원봉사센터란?"
+    url: https://www.youtube.com/watch?v=ZFQHlKFbmCE
+    channel: "한국중앙자원봉사센터"
+    channel_grade: public
+    duration: "2:02"
+    use: 수업 중
+    basis_code: "[6도02-01]"
+    basis_lesson: "2차시 도울 방법 찾기"
+    desc: "자원봉사센터가 어떤 일을 하는 곳인지, 봉사하고 싶을 때 어디로 가면 되는지 알려 줘요."
+    verdict: 채택
+    reviewer: 운영자
+    note: "2017 영상. 봉사 정보를 찾는 방법과 연결."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "'안녕한 사회' 모두가 함께하는 자원봉사"
+    url: https://www.youtube.com/watch?v=rHtDZ2BWjac
+    channel: "한국중앙자원봉사센터"
+    channel_grade: public
+    duration: "3:37"
+    use: 수업 후
+    basis_code: "[6도02-01]"
+    basis_lesson: "2차시 도울 방법 찾기"
+    desc: "코로나로부터 우리를 지키기 위해 움직인 자원봉사자들의 활동을 이야기로 담았어요."
+    verdict: 제외
+    reviewer: 운영자
+    note: "행정안전부 제작(2020), 코로나 시기 맥락이 지나가 학생 눈높이·현재성이 약함."
+  - cand_no: c08
+    stage: 확장하기
+    title: "작은 손길, 큰 감동 — 대구 청소년 재능기부봉사 한마당"
+    url: https://www.youtube.com/watch?v=jLsG5ams4W0
+    channel: "대구일보TV"
+    channel_grade: press
+    local: 대구
+    duration: "2:03"
+    use: 수업 후
+    basis_code: "[6도02-01]"
+    basis_lesson: "4차시 꾸준한 실천"
+    desc: "대구시청소년재능기부봉사단이 어린이공원에서 재능기부 봉사한마당을 연 소식이에요."
+    verdict: 채택
+    reviewer: 운영자
+    note: "대구 지역 언론(2025). 새 채널(대구일보TV)."
+  - cand_no: c09
+    stage: 확장하기
+    title: "그린기프트봉사단장 김효정(북멘토)"
+    url: https://www.youtube.com/watch?v=-1-dBDOGSL8
+    channel: "ch B tv 대구"
+    channel_grade: press
+    local: 대구
+    duration: "3:39"
+    use: 수업 후
+    basis_code: "[6도02-01]"
+    basis_lesson: "3차시 봉사자 인터뷰"
+    desc: "그린기프트봉사단장이 책을 소개하는 대구 뉴스 코너예요."
+    verdict: 제외
+    reviewer: 운영자
+    note: "책 소개 코너 성격이라 봉사 내용이 약함(2021)."
+  - cand_no: c10
+    stage: 생각열기
+    title: "대구 청소년이 들려주는 자원봉사 생각"
+    url: https://www.youtube.com/watch?v=rjRM_wYwwgY
+    channel: "대구광역시청소년활동진흥센터"
+    channel_grade: public
+    local: 대구
+    duration: "1:01"
+    use: 수업 전
+    basis_code: "[6도02-01]"
+    basis_lesson: "1차시 봉사의 뜻"
+    desc: "대구 청소년들이 4가지 질문에 자원봉사에 대한 생각을 말해요."
+    verdict: 제외
+    reviewer: 운영자
+    note: "대구 공공기관 제작(2023), 1분 1초. 쇼츠가 아님을 API로 확인. 청소년 인터뷰라 눈높이·내용 확인 필요. 새 채널."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "대구자원봉사 VIEW 첫번째 이야기"
+    url: https://www.youtube.com/watch?v=lFTHMbB3ZBE
+    channel: "대구광역시자원봉사센터"
+    channel_grade: public
+    local: 대구
+    duration: "1:06"
+    use: 수업 전
+    basis_code: "[6도02-01]"
+    basis_lesson: "2차시 도울 방법 찾기"
+    desc: "대구광역시자원봉사센터가 소개하는 대구 자원봉사 이야기예요."
+    verdict: 제외
+    reviewer: 운영자
+    note: "센터 홍보 성격, 내용이 얕음(2020). 새 채널."
+  - cand_no: c12
+    stage: 확장하기
+    title: "급여 끝전 모아 6년째 나눔 실천"
+    url: https://www.youtube.com/watch?v=eBFSL4rbMTQ
+    channel: "ch B tv 대구"
+    channel_grade: press
+    local: 대구
+    duration: "2:21"
+    use: 수업 후
+    basis_code: "[6도02-01]"
+    basis_lesson: "4차시 꾸준한 실천"
+    desc: "서구청 공무원들이 6년째 급여의 끝전을 모아 어려운 이웃을 돕는 나눔을 전해요."
+    verdict: 채택
+    reviewer: 운영자
+    note: "대구 지역 언론(2021). 어른 사례지만 '꾸준한 나눔' 모범."
+  - cand_no: c13
+    stage: 확장하기
+    title: "아름다운세상 — 20여 년째 한결같이 봉사의 삶"
+    url: https://www.youtube.com/watch?v=Xx5A5PEajR0
+    channel: "dgmbcnews"
+    channel_grade: press
+    local: 대구
+    duration: "2:31"
+    use: 수업 후
+    basis_code: "[6도02-01]"
+    basis_lesson: "4차시 꾸준한 실천"
+    desc: "20년 넘게 한결같이 봉사해 온 사람의 이야기를 전해요."
+    verdict: 제외
+    reviewer: 운영자
+    note: "2013 보도라 오래됨. c12와 겹침."
+  - cand_no: c14
+    stage: 확장하기
+    title: "경기도 청소년 자원봉사 성장 스토리 1화"
+    url: https://www.youtube.com/watch?v=J2-41F-i4pQ
+    channel: "경기도자원봉사센터"
+    channel_grade: public
+    duration: "5:36"
+    use: 수업 후
+    basis_code: "[6도02-01]"
+    basis_lesson: "4차시 꾸준한 실천"
+    desc: "청소년 자원봉사자가 봉사하며 성장해 간 이야기를 담았어요."
+    verdict: 제외
+    reviewer: 운영자
+    note: "청소년 대상(2017), 경기 지역."
+  - cand_no: c15
+    stage: 확장하기
+    title: "자원봉사에서 가장 중요한 것은 무엇일까? (언박싱 EP.07)"
+    url: https://www.youtube.com/watch?v=JFsvkzscq2Y
+    channel: "한국중앙자원봉사센터"
+    channel_grade: public
+    duration: "8:21"
+    use: 배경지식
+    basis_code: "[6도02-01]"
+    basis_lesson: "교사 배경"
+    desc: "자원봉사로 사회 변화를 이끄는 방식과 활동 기획을 설명하는 전문 교육 영상이에요."
+    verdict: 제외
+    reviewer: 운영자
+    note: "성인·활동가 대상(2021), 8분 21초 — 교사 배경지식으로만."
