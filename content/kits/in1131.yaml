@@ -88,11 +88,46 @@ items:
     channel: 국립국악원 National Gugak Center
   - key: v8
     stage: 탐구하기
+    title: 소고와 만나요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=fV8oedVy-hM
+    desc: 소고가 어떤 악기인지 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v9
+    stage: 탐구하기
+    title: 소고를 연주해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ldpVT-svG7s
+    desc: 소고를 어떻게 치는지 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v10
+    stage: 탐구하기
     title: 탈, 춤으로 잇다 — 봉산탈춤
     use: 수업 중
     url: https://www.youtube.com/watch?v=LqPlpOLEd7k
     desc: 봉산탈춤의 탈과 춤을 보여 줘요.
     channel: 국가유산청 Korea Heritage Service
+  - key: v11
+    stage: 탐구하기
+    title: 사자춤
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=2kWV5bpjfbc
+    desc: 사자 탈을 쓰고 추는 사자춤을 보여 줘요.
+    channel: EBS 키즈
+  - key: v12
+    stage: 탐구하기
+    title: 우리 문화유산 멋진 순간들
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=EpeRdoGwM74
+    desc: 우리나라 문화유산의 멋진 장면을 모아 보여 줘요.
+    channel: 국가유산채널(K-Heritage Channel)
+  - key: v13
+    stage: 확장하기
+    title: 소고춤
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=1gkmUB8GRlo
+    desc: 소고를 들고 추는 소고춤을 보여 줘요.
+    channel: 국립국악원 National Gugak Center
 quiz:
   - statement: 태극기는 우리나라를 나타내는 깃발이에요.
     answer: O

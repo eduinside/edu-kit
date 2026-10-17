@@ -72,6 +72,13 @@ items:
     url: https://www.youtube.com/watch?v=26WEe9vWQXc
     desc: 괴롭힘을 당하는 친구의 마음을 생각하고 도울 방법을 떠올려요.
     channel: 대구미래교육연구원
+  - key: v6
+    stage: 확장하기
+    title: 마음 속 감사를 나눠요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=dppS1tOfTPE
+    desc: 고마운 마음을 찾아 나누는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
 quiz:
   - statement: 가족의 모습은 집마다 다를 수 있어요.
     answer: O

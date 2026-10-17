@@ -31,5 +31,19 @@ stages:
     question: 지나온 한 해를 어떻게 돌아볼까?
   - name: 확장하기
     question: 다음 학년을 어떻게 기다리고 준비할까?
-items: []
+items:
+  - key: v1
+    stage: 탐구하기
+    title: 마음 속 감사를 나눠요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dppS1tOfTPE
+    desc: 고마운 마음을 찾아 나누는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v2
+    stage: 탐구하기
+    title: 나는 얼마나 자랐을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ht56jePmlBw
+    desc: 사람이 어떻게 자라는지 알려 줘요.
+    channel: 국립어린이과학관
 quiz: []

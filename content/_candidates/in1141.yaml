@@ -43,7 +43,7 @@ candidates:
     basis_lesson: "4~5차시 어디로 갈까요"
     desc: "우주에서 먹고 자고 생활하는 모습을 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "2분 29초(2022). 국립어린이과학관(표 public)."
   - cand_no: c02
     stage: 생각열기
@@ -58,7 +58,7 @@ candidates:
     basis_lesson: "7차시 무엇을 타고 갈까"
     desc: "우리나라가 만든 우주 로켓 누리호가 하늘로 날아오르는 모습을 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "2분 17초(2023). 한국항공우주연구원 공식 채널(표 public)."
   - cand_no: c03
     stage: 생각열기
@@ -73,7 +73,7 @@ candidates:
     basis_lesson: "7차시 무엇을 타고 갈까"
     desc: "누리호가 새벽 하늘로 날아가는 모습을 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "1분 29초(2025). 같은 채널."
   - cand_no: c04
     stage: 탐구하기
@@ -88,7 +88,7 @@ candidates:
     basis_lesson: "16~18차시 궁금한 것을 찾아볼까"
     desc: "깊은 바닷속에 사는 신기한 생물을 어린이 해양교육 영상으로 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "5분 36초(2022). 해양수산부 공식 채널(표 public)."
   - cand_no: c05
     stage: 탐구하기
@@ -103,7 +103,7 @@ candidates:
     basis_lesson: "16~18차시 궁금한 것을 찾아볼까"
     desc: "남극과 북극에 사는 동물을 소개해요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "3분 50초(2021). 극지연구소 공식 채널(표 public)."
   - cand_no: c06
     stage: 탐구하기
@@ -118,7 +118,7 @@ candidates:
     basis_lesson: "6차시 탐험가를 만나 볼까"
     desc: "우리나라 사람이 100년 전에 남극을 탐험한 이야기를 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "1분 49초(2020). 극지연구소."
   - cand_no: c07
     stage: 탐구하기
@@ -132,8 +132,8 @@ candidates:
     basis_code: "[2슬02-04]"
     basis_lesson: "16~18차시"
     desc: "빙하를 연구하는 일을 알려 줘요."
-    verdict: 확인필요
-    note: "5분 8초(2022). 극지연구소 — 1학년 눈높이 확인."
+    verdict: 보류
+    note: "5분 8초(2022). 극지연구소 — 1학년 눈높이 확인. 대상 학년이 높아 보임 — 보류."
   - cand_no: c08
     stage: 탐구하기
     title: "남극 탐험의 역사"
@@ -146,8 +146,8 @@ candidates:
     basis_code: "[2바02-04]"
     basis_lesson: "6차시 탐험가를 만나 볼까"
     desc: "사람들이 남극을 어떻게 탐험해 왔는지 알려 줘요."
-    verdict: 확인필요
-    note: "5분 15초(2020). 극지연구소 운영 '극지 톡톡' 채널(표 public)."
+    verdict: 보류
+    note: "5분 15초(2020). 극지연구소 운영 '극지 톡톡' 채널(표 public). 대상 학년이 높아 보임 — 보류."
   - cand_no: c09
     stage: 확장하기
     title: "외계인은 정말 있나요?"
@@ -161,7 +161,7 @@ candidates:
     basis_lesson: "11~12차시 내가 도착한 세상"
     desc: "외계인이 정말 있는지 궁금한 질문에 과학자가 답해 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "2분 45초(2021). '어린이가 궁금해하는 과학'."
   - cand_no: c10
     stage: 확장하기
@@ -176,7 +176,7 @@ candidates:
     basis_lesson: "11~12차시 내가 도착한 세상"
     desc: "다른 행성에 생명체가 사는지 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "3분 4초(2021)."
   - cand_no: c11
     stage: 확장하기

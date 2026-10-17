@@ -45,19 +45,40 @@ items:
     desc: 전기가 없으면 하루가 어떻게 달라지는지 보여 줘요.
     channel: 한국전력 KEPCO
   - key: v2
+    stage: 생각열기
+    title: 나의 오래된 물건 자랑 대회
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=yigdnoBCMHk
+    desc: 오래 쓴 물건을 소개하며 물건의 소중함을 이야기해요.
+    channel: 대구미래교육연구원
+  - key: v3
     stage: 탐구하기
     title: 세계의 잇템, 호미
     use: 수업 중
     url: https://www.youtube.com/watch?v=q0PS9itA4Wk
     desc: 옛날부터 쓰던 농기구 호미를 알아봐요.
     channel: 국립민속박물관
-  - key: v3
+  - key: v4
     stage: 탐구하기
     title: 돌아라 물레방아
     use: 수업 중
     url: https://www.youtube.com/watch?v=S_8_ahuDVRA
     desc: 물의 힘으로 도는 물레방아를 알아봐요.
     channel: 국립민속박물관
+  - key: v5
+    stage: 확장하기
+    title: 버리는 자투리로 모자이크
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=8gNz5c00ePg
+    desc: 버리는 자투리로 새 작품을 만들어요.
+    channel: 대구미래교육연구원
+  - key: v6
+    stage: 확장하기
+    title: 병뚜껑으로 협동화
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=JC9EsFTx13o
+    desc: 병뚜껑으로 함께 그림을 만들어요.
+    channel: 대구미래교육연구원
 quiz:
   - statement: 불편한 것을 해결하려고 발명품이 만들어져요.
     answer: O

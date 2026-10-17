@@ -66,6 +66,13 @@ items:
     desc: 손을 깨끗이 씻고 기침할 때 예절을 지키는 방법을 알려 줘요.
     channel: 질병관리청 아프지마TV
   - key: v5
+    stage: 탐구하기
+    title: 아기상어와 손 씻어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1A_gj_c0Krc
+    desc: 아기상어와 함께 손 씻는 방법을 알려 줘요.
+    channel: 보건복지부TV
+  - key: v6
     stage: 확장하기
     title: 왜 아빠는 더 이상 안 클까요?
     use: 수업 후

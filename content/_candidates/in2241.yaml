@@ -11,6 +11,7 @@ kit:
   unit: "4단원"
   unit_no: 4
   flow: "activity"
+  published: false
   codes: ["[2바03-03]", "[2슬03-03]", "[2즐03-03]"]
   core_idea: "우리 둘레와 옛날에는 고마운 인물이 많아요. 세종대왕처럼 사람들을 위해 일한 인물을 알고 본받으면 함께 사는 마음이 자라요."
   core_question: "인물에게서 무엇을 배워 실천할까?"
@@ -43,7 +44,7 @@ candidates:
     basis_lesson: "13차시 세종대왕과 한글"
     desc: "세종대왕이 한글을 만든 까닭을 만화로 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "2분 33초(2022). 만화로 즐기는 한글 이야기."
   - cand_no: c02
     stage: 탐구하기
@@ -58,7 +59,7 @@ candidates:
     basis_lesson: "13~14차시 세종대왕과 한글·한글을 찾아서"
     desc: "세종대왕과 함께 훈민정음 노래를 따라 불러요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "2분 10초(2020). 우리나라(in1131)와 같은 영상."
   - cand_no: c03
     stage: 탐구하기
@@ -73,7 +74,7 @@ candidates:
     basis_lesson: "14차시 한글을 찾아서"
     desc: "한글 자음 이름을 지은 사람과 이야기를 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "3분 31초(2020)."
   - cand_no: c04
     stage: 탐구하기
@@ -87,8 +88,9 @@ candidates:
     basis_code: "[2바03-03]"
     basis_lesson: "인물"
     desc: "한글을 사랑한 조선 마지막 공주의 이야기를 알려 줘요."
-    verdict: 확인필요
-    note: "3분 22초(2020)."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "3분 22초(2020). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c05
     stage: 확장하기
     title: "한글날이 10월 9일이 아니었다고?"
@@ -101,8 +103,9 @@ candidates:
     basis_code: "[2바03-03]"
     basis_lesson: "25차시 세종대왕의 흔적"
     desc: "한글날이 언제 어떻게 정해졌는지 알려 줘요."
-    verdict: 확인필요
-    note: "4분 15초 — 2학년 눈높이 확인."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "4분 15초 — 2학년 눈높이 확인. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c06
     stage: 확장하기
     title: "하늘의 별이 된 시인 윤동주"

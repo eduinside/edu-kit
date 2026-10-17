@@ -43,7 +43,7 @@ candidates:
     basis_lesson: "2차시 그림책에서 만나는 이야기"
     desc: "견우와 직녀 이야기를 전시 동화로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "4분 59초(2022). 국립민속박물관 어린이박물관 전시동화(표 public)."
   - cand_no: c02
     stage: 생각열기
@@ -58,7 +58,7 @@ candidates:
     basis_lesson: "2차시 그림책에서 만나는 이야기"
     desc: "연오랑과 세오녀 이야기를 전시 동화로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "5분 7초(2022)."
   - cand_no: c03
     stage: 탐구하기
@@ -73,7 +73,7 @@ candidates:
     basis_lesson: "9차시 이야기 마법사"
     desc: "전래동화 호랑이와 곶감을 그림책으로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "5분 17초. EBS 키즈 '그림책 뿡뿡뿡' 전래동화."
   - cand_no: c04
     stage: 탐구하기
@@ -88,7 +88,7 @@ candidates:
     basis_lesson: "11차시 이야기를 들려줄게"
     desc: "전래동화 박박 바가지를 그림책으로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "5분 54초."
   - cand_no: c05
     stage: 탐구하기
@@ -103,7 +103,7 @@ candidates:
     basis_lesson: "11차시 이야기를 들려줄게"
     desc: "전래동화 세상에서 제일 큰 아이를 그림책으로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
     note: "5분 53초."
   - cand_no: c06
     stage: 확장하기
@@ -117,8 +117,8 @@ candidates:
     basis_code: "[2슬04-03]"
     basis_lesson: "3~4차시 소원을 말해 봐"
     desc: "소원을 이루려고 길을 떠나는 총각 이야기를 그림책으로 들려줘요."
-    verdict: 확인필요
-    note: "6분 50초."
+    verdict: 보류
+    note: "6분 50초. 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
   - cand_no: c07
     stage: 확장하기
     title: "찍찍 찍서방"
@@ -131,8 +131,8 @@ candidates:
     basis_code: "[2슬04-03]"
     basis_lesson: "11차시 이야기를 들려줄게"
     desc: "샌드아트로 구연동화 '찍찍 찍서방'을 들려줘요."
-    verdict: 확인필요
-    note: "6분 20초(2020). 국립어린이청소년도서관 공식 채널(어린이날 큰 잔치). ※ 채널 등급 표에 없음 — 등급(public)은 임시, 운영자 확정."
+    verdict: 보류
+    note: "6분 20초(2020). 국립어린이청소년도서관 공식 채널(어린이날 큰 잔치). 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택). ※ 채널 등급 표에 없음 — 등급(public)은 임시, 운영자 확정."
   - cand_no: c08
     stage: 확장하기
     title: "바리공주"

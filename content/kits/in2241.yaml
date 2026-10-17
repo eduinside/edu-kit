@@ -56,6 +56,20 @@ items:
     url: https://www.youtube.com/watch?v=qhSONxqUSLA
     desc: 한글 자음 이름을 지은 사람과 이야기를 알려 줘요.
     channel: 국립한글박물관
+  - key: v4
+    stage: 탐구하기
+    title: 조선 마지막 공주의 한글 사랑
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=MHbYUimQZII
+    desc: 한글을 사랑한 조선 마지막 공주의 이야기를 알려 줘요.
+    channel: 국립한글박물관
+  - key: v5
+    stage: 확장하기
+    title: 한글날이 10월 9일이 아니었다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=XhrJZWo5flw
+    desc: 한글날이 언제 어떻게 정해졌는지 알려 줘요.
+    channel: 국립한글박물관
 quiz:
   - statement: 한글은 세종대왕이 만들었어요.
     answer: O

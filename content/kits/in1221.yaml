@@ -65,6 +65,13 @@ items:
     url: https://www.youtube.com/watch?v=fEmIG63XuKE
     desc: 교실에서 쓰레기를 나누어 버리는 방법을 알려 줘요.
     channel: 대구미래교육연구원
+  - key: v5
+    stage: 확장하기
+    title: 우리 반 당근마켓
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=fTDNDRvPreE
+    desc: 쓰던 물건을 나누고 바꾸어 쓰는 활동을 보여 줘요.
+    channel: 대구미래교육연구원
 quiz:
   - statement: 양치할 때 물을 틀어 놓으면 물이 낭비돼요.
     answer: O

@@ -42,6 +42,20 @@ items:
     url: https://www.youtube.com/watch?v=viuSDmMGLIU
     desc: 낮과 밤이 왜 생기는지 어린이의 질문에 과학자가 답해 줘요.
     channel: 국립어린이과학관
+  - key: v2
+    stage: 탐구하기
+    title: 마음에 숨쉬기가 필요해요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=soR6kRn8Odo
+    desc: 편안한 마음을 위해 숨 쉬는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v3
+    stage: 탐구하기
+    title: 손 씻기 6단계
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=wd6XR9Q1IM8
+    desc: 손을 씻는 순서 여섯 단계를 보여 줘요.
+    channel: 질병관리청 아프지마TV
 quiz:
   - statement: 지구가 돌면서 낮과 밤이 생겨요.
     answer: O

@@ -50,6 +50,13 @@ items:
     desc: 타임머신을 만들 수 있는지 어린이의 질문에 답해 줘요.
     channel: 국립어린이과학관
   - key: v3
+    stage: 탐구하기
+    title: 하늘거울로 놀아요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qXbtNvr_IxQ
+    desc: 하늘거울로 하늘을 다르게 보는 놀이를 보여 줘요.
+    channel: 대구미래교육연구원
+  - key: v4
     stage: 확장하기
     title: 땅속 통로를 만들 수 있을까요?
     use: 수업 후
