@@ -1,0 +1,109 @@
+id: mo3261
+title: 6. 함께 가는 공정의 길
+grade: 3
+sem: 2학기
+subject: 도덕
+unit: 6단원
+unit_no: 6
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 공정은 어느 한쪽으로 치우치지 않고 알맞은 기준으로 모두를 대하는 마음이에요. 생활 속에서 공정한지 까닭과 함께 가려 보고, 모두가 받아들일 수 있는 규칙을 만들어 지키며, 작은 실천에서 공정한 사회가 시작돼요.
+  core_question: 생활 속에서 무엇이 공정한지 어떻게 가리고, 모두에게 공정한 규칙은 어떻게 만들까?
+  concepts:
+    - term: 공정
+      def: 어느 한쪽으로 치우치지 않고 모든 사람을 똑같은 기준으로 대하는 것이에요. 규칙을 만들고 지킬 때 꼭 필요한 마음가짐이에요.
+    - term: 규칙
+      def: 여럿이 함께 살아갈 때 서로 지키기로 약속한 것이에요. 규칙이 있으면 다툼을 줄이고 모두가 편하게 지낼 수 있어요.
+    - term: 차별
+      def: 성별, 나이, 장애, 나라 같은 이유로 어떤 사람을 정당한 까닭 없이 다르게 대하고 불리하게 하는 일이에요.
+    - term: 공정무역
+      def: 농부와 노동자가 일한 만큼 정당한 값을 받을 수 있도록 공정한 가격으로 사고파는 무역이에요.
+    - term: 재판
+      def: 다툼이나 잘못을 법원에서 법에 따라 따져 판단하는 일이에요.
+  standards:
+    - code: "[4도03-01]"
+      text: 불공정의 사례를 탐구하고, 일상생활에서 공정의 가치를 추구하는 활동을 통해 실천 의지를 함양한다.
+stages:
+  - name: 생각열기
+    question: 공정이란 무엇이고 왜 필요할까?
+  - name: 탐구하기
+    question: 생활 속 일이 공정한지 어떻게 가리고 공정한 규칙을 어떻게 만들까?
+  - name: 확장하기
+    question: 공정한 사회를 위한 제도와 노력에는 무엇이 있을까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 공정한 일곱 살, 정의로운 8개월
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=5K8ulYdYW1E
+    desc: 아주 어린아이도 공정함을 느낀다는 연구를 소개하는 EBS 뉴스 영상이에요.
+    channel: EBSCulture (EBS 교양)
+  - key: v2
+    stage: 탐구하기
+    title: 토끼와 거북이의 달리기 경주
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=MQqblwnvO8A
+    desc: 토끼와 거북이의 경주 이야기로 공정한 경기가 무엇인지 생각해 봐요.
+    channel: EBS 키즈
+  - key: v3
+    stage: 탐구하기
+    title: 왜 규칙을 지켜야 할까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=bSTssxJilRk
+    desc: 규칙이 왜 필요하고 어떻게 지켜야 하는지 쉬운 이야기로 알려 줘요.
+    channel: 국가기초학력지원센터
+  - key: v4
+    stage: 탐구하기
+    title: 모두가 함께 정하는 놀이터
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=t5QGEqZ2Qn4
+    desc: 좁은 놀이터를 두고 동물 친구들이 의견을 모아 함께 정하는 과정을 보여 주는 동화예요.
+    channel: 중앙선거관리위원회
+  - key: v5
+    stage: 확장하기
+    title: 교통약자를 위한 배려석
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=PpWBpFvE9P8
+    desc: 버스와 지하철의 배려석을 왜 양보해야 하는지 알려 주는 안전교육 영상이에요.
+    channel: 안전다있소
+  - key: v6
+    stage: 확장하기
+    title: 어린이를 위한 법원 이야기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=i9SD2xfqTa4
+    desc: 법원이 하는 일과 재판을 어린이 눈높이 만화로 알려 줘요.
+    channel: 대한민국 대법원
+  - key: v7
+    stage: 확장하기
+    title: 나티의 꿈 — 공정무역 이야기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=q-VQUzNaw_I
+    desc: 공정무역이 무엇이고 왜 필요한지 동화로 알려 줘요.
+    channel: "모두잇(DO IT) : 공정무역"
+quiz:
+  - statement: 공정은 어느 한쪽으로 치우치지 않고 같은 기준으로 대하는 것이다.
+    answer: O
+    explain: 공정은 치우침 없이 알맞은 기준으로 모두를 대하는 마음이에요.
+  - statement: 모두에게 똑같은 양을 나누어 주면 어떤 경우에도 공정하다.
+    answer: X
+    explain: 하는 일이나 처지가 다르면 다르게 대하는 것이 공정할 때도 있어요.
+  - statement: 공정한 규칙을 만들 때는 힘이 약한 사람의 처지도 헤아려야 한다.
+    answer: O
+    explain: 약한 사람이 손해를 보지 않는지 살펴야 모두에게 공정한 규칙이 돼요.
+  - statement: 내게 유리한 쪽으로 정하는 것이 공정이다.
+    answer: X
+    explain: 공정하려면 상대의 처지도 함께 헤아려야 해요.
+  - statement: 규칙을 만들 때 모두가 동의하고 손해 보는 사람이 없는지 살피면 공정한 규칙에 가까워진다.
+    answer: O
+    explain: 한정된 기회를 나눌 때는 모두가 받아들일 수 있는 규칙이 필요해요.
+  - statement: 다수가 원하면 일부 친구의 기회를 빼앗는 규칙도 공정하다.
+    answer: X
+    explain: 일부의 기회를 빼앗는 규칙은 다수가 원하더라도 공정하지 않아요.
+  - statement: 공정무역은 일한 사람이 정당한 값을 받도록 돕는 무역이다.
+    answer: O
+    explain: 공정무역 상품을 고르면 생산자가 일한 만큼 값을 받는 데 도움이 돼요.
+  - statement: 공정한 사회는 어른이나 나라가 알아서 만드는 것이라 나의 작은 실천과는 상관이 없다.
+    answer: X
+    explain: 공정한 사회는 우리 생활 속 작은 실천에서부터 시작돼요.

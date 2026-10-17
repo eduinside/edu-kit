@@ -1,0 +1,386 @@
+# pr6203 후보 기록 — 실과 6학년 생활환경과 지속가능한 선택 「환경 고려 관리·생태 지향 삶」 (성취기준 [6실02-03]·[6실02-11])
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- pr6203 --dry
+# 2026-10-17 수집(야간 위임). 재생·임베드·연령·국내·길이·쇼츠 여부는 후보 전부 YouTube Data API(ytcheck)로 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님.
+# 새 채널(channels.yaml에 없음) 후보: 국가기후위기대응위원회 · 한국환경산업협회 KEIA · 아름다운가게 EDU · 한국환경산업기술원 — 채택·후보 채널 등급은 운영자에게 질문.
+# 대구미래교육연구원 「즐거운 환경 수업」(2022)·「실과 완전 정복」을 우선 사용(대구 교육기관). 기후 불안을 키우는 영상은 제외하고 실천 중심으로 구성.
+kit:
+  id: pr6203
+  title: "환경 고려 관리·생태 지향 삶"
+  grade: 6
+  sem: 2학기
+  subject: 실과
+  unit: 생활환경과 지속가능한 선택
+  unit_no: 2
+  flow: activity
+  codes: ["[6실02-03]", "[6실02-11]"]
+  core_idea: "물건을 만들고 쓰고 버리는 일은 환경에 영향을 줘요. 생활 자원을 아껴 쓰고 나누고 재사용·재활용하는 관리 방법을 알고, 의식주 생활에서 할 수 있는 행동을 계획해 꾸준히 실천하면 지구를 위한 생태 지향적 삶을 살 수 있어요."
+  core_question: "내가 쓰는 물건과 생활 습관이 환경에 어떤 영향을 주고, 환경을 지키기 위해 무엇을 계획해 실천할 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "물건을 만들고 쓰고 버리는 일은 환경에 어떤 영향을 줄까?"
+    - name: 탐구하기
+      question: "환경을 고려해 쓰고 나누고 버리는 방법에는 무엇이 있을까?"
+    - name: 확장하기
+      question: "생태 지향적 삶을 위해 나의 의식주 생활에서 어떤 행동을 계획해 실천할까?"
+  concepts:
+    - "분리배출"
+    - "재사용"
+    - "재활용"
+    - "탄소발자국"
+    - "생태 지향적 삶"
+  source_notes: "정리본 실과6.천재이춘식.u5(1~6차시 만들고 쓰고 버리는 일의 영향·살 때 쓸 때 버릴 때 관리법과 나눔 기부·이어 참여하기·환경 문제와 생태 지향 삶·의식주 점검과 일주일 실천) · 실과6.비상송.u1-1(자원도 쓰레기도 되는 처리 방법·쓰레기 줄이기와 분리배출·의식주 습관 점검·교실 가정 실천). 오개념: 버린 물건은 쓸모없음(처리에 따라 자원), 환경 문제는 먼 미래 일, 음식에서 나온 뼈·씨·껍데기를 모두 음식물 쓰레기로 착각. 유의: 환경 문제가 심각함을 알리되 지나친 불안 금지, 실천은 눈에 보이는 행동 목표(주 1회 채식 등), 분리배출 기준은 지역마다 다를 수 있음, 폐품은 다치지 않게. 지도서 원문에 유튜브 주소 인용 없음(자원순환실천플랫폼·기후행동 1.5℃·한국환경산업기술원·환경부 블로그 등 누리집) → 공식 채널 직접 검색."
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "나의 오래된 물건 자랑 대회"
+    video_title: "[즐거운 환경 수업] 01. 나의 오래된 물건 자랑 대회"
+    url: https://www.youtube.com/watch?v=yigdnoBCMHk
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:32"
+    use: 수업 전
+    basis_code: "[6실02-03]"
+    basis_lesson: "1차시 물건을 오래 쓰는 일"
+    desc: "한번 산 물건을 버리지 않고 오래 쓰는 친구들의 이야기를 들으며 제로웨이스트를 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 대구미래교육연구원 즐거운 환경 수업 01. 대구 교육기관 영상. 학생 출연 가능(교육기관 공식 채널)."
+  - cand_no: c02
+    stage: 생각열기
+    title: "탄소 배출 줄이는 우리는 지구 수비대!"
+    url: https://www.youtube.com/watch?v=auPhOQZPXPY
+    channel: "국가기후위기대응위원회"
+    channel_grade: public
+    duration: "1:10"
+    use: 수업 전
+    basis_code: "[6실02-11]"
+    basis_lesson: "4차시 환경 문제와 실천"
+    desc: "더위에 지친 지구를 돕기 위해 탄소 배출을 줄이는 실천을 애니메이션으로 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 국가기후위기대응위원회(탄소중립녹색성장위원회) 애니메이션. 1분 10초 동기 유발용. 새 채널."
+  - cand_no: c03
+    stage: 생각열기
+    title: "쓰레기 문제와 지속가능한 발전"
+    video_title: "[함께 사는 세계시민] 11. 쓰레기 문제와 지속가능한 발전"
+    url: https://www.youtube.com/watch?v=AEwNIFuFYFw
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "6:14"
+    use: 수업 중
+    basis_code: "[6실02-03]"
+    basis_lesson: "1차시 만들고 쓰고 버리는 일의 영향"
+    desc: "쓰레기 문제를 살펴보며 지구 환경 위기와 지속가능한 발전에 관심을 가져 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024 대구미래교육연구원 함께 사는 세계시민 11. 해당 교재와 함께 쓰는 영상이라 교재 쪽수 언급이 있을 수 있음."
+  - cand_no: c04
+    stage: 생각열기
+    title: "탄소중립! 내가 먼저 실천해요"
+    url: https://www.youtube.com/watch?v=cLYg_M5jo00
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "2:13"
+    use: 수업 중
+    basis_code: "[6실02-11]"
+    basis_lesson: "4차시 생태 지향적 삶의 필요"
+    desc: "탄소중립이 무엇인지 알고 내가 먼저 실천할 수 있는 일을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 환경부(현 기후에너지환경부) 공식 채널."
+  - cand_no: c05
+    stage: 생각열기
+    title: "지식채널e — 누가 지구를 뜨겁게 만들었나?"
+    video_title: "지식채널e - 탄소이야기1 누가 지구를 뜨겁게 만들었나?"
+    url: https://www.youtube.com/watch?v=Af2an3IuNHw
+    channel: "EBSCulture (EBS 교양)"
+    channel_grade: edu
+    duration: "4:53"
+    use: 수업 중
+    basis_code: "[6실02-11]"
+    basis_lesson: "4차시 환경 문제"
+    desc: "탄소중립이 무엇인지 한 번에 깔끔하게 설명하는 지식채널e 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 지식채널e. 위기감을 키울 수 있어 지나친 불안 금지 유의점에 비추어 보류."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "지구를 위한 에티켓 — 분리배출(교실편)"
+    video_title: "[즐거운 환경 수업] 15. 지구를 위한 에티켓 (분리배출-교실편)"
+    url: https://www.youtube.com/watch?v=fEmIG63XuKE
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:04"
+    use: 수업 중
+    basis_code: "[6실02-03]"
+    basis_lesson: "2차시 분리배출 방법"
+    desc: "분리배출이 왜 필요한지 알고 네 가지 방법과 퀴즈로 분리배출을 익혀요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 대구미래교육연구원 즐거운 환경 수업 15. 분리배출 기준은 지역마다 다를 수 있다는 점은 수업에서 덧붙임."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "할아버지와 손녀가 함께하는 분리배출"
+    video_title: "(어린이 환경교육용 프로그램) 할아버지와 손녀가 함께하는 분리배출, 모두 같이 따라해봐요~(한글 자막)"
+    url: https://www.youtube.com/watch?v=hFnEnUdlr0w
+    channel: "한국환경공단"
+    channel_grade: public
+    duration: "7:51"
+    use: 수업 중
+    basis_code: "[6실02-03]"
+    basis_lesson: "2차시 분리배출 방법"
+    desc: "어린이 민지가 할아버지와 함께 분리배출하는 모습을 따라 하며 방법을 익혀요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 한국환경공단 어린이 환경교육용 프로그램(7분 51초, 학생 시청 가능)."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "투명 페트병 재활용 분리배출"
+    video_title: "투명 페트병에 대해 얼마나 알고 있니? I 투명 페트병 재활용 I 분리배출"
+    url: https://www.youtube.com/watch?v=ZNmfgKXvjxY
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "4:41"
+    use: 수업 중
+    basis_code: "[6실02-03]"
+    basis_lesson: "2차시 재활용"
+    desc: "투명 페트병이 만들어져 재활용되기까지의 과정과 올바른 분리배출을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 환경부 공식 채널. 수치는 수업에서 쓰지 않음."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "우리반 당근마켓"
+    video_title: "[즐거운 환경 수업] 02. 우리반 당근마켓"
+    url: https://www.youtube.com/watch?v=fTDNDRvPreE
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:55"
+    use: 수업 중
+    basis_code: "[6실02-03]"
+    basis_lesson: "2~3차시 나눔과 재사용"
+    desc: "쓰지 않는 학용품을 우리 반 중고 거래로 바꿔 쓰며 쓰레기와 탄소를 줄이는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 대구미래교육연구원 즐거운 환경 수업 02. 벼룩시장(비상 지도서 활동) 수업에 연결."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "새활용 알아보기"
+    video_title: "[업사이클] 지구를 위한 한걸음, 새활용! 새활용 알아보기"
+    url: https://www.youtube.com/watch?v=RG5XgfCOH_g
+    channel: "한국환경산업협회 KEIA"
+    channel_grade: public
+    duration: "1:52"
+    use: 수업 중
+    basis_code: "[6실02-03]"
+    basis_lesson: "2차시 재사용·새활용"
+    desc: "버려지는 물건에 새 가치를 더하는 새활용의 뜻과 환경적 가치를 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 한국환경산업협회(환경부 산하 협회). 새 채널."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "제로웨이스트! 필요없는 물건은 거절하고 줄여요"
+    video_title: "[삼꿀대구] 제로웨이스트! 필요없는 물건 거절하고, 불필요한 물건은 줄여요"
+    url: https://www.youtube.com/watch?v=75jMZ5DxPUk
+    channel: "대구TV┃대구광역시 공식 유튜브"
+    channel_grade: public
+    local: 대구
+    duration: "4:57"
+    use: 수업 중
+    basis_code: "[6실02-03]"
+    basis_lesson: "2차시 쓰레기 줄이기"
+    desc: "쓰레기를 줄이는 다섯 가지 생활 수칙(5R)을 대구시가 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 대구광역시 공식 채널. 대구 지역 실천 안내."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "한국업사이클센터 현장체험학습"
+    video_title: "[즐거운 환경 수업] 20. 한국업사이클센터 현장체험학습"
+    url: https://www.youtube.com/watch?v=_niM7ZlV-aw
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:40"
+    use: 수업 후
+    basis_code: "[6실02-03]"
+    basis_lesson: "2차시 새활용 체험"
+    desc: "업사이클 제품을 만들고 체험할 수 있는 한국업사이클센터를 찾아가 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 대구미래교육연구원 즐거운 환경 수업 20."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "[배출의 품격] 슬기로운 쓰레기 배출 생활 — 분리배출편"
+    url: https://www.youtube.com/watch?v=yYQCHZbrgB4
+    channel: "국가환경교육센터"
+    channel_grade: public
+    duration: "6:50"
+    use: 수업 중
+    basis_code: "[6실02-03]"
+    basis_lesson: "2차시 분리배출"
+    desc: "쓰레기 양이 얼마나 되는지 알아보고 올바른 분리배출 방법을 살펴봐요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 국가환경교육센터. 성인 눈높이일 수 있고 c06·c07과 겹쳐 보류."
+  - cand_no: c14
+    stage: 탐구하기
+    title: "분리배출표시제도 가이드"
+    url: https://www.youtube.com/watch?v=Y9epTHqF_Zs
+    channel: "한국환경공단"
+    channel_grade: public
+    duration: "4:50"
+    use: 배경지식
+    basis_code: "[6실02-03]"
+    basis_lesson: "2차시 분리배출 표시"
+    desc: "분리배출 표시제도가 무엇이며 포장재에 어떻게 표시되는지 안내해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 한국환경공단. 기업·표시 담당자 대상 성격이라 교사용 배경지식."
+  - cand_no: c15
+    stage: 탐구하기
+    title: "아름다운 나눔 — 아름다운가게에 가다"
+    url: https://www.youtube.com/watch?v=Px6q5vA2g5I
+    channel: "아름다운가게 EDU"
+    channel_grade: personal
+    duration: "5:32"
+    use: 수업 후
+    basis_code: "[6실02-03]"
+    basis_lesson: "2차시 나눔·기부"
+    desc: "릴라씨와 반코미가 아름다운가게를 방문해 나눔을 실천하는 방법을 배워요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025 시민단체 교육 채널(personal). 대구미래교육연구원 당근마켓 영상(c09)으로 나눔을 다뤄 단체 홍보 성격을 피해 보류. 새 채널."
+  - cand_no: c16
+    stage: 확장하기
+    title: "지구를 위한 에티켓 — 가정편"
+    video_title: "[즐거운 환경 수업] 18. 지구를 위한 에티켓 (가정편)"
+    url: https://www.youtube.com/watch?v=VXgkLfLFGJ0
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:14"
+    use: 수업 중
+    basis_code: "[6실02-11]"
+    basis_lesson: "5차시 의식주 생활 속 실천"
+    desc: "탄소포인트 제도를 알고 에너지·소비·수송에서 가정이 실천할 일을 살펴봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 대구미래교육연구원 즐거운 환경 수업 18."
+  - cand_no: c17
+    stage: 확장하기
+    title: "지구를 위한 에티켓 — 채식편"
+    video_title: "[즐거운 환경 수업] 17. 지구를 위한 에티켓 (채식편)"
+    url: https://www.youtube.com/watch?v=ScV0d3UGQ1A
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "6:08"
+    use: 수업 중
+    basis_code: "[6실02-11]"
+    basis_lesson: "5차시 식생활 실천"
+    desc: "환경을 위해 채식이 왜 필요한지 알고 채식 요리와 레시피 북 만들기를 살펴봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 대구미래교육연구원 즐거운 환경 수업 17. 천재 지도서의 주 1회 채식 같은 실천 목표와 연결. 채식을 강요하는 내용이 없는지 시청 확인 권장."
+  - cand_no: c18
+    stage: 확장하기
+    title: "지구를 위한 에티켓 — 급식편"
+    video_title: "[즐거운 환경 수업] 16. 지구를 위한 에티켓 (급식편)"
+    url: https://www.youtube.com/watch?v=gcV5XUz8mZQ
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:21"
+    use: 수업 중
+    basis_code: "[6실02-11]"
+    basis_lesson: "5차시 식생활 실천"
+    desc: "학교 식단표를 분석하며 나만의 저탄소 급식을 생각해 봐요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 대구미래교육연구원 즐거운 환경 수업 16. 채식편(c17)·가정편(c16)과 겹쳐 보류."
+  - cand_no: c19
+    stage: 확장하기
+    title: "지구를 위한 에티켓 — 다짐편"
+    video_title: "[즐거운 환경 수업] 19. 지구를 위한 에티켓 (다짐편)"
+    url: https://www.youtube.com/watch?v=xc5vsryHXaI
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:32"
+    use: 수업 후
+    basis_code: "[6실02-11]"
+    basis_lesson: "5차시 실천 다짐"
+    desc: "환경 골든벨로 내용을 정리하고 환경 에티켓을 꼭 실천하겠다고 다짐해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 대구미래교육연구원 즐거운 환경 수업 19."
+  - cand_no: c20
+    stage: 확장하기
+    title: "스스로 하는 지속가능한 생활 — 탄소발자국"
+    video_title: "[실과 완전 정복] 15. 탄소발자국(스스로 하는 지속가능한 생활) ★학습지★"
+    url: https://www.youtube.com/watch?v=8geakR8LltY
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:21"
+    use: 수업 중
+    basis_code: "[6실02-11]"
+    basis_lesson: "4~5차시 탄소발자국"
+    desc: "탄소발자국의 뜻을 알고 환경과 연결해 살펴봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 대구미래교육연구원 실과 완전 정복 15."
+  - cand_no: c21
+    stage: 확장하기
+    title: "우리 가족 에너지 절약 일기"
+    video_title: "집에서 실천하는 에너지 절약 「우리 가족 에너지 절약 일기」"
+    url: https://www.youtube.com/watch?v=SyM-vdSsxtA
+    channel: "국립대구과학관 Scientry"
+    channel_grade: public
+    local: 대구
+    duration: "3:30"
+    use: 수업 후
+    basis_code: "[6실02-11]"
+    basis_lesson: "5차시 일주일 실천 계획"
+    desc: "집에서 실천할 수 있는 에너지 절약 방법을 알아보고 절약 일기를 써 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 국립대구과학관(대구 공공기관). 전기요금 수치 언급은 수업에서 쓰지 않음."
+  - cand_no: c22
+    stage: 확장하기
+    title: "도달쑤와 함께 일회용품 사용 줄이기"
+    video_title: "[FLY053]도달쑤와 함께 일회용품 사용 줄이기!"
+    url: https://www.youtube.com/watch?v=Kgm02ufJhXE
+    channel: "대구TV┃대구광역시 공식 유튜브"
+    channel_grade: public
+    local: 대구
+    duration: "2:41"
+    use: 수업 후
+    basis_code: "[6실02-11]"
+    basis_lesson: "5차시 일주일 실천 계획"
+    desc: "일회용 컵 대신 텀블러, 비닐 대신 장바구니처럼 일회용품을 줄이는 실천을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 대구광역시 공식 채널. 캐릭터 도달쑤가 진행(저학년풍)."
+  - cand_no: c23
+    stage: 확장하기
+    title: "슬기로운 탄소 식생활"
+    video_title: "지식채널e - 탄소이야기2 슬기로운 탄소 식생활"
+    url: https://www.youtube.com/watch?v=JZWjHd2yVdg
+    channel: "EBSCulture (EBS 교양)"
+    channel_grade: edu
+    duration: "5:21"
+    use: 수업 중
+    basis_code: "[6실02-11]"
+    basis_lesson: "5차시 식생활 실천"
+    desc: "매일 먹는 밥상에서 나오는 탄소와 줄이는 방법을 알려 주는 지식채널e 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 지식채널e. 성인 시각 영상이라 보류."

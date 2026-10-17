@@ -1,0 +1,173 @@
+id: pr6501
+title: 데이터·인공지능
+grade: 6
+sem: 2학기
+subject: 실과
+unit: 디지털 사회와 인공지능
+unit_no: 5
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 우리 생활 곳곳에는 숫자, 글자, 소리, 이미지 같은 데이터가 있고, 컴퓨터가 처리할 수 있게 바꾼 것이 디지털 데이터예요. 인공지능은 기계 학습으로 데이터에서 규칙을 스스로 찾아 새 자료를 판단하며, 우리 생활과 직업에 좋은 점과 걱정되는 점을 함께 줘요.
+  core_question: 인공지능은 데이터를 어떻게 배우고, 우리 삶을 어떻게 바꿀까?
+  concepts:
+    - term: 데이터
+      def: 관찰하거나 측정해서 모은 숫자, 글자, 소리, 사진 같은 자료예요. 컴퓨터는 데이터를 처리해서 필요한 정보를 얻어요.
+    - term: 디지털 데이터
+      def: 숫자뿐 아니라 글자, 소리, 이미지도 컴퓨터가 처리할 수 있게 0과 1로 바꾼 데이터예요. 이어서 변하는 값을 그대로 나타내는 아날로그 데이터와는 특징이 달라요.
+    - term: 인공지능
+      def: 사람처럼 배우고 판단하는 것 같은 일을 하도록 컴퓨터로 만든 기술이에요. 사진을 알아보거나 말을 알아듣는 일에 쓰여요.
+    - term: 기계 학습
+      def: 컴퓨터가 많은 데이터를 보고 스스로 규칙을 찾아내는 방법이에요. 이렇게 배운 규칙으로 처음 보는 데이터도 알아맞혀요.
+    - term: 인공지능의 영향
+      def: 인공지능이 우리 생활과 직업, 사회에 주는 좋은 점과 걱정되는 점을 함께 말해요. 편리해지는 만큼 사생활 보호, 책임, 저작권 같은 문제도 생각해야 해요.
+  standards:
+    - code: "[6실05-04]"
+      text: 디지털 데이터와 아날로그 데이터의 특징을 이해하고, 인공지능에 활용할 수 있는 데이터의 유형이나 형태를 탐색한다.
+    - code: "[6실05-05]"
+      text: 인공지능이 만들어지는 과정을 체험하고, 인공지능이 사회에 미치는 영향을 탐색한다.
+stages:
+  - 데이터
+  - 디지털 데이터
+  - 인공지능
+  - 기계 학습
+  - 인공지능의 영향
+items:
+  - key: v1
+    stage: 데이터
+    title: 빅데이터란?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6MrCdXBlmqM
+    desc: 매일 쌓이는 많은 양의 데이터를 분석해 쓸 때 무엇을 조심해야 하는지 알려 줘요.
+    channel: 소프트웨어야 놀자
+  - key: v2
+    stage: 데이터
+    title: 공공데이터란 무엇이고 어떻게 활용할까
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=oJ6ELprPa_o
+    desc: 누구나 무료로 쓸 수 있는 공공데이터가 급식 앱 같은 생활 서비스에 쓰이는 예를 알려 줘요.
+    channel: 교육부
+  - key: v3
+    stage: 디지털 데이터
+    title: 디지털과 아날로그의 구분, 디지털 전환
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=VQu3t6A5CKg
+    desc: 아날로그와 디지털이 어떻게 다른지, 디지털로 바뀌는 흐름을 짧게 설명해요.
+    channel: 인천광역시교육청교육연수원
+  - key: v4
+    stage: 디지털 데이터
+    title: 인공지능이 먹는 음식 - 데이터의 종류
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=SqVVjaI6y8U
+    desc: 인공지능이 먹는 음식인 데이터에 어떤 종류가 있는지 초등생 눈높이 이야기로 알려 줘요.
+    channel: 미래아이TV
+  - key: v5
+    stage: 인공지능
+    title: 인공지능(AI)이란?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Sxlz-r5FeCo
+    desc: 사람의 지능을 흉내 내는 소프트웨어와 장치를 인공지능이라고 한다는 것을 짧게 알려 줘요.
+    channel: 소프트웨어야 놀자
+  - key: v6
+    stage: 인공지능
+    title: 인공지능 활용 (AI Applications)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=MFLRRjcMR7I
+    desc: 얼굴과 말을 알아보고 물건을 찾아 주는 등 생활 곳곳의 인공지능 쓰임을 알려 줘요.
+    channel: 소프트웨어야 놀자
+  - key: v7
+    stage: 인공지능
+    title: 클릭! 소프트웨어 1부 - 인공지능
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=D1Tfbg4fHNs
+    desc: 인공지능을 전체적으로 설명하고 사례를 통해 머신러닝과 딥러닝까지 소개해요.
+    channel: EBSCulture (EBS 교양)
+  - key: v8
+    stage: 기계 학습
+    title: 북돋움 인공지능(초등편) - 머신러닝과 딥러닝 이해하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=5bS_a2UwF9Q
+    desc: 초등 눈높이로 머신러닝과 딥러닝이 무엇인지 이해하게 도와줘요.
+    channel: 서울특별시교육청교육연구정보원
+  - key: v9
+    stage: 기계 학습
+    title: 머신러닝(기계학습)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=IiyYsAMmmw4
+    desc: 데이터를 통해 규칙을 스스로 찾아내는 방법인 머신러닝의 뜻과 학습 방법을 알려 줘요.
+    channel: 소프트웨어야 놀자
+  - key: v10
+    stage: 기계 학습
+    title: 지도학습 (Supervised Learning)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=zXzFsWHToeg
+    desc: 정답이 있는 데이터를 보고 학습하는 지도학습이 무엇이고 어디에 쓰이는지 알려 줘요.
+    channel: 소프트웨어야 놀자
+  - key: v11
+    stage: 기계 학습
+    title: 초등학교 에듀테크 활용 수업 - 티처블머신으로 분류 수업하기
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=bzuMsZDItlU
+    desc: 초등 5학년 학생들이 티처블머신으로 사물을 분류해 보는 수업 사례를 선생님이 소개해요.
+    channel: 부산광역시교육청교육연수원
+  - key: v12
+    stage: 인공지능의 영향
+    title: 인공지능이 가져올 직업 변화 - 인공지능 전문가
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=4bFrrMjikzM
+    desc: 학생을 위한 온라인 직업 체험으로 인공지능이 가져올 직업 변화와 인공지능 전문가를 소개해요.
+    channel: 한국잡월드
+  - key: v13
+    stage: 인공지능의 영향
+    title: 미래직업 가이드 - 인공지능 전문가
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=wZILc0wJ3hk
+    desc: 청소년을 위한 미래 직업 안내 영상으로 인공지능 전문가가 하는 일을 알려 줘요.
+    channel: 직능연KRIVET
+  - key: v14
+    stage: 인공지능의 영향
+    title: 인공지능 윤리 (AI Ethics)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=rABDGSJm8tg
+    desc: 인공지능이 생활을 편리하게 하지만 데이터를 다룰 때 생각해야 할 점도 있음을 알려 줘요.
+    channel: 소프트웨어야 놀자
+  - key: v15
+    stage: 인공지능의 영향
+    title: 대구인공지능AI교육센터 소개
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=QGGdc3tq59U
+    desc: 대구에 문을 연 인공지능 교육센터에서 어떤 체험을 할 수 있는지 소개해요.
+    channel: 대구창의융합교육원
+  - key: v16
+    stage: 인공지능의 영향
+    title: 생성형 AI 활용 시 주의할 점 - 생성형 AI 윤리 Check
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=IdmMEgDAVQQ
+    desc: 생성형 AI를 쓸 때 주의할 점을 윤리 점검으로 확인해 보는 영상이에요.
+    channel: 방송미디어통신위원회
+quiz:
+  - statement: 데이터에는 숫자뿐 아니라 글자와 소리, 이미지도 있다.
+    answer: O
+    explain: 데이터는 숫자, 글자, 소리, 이미지처럼 여러 모습으로 있어요.
+  - statement: 바늘이 이어서 움직이는 시계는 디지털 방식이고 숫자로 보여 주는 시계는 아날로그 방식이다.
+    answer: X
+    explain: 바늘 시계는 이어서 변하는 아날로그 방식이고, 숫자 시계는 끊어진 값으로 보여 주는 디지털 방식이에요.
+  - statement: 컴퓨터가 처리하는 데이터는 디지털 데이터이다.
+    answer: O
+    explain: 컴퓨터는 0과 1로 바꾼 디지털 데이터를 처리해요.
+  - statement: 디지털 데이터는 숫자만 뜻하기 때문에 소리나 사진은 디지털 데이터가 될 수 없다.
+    answer: X
+    explain: 소리나 사진도 컴퓨터가 처리할 수 있게 바꾸면 디지털 데이터가 돼요.
+  - statement: 기계 학습에서는 컴퓨터가 많은 데이터를 보고 스스로 규칙을 찾아낸다.
+    answer: O
+    explain: 사람이 규칙을 일일이 알려 주지 않아도 컴퓨터가 데이터에서 규칙을 찾아요.
+  - statement: 인공지능은 사람이 모든 지식을 하나하나 입력해야만 만들 수 있다.
+    answer: X
+    explain: 기계 학습에서는 컴퓨터가 데이터를 학습해서 스스로 규칙을 만들어요.
+  - statement: 인공지능을 학습시킬 때는 데이터의 질과 양이 모두 결과에 영향을 준다.
+    answer: O
+    explain: 데이터가 정확하고 알맞게 충분히 있어야 결과도 믿을 만해져요.
+  - statement: 인공지능이 발달하면 모든 직업이 똑같이 사라진다.
+    answer: X
+    explain: 새로운 직업이 생기고 일하는 방식이 바뀌며 일부는 줄어들 수 있어요.

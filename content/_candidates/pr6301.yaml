@@ -1,0 +1,551 @@
+# pr6301 후보 기록 — 실과 6학년 「발명·지식 재산」(6실03-01·02·03)
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- pr6301 --dry
+# 2026-10-17 야간 위임 수집(g_pr6b). 재생·임베드·연령·국내·길이·쇼츠는 ytcheck(YouTube Data API)로 후보 전부 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님.
+# 8분 넘는 영상은 구간(start/end)을 정할 수 없어 확인필요 또는 보류로 둠. 쇼츠(관세청 1편)는 후보에서 뺌.
+# 새 채널(channels.yaml에 없음) 후보: 지식재산처(옛 특허청, 추정 public) · 발명스토리_한국발명진흥회 KIPA(IP STORY CENTER 운영 기관, 추정 public) · 제로서울(서울시 기후환경본부, 추정 public) · 국가지식재산위원회(추정 public) — 등급은 운영자에게 질문.
+kit:
+  id: pr6301
+  title: "발명·지식 재산"
+  grade: 6
+  sem: 1학기
+  subject: 실과
+  unit: 기술적 문제해결과 혁신
+  unit_no: 3
+  flow: flow
+  sort_order: 1
+  codes: ["[6실03-01]", "[6실03-02]", "[6실03-03]"]
+  core_idea: "발명은 필요한 물건이나 방법을 새로 만들거나 고쳐서 생활을 편리하게 바꾸는 일이에요. 생활 속 불편을 찾아 발명 기법으로 아이디어를 내어 만들어 보고, 특허 같은 지식 재산권이 발명을 지켜 주는 까닭을 알아 올바르게 활용해요."
+  core_question: "생활 속 불편을 해결하는 발명은 어떻게 하고, 내 발명과 남의 발명을 지키려면 무엇을 알아야 할까?"
+  stages:
+    - "발명"
+    - "적정 기술"
+    - "발명 기법"
+    - "특허"
+    - "지식 재산권"
+  concepts:
+    - "발명"
+    - "적정 기술"
+    - "발명 기법"
+    - "특허"
+    - "지식 재산권"
+  source_notes: "실과 6 정리본 천재 u2(1~2차시 발명·발견 구분·적정 기술 → 3~5차시 발명 기법·불편 찾기·제작 → 6~7차시 특허·침해 사례) · 비상 u2-1·u2-2(발명 기법·기술적 문제 해결 네 단계·특허 등록 조건·지식 재산권 종류와 침해) · 오개념: 발명=발견, 남의 아이디어를 그대로 따라 해도 됨, 적정 기술은 가난한 지역만의 기술, 지식 재산권은 발명에만 해당, 새롭기만 하면 무엇이든 특허 · 유의: 출판사 실습 동영상 미사용, 특정 제품 광고 제외"
+
+candidates:
+  - cand_no: c01
+    stage: 발명
+    title: "나에게 발명은 무엇일까"
+    url: https://www.youtube.com/watch?v=Qh94heYaQPs
+    channel: "지식재산처"
+    channel_grade: public
+    duration: "2:53"
+    use: 수업 전
+    basis_code: "[6실03-01]"
+    basis_lesson: "1차시 발명의 뜻과 가치"
+    desc: "선생님과 어린이들이 나에게 발명은 무엇인가를 저마다 이야기하는 짧은 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 특허청(현 지식재산처) 공식 채널. 새 채널(등급 미분류, 추정 public)."
+  - cand_no: c02
+    stage: 발명
+    title: "생활 속 발명품 알아보기 출근편"
+    url: https://www.youtube.com/watch?v=0t0xeZHNIQU
+    channel: "발명스토리_한국발명진흥회 KIPA"
+    channel_grade: public
+    duration: "4:33"
+    use: 수업 중
+    basis_code: "[6실03-01]"
+    basis_lesson: "1~2차시 생활을 바꾼 발명품"
+    desc: "아침에 집을 나서 출근하는 길에 만나는 물건 속에 숨은 발명품을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2026. IP STORY CENTER 시리즈, 한국발명진흥회 운영. 새 채널(등급 미분류, 추정 public)."
+  - cand_no: c03
+    stage: 발명
+    title: "시원한 여름을 선물한 에어컨 발명"
+    url: https://www.youtube.com/watch?v=ur0MPSQoGTg
+    channel: "IP STORY CENTER"
+    channel_grade: public
+    duration: "3:25"
+    use: 수업 중
+    basis_code: "[6실03-01]"
+    basis_lesson: "1~2차시 생활을 바꾼 발명품"
+    desc: "인쇄 공장의 습도 문제를 풀려던 일에서 시작된 에어컨 발명 이야기를 담았어요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025. 세상을 바꾼 발명 시리즈 21편."
+  - cand_no: c04
+    stage: 발명
+    title: "생활 속 발명품 알아보기 퇴근편"
+    url: https://www.youtube.com/watch?v=s13chBM-lVQ
+    channel: "발명스토리_한국발명진흥회 KIPA"
+    channel_grade: public
+    duration: "4:39"
+    use: 수업 중
+    basis_code: "[6실03-01]"
+    basis_lesson: "1~2차시 생활을 바꾼 발명품"
+    desc: "퇴근 후 집에서 쓰는 물건 속에 숨은 발명품을 알려 주는 출근편의 짝 영상이에요."
+    verdict: 보류
+    note: "c02와 짝 영상이라 하나만 써도 충분(2026)."
+  - cand_no: c05
+    stage: 발명
+    title: "우연에서 시작된 발명 테프론"
+    url: https://www.youtube.com/watch?v=ErVIySQyMsk
+    channel: "IP STORY CENTER"
+    channel_grade: public
+    duration: "3:42"
+    use: 수업 후
+    basis_code: "[6실03-01]"
+    basis_lesson: "1~2차시 생활을 바꾼 발명품"
+    desc: "군사 기밀이던 테프론이 우연한 사건 덕에 프라이팬 등 생활용품으로 퍼진 이야기예요."
+    verdict: 보류
+    note: "2016. 군사 소재 이야기가 섞여 있고 c03과 성격이 겹침."
+  - cand_no: c06
+    stage: 발명
+    title: "발명이 팡팡 - X선, 발견일까 발명일까"
+    url: https://www.youtube.com/watch?v=gsEj3KMLfmk
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "8:58"
+    use: 수업 중
+    basis_code: "[6실03-01]"
+    basis_lesson: "1차시 발명과 발견 구분"
+    desc: "X선의 경우를 통해 발명과 발견이 어떻게 다른지 이야기해요."
+    verdict: 확인필요
+    note: "8:58로 구간(start/end)이 필요한데 본문을 못 봐 구간을 못 정함. 발견·발명 구분에 가장 잘 맞는 영상이라 운영자가 구간을 정해 주면 채택 가능(2017 재업로드, EBS 키즈 공식)."
+  - cand_no: c07
+    stage: 발명
+    title: "발명, 발견은 뭘까? (저자 강연)"
+    url: https://www.youtube.com/watch?v=Pc-pFqMEpzo
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "12:43"
+    use: 수업 중
+    basis_code: "[6실03-01]"
+    basis_lesson: "1차시 발명과 발견 구분"
+    desc: "발명과 발견을 구분하는 법을 어린이과학관 강연으로 들려줘요."
+    verdict: 확인필요
+    note: "12:43이라 구간 필수인데 본문을 못 봐 정하지 못함(2022 강연 녹화 2화)."
+  - cand_no: c08
+    stage: 적정 기술
+    title: "적정기술은 무엇일까요"
+    url: https://www.youtube.com/watch?v=yz3sKh0wPIk
+    channel: "국립대구과학관 Scientry"
+    channel_grade: public
+    local: 대구
+    duration: "2:02"
+    use: 수업 중
+    basis_code: "[6실03-01]"
+    basis_lesson: "2차시 적정 기술의 뜻"
+    desc: "사람을 돕는 기술인 적정기술의 뜻과 의미를 과학해설사가 쉽게 풀어 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구 국립과학관 해설(2021)."
+  - cand_no: c09
+    stage: 적정 기술
+    title: "적정기술에는 어떤 제품들이 있을까요"
+    url: https://www.youtube.com/watch?v=Mkv8qyHE9-E
+    channel: "국립대구과학관 Scientry"
+    channel_grade: public
+    local: 대구
+    duration: "1:41"
+    use: 수업 중
+    basis_code: "[6실03-01]"
+    basis_lesson: "2차시 적정 기술 사례 모으기"
+    desc: "삶을 편리하게 만드는 적정기술 제품의 여러 예를 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c08과 짝 영상(2021)."
+  - cand_no: c10
+    stage: 적정 기술
+    title: "초록보물찾기 4 적정기술"
+    url: https://www.youtube.com/watch?v=1rNsUT4aBGI
+    channel: "제로서울"
+    channel_grade: public
+    duration: "7:48"
+    use: 수업 중
+    basis_code: "[6실03-01]"
+    basis_lesson: "2차시 적정 기술과 나눔의 가치"
+    desc: "초등 5~6학년 환경 체험 교재로 만든 영상으로 적정기술이 무엇이고 환경과 어떻게 이어지는지 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "서울시 기후환경본부 공식 채널(2021). 적정 기술은 가난한 지역만의 기술이라는 오개념을 넓혀 줌. 새 채널(등급 미분류, 추정 public)."
+  - cand_no: c11
+    stage: 적정 기술
+    title: "가난한 90%에게 희망을 주는 발명 적정기술"
+    url: https://www.youtube.com/watch?v=T-Yh0eqr-Nk
+    channel: "지식재산처"
+    channel_grade: public
+    duration: "2:55"
+    use: 수업 중
+    basis_code: "[6실03-01]"
+    basis_lesson: "2차시 적정 기술과 나눔의 가치"
+    desc: "돈이 없어도 지역 사정에 꼭 맞게 쓸 수 있는 발명인 적정기술을 소개해요."
+    verdict: 보류
+    note: "2018. c08·c09와 내용이 겹쳐 보류. 필요하면 교체 후보."
+  - cand_no: c12
+    stage: 적정 기술
+    title: "소외 계층을 위한 적정기술 개발"
+    url: https://www.youtube.com/watch?v=E1Bgvj-N5V4
+    channel: "dgmbcnews"
+    channel_grade: press
+    local: 대구
+    duration: "1:46"
+    use: 수업 후
+    basis_code: "[6실03-01]"
+    basis_lesson: "2차시 적정 기술 사례"
+    desc: "도움이 필요한 이웃을 위해 새로 만든 적정기술을 소개한 대구 뉴스예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구MBC 뉴스투데이(2018). 지역 언론."
+  - cand_no: c13
+    stage: 적정 기술
+    title: "따뜻한 발명, 적정기술을 만나다"
+    url: https://www.youtube.com/watch?v=28HANc1cKpM
+    channel: "지식재산처"
+    channel_grade: public
+    duration: "4:13"
+    use: 배경지식
+    basis_code: "[6실03-01]"
+    basis_lesson: "2차시 적정 기술과 지식 재산"
+    desc: "지식 재산권과 적정기술이 어떤 관계인지 이야기하는 영상이에요."
+    verdict: 보류
+    note: "2015. 설명이 어른 눈높이(독점 권리와 전파 관점)라 학생용 채택은 보류, 교사 배경지식 후보."
+  - cand_no: c14
+    stage: 적정 기술
+    title: "따뜻한 발명, 적정기술 이야기"
+    url: https://www.youtube.com/watch?v=gxUkYaA2JSA
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "11:49"
+    use: 수업 중
+    basis_code: "[6실03-01]"
+    basis_lesson: "2차시 적정 기술 사례"
+    desc: "페트병 전구 등 적정기술 사례를 과학 프로그램으로 소개해요."
+    verdict: 확인필요
+    note: "11:49라 구간 필수인데 본문을 못 봐 정하지 못함(2021)."
+  - cand_no: c15
+    stage: 발명 기법
+    title: "발명 기법 알아보기"
+    url: https://www.youtube.com/watch?v=iAT1cl-JxFM
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:51"
+    use: 수업 중
+    basis_code: "[6실03-02]"
+    basis_lesson: "3차시 발명 기법(더하기·빼기 등)"
+    desc: "발명의 뜻과 더하기, 빼기, 크기·모양 바꾸기 같은 발명 기법을 초등 눈높이로 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구 교육기관 제작(2023), 초6 실과 표시. 같은 시리즈의 지식재산권 편은 10분이라 확인필요(c34)."
+  - cand_no: c16
+    stage: 발명 기법
+    title: "TRIZ 발명 기법 1 - 분할"
+    url: https://www.youtube.com/watch?v=soFjNxWqQ1A
+    channel: "IP STORY CENTER"
+    channel_grade: public
+    duration: "2:16"
+    use: 수업 중
+    basis_code: "[6실03-02]"
+    basis_lesson: "3~4차시 발명 기법 익히기"
+    desc: "물건이나 공간을 여러 부분으로 나누어 쓰는 분할 발명 기법을 이야기로 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016. 통통박사 시리즈(TRIZ 기법). 교과서의 더하기·빼기와는 이름이 다르지만 발명 기법의 다른 예로 활용."
+  - cand_no: c17
+    stage: 발명 기법
+    title: "TRIZ 발명 기법 3 - 국소적 성질"
+    url: https://www.youtube.com/watch?v=RZJz60B3-Bg
+    channel: "IP STORY CENTER"
+    channel_grade: public
+    duration: "2:31"
+    use: 수업 중
+    basis_code: "[6실03-02]"
+    basis_lesson: "3~4차시 발명 기법 익히기"
+    desc: "장갑 손가락 끝만 성질을 바꾸어 장갑을 낀 채 스마트폰을 쓰게 한 예로 발명 기법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016. 통통박사 시리즈."
+  - cand_no: c18
+    stage: 발명 기법
+    title: "일상의 불편함을 발명품으로"
+    url: https://www.youtube.com/watch?v=Kh4tmecnkI4
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "4:24"
+    use: 수업 후
+    basis_code: "[6실03-02]"
+    basis_lesson: "4차시 생활 속 불편 찾아 아이디어 내기"
+    desc: "스케이트보드, 분리수거 가위 등 일상의 불편을 풀어 낸 발명품을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 학생·시민 발명품 소개 뉴스."
+  - cand_no: c19
+    stage: 발명 기법
+    title: "세심한 관찰력, 신기한 학생 발명품"
+    url: https://www.youtube.com/watch?v=xNUhHZwSF3s
+    channel: "KBS충북"
+    channel_grade: press
+    duration: "2:10"
+    use: 수업 전
+    basis_code: "[6실03-02]"
+    basis_lesson: "4차시 생활 속 불편 찾기"
+    desc: "발명대회에서 입상한 학생들의 톡톡 튀는 발명품을 소개해요."
+    verdict: 보류
+    note: "2024. 학생 출연 뉴스, c18과 성격이 겹침."
+  - cand_no: c20
+    stage: 발명 기법
+    title: "브레인스토밍을 활용한 창의적 아이디어 발상"
+    url: https://www.youtube.com/watch?v=NKpX0xi5viA
+    channel: "서울특별시교육청교육연구정보원"
+    channel_grade: edu
+    duration: "10:54"
+    use: 수업 중
+    basis_code: "[6실03-02]"
+    basis_lesson: "3~4차시 아이디어 넓히기"
+    desc: "브레인스토밍으로 아이디어를 내는 방법을 알려 줘요."
+    verdict: 확인필요
+    note: "10:54라 구간 필수인데 본문을 못 봐 정하지 못함(2020)."
+  - cand_no: c21
+    stage: 발명 기법
+    title: "발명이 팡팡 - 다르게 생각하라"
+    url: https://www.youtube.com/watch?v=0DxtXQ9-20s
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "9:23"
+    use: 수업 중
+    basis_code: "[6실03-02]"
+    basis_lesson: "3~4차시 아이디어 넓히기"
+    desc: "다르게 생각해서 새 발명을 떠올리는 법을 이야기해요."
+    verdict: 확인필요
+    note: "9:23이라 구간 필수인데 본문을 못 봄(2017 재업로드)."
+  - cand_no: c22
+    stage: 특허
+    title: "발명과 특허제도의 유래 (만화)"
+    url: https://www.youtube.com/watch?v=oC_obF-g4F0
+    channel: "IP STORY CENTER"
+    channel_grade: public
+    duration: "4:15"
+    use: 수업 중
+    basis_code: "[6실03-03]"
+    basis_lesson: "6차시 특허가 발명을 지켜 주는 까닭"
+    desc: "특허 제도가 어떻게 생겼는지 만화로 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 특허청이 함께 만든 만화 시리즈 1편."
+  - cand_no: c23
+    stage: 특허
+    title: "특허권, 출원에서 등록까지"
+    url: https://www.youtube.com/watch?v=G0ByBHEfyJ8
+    channel: "지식재산처"
+    channel_grade: public
+    duration: "1:13"
+    use: 수업 중
+    basis_code: "[6실03-03]"
+    basis_lesson: "6차시 특허 얻는 과정"
+    desc: "특허권을 얻기 위해 알아야 할 절차를 짧고 알기 쉽게 풀었어요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2019. 1분 13초 정리 영상."
+  - cand_no: c24
+    stage: 특허
+    title: "웹캠에 담긴 특허 이야기 (갑.특.튀)"
+    url: https://www.youtube.com/watch?v=mrvpI7OoY2Q
+    channel: "지식재산처"
+    channel_grade: public
+    duration: "2:40"
+    use: 수업 후
+    basis_code: "[6실03-03]"
+    basis_lesson: "6차시 생활 속 특허 찾기"
+    desc: "일상에서 쓰는 웹캠 속에 어떤 특허가 숨어 있는지 브이로그로 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 유튜버 출연 영상이지만 공식 채널 제작."
+  - cand_no: c25
+    stage: 특허
+    title: "학생들이 만든 특허?"
+    url: https://www.youtube.com/watch?v=JVXv4fCMapE
+    channel: "지식재산처"
+    channel_grade: public
+    duration: "6:40"
+    use: 수업 중
+    basis_code: "[6실03-03]"
+    basis_lesson: "6차시 특허가 발명을 지켜 주는 까닭"
+    desc: "학생도 특허를 낼 수 있는지 궁금증을 풀어 주는 영상이에요."
+    verdict: 확인필요
+    note: "2024 어특해 시리즈. 제목·소개만으로는 내용을 확신하기 어려워 시청 확인 필요."
+  - cand_no: c26
+    stage: 특허
+    title: "발명이 팡팡 - 특허가 뭐예요"
+    url: https://www.youtube.com/watch?v=tDHkTCFr3yE
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "9:56"
+    use: 수업 중
+    basis_code: "[6실03-03]"
+    basis_lesson: "6차시 특허가 발명을 지켜 주는 까닭"
+    desc: "특허가 무엇인지 어린이 눈높이로 알려 줘요."
+    verdict: 확인필요
+    note: "9:56이라 구간 필수인데 본문을 못 봄(2017 재업로드)."
+  - cand_no: c27
+    stage: 특허
+    title: "지식재산의 시대가 왔다 (만화 2편)"
+    url: https://www.youtube.com/watch?v=0mzbF5wZl3I
+    channel: "IP STORY CENTER"
+    channel_grade: public
+    duration: "4:18"
+    use: 수업 중
+    basis_code: "[6실03-03]"
+    basis_lesson: "6~7차시 지식 재산의 중요성"
+    desc: "지식 재산이 왜 중요해졌는지 만화로 이어서 알려 줘요."
+    verdict: 보류
+    note: "c22의 2편. 지식 재산권 단계에 넣을 수 있으나 편수 조절로 보류."
+  - cand_no: c28
+    stage: 지식 재산권
+    title: "알기 쉬운 지식재산권 - 저작권 (초등 고학년)"
+    url: https://www.youtube.com/watch?v=PtGLuX225V0
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "4:11"
+    use: 수업 중
+    basis_code: "[6실03-03]"
+    basis_lesson: "7차시 지식 재산권의 종류와 보호"
+    desc: "초등 고학년 눈높이로 저작권이 무엇이고 왜 지켜야 하는지 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 서울시교육청 제작 시리즈."
+  - cand_no: c29
+    stage: 지식 재산권
+    title: "우리에게는 저작권이 있어요"
+    url: https://www.youtube.com/watch?v=Cr_X_7hMHSk
+    channel: "저작권TV"
+    channel_grade: public
+    duration: "3:27"
+    use: 수업 중
+    basis_code: "[6실03-03]"
+    basis_lesson: "7차시 지식 재산권의 종류와 보호"
+    desc: "초등학생을 위한 마이크로러닝 영상으로 내가 만든 창작물에도 저작권이 있음을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 한국저작권위원회 계열 채널."
+  - cand_no: c30
+    stage: 지식 재산권
+    title: "지식재산권 침해, 멈춰!"
+    url: https://www.youtube.com/watch?v=dxuOKroBcCw
+    channel: "국가지식재산위원회"
+    channel_grade: public
+    duration: "1:00"
+    use: 수업 중
+    basis_code: "[6실03-03]"
+    basis_lesson: "7차시 침해 사례와 지식 재산권의 종류"
+    desc: "지식재산권을 침해한 모습을 보여 주고 어떤 종류의 권리를 침해했는지 짚어 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 영상 공모전 우수상작. 1분. 새 채널(등급 미분류, 추정 public)."
+  - cand_no: c31
+    stage: 지식 재산권
+    title: "지식재산권을 침해하셨습니다"
+    url: https://www.youtube.com/watch?v=AmpcYR4qKE0
+    channel: "국가지식재산위원회"
+    channel_grade: public
+    duration: "1:00"
+    use: 수업 전
+    basis_code: "[6실03-03]"
+    basis_lesson: "7차시 침해 사례"
+    desc: "창작물이 무단으로 복제당하는 마음을 창작물의 입장에서 풀어낸 짧은 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 영상 공모전 최우수상작. 1분. 새 채널."
+  - cand_no: c32
+    stage: 지식 재산권
+    title: "지식재산권 보호 캠페인 (초등)"
+    url: https://www.youtube.com/watch?v=VlS8ONZZVcY
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "1:03"
+    use: 수업 후
+    basis_code: "[6실03-03]"
+    basis_lesson: "7차시 지식 재산 보호 다짐"
+    desc: "지식재산권을 지키자는 마음을 짧은 캠페인으로 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 서울시교육청 제작."
+  - cand_no: c33
+    stage: 지식 재산권
+    title: "알기 쉬운 지식재산권 - 특허권, 실용신안권 등 (초등 고학년)"
+    url: https://www.youtube.com/watch?v=i3HN4NpYdEM
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "8:54"
+    use: 수업 중
+    basis_code: "[6실03-03]"
+    basis_lesson: "6~7차시 특허권과 실용신안권"
+    desc: "초등 고학년에게 특허권, 실용신안권 같은 산업재산권을 설명해요."
+    verdict: 확인필요
+    note: "8:54라 구간 필수인데 본문을 못 봐 정하지 못함. 내용은 가장 잘 맞아 보임(2022)."
+  - cand_no: c34
+    stage: 지식 재산권
+    title: "지식재산권에 대해 알아보기"
+    url: https://www.youtube.com/watch?v=MoB7fcYWiSk
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "10:14"
+    use: 수업 중
+    basis_code: "[6실03-03]"
+    basis_lesson: "6~7차시 특허 검색과 지식 재산권"
+    desc: "산업재산권을 알아보고 발명품을 검색하는 방법까지 알려 줘요."
+    verdict: 확인필요
+    note: "10:14라 구간 필수인데 본문을 못 봄(2023, c15와 같은 시리즈 16편). 대구 제작이라 운영자가 구간을 정하면 채택 가치 큼."
+  - cand_no: c35
+    stage: 지식 재산권
+    title: "지식재산권 침해 사례 - 바나나맛 우유"
+    url: https://www.youtube.com/watch?v=nVxIRlhAL6s
+    channel: "IP STORY CENTER"
+    channel_grade: public
+    duration: "10:10"
+    use: 수업 중
+    basis_code: "[6실03-03]"
+    basis_lesson: "7차시 침해 사례"
+    desc: "바나나맛 우유를 둘러싼 지식재산 분쟁 이야기를 변리사와 함께 풀어 줘요."
+    verdict: 확인필요
+    note: "10:10이라 구간 필수인데 본문을 못 봄(2024)."
+  - cand_no: c36
+    stage: 지식 재산권
+    title: "짤막상식 지식재산권이란"
+    url: https://www.youtube.com/watch?v=kPA--MXCWUE
+    channel: "YTN"
+    channel_grade: press
+    duration: "1:12"
+    use: 수업 전
+    basis_code: "[6실03-03]"
+    basis_lesson: "7차시 지식 재산권의 뜻"
+    desc: "사람의 지적 활동으로 만든 재산인 지식재산을 짧게 설명해요."
+    verdict: 보류
+    note: "2024. 어른 눈높이 표현이 많아 보류."
+  - cand_no: c37
+    stage: 지식 재산권
+    title: "저작권이란 무엇인가"
+    url: https://www.youtube.com/watch?v=qyIbtz-l6q8
+    channel: "저작권TV"
+    channel_grade: public
+    duration: "3:40"
+    use: 수업 중
+    basis_code: "[6실03-03]"
+    basis_lesson: "7차시 지식 재산권의 종류와 보호"
+    desc: "저작권이 무엇인지 알려 주는 한국저작권위원회 영상이에요."
+    verdict: 보류
+    note: "2016. c29와 겹침."
+  - cand_no: c38
+    stage: 지식 재산권
+    title: "국제 특허분쟁 예방 애니메이션"
+    url: https://www.youtube.com/watch?v=7Fag8iMsaTM
+    channel: "지식재산처"
+    channel_grade: public
+    duration: "2:05"
+    use: 수업 후
+    basis_code: "[6실03-03]"
+    basis_lesson: "7차시 침해 사례"
+    desc: "해외로 나가는 기업의 특허 분쟁을 예방하는 법을 애니메이션으로 알려 줘요."
+    verdict: 보류
+    note: "2012. 기업 대상 내용이고 오래됨."

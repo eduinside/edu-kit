@@ -1,0 +1,152 @@
+id: pr6202
+title: 의생활 용품 만들기
+grade: 6
+sem: 1학기
+subject: 실과
+unit: 생활환경과 지속가능한 선택
+unit_no: 2
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 옷과 생활용품은 섬유로 실을 만들고, 실로 옷감을 만든 뒤, 옷감을 자르고 꿰매어 완성돼요. 바느질과 뜨개질 도구를 알고 쓰고 싶은 용품을 구상해 직접 만들어 쓰면 만드는 즐거움과 창의적인 태도를 키울 수 있어요.
+  core_question: 옷과 용품은 어떤 과정을 거쳐 만들어지고, 나는 어떤 도구와 재료로 생활용품을 만들 수 있을까?
+  concepts:
+    - term: 섬유와 옷감
+      def: 섬유는 옷감의 원료가 되는 가늘고 긴 재료예요. 목화솜 같은 천연 섬유와 나일론 같은 합성 섬유가 있고, 섬유로 실을 만든 뒤 그 실을 짜거나 엮어서 옷감을 만들어요.
+    - term: 옷이 만들어지는 과정
+      def: 섬유로 실을 만들고, 실로 옷감을 만들고, 옷감을 자르고 꿰매어 옷으로 완성하는 순서예요. 옷감은 실을 엇갈려 짜는 방법이나 고리를 엮는 방법 등으로 만들어요.
+    - term: 손바느질
+      def: 바늘과 실로 직접 꿰매는 방법이에요. 매듭을 짓고 홈질, 박음질 같은 바느질로 옷을 만들거나 고쳐요.
+    - term: 뜨개질
+      def: 뜨개바늘로 실을 엮어 옷감이나 용품을 만드는 일이에요. 대바늘이나 코바늘로 처음 코를 만들고 실을 일정한 힘으로 당기며 떠요.
+    - term: 생활용품 만들기
+      def: 쓰고 싶은 물건을 스스로 구상해 알맞은 도구와 재료를 골라 직접 만드는 일이에요. 주머니나 카드 지갑처럼 바느질로 쓸모 있는 물건을 만들 수 있어요.
+  standards:
+    - code: "[6실02-07]"
+      text: 의생활 용품이 만들어지는 과정을 탐색하여 옷이나 생활용품이 어떻게 구성되는지를 설명한다.
+    - code: "[6실02-08]"
+      text: 다양한 도구와 재료를 활용하여 간단한 생활용품을 만들어 보면서 직접 만들어 쓰는 즐거움과 창의적 태도를 가진다.
+stages:
+  - 섬유와 옷감
+  - 옷이 만들어지는 과정
+  - 손바느질
+  - 뜨개질
+  - 생활용품 만들기
+items:
+  - key: v1
+    stage: 섬유와 옷감
+    title: 숨 쉬는 천연 섬유, 목화솜 만드는 과정
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=OjKnwdS1GGI
+    desc: 식물인 목화에서 솜을 얻는 과정을 보여 줘요.
+    channel: YTN 사이언스
+  - key: v2
+    stage: 섬유와 옷감
+    title: 대마에서 얻는 삼베 만드는 과정
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=YS-e-bbWJjE
+    desc: 대마 식물에서 실을 얻어 삼베 옷감을 짜는 과정을 보여 줘요.
+    channel: YTN 사이언스
+  - key: v3
+    stage: 섬유와 옷감
+    title: 천연섬유를 넘어서는 합성섬유
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=JHoQywfn5nQ
+    desc: 나일론 같은 합성섬유가 천연섬유보다 질기고 기능이 좋아진 모습을 알려 줘요.
+    channel: YTN 사이언스
+  - key: v4
+    stage: 섬유와 옷감
+    title: 전통 무명 직조 과정
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=PMfj9ckIJWk
+    desc: 목화로 실을 만들고 베틀로 무명 옷감을 짜는 과정을 보여 줘요.
+    channel: 양주시
+  - key: v5
+    stage: 옷이 만들어지는 과정
+    title: 어떻게 만들까 — 청바지
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=VzJNCpT11gU
+    desc: 청 원단이 공장에서 청바지로 변하는 과정을 단계별로 보여 줘요.
+    channel: EBS 키즈
+  - key: v6
+    stage: 옷이 만들어지는 과정
+    title: 어떻게 만들까 — 양말
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6RXVG1CwoRM
+    desc: 양말을 디자인하고 실로 짜서 완성하는 과정을 보여 줘요.
+    channel: EBS 키즈
+  - key: v7
+    stage: 손바느질
+    title: 손바느질의 기초
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=znbiNltak-Q
+    desc: 간단한 생활용품을 만들기 위한 손바느질의 기초를 익혀요.
+    channel: 대구미래교육연구원
+  - key: v8
+    stage: 손바느질
+    title: 손바느질로 단추 달고 카드지갑 만들기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=t4AHS92OLFY
+    desc: 간단한 손바느질로 카드지갑을 만들고 단추를 달아 고정해 봐요.
+    channel: 대구미래교육연구원
+  - key: v9
+    stage: 뜨개질
+    title: 실과 코바늘로 수세미 만들기 1 — 사슬코 만들기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Y0xQz01EcyA
+    desc: 코바늘과 실 잡는 법, 사슬코 만드는 법을 보여 줘요.
+    channel: 하늘소리
+  - key: v10
+    stage: 뜨개질
+    title: 실과 코바늘로 수세미 만들기 2 — 긴뜨기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=RXRTvAanDVQ
+    desc: 사슬코 20코를 만든 뒤 긴뜨기로 뜨는 방법을 보여 줘요.
+    channel: 하늘소리
+  - key: v11
+    stage: 뜨개질
+    title: 실과 코바늘로 수세미 만들기 5 — 마무리
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=720zejDmnpU
+    desc: 빼뜨기로 끝을 마무리하고 고리를 만들어 수세미를 완성해요.
+    channel: 하늘소리
+  - key: v12
+    stage: 생활용품 만들기
+    title: 손바느질로 주머니 만들기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=4SkNuJery9w
+    desc: 필요한 물건을 담을 수 있는 나만의 주머니를 손바느질로 만들어 봐요.
+    channel: 대구미래교육연구원
+  - key: v13
+    stage: 생활용품 만들기
+    title: 문화재 돋보기 — 조각보
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=tDszf3AtjvQ
+    desc: 남은 천 조각을 이어 붙여 만든 우리 전통 조각보를 쉽게 소개해요.
+    channel: 국가유산채널(K-Heritage Channel)
+quiz:
+  - statement: 옷감은 섬유로 만든 실을 짜거나 엮어서 만든다.
+    answer: O
+    explain: 섬유로 실을 만들고 그 실을 짜거나 엮으면 옷감이 돼요.
+  - statement: 목화솜은 석유로 만든 합성 섬유이다.
+    answer: X
+    explain: 목화솜은 식물에서 얻는 천연 섬유예요. 나일론처럼 사람이 만든 섬유가 합성 섬유예요.
+  - statement: 바느질을 시작하고 끝낼 때는 실이 풀리지 않도록 매듭을 짓는다.
+    answer: O
+    explain: 시작 매듭과 끝 매듭이 있어야 바느질한 부분이 풀리지 않아요.
+  - statement: 바느질에 쓰는 바늘은 손바늘 한 가지뿐이다.
+    answer: X
+    explain: 손바늘뿐 아니라 대바늘, 코바늘처럼 여러 가지가 있고 도구마다 만들 수 있는 용품이 달라요.
+  - statement: 바늘과 시침핀은 끝이 아래를 향하게 조심해서 다루고 장난치지 않는다.
+    answer: O
+    explain: 날카로운 도구는 찔리거나 다칠 수 있어서 조심해서 다뤄야 해요.
+  - statement: 모든 옷감은 똑같은 방식으로 만들어진다.
+    answer: X
+    explain: 청바지 원단은 실을 엇갈려 짜고 양말은 고리를 엮어 만드는 것처럼 옷감마다 만드는 방식이 달라요.
+  - statement: 뜨개질을 할 때는 실을 일정한 힘으로 당겨야 고르게 뜰 수 있다.
+    answer: O
+    explain: 실을 너무 세게 당기면 뜨기 어려워져요. 일정한 힘으로 당기도록 연습해요.
+  - statement: 직접 만드는 생활용품은 책에 나온 예시와 똑같이 만들어야 한다.
+    answer: X
+    explain: 쓰고 싶은 용품을 스스로 구상해서 만들 수 있어요. 나만의 창의적인 작품도 소중해요.

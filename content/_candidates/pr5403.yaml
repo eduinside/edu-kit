@@ -1,0 +1,320 @@
+# pr5403 후보 기록 — 실과 5학년 영역 4 「디지털 기술·발표 자료·공유」 [6실04-02][6실04-03]
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- pr5403 --dry
+# 2026-10-17 야간 위임 수집. 재생·임베드·연령·국내·길이·쇼츠 여부는 ytcheck로 후보 전부 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님.
+# 정보 윤리(개인 정보·저작권·초상권)는 공공 캠페인·교육청·저작권TV 위주. 특정 상용 앱 사용법·광고 영상은 제외(발표 자료 만들기는 대구미래교육연구원의 도구 중립 영상).
+# 새 채널(channels.yaml에 없음) 후보: 헤이대구 · 한국인터넷진흥원(KISA118) · 한국교육학술정보원(KERIS) · 개인정보보호위원회TV · 서울특별시교육청보건안전진흥원 — 등급은 운영자에게 질문.
+kit:
+  id: pr5403
+  title: "디지털 기술·발표 자료·공유"
+  grade: 5
+  sem: 2학기
+  subject: 실과
+  unit: 지속가능한 기술과 융합
+  unit_no: 4
+  flow: activity
+  codes: ["[6실04-02]", "[6실04-03]"]
+  core_idea: "디지털 기술은 정보를 저장하고 전달하고 가공하는 기술로, 옛날과 비교해 우리 생활을 많이 바꾸어 놓았어요. 디지털 도구로 발표 자료를 만들 때는 주제와 장면을 계획하고, 사이버 공간에 공유할 때는 개인 정보와 저작권을 지키는 정보 윤리가 필요해요."
+  core_question: "디지털 기술은 우리 생활을 어떻게 바꾸었고, 디지털 도구로 만든 발표 자료를 안전하게 공유하려면 무엇을 지켜야 할까?"
+  stages:
+    - name: 생각열기
+      question: "옛날과 비교해 디지털 기술은 우리 생활을 어떻게 바꾸었을까?"
+    - name: 탐구하기
+      question: "디지털 도구로 발표 자료를 만들려면 주제와 장면을 어떻게 계획할까?"
+    - name: 확장하기
+      question: "만든 자료를 사이버 공간에 공유할 때는 정보 윤리를 어떻게 지켜야 할까?"
+  concepts:
+    - "디지털 기술"
+    - "저작 도구"
+    - "개인 정보"
+    - "저작권"
+    - "이용 허락 표시"
+  source_notes: "천재 정리본 u6 디지털 부분(1~6차시: 옛날과 지금 발표 준비 비교로 디지털 기술의 뜻 → 의료 교육 교통 변화 → 저작 도구·주제·역할 → 믿을 만한 자료로 슬라이드 → 평가 후 온라인 게시 → 개인 정보·저작권 점검) · 비상 정리본 u1-1(1차시 디지털 기술 역할 → 2~3차시 장면 계획·저작 도구로 영상·전자책 → 4차시 정보 윤리·이용 허락 표시로 공유) · 오개념: 디지털 기술은 기기 자체가 아니라 정보를 저장·전달·가공하는 기술, 내가 만든 자료도 만든 이 표시와 이용 허락 조건이 필요, 올린 내용은 쉽게 지워지지 않음 · 유의: 초상권, 저작권 걸린 음악·이미지 금지, 화면 눈 피로 · 특정 상용 앱 광고 영상은 제외"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "통신 기술은 어떻게 발전했을까"
+    url: https://www.youtube.com/watch?v=Cs1u4oiDve4
+    channel: "KISTI의 과학향기"
+    channel_grade: public
+    duration: "3:51"
+    use: 수업 중
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-02 1차시 옛날과 지금 비교"
+    desc: "봉화에서 와이파이까지 정보를 주고받는 방법이 어떻게 바뀌어 왔는지 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 옛날과 지금의 정보 전달 방법을 비교하는 도입으로 적합."
+  - cand_no: c02
+    stage: 생각열기
+    title: "디지털 기술을 이용하는 농업"
+    url: https://www.youtube.com/watch?v=DDlxSORjlSQ
+    channel: "EBS뉴스"
+    channel_grade: edu
+    duration: "2:44"
+    use: 수업 중
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-02 2차시 디지털 기술이 바꾼 생활"
+    desc: "농업 현장에서 디지털 기술이 어떻게 쓰이는지 사례로 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 EBS 뉴스. 생활·산업 분야 변화 사례 중 하나."
+  - cand_no: c03
+    stage: 생각열기
+    title: "디지털 어린이들 모여라"
+    url: https://www.youtube.com/watch?v=oN7H2Jscy_U
+    channel: "KTV 정책 K"
+    channel_grade: public
+    duration: "1:25"
+    use: 수업 전
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-02 1차시 디지털 기술의 뜻"
+    desc: "메타버스, 인공지능 같은 디지털 기술이 생활 속으로 들어온 이야기를 전해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 어린이 디지털 교육 소식 중심이라 내용 확인이 어려워 보류."
+  - cand_no: c04
+    stage: 생각열기
+    title: "디지털과 아날로그의 구분, 디지털 전환"
+    url: https://www.youtube.com/watch?v=VQu3t6A5CKg
+    channel: "인천광역시교육청교육연수원"
+    channel_grade: edu
+    duration: "3:55"
+    use: 배경지식
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-02 1차시 디지털 기술의 뜻"
+    desc: "아날로그와 디지털이 어떻게 다른지 설명해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 교원 연수용 영상이라 학생 눈높이가 아님. 새 채널."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "따라만 해도 발표 자료 만들기 - 기본편"
+    url: https://www.youtube.com/watch?v=CtzIhZArfbA
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:08"
+    use: 수업 중
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-02 3차시 주제와 맡을 일 정하기"
+    desc: "발표 자료를 만들기 전에 주제를 정하고 내용을 어떻게 짜면 좋은지 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 특정 앱 광고가 아닌 도구 중립 영상. 대구 교육 채널."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "따라만 해도 발표 자료 만들기 - 실전편 Lv.1"
+    url: https://www.youtube.com/watch?v=A9howX-54ww
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:09"
+    use: 수업 중
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-02 4차시 슬라이드 만들기"
+    desc: "발표 자료를 더 잘 보이게 하는 배치(레이아웃) 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 대구 교육 채널."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "따라만 해도 발표 자료 만들기 - 실전편 Lv.2"
+    url: https://www.youtube.com/watch?v=4-nuPZInvz8
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:10"
+    use: 수업 중
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-02 4차시 슬라이드 만들기"
+    desc: "그림과 글을 알맞게 넣어 발표 자료의 모습을 다듬는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 대구 교육 채널."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "따라만 해도 발표 자료 만들기 - 실전편 Lv.3"
+    url: https://www.youtube.com/watch?v=GmXMBbgqHm8
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:10"
+    use: 수업 후
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-02 5차시 검토하고 고치기"
+    desc: "발표 자료를 다시 살펴보고 고쳐서 완성하는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 대구 교육 채널."
+  - cand_no: c09
+    stage: 확장하기
+    title: "소중한 개인정보 우리 모두 함께 지켜요!"
+    url: https://www.youtube.com/watch?v=pO1r8k8fEi0
+    channel: "교육부"
+    channel_grade: edu
+    duration: "4:57"
+    use: 수업 중
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-03 6차시 개인 정보 지키기"
+    desc: "쉽게 알려 주는 개인정보가 어떤 문제를 만들 수 있는지 생각해 보게 해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 교육부 공식 채널."
+  - cand_no: c10
+    stage: 확장하기
+    title: "헤이대구 정보통신 윤리교육 - 소중한 개인정보"
+    url: https://www.youtube.com/watch?v=M2H-J8QxA_Y
+    channel: "헤이대구"
+    channel_grade: public
+    local: 대구
+    duration: "1:08"
+    use: 수업 전
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-03 6차시 개인 정보 지키기"
+    desc: "대구에서 만든 짧은 영상으로 소중한 개인정보를 지키는 이유를 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 대구 제작 시리즈(초등편). 채널 성격(대구시 공식 SNS 추정) 확인 필요, 등급 미분류(추정)."
+  - cand_no: c11
+    stage: 확장하기
+    title: "헤이대구 정보통신 윤리교육 - 네티켓"
+    url: https://www.youtube.com/watch?v=mOQWXKPpsG8
+    channel: "헤이대구"
+    channel_grade: public
+    local: 대구
+    duration: "1:15"
+    use: 수업 전
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-03 6차시 온라인 예절"
+    desc: "인터넷에서 지켜야 할 예절인 네티켓을 짧게 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 대구 제작 시리즈(초등편). 등급 미분류(추정)."
+  - cand_no: c12
+    stage: 확장하기
+    title: "우리에게는 저작권이 있어요"
+    url: https://www.youtube.com/watch?v=Cr_X_7hMHSk
+    channel: "저작권TV"
+    channel_grade: public
+    duration: "3:27"
+    use: 수업 중
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-03 6차시 저작권 지키기"
+    desc: "초등학생 눈높이로 저작권이 무엇이고 왜 지켜야 하는지 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 초등학생 대상 마이크로러닝 콘텐츠."
+  - cand_no: c13
+    stage: 확장하기
+    title: "알기 쉬운 지식재산권 - 저작권 (초등 고학년)"
+    url: https://www.youtube.com/watch?v=PtGLuX225V0
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "4:11"
+    use: 수업 중
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-03 6차시 저작권 지키기"
+    desc: "초등 고학년에게 저작권이 무엇인지와 지키는 방법을 설명해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 서울시교육청."
+  - cand_no: c14
+    stage: 확장하기
+    title: "공유마당 - 저작권 걱정 없는 공유 저작물"
+    url: https://www.youtube.com/watch?v=d--d47lJsLk
+    channel: "저작권TV"
+    channel_grade: public
+    duration: "4:32"
+    use: 수업 중
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-03 공유 시 이용 허락 알기"
+    desc: "누구나 자유롭게 쓸 수 있는 공유 저작물을 어디서 찾는지 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2015. 오래된 영상이라 화면이 다를 수 있음. 이용 허락 표시 개념용."
+  - cand_no: c15
+    stage: 확장하기
+    title: "초상권 - 우리 모두의 권리, 함께 지켜요 (초등편)"
+    url: https://www.youtube.com/watch?v=c3on5Q1ZlqA
+    channel: "서울특별시교육청교육연구정보원"
+    channel_grade: edu
+    duration: "5:11"
+    use: 수업 중
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-03 5차시 공유 전 초상권 점검"
+    desc: "사진과 영상을 찍고 올릴 때 다른 사람의 초상권을 지켜야 하는 까닭을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 서울특별시교육청. 지도서 유의점(초상권)과 연결."
+  - cand_no: c16
+    stage: 확장하기
+    title: "사이버 공간 속 예절"
+    url: https://www.youtube.com/watch?v=pTiuYp57bWM
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "1:45"
+    use: 수업 후
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-03 5차시 온라인 게시 예절"
+    desc: "온라인 공간에서 글과 자료를 나눌 때 지킬 예절을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 생명존중교육 시리즈. 대구 교육 채널."
+  - cand_no: c17
+    stage: 확장하기
+    title: "KISA 개인정보보호 교육과정 초등학생용 1"
+    url: https://www.youtube.com/watch?v=TMQEK5MAwFE
+    channel: "한국인터넷진흥원(KISA118)"
+    channel_grade: public
+    duration: "4:00"
+    use: 수업 중
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-03 6차시 개인 정보 지키기"
+    desc: "개인정보가 무엇이고 왜 소중한지 초등학생에게 설명해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2019. c09와 겹쳐 편수 조정으로 보류. 새 채널."
+  - cand_no: c18
+    stage: 확장하기
+    title: "디지털 발자국 (사이버폭력 예방 공익광고)"
+    url: https://www.youtube.com/watch?v=4ZJ-MBnl2kE
+    channel: "한국교육학술정보원(KERIS)"
+    channel_grade: public
+    duration: "2:29"
+    use: 수업 후
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-03 온라인에 남는 기록"
+    desc: "온라인에 남긴 글이 지워지지 않고 남는다는 점을 짧은 광고로 보여 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 풍자식 연출이라 초등 눈높이와 맞는지 확인 필요. 새 채널."
+  - cand_no: c19
+    stage: 확장하기
+    title: "학생도 개인정보 유출 예외는 없다!!"
+    url: https://www.youtube.com/watch?v=IxM43x04Uz8
+    channel: "개인정보보호위원회TV"
+    channel_grade: public
+    duration: "5:10"
+    use: 수업 후
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-03 6차시 개인 정보 지키기"
+    desc: "학생의 일상에서 개인정보가 드러나는 모습을 보여 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 학부모·교사 대상 어조일 수 있어 보류. 새 채널."
+  - cand_no: c20
+    stage: 확장하기
+    title: "눈 건강을 위한 교육 동영상 (초등학생용)"
+    url: https://www.youtube.com/watch?v=lhQ30PA_PGo
+    channel: "서울특별시교육청보건안전진흥원"
+    channel_grade: edu
+    duration: "3:32"
+    use: 수업 후
+    basis_code: "[6실04-02]"
+    basis_lesson: "6실04-02 디지털 기기 사용 안전"
+    desc: "눈을 지키는 올바른 생활 습관을 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025. 디지털 기기에 한정되지 않은 일반 눈 건강 영상이라 보류. 새 채널."

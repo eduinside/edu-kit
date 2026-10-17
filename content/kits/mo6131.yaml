@@ -1,0 +1,160 @@
+id: mo6131
+title: 3. 인공지능 로봇 그리고 나
+grade: 6
+sem: 1학기
+subject: 도덕
+unit: 3단원
+unit_no: 3
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 인공지능 로봇은 이미 우리 생활 곳곳에서 쓰이고 있어요. 로봇은 스스로 마음을 느끼는 존재가 아니라 사람이 만든 기계이므로, 로봇과의 관계에서 생기는 문제를 막으려면 지켜야 할 원칙과 바르게 쓰는 책임이 필요해요.
+  core_question: 인공지능 로봇과 올바른 관계를 맺으려면 어떤 원칙을 지켜야 할까?
+  concepts:
+    - term: 인공지능
+      def: 사람처럼 배우고 판단하는 것 같은 일을 하도록 컴퓨터로 만든 기술이에요. 스스로 마음을 느끼는 것은 아니에요.
+    - term: 로봇
+      def: 사람을 대신하거나 도와서 일하도록 만든 기계예요. 청소, 돌봄, 공장 일처럼 여러 곳에서 쓰여요.
+    - term: 윤리 원칙
+      def: 인공지능과 로봇을 만들고 쓸 때 사람의 안전과 권리를 지키려고 모두가 따르기로 한 약속이에요.
+    - term: 책임
+      def: 내가 한 결정과 행동의 결과를 피하지 않고 받아들이고, 잘못되었으면 바로잡으려고 애쓰는 것이에요.
+    - term: 개인정보
+      def: 이름, 얼굴, 목소리처럼 누구인지 알 수 있는 정보예요. 로봇이 이런 정보를 모을 때는 함부로 쓰이지 않게 조심해야 해요.
+    - term: 자율주행차
+      def: 운전하는 사람이 직접 핸들을 잡지 않아도 스스로 길을 보고 달리도록 만든 자동차예요.
+  standards:
+    - code: "[6도02-03]"
+      text: 인간과 인공지능 로봇 간의 다양한 관계를 파악하고 도덕에 기반을 둔 관계 형성의 필요성을 탐구한다.
+stages:
+  - name: 생각열기
+    question: 로봇은 어디에 쓰이고, 우리와 어떤 관계를 맺을까?
+  - name: 탐구하기
+    question: 인공지능 로봇이 일으킨 문제는 무엇이고, 어떤 원칙이 필요할까?
+  - name: 확장하기
+    question: 미래의 로봇은 어떤 좋은 점과 걱정을 가져올까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: K-로봇을 직접 보고 체험하는 어린이 로봇행사
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=C88AyzUMJTI
+    desc: 가족이 함께 로봇을 직접 조종하고 만들어 보며 체험하는 어린이 로봇행사를 소개해요.
+    channel: 연합뉴스TV
+  - key: v2
+    stage: 생각열기
+    title: 집사가 된 AI 로봇 — 반려부터 노동까지
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=h9nQNPXPWig
+    desc: 세계 가전 박람회에 나온 집사 로봇, 농업용 로봇처럼 생활 속으로 들어오는 로봇들을 보여 줘요.
+    channel: KBS News
+  - key: v3
+    stage: 생각열기
+    title: 아이와 대화하고 춤추는 돌봄 AI 로봇
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6uemBagZNG4
+    desc: 혼자 있는 아이와 대화하고 춤추며 돌봄 공백을 메우는 인공지능 로봇을 소개해요.
+    channel: 연합뉴스TV
+  - key: v4
+    stage: 생각열기
+    title: 말하는 AI 장난감, 정말 친구가 될 수 있을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=UD3dNEQNfes
+    desc: 언제든 대답해 주는 AI 장난감이 아이의 친구가 될 수 있는지 친구의 조건을 생각해 봐요.
+    channel: EBS 지식채널e
+  - key: v5
+    stage: 탐구하기
+    title: 친구보다 친구 같은 AI
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=PjsbS3iFzk4
+    desc: AI를 사람처럼 느끼며 의존하는 어린 학생들의 모습과 그에 따른 걱정을 전해요.
+    channel: MBCNEWS
+  - key: v6
+    stage: 탐구하기
+    title: 완전 자율주행 딜레마 — 윤리 문제도 성큼
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=KTXMduDzyeo
+    desc: 운전자 없이 달리는 자율주행차가 늘면서 사고가 났을 때의 책임 같은 윤리 문제가 생긴다는 보도예요.
+    channel: KBS News
+  - key: v7
+    stage: 탐구하기
+    title: 인공지능 윤리기준이란
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=XtH2GUW8CO8
+    desc: 국가 인공지능 윤리기준이 무엇이고 일반 사람이 왜 알아야 하는지 설명해 줘요.
+    channel: KISDI 정보통신정책연구원
+  - key: v8
+    stage: 확장하기
+    title: 집안부터 전장까지, 로봇에게 맡겨도 될까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=8mAKjyl0F7s
+    desc: 집안일을 돕는 로봇부터 전장에 쓰이는 로봇까지, 로봇에게 어디까지 맡길지 생각해 봐요.
+    channel: EBS 지식채널e
+  - key: v9
+    stage: 확장하기
+    title: 월 71만 원 가사도우미 로봇
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=vzo4BMmVbyY
+    desc: 집안일을 도와주는 가정용 휴머노이드 로봇이 곧 나온다는 소식을 전해요.
+    channel: KBS News
+  - key: v10
+    stage: 확장하기
+    title: 대구 최초 어르신 돌봄 로봇 도입
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ecwWtPt6IFA
+    desc: 대구 달서구가 어르신의 대화와 신체활동을 돕는 돌봄 로봇을 처음 도입한 소식이에요.
+    channel: ch B tv 대구
+  - key: v11
+    stage: 확장하기
+    title: AI 돌봄 로봇 첫선
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=UxP30zUq8Ro
+    desc: 돌봄 인력이 부족한 상황에서 AI 돌봄 로봇이 도움이 될 수 있다는 기대를 전해요.
+    channel: TBC뉴스
+  - key: v12
+    stage: 확장하기
+    title: 학교에 들어온 로봇·AI, 장애 벽 넘는다
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=OcXSTUMj5VY
+    desc: 학교에 들어온 로봇과 인공지능이 장애 학생의 어려움을 덜어 주는 모습을 전해요.
+    channel: KBS뉴스 대구경북
+  - key: v13
+    stage: 확장하기
+    title: 홀로 지내던 노인들 곁의 꼬마 로봇 친구 '아비'
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=2H56GKYEZrQ
+    desc: 외로운 어르신들 곁에서 대화를 나누는 노인 케어 로봇의 모습을 보여 줘요.
+    channel: KBS News
+  - key: v14
+    stage: 확장하기
+    title: 헤이대구 진로교육 — 로봇 윤리 학자
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=pRpIYV4VEbs
+    desc: 로봇 윤리 학자가 어떤 일을 하는 사람인지 알아봐요.
+    channel: 헤이대구
+quiz:
+  - statement: 로봇은 사람이 만든 기계라서 스스로 마음을 느끼는 존재가 아니다.
+    answer: O
+    explain: 인공지능 로봇은 사람이 만든 기술이고, 사람처럼 마음을 느끼는 것은 아니에요.
+  - statement: 영화나 만화에 나오는 로봇은 모두 지금 실제로 쓰이는 기술이다.
+    answer: X
+    explain: 영화나 만화 속 로봇은 상상으로 그린 모습이 많아서 지금의 실제 기술과 달라요.
+  - statement: 돌봄 로봇은 어르신과 대화하고 생활을 돕는 일에 쓰일 수 있다.
+    answer: O
+    explain: 돌봄 인력이 부족한 곳에서 대화를 나누고 일상을 돕는 로봇이 쓰이기 시작했어요.
+  - statement: 로봇이 문제를 일으키면 로봇이 알아서 해결하므로 사람이 책임질 필요가 없다.
+    answer: X
+    explain: 로봇을 만들고 쓰는 사람에게 책임이 있어서 문제를 막을 원칙을 지키고 잘못은 바로잡아야 해요.
+  - statement: 인공지능 로봇을 만들고 쓸 때는 사람의 안전과 권리를 지키는 윤리 원칙이 필요하다.
+    answer: O
+    explain: 로봇이 일으킨 문제 사례를 살펴보고 지켜야 할 원칙을 세우는 일이 중요해요.
+  - statement: 로봇 때문에 생기는 문제는 로봇을 아예 만들지 않으면 모두 해결된다.
+    answer: X
+    explain: 로봇은 이미 생활에 도움을 주고 있어서, 만들지 않는 것보다 바르게 쓰는 원칙을 세우는 것이 필요해요.
+  - statement: 자율주행차는 운전하는 사람이 직접 핸들을 잡지 않아도 달리도록 만든 자동차이다.
+    answer: O
+    explain: 자율주행차가 사고를 냈을 때 누가 책임질지 같은 윤리 문제도 함께 생각해야 해요.
+  - statement: 로봇이 집 안에서 보고 들은 개인정보는 아무 데나 써도 된다.
+    answer: X
+    explain: 개인정보는 함부로 모으거나 쓰면 안 되고 안전하게 지켜져야 해요.

@@ -1,0 +1,204 @@
+# pr5103 후보 기록 — 실과 5학년 · 옷 입기·옷 수선 ([6실01-05]·[6실02-09])
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- pr5103 --dry
+# 2026-10-17 야간 위임 수집(흐름형, 용어=단계). 후보 전부 ytcheck로 재생·임베드·연령·국내·길이·쇼츠 확인. 영상 본문은 제목·설명·채널 성격 기준이며 전부 시청한 것은 아님.
+# 수집 한계: 옷의 기능·옷차림·옷 관리는 공공·교육 채널 영상이 거의 없고(대부분 개인 교사 채널·유아용), 바느질도 대구미래교육연구원 시리즈 외엔 개인 채널뿐이라 채택이 적음. 개인 채널의 아동 출연·실습 영상은 쓰지 않음.
+# 새 채널(channels.yaml에 없음): (없음 — 아꿈선 초등3분과학·대구미래교육연구원·기후에너지환경부는 등급표에 있음)
+kit:
+  id: pr5103
+  title: "옷 입기·옷 수선"
+  grade: 5
+  sem: 1학기
+  subject: 실과
+  unit: 인간 발달과 주도적 삶
+  unit_no: 1
+  flow: flow
+  sort_order: 3
+  codes: ["[6실01-05]", "[6실02-09]"]
+  core_idea: "옷은 몸을 지키고 나를 드러내는 일을 해서, 때와 장소와 상황에 맞게 건강하고 안전하게 입어야 해요. 옷을 잘 관리하고 손바느질로 고쳐 입으면 오래 입을 수 있고 환경에도 도움이 돼요."
+  core_question: "때와 장소에 맞는 건강한 옷차림을 고르고, 옷을 스스로 관리하고 고쳐 입으려면 어떻게 해야 할까?"
+  stages:
+    - "옷차림"
+    - "옷 관리"
+    - "손바느질"
+    - "옷 수선"
+  concepts:
+    - "옷의 기능"
+    - "옷차림"
+    - "옷 관리"
+    - "손바느질"
+    - "수선"
+  source_notes: "정리본(천재 u3 의생활 · 비상 u2-3·u3-3) 요지: 옷의 기능(몸 보호·표현) → 성장·안전·위생·예절과 계절·장소·행사에 맞는 옷차림 → 옷 개기·종류별 정리 → 매듭·홈질·박음질 손바느질, 단추 달기 → 수선·나눔으로 의생활 문제 해결 · 오개념: 옷차림은 겉모습·유행이 먼저, 새 옷이면 적절, 바느질만이 해결책, 헌 옷은 쓸모없음 · 유의: 바늘·가위 안전, 친구 옷차림 놀리지 않기, 가정 형편 드러내지 않기. 출판사 실습 동영상은 쓰지 않음"
+
+candidates:
+  - cand_no: c01
+    stage: 옷차림
+    title: "옷의 기능"
+    url: https://www.youtube.com/watch?v=Ynio6jNuL7o
+    channel: "아꿈선 초등3분과학"
+    channel_grade: edu
+    duration: "2:01"
+    use: 수업 전
+    basis_code: "[6실01-05]"
+    basis_lesson: "정리본 9차시 옷이 몸을 지키고 나를 드러내는 기능"
+    desc: "옷이 몸을 보호하고 나를 표현하는 일을 한다는 것을 짧게 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 교사 모임 채널(등급표 edu). 짧은 개념 설명."
+  - cand_no: c02
+    stage: 옷차림
+    title: "때와 장소, 상황에 맞는 옷차림 · 안전한 옷차림"
+    url: https://www.youtube.com/watch?v=eMWrBTKYwcQ
+    channel: "아꿈선 초등3분과학"
+    channel_grade: edu
+    duration: "4:00"
+    use: 수업 중
+    basis_code: "[6실01-05]"
+    basis_lesson: "정리본 10·11차시 성장·안전·위생·예절과 때·장소·상황"
+    desc: "때와 장소와 상황에 따라 어떤 옷을 입으면 좋은지, 안전한 옷차림은 무엇인지 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 교사 모임 채널(edu)."
+  - cand_no: c03
+    stage: 옷차림
+    title: "옷이 가진 힘"
+    url: https://www.youtube.com/watch?v=q6Pq-o80awo
+    channel: "EBS"
+    channel_grade: edu
+    duration: "2:57"
+    use: 배경지식
+    basis_code: "[6실01-05]"
+    basis_lesson: "교사 배경"
+    desc: "옷이 나를 표현하고 마음에 영향을 준다는 이야기를 강연으로 들려줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "어른 대상 강연(EBS 클래스e), 학생 눈높이 아님."
+  - cand_no: c04
+    stage: 옷차림
+    title: "[지니쌤] 옷의 기능 알아보기"
+    url: https://www.youtube.com/watch?v=6dkdRE5t_xo
+    channel: "지니쌤 Jinny"
+    channel_grade: personal
+    duration: "16:21"
+    use: 수업 중
+    basis_code: "[6실01-05]"
+    basis_lesson: "정리본 9차시"
+    desc: "옷의 기능을 설명하는 수업 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "개인 교사 채널 16분 — 대체(c01)가 있어 제외."
+  - cand_no: c05
+    stage: 옷 관리
+    title: "[실과 완전 정복] 내 옷 관리"
+    url: https://www.youtube.com/watch?v=5wCUdObxz6M
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:09"
+    use: 수업 중
+    basis_code: "[6실02-09]"
+    basis_lesson: "정리본 13차시 옷 관리와 정리"
+    desc: "매일 입는 옷을 깔끔하게 개고 관리하는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 13."
+  - cand_no: c06
+    stage: 옷 관리
+    title: "새해맞이 옷장 정리 시 탄소중립 실천"
+    url: https://www.youtube.com/watch?v=g4e126p1b98
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "1:47"
+    use: 수업 후
+    basis_code: "[6실02-09]"
+    basis_lesson: "정리본 13차시 옷 정리"
+    desc: "옷장을 정리하며 낭비를 줄이고 입지 않는 옷을 나누는 방법을 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "쇼츠로 확인됨(운영자 지시로 제외)."
+  - cand_no: c07
+    stage: 손바느질
+    title: "[실과 완전 정복] 손바느질의 기초"
+    url: https://www.youtube.com/watch?v=znbiNltak-Q
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:01"
+    use: 수업 중
+    basis_code: "[6실02-09]"
+    basis_lesson: "정리본 14차시 매듭과 홈질·박음질"
+    desc: "간단한 손바느질의 기초와 매듭짓는 법을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 08. 바늘 안전 안내를 수업에서 덧붙이기."
+  - cand_no: c08
+    stage: 손바느질
+    title: "[실과 완전 정복] 손바느질로 단추달기, 카드지갑 만들기"
+    url: https://www.youtube.com/watch?v=t4AHS92OLFY
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:31"
+    use: 수업 중
+    basis_code: "[6실02-09]"
+    basis_lesson: "정리본 15차시 단추 달기"
+    desc: "손바느질로 단추를 달고 카드지갑을 만드는 과정을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 09."
+  - cand_no: c09
+    stage: 손바느질
+    title: "[실과 완전 정복] 손바느질로 주머니 만들기"
+    url: https://www.youtube.com/watch?v=4SkNuJery9w
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:01"
+    use: 수업 후
+    basis_code: "[6실02-09]"
+    basis_lesson: "정리본 14·15차시"
+    desc: "손바느질로 작은 주머니를 만드는 과정을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 10."
+  - cand_no: c10
+    stage: 옷 수선
+    title: "[고치는 사람들] 금손이 아니라 곰손이여도 괜찮아"
+    url: https://www.youtube.com/watch?v=JjIeQ5MGxBM
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "4:54"
+    use: 수업 후
+    basis_code: "[6실02-09]"
+    basis_lesson: "정리본 16차시 옷을 고쳐 입는 좋은 점"
+    desc: "구멍 난 옷을 다닝 기법으로 직접 고치는 곳을 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025. 어른이 만드는 수선 체험 소개 — 고쳐 입는 문화를 보여 주는 용도(수업 후)."
+  - cand_no: c11
+    stage: 옷 수선
+    title: "익숙한 옷에 새로운 모습을 더하다"
+    url: https://www.youtube.com/watch?v=rdtRxIkdUV8
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "3:49"
+    use: 수업 후
+    basis_code: "[6실02-09]"
+    basis_lesson: "정리본 16차시 옷을 고치고 다시 쓰기"
+    desc: "옷을 고치고 새로운 모습으로 바꾸는 수선 조형가의 작업을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2026-09. 환경부 제작. 수선을 직업으로 하는 사람 소개."
+  - cand_no: c12
+    stage: 옷 수선
+    title: "아이 옷 리폼 아이디어 공유해요"
+    url: https://www.youtube.com/watch?v=hBeKM8yPOcg
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "1:59"
+    use: 수업 후
+    basis_code: "[6실02-09]"
+    basis_lesson: "정리본 16차시"
+    desc: "작아진 아이 옷을 업사이클링으로 다시 쓰는 아이디어를 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020, 학부모 대상 팁에 가까움."

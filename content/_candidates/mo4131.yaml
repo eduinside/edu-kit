@@ -1,0 +1,259 @@
+# mo4131 후보 기록 — 도덕 4학년 1학기 3단원 「배려하는 우리」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo4131 --dry
+# 2026-10-17 야간 위임 수집. 재생·임베드·연령·국내·길이·쇼츠 여부는 YouTube Data API로 후보 전부 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님. 이 단원은 지도서가 가리키는 영상 주소가 없어(운동회 배려 뉴스 기사만 언급) 공공·교육 채널과 이웃 사연 뉴스를 주제별로 골랐음.
+# 새 채널(channels.yaml에 없음): 서울시 인성교육 애니메이션 · 경남교육미디어센터 · 사통팔달 DTRO TV - 대구교통공사 공식 유튜브 — 등급은 운영자에게 질문.
+kit:
+  id: mo4131
+  title: "3. 배려하는 우리"
+  grade: 4
+  sem: 1학기
+  subject: 도덕
+  unit: 3단원
+  unit_no: 3
+  flow: activity
+  codes: ["[4도02-02]"]
+  core_idea: "배려는 상대가 필요로 하는 것이 무엇인지 헤아려 따뜻하게 도와주고 살펴 주는 마음과 행동이에요. 가까운 친구뿐 아니라 집, 학교, 동네의 여러 사람에게 배려를 이어 가면 모두가 더 행복해져요."
+  core_question: "내 주변 사람들이 필요로 하는 배려를 찾아 어떻게 실천할 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "친구 사이에 배려는 왜 필요할까?"
+    - name: 탐구하기
+      question: "집·학교·동네에서 누구에게 어떤 배려를 어떻게 실천할까?"
+    - name: 확장하기
+      question: "배려하는 마음을 어떻게 가꾸고 앞으로 이어 갈까?"
+  concepts:
+    - "배려"
+    - "양보"
+    - "공감"
+    - "존중"
+    - "교통약자"
+  source_notes: "정리본 도덕4.국정.u3(1차시 배려 경험 나누기·친구 사이 배려가 필요한 까닭 → 2차시 비밀 친구 활동·상대가 필요로 하는 배려 → 3차시 집·학교·동네 배려 대상과 방법·순서 → 4차시 선택 활동·운동회 배려 뉴스 기사로 다짐) · 오개념: 내가 좋은 것을 해 주는 것이 배려, 가까운 친구에게만, 무조건 양보하는 것이 늘 배려, 일방적으로 베푸는 것 · cautions: 배려가 필요 없는 경우(상대 거절, 안전 위협)도 있음, 구체적 칭찬"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "배려는 언제 필요할까? 또깨비 가족"
+    url: https://www.youtube.com/watch?v=Zor16s9tQZs
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "5:45"
+    use: 수업 중
+    basis_code: "[4도02-02]"
+    basis_lesson: "1차시 배려가 필요한 까닭"
+    desc: "배려가 어떤 마음인지 이야기로 알아보고 언제 배려가 필요한지 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 설명란: 남을 도와주거나 보살펴 주려는 마음, 배려."
+  - cand_no: c02
+    stage: 생각열기
+    title: "배려 — 체인지"
+    url: https://www.youtube.com/watch?v=Uwj-tq99vms
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: edu
+    duration: "4:26"
+    use: 수업 중
+    basis_code: "[4도02-02]"
+    basis_lesson: "1차시 친구 사이 배려"
+    desc: "배려를 주제로 서로의 처지를 바꿔 생각해 보게 하는 애니메이션이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 제작 기관이 설명란에 없음(서울시 교육 계열로 추정) — 등급 미분류(추정). 내용은 제목 기준."
+  - cand_no: c03
+    stage: 생각열기
+    title: "생소한이유 10. 친구는 소중해"
+    url: https://www.youtube.com/watch?v=PrYfC6ALgCs
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "7:30"
+    use: 수업 중
+    basis_code: "[4도02-02]"
+    basis_lesson: "1차시 친구 사이 배려"
+    desc: "친구가 왜 소중한지 생각해 보는 대구미래교육연구원 생명존중교육 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 교육연구기관 제작. 설명란에 줄거리가 없어 제목 기준, 시청 확인 권장."
+  - cand_no: c04
+    stage: 생각열기
+    title: "똑똑 문해력 박사 — 배려, 존중하다"
+    url: https://www.youtube.com/watch?v=vU3Akr8_Tik
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "7:55"
+    use: 수업 전
+    basis_code: "[4도02-02]"
+    basis_lesson: "1차시 낱말 뜻"
+    desc: "배려와 존중하다라는 낱말의 뜻을 짧은 글짓기로 익히는 어휘 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 어휘 학습이라 저학년 수준일 수 있음."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "양보 — 만약에"
+    url: https://www.youtube.com/watch?v=h3JuXpM4zHg
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: edu
+    duration: "3:17"
+    use: 수업 중
+    basis_code: "[4도02-02]"
+    basis_lesson: "2차시 상대가 필요로 하는 것 찾기"
+    desc: "양보를 주제로 입장을 바꿔 생각해 보게 하는 애니메이션이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 등급 미분류(추정). 내용은 제목 기준."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "배려가 필요해! 경남교육영상공모대회 초등부문"
+    url: https://www.youtube.com/watch?v=PfDwHNreWZk
+    channel: "경남교육미디어센터"
+    channel_grade: edu
+    duration: "6:56"
+    use: 수업 중
+    basis_code: "[4도02-02]"
+    basis_lesson: "2차시·3차시 배려 실천"
+    desc: "초등학생들이 만든 영상으로 배려가 필요한 장면을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2026 경남교육영상공모대회 초등부문 은상. 교육청 산하 공식 채널 게시. 새 채널. 설명란 없음, 시청 확인 권장."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "층간소음 죄송 전했더니 아래층 10살이 보낸 답장"
+    url: https://www.youtube.com/watch?v=IivyWPpLq0Y
+    channel: "SBS 뉴스"
+    channel_grade: press
+    duration: "1:31"
+    use: 수업 전
+    basis_code: "[4도02-02]"
+    basis_lesson: "3차시 집·동네 이웃 배려"
+    desc: "윗집이 미안한 마음을 전하자 아래층 어린이가 따뜻한 답장을 보낸 이웃 사연이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 SBS 뉴스딱. 이웃 사이 배려 사례. 어린이 편지글이 소개됨."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "모두가 안전한 지하철 — 교통약자 배려"
+    url: https://www.youtube.com/watch?v=LpMBZg3yHW8
+    channel: "사통팔달 DTRO TV - 대구교통공사 공식 유튜브"
+    channel_grade: public
+    local: 대구
+    duration: "1:23"
+    use: 수업 후
+    basis_code: "[4도02-02]"
+    basis_lesson: "3차시 동네에서 배려할 대상 찾기"
+    desc: "지하철에서 몸이 불편한 사람과 임산부 같은 교통약자를 어떻게 배려할지 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025 대구교통공사 공식 채널. 대구 사례. 새 채널."
+  - cand_no: c09
+    stage: 확장하기
+    title: "초등생들의 아름다운 달리기 넘어진 친구 먼저"
+    url: https://www.youtube.com/watch?v=ABu1y0vGlAk
+    channel: "연합뉴스TV"
+    channel_grade: press
+    duration: "1:22"
+    use: 수업 후
+    basis_code: "[4도02-02]"
+    basis_lesson: "4차시 운동회 배려 뉴스"
+    desc: "초등학교 운동회에서 넘어진 친구를 먼저 챙긴 아이들의 모습을 전하는 뉴스예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016. 지도서 4차시의 운동회 배려 뉴스 기사와 같은 결. 오래됐으나 가치 사례라 수치 문제 없음."
+  - cand_no: c10
+    stage: 확장하기
+    title: "우리 아파트 어린이 근황"
+    url: https://www.youtube.com/watch?v=KruoByElOtI
+    channel: "SBS 뉴스"
+    channel_grade: press
+    duration: "1:26"
+    use: 수업 후
+    basis_code: "[4도02-02]"
+    basis_lesson: "4차시 고마움 표현과 이어 가기"
+    desc: "한 해를 마무리하며 이웃에게 감사 편지와 선물을 나눈 어린이의 사연이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024 SBS 뉴스딱. 설명란: 감사의 편지와 선물을 나눈 어린이."
+  - cand_no: c11
+    stage: 확장하기
+    title: "1등 보다 친구가 중요"
+    url: https://www.youtube.com/watch?v=AkGW5TDEhjk
+    channel: "SBS 뉴스"
+    channel_grade: press
+    duration: "1:27"
+    use: 수업 후
+    basis_code: "[4도02-02]"
+    basis_lesson: "4차시 운동회 배려 뉴스"
+    desc: "c09와 같은 2016년 운동회 소식이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c09와 같은 사건, 중복."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "층간소음 양해 손편지 윗집 엄마"
+    url: https://www.youtube.com/watch?v=dPpKKsi3el4
+    channel: "JTBC News"
+    channel_grade: press
+    duration: "1:12"
+    use: 수업 전
+    basis_code: "[4도02-02]"
+    basis_lesson: "3차시"
+    desc: "아이 때문에 시끄러울까 걱정한 윗집의 편지와 답장 사연이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c07과 같은 계열 사연, 중복."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "배려교통문화 실천운동 캠페인"
+    url: https://www.youtube.com/watch?v=NZFGi6fbju4
+    channel: "대구광역시교육청"
+    channel_grade: edu
+    local: 대구
+    duration: "2:34"
+    use: 수업 후
+    basis_code: "[4도02-02]"
+    basis_lesson: "3차시"
+    desc: "대구광역시교육청의 배려 교통문화 캠페인 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016. 설명란이 없고 내용을 확인하지 못함."
+  - cand_no: c14
+    stage: 생각열기
+    title: "변치 않는 우정 관포지교"
+    url: https://www.youtube.com/watch?v=rMSXj40EzpY
+    channel: "요미몬TV"
+    channel_grade: personal
+    duration: "3:21"
+    use: 수업 중
+    basis_code: "[4도02-02]"
+    basis_lesson: "1차시 우정 고사"
+    desc: "관중과 포숙아의 우정 이야기예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "개인·기업 채널. 대안이 없지만 지도서 우정 고사 읽을거리와의 연결도 약해 제외."
+  - cand_no: c15
+    stage: 탐구하기
+    title: "인성동화 서로 돕고 배려해요"
+    url: https://www.youtube.com/watch?v=E91YvKqyi1I
+    channel: "아이클래스"
+    channel_grade: personal
+    duration: "6:25"
+    use: 수업 중
+    basis_code: "[4도02-02]"
+    basis_lesson: "2차시"
+    desc: "서로 돕고 배려하는 이야기 동화예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "유아 대상 개인 채널."
+  - cand_no: c16
+    stage: 생각열기
+    title: "1분의 배려 3학년 도덕 수업"
+    url: https://www.youtube.com/watch?v=G6Y7BaIhXAY
+    channel: "아톰쌤"
+    channel_grade: personal
+    duration: "1:36"
+    use: 수업 전
+    basis_code: "[4도02-02]"
+    basis_lesson: "1차시"
+    desc: "초등학생이 만든 1분 배려 캠페인 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "개인 교사 채널의 아동 출연 영상."

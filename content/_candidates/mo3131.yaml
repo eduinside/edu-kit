@@ -1,0 +1,225 @@
+# mo3131 후보 기록 — 도덕 3학년 1학기 3단원 「함께하는 우리 가족」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo3131 --dry
+# 2026-10-17 야간 수집(위임). 재생·임베드·연령·국내·길이·쇼츠 여부는 ytcheck로 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님.
+# 새 채널(channels.yaml에 없음): 한국건강가정진흥원 · 한국효문화진흥원(HYO) — 등급은 운영자에게 질문.
+kit:
+  id: mo3131
+  title: "3. 함께하는 우리 가족"
+  grade: 3
+  sem: 1학기
+  subject: 도덕
+  unit: 3단원
+  unit_no: 3
+  flow: activity
+  codes: ["[4도02-01]"]
+  core_idea: "가족은 서로 아끼고 돌보며 함께 사는 사람들이고, 가족마다 모습과 행복이 달라요. 부모님께 감사하는 효, 형제자매와 사이좋게 지내는 우애, 가족을 사랑하는 마음을 작은 행동으로 날마다 실천하면 우리 가족 모두가 행복해져요."
+  core_question: "우리 가족이 모두 행복하려면 나는 어떤 마음과 행동, 말을 실천할 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "가족의 모습과 행복은 집마다 어떻게 다를까?"
+    - name: 탐구하기
+      question: "효와 우애는 어떤 마음과 행동일까?"
+    - name: 확장하기
+      question: "가족을 사랑하는 마음을 어떻게 전하고 이어 갈까?"
+  concepts:
+    - "가족"
+    - "효"
+    - "우애"
+    - "가훈"
+    - "감사"
+  source_notes: "정리본 도덕3.국정.u3(1차시 가족마다 행복이 다름·내가 지닐 마음·행동·말 → 2차시 옛 효행 이야기·효 실천 → 3차시 형제자매 갈등 헤아리기·우애 → 4차시 소중한 순간·가훈·엽서) · 지도서 인용: EBS 지식채널e 「아빠와 함께한 계절」(치매 부모를 다룬 내용이라 3학년에게 무거워 제외) · 오개념: 효는 무조건 순종, 한 사람의 희생이 당연, 내가 행복하면 가족도 행복, 효는 물건으로 충분 · cautions: 다양한 가족 형태 배려, 효·우애를 강요하지 않기"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "모습은 달라도 우리는 모두 가족"
+    url: https://www.youtube.com/watch?v=-xIPAKG0Chc
+    channel: "국가인권위원회"
+    channel_grade: public
+    duration: "1:11"
+    use: 수업 전
+    basis_code: "[4도02-01]"
+    basis_lesson: "1차시 가족의 다양한 모습"
+    desc: "모습은 달라도 서로 아끼면 모두 가족이라는 것을 보여 주는 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 1분 11초 동기 유발용. 다양한 가족 형태 배려(cautions)와 맞음."
+  - cand_no: c02
+    stage: 생각열기
+    title: "행복이라는 같은 이야기"
+    url: https://www.youtube.com/watch?v=6HDwVX0lnVE
+    channel: "한국건강가정진흥원"
+    channel_grade: public
+    duration: "1:02"
+    use: 수업 전
+    basis_code: "[4도02-01]"
+    basis_lesson: "1차시 가족마다 다른 행복"
+    desc: "여러 모습의 가족이 저마다의 집에서 행복한 하루를 보내는 모습을 담았어요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "다양한 가족 인식개선 캠페인(2024). 등급 미분류(추정)."
+  - cand_no: c03
+    stage: 생각열기
+    title: "모든 가족이 행복한 대구"
+    url: https://www.youtube.com/watch?v=igu-T8lZPCY
+    channel: "대구TV┃대구광역시 공식 유튜브"
+    channel_grade: public
+    local: 대구
+    duration: "1:02"
+    use: 수업 중
+    basis_code: "[4도02-01]"
+    basis_lesson: "1차시 가족마다 다른 모습"
+    desc: "1인 가구, 맞벌이, 조손, 다문화 같은 여러 가족을 대구 가족센터가 돕는다고 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구광역시 공식 채널(2022). 정책 홍보 성격이지만 짧고 다양한 가족을 다룸."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "꽃적골 며느리의 효심"
+    url: https://www.youtube.com/watch?v=gIfba2o10AM
+    channel: "한국효문화진흥원(HYO)"
+    channel_grade: public
+    duration: "2:19"
+    use: 수업 중
+    basis_code: "[4도02-01]"
+    basis_lesson: "2차시 옛 효행 이야기"
+    desc: "효심 깊은 며느리의 옛이야기를 동화로 만든 한국효문화진흥원 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "설화를 전래동화로 만든 기관 제작 영상(2021). 등급 미분류(추정)."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "식장산 효자효부 이야기"
+    url: https://www.youtube.com/watch?v=bFN1D52GePc
+    channel: "한국효문화진흥원(HYO)"
+    channel_grade: public
+    duration: "2:37"
+    use: 수업 중
+    basis_code: "[4도02-01]"
+    basis_lesson: "2차시 옛 효행 이야기"
+    desc: "가난했지만 부모를 정성껏 모신 식장산 효자와 효부의 옛이야기를 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "설화를 전래동화로 만든 기관 제작 영상(2021). 등급 미분류(추정)."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "우애 좋은 형제"
+    url: https://www.youtube.com/watch?v=GOWdrLyq31A
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "8:28"
+    use: 수업 중
+    basis_code: "[4도02-01]"
+    basis_lesson: "3차시 형제자매 사이 우애"
+    desc: "'우애 좋은 형제' 이야기를 함께 살펴보고 어린이들이 느낀 점을 나누는 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "EBS 똑똑 문해력 박사 11화(2023). 8분 28초(구간 미지정) — 이야기 부분만 쓰고 싶으면 구간 지정 필요."
+  - cand_no: c07
+    stage: 확장하기
+    title: "세상에서 가장 쉬운 효"
+    url: https://www.youtube.com/watch?v=TOBVLctBFP4
+    channel: "문화체육관광부"
+    channel_grade: public
+    duration: "3:32"
+    use: 수업 후
+    basis_code: "[4도02-01]"
+    basis_lesson: "2차시 효 실천하기"
+    desc: "부모님께 효도하는 일이 생각보다 어렵지 않다는 것을 인터뷰로 전하는 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "문체부 한국문화100 메시지 영상(2013). 어른 인터뷰가 섞여 있어 교사가 설명 보태기."
+  - cand_no: c08
+    stage: 확장하기
+    title: "동네 어르신도 어버이"
+    url: https://www.youtube.com/watch?v=3Ah5gR60ic8
+    channel: "KBS뉴스 대구경북"
+    channel_grade: press
+    local: 대구
+    duration: "2:12"
+    use: 수업 후
+    basis_code: "[4도02-01]"
+    basis_lesson: "4차시 가족 사랑 실천"
+    desc: "이웃 어르신께 감사를 전하며 함께 어버이날을 보낸 이야기를 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구 지역 언론(2023)."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "[The Good Brothers] 우애 깊은 형제"
+    url: https://www.youtube.com/watch?v=I8stoE26nBw
+    channel: "한국농업기술진흥원"
+    channel_grade: public
+    duration: "2:16"
+    use: 수업 중
+    basis_code: "[4도02-01]"
+    basis_lesson: "3차시 형제자매 사이 우애"
+    desc: "의좋은 형제 이야기를 새로 풀어 쓴 짧은 애니메이션이에요."
+    verdict: 확인필요
+    note: "해시태그에 특수미(쌀 품종) 홍보 성격이 있어 광고성 여부 확인 필요(2025). 등급 미분류."
+  - cand_no: c10
+    stage: 확장하기
+    title: "[사랑] 빛보다 빠른 것"
+    url: https://www.youtube.com/watch?v=juji32vML2w
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: public
+    duration: "4:40"
+    use: 수업 후
+    basis_code: "[4도02-01]"
+    basis_lesson: "4차시 가족 사랑"
+    desc: "사랑을 주제로 한 서울시 인성교육 애니메이션이에요."
+    verdict: 확인필요
+    note: "제목만 보고 고름, 설명란 비어 있음 — 가족 이야기인지 확인 필요(2021)."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "할아버지곰 이야기"
+    url: https://www.youtube.com/watch?v=UV72W0gOMN4
+    channel: "한국효문화진흥원(HYO)"
+    channel_grade: public
+    duration: "2:02"
+    use: 수업 중
+    basis_code: "[4도02-01]"
+    basis_lesson: "2차시 효"
+    desc: "할아버지곰 이야기를 담은 효 UCC 공모전 우수작이에요."
+    verdict: 보류
+    note: "일반인 제작 공모전 작품, 내용 못 봄(2019)."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "사랑한다는 말"
+    url: https://www.youtube.com/watch?v=kBC0NBAyBT8
+    channel: "한국효문화진흥원(HYO)"
+    channel_grade: public
+    duration: "2:16"
+    use: 수업 중
+    basis_code: "[4도02-01]"
+    basis_lesson: "2차시 효"
+    desc: "사랑한다는 말을 전하는 효 UCC 공모전 우수작이에요."
+    verdict: 보류
+    note: "일반인 제작 공모전 작품, 내용 못 봄(2019)."
+  - cand_no: c13
+    stage: 생각열기
+    title: "세상모든가족 함께 약속해요"
+    url: https://www.youtube.com/watch?v=SNXhk4hIr_8
+    channel: "한국건강가정진흥원"
+    channel_grade: public
+    duration: "3:43"
+    use: 수업 중
+    basis_code: "[4도02-01]"
+    basis_lesson: "1차시 가족 행복"
+    desc: "코로나19 시기에 가족과 이웃이 서로 응원하자는 가정의 달 캠페인 영상이에요."
+    verdict: 보류
+    note: "코로나 시기 맥락(2021)이라 현재성이 약함."
+  - cand_no: c14
+    stage: 확장하기
+    title: "가까이 있는 행복, 가족"
+    url: https://www.youtube.com/watch?v=4-48CavHr18
+    channel: "영남일보 문화사업"
+    channel_grade: press
+    local: 대구
+    duration: "1:21"
+    use: 수업 후
+    basis_code: "[4도02-01]"
+    basis_lesson: "4차시 가족 사랑"
+    desc: "행복은 곁에 있는 가족이라는 메시지를 담은 짧은 영상이에요."
+    verdict: 보류
+    note: "대구 지역 매체 문화사업 홍보 영상(2016), 연인·부부 이야기가 섞임."

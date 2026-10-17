@@ -1,0 +1,434 @@
+# pr6401 후보 기록 — 실과 6학년 「로봇」(6실04-04·05·06)
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- pr6401 --dry
+# 2026-10-17 야간 위임 수집(g_pr6b). 재생·임베드·연령·국내·길이·쇼츠는 ytcheck(YouTube Data API)로 후보 전부 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님.
+# 쇼츠로 확인된 3편(KBS대구 2, TBC뉴스 1)은 후보에서 뺌. 8분 넘는 영상은 구간을 정할 수 없어 올리지 않음. 무기·전투 로봇 영상은 후보에서 제외.
+# 새 채널(channels.yaml에 없음) 후보: NAEK한국공학한림원 · 한국과학기술연구원KIST · 대전과학문화거점센터 · 헤이대구 · 대구어린이기자단 · 전시정보 수어영상 2024(부천로보파크) · 로봇공감 로.그.인(한국로봇산업진흥원) · HD현대로보틱스(기업, personal) — 등급은 운영자에게 질문.
+kit:
+  id: pr6401
+  title: "로봇"
+  grade: 6
+  sem: 2학기
+  subject: 실과
+  unit: 지속가능한 기술과 융합
+  unit_no: 4
+  flow: flow
+  sort_order: 1
+  codes: ["[6실04-04]", "[6실04-05]", "[6실04-06]"]
+  core_idea: "로봇은 센서로 주변을 알아차리고, 제어 장치가 판단하고, 구동 장치로 움직여 일을 하는 기계예요. 로봇의 종류와 쓰임을 살펴보고 인공지능 같은 다른 기술이 합쳐진 융합 기술의 가치를 알아봐요."
+  core_question: "로봇은 어떤 장치로 이루어져 어떻게 일하고, 다른 기술과 합쳐지면 무엇이 달라질까?"
+  stages:
+    - "로봇"
+    - "센서"
+    - "제어 장치"
+    - "구동 장치"
+    - "융합 기술"
+  concepts:
+    - "로봇"
+    - "센서"
+    - "제어 장치"
+    - "구동 장치"
+    - "융합 기술"
+  source_notes: "실과 6 정리본 천재 u4 로봇 부분(8차시 로봇의 뜻·분야 → 9~10차시 센서·제어 장치·구동 장치를 감각·두뇌·근육에 견주기, 청소 로봇 감지·판단·동작 → 11~12차시 융합 기술·돌봄 로봇 → 13~18차시 구상·조립·코딩) · 비상 u4-1(1~2차시 로봇이 무엇이고 어떤 장치로 이루어지나 → 3~4차시 로봇 종류·감지 제어 구동 → 5~6차시 융합 기술) · 오개념: 로봇은 사람 모양 기계, 몸체만 있으면 됨, 융합 기술은 새로 따로 만든 기술 · 유의: 무기·전투 로봇 제외, 출판사 조립 실습 동영상 미사용"
+
+candidates:
+  - cand_no: c01
+    stage: 로봇
+    title: "로봇의 탄생과 발전"
+    url: https://www.youtube.com/watch?v=xFaaFrIJfl0
+    channel: "국립대구과학관 Scientry"
+    channel_grade: public
+    local: 대구
+    duration: "2:53"
+    use: 수업 전
+    basis_code: "[6실04-04]"
+    basis_lesson: "8차시 로봇의 뜻과 쓰임"
+    desc: "로봇이라는 말의 뜻과 지금까지 로봇이 어떻게 발전해 왔는지 전시품과 함께 설명해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구 국립과학관 전시품 해설(2020)."
+  - cand_no: c02
+    stage: 로봇
+    title: "삶을 편리하게 하는 로봇의 역사"
+    url: https://www.youtube.com/watch?v=1AcJyHEOGbA
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "2:45"
+    use: 수업 중
+    basis_code: "[6실04-04]"
+    basis_lesson: "8차시 로봇의 뜻과 쓰임"
+    desc: "로봇이라는 말이 어디서 왔고 첫 산업용 로봇부터 오늘날 로봇까지 어떻게 이어졌는지 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016. 로봇의 역사 소개."
+  - cand_no: c03
+    stage: 로봇
+    title: "출근하는 직장인 로봇 브이로그"
+    url: https://www.youtube.com/watch?v=puhH-Rn306k
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "3:08"
+    use: 수업 전
+    basis_code: "[6실04-04]"
+    basis_lesson: "8차시 생활 속 로봇"
+    desc: "어린이과학관 로봇쇼에 나오는 로봇 볼트의 하루를 따라가 보는 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 로봇쇼 속 로봇의 일과를 소개한 영상이라 재미 위주, 동기 유발용."
+  - cand_no: c04
+    stage: 로봇
+    title: "창의나래관에 로봇이 살아 있다"
+    url: https://www.youtube.com/watch?v=6RSicz474Xw
+    channel: "국립중앙과학관"
+    channel_grade: public
+    duration: "3:49"
+    use: 수업 후
+    basis_code: "[6실04-04]"
+    basis_lesson: "9~10차시 로봇 움직임 체험"
+    desc: "내 마음대로 움직이는 손이 하나 더 있다면 어떨지 로봇 체험 전시를 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 국립중앙과학관 공식 채널."
+  - cand_no: c05
+    stage: 로봇
+    title: "생활 속 로봇의 진화"
+    url: https://www.youtube.com/watch?v=ziXWTNpPDZ8
+    channel: "YTN"
+    channel_grade: press
+    duration: "1:15"
+    use: 수업 전
+    basis_code: "[6실04-04]"
+    basis_lesson: "8차시 생활 속 로봇"
+    desc: "배달, 요리, 건설 현장 등 생활 곳곳에 들어온 로봇을 짧게 소개해요."
+    verdict: 보류
+    note: "2019 자막뉴스, 현재와 거리가 있음."
+  - cand_no: c06
+    stage: 로봇
+    title: "로봇의 구성 요소 (부천로보파크)"
+    url: https://www.youtube.com/watch?v=tKIV5S1HGu4
+    channel: "전시정보 수어영상 2024"
+    channel_grade: public
+    duration: "2:56"
+    use: 수업 중
+    basis_code: "[6실04-04]"
+    basis_lesson: "1~2차시 로봇을 이루는 장치"
+    desc: "로봇이 몸체, 전원 장치, 제어 장치, 센서, 구동 장치로 이루어져 함께 일한다는 것을 설명해요."
+    verdict: 확인필요
+    note: "내용은 단원에 꼭 맞지만 채널이 부천로보파크 전시정보 수어(수화) 해설용이라 소속·화면 구성을 확인해야 함(2024). 새 채널."
+  - cand_no: c07
+    stage: 로봇
+    title: "로봇 탐구 생활 3화 - 산업용 로봇편"
+    url: https://www.youtube.com/watch?v=0-yB8lrWlcA
+    channel: "HD현대로보틱스"
+    channel_grade: personal
+    duration: "6:04"
+    use: 수업 중
+    basis_code: "[6실04-05]"
+    basis_lesson: "8차시 제조용 로봇"
+    desc: "용접, 도장 같은 일을 하는 산업용 로봇이 어떤 일을 하는지 정리했어요."
+    verdict: 보류
+    note: "기업 채널 교육 시리즈(2020). 기업 채널이라 c14 한 편만 쓰고 보류."
+  - cand_no: c08
+    stage: 센서
+    title: "여러 가지 센서들에 대해 알아보아요"
+    url: https://www.youtube.com/watch?v=XpaosfMUIPQ
+    channel: "NAEK한국공학한림원"
+    channel_grade: public
+    duration: "5:36"
+    use: 수업 중
+    basis_code: "[6실04-04]"
+    basis_lesson: "9~10차시 센서의 종류"
+    desc: "주변 정보를 알아내는 여러 가지 센서를 소개하는 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "한국공학한림원 공식 채널(2021). 설명란이 비어 있어 제목과 채널 성격 기준. 새 채널(등급 미분류, 추정 public)."
+  - cand_no: c09
+    stage: 센서
+    title: "혼자 움직이는 로봇 청소기의 속사정"
+    url: https://www.youtube.com/watch?v=Q-hY7_wl-6Q
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "3:24"
+    use: 수업 중
+    basis_code: "[6실04-05]"
+    basis_lesson: "10차시 감지-판단-동작"
+    desc: "센서와 모터를 달고 혼자 움직이는 로봇 청소기를 분해해 안을 살펴봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2019. 청소 로봇의 감지·동작 원리와 연결."
+  - cand_no: c10
+    stage: 센서
+    title: "로봇스쿨 5부 - 센서를 알아보자"
+    url: https://www.youtube.com/watch?v=rJPRjfr3bNY
+    channel: "신티랩 ShinT-Lab"
+    channel_grade: personal
+    duration: "3:20"
+    use: 수업 중
+    basis_code: "[6실04-04]"
+    basis_lesson: "9~10차시 센서의 종류"
+    desc: "로봇의 감각 기관인 센서가 무엇이고 어떤 역할을 하는지 초등 눈높이로 알려 줘요."
+    verdict: 보류
+    note: "개인·교육업체 채널(2020). 공공 자료가 있어 보류."
+  - cand_no: c11
+    stage: 센서
+    title: "(학생 작품) 미니 로봇의 작동원리"
+    url: https://www.youtube.com/watch?v=wUsfx8qS-CA
+    channel: "랜선 인천학생과학관"
+    channel_grade: public
+    duration: "1:53"
+    use: 수업 중
+    basis_code: "[6실04-05]"
+    basis_lesson: "10차시 작동 원리"
+    desc: "과학관 전시물인 미니 로봇이 어떻게 움직이는지 학생이 소개하는 작품이에요."
+    verdict: 확인필요
+    note: "학생 작품이라 설명 정확도와 학생 출연을 확인해야 함(2025). 새 채널(인천학생과학관 운영)."
+  - cand_no: c12
+    stage: 제어 장치
+    title: "로봇을 움직이는 수학 원리"
+    url: https://www.youtube.com/watch?v=CCzo3vsg5Fg
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "2:18"
+    use: 수업 중
+    basis_code: "[6실04-05]"
+    basis_lesson: "9~10차시 로봇의 판단과 제어"
+    desc: "로봇 청소기가 카메라로 집 안 지도를 만들고 자기 위치를 알아내는 데 계산이 쓰인다는 것을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 제어와 계산이 로봇의 두뇌 역할임을 보여 주는 영상."
+  - cand_no: c13
+    stage: 제어 장치
+    title: "로봇은 어떻게 안 넘어지는 걸까"
+    url: https://www.youtube.com/watch?v=NzgzYEnhJQ8
+    channel: "국가과학기술연구회(nst)"
+    channel_grade: public
+    duration: "5:41"
+    use: 수업 중
+    basis_code: "[6실04-05]"
+    basis_lesson: "10차시 감지-판단-동작"
+    desc: "휴머노이드 로봇이 충격을 받아도 균형을 잡는 원리를 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 정부 출연연 협의체 채널. 특정 기업 로봇 이름이 잠깐 나올 수 있음."
+  - cand_no: c14
+    stage: 제어 장치
+    title: "로봇 탐구 생활 2화 - 구조편"
+    url: https://www.youtube.com/watch?v=_4XIpv0S_ts
+    channel: "HD현대로보틱스"
+    channel_grade: personal
+    duration: "6:43"
+    use: 수업 중
+    basis_code: "[6실04-04]"
+    basis_lesson: "9차시 센서·제어 장치·구동 장치"
+    desc: "로봇 본체와 뇌에 해당하는 제어기, 제어 기술까지 로봇의 구성과 원리를 차례로 설명해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "기업 채널(personal) 교육 시리즈(2020). 제어기를 두뇌에 견주어 설명하는 자료가 공공 채널에 마땅치 않아 예외로 채택. 제품 홍보가 본문은 아님 — 운영자 확인. 새 채널."
+  - cand_no: c15
+    stage: 구동 장치
+    title: "내 손으로 움직이는 로봇팔"
+    url: https://www.youtube.com/watch?v=fx2FxMxxYcY
+    channel: "국립부산과학관"
+    channel_grade: public
+    duration: "3:18"
+    use: 수업 중
+    basis_code: "[6실04-04]"
+    basis_lesson: "9~10차시 구동 장치"
+    desc: "사람의 팔과 비슷하면서도 다른 로봇팔을 움직여 보며 움직임의 원리를 체험해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 국립부산과학관 전시 해설."
+  - cand_no: c16
+    stage: 구동 장치
+    title: "로봇을 입으면 힘센 장사가 된다고요?"
+    url: https://www.youtube.com/watch?v=j-Cl6wCAgE8
+    channel: "대전과학문화거점센터"
+    channel_grade: public
+    duration: "3:17"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "11~12차시 움직임을 돕는 로봇"
+    desc: "입는 것만으로 힘을 더 쓰게 해 주는 웨어러블 로봇 옷감을 애니메이션으로 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "한국기계연구원 박사 인터뷰 애니메이션 '과학자처럼'(2021). 새 채널."
+  - cand_no: c17
+    stage: 융합 기술
+    title: "인공지능과 로봇, 인간의 외로움을 해소하다"
+    url: https://www.youtube.com/watch?v=ZpnwjXrdsrc
+    channel: "KISTI의 과학향기"
+    channel_grade: public
+    duration: "3:25"
+    use: 수업 중
+    basis_code: "[6실04-06]"
+    basis_lesson: "11차시 인공지능 로봇의 쓰임"
+    desc: "인공지능과 로봇이 합쳐져 사람 곁에서 외로움을 덜어 주는 모습을 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. KISTI 과학향기 프로젝트 4화."
+  - cand_no: c18
+    stage: 융합 기술
+    title: "KIST 비대면 방역 배송 로봇"
+    url: https://www.youtube.com/watch?v=NSoU-1AbcJA
+    channel: "한국과학기술연구원KIST"
+    channel_grade: public
+    duration: "4:12"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "11~12차시 융합 기술 로봇 조사"
+    desc: "병원에서 사람 대신 물건을 나르고 방역까지 하는 로봇을 실제로 써 본 소식이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 공공 연구기관 소식. 새 채널(등급 미분류, 추정 public)."
+  - cand_no: c19
+    stage: 융합 기술
+    title: "농업용 로봇 진화 - 수확부터 수정까지"
+    url: https://www.youtube.com/watch?v=XOpK9IuuK9I
+    channel: "대구MBC뉴스"
+    channel_grade: press
+    local: 대구
+    duration: "2:10"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "12차시 융합 기술 로봇 조사"
+    desc: "딸기 수확, 꽃가루 수정, 병해충 살펴보기까지 하는 농업용 로봇을 소개한 뉴스예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구MBC(2025). 지역 언론, 로봇과 농업 기술의 융합 사례."
+  - cand_no: c20
+    stage: 융합 기술
+    title: "AI 로봇 수도 대구, 휴머노이드 선점 총력"
+    url: https://www.youtube.com/watch?v=dF-ay8mWMGM
+    channel: "TBC뉴스"
+    channel_grade: press
+    local: 대구
+    duration: "2:59"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "12차시 미래 로봇 이야기"
+    desc: "대구가 로봇 산업의 중심이 되려고 준비하는 모습을 지역 뉴스로 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "TBC(2026-01). 산업·경제 뉴스 성격이라 로봇 원리보다 지역 이해용. 대구 휴머노이드 관련 보도 다수 중 선택."
+  - cand_no: c21
+    stage: 융합 기술
+    title: "미래의 로봇은 어떤 모습일까"
+    url: https://www.youtube.com/watch?v=zdJPfIzy6R4
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "2:34"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "12차시 미래 로봇 이야기"
+    desc: "로봇이 앞으로 도구, 자동화, 사람과의 협력, 공간 확장의 역할을 하게 될 모습을 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 핫클립."
+  - cand_no: c22
+    stage: 융합 기술
+    title: "학교에 들어온 로봇·AI, 장애 벽 넘는다"
+    url: https://www.youtube.com/watch?v=OcXSTUMj5VY
+    channel: "KBS뉴스 대구경북"
+    channel_grade: press
+    local: 대구
+    duration: "2:14"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "11차시 돌봄 로봇 장점"
+    desc: "학교에 들어온 로봇과 인공지능이 장애를 가진 학생들에게 어떤 도움을 주는지 전해요."
+    verdict: 확인필요
+    note: "KBS뉴스 대구경북(2025). 설명란이 저작권 문구뿐이라 내용·학생 출연 여부를 확인해야 함."
+  - cand_no: c23
+    stage: 융합 기술
+    title: "헤이대구 진로교육 - 로봇 윤리 학자"
+    url: https://www.youtube.com/watch?v=pRpIYV4VEbs
+    channel: "헤이대구"
+    channel_grade: edu
+    local: 대구
+    duration: "1:33"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "5~6차시 로봇 관련 직업"
+    desc: "로봇 윤리 학자가 어떤 일을 하는지 알아보는 진로 영상이에요."
+    verdict: 확인필요
+    note: "채널이 대구 진로교육 계열로 보이나 소속을 확인하지 못함(2022). 새 채널."
+  - cand_no: c24
+    stage: 융합 기술
+    title: "대구어린이기자단 한국로봇산업진흥원 현장취재"
+    url: https://www.youtube.com/watch?v=d7Et5Zx7gNs
+    channel: "대구어린이기자단"
+    channel_grade: personal
+    local: 대구
+    duration: "2:47"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "12차시 로봇 조사"
+    desc: "대구 어린이기자들이 로봇산업진흥원을 취재한 현장 영상이에요."
+    verdict: 확인필요
+    note: "2018. 어린이 출연 영상이라 공식 채널인지 확인 필요(대구어린이기자단은 대구 초등 4~6학년 기자단). 새 채널."
+  - cand_no: c25
+    stage: 융합 기술
+    title: "KIST 격리병실 물류 로봇 BOHO"
+    url: https://www.youtube.com/watch?v=8c2EBUW0WF8
+    channel: "한국과학기술연구원KIST"
+    channel_grade: public
+    duration: "3:44"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "11~12차시 융합 기술 로봇 조사"
+    desc: "격리 치료 병실에서 물건을 나르는 로봇 BOHO를 소개해요."
+    verdict: 보류
+    note: "c18과 비슷한 병원 로봇이라 보류(2024)."
+  - cand_no: c26
+    stage: 융합 기술
+    title: "대구 국가로봇테스트필드 유치 소식"
+    url: https://www.youtube.com/watch?v=cKTYzbkvlk4
+    channel: "대구MBC뉴스"
+    channel_grade: press
+    local: 대구
+    duration: "2:19"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "12차시 로봇 조사"
+    desc: "대구에 국가로봇테스트필드가 오게 된 소식을 전해요."
+    verdict: 보류
+    note: "2021. 산업 정책 뉴스. c20으로 충분."
+  - cand_no: c27
+    stage: 융합 기술
+    title: "국가로봇테스트필드 홍보영상"
+    url: https://www.youtube.com/watch?v=YGGaXg733l0
+    channel: "로봇공감 로.그.인"
+    channel_grade: public
+    local: 대구
+    duration: "3:06"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "12차시 로봇 조사"
+    desc: "한국로봇산업진흥원이 대구에서 운영하는 로봇 시험장을 소개하는 홍보 영상이에요."
+    verdict: 보류
+    note: "기관 홍보 성격(2025). 새 채널."
+  - cand_no: c28
+    stage: 융합 기술
+    title: "로봇은 왜 사람처럼 만들까"
+    url: https://www.youtube.com/watch?v=aKDJOsP7zYU
+    channel: "EBS 컬렉션 - 사이언스"
+    channel_grade: edu
+    duration: "5:37"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "12차시 미래 로봇 이야기"
+    desc: "SF 작가와 로봇공학자가 로봇을 왜 사람처럼 만드는지 이야기해요."
+    verdict: 보류
+    note: "2025 지식채널e. 어른 눈높이 대담 성격."
+  - cand_no: c29
+    stage: 융합 기술
+    title: "아이와 대화하고 춤추고 - 돌봄 로봇"
+    url: https://www.youtube.com/watch?v=6uemBagZNG4
+    channel: "연합뉴스TV"
+    channel_grade: press
+    duration: "2:16"
+    use: 수업 후
+    basis_code: "[6실04-06]"
+    basis_lesson: "11차시 돌봄 로봇 장점"
+    desc: "아이와 대화하고 춤추는 돌봄 로봇 소식을 전해요."
+    verdict: 보류
+    note: "2021. 아이가 나오는 보도라 보류."

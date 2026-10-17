@@ -1,0 +1,153 @@
+id: pr5101
+title: 아동기 발달·자기 관리
+grade: 5
+sem: 1학기
+subject: 실과
+unit: 인간 발달과 주도적 삶
+unit_no: 1
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 아동기에는 몸과 마음, 사람들과의 관계가 함께 자라요. 자라는 속도는 사람마다 달라서, 나에게 맞는 자기 관리 방법을 찾아 작은 것부터 꾸준히 실천하는 것이 중요해요.
+  core_question: 몸과 마음이 건강하게 자라기 위해 나는 어떤 자기 관리를 계획하고 실천할 수 있을까?
+  concepts:
+    - term: 아동기
+      def: 어린이로 자라는 시기로, 초등학교에 다니는 때가 여기에 들어가요. 이 시기에는 몸과 마음이 빠르게 자라요.
+    - term: 발달
+      def: 몸이 자라고, 생각과 마음, 다른 사람과 어울리는 힘이 점점 나아지는 것이에요.
+    - term: 발달의 개인차
+      def: 자라는 속도와 모습이 사람마다 다른 것이에요. 친구보다 빠르거나 늦어도 잘못된 것이 아니에요.
+    - term: 자기 관리
+      def: 건강하게 자라도록 내 생활을 스스로 돌보고 조절하는 것이에요. 목표를 세워 계획하고 실천하는 일이 들어가요.
+    - term: 생활 습관
+      def: 날마다 되풀이해서 몸에 밴 행동이에요. 잠자기, 먹기, 몸 움직이기, 스마트폰 쓰기가 모두 생활 습관이에요.
+  standards:
+    - code: "[6실01-01]"
+      text: 아동기의 발달 특징을 이해하고 성장발달에 필요한 조건과 방법을 탐색한다.
+    - code: "[6실01-02]"
+      text: 건강한 발달을 위한 자기 관리 방법을 탐색하고, 일상생활 속에서 올바른 생활습관과 태도를 갖도록 계획하여 실천한다.
+stages:
+  - name: 생각열기
+    question: 나는 지금 어떻게 자라고 있을까?
+  - name: 탐구하기
+    question: 몸과 마음이 고르게 자라려면 무엇이 필요할까?
+  - name: 확장하기
+    question: 나에게 필요한 자기 관리를 어떻게 계획하고 실천할까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 내 몸이 이상해 — 사춘기의 변화
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=sgCAeHAoUj0
+    desc: 사춘기에 호르몬 때문에 몸에 나타나는 2차 성징을 과학으로 알아봐요.
+    channel: EBS 키즈
+  - key: v2
+    stage: 생각열기
+    title: 알쏭달쏭 사춘기 몸의 변화
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=z_wZOmSGUZg
+    desc: 사춘기를 맞은 어린이 캐릭터들의 궁금증을 풀어 가며 몸의 변화를 알려 줘요.
+    channel: 화성시청소년성문화센터
+  - key: v3
+    stage: 생각열기
+    title: 사춘기 뇌에서는 무슨 일이 일어날까
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=1MCyL_t1XCU
+    desc: 사춘기에 뇌가 자라는 과정과 감정이 크게 흔들리는 까닭을 설명해요.
+    channel: EBS 지식채널e
+  - key: v4
+    stage: 탐구하기
+    title: 골고루 키쑤욱 — 키 성장과 7가지 건강생활습관
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=zQ9Fs67dqQw
+    desc: 키가 자라는 데 영향을 주는 7가지 건강 생활 습관을 짧게 알려 줘요.
+    channel: 제주특별자치도교육청
+  - key: v5
+    stage: 탐구하기
+    title: 골고루 키쑤욱 — 올바른 수면과 성장호르몬
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=GqEOWJZsonw
+    desc: 잘 자는 것이 성장호르몬과 어떻게 이어지는지 알려 줘요.
+    channel: 제주특별자치도교육청
+  - key: v6
+    stage: 탐구하기
+    title: 골고루 키쑤욱 — 성장판을 자극하는 신체활동
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_pqc22DVBU8
+    desc: 몸을 움직이는 활동이 성장에 도움이 되는 까닭을 알려 줘요.
+    channel: 제주특별자치도교육청
+  - key: v7
+    stage: 탐구하기
+    title: 대구 영양상담 — 올바른 성장
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=9wJqPo5oEco
+    desc: 성장에 필요한 영양과 식습관을 대구광역시교육청 영양교사가 안내해요.
+    channel: 대구학교급식TV
+  - key: v8
+    stage: 탐구하기
+    title: 분노 조절 — 감정 다스리기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=AAXH9c9NQPA
+    desc: 화가 날 때 마음을 가라앉히는 방법을 애니메이션으로 알려 줘요.
+    channel: 학생마음건강중앙지원단
+  - key: v9
+    stage: 확장하기
+    title: 계획을 세울 수 있어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=T7RgmGEGNf4
+    desc: 목표를 정하고 할 일을 순서대로 계획하는 방법을 알려 줘요.
+    channel: 국가기초학력지원센터
+  - key: v10
+    stage: 확장하기
+    title: 스마트폰 과의존, 초등학생에게 묻다
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=HIT7ZgOEpoI
+    desc: 초등학생이 스마트폰을 지나치게 쓸 때 생기는 문제와 조절 방법을 이야기해요.
+    channel: 한국지능정보사회진흥원 스마트쉼센터
+  - key: v11
+    stage: 확장하기
+    title: 건강한 생활습관 만들기 — 거북목 관리
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=T-Ovi3TIclU
+    desc: 바른 자세로 앉고 스마트폰을 볼 때 목을 지키는 습관을 알려 줘요.
+    channel: 학생건강
+  - key: v12
+    stage: 확장하기
+    title: 건강한 생활습관 만들기 — 척추 관리
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=vOO2HbsPgdI
+    desc: 척추를 바르게 지키는 생활 습관을 알려 줘요.
+    channel: 학생건강
+  - key: v13
+    stage: 확장하기
+    title: 건강한 생활습관 만들기 — 시력 관리
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Xe0F-s64PSE
+    desc: 눈을 아끼는 생활 습관과 화면을 볼 때 지킬 점을 알려 줘요.
+    channel: 학생건강
+quiz:
+  - statement: 아동기에는 몸뿐 아니라 마음과 친구 관계도 함께 자란다.
+    answer: O
+    explain: 몸이 자라는 것과 함께 생각과 감정, 사람들과 어울리는 힘도 자라요.
+  - statement: 친구보다 몸이 일찍 자라거나 늦게 자라면 어딘가 문제가 있는 것이다.
+    answer: X
+    explain: 발달 속도는 사람마다 달라서 빠르거나 늦어도 자연스러운 과정이에요.
+  - statement: 키가 자라는 데는 잠, 영양, 운동 같은 생활 습관이 영향을 준다.
+    answer: O
+    explain: 잘 자고 골고루 먹고 몸을 움직이는 습관이 성장에 도움이 돼요.
+  - statement: 건강하게 자란다는 것은 키와 몸무게가 늘어나는 것만을 뜻한다.
+    answer: X
+    explain: 몸뿐 아니라 마음과 사람들과의 관계도 고르게 자라는 것이 건강한 발달이에요.
+  - statement: 자기 관리 계획은 바로 해 볼 수 있는 작은 일부터 세우는 것이 좋다.
+    answer: O
+    explain: 작은 일부터 시작해야 꾸준히 실천하기 쉬워요.
+  - statement: 자기 관리는 목표만 세우면 실천하거나 점검하지 않아도 된다.
+    answer: X
+    explain: 목표를 세우고 계획해서 실천한 뒤 평가까지 해야 자기 관리가 이어져요.
+  - statement: 스마트폰을 오래 쓰는 습관은 자세와 눈, 생활 리듬에 영향을 줄 수 있다.
+    answer: O
+    explain: 그래서 사용 시간을 정하고 바른 자세로 쓰는 습관이 필요해요.
+  - statement: 사춘기의 몸 변화는 놀림거리로 삼아도 된다.
+    answer: X
+    explain: 몸의 변화는 누구나 겪는 자연스러운 일이라 서로 존중해야 해요.

@@ -1,0 +1,356 @@
+# mo6121 후보 기록 — 도덕 6학년 1학기 2단원 「다름을 존중하는 우리」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo6121 --dry
+# 2026-10-17 수집(야간 위임). 재생·임베드·연령·국내·길이는 YouTube Data API(ytcheck)로 후보 전부 정상 확인. 영상 본문은 제목·설명·채널 성격 기준으로 판단했고 전부 시청한 것은 아님.
+# 새 채널(channels.yaml에 없음): 경기문화재단 · 문화다양성 · 구로구 상호문화 · 오산시가족센터 · KOBACO공익광고협의회 · 부산광역시교육청 · 경기도청 · 성평등가족부 · 한국장애인고용공단 · 다문화가족지원포털다누리 · 서울특별시교육청교육연구정보원(있음) — 채택 시 운영자에게 등급 질문.
+kit:
+  id: mo6121
+  title: "2. 다름을 존중하는 우리"
+  grade: 6
+  sem: 1학기
+  subject: 도덕
+  unit: 2단원
+  unit_no: 2
+  flow: activity
+  codes: ["[6도02-02]"]
+  core_idea: "우리 둘레에는 생각, 문화, 모습이 서로 다른 사람들이 함께 살아요. 다름은 틀림이 아니라는 것을 알고 편견 없이 존중하며, 의견이 갈릴 때는 서로 힘써 합의하는 태도가 필요해요."
+  core_question: "나와 다른 사람을 존중하며 함께 살아가려면 어떤 마음과 행동이 필요할까?"
+  stages:
+    - name: 생각열기
+      question: "우리 이웃은 어떤 점이 서로 다르고, 함께 살면 무엇이 좋을까?"
+    - name: 탐구하기
+      question: "같은 것도 다르게 보는 까닭은 무엇이고, 우리 안의 편견은 무엇일까?"
+    - name: 확장하기
+      question: "다름을 존중하고 의견이 갈릴 때 합의하려면 어떻게 해야 할까?"
+  concepts:
+    - "다름"
+    - "존중"
+    - "편견"
+    - "고정관념"
+    - "문화 다양성"
+    - "합의"
+  source_notes: "정리본 도덕6.국정.u2(1차시 이웃의 다른 점 찾기와 함께 살아 좋은 점 → 2차시 같은 것도 달리 보는 까닭·다름을 존중할 이유 → 3차시 생활 속 편견 목록·역할놀이 → 4차시 의견이 갈릴 때의 합의 태도) · 오개념: 다른 것을 틀린 것으로 여김, 각자 하고 싶은 대로 하는 것이 존중이라 여김, 다문화 친구는 우리말이 서툴 것이라는 편견 · cautions: 다양성을 외국인 가정 이야기로만 좁히지 말기(언어·종교·세대 등), 특정 처지를 놀림거리로 삼지 않기, 합의에는 모두가 힘써야 함 · 지도서가 가리킨 국가인권위원회·성평등가족부·한국장애인고용공단 영상 4편을 후보로 확인했고 공익광고·인권위 영상은 1분 안팎이라 일부만 채택."
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "오색 빛깔 지구촌의 문화 다양성을 존중해요"
+    url: https://www.youtube.com/watch?v=-2Az-usa25g
+    channel: "경기도교육청TV"
+    channel_grade: edu
+    duration: "4:18"
+    use: 수업 중
+    basis_code: "[6도02-02]"
+    basis_lesson: "1차시 이웃의 다른 점 찾기"
+    desc: "세계 여러 나라의 문화가 서로 다르다는 것을 알고 그 다양성을 존중하자는 교육청 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "경기도교육청 제작(2023)."
+  - cand_no: c02
+    stage: 생각열기
+    title: "우리 반에는 세계가 있다"
+    url: https://www.youtube.com/watch?v=NwdgSnE8cn8
+    channel: "문화다양성"
+    channel_grade: public
+    duration: "2:22"
+    use: 수업 전
+    basis_code: "[6도02-02]"
+    basis_lesson: "1차시 이웃의 다른 점 찾기"
+    desc: "교실 속 여러 나라 친구들의 모습으로 문화다양성을 담아낸 공모전 대상작이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025 문화다양성 AI 영상 콘텐츠 공모전 대상작(AI로 만든 영상). 등급 미분류(추정)."
+  - cand_no: c03
+    stage: 생각열기
+    title: "가족의 탄생 — 모습은 달라도 우리는 모두 가족"
+    url: https://www.youtube.com/watch?v=-xIPAKG0Chc
+    channel: "국가인권위원회"
+    channel_grade: public
+    duration: "1:11"
+    use: 수업 전
+    basis_code: "[6도02-02]"
+    basis_lesson: "1차시 이웃의 다른 점 찾기"
+    desc: "모습이 서로 달라도 함께 사는 사람들이 모두 가족이라는 이야기를 짧게 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "국가인권위원회 '다양성의 존중' 시리즈(2021)."
+  - cand_no: c04
+    stage: 생각열기
+    title: "학교는 작은 지구촌 — 이주 배경 신입생 늘었다"
+    url: https://www.youtube.com/watch?v=WqmEyrACDX8
+    channel: "MBCNEWS"
+    channel_grade: press
+    local: 대구
+    duration: "2:53"
+    use: 수업 중
+    basis_code: "[6도02-02]"
+    basis_lesson: "1차시 함께 살아 좋은 점"
+    desc: "대구 중학교 신입생의 많은 수가 이주 배경 학생이 되어 여러 나라 말이 오가는 교실 모습을 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구MBC 뉴스데스크 보도(2026.03). 대구 사례."
+  - cand_no: c05
+    stage: 생각열기
+    title: "존중과 배려 — 공익광고"
+    url: https://www.youtube.com/watch?v=9hceSjyhW98
+    channel: "KOBACO공익광고협의회"
+    channel_grade: public
+    duration: "1:35"
+    use: 수업 전
+    basis_code: "[6도02-02]"
+    basis_lesson: "2차시 존중 주제 공익광고"
+    desc: "서로 다른 우리가 존중과 배려로 이어진다는 메시지를 담은 공익광고예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 다룬 한국방송광고진흥공사 공익광고 계열. 새 채널. 등급 미분류(추정)."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "차별일까 차이일까"
+    url: https://www.youtube.com/watch?v=e07Wnxts41w
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "3:19"
+    use: 수업 중
+    basis_code: "[6도02-02]"
+    basis_lesson: "2차시 다름을 존중할 이유"
+    desc: "다른 점을 차별로 보아야 할 때와 차이로 받아들일 때를 구분해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "mo5251에서도 쓴 영상."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "다를까? 틀릴까?"
+    url: https://www.youtube.com/watch?v=hRjocQkE3UE
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "3:35"
+    use: 수업 중
+    basis_code: "[6도02-02]"
+    basis_lesson: "2차시 같은 것도 달리 보는 까닭"
+    desc: "나와 다른 것을 틀렸다고 말하는 것과 다르다고 말하는 것의 차이를 알아봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "mo5251에서도 쓴 영상. 오개념(다른 것=틀린 것)에 맞는 내용."
+  - cand_no: c08
+    stage: 확장하기
+    title: "다이아 프로젝트 — o 이야기"
+    url: https://www.youtube.com/watch?v=h9km7GDSX0o
+    channel: "경기문화재단"
+    channel_grade: public
+    duration: "6:14"
+    use: 수업 후
+    basis_code: "[6도02-02]"
+    basis_lesson: "4차시 다름을 섞어 함께 살기"
+    desc: "일상에서 만나는 이야기로 다양한 사람이 함께 살며 고민해 볼 거리를 던지는 문화다양성 교육 애니메이션이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "경기문화재단 제작 교육용 애니메이션(2021). 등급 미분류(추정)."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "여우와 두루미, 다름을 존중하기"
+    url: https://www.youtube.com/watch?v=jV-q0zFT1P0
+    channel: "구로구 상호문화"
+    channel_grade: public
+    duration: "3:56"
+    use: 수업 중
+    basis_code: "[6도02-02]"
+    basis_lesson: "2차시 다름을 존중할 이유"
+    desc: "서로 다른 여우와 두루미가 어떻게 친구가 될 수 있는지 다름을 존중하는 자세를 이야기해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "청소년용 상호문화 이해교육 1편(2021). 이솝 우화 활용. 등급 미분류(추정)."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "편견을 극복하면 모두의 꿈길이 넓어져요"
+    url: https://www.youtube.com/watch?v=6HzyN_TuBrg
+    channel: "경기도교육청TV"
+    channel_grade: edu
+    duration: "4:42"
+    use: 수업 중
+    basis_code: "[6도02-02]"
+    basis_lesson: "3차시 생활 속 편견"
+    desc: "편견을 넘어서면 모든 사람의 꿈길이 넓어진다는 것을 알려 주는 교육청 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "경기도교육청 제작(2023)."
+  - cand_no: c11
+    stage: 확장하기
+    title: "틀림이 아닌 다름 — 다름에 대한 이해와 존중"
+    url: https://www.youtube.com/watch?v=Y1eZ3GCHiNM
+    channel: "오산시가족센터"
+    channel_grade: public
+    duration: "3:05"
+    use: 수업 후
+    basis_code: "[6도02-02]"
+    basis_lesson: "4차시 다름을 섞어 함께 살기"
+    desc: "다문화 이해를 바탕으로 틀림이 아니라 다름임을 알려 주는 문화다양성 이해교육 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "오산시가족센터 홍보 겸 교육 영상(2025). 홍보 문구가 섞여 있을 수 있음. 등급 미분류(추정)."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "학교생활로 알아보는 올바른 양성평등 인식"
+    url: https://www.youtube.com/watch?v=VsZC_7Rdmas
+    channel: "부산광역시교육청"
+    channel_grade: edu
+    duration: "3:11"
+    use: 수업 중
+    basis_code: "[6도02-02]"
+    basis_lesson: "3차시 생활 속 편견"
+    desc: "학교생활 속 사례로 성별에 따른 고정관념에서 벗어나 존중하는 법을 알아봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "부산광역시교육청 제작(2020). 등급 미분류(추정)."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "편견과 고정관념 줄여가기"
+    url: https://www.youtube.com/watch?v=-iwIIy5YfQU
+    channel: "다문화가족지원포털다누리"
+    channel_grade: public
+    duration: "6:43"
+    use: 수업 중
+    basis_code: "[6도02-02]"
+    basis_lesson: "3차시 생활 속 편견"
+    desc: "편견과 고정관념이 어떻게 생기는지 알고 줄여 가는 방법을 안내해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016 제작이라 오래됨. 새 채널. 등급 미분류(추정)."
+  - cand_no: c14
+    stage: 탐구하기
+    title: "색안경을 끼고 보지 말아요"
+    url: https://www.youtube.com/watch?v=9CXIDGEtNao
+    channel: "다문화가족지원포털다누리"
+    channel_grade: public
+    duration: "4:17"
+    use: 수업 후
+    basis_code: "[6도02-02]"
+    basis_lesson: "3차시 생활 속 편견"
+    desc: "색안경을 끼고 사람을 보지 말자는 다문화 이해교육 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016 제작이라 오래됨, c13과 겹침. 등급 미분류(추정)."
+  - cand_no: c15
+    stage: 탐구하기
+    title: "상어 가족도 못 피한 편견"
+    url: https://www.youtube.com/watch?v=6AZ6C2ncETQ
+    channel: "MBCNEWS"
+    channel_grade: press
+    duration: "2:18"
+    use: 수업 후
+    basis_code: "[6도02-02]"
+    basis_lesson: "3차시 생활 속 편견"
+    desc: "어린이 애니메이션 속 성역할 고정관념을 지적한 보도예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "학부모 문제 제기를 다룬 2019 보도 — 한쪽 주장 위주인지 확인 필요."
+  - cand_no: c16
+    stage: 확장하기
+    title: "행복이라는 같은 이야기 — 다양한 가족"
+    url: https://www.youtube.com/watch?v=6HDwVX0lnVE
+    channel: "한국건강가정진흥원"
+    channel_grade: public
+    duration: "1:02"
+    use: 수업 후
+    basis_code: "[6도02-02]"
+    basis_lesson: "1차시 다양한 이웃"
+    desc: "다양한 모습의 가족들에게도 저마다 행복이라는 같은 이야기가 있음을 보여 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "다양한 가족 인식개선 캠페인(1분). 새 채널. 등급 미분류(추정)."
+  - cand_no: c17
+    stage: 확장하기
+    title: "어떤 하루 — 나다움을 찾다"
+    url: https://www.youtube.com/watch?v=fgj8vwVzmlE
+    channel: "경기도청"
+    channel_grade: public
+    duration: "5:19"
+    use: 수업 후
+    basis_code: "[6도02-02]"
+    basis_lesson: "3차시 생활 속 편견"
+    desc: "남자다움·여자다움 같은 고정관념에서 벗어나 나다움을 찾아가는 그림동화 원작 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "경기도 성평등 캠페인 영상(2025). 새 채널. 등급 미분류(추정)."
+  - cand_no: c18
+    stage: 생각열기
+    title: "다름의 존중이 세상을 넓게 만들어요"
+    url: https://www.youtube.com/watch?v=P0BRuiBGyUA
+    channel: "성평등가족부"
+    channel_grade: public
+    duration: "0:41"
+    use: 수업 전
+    basis_code: "[6도02-02]"
+    basis_lesson: "2차시 존중 주제 공익광고"
+    desc: "서로 다른 색이 만나 세상의 색을 만들듯 다름의 존중이 세상을 넓힌다는 짧은 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서 인용 기관(성평등가족부) 영상, 2021. 1분 미만. 등급 미분류(추정)."
+  - cand_no: c19
+    stage: 탐구하기
+    title: "나는 장애인이지만 내 일에 장애는 없습니다"
+    url: https://www.youtube.com/watch?v=SuVqUc6q9Tw
+    channel: "한국장애인고용공단"
+    channel_grade: public
+    duration: "0:41"
+    use: 수업 전
+    basis_code: "[6도02-02]"
+    basis_lesson: "3차시 능력에 대한 편견"
+    desc: "장애가 있어도 일을 잘할 수 있다며 능력에 대한 편견을 돌아보게 하는 공익광고예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서 인용 기관 영상(2019). 1분 미만. 등급 미분류(추정)."
+  - cand_no: c20
+    stage: 확장하기
+    title: "혐오와 차별을 넘어 저마다의 빛깔로"
+    url: https://www.youtube.com/watch?v=26ZzM1VFj6Y
+    channel: "국가인권위원회"
+    channel_grade: public
+    duration: "0:58"
+    use: 수업 후
+    basis_code: "[6도02-02]"
+    basis_lesson: "3차시 생활 속 편견"
+    desc: "혐오와 차별을 넘어 저마다의 빛깔을 존중하자는 인권위 캠페인 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서 인용 영상이나 1분 미만이고 c18·c19와 겹침."
+  - cand_no: c21
+    stage: 확장하기
+    title: "'갈등' 켈소의 선택"
+    url: https://www.youtube.com/watch?v=RP38hgy44ys
+    channel: "서울특별시교육청교육연구정보원"
+    channel_grade: edu
+    duration: "2:03"
+    use: 수업 후
+    basis_code: "[6도02-02]"
+    basis_lesson: "4차시 의견이 갈릴 때 합의 태도"
+    desc: "초등 친구 사이 갈등 상황에서 어떻게 선택할지 생각해 보는 북돋움 시리즈 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "설명란이 제목뿐이라 내용 확인 필요."
+  - cand_no: c22
+    stage: 확장하기
+    title: "네모 vs 동그라미"
+    url: https://www.youtube.com/watch?v=z6MEZyto3Vk
+    channel: "EBS 지식채널e"
+    channel_grade: edu
+    duration: "4:13"
+    use: 수업 후
+    basis_code: "[6도02-02]"
+    basis_lesson: "3차시 생활 속 편견"
+    desc: "서로 다른 모양을 가진 대상을 통해 다름과 편견을 생각해 보게 하는 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "설명란에 주제 설명이 없어 편견·다름 주제인지 확인 필요."
+  - cand_no: c23
+    stage: 확장하기
+    title: "세계 문화 다양성의 날 — 문화가 연결하는 외교"
+    url: https://www.youtube.com/watch?v=8t_a4zy7DQc
+    channel: "외교부 서포터스 모파랑TV"
+    channel_grade: public
+    duration: "4:00"
+    use: 수업 후
+    basis_code: "[6도02-02]"
+    basis_lesson: "1차시 함께 살아 좋은 점"
+    desc: "유네스코가 정한 세계 문화 다양성의 날과 문화로 이어지는 외교를 대학생 서포터즈가 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대학생 서포터즈 제작이라 눈높이 확인 필요. 새 채널. 등급 미분류(추정)."

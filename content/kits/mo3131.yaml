@@ -1,0 +1,116 @@
+id: mo3131
+title: 3. 함께하는 우리 가족
+grade: 3
+sem: 1학기
+subject: 도덕
+unit: 3단원
+unit_no: 3
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 가족은 서로 아끼고 돌보며 함께 사는 사람들이고, 가족마다 모습과 행복이 달라요. 부모님께 감사하는 효, 형제자매와 사이좋게 지내는 우애, 가족을 사랑하는 마음을 작은 행동으로 날마다 실천하면 우리 가족 모두가 행복해져요.
+  core_question: 우리 가족이 모두 행복하려면 나는 어떤 마음과 행동, 말을 실천할 수 있을까?
+  concepts:
+    - term: 가족
+      def: 서로 아끼고 돌보며 함께 생활하는 사람들이에요. 함께 사는 사람의 수나 모습은 집마다 달라도 모두 가족이에요.
+    - term: 효
+      def: 부모님과 어른께 감사하는 마음으로 정성껏 대하는 것이에요. 마음에서 우러나는 사랑과 존경이 바탕이 돼요.
+    - term: 우애
+      def: 형제자매가 서로 아끼고 사랑하며 사이좋게 지내는 마음이에요.
+    - term: 가훈
+      def: 한 집안의 가족이 함께 지키고 싶은 가르침을 짧은 말로 담은 것이에요.
+    - term: 감사
+      def: 나에게 도움이나 사랑을 준 사람에게 고마운 마음을 갖고 그 마음을 표현하는 것이에요.
+  standards:
+    - code: "[4도02-01]"
+      text: 효, 우애의 의미와 필요성을 명료하게 이해하고 가족의 행복을 위해 할 수 있는 일을 탐색하여 실천 계획을 세운다.
+stages:
+  - name: 생각열기
+    question: 가족의 모습과 행복은 집마다 어떻게 다를까?
+  - name: 탐구하기
+    question: 효와 우애는 어떤 마음과 행동일까?
+  - name: 확장하기
+    question: 가족을 사랑하는 마음을 어떻게 전하고 이어 갈까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 모습은 달라도 우리는 모두 가족
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=-xIPAKG0Chc
+    desc: 모습은 달라도 서로 아끼면 모두 가족이라는 것을 보여 주는 영상이에요.
+    channel: 국가인권위원회
+  - key: v2
+    stage: 생각열기
+    title: 행복이라는 같은 이야기
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=6HDwVX0lnVE
+    desc: 여러 모습의 가족이 저마다의 집에서 행복한 하루를 보내는 모습을 담았어요.
+    channel: 한국건강가정진흥원
+  - key: v3
+    stage: 생각열기
+    title: 모든 가족이 행복한 대구
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=igu-T8lZPCY
+    desc: 1인 가구, 맞벌이, 조손, 다문화 같은 여러 가족을 대구 가족센터가 돕는다고 소개해요.
+    channel: 대구TV┃대구광역시 공식 유튜브
+  - key: v4
+    stage: 탐구하기
+    title: 꽃적골 며느리의 효심
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=gIfba2o10AM
+    desc: 효심 깊은 며느리의 옛이야기를 동화로 만든 한국효문화진흥원 영상이에요.
+    channel: 한국효문화진흥원(HYO)
+  - key: v5
+    stage: 탐구하기
+    title: 식장산 효자효부 이야기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=bFN1D52GePc
+    desc: 가난했지만 부모를 정성껏 모신 식장산 효자와 효부의 옛이야기를 전해요.
+    channel: 한국효문화진흥원(HYO)
+  - key: v6
+    stage: 탐구하기
+    title: 우애 좋은 형제
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=GOWdrLyq31A
+    desc: "'우애 좋은 형제' 이야기를 함께 살펴보고 어린이들이 느낀 점을 나누는 영상이에요."
+    channel: EBS 키즈
+  - key: v7
+    stage: 확장하기
+    title: 세상에서 가장 쉬운 효
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=TOBVLctBFP4
+    desc: 부모님께 효도하는 일이 생각보다 어렵지 않다는 것을 인터뷰로 전하는 영상이에요.
+    channel: 문화체육관광부
+  - key: v8
+    stage: 확장하기
+    title: 동네 어르신도 어버이
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=3Ah5gR60ic8
+    desc: 이웃 어르신께 감사를 전하며 함께 어버이날을 보낸 이야기를 전해요.
+    channel: KBS뉴스 대구경북
+quiz:
+  - statement: 가족의 모습과 행복의 모양은 집마다 다를 수 있다.
+    answer: O
+    explain: 함께 사는 사람이나 행복을 느끼는 때가 집마다 달라도 모두 소중한 가족이에요.
+  - statement: 내가 행복한 일은 언제나 가족 모두가 행복한 일이다.
+    answer: X
+    explain: 가족마다 바라는 것이 달라요. 서로의 마음을 헤아려 모두가 행복한 방법을 찾아야 해요.
+  - statement: 효는 부모님께 감사하는 마음에서 우러나오는 사랑과 존경이다.
+    answer: O
+    explain: 효는 부모님의 사랑에 고마워하며 마음을 담아 정성껏 대하는 것이에요.
+  - statement: 효는 부모님 말씀에 무조건 따르는 것을 뜻한다.
+    answer: X
+    explain: 효는 시키는 대로만 하는 것이 아니에요. 부모님의 마음을 헤아려 필요한 일을 찾아 돕는 것도 효예요.
+  - statement: 형제자매와 다툼이 생겼을 때는 상대의 마음을 들어 주는 대화가 도움이 된다.
+    answer: O
+    explain: 서로 말을 끝까지 듣고 마음을 말하면 오해가 풀리고 우애를 지킬 수 있어요.
+  - statement: 효는 비싼 선물을 드리기만 하면 충분히 실천한 것이다.
+    answer: X
+    explain: 고마운 마음을 담은 말과 작은 행동으로도 효를 실천할 수 있어요.
+  - statement: 가훈은 한 가족이 함께 지키고 싶은 가르침을 담은 말이다.
+    answer: O
+    explain: 가훈을 정하고 가족이 함께 지키면 가족 사랑을 더 단단하게 가꿀 수 있어요.
+  - statement: 가족의 행복을 위해서는 한 사람이 늘 참고 희생하는 것이 당연하다.
+    answer: X
+    explain: 가족 모두가 서로 배려하고 각자 할 일을 나눠 해야 모두가 행복해져요.

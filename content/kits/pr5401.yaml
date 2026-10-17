@@ -1,0 +1,174 @@
+id: pr5401
+title: 동식물 자원·기르기
+grade: 5
+sem: 1학기
+subject: 실과
+unit: 지속가능한 기술과 융합
+unit_no: 4
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 동식물은 먹을거리, 옷감, 약, 친구가 되어 주는 일 등 여러 가지로 우리 생활에 도움을 줘요. 식물은 자라는 조건과 가꾸는 순서를 알고, 동물은 특성에 맞게 살 곳과 먹이를 갖추어 책임감 있게 돌보면 건강하게 자랄 수 있어요.
+  core_question: 동식물은 우리 생활에 어떤 도움을 주고, 식물을 가꾸고 동물을 기를 때는 어떤 순서와 마음가짐이 필요할까?
+  concepts:
+    - term: 동식물 자원
+      def: 사람이 먹거나 입거나 약으로 쓰는 것처럼 생활에 이용하는 동물과 식물이에요. 쓰임에 따라 식용, 약용, 관상용, 반려용 등으로 나눌 수 있어요.
+    - term: 생명 기술
+      def: 동물이나 식물 같은 생명체의 특성을 이용해 사람에게 도움이 되는 것을 만드는 기술이에요. 꺾꽂이처럼 간단한 것도 있고 새 품종을 만드는 것처럼 어려운 것도 있어요.
+    - term: 생체 모방
+      def: 동물이나 식물의 생김새와 기능을 본떠서 새로운 물건이나 기술을 만드는 것이에요. 연꽃잎이 물을 튕겨 내는 모습을 본뜬 소재가 한 예예요.
+    - term: 재배
+      def: 식물의 씨앗이나 모종을 심고 물과 거름을 주며 가꾸어 기르는 것이에요.
+    - term: 사육
+      def: 동물에게 먹이를 주고 살 곳을 마련해 주며 돌보아 기르는 것이에요.
+  standards:
+    - code: "[6실04-07]"
+      text: 생활 속 동식물 자원을 활용 목적에 따라 분류하고 이와 관련된 다양한 생명기술을 탐색한다.
+    - code: "[6실04-08]"
+      text: 생활 속 동식물을 기르고 가꾸는 방법을 알고, 동식물을 기르고 가꾸는 체험을 통해 생태 존중감을 가진다.
+stages:
+  - name: 생각열기
+    question: 동식물은 우리 생활에 어떤 도움을 줄까?
+  - name: 탐구하기
+    question: 식물을 가꾸고 동물을 기를 때는 어떤 순서와 방법으로 돌볼까?
+  - name: 확장하기
+    question: 동식물의 특징을 본뜬 기술과 생명 기술에는 어떤 것이 있을까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 우리와 함께하는 생물자원
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=O1o65RBMAkY
+    desc: 딸기 우유, 아이스크림, 립스틱 같은 물건 속에 생물자원이 들어 있다는 것을 퀴즈처럼 알려 줘요.
+    channel: 생물누리TV
+  - key: v2
+    stage: 생각열기
+    title: 생물자원 한 번에 이해하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=3nxysf9JmLQ
+    desc: 생물자원이 무엇인지와 먹을거리·약·화장품 등에 쓰이는 사례를 차근차근 설명해요.
+    channel: 국립생물자원관
+  - key: v3
+    stage: 생각열기
+    title: 우리는 왜 나무를 베는 걸까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=gmz840J4z34
+    desc: 나무가 그늘과 열매뿐 아니라 집과 가구의 재료가 되어 준다는 이야기를 그림책으로 들려줘요.
+    channel: 대한민국 산림청
+  - key: v4
+    stage: 탐구하기
+    title: 학교 텃밭 만들기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=R5WHtiStw1Y
+    desc: 학교 텃밭을 어디에 어떻게 만드는지 순서대로 보여 줘요.
+    channel: 농촌진흥청 국립원예특작과학원
+  - key: v5
+    stage: 탐구하기
+    title: 학교 텃밭 재배하기 - 식물 심기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Iznkoed6C1E
+    desc: 씨앗과 모종을 심는 방법을 순서대로 보여 줘요.
+    channel: 농촌진흥청 국립원예특작과학원
+  - key: v6
+    stage: 탐구하기
+    title: 학교 텃밭 재배하기 - 관리하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dcOvXeEmOHQ
+    desc: 물 주기, 잡초 뽑기 같은 식물 돌보기를 알려 줘요.
+    channel: 농촌진흥청 국립원예특작과학원
+  - key: v7
+    stage: 탐구하기
+    title: 학교 텃밭 가꾸기 1편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=0I6p_cHqI9o
+    desc: 채소의 종류와 학교 텃밭에서 직접 기르는 방법을 대구 선생님들이 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v8
+    stage: 탐구하기
+    title: 교실로 들어온 반려동물
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=JBWTsmm2194
+    desc: 학교 교실에서 학생들이 동물과 함께 지내며 생명을 배우는 모습을 전해요.
+    channel: 대구MBC뉴스
+  - key: v9
+    stage: 탐구하기
+    title: 반려동물과 잘 지내는 방법
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=C698WzCW8-c
+    desc: 반려동물을 대할 때 지켜야 할 마음가짐과 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v10
+    stage: 탐구하기
+    title: 반려동물 에티켓
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=cESwvGZX5Hs
+    desc: 반려동물과 함께 지낼 때 이웃과 공공장소에서 지켜야 할 예절을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v11
+    stage: 탐구하기
+    title: 모두가 함께 지켜요! 반려동물 펫티켓
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-xxBdO36Xbc
+    desc: 반려견과 외출할 때 지켜야 할 기본 수칙을 정부가 알려 줘요.
+    channel: 화면해설 대한민국정부
+  - key: v12
+    stage: 탐구하기
+    title: 누에 한살이
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=MvAFkFZ6LoE
+    desc: 누에가 알에서 고치가 되기까지 자라는 모습을 순서대로 보여 줘요.
+    channel: 경상북도 잠사곤충사업장
+  - key: v13
+    stage: 확장하기
+    title: 동물매개 생명존중교육 현장
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=VFhTPlQIxr4
+    desc: 학교에서 강아지와 함께하며 생명의 소중함을 배우는 수업 모습을 전해요.
+    channel: 경기교육정책
+  - key: v14
+    stage: 확장하기
+    title: 자연을 닮은 기술 - 동물편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=fhRrdUp0Bd0
+    desc: 동물의 모양과 기능을 본떠 만든 물건들을 소개해요.
+    channel: 생물누리TV
+  - key: v15
+    stage: 확장하기
+    title: 자연이 가진 기능을 모방한 생체모방기술
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=xezzeDYUAsk
+    desc: 오랜 세월 살아남은 동식물의 능력을 본떠 만든 기술을 보여 줘요.
+    channel: YTN 사이언스
+  - key: v16
+    stage: 확장하기
+    title: 동물 생명의 신비 연구 현장 체험
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=K55D75vceos
+    desc: 초등학생들이 연구소에서 DNA와 세포를 관찰해 보는 모습을 보여 줘요.
+    channel: 국립축산과학원
+quiz:
+  - statement: 동식물은 먹을거리뿐 아니라 옷감이나 약의 재료로도 쓰인다.
+    answer: O
+    explain: 동식물은 먹을거리, 옷감, 약, 친구 등 여러 가지로 우리 생활에 도움을 줘요.
+  - statement: 한 가지 동식물은 쓰임이 한 가지뿐이다.
+    answer: X
+    explain: 같은 동식물도 먹을거리, 재료, 관상용처럼 여러 가지로 쓰일 수 있어요.
+  - statement: 식물이 잘 자라려면 알맞은 빛, 물, 온도 같은 조건이 필요하다.
+    answer: O
+    explain: 식물마다 자라기 좋은 조건이 있어서 그에 맞게 돌봐야 해요.
+  - statement: 모종삽처럼 끝이 뾰족한 도구는 날 쪽을 몸에서 멀리 두고 쓴다.
+    answer: O
+    explain: 뾰족한 도구는 날 쪽을 몸에서 멀리 두고 장갑을 끼고 써야 다치지 않아요.
+  - statement: 생명 기술은 식물에만 쓰이고 동물에는 쓰이지 않는다.
+    answer: X
+    explain: 생명 기술은 식물과 동물 모두에 쓰여요. 꺾꽂이는 식물에, 새 품종을 기르는 일은 동물에도 쓰여요.
+  - statement: 동물은 종류가 달라도 기르는 방법이 모두 같다.
+    answer: X
+    explain: 동물마다 필요한 먹이와 살 곳, 돌보는 방법이 달라서 기를 동물의 특성을 먼저 알아봐야 해요.
+  - statement: 동식물의 생김새를 본떠 새로운 물건을 만드는 것을 생체 모방이라고 한다.
+    answer: O
+    explain: 생체 모방은 동식물의 모양과 기능을 본떠 물건이나 기술을 만드는 것이에요.
+  - statement: 동물은 귀여울 때만 돌보면 되고 자란 뒤에는 돌보지 않아도 된다.
+    answer: X
+    explain: 동물은 먹이를 챙기고 깨끗하게 해 주고 건강을 살피며 끝까지 책임지고 돌봐야 해요.

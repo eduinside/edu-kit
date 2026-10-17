@@ -1,0 +1,175 @@
+id: pr6401
+title: 로봇
+grade: 6
+sem: 2학기
+subject: 실과
+unit: 지속가능한 기술과 융합
+unit_no: 4
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 로봇은 센서로 주변을 알아차리고, 제어 장치가 판단하고, 구동 장치로 움직여 일을 하는 기계예요. 로봇의 종류와 쓰임을 살펴보고 인공지능 같은 다른 기술이 합쳐진 융합 기술의 가치를 알아봐요.
+  core_question: 로봇은 어떤 장치로 이루어져 어떻게 일하고, 다른 기술과 합쳐지면 무엇이 달라질까?
+  concepts:
+    - term: 로봇
+      def: 사람을 대신하거나 도와서 일하도록 만든 기계예요. 센서로 주변을 알아차리고 판단해서 움직이면 사람처럼 생기지 않아도 로봇이에요.
+    - term: 센서
+      def: 빛, 소리, 거리, 온도 같은 주변 정보를 알아내서 로봇에 알려 주는 장치예요. 사람의 눈이나 귀 같은 감각 기관과 비슷해요.
+    - term: 제어 장치
+      def: 센서가 알려 준 정보를 받아 판단하고 로봇이 어떻게 움직일지 명령을 내리는 장치예요. 사람의 두뇌와 비슷해요.
+    - term: 구동 장치
+      def: 로봇을 움직이게 하는 장치예요. 제어 장치의 명령에 따라 바퀴나 팔다리를 움직이는 모터 같은 것이 여기에 들어가고, 사람의 근육과 비슷해요.
+    - term: 융합 기술
+      def: 서로 다른 기술을 하나로 합쳐서 더 큰 가치를 만드는 기술이에요. 로봇에 인공지능과 정보 통신 기술을 더하는 것이 그 예예요.
+  standards:
+    - code: "[6실04-04]"
+      text: 로봇의 개념과 구조를 이해하고, 생활 속 로봇 기능을 체험하여 로봇의 중요성을 인식한다.
+    - code: "[6실04-05]"
+      text: 로봇의 종류와 활용 사례를 통해 작동 원리를 이해하고, 로봇에 대한 관심과 흥미를 가진다.
+    - code: "[6실04-06]"
+      text: 로봇의 융합 기술을 이해하고, 간단한 로봇을 만들어 코딩과 프로그램을 적용하여 동작시키는 체험을 통해 융합 기술의 가치를 인식하다.
+stages:
+  - 로봇
+  - 센서
+  - 제어 장치
+  - 구동 장치
+  - 융합 기술
+items:
+  - key: v1
+    stage: 로봇
+    title: 로봇의 탄생과 발전
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=xFaaFrIJfl0
+    desc: 로봇이라는 말의 뜻과 지금까지 로봇이 어떻게 발전해 왔는지 전시품과 함께 설명해요.
+    channel: 국립대구과학관 Scientry
+  - key: v2
+    stage: 로봇
+    title: 삶을 편리하게 하는 로봇의 역사
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1AcJyHEOGbA
+    desc: 로봇이라는 말이 어디서 왔고 첫 산업용 로봇부터 오늘날 로봇까지 어떻게 이어졌는지 알려 줘요.
+    channel: YTN 사이언스
+  - key: v3
+    stage: 로봇
+    title: 출근하는 직장인 로봇 브이로그
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=puhH-Rn306k
+    desc: 어린이과학관 로봇쇼에 나오는 로봇 볼트의 하루를 따라가 보는 영상이에요.
+    channel: 국립어린이과학관
+  - key: v4
+    stage: 로봇
+    title: 창의나래관에 로봇이 살아 있다
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=6RSicz474Xw
+    desc: 내 마음대로 움직이는 손이 하나 더 있다면 어떨지 로봇 체험 전시를 보여 줘요.
+    channel: 국립중앙과학관
+  - key: v5
+    stage: 센서
+    title: 여러 가지 센서들에 대해 알아보아요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=XpaosfMUIPQ
+    desc: 주변 정보를 알아내는 여러 가지 센서를 소개하는 영상이에요.
+    channel: NAEK한국공학한림원
+  - key: v6
+    stage: 센서
+    title: 혼자 움직이는 로봇 청소기의 속사정
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Q-hY7_wl-6Q
+    desc: 센서와 모터를 달고 혼자 움직이는 로봇 청소기를 분해해 안을 살펴봐요.
+    channel: YTN 사이언스
+  - key: v7
+    stage: 제어 장치
+    title: 로봇을 움직이는 수학 원리
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=CCzo3vsg5Fg
+    desc: 로봇 청소기가 카메라로 집 안 지도를 만들고 자기 위치를 알아내는 데 계산이 쓰인다는 것을 알려 줘요.
+    channel: YTN 사이언스
+  - key: v8
+    stage: 제어 장치
+    title: 로봇은 어떻게 안 넘어지는 걸까
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=NzgzYEnhJQ8
+    desc: 휴머노이드 로봇이 충격을 받아도 균형을 잡는 원리를 알려 줘요.
+    channel: 국가과학기술연구회(nst)
+  - key: v9
+    stage: 제어 장치
+    title: 로봇 탐구 생활 2화 - 구조편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_4XIpv0S_ts
+    desc: 로봇 본체와 뇌에 해당하는 제어기, 제어 기술까지 로봇의 구성과 원리를 차례로 설명해요.
+    channel: HD현대로보틱스
+  - key: v10
+    stage: 구동 장치
+    title: 내 손으로 움직이는 로봇팔
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=fx2FxMxxYcY
+    desc: 사람의 팔과 비슷하면서도 다른 로봇팔을 움직여 보며 움직임의 원리를 체험해요.
+    channel: 국립부산과학관
+  - key: v11
+    stage: 구동 장치
+    title: 로봇을 입으면 힘센 장사가 된다고요?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=j-Cl6wCAgE8
+    desc: 입는 것만으로 힘을 더 쓰게 해 주는 웨어러블 로봇 옷감을 애니메이션으로 소개해요.
+    channel: 대전과학문화거점센터
+  - key: v12
+    stage: 융합 기술
+    title: 인공지능과 로봇, 인간의 외로움을 해소하다
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ZpnwjXrdsrc
+    desc: 인공지능과 로봇이 합쳐져 사람 곁에서 외로움을 덜어 주는 모습을 소개해요.
+    channel: KISTI의 과학향기
+  - key: v13
+    stage: 융합 기술
+    title: KIST 비대면 방역 배송 로봇
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=NSoU-1AbcJA
+    desc: 병원에서 사람 대신 물건을 나르고 방역까지 하는 로봇을 실제로 써 본 소식이에요.
+    channel: 한국과학기술연구원KIST
+  - key: v14
+    stage: 융합 기술
+    title: 농업용 로봇 진화 - 수확부터 수정까지
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=XOpK9IuuK9I
+    desc: 딸기 수확, 꽃가루 수정, 병해충 살펴보기까지 하는 농업용 로봇을 소개한 뉴스예요.
+    channel: 대구MBC뉴스
+  - key: v15
+    stage: 융합 기술
+    title: AI 로봇 수도 대구, 휴머노이드 선점 총력
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=dF-ay8mWMGM
+    desc: 대구가 로봇 산업의 중심이 되려고 준비하는 모습을 지역 뉴스로 전해요.
+    channel: TBC뉴스
+  - key: v16
+    stage: 융합 기술
+    title: 미래의 로봇은 어떤 모습일까
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=zdJPfIzy6R4
+    desc: 로봇이 앞으로 도구, 자동화, 사람과의 협력, 공간 확장의 역할을 하게 될 모습을 소개해요.
+    channel: YTN 사이언스
+quiz:
+  - statement: 로봇은 센서가 알아낸 정보를 제어 장치가 판단하고 구동 장치가 움직이는 순서로 일한다.
+    answer: O
+    explain: 로봇은 감지하고 판단하고 움직이는 세 단계로 일해요.
+  - statement: 사람처럼 생긴 기계만 로봇이라고 부른다.
+    answer: X
+    explain: 청소기나 배달차처럼 생겨도 감지하고 판단하고 움직이면 로봇이에요.
+  - statement: 센서는 로봇이 주변의 빛이나 소리, 거리를 알아내는 눈과 귀 같은 장치다.
+    answer: O
+    explain: 센서는 주변 정보를 알아내서 제어 장치에 전해 줘요.
+  - statement: 구동 장치는 로봇에서 사람의 두뇌처럼 판단을 맡는 장치다.
+    answer: X
+    explain: 판단은 제어 장치가 맡고, 구동 장치는 근육처럼 로봇을 움직이게 해요.
+  - statement: 로봇 청소기는 센서로 장애물을 알아채고 방향을 바꾸며 청소한다.
+    answer: O
+    explain: 센서가 장애물을 알려 주면 제어 장치가 판단해 바퀴를 움직여 피해 가요.
+  - statement: 로봇은 튼튼한 몸체만 만들면 프로그램 없이도 목적에 맞게 일할 수 있다.
+    answer: X
+    explain: 어떻게 움직일지 정해 주는 프로그램이 있어야 목적에 맞게 일할 수 있어요.
+  - statement: 로봇에 인공지능을 더해 쓰는 것은 융합 기술의 한 예이다.
+    answer: O
+    explain: 원래 따로 있던 기술을 합치면 로봇이 더 많은 일을 할 수 있어요.
+  - statement: 융합 기술은 이전에 없던 기술을 처음부터 따로 새로 만든 것이다.
+    answer: X
+    explain: 융합 기술은 이미 있던 여러 기술을 합쳐 더 큰 가치를 만드는 기술이에요.

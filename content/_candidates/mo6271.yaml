@@ -1,0 +1,376 @@
+# mo6271 후보 기록 — 도덕 6학년 2학기 7단원 「우리 모두의 미래를 위한 선택」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo6271 --dry
+# 2026-10-17 수집(야간 위임). 재생·임베드·연령·국내·길이는 YouTube Data API(ytcheck)로 후보 전부 정상 확인. 영상 본문은 제목·설명·채널 성격 기준으로 판단했고 전부 시청한 것은 아님.
+# 지도서가 영상을 직접 인용하지 않은 단원이라 공공기관(기후에너지환경부·국가환경교육센터·기상청) 영상과 대구 지역 환경 실천 뉴스 중심. 소송·시위 등 정치적 색채가 있는 영상은 제외했다.
+# 새 채널(channels.yaml에 없음): 세종시교육청 · 대구녹색학습원 공식채널(edu 추정) — 채택 시 운영자에게 등급 질문.
+kit:
+  id: mo6271
+  title: "7. 우리 모두의 미래를 위한 선택"
+  grade: 6
+  sem: 2학기
+  subject: 도덕
+  unit: 7단원
+  unit_no: 7
+  flow: activity
+  codes: ["[6도04-02]"]
+  core_idea: "지속가능한 삶은 지금의 편리함만 보지 않고 다음 세대도 살아갈 수 있도록 환경·경제·사회가 함께 발전하게 선택하는 거예요. 지금 세대에게는 미래 세대의 권리를 지킬 책임이 있고, 작은 실천이 모여 변화를 만들어요."
+  core_question: "지금의 편리함과 미래 세대의 권리 사이에서 우리는 어떤 선택을 해야 할까?"
+  stages:
+    - name: 생각열기
+      question: "지속가능한 삶이란 어떤 삶일까?"
+    - name: 탐구하기
+      question: "지금 세대는 미래 세대에게 어떤 책임이 있을까?"
+    - name: 확장하기
+      question: "미래 세대를 위해 오늘 내가 할 수 있는 실천은 무엇일까?"
+  concepts:
+    - "지속가능한 발전"
+    - "미래 세대"
+    - "지속가능발전목표"
+    - "기후 위기"
+    - "탄소 중립"
+    - "책임"
+  source_notes: "정리본 도덕6.국정.u7(1차시 환경 문제 사진과 블록 무너뜨리기 비유로 보는 지속가능한 삶 → 2차시 지금 세대의 책임과 미래 세대의 권리 → 3차시 미래 세대를 지킬 일 셋을 골라 삼각책에 담고 한 주 실천 → 4차시 지금의 편리함과 다음 세대 권리 견주기·공유 목초지 우화) · 오개념: 기후 위기는 옛사람이 만든 일이라 내 책임이 아님, 미래 세대에게는 권리가 없음, 지속가능발전은 자연 보호만임, 책임은 지금의 희생만 강요 · cautions: 어두운 전망에 머물지 말고 노력으로 이끌기, 실천 항목은 학생이 스스로 정하고 지역 여건에 맞게, 한 주 실제 실천으로 이어지게 · 지도서 원문에 영상 인용이 없어 지속가능발전포털·환경부 등 공공 영상과 대구 학생 환경 실천 지역 뉴스로 모았다. 정부를 상대로 한 기후 소송 보도는 관점이 갈릴 수 있어 채택하지 않았다."
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "국가 지속가능발전목표(K-SDGs)"
+    url: https://www.youtube.com/watch?v=GJZXJaZx0WQ
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "3:13"
+    use: 수업 중
+    basis_code: "[6도04-02]"
+    basis_lesson: "1차시 지속가능한 삶의 뜻"
+    desc: "환경, 경제, 사회가 함께 발전해야 한다는 국가 지속가능발전목표가 무엇인지 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2018 제작. 지도서 인용 기관(지속가능발전포털·환경부)과 같은 계열."
+  - cand_no: c02
+    stage: 생각열기
+    title: "지속가능발전교육(ESD)이란"
+    url: https://www.youtube.com/watch?v=B7P3ojRQI8Y
+    channel: "유네스코한국위원회 - KNCU"
+    channel_grade: public
+    duration: "2:59"
+    use: 수업 중
+    basis_code: "[6도04-02]"
+    basis_lesson: "1차시 지속가능한 삶의 뜻"
+    desc: "지속가능발전, 지속가능발전목표, 이를 배우는 교육의 개념을 쉽게 풀어 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 제작."
+  - cand_no: c03
+    stage: 생각열기
+    title: "전 세계가 함께하는 지속가능발전목표"
+    url: https://www.youtube.com/watch?v=A_u3w4Lt3gQ
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "2:59"
+    use: 수업 중
+    basis_code: "[6도04-02]"
+    basis_lesson: "1차시 지속가능한 삶의 뜻"
+    desc: "인류의 지속가능한 발전을 위해 유엔이 채택한 목표를 함께 실천하자는 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2019 제작, c01과 겹침."
+  - cand_no: c04
+    stage: 생각열기
+    title: "펭수가 알려주는 잘 먹고 잘 사는 법 — K-SDGs"
+    url: https://www.youtube.com/watch?v=b_g8uI3svDw
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "1:42"
+    use: 수업 전
+    basis_code: "[6도04-02]"
+    basis_lesson: "1차시 지속가능한 삶의 뜻"
+    desc: "펭수와 범이가 사람·번영·환경·평화를 지키며 함께 잘 사는 법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "환경부 캐릭터 영상(2021). 노래 느낌이 조금 있으나 캐릭터 설명 중심."
+  - cand_no: c05
+    stage: 생각열기
+    title: "지구를 구하는 ESD 실천 캠페인 1편 — ESD란 무엇인가요?"
+    url: https://www.youtube.com/watch?v=2f33pTcfiQY
+    channel: "세종시교육청"
+    channel_grade: edu
+    duration: "1:07"
+    use: 수업 전
+    basis_code: "[6도04-02]"
+    basis_lesson: "1차시 지속가능한 삶의 뜻"
+    desc: "지속가능발전교육이 무엇인지 짧게 소개하고 실천 행동으로 이어지게 하는 교육청 캠페인 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "세종시교육청 제작(2023). 새 채널. 등급 미분류(추정)."
+  - cand_no: c06
+    stage: 생각열기
+    title: "달콤기후 만들기 — 기상청×브레드이발소"
+    url: https://www.youtube.com/watch?v=YJ-zO_Zplqs
+    channel: "대한민국 기상청"
+    channel_grade: public
+    duration: "2:52"
+    use: 수업 전
+    basis_code: "[6도04-02]"
+    basis_lesson: "1차시 환경 문제"
+    desc: "베이커리타운이 점점 더워지는 까닭을 찾고 탄소 배출을 줄이는 노력을 알아보는 애니메이션이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "기상청 공식 채널(2023)."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "빌려 쓴 걸 망가뜨려서 돌려주진 않잖아요 — 미래세대, 미래를 말하다"
+    url: https://www.youtube.com/watch?v=FXrsw2vQPuU
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "3:19"
+    use: 수업 중
+    basis_code: "[6도04-02]"
+    basis_lesson: "2차시 미래 세대에 대한 책임"
+    desc: "먼 미래에 온전한 지구를 돌려주기 위해 일상의 작은 것부터 바꿔 가자는 환경부 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "환경부 캠페인(2020). 미래 세대에 대한 책임 주제와 맞음."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "기후 위기 시대, 미래세대 환경 교육 강화"
+    url: https://www.youtube.com/watch?v=J4Hg7NEaiWM
+    channel: "KBS뉴스 대구경북"
+    channel_grade: press
+    local: 대구
+    duration: "1:56"
+    use: 수업 중
+    basis_code: "[6도04-02]"
+    basis_lesson: "2차시 미래 세대에 대한 책임"
+    desc: "대구 초등학생들이 곤충 체험과 기후 위기 수업으로 생활 속 환경 실천을 배우는 모습을 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구 사례(2022)."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "어린이 기후소송 — '미래 삶의 터전 사라져'"
+    url: https://www.youtube.com/watch?v=u4pDngE9KlM
+    channel: "EBS뉴스"
+    channel_grade: edu
+    duration: "2:49"
+    use: 수업 중
+    basis_code: "[6도04-02]"
+    basis_lesson: "2차시 미래 세대의 권리"
+    desc: "어린이들이 기후 위기로 미래 삶의 터전이 사라진다며 소송에 나선 이유를 전해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "정부를 상대로 한 소송 보도라 관점이 한쪽으로 치우치는지 확인 필요(2022)."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "눈앞의 이기심과 싸우는 '미래세대의 권리'"
+    url: https://www.youtube.com/watch?v=8cutw3wvF1k
+    channel: "EBS뉴스"
+    channel_grade: edu
+    duration: "2:22"
+    use: 수업 중
+    basis_code: "[6도04-02]"
+    basis_lesson: "2차시 미래 세대의 권리"
+    desc: "청년과 어린이들이 미래 세대의 권리를 위해 기후 소송에 나선 해외 사례를 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "정부 대응 실패를 진단하는 청년 소송 중심이라 한쪽 주장 위주(2021)."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "그린벨 환경교육 영상 — 기후위기편"
+    url: https://www.youtube.com/watch?v=L7WY7Nm0WjA
+    channel: "대구녹색학습원 공식채널"
+    channel_grade: edu
+    local: 대구
+    duration: "4:36"
+    use: 수업 중
+    basis_code: "[6도04-02]"
+    basis_lesson: "1차시 환경 문제와 지속가능한 삶"
+    desc: "대구녹색학습원이 환경교육용으로 만든 기후 위기 영상 자료예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구 기관 영상(2021). 설명란이 짧아 눈높이 확인 권장. 새 채널. 등급 미분류(추정)."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "공유지의 비극"
+    url: https://www.youtube.com/watch?v=0_RBRFv3fDk
+    channel: "EBSi"
+    channel_grade: edu
+    duration: "5:40"
+    use: 배경지식
+    basis_code: "[6도04-02]"
+    basis_lesson: "4차시 공유 목초지 우화"
+    desc: "모두가 함께 쓰는 자원을 각자 욕심껏 쓰면 어떻게 되는지 쉬운 사례로 설명해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "고교 시사 교양 프로그램(2022)이라 학생용이 아닌 교사용 배경지식."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "탄소이야기 1 — 누가 지구를 뜨겁게 만들었나?"
+    url: https://www.youtube.com/watch?v=Af2an3IuNHw
+    channel: "EBSCulture (EBS 교양)"
+    channel_grade: edu
+    duration: "4:53"
+    use: 수업 중
+    basis_code: "[6도04-02]"
+    basis_lesson: "1차시 환경 문제와 지속가능한 삶"
+    desc: "탄소중립이 무엇이고 지구가 뜨거워진 까닭이 무엇인지 한 번에 정리해 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지식채널e(2021)."
+  - cand_no: c14
+    stage: 탐구하기
+    title: "내일을 지킬 수 있는 우리들의 소비"
+    url: https://www.youtube.com/watch?v=jyjMyS1-API
+    channel: "국가환경교육센터"
+    channel_grade: public
+    duration: "1:57"
+    use: 수업 중
+    basis_code: "[6도04-02]"
+    basis_lesson: "4차시 편리함과 다음 세대의 권리"
+    desc: "'아무것도 사지 않는 날'을 통해 올바른 소비와 지구를 지키는 선택을 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "국가환경교육센터(2022)."
+  - cand_no: c15
+    stage: 확장하기
+    title: "탄소중립! 내가 먼저 실천해요"
+    url: https://www.youtube.com/watch?v=cLYg_M5jo00
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "2:13"
+    use: 수업 후
+    basis_code: "[6도04-02]"
+    basis_lesson: "3차시 미래 세대를 지킬 실천"
+    desc: "탄소중립이 무엇인지 알고 우리가 먼저 실천할 수 있는 일을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "환경부(2022)."
+  - cand_no: c16
+    stage: 확장하기
+    title: "지구 탐험대와 함께하는 탄소중립 훈련"
+    url: https://www.youtube.com/watch?v=xi5o3TIu1Ik
+    channel: "경기도환경교육센터"
+    channel_grade: public
+    duration: "5:18"
+    use: 수업 후
+    basis_code: "[6도04-02]"
+    basis_lesson: "3차시 미래 세대를 지킬 실천"
+    desc: "초등학생이 지구 탐험대가 되어 탄소중립 실천을 훈련하는 이러닝 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "이러닝 콘텐츠를 유튜브에 공개한 것(2026), c15와 겹침."
+  - cand_no: c17
+    stage: 확장하기
+    title: "일상에서 할 수 있는 일회용품 줄이기"
+    url: https://www.youtube.com/watch?v=PurCvlOpgGE
+    channel: "ch B tv 대구"
+    channel_grade: press
+    local: 대구
+    duration: "2:29"
+    use: 수업 후
+    basis_code: "[6도04-02]"
+    basis_lesson: "3차시 미래 세대를 지킬 실천"
+    desc: "대구에서 식당과 사무실이 일회용품을 줄이려고 하는 작은 실천을 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구 지역 언론(2021)."
+  - cand_no: c18
+    stage: 확장하기
+    title: "다회용기로 환경 지키는 소셜픽션협동조합"
+    url: https://www.youtube.com/watch?v=WkAJ0idh_BU
+    channel: "KBS뉴스 대구경북"
+    channel_grade: press
+    local: 대구
+    duration: "4:49"
+    use: 수업 후
+    basis_code: "[6도04-02]"
+    basis_lesson: "3차시 미래 세대를 지킬 실천"
+    desc: "축제와 행사에서 다회용기를 빌려주고 거두어 씻어 쓰는 대구의 사회적경제기업 이야기예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구경북 지역 언론(2025)."
+  - cand_no: c19
+    stage: 확장하기
+    title: "탄소중립 '지금 우리는' — 자전거로 실천하는 학교"
+    url: https://www.youtube.com/watch?v=_hJm9C28hXA
+    channel: "ch B tv 대구"
+    channel_grade: press
+    local: 대구
+    duration: "3:36"
+    use: 수업 후
+    basis_code: "[6도04-02]"
+    basis_lesson: "3차시 미래 세대를 지킬 실천"
+    desc: "대구진월초 5·6학년이 자전거를 타고 쓰레기를 주우며 탄소중립을 실천하는 모습을 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구 학생 실천 사례(2022)."
+  - cand_no: c20
+    stage: 확장하기
+    title: "1회용품 줄이기 — 푸른 지구를 지키는 진정한 멋"
+    url: https://www.youtube.com/watch?v=nQEebe9EqLo
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "2:20"
+    use: 수업 후
+    basis_code: "[6도04-02]"
+    basis_lesson: "3차시 미래 세대를 지킬 실천"
+    desc: "일상에서 1회용품을 줄이는 작은 실천을 해 보자는 환경부 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c17·c18과 겹침(2023)."
+  - cand_no: c21
+    stage: 확장하기
+    title: "탄소중립 '지금 우리는' — 식물 알아가기"
+    url: https://www.youtube.com/watch?v=vxSdz5x3U7w
+    channel: "ch B tv 대구"
+    channel_grade: press
+    local: 대구
+    duration: "3:38"
+    use: 수업 후
+    basis_code: "[6도04-02]"
+    basis_lesson: "3차시 미래 세대를 지킬 실천"
+    desc: "대구 용계초등학교 학생들이 학교의 보호수와 식물을 알아가는 모습을 전해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "주제가 식물 탐구에 치우쳐 단원과 거리가 있음."
+  - cand_no: c22
+    stage: 확장하기
+    title: "생활 속 탄소 배출 줄이려면"
+    url: https://www.youtube.com/watch?v=i4B_R-27qBM
+    channel: "KBS News"
+    channel_grade: press
+    duration: "2:29"
+    use: 수업 후
+    basis_code: "[6도04-02]"
+    basis_lesson: "3차시 미래 세대를 지킬 실천"
+    desc: "에너지를 아끼고 쓰레기를 줄이는 등 개인이 탄소를 줄이는 방법을 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 보도, c15와 겹침."
+  - cand_no: c23
+    stage: 확장하기
+    title: "지구의 위기, 지구 온난화! — 호기심딱지"
+    url: https://www.youtube.com/watch?v=BmadYeBpmDY
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "12:50"
+    use: 수업 후
+    basis_code: "[6도04-02]"
+    basis_lesson: "1차시 환경 문제"
+    desc: "북극에 찾아온 위기를 통해 지구 온난화를 알아보는 어린이 애니메이션이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "12분 50초라 구간 필요, 어린이 저학년용일 수 있음(2021)."
+  - cand_no: c24
+    stage: 탐구하기
+    title: "기후위기에 행동하는 청소년들"
+    url: https://www.youtube.com/watch?v=5gdFJDoHx8k
+    channel: "KBS News"
+    channel_grade: press
+    duration: "1:44"
+    use: 수업 후
+    basis_code: "[6도04-02]"
+    basis_lesson: "2차시 미래 세대의 권리"
+    desc: "헌법소원에 나서거나 채식을 실천하는 청소년들의 모습을 전해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "정부 상대 헌법소원 등 관점이 갈릴 수 있는 사안(2021)."

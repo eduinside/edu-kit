@@ -1,0 +1,116 @@
+id: pr5103
+title: 옷 입기·옷 수선
+grade: 5
+sem: 1학기
+subject: 실과
+unit: 인간 발달과 주도적 삶
+unit_no: 1
+flow: flow
+sort_order: 3
+published: true
+intro:
+  core_idea: 옷은 몸을 지키고 나를 드러내는 일을 해서, 때와 장소와 상황에 맞게 건강하고 안전하게 입어야 해요. 옷을 잘 관리하고 손바느질로 고쳐 입으면 오래 입을 수 있고 환경에도 도움이 돼요.
+  core_question: 때와 장소에 맞는 건강한 옷차림을 고르고, 옷을 스스로 관리하고 고쳐 입으려면 어떻게 해야 할까?
+  concepts:
+    - term: 옷의 기능
+      def: 옷이 하는 일이에요. 추위와 더위, 다치는 것에서 몸을 지키고, 나를 드러내고 예의를 갖추는 일도 해요.
+    - term: 옷차림
+      def: 때와 장소와 상황에 맞게 옷을 골라 입은 모습이에요. 자라는 몸, 안전, 위생, 예절을 함께 따져 봐요.
+    - term: 옷 관리
+      def: 입은 옷을 깨끗이 하고 종류와 계절별로 개거나 걸어서 정리해 두는 일이에요. 옷 관리를 잘하면 옷을 오래 입을 수 있어요.
+    - term: 손바느질
+      def: 바늘과 실로 직접 꿰매는 방법이에요. 매듭을 짓고 홈질, 박음질 같은 바느질로 옷을 만들거나 고쳐요.
+    - term: 수선
+      def: 해지거나 뜯어지거나 단추가 떨어진 옷을 고치는 일이에요. 바느질뿐 아니라 수선 테이프나 와펜을 붙이는 방법도 있어요.
+  standards:
+    - code: "[6실01-05]"
+      text: 옷의 기능을 이해하여 평소 자신의 옷차림을 살펴보고 건강하고 적절한 옷 입기를 실천한다.
+    - code: "[6실02-09]"
+      text: 간단한 옷의 수선 등 의생활과 관련된 문제를 스스로 해결하려는 태도를 가진다.
+stages:
+  - 옷차림
+  - 옷 관리
+  - 손바느질
+  - 옷 수선
+items:
+  - key: v1
+    stage: 옷차림
+    title: 옷의 기능
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Ynio6jNuL7o
+    desc: 옷이 몸을 보호하고 나를 표현하는 일을 한다는 것을 짧게 알려 줘요.
+    channel: 아꿈선 초등3분과학
+  - key: v2
+    stage: 옷차림
+    title: 때와 장소, 상황에 맞는 옷차림 · 안전한 옷차림
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=eMWrBTKYwcQ
+    desc: 때와 장소와 상황에 따라 어떤 옷을 입으면 좋은지, 안전한 옷차림은 무엇인지 알려 줘요.
+    channel: 아꿈선 초등3분과학
+  - key: v3
+    stage: 옷 관리
+    title: "[실과 완전 정복] 내 옷 관리"
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=5wCUdObxz6M
+    desc: 매일 입는 옷을 깔끔하게 개고 관리하는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v4
+    stage: 손바느질
+    title: "[실과 완전 정복] 손바느질의 기초"
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=znbiNltak-Q
+    desc: 간단한 손바느질의 기초와 매듭짓는 법을 보여 줘요.
+    channel: 대구미래교육연구원
+  - key: v5
+    stage: 손바느질
+    title: "[실과 완전 정복] 손바느질로 단추달기, 카드지갑 만들기"
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=t4AHS92OLFY
+    desc: 손바느질로 단추를 달고 카드지갑을 만드는 과정을 보여 줘요.
+    channel: 대구미래교육연구원
+  - key: v6
+    stage: 손바느질
+    title: "[실과 완전 정복] 손바느질로 주머니 만들기"
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=4SkNuJery9w
+    desc: 손바느질로 작은 주머니를 만드는 과정을 보여 줘요.
+    channel: 대구미래교육연구원
+  - key: v7
+    stage: 옷 수선
+    title: "[고치는 사람들] 금손이 아니라 곰손이여도 괜찮아"
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=JjIeQ5MGxBM
+    desc: 구멍 난 옷을 다닝 기법으로 직접 고치는 곳을 소개해요.
+    channel: 기후에너지환경부
+  - key: v8
+    stage: 옷 수선
+    title: 익숙한 옷에 새로운 모습을 더하다
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=rdtRxIkdUV8
+    desc: 옷을 고치고 새로운 모습으로 바꾸는 수선 조형가의 작업을 보여 줘요.
+    channel: 기후에너지환경부
+quiz:
+  - statement: 옷은 추위와 더위, 다칠 위험에서 몸을 지켜 주는 기능이 있다.
+    answer: O
+    explain: 옷은 몸을 지키는 일과 나를 드러내는 일을 해요.
+  - statement: 유행하는 옷이면 때와 장소에 상관없이 알맞은 옷차림이다.
+    answer: X
+    explain: 때와 장소와 상황을 함께 따져 활동하기 편하고 안전한 옷을 골라야 해요.
+  - statement: 여름에는 땀을 잘 흡수하고 바람이 잘 통하는 옷이, 겨울에는 따뜻하게 지켜 주는 옷이 알맞다.
+    answer: O
+    explain: 계절에 따라 옷감의 성질도 함께 살펴 고르면 좋아요.
+  - statement: 새 옷이면 몸에 잘 맞지 않아도 건강한 옷차림이다.
+    answer: X
+    explain: 자라는 몸에 맞고 활동하기 편한 옷이 건강한 옷차림이에요.
+  - statement: 옷을 종류와 계절별로 나누어 개어 두면 찾기 쉽고 오래 입을 수 있다.
+    answer: O
+    explain: 옷 관리를 잘하면 옷이 상하는 것을 줄일 수 있어요.
+  - statement: 옷이 뜯어지거나 단추가 떨어지면 버리는 것밖에 방법이 없다.
+    answer: X
+    explain: 바느질이나 수선 테이프 같은 방법으로 고쳐 입을 수 있어요.
+  - statement: 바늘과 시침핀은 쓰기 전과 뒤에 개수를 확인한다.
+    answer: O
+    explain: 찔리거나 잃어버리는 일이 없도록 개수를 세어 두어야 해요.
+  - statement: 바느질을 시작할 때와 끝낼 때는 매듭을 짓지 않아도 된다.
+    answer: X
+    explain: 매듭을 지어야 실이 빠지지 않고 튼튼하게 꿰맬 수 있어요.

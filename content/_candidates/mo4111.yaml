@@ -1,0 +1,273 @@
+# mo4111 후보 기록 — 도덕 4학년 1학기 1단원 「바르고 곧은 길」(정직)
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo4111 --dry
+# 2026-10-17 야간 위임 수집. 재생·임베드·연령·국내·길이·쇼츠 여부는 YouTube Data API로 후보 전부 확인. 쇼츠로 확인된 서울시교육청TV 인성톡톡(거짓말) 1편은 후보에서 뺌. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님.
+# 새 채널(channels.yaml에 없음): 서울시 인성교육 애니메이션 · KBS HUMAN : 뭉클티비 · TBC · 국민권익위원회  권익비전 · 경기도교육청 청렴캐스트 — 채택·후보 채널 등급은 운영자에게 질문.
+# 무인점포 양심 어린이 보도(2023)는 같은 사건의 신상 공개 논란이 함께 나오므로 SBS 자막뉴스 1편만 추천하고 나머지는 보류·제외.
+kit:
+  id: mo4111
+  title: "1. 바르고 곧은 길"
+  grade: 4
+  sem: 1학기
+  subject: 도덕
+  unit: 1단원
+  unit_no: 1
+  flow: activity
+  codes: ["[4도01-02]"]
+  core_idea: "정직은 거짓 없이 바르고 솔직하게 말하고 행동하는 마음가짐이에요. 정직하면 믿음을 얻고 스스로 떳떳할 수 있어서, 곤란한 순간에도 정직을 기준으로 판단하려고 노력하는 것이 중요해요."
+  core_question: "거짓말을 하고 싶은 순간에도 정직을 선택하려면 나는 어떻게 생각하고 행동해야 할까?"
+  stages:
+    - name: 생각열기
+      question: "거짓말을 하게 되는 까닭은 무엇이고, 정직은 왜 소중할까?"
+    - name: 탐구하기
+      question: "정직과 다른 마음이 부딪힐 때 어떻게 판단하고, 학교 생활 속 정직한 행동은 무엇일까?"
+    - name: 확장하기
+      question: "정직하면 삶에 어떤 좋은 일이 생기고, 나는 어떤 정직을 실천할까?"
+  concepts:
+    - "정직"
+    - "양심"
+    - "거짓말"
+    - "신뢰"
+    - "솔직하게 말하기"
+  source_notes: "정리본 도덕4.국정.u1(1차시 거짓말 까닭·정직의 가치 → 2차시 선의의 거짓말과 정직 사이 판단 → 3차시 학교 생활 속 정직 행동·학급 약속 → 4차시 정직이 주는 행복·다짐) · 지도서 인용: KBS HUMAN 뭉클티비 TV동화 양심 판매대, 양심 우산 이야기 · 오개념: 선의의 거짓말은 언제나 허용된다, 정직하면 늘 손해다, 거짓말을 한 번도 안 해야 정직하다 · cautions: 어떤 경우에도 거짓말은 안 된다고 못 박지 말고 판단 기준을 정직으로, 진실을 말할 때 상대가 상처받지 않는 표현도 함께"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "귀신소동 — 정직 애니메이션"
+    url: https://www.youtube.com/watch?v=6qNN9SeugRU
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: edu
+    duration: "4:23"
+    use: 수업 중
+    basis_code: "[4도01-02]"
+    basis_lesson: "1차시 거짓말 까닭과 정직의 가치"
+    desc: "정직을 주제로 한 서울시 인성교육 애니메이션으로, 이야기 속 인물의 선택을 보며 정직의 뜻을 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 제작 기관이 설명란에 없음(서울시 교육 계열로 추정) — 등급 미분류(추정). 내용은 제목 기준."
+  - cand_no: c02
+    stage: 생각열기
+    title: "솔직하게 말할까? 또깨비 가족"
+    url: https://www.youtube.com/watch?v=Jzu1Z9IMWW0
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "6:45"
+    use: 수업 중
+    basis_code: "[4도01-02]"
+    basis_lesson: "1차시 거짓말 까닭, 2차시 정직 판단"
+    desc: "무심코 한 거짓말 때문에 할아버지가 오해를 받게 되자 어떻게 해야 할지 고민하는 이야기예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. EBS 키즈 어린이 드라마. 설명란: 의도치 않은 거짓말로 할아버지가 오해받는 상황."
+  - cand_no: c03
+    stage: 생각열기
+    title: "TV동화 양심 판매대"
+    url: https://www.youtube.com/watch?v=tmS2gI5E1sM
+    channel: "KBS HUMAN : 뭉클티비"
+    channel_grade: press
+    duration: "5:07"
+    use: 수업 중
+    basis_code: "[4도01-02]"
+    basis_lesson: "1차시 정직한 마음, 지도서 인용"
+    desc: "돈이 없어 물건을 그냥 가져갔던 사람이 나중에 외상값을 갚는 양심 이야기예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 인용한 영상(KBS HUMAN 뭉클티비, 2021 업로드). 새 채널(KBS 계열)."
+  - cand_no: c04
+    stage: 생각열기
+    title: "TV동화 양심 지폐"
+    url: https://www.youtube.com/watch?v=hlL9-CUlTYI
+    channel: "KBS HUMAN : 뭉클티비"
+    channel_grade: press
+    duration: "5:00"
+    use: 수업 중
+    basis_code: "[4도01-02]"
+    basis_lesson: "1차시 정직한 마음"
+    desc: "KBS TV동화 행복한 세상 시리즈의 양심 이야기예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c03과 같은 시리즈(2021 업로드). 줄거리를 설명란에서 확인하지 못해 채택하지 않음."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "책으로 읽어주는 청렴이야기 — 우리들의 약속"
+    url: https://www.youtube.com/watch?v=Wek-5v6AMwE
+    channel: "국민권익위원회  권익비전"
+    channel_grade: public
+    duration: "6:40"
+    use: 수업 중
+    basis_code: "[4도01-02]"
+    basis_lesson: "3차시 학교 생활 속 정직 약속"
+    desc: "수업 중 휴대폰을 내기로 한 약속을 친구가 지킬 수 있을지 보며 약속과 책임감을 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "초등생 대상(2020, 설명란 표기). 새 채널(국민권익위원회 청렴 콘텐츠)."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "숲속 무인점포 — 정직과 청렴의 가치"
+    url: https://www.youtube.com/watch?v=EguqUWCG_Tg
+    channel: "국민권익위원회  권익비전"
+    channel_grade: public
+    duration: "7:13"
+    use: 수업 중
+    basis_code: "[4도01-02]"
+    basis_lesson: "3차시 보는 사람이 없어도 지키는 정직"
+    desc: "숲속 무인점포 이야기로 아무도 보지 않을 때도 정직하게 행동하는 가치를 알려 주는 영상툰이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025. 설명란: 무인점포에서 배우는 정직과 청렴의 가치. 7분대라 길이 상한 근처."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "돌아오지 않는 양심 — 양심우산"
+    url: https://www.youtube.com/watch?v=A7NOEIUrQiQ
+    channel: "TBC"
+    channel_grade: press
+    local: 대구
+    duration: "1:36"
+    use: 수업 전
+    basis_code: "[4도01-02]"
+    basis_lesson: "3차시 양심 우산 이야기(지도서)"
+    desc: "지하철 양심우산과 도서관 책처럼 돌려놓아야 할 물건이 돌아오지 않는 모습을 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구경북 TBC뉴스 2017 보도. 새 채널 'TBC'(채널 이름이 TBC뉴스와 별개). 대구 사례."
+  - cand_no: c08
+    stage: 확장하기
+    title: "폭염에 양심양산을 뒀더니"
+    url: https://www.youtube.com/watch?v=QAZ-Lv_cAPQ
+    channel: "TBC뉴스"
+    channel_grade: press
+    local: 대구
+    duration: "1:27"
+    use: 수업 후
+    basis_code: "[4도01-02]"
+    basis_lesson: "3차시·4차시 양심을 지키는 실천"
+    desc: "대구에 둔 양심양산이 잘 돌아오지 않는 모습을 보며 양심을 지키는 일을 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025 TBC 자막뉴스. 대구 사례."
+  - cand_no: c09
+    stage: 확장하기
+    title: "무인점포 점주를 울린 초등학생 쪽지"
+    url: https://www.youtube.com/watch?v=edZ4ysAE22Y
+    channel: "SBS 뉴스"
+    channel_grade: press
+    duration: "2:14"
+    use: 수업 후
+    basis_code: "[4도01-02]"
+    basis_lesson: "4차시 정직이 주는 마음"
+    desc: "무인점포에서 동전이 모자랐던 어린이가 정직하게 행동한 사연을 전하는 자막뉴스예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 SBS 자막뉴스. 어린이 출연 보도이나 방송사 뉴스. 같은 사건 보도 중 신상 공개 논란이 앞에 나오지 않는 편을 고름. 시청 확인 권장."
+  - cand_no: c10
+    stage: 확장하기
+    title: "키오스크 30번 누른 어린이"
+    url: https://www.youtube.com/watch?v=jZzBF49zWLw
+    channel: "MBCNEWS"
+    channel_grade: press
+    duration: "2:24"
+    use: 수업 후
+    basis_code: "[4도01-02]"
+    basis_lesson: "4차시 정직"
+    desc: "무인점포에서 어린이가 보는 눈이 없어도 올바르게 행동한 모습을 전하는 뉴스예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 설명란이 초등학생 신상 공개 논란으로 시작해 논쟁 소지. c09와 같은 사건."
+  - cand_no: c11
+    stage: 확장하기
+    title: "무인점포 양심 지킨 어린이 MBC충북"
+    url: https://www.youtube.com/watch?v=BYUcbZVbgjk
+    channel: "MBC충북NEWS"
+    channel_grade: press
+    duration: "1:57"
+    use: 수업 후
+    basis_code: "[4도01-02]"
+    basis_lesson: "4차시 정직"
+    desc: "같은 무인점포 양심 어린이 보도예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c09와 같은 사건, 신상 공개 논란 언급(설명란)."
+  - cand_no: c12
+    stage: 확장하기
+    title: "무인점포 CCTV 속 양심어린이 KBS대전"
+    url: https://www.youtube.com/watch?v=pWC6v5eeWdE
+    channel: "KBS대전 뉴스"
+    channel_grade: press
+    duration: "4:27"
+    use: 수업 후
+    basis_code: "[4도01-02]"
+    basis_lesson: "4차시 정직"
+    desc: "같은 무인점포 사연을 길게 풀어 설명한 뉴스예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c09와 같은 사건, 뉴스 해설 위주라 어린이 눈높이가 아님."
+  - cand_no: c13
+    stage: 확장하기
+    title: "무인점포에서 초등생이 한 뜻밖의 행동"
+    url: https://www.youtube.com/watch?v=KkZNJqA0XSA
+    channel: "KMIB[국민일보]"
+    channel_grade: press
+    duration: "3:44"
+    use: 수업 후
+    basis_code: "[4도01-02]"
+    basis_lesson: "4차시 정직"
+    desc: "같은 무인점포 사연을 다룬 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c09와 중복."
+  - cand_no: c14
+    stage: 생각열기
+    title: "경기교육 청렴동화 1편 마지막 남은 슬라임"
+    url: https://www.youtube.com/watch?v=YQyKW431t-A
+    channel: "경기도교육청 청렴캐스트"
+    channel_grade: edu
+    duration: "6:24"
+    use: 수업 중
+    basis_code: "[4도01-02]"
+    basis_lesson: "1차시"
+    desc: "슬라임을 둘러싼 청렴 동화 구연 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "유아용 동화구연(설명란 '유아용'). 4학년 눈높이 아님."
+  - cand_no: c15
+    stage: 생각열기
+    title: "딩동댕유치원 양심을 지켜줘"
+    url: https://www.youtube.com/watch?v=6D9sEzL0Vqo
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "19:25"
+    use: 수업 중
+    basis_code: "[4도01-02]"
+    basis_lesson: "1차시"
+    desc: "부러워서 거짓말을 한 마리의 이야기예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "유아 대상, 19분 25초로 길어 구간 지정이 어려움."
+  - cand_no: c16
+    stage: 생각열기
+    title: "도깨비 1. 정직"
+    url: https://www.youtube.com/watch?v=YrOvqFq3d10
+    channel: "I-scream Mall"
+    channel_grade: personal
+    duration: "1:02"
+    use: 수업 전
+    basis_code: "[4도01-02]"
+    basis_lesson: "1차시"
+    desc: "정직을 짧게 소개하는 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "기업(교육 쇼핑몰) 채널. 대안이 있어 제외."
+  - cand_no: c17
+    stage: 확장하기
+    title: "청렴동화 작은 씨앗의 힘"
+    url: https://www.youtube.com/watch?v=N7XBfsFolts
+    channel: "국민권익위원회  권익비전"
+    channel_grade: public
+    duration: "1:01"
+    use: 수업 후
+    basis_code: "[4도01-02]"
+    basis_lesson: "4차시"
+    desc: "대학생이 만든 청렴 동화예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2015 업로드, 줄거리를 확인하지 못함."

@@ -1,0 +1,329 @@
+# pr5101 후보 기록 — 실과 5학년 · 아동기 발달·자기 관리 ([6실01-01]·[6실01-02])
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- pr5101 --dry
+# 2026-10-17 야간 위임 수집. 후보 전부 ytcheck(YouTube Data API)로 재생·임베드·연령·국내·길이·쇼츠 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님.
+# 공공·교육 채널에 사춘기(2차 성징)·발달을 초등 눈높이로 다룬 영상이 적어, 8분 넘는 EBS놀이터 영상은 구간을 못 정해 확인필요로 둠.
+# 새 채널(channels.yaml에 없음): 제주특별자치도교육청 · 학생건강 · 학생마음건강중앙지원단 · 대구학교급식TV · 화성시청소년성문화센터 — 등급 미분류(추정), 운영자 확인.
+kit:
+  id: pr5101
+  title: "아동기 발달·자기 관리"
+  grade: 5
+  sem: 1학기
+  subject: 실과
+  unit: 인간 발달과 주도적 삶
+  unit_no: 1
+  flow: activity
+  sort_order: 1
+  codes: ["[6실01-01]", "[6실01-02]"]
+  core_idea: "아동기에는 몸과 마음, 사람들과의 관계가 함께 자라요. 자라는 속도는 사람마다 달라서, 나에게 맞는 자기 관리 방법을 찾아 작은 것부터 꾸준히 실천하는 것이 중요해요."
+  core_question: "몸과 마음이 건강하게 자라기 위해 나는 어떤 자기 관리를 계획하고 실천할 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "나는 지금 어떻게 자라고 있을까?"
+    - name: 탐구하기
+      question: "몸과 마음이 고르게 자라려면 무엇이 필요할까?"
+    - name: 확장하기
+      question: "나에게 필요한 자기 관리를 어떻게 계획하고 실천할까?"
+  concepts:
+    - "아동기"
+    - "발달"
+    - "발달의 개인차"
+    - "자기 관리"
+    - "생활 습관"
+  source_notes: "정리본(천재 u1 · 비상 u2-1) 요지: 아동기 몸·마음·사회성·진로 발달과 개인차 → 고르게 자라는 조건 → 목표·계획·실천·평가로 일주일 자기 관리 · 스마트폰 사용과 뇌 발달 · 오개념: 발달이 빠르거나 늦으면 문제, 건강=몸 성장만, 거창한 계획부터 · 유의: 비교하지 않기, 놀림 금지, 작은 실천부터. 성(性) 발달 영상은 공공·교육 채널의 초등 눈높이 것만, 체중·비만 낙인 우려 영상은 제외"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "내 몸이 이상해 — 사춘기의 변화"
+    url: https://www.youtube.com/watch?v=sgCAeHAoUj0
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "4:42"
+    use: 수업 중
+    basis_code: "[6실01-01]"
+    basis_lesson: "정리본 1차시 몸·마음 변화와 개인차"
+    desc: "사춘기에 호르몬 때문에 몸에 나타나는 2차 성징을 과학으로 알아봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2014년 EBS 제작. 성 발달 내용은 과학 설명 중심. 수업 중 놀림이 되지 않게 안내 필요."
+  - cand_no: c02
+    stage: 생각열기
+    title: "알쏭달쏭 사춘기 몸의 변화"
+    url: https://www.youtube.com/watch?v=z_wZOmSGUZg
+    channel: "화성시청소년성문화센터"
+    channel_grade: public
+    duration: "6:29"
+    use: 수업 중
+    basis_code: "[6실01-01]"
+    basis_lesson: "정리본 1차시 발달 특징"
+    desc: "사춘기를 맞은 어린이 캐릭터들의 궁금증을 풀어 가며 몸의 변화를 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 공공기관 청소년성문화센터 제작, 어린이 눈높이 애니메이션. 새 채널(등급 미분류, public 추정)."
+  - cand_no: c03
+    stage: 생각열기
+    title: "사춘기 뇌에서는 무슨 일이 일어날까"
+    url: https://www.youtube.com/watch?v=1MCyL_t1XCU
+    channel: "EBS 지식채널e"
+    channel_grade: edu
+    duration: "4:33"
+    use: 배경지식
+    basis_code: "[6실01-01]"
+    basis_lesson: "정리본 1차시 마음 발달(교사 배경)"
+    desc: "사춘기에 뇌가 자라는 과정과 감정이 크게 흔들리는 까닭을 설명해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 인사이드아웃2 연계 설명으로 학생용보다 교사 배경지식으로 적합."
+  - cand_no: c04
+    stage: 생각열기
+    title: "EBS놀이터 왔다 사춘기 — 뇌에도 사춘기가 온다고?"
+    url: https://www.youtube.com/watch?v=sYYh9b4wM8I
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "9:51"
+    use: 수업 중
+    basis_code: "[6실01-01]"
+    basis_lesson: "정리본 1차시 몸·마음 변화"
+    desc: "사춘기 몸과 뇌의 변화를 어린이 눈높이로 다룬 EBS놀이터 영상이에요."
+    verdict: 확인필요
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "9분 51초라 구간(start·end) 필요 — 본문을 못 봐 구간을 못 정함. 운영자가 보고 구간 지정하면 채택 후보."
+  - cand_no: c05
+    stage: 생각열기
+    title: "EBS놀이터 왔다 사춘기 — 도대체 사춘기가 뭐야?"
+    url: https://www.youtube.com/watch?v=-0vdo-59gx8
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "8:54"
+    use: 수업 중
+    basis_code: "[6실01-01]"
+    basis_lesson: "정리본 1차시 발달 특징"
+    desc: "사춘기가 무엇인지와 2차 성징을 어린이 눈높이로 설명해요."
+    verdict: 확인필요
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "8분 54초라 구간 필요 — 본문 미시청으로 구간 못 정함."
+  - cand_no: c06
+    stage: 생각열기
+    title: "왔다 사춘기 — 살이 찌는 체질이 따로 있을까"
+    url: https://www.youtube.com/watch?v=c0RTHoXjIbw
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "9:17"
+    use: 수업 중
+    basis_code: "[6실01-01]"
+    basis_lesson: "정리본 1차시"
+    desc: "사춘기와 체형·살찌는 체질에 대한 궁금증을 다뤄요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "주제가 체형·체중으로 기울고 9분 넘음. 비교·낙인 우려."
+  - cand_no: c07
+    stage: 생각열기
+    title: "사이틴 왔다 사춘기 — 왜 여자만 가슴이 나와?"
+    url: https://www.youtube.com/watch?v=d2QygSCXuFs
+    channel: "EBS Learning"
+    channel_grade: edu
+    duration: "8:21"
+    use: 수업 중
+    basis_code: "[6실01-01]"
+    basis_lesson: "정리본 1차시"
+    desc: "사춘기 몸 변화에 대한 궁금증을 EBS 프로그램에서 풀어 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2015, 8분 21초 구간 필요 + 질문 방식이 놀림거리가 될 수 있어 보류."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "골고루 키쑤욱 — 키 성장과 7가지 건강생활습관"
+    url: https://www.youtube.com/watch?v=zQ9Fs67dqQw
+    channel: "제주특별자치도교육청"
+    channel_grade: edu
+    duration: "1:10"
+    use: 수업 전
+    basis_code: "[6실01-01]"
+    basis_lesson: "정리본 2차시 고르게 자라는 조건"
+    desc: "키가 자라는 데 영향을 주는 7가지 건강 생활 습관을 짧게 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 교육청 제작. 새 채널(등급 미분류, edu 추정)."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "골고루 키쑤욱 — 올바른 수면과 성장호르몬"
+    url: https://www.youtube.com/watch?v=GqEOWJZsonw
+    channel: "제주특별자치도교육청"
+    channel_grade: edu
+    duration: "1:20"
+    use: 수업 중
+    basis_code: "[6실01-01]"
+    basis_lesson: "정리본 2차시 고르게 자라는 조건"
+    desc: "잘 자는 것이 성장호르몬과 어떻게 이어지는지 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 새 채널(edu 추정)."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "골고루 키쑤욱 — 성장판을 자극하는 신체활동"
+    url: https://www.youtube.com/watch?v=_pqc22DVBU8
+    channel: "제주특별자치도교육청"
+    channel_grade: edu
+    duration: "1:18"
+    use: 수업 중
+    basis_code: "[6실01-01]"
+    basis_lesson: "정리본 2차시 고르게 자라는 조건"
+    desc: "몸을 움직이는 활동이 성장에 도움이 되는 까닭을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 새 채널(edu 추정)."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "대구 영양상담 — 올바른 성장"
+    url: https://www.youtube.com/watch?v=9wJqPo5oEco
+    channel: "대구학교급식TV"
+    channel_grade: edu
+    local: 대구
+    duration: "5:53"
+    use: 수업 중
+    basis_code: "[6실01-01]"
+    basis_lesson: "정리본 2차시 건강한 성장"
+    desc: "성장에 필요한 영양과 식습관을 대구광역시교육청 영양교사가 안내해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 대구광역시교육청 제작. 새 채널(edu 추정)."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "분노 조절 — 감정 다스리기"
+    url: https://www.youtube.com/watch?v=AAXH9c9NQPA
+    channel: "학생마음건강중앙지원단"
+    channel_grade: edu
+    duration: "4:29"
+    use: 수업 중
+    basis_code: "[6실01-01]"
+    basis_lesson: "정리본 1~2차시 마음 발달"
+    desc: "화가 날 때 마음을 가라앉히는 방법을 애니메이션으로 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 교육부 계열 학생 정서 교육 시리즈로 추정. 새 채널(등급 미분류)."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "EBS 클래스e 사춘기 뇌"
+    url: https://www.youtube.com/watch?v=8T5ttEf2jwA
+    channel: "EBSCulture (EBS 교양)"
+    channel_grade: edu
+    duration: "16:43"
+    use: 배경지식
+    basis_code: "[6실01-01]"
+    basis_lesson: "교사 배경"
+    desc: "사춘기 청소년의 뇌에서 일어나는 일을 설명하는 부모 대상 강의예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "부모 대상 강의, 16분 43초 — 학생용 아님."
+  - cand_no: c14
+    stage: 확장하기
+    title: "계획을 세울 수 있어요"
+    url: https://www.youtube.com/watch?v=T7RgmGEGNf4
+    channel: "국가기초학력지원센터"
+    channel_grade: edu
+    duration: "6:34"
+    use: 수업 중
+    basis_code: "[6실01-02]"
+    basis_lesson: "정리본 5차시 목표·계획·실천·평가"
+    desc: "목표를 정하고 할 일을 순서대로 계획하는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 자기관리·사회정서역량 자료."
+  - cand_no: c15
+    stage: 확장하기
+    title: "스마트폰 과의존, 초등학생에게 묻다"
+    url: https://www.youtube.com/watch?v=HIT7ZgOEpoI
+    channel: "한국지능정보사회진흥원 스마트쉼센터"
+    channel_grade: public
+    duration: "5:45"
+    use: 수업 후
+    basis_code: "[6실01-02]"
+    basis_lesson: "정리본 6차시 스마트폰 사용과 뇌 발달"
+    desc: "초등학생이 스마트폰을 지나치게 쓸 때 생기는 문제와 조절 방법을 이야기해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025. 과기정통부·지능정보사회진흥원 예방교육."
+  - cand_no: c16
+    stage: 확장하기
+    title: "건강한 생활습관 만들기 — 거북목 관리"
+    url: https://www.youtube.com/watch?v=T-Ovi3TIclU
+    channel: "학생건강"
+    channel_grade: edu
+    duration: "3:26"
+    use: 수업 후
+    basis_code: "[6실01-02]"
+    basis_lesson: "정리본 4차시 영역별 자기 관리"
+    desc: "바른 자세로 앉고 스마트폰을 볼 때 목을 지키는 습관을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2026-09. 교육부·시도교육청·한국교육환경보호원 제작 영상자료. 새 채널(edu 추정)."
+  - cand_no: c17
+    stage: 확장하기
+    title: "건강한 생활습관 만들기 — 척추 관리"
+    url: https://www.youtube.com/watch?v=vOO2HbsPgdI
+    channel: "학생건강"
+    channel_grade: edu
+    duration: "4:22"
+    use: 수업 후
+    basis_code: "[6실01-02]"
+    basis_lesson: "정리본 4차시 영역별 자기 관리"
+    desc: "척추를 바르게 지키는 생활 습관을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2026-09. 교육부 계열 제작. 새 채널."
+  - cand_no: c18
+    stage: 확장하기
+    title: "건강한 생활습관 만들기 — 시력 관리"
+    url: https://www.youtube.com/watch?v=Xe0F-s64PSE
+    channel: "학생건강"
+    channel_grade: edu
+    duration: "3:11"
+    use: 수업 후
+    basis_code: "[6실01-02]"
+    basis_lesson: "정리본 4차시 영역별 자기 관리"
+    desc: "눈을 아끼는 생활 습관과 화면을 볼 때 지킬 점을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2026-09. 교육부 계열 제작. 새 채널."
+  - cand_no: c19
+    stage: 확장하기
+    title: "건강한 생활습관 만들기 — 체중 조절"
+    url: https://www.youtube.com/watch?v=_tmxd_476Xs
+    channel: "학생건강"
+    channel_grade: edu
+    duration: "3:51"
+    use: 수업 후
+    basis_code: "[6실01-02]"
+    basis_lesson: "정리본 4차시"
+    desc: "건강한 체중을 지키는 생활 습관을 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "체중 비교·낙인 우려(정리본 유의: 서로 비교하지 않기) — 본문 미시청이라 보류."
+  - cand_no: c20
+    stage: 확장하기
+    title: "소아청소년 비만 예방 1편"
+    url: https://www.youtube.com/watch?v=o7U5w8OtBqY
+    channel: "질병관리청 아프지마TV"
+    channel_grade: public
+    duration: "5:25"
+    use: 수업 후
+    basis_code: "[6실01-02]"
+    basis_lesson: "정리본 4차시"
+    desc: "소아청소년 비만의 뜻과 진단을 의사가 설명해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "학부모 대상 의료 설명에 가깝고 체중 낙인 우려."
+  - cand_no: c21
+    stage: 확장하기
+    title: "초등 학생 건강 습관 — 건강한 돌봄놀이터"
+    url: https://www.youtube.com/watch?v=e-A0PNewltQ
+    channel: "보건복지부TV"
+    channel_grade: public
+    duration: "3:14"
+    use: 배경지식
+    basis_code: "[6실01-02]"
+    basis_lesson: "교사 배경"
+    desc: "정부 정책 홍보 영상으로 돌봄놀이터 건강 프로그램을 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "정책 홍보 성격, 학생용 아님."

@@ -1,0 +1,382 @@
+# pr5501 후보 기록 — 실과 5학년 영역 5 「알고리즘·프로그래밍」 [6실05-01][6실05-02][6실05-03] (흐름형)
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- pr5501 --dry
+# 2026-10-17 야간 위임 수집. 재생·임베드·연령·국내·길이·쇼츠 여부는 ytcheck로 후보 전부 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님.
+# 특정 상용 앱 광고 제외, 출판사 이름이 붙은 교과서 풀이 영상(울산 교육연구정보원 시리즈, 대구 교과서 속 엔트리 시리즈)은 쓰지 않음. EBS Learning의 2016 소프트웨어 강좌와 2018 엔트리 강의 토막은 연재 일부라 본문 확인 필요.
+# 새 채널(channels.yaml에 없음) 후보: 엔트리 공식 채널 — 단체라 edu/personal 운영자 판단. EBS Learning은 EBS 계열(edu 추정).
+kit:
+  id: pr5501
+  title: "알고리즘·프로그래밍"
+  grade: 5
+  sem: 2학기
+  subject: 실과
+  unit: 디지털 사회와 인공지능
+  unit_no: 5
+  flow: flow
+  codes: ["[6실05-01]", "[6실05-02]", "[6실05-03]"]
+  core_idea: "컴퓨터로 문제를 풀려면 먼저 해결 순서인 알고리즘을 짜고 순서도로 나타낸 뒤, 프로그래밍으로 컴퓨터가 알아듣는 명령으로 옮겨요. 프로그램은 입력·처리·출력과 변수를 쓰고 순차·선택·반복 구조를 짜 맞추어 만들어요."
+  core_question: "생활 속 문제를 컴퓨터로 풀려면 해결 순서를 어떻게 짜고, 어떤 구조로 프로그램을 만들까?"
+  stages:
+    - "알고리즘"
+    - "순서도"
+    - "프로그래밍"
+    - "입력·처리·출력"
+    - "변수"
+    - "순차 구조"
+    - "선택 구조"
+    - "반복 구조"
+  concepts:
+    - "알고리즘"
+    - "순서도"
+    - "프로그래밍"
+    - "입력·처리·출력"
+    - "변수"
+    - "순차 구조"
+    - "선택 구조"
+    - "반복 구조"
+  source_notes: "천재 정리본 u6 프로그래밍 부분(7~16차시: 하드웨어·소프트웨어 → 청소 문제를 자연어·의사 코드·순서도로 → 카드 분류 놀이 → 프로그래밍 뜻·블록 도구 → 입력·처리·출력·변수 → 생활 문제 프로그램 → 단원 정리) · 비상 정리본 u5-1(컴퓨터 문제 해결 세 단계 → 알고리즘을 자연어·순서도·의사 코드로 → 블록형 도구로 입력·처리·출력·변수·세 가지 제어 구조) · u5-2(생활 문제 알고리즘 다듬기 → 블록 프로그램을 만들어 주소로 공유하고 고치기) · 오개념 알고리즘은 컴퓨터 안에서만 쓰는 말이 아님, 특정 언어 기능 암기가 목표가 아님, 같은 문제도 사람마다 다른 방법 · 유의 화면 밝기, 처음엔 블록 두세 개, 반쯤 만든 예시 · 출판사 실습 동영상 쓰지 않음"
+
+candidates:
+  - cand_no: c01
+    stage: 알고리즘
+    title: "알고리즘 - 헬로! EBS 소프트웨어"
+    url: https://www.youtube.com/watch?v=S8PA_VCJiow
+    channel: "EBS Learning"
+    channel_grade: edu
+    duration: "8:15"
+    start: 0
+    end: 480
+    use: 수업 중
+    basis_code: "[6실05-01]"
+    basis_lesson: "6실05-01 알고리즘 짜기"
+    desc: "일을 순서대로 짜는 알고리즘이 무엇인지 이야기로 알려 줘요."
+    verdict: 확인필요
+    note: "구간(8분 초과) 미확인 — 임의 구간을 넣었던 것을 야간 통합 점검에서 빼고 확인필요로 되돌림. "
+  - cand_no: c02
+    stage: 알고리즘
+    title: "도미노 놀이를 해요"
+    url: https://www.youtube.com/watch?v=UG0HeJ2bjqA
+    channel: "엔트리 공식 채널"
+    channel_grade: edu
+    duration: "3:24"
+    use: 수업 전
+    basis_code: "[6실05-01]"
+    basis_lesson: "6실05-01 알고리즘의 뜻"
+    desc: "도미노를 자동으로 세우는 기계를 통해 알고리즘이 무엇인지 쉽게 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025 엔트리 공식 채널 시리즈 어린이를 위한 인공지능과 알고리즘 2편. 새 채널(단체)."
+  - cand_no: c03
+    stage: 알고리즘
+    title: "엄마의 심부름을 가요"
+    url: https://www.youtube.com/watch?v=_bXYugKgQAQ
+    channel: "엔트리 공식 채널"
+    channel_grade: edu
+    duration: "3:26"
+    use: 수업 중
+    basis_code: "[6실05-01]"
+    basis_lesson: "6실05-01 알고리즘 짜기"
+    desc: "심부름 길을 정하는 일을 예로 알고리즘 개념을 쉽게 배워요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025 같은 시리즈 3편. 새 채널(단체)."
+  - cand_no: c04
+    stage: 알고리즘
+    title: "가방을 찾아줘"
+    url: https://www.youtube.com/watch?v=RmX5wcM_KYI
+    channel: "엔트리 공식 채널"
+    channel_grade: edu
+    duration: "2:23"
+    use: 수업 전
+    basis_code: "[6실05-01]"
+    basis_lesson: "6실05-01 알고리즘의 뜻"
+    desc: "인공지능 스피커와 청소기에게 가방이 어디 있는지 묻는 장면으로 시작해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025 같은 시리즈 1편. 알고리즘보다 인공지능 소개가 중심이라 보류."
+  - cand_no: c05
+    stage: 순서도
+    title: "기계에 필요한 순서도 (국과대표)"
+    url: https://www.youtube.com/watch?v=L7AM4CxFM-s
+    channel: "JTBC Entertainment"
+    channel_grade: press
+    duration: "3:34"
+    use: 수업 중
+    basis_code: "[6실05-01]"
+    basis_lesson: "6실05-01 순서도로 나타내기"
+    desc: "기계가 일하려면 순서도로 일의 순서를 알려 줘야 한다는 것을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 JTBC 과학 예능. 순서도 설명이 영상 일부일 수 있어 본문 확인 필요. 공공·교육 채널에 순서도 영상이 없어 채택."
+  - cand_no: c06
+    stage: 프로그래밍
+    title: "프로그래밍 - 헬로! EBS 소프트웨어"
+    url: https://www.youtube.com/watch?v=D1GjtTR9Ch8
+    channel: "EBS Learning"
+    channel_grade: edu
+    duration: "8:14"
+    start: 0
+    end: 480
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 프로그래밍의 뜻"
+    desc: "프로그램과 프로그래밍이 무엇인지 이야기로 알려 줘요."
+    verdict: 확인필요
+    note: "구간(8분 초과) 미확인 — 임의 구간을 넣었던 것을 야간 통합 점검에서 빼고 확인필요로 되돌림. "
+  - cand_no: c07
+    stage: 프로그래밍
+    title: "움직여! 엔트리봇 - 오브젝트"
+    url: https://www.youtube.com/watch?v=GjUGc8x565g
+    channel: "엔트리 공식 채널"
+    channel_grade: edu
+    duration: "1:34"
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 블록 도구 화면 구성"
+    desc: "블록 코딩 도구에서 움직이는 대상인 오브젝트를 다루는 방법을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024 엔트리 튜토리얼 2화. 새 채널(단체)."
+  - cand_no: c08
+    stage: 프로그래밍
+    title: "커져라 엔트리봇 - 이벤트"
+    url: https://www.youtube.com/watch?v=1pBK4xwwdqc
+    channel: "엔트리 공식 채널"
+    channel_grade: edu
+    duration: "1:25"
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 블록 조립해 만들기"
+    desc: "원하는 순간에 움직이거나 소리가 나게 하는 시작 블록을 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024 엔트리 튜토리얼 3화. 새 채널(단체)."
+  - cand_no: c09
+    stage: 프로그래밍
+    title: "엔트리에 오신 것을 환영합니다"
+    url: https://www.youtube.com/watch?v=8yNL6lC1CdY
+    channel: "엔트리 공식 채널"
+    channel_grade: edu
+    duration: "1:12"
+    use: 수업 전
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 블록 도구 소개"
+    desc: "블록 코딩 도구 엔트리가 어떤 곳인지 처음 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024 튜토리얼 1화. 도구 홍보 성격이 강해 보류."
+  - cand_no: c10
+    stage: 입력·처리·출력
+    title: "입력, 처리, 출력 따라하기 - 헬로! EBS 소프트웨어"
+    url: https://www.youtube.com/watch?v=BC2Ky_lnVVU
+    channel: "EBS Learning"
+    channel_grade: edu
+    duration: "8:11"
+    start: 0
+    end: 480
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 입력·처리·출력"
+    desc: "프로그램이 값을 받아서 계산하고 결과를 보여 주는 과정을 따라 해 봐요."
+    verdict: 확인필요
+    note: "구간(8분 초과) 미확인 — 임의 구간을 넣었던 것을 야간 통합 점검에서 빼고 확인필요로 되돌림. "
+  - cand_no: c11
+    stage: 입력·처리·출력
+    title: "입력, 처리, 출력 따라하기 (첫째 토막)"
+    url: https://www.youtube.com/watch?v=RGGrWnqOT7o
+    channel: "EBS Learning"
+    channel_grade: edu
+    duration: "10:18"
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 입력·처리·출력"
+    desc: "같은 에피소드의 앞부분으로 입력·처리·출력 개념을 설명해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "10분 18초로 구간을 정할 수 없어 보류."
+  - cand_no: c12
+    stage: 변수
+    title: "뚜앙코딩 변수풀이 1"
+    url: https://www.youtube.com/watch?v=R_LBLd68FUE
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "6:30"
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 변수"
+    desc: "대구 선생님이 변수를 쓰는 블록 코딩 미션을 하나씩 풀어 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 대구 선생님 제작, 뚜앙 코딩파티 미션 풀이. 대구 교육 채널."
+  - cand_no: c13
+    stage: 변수
+    title: "뚜앙코딩 변수풀이 2"
+    url: https://www.youtube.com/watch?v=3CSGwgkJvIo
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "3:27"
+    use: 수업 후
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 변수"
+    desc: "변수 값이 바뀌는 다음 미션을 풀어 보며 변수를 연습해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 같은 시리즈."
+  - cand_no: c14
+    stage: 변수
+    title: "뚜앙코딩 변수풀이 5"
+    url: https://www.youtube.com/watch?v=DlcbmW1cUQw
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:07"
+    use: 수업 후
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 변수"
+    desc: "변수를 더 활용하는 미션 풀이예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 같은 시리즈. 편수 조정으로 보류."
+  - cand_no: c15
+    stage: 변수
+    title: "엔트리 변수와 리스트 2-2"
+    url: https://www.youtube.com/watch?v=APdxS6iIg_M
+    channel: "EBS Learning"
+    channel_grade: edu
+    duration: "1:39"
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 변수"
+    desc: "변수 만들기와 쓰는 방법을 짧게 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2018 EBS 엔트리 강의 토막(변수와 리스트 챕터의 두 번째 단계). 연재 일부라 본문 확인 필요."
+  - cand_no: c16
+    stage: 순차 구조
+    title: "엔트리봇 길찾기 게임으로 배우는 순차"
+    url: https://www.youtube.com/watch?v=Og2EMi_uP4s
+    channel: "엔트리 공식 채널"
+    channel_grade: edu
+    duration: "2:00"
+    use: 수업 전
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 순차 구조"
+    desc: "정해진 순서대로 블록을 이어 길을 찾으며 순차 구조의 원리를 배워요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025 엔트리 넥스트 챌린지. 새 채널(단체)."
+  - cand_no: c17
+    stage: 순차 구조
+    title: "엔트리 순차 4-1"
+    url: https://www.youtube.com/watch?v=kkM2L6Szt3k
+    channel: "EBS Learning"
+    channel_grade: edu
+    duration: "1:25"
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 순차 구조"
+    desc: "블록이 위에서 아래로 차례로 실행되는 순차 구조를 설명해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2018 EBS 엔트리 강의 토막(순차 챕터의 첫 단계). 연재 일부라 본문 확인 필요."
+  - cand_no: c18
+    stage: 순차 구조
+    title: "엔트리 순차 4-3"
+    url: https://www.youtube.com/watch?v=FPyUuM8dpRM
+    channel: "EBS Learning"
+    channel_grade: edu
+    duration: "1:49"
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 순차 구조"
+    desc: "순차 구조로 간단한 동작을 만들어 보는 단계예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2018 EBS 엔트리 강의 토막. 편수 조정으로 보류."
+  - cand_no: c19
+    stage: 선택 구조
+    title: "엔트리봇 길찾기 게임으로 배우는 조건"
+    url: https://www.youtube.com/watch?v=TcN52QhrS1M
+    channel: "엔트리 공식 채널"
+    channel_grade: edu
+    duration: "2:12"
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 선택 구조"
+    desc: "조건이 맞아야 문이 열리는 길찾기로 조건문 쓰는 법을 배워요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025 엔트리 넥스트 챌린지. 새 채널(단체)."
+  - cand_no: c20
+    stage: 선택 구조
+    title: "뚜앙코딩 선택구조 풀이 6"
+    url: https://www.youtube.com/watch?v=iEC_IjFWWUQ
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "2:38"
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 선택 구조"
+    desc: "대구 선생님이 선택 구조가 필요한 미션을 풀어 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 대구 선생님 제작."
+  - cand_no: c21
+    stage: 선택 구조
+    title: "뚜앙코딩 선택구조 풀이 8"
+    url: https://www.youtube.com/watch?v=RhNQt2i2ar0
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "6:06"
+    use: 수업 후
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 선택 구조"
+    desc: "조건에 따라 달라지는 미션을 풀어 보며 선택 구조를 연습해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 같은 시리즈."
+  - cand_no: c22
+    stage: 선택 구조
+    title: "엔트리 선택 6-1"
+    url: https://www.youtube.com/watch?v=4dJ7F-6w_XQ
+    channel: "EBS Learning"
+    channel_grade: edu
+    duration: "1:22"
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 선택 구조"
+    desc: "조건에 따라 다르게 실행하는 선택 구조를 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2018 EBS 엔트리 강의 토막. 편수 조정으로 보류."
+  - cand_no: c23
+    stage: 반복 구조
+    title: "엔트리봇 길찾기 게임으로 배우는 반복"
+    url: https://www.youtube.com/watch?v=rUaM2RuKW6I
+    channel: "엔트리 공식 채널"
+    channel_grade: edu
+    duration: "2:15"
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 반복 구조"
+    desc: "같은 블록을 여러 번 쓰지 않고 반복 블록으로 줄이는 방법을 배워요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025 엔트리 넥스트 챌린지. 새 채널(단체)."
+  - cand_no: c24
+    stage: 반복 구조
+    title: "엔트리 반복 5-3"
+    url: https://www.youtube.com/watch?v=-bLPWlAmBAE
+    channel: "EBS Learning"
+    channel_grade: edu
+    duration: "3:14"
+    use: 수업 중
+    basis_code: "[6실05-02]"
+    basis_lesson: "6실05-02 반복 구조"
+    desc: "블록을 되풀이해 실행하는 반복 구조를 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2018 EBS 엔트리 강의 토막(반복 챕터의 세 번째 단계). 연재 일부라 본문 확인 필요."
