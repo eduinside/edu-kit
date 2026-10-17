@@ -40,13 +40,6 @@ items:
     url: https://www.youtube.com/watch?v=5K8ulYdYW1E
     desc: 아주 어린아이도 공정함을 느낀다는 연구를 소개하는 EBS 뉴스 영상이에요.
     channel: EBSCulture (EBS 교양)
-  - key: v2
-    stage: 탐구하기
-    title: 토끼와 거북이의 달리기 경주
-    use: 수업 중
-    url: https://www.youtube.com/watch?v=MQqblwnvO8A
-    desc: 토끼와 거북이의 경주 이야기로 공정한 경기가 무엇인지 생각해 봐요.
-    channel: EBS 키즈
   - key: v3
     stage: 탐구하기
     title: 왜 규칙을 지켜야 할까요?
@@ -82,6 +75,13 @@ items:
     url: https://www.youtube.com/watch?v=q-VQUzNaw_I
     desc: 공정무역이 무엇이고 왜 필요한지 동화로 알려 줘요.
     channel: "모두잇(DO IT) : 공정무역"
+  - key: v8
+    stage: 확장하기
+    title: 착한 초콜릿
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=V7SFlQHyqNw
+    desc: 공정무역 초콜릿 이야기를 다룬 지식채널e 영상이에요.
+    channel: EBS 지식채널e
 quiz:
   - statement: 공정은 어느 한쪽으로 치우치지 않고 같은 기준으로 대하는 것이다.
     answer: O
