@@ -14,9 +14,11 @@ import type { Grade, Semester, Subject } from "../lib/data.ts";
 const GRADE_OPTIONS = [1, 2, 3, 4, 5, 6].map((g) => ({ key: String(g), label: `${g}학년` }));
 const SEM_OPTIONS = [{ key: "1학기", label: "1학기" }, { key: "2학기", label: "2학기" }];
 const SUBJECTS: Subject[] = ["사회", "과학", "도덕", "실과", "통합"]; // 홈 화면 순서(첫 진입·폴백 우선순위도 이 순서)
-// 1·2학년은 통합교과(바른·슬기로운·즐거운 생활) 하나뿐이고, 3~6학년에는 통합이 없다 — 학년과 교과가 어긋나는 선택은 짝을 맞춘다.
+// 학년을 고르면 그 학년에 있는 교과만 보인다: 1·2학년 = 통합 / 3·4학년 = 사회·과학·도덕 / 5·6학년 = 사회·과학·도덕·실과
 const isLowerGrade = (g: number) => g <= 2;
-const SUBJECT_OPTIONS = SUBJECTS.map((s) => ({ key: s, label: s }));
+const subjectsFor = (g: number): Subject[] =>
+  g <= 2 ? ["통합"] : g <= 4 ? ["사회", "과학", "도덕"] : ["사회", "과학", "도덕", "실과"];
+const optionsFor = (g: number) => subjectsFor(g).map((s) => ({ key: s, label: s }));
 
 const labelStyle = { fontSize: 11, fontWeight: 800, color: "var(--color-slate-400)", letterSpacing: ".04em" } as const;
 const divider = { width: 1, height: 24, background: "var(--color-slate-100)" } as const;
@@ -50,7 +52,7 @@ function loadPref(): Scope | null {
     if (![1, 2, 3, 4, 5, 6].includes(g)) return null;
     if (p?.sem !== "1학기" && p?.sem !== "2학기") return null;
     if (!SUBJECTS.includes(p?.subject)) return null;
-    if (isLowerGrade(g) !== (p.subject === "통합")) return null;
+    if (!subjectsFor(g).includes(p.subject)) return null;
     return { grade: g as Grade, sem: p.sem, subject: p.subject };
   } catch {
     return null;
@@ -132,17 +134,20 @@ export default function HomePage() {
 
   const grade = Number(params.get("grade") ?? initialScope.grade) as Grade;
   const sem = (params.get("sem") ?? initialScope.sem) as Semester;
-  const subject = (params.get("subject") ?? initialScope.subject) as Subject;
+  // 주소·저장값의 교과가 이 학년에 없으면 그 학년의 첫 교과로
+  const subjectRaw = (params.get("subject") ?? initialScope.subject) as Subject;
+  const subject = subjectsFor(grade).includes(subjectRaw) ? subjectRaw : subjectsFor(grade)[0]!;
   const unit = params.get("unit") ?? "전체";
 
   function setFilter(patch: Record<string, string>, resetUnit = false) {
     const next = new URLSearchParams(params);
     for (const [k, v] of Object.entries(patch)) next.set(k, v);
-    // 학년↔교과 짝 맞추기: 1·2학년을 고르면 통합, 3~6학년에서 통합이 남으면 사회. 교과를 통합으로 바꾸면 1학년, 통합이 아닌 교과로 바꾸는데 저학년이면 3학년.
-    const g = Number(next.get("grade") ?? grade);
-    const sj = next.get("subject") ?? subject;
-    if (patch.grade !== undefined) next.set("subject", isLowerGrade(g) ? "통합" : sj === "통합" ? "사회" : sj);
-    else if (patch.subject !== undefined) next.set("grade", String(sj === "통합" ? (isLowerGrade(g) ? g : 1) : isLowerGrade(g) ? 3 : g));
+    // 학년을 바꾸면 그 학년에 없는 교과는 그 학년의 첫 교과로(예: 5학년 실과 → 3학년 사회)
+    if (patch.grade !== undefined) {
+      const ok = subjectsFor(Number(patch.grade));
+      const cur = (next.get("subject") ?? subject) as Subject;
+      next.set("subject", ok.includes(cur) ? cur : ok[0]!);
+    }
     if (resetUnit) next.set("unit", "전체");
     setParams(next, { replace: true });
     // 사용자가 고른 조건을 저장 → 다음 접속 시 복원
@@ -213,7 +218,7 @@ export default function HomePage() {
             <div style={divider} />
             <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
               <span style={labelStyle}>교과</span>
-              <SegmentedControl ariaLabel="교과" options={SUBJECT_OPTIONS} value={subject} onChange={(k) => setFilter({ subject: k }, true)} />
+              <SegmentedControl ariaLabel="교과" options={optionsFor(grade)} value={subject} onChange={(k) => setFilter({ subject: k }, true)} />
             </div>
           </div>
           <div style={{ height: 1, background: "var(--color-slate-100)", margin: "15px 0" }} />
