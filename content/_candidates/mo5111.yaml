@@ -1,0 +1,221 @@
+# mo5111 후보 기록 — 도덕 5학년 1학기 1단원 「내 삶의 주인이 되는 나」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo5111 --dry
+# 2026-10-17 수집. 재생·임베드·연령·국내·길이·쇼츠 여부는 YouTube Data API로 후보 전부 확인(쇼츠 없음). 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님.
+# 이 단원은 공공·교육 기관의 어린이용 '자주' 영상이 거의 없다. 검색에 나온 것은 교사·개인 채널(2015 교육과정 6학년용 등)뿐이라 추천이 적다. personal은 대안이 없을 때만 쓴다는 규칙(§3-1)에 따라 판단은 운영자에게 맡긴다.
+kit:
+  id: mo5111
+  title: "1. 내 삶의 주인이 되는 나"
+  grade: 5
+  sem: 1학기
+  subject: 도덕
+  unit: 1단원
+  unit_no: 1
+  flow: activity
+  codes: ["[6도01-01]"]
+  core_idea: "자주적인 삶은 내 마음대로 하는 것이 아니라, 스스로 생각해서 결정하고 그 결과에 책임을 지는 삶이에요. 작은 일부터 계획을 세워 실천하며 내 삶의 주인이 될 수 있어요."
+  core_question: "나는 내 삶의 주인으로서 오늘 무엇을 스스로 정하고 실천할 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "자주적으로 산다는 것은 무엇일까?"
+    - name: 탐구하기
+      question: "자주적인 삶은 왜 필요하고, 어떻게 실천할까?"
+    - name: 확장하기
+      question: "자주적으로 산 사람에게서 무엇을 본받을 수 있을까?"
+  concepts:
+    - "자주"
+    - "결정"
+    - "책임"
+    - "계획"
+    - "실천"
+  source_notes: "정리본 도덕5.국정.u1(1차시 자주의 뜻·결정과 책임 → 2차시 자주적 삶의 힘든 점·좋은 점 → 3차시 자주 실천 계획서 → 4차시 인물에게서 본받을 점) · 오개념: 내 마음대로·고집을 자주로 봄, 남의 말·유행 따르기, 어른이 시킨 일은 모두 비자주 · cautions: 자주는 힘들기만 하다는 결론 금지, 작은 일부터 짧은 기간, 본받을 인물은 가족·친구도 가능 · 어린이용 공공 영상이 거의 없어 추천이 적음(현행 6학년 구판 교사 채널만 다수)."
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "자주적인 생활을 시작해요"
+    url: https://www.youtube.com/watch?v=DBmIf-X4IF8
+    channel: "오늘의도덕"
+    channel_grade: personal
+    duration: "5:57"
+    use: 수업 중
+    basis_code: "[6도01-01]"
+    basis_lesson: "1차시 자주의 뜻"
+    desc: "자주적인 생활이 무엇이고 어떻게 시작하는지 설명하는 초등 도덕 수업 영상이에요."
+    verdict: 확인필요
+    note: "교사 개인 채널(2020), 2015 교육과정 6학년 도덕 1단원 영상이라 현행 5학년과 내용이 다를 수 있음. 공공 대안이 없어 personal 사유 기록 — 운영자 판단."
+  - cand_no: c02
+    stage: 탐구하기
+    title: "자기 주도 학습 — 방학 중 생활안전 9"
+    url: https://www.youtube.com/watch?v=EWCgKmW70bc
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "10:56"
+    use: 수업 중
+    basis_code: "[6도01-01]"
+    basis_lesson: "3차시 자주 실천 계획"
+    desc: "방학 동안 독서와 자기주도학습을 스스로 계획하고 실천하는 방법을 알려 줘요."
+    verdict: 확인필요
+    note: "대구 교육연구기관 제작(2023). 10분 56초라 구간 필수 — 시청 후 구간을 정하거나 제외."
+  - cand_no: c03
+    stage: 탐구하기
+    title: "학생이 이끄는 탐구 학습 — 천내초등학교"
+    url: https://www.youtube.com/watch?v=WLSuZ5XCMCY
+    channel: "ch B tv 대구"
+    channel_grade: press
+    local: 대구
+    duration: "3:32"
+    use: 수업 후
+    basis_code: "[6도01-01]"
+    basis_lesson: "2차시 자주적인 삶의 좋은 점"
+    desc: "대구 천내초등학교 학생들이 스스로 주제를 정해 탐구하는 학습을 전해요."
+    verdict: 추천
+    note: "대구 지역 언론의 대구미래학교 시리즈(2025). 학생이 결정하고 책임지는 학습 사례."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "교육감 신년 간담회 — 주도성·관계성·자율성"
+    url: https://www.youtube.com/watch?v=sgced66c83E
+    channel: "ch B tv 대구"
+    channel_grade: press
+    local: 대구
+    duration: "3:23"
+    use: 배경지식
+    basis_code: "[6도01-01]"
+    basis_lesson: "교사 배경"
+    desc: "대구시교육감이 학생의 주도성·자율성 교육을 강화하겠다고 밝힌 기자간담회 뉴스예요."
+    verdict: 보류
+    note: "교육감 인물 중심 정책 보도(2022) — 학생용 아님·인물 홍보 우려."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "나는 정말 의지력이 부족한 걸까"
+    url: https://www.youtube.com/watch?v=Q4cC7WrBk9s
+    channel: "EBSCulture (EBS 교양)"
+    channel_grade: edu
+    duration: "5:01"
+    use: 수업 후
+    basis_code: "[6도01-01]"
+    basis_lesson: "3차시 자주 실천 계획"
+    desc: "의지력이 약해서가 아니라 방법의 문제일 수 있다는 것을 과학적으로 짚어 줘요."
+    verdict: 보류
+    note: "성인 대상 지식채널e(2021) — 5학년 눈높이 아님."
+  - cand_no: c06
+    stage: 확장하기
+    title: "독립을 위해 만세를 외친 소녀, 유관순"
+    url: https://www.youtube.com/watch?v=qPREqBJ4osA
+    channel: "독립기념관 The Independence Hall of Korea"
+    channel_grade: public
+    duration: "3:36"
+    use: 수업 후
+    basis_code: "[6도01-01]"
+    basis_lesson: "4차시 본받을 인물"
+    desc: "독립운동가 유관순이 스스로 선택하고 행동한 이야기를 독립기념관 교육콘텐츠로 만나요."
+    verdict: 추천
+    note: "독립기념관 학교 배부 콘텐츠 '배움상자' 신규 주제(2026-03). 자주(독립)와 개인의 자주적 선택을 잇는 설명은 교사가 보충. 새 채널."
+  - cand_no: c07
+    stage: 확장하기
+    title: "잊지 말아야 할 독립운동가 — 유관순"
+    url: https://www.youtube.com/watch?v=IklbsjwyYr8
+    channel: "국가보훈부"
+    channel_grade: public
+    duration: "6:20"
+    use: 수업 후
+    basis_code: "[6도01-01]"
+    basis_lesson: "4차시 본받을 인물"
+    desc: "이화학당 학생이던 유관순 열사와 친구들이 3·1운동에 참여한 이야기예요."
+    verdict: 추천
+    note: "사실 전달 중심의 공식 영상(2019). c06과 둘 중 하나만 써도 됨."
+  - cand_no: c08
+    stage: 확장하기
+    title: "광복70년 독립운동가 70인의 이야기 — 유관순 열사 편"
+    url: https://www.youtube.com/watch?v=5G-JIC9OOQ0
+    channel: "국가보훈부"
+    channel_grade: public
+    duration: "1:56"
+    use: 수업 후
+    basis_code: "[6도01-01]"
+    basis_lesson: "4차시 본받을 인물"
+    desc: "독립운동가 유관순 열사의 삶을 짧게 소개해요."
+    verdict: 보류
+    note: "2015 영상으로 c07과 겹침."
+  - cand_no: c09
+    stage: 확장하기
+    title: "산수화 걸작 한자리에 — 실경산수로 만나는 조선"
+    url: https://www.youtube.com/watch?v=Yklr3ILY_PA
+    channel: "KBS News"
+    channel_grade: press
+    duration: "1:45"
+    use: 수업 후
+    basis_code: "[6도01-01]"
+    basis_lesson: "4차시 옛 산수화와 실제 풍경"
+    desc: "조선 화가 겸재 정선과 단원 김홍도가 우리 금수강산을 직접 보고 그린 실경산수화를 소개해요."
+    verdict: 추천
+    note: "지도서의 옛 산수화·실제 풍경 사진 자료와 맞음(2019). 자주적 시선(우리 눈으로 우리 땅을 그림)은 교사가 연결."
+  - cand_no: c10
+    stage: 확장하기
+    title: "겸재 정선 — 조선의 눈으로 조선을 그리다(대구간송미술관)"
+    url: https://www.youtube.com/watch?v=jR8LkZn4caI
+    channel: "대구간송미술관"
+    channel_grade: public
+    local: 대구
+    duration: "0:30"
+    use: 수업 전
+    basis_code: "[6도01-01]"
+    basis_lesson: "4차시 옛 산수화"
+    desc: "대구간송미술관 겸재 정선 특별전을 알리는 짧은 영상이에요."
+    verdict: 보류
+    note: "전시 홍보 영상 0분 30초(쇼츠는 아님). 새 채널."
+  - cand_no: c11
+    stage: 확장하기
+    title: "전국 최초의 국채보상운동 — 대구 서상돈 선생"
+    url: https://www.youtube.com/watch?v=Pj3jLGe7cAY
+    channel: "경북일보TV"
+    channel_grade: press
+    local: 대구
+    duration: "4:59"
+    use: 수업 후
+    basis_code: "[6도01-01]"
+    basis_lesson: "4차시 본받을 인물"
+    desc: "대구에서 시작된 국채보상운동과 서상돈 선생의 이야기를 골목 이야기로 만나요."
+    verdict: 확인필요
+    note: "대구 지역 이야기이지만 국채보상운동은 나라의 경제 자주(공동체 행동)라 개인의 자주적 삶과는 결이 다름 — 연결할지 운영자 판단. 새 채널."
+  - cand_no: c12
+    stage: 확장하기
+    title: "국채보상운동 발의자 서상돈 서거 112주기 특별전"
+    url: https://www.youtube.com/watch?v=ifJZ9id7rrc
+    channel: "ch B tv 대구"
+    channel_grade: press
+    local: 대구
+    duration: "3:28"
+    use: 수업 후
+    basis_code: "[6도01-01]"
+    basis_lesson: "4차시 본받을 인물"
+    desc: "서상돈 선생의 업적을 되새기는 대구 특별전을 전하는 뉴스예요."
+    verdict: 확인필요
+    note: "c11과 같은 이유로 연결 판단 필요. 전시 홍보 성격."
+  - cand_no: c13
+    stage: 확장하기
+    title: "1조 서상돈 선생님의 국채보상운동"
+    url: https://www.youtube.com/watch?v=S4-GGM1oQO8
+    channel: "대구동덕초등학교"
+    channel_grade: edu
+    local: 대구
+    duration: "1:08"
+    use: 수업 후
+    basis_code: "[6도01-01]"
+    basis_lesson: "4차시 본받을 인물"
+    desc: "대구동덕초등학교 학생들이 우리 지역 역사 인물 서상돈을 소개한 영상이에요."
+    verdict: 보류
+    note: "4학년 사회 수업 산출물 — 학년 맞지 않음, 학생 출연. 새 채널."
+  - cand_no: c14
+    stage: 확장하기
+    title: "국채보상운동 112주년 — 서상돈 선생의 업적"
+    url: https://www.youtube.com/watch?v=tj3Wmm8Kzsw
+    channel: "cpbc 뉴스"
+    channel_grade: press
+    duration: "3:47"
+    use: 수업 후
+    basis_code: "[6도01-01]"
+    basis_lesson: "4차시 본받을 인물"
+    desc: "국채보상운동의 의의와 서상돈 선생의 업적을 기획 보도로 알려 줘요."
+    verdict: 보류
+    note: "2019 보도. 종교 방송 — 지역 뉴스(c11) 대안 있으면 제외."
