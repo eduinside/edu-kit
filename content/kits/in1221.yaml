@@ -1,0 +1,96 @@
+id: in1221
+title: 2. 약속
+grade: 1
+sem: 2학기
+subject: 통합
+unit: 2단원
+unit_no: 2
+flow: activity
+sort_order: 1
+published: false
+intro:
+  core_idea: 지구와 모든 생명이 오래 살아가려면 물, 쓰레기, 동물을 아끼는 약속이 필요해요. 작은 실천을 함께하면 지구를 지킬 수 있어요.
+  core_question: 지구를 위해 우리가 지킬 약속은 무엇일까?
+  concepts:
+    - term: 약속
+      def: 서로 지키기로 한 말이에요.
+    - term: 지구
+      def: 우리가 살고 있는 둥근 별이에요.
+    - term: 분리배출
+      def: 쓰레기를 종류별로 나누어 버리는 것이에요.
+    - term: 아껴 쓰기
+      def: 물이나 물건을 낭비하지 않고 알맞게 쓰는 것이에요.
+    - term: 일회용품
+      def: 한 번 쓰고 버리는 물건이에요.
+  standards:
+    - code: "[2바03-04]"
+      text: 공동체 속에서 지속가능성을 위한 삶의 방식을 찾아 실천한다.
+    - code: "[2슬03-04]"
+      text: 우리의 생활과 관련된 지속가능성의 다양한 사례를 찾고 탐색한다.
+    - code: "[2즐03-04]"
+      text: 안전과 안녕을 위한 아동의 권리가 있음을 알고 누린다.
+stages:
+  - name: 생각열기
+    question: 지구와 우리를 위한 약속에는 무엇이 있을까?
+  - name: 탐구하기
+    question: 물·쓰레기·동물을 지키려면 어떻게 할까?
+  - name: 확장하기
+    question: 우리가 함께 지킬 약속은 무엇일까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 북극 얼음이 녹으면 북극곰은 사라질까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=089-pUiYU_I
+    desc: 지구가 따뜻해지면 북극의 얼음과 북극곰이 어떻게 되는지 알려 줘요.
+    channel: 국립어린이과학관
+  - key: v2
+    stage: 탐구하기
+    title: 탄소 발자국을 줄여요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=wC9lOfGB_xo
+    desc: 생활 속에서 탄소 발자국을 줄이는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v3
+    stage: 탐구하기
+    title: 빗물을 저금해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tR0kQ5wYX1w
+    desc: 빗물을 모아 쓰며 물을 아끼는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v4
+    stage: 탐구하기
+    title: 교실에서 분리배출해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=fEmIG63XuKE
+    desc: 교실에서 쓰레기를 나누어 버리는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v5
+    stage: 확장하기
+    title: 우리 반 당근마켓
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=fTDNDRvPreE
+    desc: 쓰던 물건을 나누고 바꾸어 쓰는 활동을 보여 줘요.
+    channel: 대구미래교육연구원
+quiz:
+  - statement: 양치할 때 물을 틀어 놓으면 물이 낭비돼요.
+    answer: O
+    explain: 컵에 물을 받아 쓰면 물을 아낄 수 있어요.
+  - statement: 플라스틱은 분리배출해야 해요.
+    answer: O
+    explain: 나누어 버리면 다시 쓸 수 있어요.
+  - statement: 일회용품은 많이 쓸수록 지구에 좋아요.
+    answer: X
+    explain: 일회용품을 줄이면 쓰레기가 줄어요.
+  - statement: 쓰레기는 아무 데나 버려도 돼요.
+    answer: X
+    explain: 쓰레기는 쓰레기통에 버려요.
+  - statement: 빗물을 모아 쓰면 물을 아낄 수 있어요.
+    answer: O
+    explain: 모은 빗물로 화단에 물을 줄 수 있어요.
+  - statement: 쓰던 물건을 다시 쓰면 쓰레기를 줄일 수 있어요.
+    answer: O
+    explain: 다시 쓰면 새로 만들 필요가 줄어요.
+  - statement: 안 쓰는 방의 불을 켜 두는 것이 지구에 좋아요.
+    answer: X
+    explain: 안 쓰는 불은 꺼서 에너지를 아껴요.

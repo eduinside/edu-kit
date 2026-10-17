@@ -1,0 +1,194 @@
+# in1141 후보 기록 — 통합 1학년 1학기 4단원 「탐험」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in1141 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 
+kit:
+  id: "in1141"
+  title: "4. 탐험"
+  grade: 1
+  sem: "1학기"
+  subject: "통합"
+  unit: "4단원"
+  unit_no: 4
+  flow: "activity"
+  codes: ["[2바02-04]", "[2슬02-04]", "[2즐02-04]"]
+  core_idea: "우주, 바닷속, 남극처럼 가 보기 어려운 곳도 알아보고 상상하며 탐험할 수 있어요. 궁금한 것을 찾아보면 새로운 세상을 알게 돼요."
+  core_question: "내가 가 보고 싶은 곳은 어떤 모습일까?"
+  stages:
+    - name: 생각열기
+      question: "어디로 탐험을 떠나 볼까?"
+    - name: 탐구하기
+      question: "궁금한 세계를 어떻게 알아볼까?"
+    - name: 확장하기
+      question: "알게 된 새로운 세상을 어떻게 상상하고 전할까?"
+  concepts:
+    - "탐험"
+    - "우주"
+    - "바다"
+    - "극지"
+    - "궁금증"
+  source_notes: "정리본 통합1-1.국정.탐험(주제 20차시 2~21) · 영상류: 우주 음악·바닷속 생물·신고 사례 영상 · 기관: 한국천문연구원·극지연구소·한국항공우주연구원·NASA"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "우주에서는 어떻게 생활할까?"
+    video_title: "우주 생활 - 활동 편│천문우주 콘텐츠 모음집│우주.ZIP│누리호를 응원합니다."
+    url: https://www.youtube.com/watch?v=bPVqG27hZSE
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "2:29"
+    use: 수업 전
+    basis_code: "[2슬02-04]"
+    basis_lesson: "4~5차시 어디로 갈까요"
+    desc: "우주에서 먹고 자고 생활하는 모습을 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 29초(2022). 국립어린이과학관(표 public)."
+  - cand_no: c02
+    stage: 생각열기
+    title: "우리나라 우주발사체 누리호"
+    video_title: "대한민국 우주발사체 '누리호' 높은 정밀도로 성공적 비행 완료!  4K 영상 최초 공개(+미공개 컷)"
+    url: https://www.youtube.com/watch?v=qsO5-xAbxJ8
+    channel: "한국항공우주연구원 KARI TV"
+    channel_grade: public
+    duration: "2:17"
+    use: 수업 중
+    basis_code: "[2슬02-04]"
+    basis_lesson: "7차시 무엇을 타고 갈까"
+    desc: "우리나라가 만든 우주 로켓 누리호가 하늘로 날아오르는 모습을 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 17초(2023). 한국항공우주연구원 공식 채널(표 public)."
+  - cand_no: c03
+    stage: 생각열기
+    title: "새벽 하늘을 가로지른 누리호"
+    video_title: "[KARI] 새벽 하늘을 가로지른 누리호 4차 발사 성공!"
+    url: https://www.youtube.com/watch?v=kj-oIE3ABNk
+    channel: "한국항공우주연구원 KARI TV"
+    channel_grade: public
+    duration: "1:29"
+    use: 수업 전
+    basis_code: "[2슬02-04]"
+    basis_lesson: "7차시 무엇을 타고 갈까"
+    desc: "누리호가 새벽 하늘로 날아가는 모습을 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "1분 29초(2025). 같은 채널."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "바닷속 신비한 해양 생물 탐험"
+    video_title: "머리에서 불빛이 나오는 동물이 있다고? 바다 속에 살고 있는 신비한 해양생물 탐험! [어린이 해양교육]"
+    url: https://www.youtube.com/watch?v=6M0ohZfm51A
+    channel: "해양수산부"
+    channel_grade: public
+    duration: "5:36"
+    use: 수업 중
+    basis_code: "[2슬02-04]"
+    basis_lesson: "16~18차시 궁금한 것을 찾아볼까"
+    desc: "깊은 바닷속에 사는 신기한 생물을 어린이 해양교육 영상으로 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "5분 36초(2022). 해양수산부 공식 채널(표 public)."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "극지에 사는 동물"
+    video_title: "내가 PICK!할 극지동물은?"
+    url: https://www.youtube.com/watch?v=sbLfHAq82Jw
+    channel: "극지연구소"
+    channel_grade: public
+    duration: "3:50"
+    use: 수업 중
+    basis_code: "[2슬02-04]"
+    basis_lesson: "16~18차시 궁금한 것을 찾아볼까"
+    desc: "남극과 북극에 사는 동물을 소개해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "3분 50초(2021). 극지연구소 공식 채널(표 public)."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "우리나라 최초의 남극 탐험"
+    video_title: "우리나라 최초의남극 탐험이 100년 전??"
+    url: https://www.youtube.com/watch?v=FIuQl72QFTA
+    channel: "극지연구소"
+    channel_grade: public
+    duration: "1:49"
+    use: 수업 중
+    basis_code: "[2바02-04]"
+    basis_lesson: "6차시 탐험가를 만나 볼까"
+    desc: "우리나라 사람이 100년 전에 남극을 탐험한 이야기를 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "1분 49초(2020). 극지연구소."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "빙하탐험대"
+    video_title: "[빙하탐험대 1탄] 빙하 연구는 실제로 어떤 일을 할까요?"
+    url: https://www.youtube.com/watch?v=65Xes4womVk
+    channel: "극지연구소"
+    channel_grade: public
+    duration: "5:08"
+    use: 수업 중
+    basis_code: "[2슬02-04]"
+    basis_lesson: "16~18차시"
+    desc: "빙하를 연구하는 일을 알려 줘요."
+    verdict: 보류
+    note: "5분 8초(2022). 극지연구소 — 1학년 눈높이 확인. 대상 학년이 높아 보임 — 보류."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "남극 탐험의 역사"
+    video_title: "남극탐험의역사"
+    url: https://www.youtube.com/watch?v=ZqrXGb4qU-4
+    channel: "극지 톡톡"
+    channel_grade: public
+    duration: "5:15"
+    use: 수업 후
+    basis_code: "[2바02-04]"
+    basis_lesson: "6차시 탐험가를 만나 볼까"
+    desc: "사람들이 남극을 어떻게 탐험해 왔는지 알려 줘요."
+    verdict: 보류
+    note: "5분 15초(2020). 극지연구소 운영 '극지 톡톡' 채널(표 public). 대상 학년이 높아 보임 — 보류."
+  - cand_no: c09
+    stage: 확장하기
+    title: "외계인은 정말 있나요?"
+    video_title: "[어린이의 질문 19] 외계인은 정말 있나요?"
+    url: https://www.youtube.com/watch?v=MSrDpV6JSvY
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "2:45"
+    use: 수업 후
+    basis_code: "[2슬02-04]"
+    basis_lesson: "11~12차시 내가 도착한 세상"
+    desc: "외계인이 정말 있는지 궁금한 질문에 과학자가 답해 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 45초(2021). '어린이가 궁금해하는 과학'."
+  - cand_no: c10
+    stage: 확장하기
+    title: "다른 행성에도 생명체가 살까?"
+    video_title: "[어린이의 질문 17] 지구 외 다른 행성에도 생명체가 살고 있는지 궁금해요."
+    url: https://www.youtube.com/watch?v=XX8RbuXuOIw
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "3:04"
+    use: 수업 후
+    basis_code: "[2슬02-04]"
+    basis_lesson: "11~12차시 내가 도착한 세상"
+    desc: "다른 행성에 생명체가 사는지 알아봐요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "3분 4초(2021)."
+  - cand_no: c11
+    stage: 확장하기
+    title: "약 잘 먹는 법"
+    video_title: "약도 잘 복용하는 법이 있어요!!"
+    url: https://www.youtube.com/watch?v=bStWNNxxjLE
+    channel: "식품의약품안전처"
+    channel_grade: public
+    duration: "3:26"
+    use: 수업 후
+    basis_code: "[2바02-04]"
+    basis_lesson: "30~33차시 안전"
+    desc: "약을 바르게 먹는 방법을 알려 줘요."
+    verdict: 보류
+    note: "안전 차시 영상 — 주제 중심 지시로 보류."

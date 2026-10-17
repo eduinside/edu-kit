@@ -1,0 +1,114 @@
+id: in1141
+title: 4. 탐험
+grade: 1
+sem: 1학기
+subject: 통합
+unit: 4단원
+unit_no: 4
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 우주, 바닷속, 남극처럼 가 보기 어려운 곳도 알아보고 상상하며 탐험할 수 있어요. 궁금한 것을 찾아보면 새로운 세상을 알게 돼요.
+  core_question: 내가 가 보고 싶은 곳은 어떤 모습일까?
+  concepts:
+    - term: 탐험
+      def: 잘 모르는 곳에 가서 살펴보고 알아내는 일이에요.
+    - term: 우주
+      def: 지구 밖에 있는 아주 넓은 공간이에요.
+    - term: 극지
+      def: 남극과 북극처럼 지구에서 가장 추운 곳이에요.
+    - term: 누리호
+      def: 우리나라가 만든 우주 로켓이에요.
+    - term: 궁금증
+      def: 알고 싶은 마음이에요.
+  standards:
+    - code: "[2바02-04]"
+      text: 새로운 활동에 호기심을 갖고 도전한다.
+    - code: "[2슬02-04]"
+      text: 궁금한 세계를 다양한 매체로 탐색한다.
+    - code: "[2즐02-04]"
+      text: 다양한 세상을 상상하고 표현한다.
+stages:
+  - name: 생각열기
+    question: 어디로 탐험을 떠나 볼까?
+  - name: 탐구하기
+    question: 궁금한 세계를 어떻게 알아볼까?
+  - name: 확장하기
+    question: 알게 된 새로운 세상을 어떻게 상상하고 전할까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 우주에서는 어떻게 생활할까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=bPVqG27hZSE
+    desc: 우주에서 먹고 자고 생활하는 모습을 보여 줘요.
+    channel: 국립어린이과학관
+  - key: v2
+    stage: 생각열기
+    title: 우리나라 우주발사체 누리호
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qsO5-xAbxJ8
+    desc: 우리나라가 만든 우주 로켓 누리호가 하늘로 날아오르는 모습을 보여 줘요.
+    channel: 한국항공우주연구원 KARI TV
+  - key: v3
+    stage: 생각열기
+    title: 새벽 하늘을 가로지른 누리호
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=kj-oIE3ABNk
+    desc: 누리호가 새벽 하늘로 날아가는 모습을 보여 줘요.
+    channel: 한국항공우주연구원 KARI TV
+  - key: v4
+    stage: 탐구하기
+    title: 바닷속 신비한 해양 생물 탐험
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6M0ohZfm51A
+    desc: 깊은 바닷속에 사는 신기한 생물을 어린이 해양교육 영상으로 보여 줘요.
+    channel: 해양수산부
+  - key: v5
+    stage: 탐구하기
+    title: 극지에 사는 동물
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=sbLfHAq82Jw
+    desc: 남극과 북극에 사는 동물을 소개해요.
+    channel: 극지연구소
+  - key: v6
+    stage: 탐구하기
+    title: 우리나라 최초의 남극 탐험
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=FIuQl72QFTA
+    desc: 우리나라 사람이 100년 전에 남극을 탐험한 이야기를 알려 줘요.
+    channel: 극지연구소
+  - key: v7
+    stage: 확장하기
+    title: 외계인은 정말 있나요?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=MSrDpV6JSvY
+    desc: 외계인이 정말 있는지 궁금한 질문에 과학자가 답해 줘요.
+    channel: 국립어린이과학관
+  - key: v8
+    stage: 확장하기
+    title: 다른 행성에도 생명체가 살까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=XX8RbuXuOIw
+    desc: 다른 행성에 생명체가 사는지 알아봐요.
+    channel: 국립어린이과학관
+quiz:
+  - statement: 남극은 아주 추운 곳이에요.
+    answer: O
+    explain: 남극과 북극은 지구에서 가장 추운 곳이에요.
+  - statement: 누리호는 우리나라가 만든 우주 로켓이에요.
+    answer: O
+    explain: 누리호는 우리나라 기술로 만들었어요.
+  - statement: 궁금한 것은 책이나 영상으로도 알아볼 수 있어요.
+    answer: O
+    explain: 여러 방법으로 찾아보면 새로운 것을 알게 돼요.
+  - statement: 바닷속에는 아무 생물도 살지 않아요.
+    answer: X
+    explain: 바닷속에는 여러 생물이 살아요.
+  - statement: 탐험을 떠날 때는 아무것도 준비하지 않아도 돼요.
+    answer: X
+    explain: 필요한 물건과 안전을 미리 준비해요.
+  - statement: 남극에는 사람이 한 번도 간 적이 없어요.
+    answer: X
+    explain: 남극에는 연구소가 있어서 사람들이 연구를 해요.

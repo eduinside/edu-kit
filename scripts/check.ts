@@ -29,7 +29,7 @@ for (const w of transform(toSheetRows(docs)).warnings) err("빌드", w);
 const channelGrades = loadChannelGrades();
 for (const e of channelGrades.errors) err("채널 등급", e);
 
-// ── 3. 성취기준 기준표(2022 사회·과학·도덕·실과)
+// ── 3. 성취기준 기준표(2022 사회·과학·도덕·실과·통합교과)
 const ref = JSON.parse(readFileSync(resolve(ROOT, "content/_ref/standards-2022.json"), "utf8")) as {
   standards: { code: string; subject: string; gradeBand: string; text: string }[];
 };
@@ -39,7 +39,7 @@ const refByCode = new Map(ref.standards.map((s) => [s.code, s]));
 const topicRef = YAML.parse(readFileSync(resolve(ROOT, "content/_ref/topics.yaml"), "utf8")) as { groups: { name: string; tags: string[] }[] };
 const TOPIC_VOCAB = new Set(topicRef.groups.flatMap((g) => g.tags));
 let noTopics = 0;
-const bandOf = (grade: number) => (grade <= 4 ? "3-4" : "5-6");
+const bandOf = (grade: number) => (grade <= 2 ? "1-2" : grade <= 4 ? "3-4" : "5-6");
 const loose = (s: string) => s.replace(/[⋅․•∙]/g, "·").replace(/\s+/g, "").replace(/[.。]$/, "");
 const tight = (s: string) => s.replace(/\s+/g, " ").trim();
 
@@ -60,7 +60,7 @@ for (const d of docs) {
     (codeUsers.get(s.code) ?? codeUsers.set(s.code, []).get(s.code)!).push(K);
     if (/[–—−]/.test(s.code)) { err(K, `성취기준 코드에 줄표(–) ${s.code} — 하이픈(-)으로`); continue; }
     const r = refByCode.get(s.code);
-    if (!r) { err(K, `성취기준 코드 ${s.code}가 2022 사회·과학·도덕·실과 목록에 없음`); continue; }
+    if (!r) { err(K, `성취기준 코드 ${s.code}가 2022 사회·과학·도덕·실과·통합교과 목록에 없음`); continue; }
     if (r.subject !== d.subject) err(K, `성취기준 ${s.code}는 ${r.subject} — 꾸러미 교과(${d.subject})와 다름`);
     if (r.gradeBand !== bandOf(d.grade)) err(K, `성취기준 ${s.code}는 ${r.gradeBand}학년군 — 꾸러미 ${d.grade}학년과 맞지 않음`);
     if (tight(s.text) !== tight(r.text)) {

@@ -1,0 +1,91 @@
+id: in2241
+title: 4. 인물
+grade: 2
+sem: 2학기
+subject: 통합
+unit: 4단원
+unit_no: 4
+flow: activity
+sort_order: 1
+published: false
+intro:
+  core_idea: 우리 둘레와 옛날에는 고마운 인물이 많아요. 세종대왕처럼 사람들을 위해 일한 인물을 알고 본받으면 함께 사는 마음이 자라요.
+  core_question: 인물에게서 무엇을 배워 실천할까?
+  concepts:
+    - term: 인물
+      def: 훌륭한 일을 해서 사람들이 기억하는 사람이에요.
+    - term: 세종대왕
+      def: 한글을 만들어 백성을 사랑한 조선의 임금이에요.
+    - term: 한글
+      def: 세종대왕이 만든 우리나라 글자예요.
+    - term: 본받기
+      def: 다른 사람의 좋은 점을 보고 따라 하는 것이에요.
+  standards:
+    - code: "[2바03-03]"
+      text: 여러 인물의 삶을 통해 공동체성을 기른다.
+    - code: "[2슬03-03]"
+      text: 관심 있는 대상의 과거와 현재를 살펴보고 미래를 상상한다.
+    - code: "[2즐03-03]"
+      text: 전통문화를 새롭게 표현한다.
+stages:
+  - name: 생각열기
+    question: 우리 둘레에는 어떤 인물이 있을까?
+  - name: 탐구하기
+    question: 인물은 무엇을 남겼을까?
+  - name: 확장하기
+    question: 인물에게서 무엇을 배워 실천할까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 세종대왕은 미래를 알고 있었을까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=HPPpiTuILz4
+    desc: 세종대왕이 한글을 만든 까닭을 만화로 알려 줘요.
+    channel: 국립한글박물관
+  - key: v2
+    stage: 탐구하기
+    title: 세종대왕과 함께 부르는 훈민정음가
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Uvfzgvkpmfs
+    desc: 세종대왕과 함께 훈민정음 노래를 따라 불러요.
+    channel: 국립한글박물관
+  - key: v3
+    stage: 탐구하기
+    title: ㄱ, ㄴ, ㄷ 이름은 누가 붙였을까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qhSONxqUSLA
+    desc: 한글 자음 이름을 지은 사람과 이야기를 알려 줘요.
+    channel: 국립한글박물관
+  - key: v4
+    stage: 탐구하기
+    title: 조선 마지막 공주의 한글 사랑
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=MHbYUimQZII
+    desc: 한글을 사랑한 조선 마지막 공주의 이야기를 알려 줘요.
+    channel: 국립한글박물관
+  - key: v5
+    stage: 확장하기
+    title: 한글날이 10월 9일이 아니었다고?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=XhrJZWo5flw
+    desc: 한글날이 언제 어떻게 정해졌는지 알려 줘요.
+    channel: 국립한글박물관
+quiz:
+  - statement: 한글은 세종대왕이 만들었어요.
+    answer: O
+    explain: 세종대왕이 백성이 쉽게 쓰도록 한글을 만들었어요.
+  - statement: 한글은 중국에서 만든 글자예요.
+    answer: X
+    explain: 한글은 우리나라 글자예요.
+  - statement: 한글날은 한글을 만든 것을 기념하는 날이에요.
+    answer: O
+    explain: 해마다 한글의 소중함을 되새겨요.
+  - statement: 인물의 좋은 점은 따라 해 볼 수 있어요.
+    answer: O
+    explain: 본받으면 나도 함께 사는 마음이 자라요.
+  - statement: 세종대왕은 조선의 첫 번째 임금이에요.
+    answer: X
+    explain: 세종대왕은 조선의 네 번째 임금이에요.
+  - statement: 세종대왕은 백성을 위해 한글을 만들었어요.
+    answer: O
+    explain: 글자를 몰라 어려운 백성을 돕고 싶어서예요.

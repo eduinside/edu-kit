@@ -1,0 +1,74 @@
+id: in1211
+title: 1. 하루
+grade: 1
+sem: 2학기
+subject: 통합
+unit: 1단원
+unit_no: 1
+flow: activity
+sort_order: 1
+published: false
+intro:
+  core_idea: 하루는 낮과 밤으로 이어지고 우리는 아침부터 밤까지 규칙적으로 생활해요. 건강하게 지내고 소중히 보내면 하루가 즐거워져요.
+  core_question: 나의 하루를 어떻게 건강하고 알차게 보낼까?
+  concepts:
+    - term: 하루
+      def: 해가 뜨고 지고 다시 뜰 때까지의 시간이에요.
+    - term: 낮과 밤
+      def: 해가 떠 있는 때는 낮, 해가 지고 어두운 때는 밤이에요.
+    - term: 규칙적
+      def: 정해진 때에 같은 일을 하는 것이에요.
+    - term: 건강
+      def: 몸과 마음이 튼튼하고 아프지 않은 것이에요.
+  standards:
+    - code: "[2바03-01]"
+      text: 하루의 가치를 느끼며 지금을 소중히 여긴다.
+    - code: "[2슬03-01]"
+      text: 하루의 변화와 사람들이 하루를 살아가는 모습을 탐색한다.
+    - code: "[2즐03-01]"
+      text: 하루를 건강하고 활기차게 지낸다.
+stages:
+  - name: 생각열기
+    question: 하루는 어떻게 흘러갈까?
+  - name: 탐구하기
+    question: 하루를 건강하게 보내려면 어떻게 할까?
+  - name: 확장하기
+    question: 소중한 하루를 어떻게 이어 갈까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 낮과 밤은 왜 있을까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=viuSDmMGLIU
+    desc: 낮과 밤이 왜 생기는지 어린이의 질문에 과학자가 답해 줘요.
+    channel: 국립어린이과학관
+  - key: v2
+    stage: 탐구하기
+    title: 마음에 숨쉬기가 필요해요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=soR6kRn8Odo
+    desc: 편안한 마음을 위해 숨 쉬는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v3
+    stage: 탐구하기
+    title: 손 씻기 6단계
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=wd6XR9Q1IM8
+    desc: 손을 씻는 순서 여섯 단계를 보여 줘요.
+    channel: 질병관리청 아프지마TV
+quiz:
+  - statement: 지구가 돌면서 낮과 밤이 생겨요.
+    answer: O
+    explain: 지구가 돌기 때문에 해가 비치는 곳이 바뀌어요.
+  - statement: 밤에 일찍 자면 몸이 건강해져요.
+    answer: O
+    explain: 충분히 자면 키도 크고 힘도 나요.
+  - statement: 하루는 스물네 시간이에요.
+    answer: O
+    explain: 하루는 24시간이에요.
+  - statement: 해가 뜨면 밤이에요.
+    answer: X
+    explain: 해가 뜨면 낮이에요.
+  - statement: 규칙적으로 생활하는 것은 몸에 좋지 않아요.
+    answer: X
+    explain: 정해진 때에 자고 일어나면 몸이 건강해져요.

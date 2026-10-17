@@ -1,0 +1,93 @@
+# in1241 후보 기록 — 통합 1학년 2학기 4단원 「상상」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in1241 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 공공·교육 채널에 '상상' 주제 영상이 거의 없어 공개를 보류하고 검색 쿼터가 풀린 뒤 보완한다.
+kit:
+  id: "in1241"
+  title: "4. 상상"
+  grade: 1
+  sem: "2학기"
+  subject: "통합"
+  unit: "4단원"
+  unit_no: 4
+  flow: "activity"
+  published: false
+  codes: ["[2바04-02]", "[2슬04-02]", "[2즐04-02]"]
+  core_idea: "상상하면 새로운 생각과 물건을 떠올릴 수 있어요. 상상한 것을 그림, 소리, 몸으로 표현하면 모두와 함께 즐길 수 있어요."
+  core_question: "상상한 것을 어떻게 표현할까?"
+  stages:
+    - name: 생각열기
+      question: "상상하면 무엇이 달라질까?"
+    - name: 탐구하기
+      question: "상상한 것을 어떻게 표현할까?"
+    - name: 확장하기
+      question: "상상이 우리 생활을 어떻게 바꿀까?"
+  concepts:
+    - "상상"
+    - "표현"
+    - "발명"
+    - "창의"
+    - "놀이"
+  source_notes: "정리본 통합1-2.국정.상상(주제 20차시 2~21) · 영상류: 무료 음악 만들기 누리집·마임 영상(공공 영상 거의 없음)"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "하늘을 나는 자동차를 만날 수 있을까?"
+    video_title: "[어린이의 질문4] 하늘을 나는 자동차는 언제 만날 수 있을까요?"
+    url: https://www.youtube.com/watch?v=8qtRXdCNLyo
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "3:03"
+    use: 수업 전
+    basis_code: "[2슬04-02]"
+    basis_lesson: "8차시 여기저기에서 본다면"
+    desc: "하늘을 나는 자동차를 언제 만날 수 있을지 과학자가 답해 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "3분 3초(2021). '어린이가 궁금해하는 과학'."
+  - cand_no: c02
+    stage: 생각열기
+    title: "타임머신을 만들 수 있을까요?"
+    video_title: "[어린이의 질문 7] 타임머신을 만들 수 있나요?"
+    url: https://www.youtube.com/watch?v=NSGfetOD5jw
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "2:29"
+    use: 수업 전
+    basis_code: "[2슬04-02]"
+    basis_lesson: "13차시 우리 반에 공룡이 나타난다면"
+    desc: "타임머신을 만들 수 있는지 어린이의 질문에 답해 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 29초(2021)."
+  - cand_no: c03
+    stage: 확장하기
+    title: "땅속 통로를 만들 수 있을까요?"
+    video_title: "[어린이의 질문 11] 차들이 막힐 때 빨리 가는 땅 속 통로를 만들 수 있나요?"
+    url: https://www.youtube.com/watch?v=u8ibthFl3Uo
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "2:05"
+    use: 수업 후
+    basis_code: "[2슬04-02]"
+    basis_lesson: "20차시 우리들의 놀이터를 만든다면"
+    desc: "차가 막힐 때 땅속 통로로 빨리 갈 수 있는지 알아봐요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 5초(2021)."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "하늘거울로 놀아요"
+    video_title: "[즐거운 환경 수업] 08. 자연아, 놀자! (하늘거울)"
+    url: https://www.youtube.com/watch?v=qXbtNvr_IxQ
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:40"
+    use: 수업 중
+    basis_code: "[2즐04-02]"
+    basis_lesson: "6~10차시"
+    desc: "하늘거울로 하늘을 다르게 보는 놀이를 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 40초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."

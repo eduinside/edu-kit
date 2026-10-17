@@ -1,0 +1,93 @@
+id: in1231
+title: 3. 이야기
+grade: 1
+sem: 2학기
+subject: 통합
+unit: 3단원
+unit_no: 3
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 이야기는 소원과 마음을 나누게 해 줘요. 이야기를 듣고 만들고 공연하면 서로의 생각을 더 잘 알 수 있어요.
+  core_question: 이야기로 우리 마음을 어떻게 나눌까?
+  concepts:
+    - term: 이야기
+      def: 사람이나 동물이 겪은 일을 말이나 글로 들려주는 것이에요.
+    - term: 소원
+      def: 이루고 싶은 바람이에요.
+    - term: 전래동화
+      def: 옛날부터 전해 내려오는 이야기예요.
+    - term: 인형극
+      def: 인형이 나와서 이야기를 보여 주는 공연이에요.
+    - term: 공연
+      def: 여러 사람 앞에서 노래나 연극 같은 것을 보여 주는 것이에요.
+  standards:
+    - code: "[2바04-03]"
+      text: 여럿이 하는 활동에 관심을 갖고 자발적으로 협력한다.
+    - code: "[2슬04-03]"
+      text: 경험한 것 중에서 관심 있는 주제를 정하고 조사한다.
+    - code: "[2즐04-03]"
+      text: 생각이나 느낌을 살려 전시나 공연 활동을 한다.
+stages:
+  - name: 생각열기
+    question: 이야기에는 어떤 힘이 있을까?
+  - name: 탐구하기
+    question: 이야기를 어떻게 듣고 만들까?
+  - name: 확장하기
+    question: 내가 만든 이야기를 어떻게 나눌까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 견우와 직녀
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=PXzOlQ7JTs4
+    desc: 견우와 직녀 이야기를 전시 동화로 들려줘요.
+    channel: 국립민속박물관
+  - key: v2
+    stage: 생각열기
+    title: 연오랑과 세오녀
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=elAs5rfzpzU
+    desc: 연오랑과 세오녀 이야기를 전시 동화로 들려줘요.
+    channel: 국립민속박물관
+  - key: v3
+    stage: 탐구하기
+    title: 호랑이와 곶감
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=sfqfetfKtcs
+    desc: 전래동화 호랑이와 곶감을 그림책으로 들려줘요.
+    channel: EBS 키즈
+  - key: v4
+    stage: 탐구하기
+    title: 박박 바가지
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=O4mmICombYI
+    desc: 전래동화 박박 바가지를 그림책으로 들려줘요.
+    channel: EBS 키즈
+  - key: v5
+    stage: 탐구하기
+    title: 세상에서 제일 큰 아이
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=wwDqKj712NY
+    desc: 전래동화 세상에서 제일 큰 아이를 그림책으로 들려줘요.
+    channel: EBS 키즈
+quiz:
+  - statement: 전래동화는 옛날부터 전해 내려오는 이야기예요.
+    answer: O
+    explain: 여러 사람이 입으로 전해 온 이야기예요.
+  - statement: 이야기를 들을 때는 끝까지 귀 기울여 들어요.
+    answer: O
+    explain: 끝까지 들어야 이야기의 마음을 알 수 있어요.
+  - statement: 공연을 볼 때는 큰 소리로 떠들어도 돼요.
+    answer: X
+    explain: 다른 사람이 볼 수 있게 조용히 봐요.
+  - statement: 인형극은 인형으로 이야기를 보여 줘요.
+    answer: O
+    explain: 인형이 말하고 움직이며 이야기를 들려줘요.
+  - statement: 소원은 이루고 싶은 마음이에요.
+    answer: O
+    explain: 소원을 말로 표현해 볼 수 있어요.
+  - statement: 이야기는 책으로만 들을 수 있어요.
+    answer: X
+    explain: 말, 노래, 인형극 같은 여러 방법이 있어요.

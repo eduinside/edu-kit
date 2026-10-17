@@ -21,9 +21,9 @@ const nonEmpty = z.string().min(1);
 const CandKitSchema = z.object({
   id: z.string().regex(/^[A-Za-z0-9]{3,8}$/, "id는 3~8자 영숫자"),
   title: nonEmpty,
-  grade: z.union([z.literal(3), z.literal(4), z.literal(5), z.literal(6)]),
+  grade: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(5), z.literal(6)]),
   sem: z.enum(["1학기", "2학기"]),
-  subject: z.enum(["사회", "과학", "도덕", "실과"]),
+  subject: z.enum(["사회", "과학", "도덕", "실과", "통합"]),
   unit: nonEmpty,
   unit_no: z.number().int().positive(),
   flow: z.enum(["activity", "flow"]),
@@ -104,7 +104,7 @@ for (const f of files) {
   const stageNames = kit.stages.map((s) => (typeof s === "string" ? s : s.name));
   if (new Set(stageNames).size !== stageNames.length) errors.push("단계 이름 중복");
   const standards: { code: string; text: string }[] = [];
-  const band = kit.grade <= 4 ? "3-4" : "5-6";
+  const band = kit.grade <= 2 ? "1-2" : kit.grade <= 4 ? "3-4" : "5-6";
   for (const code of kit.codes) {
     const r = refByCode.get(code);
     if (!r) { errors.push(`성취기준 ${code}가 기준표에 없음`); continue; }

@@ -1,0 +1,149 @@
+# in1231 후보 기록 — 통합 1학년 2학기 3단원 「이야기」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in1231 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 
+kit:
+  id: "in1231"
+  title: "3. 이야기"
+  grade: 1
+  sem: "2학기"
+  subject: "통합"
+  unit: "3단원"
+  unit_no: 3
+  flow: "activity"
+  codes: ["[2바04-03]", "[2슬04-03]", "[2즐04-03]"]
+  core_idea: "이야기는 소원과 마음을 나누게 해 줘요. 이야기를 듣고 만들고 공연하면 서로의 생각을 더 잘 알 수 있어요."
+  core_question: "이야기로 우리 마음을 어떻게 나눌까?"
+  stages:
+    - name: 생각열기
+      question: "이야기에는 어떤 힘이 있을까?"
+    - name: 탐구하기
+      question: "이야기를 어떻게 듣고 만들까?"
+    - name: 확장하기
+      question: "내가 만든 이야기를 어떻게 나눌까?"
+  concepts:
+    - "이야기"
+    - "소원"
+    - "전래동화"
+    - "공연"
+    - "인형극"
+  source_notes: "정리본 통합1-2.국정.이야기(주제 20차시 2~21) · 영상류: 동화 구연·인형극·공연 영상 · 기관: 국립어린이청소년도서관·서울시교육청·제주도교육청"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "견우와 직녀"
+    video_title: "[어린이 동화] \"견우와 직녀\" 우리 이제 만나요 전시동화"
+    url: https://www.youtube.com/watch?v=PXzOlQ7JTs4
+    channel: "국립민속박물관"
+    channel_grade: public
+    duration: "4:59"
+    use: 수업 전
+    basis_code: "[2슬04-03]"
+    basis_lesson: "2차시 그림책에서 만나는 이야기"
+    desc: "견우와 직녀 이야기를 전시 동화로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "4분 59초(2022). 국립민속박물관 어린이박물관 전시동화(표 public)."
+  - cand_no: c02
+    stage: 생각열기
+    title: "연오랑과 세오녀"
+    video_title: "[어린이 동화] \"연오랑 세오녀\" 우리 이제 만나요 전시동화"
+    url: https://www.youtube.com/watch?v=elAs5rfzpzU
+    channel: "국립민속박물관"
+    channel_grade: public
+    duration: "5:07"
+    use: 수업 전
+    basis_code: "[2슬04-03]"
+    basis_lesson: "2차시 그림책에서 만나는 이야기"
+    desc: "연오랑과 세오녀 이야기를 전시 동화로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "5분 7초(2022)."
+  - cand_no: c03
+    stage: 탐구하기
+    title: "호랑이와 곶감"
+    video_title: "[그림책 뿡뿡뿡] 호랑이와 곶감｜전래동화｜EBS"
+    url: https://www.youtube.com/watch?v=sfqfetfKtcs
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "5:17"
+    use: 수업 중
+    basis_code: "[2슬04-03]"
+    basis_lesson: "9차시 이야기 마법사"
+    desc: "전래동화 호랑이와 곶감을 그림책으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "5분 17초. EBS 키즈 '그림책 뿡뿡뿡' 전래동화."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "박박 바가지"
+    video_title: "[그림책 뿡뿡뿡] 박박 바가지｜전래동화｜EBS"
+    url: https://www.youtube.com/watch?v=O4mmICombYI
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "5:54"
+    use: 수업 중
+    basis_code: "[2슬04-03]"
+    basis_lesson: "11차시 이야기를 들려줄게"
+    desc: "전래동화 박박 바가지를 그림책으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "5분 54초."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "세상에서 제일 큰 아이"
+    video_title: "[그림책 뿡뿡뿡] 세상에서 제일 큰 아이｜전래동화｜EBS"
+    url: https://www.youtube.com/watch?v=wwDqKj712NY
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "5:53"
+    use: 수업 중
+    basis_code: "[2슬04-03]"
+    basis_lesson: "11차시 이야기를 들려줄게"
+    desc: "전래동화 세상에서 제일 큰 아이를 그림책으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "5분 53초."
+  - cand_no: c06
+    stage: 확장하기
+    title: "복 타러 간 총각"
+    video_title: "[그림책 뿡뿡뿡] 복 타러 간 총각｜전래동화｜EBS"
+    url: https://www.youtube.com/watch?v=ZKihKu_4sOY
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "6:50"
+    use: 수업 후
+    basis_code: "[2슬04-03]"
+    basis_lesson: "3~4차시 소원을 말해 봐"
+    desc: "소원을 이루려고 길을 떠나는 총각 이야기를 그림책으로 들려줘요."
+    verdict: 보류
+    note: "6분 50초. 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
+  - cand_no: c07
+    stage: 확장하기
+    title: "찍찍 찍서방"
+    video_title: "어린이날 온라인 큰 잔치 샌드아트 구연동화 5편 - 찍찍 찍서방"
+    url: https://www.youtube.com/watch?v=hPQXYIfMtHI
+    channel: "국립어린이청소년도서관"
+    channel_grade: public
+    duration: "6:20"
+    use: 수업 후
+    basis_code: "[2슬04-03]"
+    basis_lesson: "11차시 이야기를 들려줄게"
+    desc: "샌드아트로 구연동화 '찍찍 찍서방'을 들려줘요."
+    verdict: 보류
+    note: "6분 20초(2020). 국립어린이청소년도서관 공식 채널(어린이날 큰 잔치). 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택). ※ 채널 등급 표에 없음 — 등급(public)은 임시, 운영자 확정."
+  - cand_no: c08
+    stage: 확장하기
+    title: "바리공주"
+    video_title: "[어린이 동화] \"바리공주\" 우리 이제 만나요 전시동화"
+    url: https://www.youtube.com/watch?v=51cM2IWuk4c
+    channel: "국립민속박물관"
+    channel_grade: public
+    duration: "7:28"
+    use: 수업 후
+    basis_code: "[2슬04-03]"
+    basis_lesson: "이야기"
+    desc: "바리공주 이야기를 전시 동화로 들려줘요."
+    verdict: 보류
+    note: "7분 28초 — 내용이 1학년에게 무거울 수 있음."

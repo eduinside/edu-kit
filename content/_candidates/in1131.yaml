@@ -1,0 +1,269 @@
+# in1131 후보 기록 — 통합 1학년 1학기 3단원 「우리나라」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in1131 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 
+kit:
+  id: "in1131"
+  title: "3. 우리나라"
+  grade: 1
+  sem: "1학기"
+  subject: "통합"
+  unit: "3단원"
+  unit_no: 3
+  flow: "activity"
+  codes: ["[2바02-02]", "[2슬02-02]", "[2즐02-02]"]
+  core_idea: "우리나라에는 태극기, 무궁화, 한글처럼 소중한 것이 많아요. 우리나라의 놀이와 노래, 명절을 알고 즐기면 우리나라를 더 사랑하게 돼요."
+  core_question: "우리나라의 소중한 것은 무엇일까?"
+  stages:
+    - name: 생각열기
+      question: "우리나라는 어떤 모습일까?"
+    - name: 탐구하기
+      question: "우리나라의 소중한 것들은 무엇일까?"
+    - name: 확장하기
+      question: "우리나라를 어떻게 느끼고 즐길까?"
+  concepts:
+    - "태극기"
+    - "무궁화"
+    - "한글"
+    - "명절"
+    - "민요"
+  source_notes: "정리본 통합1-1.국정.우리나라(주제 20차시 2~21) · 영상류: 동화 구연·한글 창제·아리랑·탈춤 공연·북한 생활 · cautions: 4괘·한복 부위 이름·아리랑 지역 차이는 외우게 하지 않고 즐기기, 애국가는 듣고 감상"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "태극기를 알고 있나요"
+    video_title: "[클립영상] 태극기를 알고 있나요"
+    url: https://www.youtube.com/watch?v=o8by9tP2J3k
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "4:18"
+    use: 수업 전
+    basis_code: "[2슬02-02]"
+    basis_lesson: "5차시 태극기가 펄럭"
+    desc: "태극기에 담긴 뜻을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "4분 18초(2022). 국립평화통일민주교육원 공식 채널(표 public)."
+  - cand_no: c02
+    stage: 생각열기
+    title: "무궁화는 어떻게 우리나라 꽃이 되었을까?"
+    video_title: "🌺무궁화(Hibiscus)는 어떻게 우리나라를 대표하는 꽃이 되었을까??ㅣ어린이과학뉴스 8월호"
+    url: https://www.youtube.com/watch?v=2tjcqO2rVCw
+    channel: "국립과천과학관"
+    channel_grade: public
+    duration: "4:45"
+    use: 수업 중
+    basis_code: "[2슬02-02]"
+    basis_lesson: "6차시 무궁화가 활짝"
+    desc: "무궁화가 어떻게 우리나라를 대표하는 꽃이 되었는지 어린이과학뉴스로 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "4분 45초(2023). 국립과천과학관 어린이과학뉴스(표 public)."
+  - cand_no: c03
+    stage: 탐구하기
+    title: "세종대왕과 함께 부르는 훈민정음가"
+    video_title: "[국립한글박물관] 세종대왕과 함께 쉽고 재미있게 따라 부르는 '훈민정음가'"
+    url: https://www.youtube.com/watch?v=Uvfzgvkpmfs
+    channel: "국립한글박물관"
+    channel_grade: public
+    duration: "2:10"
+    use: 수업 중
+    basis_code: "[2즐02-02]"
+    basis_lesson: "10차시 우리 한글"
+    desc: "세종대왕과 함께 훈민정음 노래를 따라 불러요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 10초(2020). 국립한글박물관(표 public)."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "세종대왕은 미래를 알고 있었을까?"
+    video_title: "세종대왕은 미래를 알고 있었을까? [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=HPPpiTuILz4
+    channel: "국립한글박물관"
+    channel_grade: public
+    duration: "2:33"
+    use: 수업 중
+    basis_code: "[2바02-02]"
+    basis_lesson: "10차시 우리 한글"
+    desc: "세종대왕이 한글을 만든 까닭을 만화로 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 33초(2022). 만화로 즐기는 한글 이야기 시리즈."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "ㄱ, ㄴ, ㄷ 이름은 누가 붙였을까요?"
+    video_title: "ㄱ,ㄴ,ㄷ 이름은 누가 누가 붙였을까요? [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=qhSONxqUSLA
+    channel: "국립한글박물관"
+    channel_grade: public
+    duration: "3:31"
+    use: 수업 중
+    basis_code: "[2즐02-02]"
+    basis_lesson: "10차시 우리 한글"
+    desc: "한글 자음 이름이 어떻게 생겼는지 만화로 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "3분 31초(2020). 낱말 '자음'이 1학년에게 어려울 수 있음."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "추석에 즐기는 전통놀이"
+    video_title: "추석 200% 즐겁게 보내는 방법!(feat. 전통놀이)"
+    url: https://www.youtube.com/watch?v=Qpk4dfl0HBo
+    channel: "교육부"
+    channel_grade: edu
+    duration: "5:03"
+    use: 수업 후
+    basis_code: "[2슬02-02]"
+    basis_lesson: "14차시 우리나라 명절"
+    desc: "추석에 즐길 수 있는 전통놀이를 소개해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "5분 3초(2019). 교육부 공식 채널(표 edu). 아동 출연."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "교과서 속 우리 음악 — 아리랑"
+    video_title: "교과서 속 우리음악: 민요 '아리랑'"
+    url: https://www.youtube.com/watch?v=hKFxLkcqEpI
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:30"
+    use: 수업 중
+    basis_code: "[2즐02-02]"
+    basis_lesson: "15차시 우리나라 민요"
+    desc: "민요 아리랑을 소개하고 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "1분 30초(2016). 국립국악원 공식 채널."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "소고와 만나요"
+    video_title: "[얼씨구, 국악 여행] 1. 소고와 만나요"
+    url: https://www.youtube.com/watch?v=fV8oedVy-hM
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:11"
+    use: 수업 중
+    basis_code: "[2즐02-02]"
+    basis_lesson: "15차시 우리나라 민요"
+    desc: "소고가 어떤 악기인지 알아봐요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 「얼씨구, 국악 여행」 4분 11초 — 1학년 눈높이·악기 준비 확인. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "소고를 연주해요"
+    video_title: "[얼씨구, 국악 여행] 2. 소고를 연주해요"
+    url: https://www.youtube.com/watch?v=ldpVT-svG7s
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:27"
+    use: 수업 중
+    basis_code: "[2즐02-02]"
+    basis_lesson: "15차시 우리나라 민요"
+    desc: "소고를 어떻게 치는지 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 27초. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "탈, 춤으로 잇다 — 봉산탈춤"
+    video_title: "[4k] 탈, 춤으로 잇다ㅣ봉산탈춤x아이키"
+    url: https://www.youtube.com/watch?v=LqPlpOLEd7k
+    channel: "국가유산청 Korea Heritage Service"
+    channel_grade: public
+    duration: "2:02"
+    use: 수업 중
+    basis_code: "[2즐02-02]"
+    basis_lesson: "16차시 우리나라 탈춤"
+    desc: "봉산탈춤의 탈과 춤을 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 2초(2025). 국가유산청 공식 채널(표 public). 유명인 출연 영상이라 1학년 눈높이 확인."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "사자춤"
+    video_title: "[데프콘의 뭐든지 뮤직박스] 38화 공연박스 다시보기 - 사자춤 (The Lion Dance)"
+    url: https://www.youtube.com/watch?v=2kWV5bpjfbc
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "2:12"
+    use: 수업 후
+    basis_code: "[2즐02-02]"
+    basis_lesson: "16차시 우리나라 탈춤"
+    desc: "사자 탈을 쓰고 추는 사자춤을 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 12초(2020). EBS 키즈 '뭐든지 뮤직박스' — 예능 성격 확인. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c12
+    stage: 확장하기
+    title: "소고춤"
+    video_title: "어린이를 위한 국악 동영상 - 소고춤 Sogochum（Small drums dance）"
+    url: https://www.youtube.com/watch?v=1gkmUB8GRlo
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "4:07"
+    use: 수업 후
+    basis_code: "[2즐02-02]"
+    basis_lesson: "15~16차시"
+    desc: "소고를 들고 추는 소고춤을 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "4분 7초(2017). 국립국악원 '어린이를 위한 국악 동영상'. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c13
+    stage: 확장하기
+    title: "강강술래"
+    video_title: "어린이를 위한 국악 동영상 - 강강술래 Ganggangsullae（A circle dance）"
+    url: https://www.youtube.com/watch?v=zjg757sy8k8
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "6:36"
+    use: 수업 후
+    basis_code: "[2즐02-02]"
+    basis_lesson: "13차시 우리나라 놀이"
+    desc: "손을 잡고 둥글게 도는 강강술래를 보여 줘요."
+    verdict: 보류
+    note: "6분 36초 — 구간 지정 필요. 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
+  - cand_no: c14
+    stage: 확장하기
+    title: "한글날이 10월 9일이 아니었다고?"
+    video_title: "한글날이 10월 9일이 아니었다고? [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=XhrJZWo5flw
+    channel: "국립한글박물관"
+    channel_grade: public
+    duration: "4:15"
+    use: 수업 후
+    basis_code: "[2바02-02]"
+    basis_lesson: "10차시 우리 한글"
+    desc: "한글날이 언제 어떻게 정해졌는지 알려 줘요."
+    verdict: 보류
+    note: "4분 15초 — 1학년에게 어려울 수 있음."
+  - cand_no: c15
+    stage: 확장하기
+    title: "남북한 초등 교육과정 비교"
+    video_title: "(2030과정) 남북한 초등 교육과정 비교"
+    url: https://www.youtube.com/watch?v=qIYHb4YAm9w
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "3:04"
+    use: 배경지식
+    basis_code: "[2바02-02]"
+    basis_lesson: "20차시 우리는 하나"
+    desc: "남한과 북한 초등학교 교육과정을 견줘 줘요."
+    verdict: 보류
+    note: "3분 4초 — 교사용 성격."
+  - cand_no: c16
+    stage: 탐구하기
+    title: "우리 문화유산 멋진 순간들"
+    video_title: "Capture the Best Moments : Korean Heritage Series | EP.1 한국의 문화유산(Cultural Heritage of Korea)"
+    url: https://www.youtube.com/watch?v=EpeRdoGwM74
+    channel: "국가유산채널(K-Heritage Channel)"
+    channel_grade: public
+    duration: "3:18"
+    use: 수업 중
+    basis_code: "[2슬02-02]"
+    basis_lesson: "9~18차시 우리나라 문양·한옥·한복"
+    desc: "우리나라 문화유산의 멋진 장면을 모아 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "3분 18초(2023). 국가유산채널(표 public). 영어 제목 — 대화 없이 영상 중심인지 미리보기에서 확인(운영자 허용 10/17). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
