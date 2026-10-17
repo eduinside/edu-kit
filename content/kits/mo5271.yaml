@@ -54,13 +54,6 @@ items:
     url: https://www.youtube.com/watch?v=Qkgq5X7WJOI
     desc: 푸루와 그루 캐릭터와 함께 지구를 지키는 방법을 알아보는 어린이용 영상이에요.
     channel: 한국환경공단
-  - key: v4
-    stage: 생각열기
-    title: 조금 번거로워도, 오히려 좋아! 탄소 중립 생활 실천 [학교편]
-    use: 수업 전
-    url: https://www.youtube.com/watch?v=dCGJimZogos
-    desc: 학교에서 할 수 있는 탄소 중립 실천을 짧게 보여 주는 공공 캠페인이에요.
-    channel: 기후에너지환경부
   - key: v5
     stage: 탐구하기
     title: 누가 지구를 뜨겁게 만들었나

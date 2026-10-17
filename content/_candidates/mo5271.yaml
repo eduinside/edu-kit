@@ -266,9 +266,9 @@ candidates:
     basis_code: "[6도04-01]"
     basis_lesson: 3차시 실천 달력
     desc: 학교에서 할 수 있는 탄소 중립 실천을 짧게 보여 주는 공공 캠페인이에요.
-    verdict: 채택
+    verdict: 제외
     reviewer: 운영자
-    note: 1분 미만이라 수업 전 동기 유발로만. 설명란에 탄소중립포인트 해시태그가 있음.
+    note: "쇼츠 — 운영자 지시(10/17)로 제외. (1분 미만 동기 유발용이었음)"
   - cand_no: c27
     stage: 확장하기
     title: 온실가스 줄이는 생활 습관

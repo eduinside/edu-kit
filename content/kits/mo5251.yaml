@@ -105,13 +105,6 @@ items:
     url: https://www.youtube.com/watch?v=49wYfBMPvhQ
     desc: 어린이가 이동하기 불편한 사람의 입장을 체험하며 모두를 위한 디자인을 생각해 봐요.
     channel: 서울디자인재단 유니버설디자인
-  - key: v11
-    stage: 확장하기
-    title: 배리어프리 vs 유니버설디자인, 뭐가 다를까?
-    use: 수업 전
-    url: https://www.youtube.com/watch?v=H8RZBc8HPzs
-    desc: 장벽을 없애는 배리어 프리와 처음부터 모두를 생각하는 유니버설 디자인이 어떻게 다른지 짧게 알려 줘요.
-    channel: 대한민국 대법원
   - key: v12
     stage: 확장하기
     title: 유니버설디자인 — 돌이와 소리 가족의 외출(수어 포함)
