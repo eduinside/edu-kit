@@ -1,0 +1,187 @@
+id: in1111
+title: 1. 학교
+grade: 1
+sem: 1학기
+subject: 통합
+unit: 1단원
+unit_no: 1
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 학교는 친구와 선생님과 함께 배우고 노는 곳이에요. 학교에서 지킬 약속과 안전한 방법을 알면 즐겁고 건강하게 지낼 수 있어요.
+  core_question: 학교에서 안전하고 즐겁게 지내려면 어떻게 해야 할까?
+  concepts:
+    - term: 학교
+      def: 친구와 선생님과 함께 배우고 노는 곳이에요.
+    - term: 안전
+      def: 다치지 않게 조심하는 것이에요.
+    - term: 약속
+      def: 서로 지키기로 한 말이에요.
+    - term: 친구
+      def: 함께 놀고 서로 도와주는 사람이에요.
+    - term: 신호등
+      def: 길을 건널 때 빨간불과 초록불로 알려 주는 것이에요.
+  standards:
+    - code: "[2바01-01]"
+      text: 학교 생활 습관과 학습 습관을 형성하여 안전하고 건강하게 생활한다.
+    - code: "[2슬01-01]"
+      text: 학교 안팎의 모습과 생활을 탐색하며 안전한 학교 생활을 한다.
+    - code: "[2즐01-01]"
+      text: 즐겁게 놀이하며, 건강하고 안전하게 생활한다.
+stages:
+  - name: 생각열기
+    question: 학교는 어떤 곳일까?
+  - name: 탐구하기
+    question: 학교에서 안전하고 즐겁게 지내려면 어떻게 할까?
+  - name: 확장하기
+    question: 친구와 함께 지내려면 어떻게 할까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 1학년이 되었어요 1 — 궁금해요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=HIBr2VnjDPU
+    desc: 학교와 교실을 둘러보고 바르게 앉는 방법을 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v2
+    stage: 생각열기
+    title: 1학년이 되었어요 6 — 둘러봐요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=W8OMfibO-Wg
+    desc: 우리 학교 이곳저곳과 여러 특별실의 이름과 쓰임을 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v3
+    stage: 생각열기
+    title: 1학년이 되었어요 7 — 도서관에 가요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HoWSOejOwt8
+    desc: 도서관에서 지킬 점과 책을 빌리고 반납하는 방법을 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v4
+    stage: 생각열기
+    title: 두근두근 학교생활 7 — 올바른 공용 공간 사용
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=P3wtMXoFneM
+    desc: 복도·계단 같은 공용 공간을 바르게 쓰는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v5
+    stage: 탐구하기
+    title: 1학년이 되었어요 2 — 맛있게 먹어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=7MwsHfiGCpk
+    desc: 식사 전에 할 일과 급식실을 바르게 쓰는 방법, 뒷정리하는 방법을 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v6
+    stage: 탐구하기
+    title: 1학년이 되었어요 4 — 깨끗하게 사용해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=mepFFrf3vrc
+    desc: 화장실을 깨끗하게 사용하는 방법을 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v7
+    stage: 탐구하기
+    title: 1학년이 되었어요 3 — 정리를 잘해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Y5Tso0H4vKU
+    desc: 책상, 사물함, 책장 같은 교실 곳곳을 정리하는 방법을 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v8
+    stage: 탐구하기
+    title: 1학년이 되었어요 8 — 차례를 지켜요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=wHYwXq0dL20
+    desc: 차렷, 앞으로 나란히, 옆으로 나란히 서는 방법을 따라 해 봐요.
+    channel: 대구미래교육연구원
+  - key: v9
+    stage: 탐구하기
+    title: 1학년 급식 식사 예절
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=9aeKp0V5M_E
+    desc: 학교 급식을 받고 먹고 치우는 차례와 식사 예절을 1학년 어린이에게 알려 줘요.
+    channel: 부산광역시교육청 영양교육체험센터
+  - key: v10
+    stage: 확장하기
+    title: 1학년이 되었어요 9 — 나를 소개해요 (1)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=hVkCJpWb1_Q
+    desc: "'숲 속 학교의 자기소개' 이야기를 듣고 나를 소개하는 방법을 떠올려요."
+    channel: 대구미래교육연구원
+  - key: v11
+    stage: 확장하기
+    title: 1학년이 되었어요 10 — 나를 소개해요 (2)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=vXJR_TPLrEc
+    desc: 친구에게 나를 소개하는 방법과 친구의 발표를 잘 듣는 방법을 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v12
+    stage: 확장하기
+    title: 1학년이 되었어요 11 — 바르게 인사해요 (1)
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=j9zbsVG_N7Q
+    desc: "'먼저 인사했어요' 이야기를 들려줘요."
+    channel: 대구미래교육연구원
+  - key: v13
+    stage: 확장하기
+    title: 1학년이 되었어요 12 — 바르게 인사해요 (2)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=mozQbyFrSBg
+    desc: 바른 인사 자세와 여러 상황에 맞는 인사 방법을 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v14
+    stage: 확장하기
+    title: 1학년이 되었어요 13 — 약속해요 (1)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=U8Fy5a5-Jb8
+    desc: "'꼭 꼭 약속해' 노래를 배우고 짝과 함께 율동을 해 봐요."
+    channel: 대구미래교육연구원
+  - key: v15
+    stage: 확장하기
+    title: 1학년이 되었어요 15 — 약속해요 (3)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dgy00I2cCfI
+    desc: 바르고 고운 말 '주사위 말판 놀이' 방법을 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v16
+    stage: 확장하기
+    title: 1학년이 되었어요 16 — 사이좋게 지내요 (1)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=26WEe9vWQXc
+    desc: "'난 상관 없어' 이야기를 듣고 내가 이야기 속 돼지라면 어떻게 할지 떠올려요."
+    channel: 대구미래교육연구원
+  - key: v17
+    stage: 확장하기
+    title: 1학년이 되었어요 17 — 사이좋게 지내요 (2)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=16PQCeOuYi4
+    desc: 괴롭힘을 당하는 친구의 마음을 생각하고 도울 방법을 떠올려요.
+    channel: 대구미래교육연구원
+  - key: v18
+    stage: 확장하기
+    title: 1학년이 되었어요 21 — 친구와 놀아요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=s4i2tfNno-c
+    desc: 놀이할 때 지킬 규칙을 알고 친구들과 할 수 있는 놀이를 따라 해 봐요.
+    channel: 대구미래교육연구원
+quiz:
+  - statement: 학교에서는 친구, 선생님과 함께 배워요.
+    answer: O
+    explain: 학교는 친구와 선생님과 함께 배우고 노는 곳이에요.
+  - statement: 복도와 계단에서는 뛰어다녀도 괜찮아요.
+    answer: X
+    explain: 복도와 계단에서는 천천히 걸어야 다치지 않아요.
+  - statement: 화장실을 쓰고 나면 손을 씻어요.
+    answer: O
+    explain: 손을 씻으면 깨끗하고 건강해져요.
+  - statement: 친구가 말할 때는 귀를 기울여 들어요.
+    answer: O
+    explain: 끝까지 들으면 친구의 마음을 알 수 있어요.
+  - statement: 횡단보도에서는 빨간불일 때 건너가요.
+    answer: X
+    explain: 초록불일 때 좌우를 살피고 건너요.
+  - statement: 급식을 받을 때는 차례를 지켜요.
+    answer: O
+    explain: 차례를 지키면 서로 편안해요.
+  - statement: 교실에서 친구가 싫어하는 말을 해도 돼요.
+    answer: X
+    explain: 친구가 기분 좋은 고운 말을 써요.

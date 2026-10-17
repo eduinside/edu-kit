@@ -1,0 +1,164 @@
+# in1121 후보 기록 — 통합 1학년 1학기 2단원 「사람들」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in1121 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 공공·교육 채널에 '사람들·가족·이웃' 주제 영상이 적어 대구미래교육연구원 시리즈를 재사용했다.
+kit:
+  id: "in1121"
+  title: "2. 사람들"
+  grade: 1
+  sem: "1학기"
+  subject: "통합"
+  unit: "2단원"
+  unit_no: 2
+  flow: "activity"
+  codes: ["[2바01-03]", "[2슬01-03]", "[2즐01-03]"]
+  core_idea: "내 둘레에는 가족, 이웃, 친구처럼 여러 사람이 있어요. 서로 고마운 마음을 나누고 돕고 배려하며 사이좋게 지낼 수 있어요."
+  core_question: "내 둘레 사람들과 어떻게 사이좋게 지낼까?"
+  stages:
+    - name: 생각열기
+      question: "내 둘레에는 어떤 사람들이 있을까?"
+    - name: 탐구하기
+      question: "가족·이웃·고마운 사람과 어떻게 지낼까?"
+    - name: 확장하기
+      question: "사람들과 서로 돕고 사이좋게 지내려면?"
+  concepts:
+    - "가족"
+    - "이웃"
+    - "고마움"
+    - "배려"
+    - "인사"
+  source_notes: "정리본 통합1-1.국정.사람들(주제 20차시 2~21) · 오개념: 가까운 사람 = 가까이 사는 사람, 고마운 사람은 특별한 일을 해 준 사람뿐 · cautions: 가족 형태를 하나로 전제하지 않기"
+
+candidates:
+  - cand_no: c01
+    stage: 탐구하기
+    title: "나누니까 행복해요 — 이웃 편"
+    video_title: "나누니까 행복해요 (이웃편)_SB"
+    url: https://www.youtube.com/watch?v=rvgp-UDA6V4
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "4:32"
+    use: 수업 중
+    basis_code: "[2즐01-03]"
+    basis_lesson: "9차시 정다운 이웃"
+    desc: "이웃과 나누고 도우면 왜 행복한지 이야기로 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "4분 32초(2019). EBS 키즈 공식 채널."
+  - cand_no: c02
+    stage: 생각열기
+    title: "먼저 인사했어요"
+    video_title: "[1학년이 되었어요] 11. 바르게 인사해요 (1)"
+    url: https://www.youtube.com/watch?v=j9zbsVG_N7Q
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "1:21"
+    use: 수업 전
+    basis_code: "[2바01-03]"
+    basis_lesson: "2차시 그림책에서 만나는 사람들"
+    desc: "'먼저 인사했어요' 이야기를 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 「1학년이 되었어요」 11편."
+  - cand_no: c03
+    stage: 탐구하기
+    title: "바르게 인사해요"
+    video_title: "[1학년이 되었어요] 12. 바르게 인사해요 (2)"
+    url: https://www.youtube.com/watch?v=mozQbyFrSBg
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "5:39"
+    use: 수업 중
+    basis_code: "[2바01-03]"
+    basis_lesson: "3~4차시 내 주변 사람들"
+    desc: "바른 인사 자세와 여러 상황에 맞는 인사 방법을 알아봐요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 「1학년이 되었어요」 12편. 5분 39초."
+  - cand_no: c04
+    stage: 확장하기
+    title: "사이좋게 지내요 (1)"
+    video_title: "[1학년이 되었어요] 16. 사이좋게 지내요 (1)"
+    url: https://www.youtube.com/watch?v=16PQCeOuYi4
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "2:04"
+    use: 수업 중
+    basis_code: "[2즐01-03]"
+    basis_lesson: "13~15차시 함께하는 일"
+    desc: "'난 상관 없어' 이야기를 듣고 내가 이야기 속 돼지라면 어떻게 할지 떠올려요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 「1학년이 되었어요」 16편."
+  - cand_no: c05
+    stage: 확장하기
+    title: "사이좋게 지내요 (2)"
+    video_title: "[1학년이 되었어요] 17. 사이좋게 지내요 (2)"
+    url: https://www.youtube.com/watch?v=26WEe9vWQXc
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "2:27"
+    use: 수업 중
+    basis_code: "[2즐01-03]"
+    basis_lesson: "16~17차시 고마운 사람들·내가 도와줄게요"
+    desc: "괴롭힘을 당하는 친구의 마음을 생각하고 도울 방법을 떠올려요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 「1학년이 되었어요」 17편. 1학년에게 무겁지 않은지 미리보기에서 확인."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "도움이 필요할 때 도와요"
+    video_title: "딩동댕유치원 - 도움이 필요할 때 도와요_#001"
+    url: https://www.youtube.com/watch?v=Idq-BXph9S8
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "8:48"
+    use: 수업 중
+    basis_code: "[2바01-03]"
+    basis_lesson: "17차시 내가 도와줄게요"
+    desc: "도움이 필요한 사람을 어떻게 도울 수 있는지 알아봐요."
+    verdict: 보류
+    note: "8분 48초 — 구간 지정 필요. 딩동댕유치원(유치원 대상). 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
+  - cand_no: c07
+    stage: 생각열기
+    title: "가족을 부르는 호칭"
+    video_title: "[생활예절] 가족을 부르는 호칭 (2~5세)"
+    url: https://www.youtube.com/watch?v=tkuwcg0rQSk
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "5:24"
+    use: 수업 전
+    basis_code: "[2즐01-03]"
+    basis_lesson: "8차시 우리 가족"
+    desc: "할머니·삼촌·이모처럼 가족을 부르는 말을 알려 줘요."
+    verdict: 보류
+    note: "5분 24초. EBS 디딤돌 2~5세용 — 1학년 눈높이 확인. 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
+  - cand_no: c08
+    stage: 확장하기
+    title: "마음 속 감사를 나눠요"
+    video_title: "[사랑둥이들의 마음챙김 이야기] 5. 마음 속 감사를 나눠요(감사마음 비타민)"
+    url: https://www.youtube.com/watch?v=dppS1tOfTPE
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:52"
+    use: 수업 후
+    basis_code: "[2바01-03]"
+    basis_lesson: "16차시 고마운 사람들"
+    desc: "고마운 마음을 찾아 나누는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "4분 52초(2024). 마음챙김 이야기 5편 — 1학년 눈높이 확인. 대구미래교육연구원(교육청 산하, 표 edu) 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "기침 예절과 손 씻기"
+    video_title: "기침예절&손씻기! 제대로 알려주지!"
+    url: https://www.youtube.com/watch?v=ohbB49BbYT8
+    channel: "질병관리청 아프지마TV"
+    channel_grade: public
+    duration: "2:49"
+    use: 수업 후
+    basis_code: "[2바01-03]"
+    basis_lesson: "30차시 기침을 할 때는"
+    desc: "기침할 때 지킬 예절과 손 씻는 방법을 알려 줘요."
+    verdict: 보류
+    note: "안전·건강 차시 영상 — 주제 중심 지시로 보류."

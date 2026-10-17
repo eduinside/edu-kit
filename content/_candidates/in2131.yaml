@@ -1,0 +1,502 @@
+# in2131 후보 기록 — 통합 2학년 1학기 3단원 「마을」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in2131 --dry
+# 2026-10-17 수집. YouTube Data API로 후보 전부를 확인했다: 재생 가능·임베드 허용·연령 제한 없음·국내 차단 없음·쇼츠 아님·길이·채널(공식 채널 설명으로 확인).
+# 영상 본문은 제목·설명·채널 성격·길이를 기준으로 1차 선별한 것이고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심으로 뽑는다 → 마을 교통·승강기 같은 안전 영상은 보류로 내렸다(필요하면 승격).
+# 이 단원은 '마을 사람들·직업 체험·마을 소개' 영상이 공공·교육 채널에 거의 없다. 대구미래교육연구원의 초4 사회 시설 소개(우체국·소방서·시청)와 우체국 공식 영상, 수성구청 영상이 그나마 주제에 맞는다.
+# 직업 체험(한국잡월드)은 방문 안내 영상뿐이고, 공익 광고(지도서 10차시의 '당신의 액세서리')는 개인 채널 재업로드뿐이라 원 채널(한국방송광고진흥공사 공익광고협의회)을 찾지 못했다 — 운영자에게 확인 요청.
+kit:
+  id: "in2131"
+  title: "3. 마을"
+  grade: 2
+  sem: "1학기"
+  subject: "통합"
+  unit: "3단원"
+  unit_no: 3
+  flow: "activity"
+  published: false
+  codes: ["[2바02-01]", "[2슬02-01]", "[2즐02-01]"]
+  core_idea: "마을에는 여러 곳과 여러 사람이 있고 서로 도우며 살아가요. 마을을 잘 알고 안전하게 다니며 내가 할 수 있는 일을 하면 마을이 더 좋아져요."
+  core_question: "우리 마을을 어떻게 알아보고, 마을을 위해 무엇을 할 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "우리 마을에는 어떤 곳과 사람이 있을까?"
+    - name: 탐구하기
+      question: "마을을 어떻게 알아보고 안전하게 다닐까?"
+    - name: 확장하기
+      question: "우리 마을을 위해 무엇을 할 수 있을까?"
+  concepts:
+    - "마을"
+    - "이웃"
+    - "직업"
+    - "교통안전"
+    - "약속"
+  source_notes: "정리본 통합2-1.국정.마을(주제 20차시 2~21, 안전 4차시 30~33: 마을 시설·탈것·자동차·길을 잃었을 때) · 지도서 영상류: 마을 사진·영상, 공익 광고, 안전 이용·교통사고 뉴스·실종 예방 영상 — 기관: 도로교통공단·아동안전교육센터·경찰 안전Dream·한국잡월드·커리어넷·국토교통부"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "우체국은 어떤 일을 할까요?"
+    video_title: "[참좋은우리대구] 초4학년, 참 좋은 대구 만들기_우체국은 어떤 일을~?"
+    url: https://www.youtube.com/watch?v=LkRuTZhHiT0
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "3:21"
+    use: 수업 전
+    basis_code: "[2슬02-01]"
+    basis_lesson: "9차시 마을 사람들을 만나요"
+    desc: "우체국이 어떤 곳이고 어떤 일을 하는지 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "3분 21초. 4학년 사회용 영상 — 2학년이 이해할 수 있는지 미리보기에서 확인. 우체국 공식 영상(c01)과 같은 주제라 하나만 써도 됨. 대구미래교육연구원 '참좋은우리대구' 초4 사회 영상(2021)."
+  - cand_no: c02
+    stage: 생각열기
+    title: "소방서는 어떤 일을 할까요?"
+    video_title: "[참좋은우리대구] 초4학년, 참 좋은 대구 만들기_소방서는 어떤 일을~?"
+    url: https://www.youtube.com/watch?v=J82sIo1LHhU
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "1:29"
+    use: 수업 전
+    basis_code: "[2슬02-01]"
+    basis_lesson: "9차시 마을 사람들을 만나요"
+    desc: "소방서가 어떤 곳이고 어떤 일을 하는지 알려 줘요."
+    verdict: 보류
+    note: "1분 29초. 4학년 사회용 영상 — 눈높이 확인. 대구미래교육연구원 '참좋은우리대구' 초4 사회 영상(2021). 운영자 확정(10/17): 마을은 우체국 영상만. 4학년 사회용."
+  - cand_no: c03
+    stage: 생각열기
+    title: "시청은 어떤 일을 할까요?"
+    video_title: "[참좋은우리대구] 초4학년, 참 좋은 대구 만들기_시청은 어떤 일을~?"
+    url: https://www.youtube.com/watch?v=3ZaD1PKGCAg
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "2:42"
+    use: 수업 전
+    basis_code: "[2슬02-01]"
+    basis_lesson: "9차시 마을 사람들을 만나요"
+    desc: "시청이 어떤 곳이고 어떤 일을 하는지 알려 줘요."
+    verdict: 보류
+    note: "2분 42초. 4학년 사회용 — 2학년에게는 어려울 수 있음. 대구미래교육연구원 '참좋은우리대구' 초4 사회 영상(2021). 4학년 사회용 — 2학년에게 어려움."
+  - cand_no: c04
+    stage: 생각열기
+    title: "교육청은 어떤 일을 할까요?"
+    video_title: "[참좋은우리대구] 초4학년, 참 좋은 대구 만들기_교육청은 어떤 일을~?"
+    url: https://www.youtube.com/watch?v=jMSv8MwNYe8
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "2:06"
+    use: 수업 전
+    basis_code: "[2슬02-01]"
+    basis_lesson: "9차시 마을 사람들을 만나요"
+    desc: "교육청이 어떤 곳이고 어떤 일을 하는지 알려 줘요."
+    verdict: 보류
+    note: "2분 6초. 2학년에게 어려움. 대구미래교육연구원 '참좋은우리대구' 초4 사회 영상(2021)."
+  - cand_no: c05
+    stage: 생각열기
+    title: "우체국에서는 어떤 일을 할까요?"
+    video_title: "우체국 소개 애니메이션"
+    url: https://www.youtube.com/watch?v=lk5gkQ78K0U
+    channel: "우체국"
+    channel_grade: public
+    duration: "3:07"
+    use: 수업 전
+    basis_code: "[2슬02-01]"
+    basis_lesson: "9차시 마을 사람들을 만나요"
+    desc: "편지와 소포를 받아서 전해 주는 우체국이 어떤 곳이고 어떤 일을 하는지 애니메이션으로 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "3분 7초(2016). 우체국(우정사업본부) 공식 채널(@ekoreapost). 마을 시설·사람 소개."
+  - cand_no: c06
+    stage: 생각열기
+    title: "집배원 아저씨의 하루"
+    video_title: "집배원의 하루.wmv"
+    url: https://www.youtube.com/watch?v=UIN23fn8bE4
+    channel: "우체국"
+    channel_grade: public
+    duration: "2:08"
+    use: 수업 전
+    basis_code: "[2슬02-01]"
+    basis_lesson: "9차시 마을 사람들을 만나요"
+    desc: "편지와 소포를 전하는 집배원의 하루를 보여 줘요."
+    verdict: 보류
+    note: "2분 8초, 2012년 영상이라 화질이 낮을 수 있음. 우체국 공식 채널."
+  - cand_no: c07
+    stage: 생각열기
+    title: "수성구 어린이회관 둘러보기"
+    video_title: "[전지적_기자_시점] 수성구 어디까지 가봤니? #어린이회관"
+    url: https://www.youtube.com/watch?v=tn1MwKG77Ug
+    channel: "수성TV At Suseong"
+    channel_grade: public
+    duration: "2:19"
+    use: 수업 전
+    basis_code: "[2즐02-01]"
+    basis_lesson: "4차시 우리 마을 이곳저곳"
+    desc: "대구 수성구의 어린이회관을 기자와 함께 둘러보는 영상이에요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 19초(2020). 수성구청 공식 채널(수성TV). 대구 지역(local). 기자 진행·아동 출연 여부 확인. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c08
+    stage: 생각열기
+    title: "마을지도? 보물지도!"
+    video_title: "[EBS x 국토연구원] ep.9 마을지도? 보물지도! l 국토채널e"
+    url: https://www.youtube.com/watch?v=2YFuAXADsJM
+    channel: "EBSDocumentary (EBS 다큐)"
+    channel_grade: edu
+    duration: "6:16"
+    use: 수업 중
+    basis_code: "[2슬02-01]"
+    basis_lesson: "7~8차시 마을 모습을 담아요"
+    desc: "마을 지도를 어떻게 만들고 쓰는지 보여 줘요."
+    verdict: 보류
+    note: "6분 16초(2021). EBS 다큐 국토채널e(국토연구원 협력) — 2학년에게는 어려울 수 있음. 구간 지정 필요. 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
+  - cand_no: c09
+    stage: 생각열기
+    title: "한국잡월드 어린이체험관 가 보기"
+    video_title: "한국잡월드 어린이체험관 처음 방문하신다면?! 입장방법 알려드려요~"
+    url: https://www.youtube.com/watch?v=rh86uy4Yc84
+    channel: "한국잡월드"
+    channel_grade: public
+    duration: "1:40"
+    use: 수업 전
+    basis_code: "[2슬02-01]"
+    basis_lesson: "11차시 직업을 체험해요"
+    desc: "어린이가 여러 직업을 체험해 볼 수 있는 한국잡월드 어린이체험관을 소개해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "1분 40초(2023). 한국잡월드(국립 직업체험관) 공식 채널. 입장 방법 안내 성격이라 직업 소개로 쓰기엔 약함 — 대안이 없어 올림. 운영자 확정(10/17): 5분 이하·공공·교육 채널. ※ 채널 등급 표에 없음 — 등급(public)은 임시, 운영자 확정."
+  - cand_no: c10
+    stage: 생각열기
+    title: "한국잡월드 이용 가이드"
+    video_title: "직업체험의 메카! 한국잡월드 어떻게 즐기지? 한국잡월드 이용가이드 시청하고 200% 즐기자!"
+    url: https://www.youtube.com/watch?v=um8_7kR7_6s
+    channel: "한국잡월드"
+    channel_grade: public
+    duration: "6:31"
+    use: 수업 전
+    basis_code: "[2슬02-01]"
+    basis_lesson: "11차시 직업을 체험해요"
+    desc: "한국잡월드에서 어떤 체험을 할 수 있는지 이용 방법을 안내해요."
+    verdict: 보류
+    note: "6분 31초. 방문 안내 성격이라 교실 수업용으로는 약함. ※ 채널 등급 표에 없음 — 등급(public)은 임시, 운영자 확정."
+  - cand_no: c11
+    stage: 생각열기
+    title: "아동 안전 지킴이집을 아시나요?"
+    video_title: "'아동 안전 지킴이집'을 아시나요?"
+    url: https://www.youtube.com/watch?v=ewLNBHs3Zfc
+    channel: "행정안전부"
+    channel_grade: public
+    duration: "4:02"
+    use: 수업 중
+    basis_code: "[2슬02-01]"
+    basis_lesson: "33차시 길을 잃었을 때"
+    desc: "위험할 때 어린이가 달려가 도움을 청할 수 있는 마을의 안전한 곳을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "4분 2초(2020). 행정안전부 공식 채널. 어른 대상 설명이면 2학년에는 어려울 수 있음 — 미리보기에서 확인. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격. 운영자 확정(10/17): 마을·계절·하루는 공공 안전 영상 일부 승격."
+  - cand_no: c12
+    stage: 생각열기
+    title: "불 끄는 소방차"
+    video_title: "애앵애앵🚒 불 끄는 소방차ㅣ건물에 불이 났어요!ㅣ꾹이랑 부릉부릉 씽씽ㅣ꾹TVㅣKBS 240925 방송"
+    url: https://www.youtube.com/watch?v=9xI3nLmB2zU
+    channel: "KBSKids"
+    channel_grade: press
+    duration: "9:50"
+    use: 수업 후
+    basis_code: "[2슬02-01]"
+    basis_lesson: "9차시 마을 사람들을 만나요"
+    desc: "불이 났을 때 출동해 불을 끄는 소방차와 소방관을 어린이 방송으로 보여 줘요."
+    verdict: 보류
+    note: "9분 50초(2024). KBS 키즈 '꾹TV'(캐릭터 방송) — 길고 상업 캐릭터 성격. 소방관 소개 공공 영상을 못 찾아 올림."
+  - cand_no: c13
+    stage: 생각열기
+    title: "소방서에서는 어떤 일을 할까"
+    video_title: "소방합동훈련_11 소방서에서는 어떤 일을 할까"
+    url: https://www.youtube.com/watch?v=CQ4ABZh8rZE
+    channel: "동탄호수유치원"
+    channel_grade: personal
+    duration: "2:31"
+    use: 수업 전
+    basis_code: "[2슬02-01]"
+    basis_lesson: "9차시 마을 사람들을 만나요"
+    desc: "유치원 어린이들이 소방서를 방문해 소방관이 하는 일을 알아봐요."
+    verdict: 제외
+    note: "유치원 개별 채널의 아동 출연 영상 — 3-3 학생·아동 출연은 공공·교육청·학교 공식 채널만. ※ 채널 등급 표에 없음 — 등급(personal)은 임시, 운영자 확정."
+  - cand_no: c14
+    stage: 탐구하기
+    title: "깜빡이는 초록불, 그냥 뛰어가도 될까?"
+    video_title: "[어린이교통안전교육] 1화 - 깜빡이는 초록불, 급한데 그냥 뛰어가도 괜찮을까?"
+    url: https://www.youtube.com/watch?v=7tF2a1D55MY
+    channel: "한국교통안전공단 교통안전TV"
+    channel_grade: public
+    duration: "5:51"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "30~31차시 마을 시설·탈것을 안전하게"
+    desc: "초록불이 깜빡일 때 길을 건너도 되는지 어린이 교통안전교육으로 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "5분 51초(2022). 한국교통안전공단 교통안전TV 공식 채널 '안전한 세포들' 1화. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격. 운영자 확정(10/17): 마을·계절·하루는 공공 안전 영상 일부 승격."
+  - cand_no: c15
+    stage: 탐구하기
+    title: "자전거를 탈 때 안전모를 써야 할까?"
+    video_title: "[어린이교통안전교육] 2화 - 자전거 탈 때 안전모를 써야할까? | 안전한 세포들 | 자전거 안전"
+    url: https://www.youtube.com/watch?v=b5MiJo7Hco8
+    channel: "한국교통안전공단 교통안전TV"
+    channel_grade: public
+    duration: "5:53"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "31차시 탈것을 안전하게"
+    desc: "자전거를 탈 때 안전모를 왜 써야 하는지 어린이 교통안전교육으로 알려 줘요."
+    verdict: 보류
+    note: "5분 53초(2022). 교통안전TV '안전한 세포들' 2화. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격."
+  - cand_no: c16
+    stage: 탐구하기
+    title: "내리막길에서 킥보드를 타도 될까?"
+    video_title: "[어린이교통안전교육] 3화 - 내리막길에서 킥보드를 타도 될까? | 안전한 세포들 | 킥보드 안전"
+    url: https://www.youtube.com/watch?v=GzSkZF9XtqI
+    channel: "한국교통안전공단 교통안전TV"
+    channel_grade: public
+    duration: "4:43"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "31차시 탈것을 안전하게"
+    desc: "킥보드를 탈 때 내리막길이 왜 위험한지 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "4분 43초(2022). 교통안전TV '안전한 세포들' 3화. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격. 운영자 확정(10/17): 마을·계절·하루는 공공 안전 영상 일부 승격."
+  - cand_no: c17
+    stage: 탐구하기
+    title: "뒷자리에서도 안전띠를 매야 할까?"
+    video_title: "[어린이교통안전교육] 4화 – 뒷자석에서도 안전띠를 매야할까? | 안전한 세포들 | 자동차 안전"
+    url: https://www.youtube.com/watch?v=GDdiz9MUXvM
+    channel: "한국교통안전공단 교통안전TV"
+    channel_grade: public
+    duration: "5:10"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "32차시 자동차를 안전하게"
+    desc: "자동차 뒷자리에서도 안전띠를 매야 하는 까닭을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "5분 10초(2022). 교통안전TV '안전한 세포들' 4화. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격. 운영자 확정(10/17): 마을·계절·하루는 공공 안전 영상 일부 승격."
+  - cand_no: c18
+    stage: 탐구하기
+    title: "버스를 이용할 때는 어떻게 해야 할까?"
+    video_title: "[어린이교통안전교육] 5화 – 버스를 이용할 땐 어떻게 해야할까? | 안전한 세포들 | 통학버스 안전"
+    url: https://www.youtube.com/watch?v=vTRmty8aQcg
+    channel: "한국교통안전공단 교통안전TV"
+    channel_grade: public
+    duration: "6:02"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "31~32차시 탈것·자동차를 안전하게"
+    desc: "버스를 타고 내릴 때 지킬 안전 수칙을 알려 줘요."
+    verdict: 보류
+    note: "6분 2초(2022). 교통안전TV '안전한 세포들' 5화 — 통학버스 안전. 5분을 넘음. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격."
+  - cand_no: c19
+    stage: 탐구하기
+    title: "교통이와 배우는 지하철·전철 안전하게 타기"
+    video_title: "[어린이 교통안전] 교통이와 함께 배우는 지하철·전철 안전 이용법 | 안전 교육"
+    url: https://www.youtube.com/watch?v=nODXD6lDoHI
+    channel: "한국교통안전공단 교통안전TV"
+    channel_grade: public
+    duration: "4:24"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "31차시 탈것을 안전하게"
+    desc: "지하철과 전철을 안전하게 이용하는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "4분 24초(2026). 교통안전TV 공식 채널 어린이 교통안전. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격. 운영자 확정(10/17): 마을·계절·하루는 공공 안전 영상 일부 승격."
+  - cand_no: c20
+    stage: 탐구하기
+    title: "대중교통, 안전하게 이용해요"
+    video_title: "대중교통, 안전하게 이용해요!"
+    url: https://www.youtube.com/watch?v=CgNjI-MKT-k
+    channel: "행정안전부"
+    channel_grade: public
+    duration: "3:25"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "31차시 탈것을 안전하게"
+    desc: "버스와 지하철 같은 대중교통을 안전하게 이용하는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "3분 25초(2020). 행정안전부 공식 채널. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격. 운영자 확정(10/17): 마을·계절·하루는 공공 안전 영상 일부 승격."
+  - cand_no: c21
+    stage: 탐구하기
+    title: "에스컬레이터 안전하게 타기"
+    video_title: "💬 에스컬레이터 안전하게 타기!"
+    url: https://www.youtube.com/watch?v=hQo5bzpJWko
+    channel: "한국승강기안전공단[승강기 안전한TV]"
+    channel_grade: public
+    duration: "1:49"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "30차시 마을 시설을 안전하게"
+    desc: "에스컬레이터를 탈 때 손잡이를 잡고 노란 선 안에 서는 것처럼 안전하게 타는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "1분 49초(2022). 한국승강기안전공단 공식 채널(승강기 안전한TV). ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격. 운영자 확정(10/17): 마을·계절·하루는 공공 안전 영상 일부 승격. ※ 채널 등급 표에 없음 — 등급(public)은 임시, 운영자 확정."
+  - cand_no: c22
+    stage: 탐구하기
+    title: "국민이·안전이와 에스컬레이터 안전하게 타기"
+    video_title: "국민이&안전이와 함께 에스컬레이터 안전하게 타는 방법 배워볼까요?"
+    url: https://www.youtube.com/watch?v=AqwSIGizsrc
+    channel: "행정안전부"
+    channel_grade: public
+    duration: "2:15"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "30차시 마을 시설을 안전하게"
+    desc: "행정안전부 캐릭터 국민이와 안전이가 에스컬레이터 안전하게 타는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 15초(2020). 행정안전부 공식 채널. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격. 운영자 확정(10/17): 마을·계절·하루는 공공 안전 영상 일부 승격."
+  - cand_no: c23
+    stage: 탐구하기
+    title: "승강기(엘리베이터) 안전하게 타는 방법"
+    video_title: "승강기 안전하게 타는 방법(어린이 승강기 안전교육 영상_풀버전)"
+    url: https://www.youtube.com/watch?v=QlR0xf3TlRg
+    channel: "안전한TV"
+    channel_grade: public
+    duration: "7:35"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "30차시 마을 시설을 안전하게"
+    desc: "엘리베이터를 탈 때 지킬 점을 어린이에게 알려 줘요."
+    verdict: 보류
+    note: "7분 35초(2019) — 구간 지정 필요. 안전한TV(행정안전부 운영) 어린이 승강기 안전교육 풀버전, 조회수 590만. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격."
+  - cand_no: c24
+    stage: 탐구하기
+    title: "호둥이와 함께 안전하게 길 건너기"
+    video_title: "[어린이 교통안전] 호둥이와 함께하는 교통안전교육  2. 안전하게 길 건너기"
+    url: https://www.youtube.com/watch?v=rxqOe8g0mec
+    channel: "한국도로교통공단"
+    channel_grade: public
+    duration: "7:22"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "30~32차시 안전"
+    desc: "횡단보도 건너는 법을 호둥이와 함께 배우는 어린이 교통안전교육이에요."
+    verdict: 보류
+    note: "7분 22초 — 구간 지정 필요. 한국도로교통공단 공식 채널(2018). 지도서 마을 단원의 안전 영상 기관에 도로교통공단이 포함됨. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격. ※ 채널 등급 표에 없음 — 등급(public)은 임시, 운영자 확정."
+  - cand_no: c25
+    stage: 탐구하기
+    title: "길을 잃었을 때는 어떻게 할까요? (미아 예방)"
+    video_title: "실종예방교육-영유아용(미아편)"
+    url: https://www.youtube.com/watch?v=9wz4u2yVWTE
+    channel: "국가아동권리보장원"
+    channel_grade: public
+    duration: "3:17"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "33차시 길을 잃었을 때"
+    desc: "길을 잃었을 때 그 자리에서 기다리며 도움을 청하는 방법을 알려 줘요."
+    verdict: 보류
+    note: "3분 17초(2021). 국가아동권리보장원 '실종예방교육-영유아용 미아편' — 영유아용이라 2학년에게 맞는지 확인. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격. ※ 채널 등급 표에 없음 — 등급(public)은 임시, 운영자 확정."
+  - cand_no: c26
+    stage: 탐구하기
+    title: "유괴 NO! 미아 NO! 이렇게 행동해요"
+    video_title: "[초등 1~3학년] 유괴 NO! 미아 NO! 이렇게 행동해요!"
+    url: https://www.youtube.com/watch?v=tf4KwiTWysk
+    channel: "학교안전공제중앙회_안전교육 자료실"
+    channel_grade: public
+    duration: "8:31"
+    use: 수업 중
+    basis_code: "[2바02-01]"
+    basis_lesson: "33차시 길을 잃었을 때"
+    desc: "유괴와 길 잃음을 막으려면 어떻게 행동해야 하는지 초등 1~3학년에게 알려 줘요."
+    verdict: 보류
+    note: "8분 31초. 학교안전공제중앙회 안전교육 자료실(채널 소속 확인 필요). 미아편(c21)이 더 짧음. ※ 채널 등급 표에 없음 — 등급(public)은 임시, 운영자 확정."
+  - cand_no: c27
+    stage: 탐구하기
+    title: "대구어린이교통랜드"
+    video_title: "어린이들의 성지! 대구어린이교통랜드"
+    url: https://www.youtube.com/watch?v=rGD-P4oOTNQ
+    channel: "수성TV At Suseong"
+    channel_grade: public
+    duration: "2:32"
+    use: 수업 후
+    basis_code: "[2즐02-01]"
+    basis_lesson: "31~32차시 안전"
+    desc: "대구에 있는 어린이교통랜드에서 교통안전을 체험하는 모습을 보여 줘요."
+    verdict: 보류
+    note: "2분 32초(2021). 수성구청 공식 채널(수성TV). 대구 지역(local). 아동 출연 여부 확인. ※ 안전 차시 영상 — 주제 중심(운영자 10/17) 지시로 보류. 안전 영상이 필요하면 승격."
+  - cand_no: c28
+    stage: 확장하기
+    title: "우리 마을 책 나눔 축제"
+    video_title: "우리 동네 멋쟁이들😎 총 집합?!  '용학도서관 2024 우리마을 책📚나눔 축제!'"
+    url: https://www.youtube.com/watch?v=mqjvESYDnc4
+    channel: "수성TV At Suseong"
+    channel_grade: public
+    duration: "2:23"
+    use: 수업 후
+    basis_code: "[2즐02-01]"
+    basis_lesson: "21차시 와글와글 마을 축제"
+    desc: "대구 수성구 도서관에서 마을 사람들이 책을 나누는 축제 모습을 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 23초(2024). 수성구청 공식 채널. 대구 지역(local). 주민·아동 출연. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c29
+    stage: 확장하기
+    title: "옹달샘 마을 축제"
+    video_title: "깊은 산 속 옹달샘~♬ 수성 4가동 옹달샘 마을 축제, 그 현장속으로!"
+    url: https://www.youtube.com/watch?v=aqIvuufviDk
+    channel: "수성TV At Suseong"
+    channel_grade: public
+    duration: "3:38"
+    use: 수업 후
+    basis_code: "[2즐02-01]"
+    basis_lesson: "21차시 와글와글 마을 축제"
+    desc: "대구 수성구 마을 사람들이 함께하는 옹달샘 마을 축제 모습을 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "3분 38초(2023). 수성구청 공식 채널. 대구 지역(local). 주민 출연. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c30
+    stage: 확장하기
+    title: "이웃과 함께 이야기해요 — 층간소음"
+    video_title: "층간소음 예방교육 | 아름다운 소리가 나는 집 | 이웃과 함께 이야기해요 | 애니메이션"
+    url: https://www.youtube.com/watch?v=52al2_Yrlkk
+    channel: "국가환경교육센터"
+    channel_grade: public
+    duration: "6:06"
+    use: 수업 후
+    basis_code: "[2바02-01]"
+    basis_lesson: "10차시 마을을 위해 지켜요"
+    desc: "아파트에서 이웃을 배려하며 소리를 줄이는 방법을 애니메이션으로 알려 줘요."
+    verdict: 보류
+    note: "6분 6초(2020). 국가환경교육센터(table public) 애니메이션 — 2학년에게 맞는지 확인. 구간 지정 필요. 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
+  - cand_no: c31
+    stage: 확장하기
+    title: "서로 배려하는 아파트"
+    video_title: "서로 배려하는 세종 아파트 [기본생활습관]"
+    url: https://www.youtube.com/watch?v=CcoJUl7bRRU
+    channel: "세종시교육청"
+    channel_grade: edu
+    duration: "4:08"
+    use: 수업 후
+    basis_code: "[2바02-01]"
+    basis_lesson: "10차시 마을을 위해 지켜요"
+    desc: "아파트에서 이웃을 배려하는 기본 생활 습관을 알려 줘요."
+    verdict: 보류
+    note: "4분 8초(2023). 세종시교육청 채널(세종 지역 사례). 등급 임시. ※ 채널 등급 표에 없음 — 등급(edu)은 임시, 운영자 확정."
+  - cand_no: c32
+    stage: 확장하기
+    title: "공익광고 — 당신의 액세서리 (장애인 전용 주차 구역)"
+    video_title: "[공익CF]한국방송광고공사 공익광고협의회 - 당신의 엑세서리 (2008년)"
+    url: https://www.youtube.com/watch?v=V4JSZ6siANI
+    channel: "오대현"
+    channel_grade: personal
+    duration: "1:02"
+    use: 수업 후
+    basis_code: "[2바02-01]"
+    basis_lesson: "10차시 마을을 위해 지켜요(지도서 공익 광고 동영상)"
+    desc: "장애인 전용 주차 구역을 지키는 일이 왜 중요한지 공익광고로 보여 줘요."
+    verdict: 제외
+    note: "지도서 10차시가 가리킨 공익광고와 같은 광고(2008)이지만 개인 채널(오대현) 재업로드라 제외 — 원 저작자(한국방송광고진흥공사 공익광고협의회) 채널의 영상이 있으면 그 주소를 알려 주세요. ※ 채널 등급 표에 없음 — 등급(personal)은 임시, 운영자 확정."

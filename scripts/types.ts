@@ -1,9 +1,9 @@
 // 수업꾸러미 콘텐츠 논리 모델 (정적 JSON 형상 = 향후 D1 edukit_* 스키마)
 // 사이트 데이터(data/*.json) 형식 — 빌드(scripts/transform.ts) 산출. 정본 입력 형식은 docs/OPERATIONS.md §2(content/kits/*.yaml)
 
-export type Grade = 3 | 4 | 5 | 6;
+export type Grade = 1 | 2 | 3 | 4 | 5 | 6;
 export type Semester = "1학기" | "2학기";
-export type Subject = "사회" | "과학" | "도덕" | "실과";
+export type Subject = "사회" | "과학" | "도덕" | "실과" | "통합";
 export type Flow = "activity" | "flow";
 export type ItemType = "intro" | "video" | "image" | "text";
 
@@ -50,6 +50,7 @@ export interface Item {
   concepts?: string[];
   concept_desc?: string; // 시트 원본(';' 구분, concepts와 순서로 짝). 화면은 아래 concept_defs 사용.
   concept_defs?: { term: string; def: string }[]; // 빌드 산출: concepts[i]와 concept_desc[i]를 짝지은 용어 설명
+  topics?: string[]; // 주제 태그(intro.topics, content/_ref/topics.yaml 어휘) — 수업나래 주제 매칭용, 사이트는 아직 안 씀
   standard_code?: string; // 시트 원본(복수면 ' ; ' 구분). 화면은 아래 standards 사용.
   standard_text?: string; // 시트 원본(복수면 ' ; ' 구분, code와 순서로 짝)
   standards?: { code: string; text: string }[]; // 빌드 산출: code/text를 ;로 분리·짝지은 성취기준 목록

@@ -4,7 +4,7 @@
 한 화면에서 영상·이미지·읽기자료·활동을 순서대로 보는 웹 서비스.
 짧은 링크 `kit.dgedu.link/<id>`로 공유, 조회수·좋아요로 활용도 추적.
 
-**라이브**: https://kit.dgedu.link · 현재 81 꾸러미(전부 공개 · 사회 49 · 과학 32 · 영상 1,443) · 에듀나비 연계 콘텐츠.
+**라이브**: https://kit.dgedu.link · 현재 139 꾸러미(공개 130 — 사회 49 · 과학 32 · 도덕 24 · 실과 18 · 1·2학년 통합 7, 통합 초안 9 비공개 · 영상 2,105, 2026-10-18) · 에듀나비 연계 콘텐츠.
 
 - **운영 절차·꾸러미 파일 형식**: [docs/OPERATIONS.md](docs/OPERATIONS.md) · 전환 배경·개선 계획: [docs/IMPROVEMENT_PLAN_claude-ops.md](docs/IMPROVEMENT_PLAN_claude-ops.md) · 은퇴한 시트 시절 문서: [docs/archive/](docs/archive/)
 - 배포: [docs/DEPLOY.md](docs/DEPLOY.md) · 용어 설명·OX 퀴즈 설계: [docs/FEATURE_PLAN_terms-quiz.md](docs/FEATURE_PLAN_terms-quiz.md) · 최초 설계(역사): [docs/IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md)
@@ -41,7 +41,7 @@ npm run typecheck
 - `app/components/*` — KitCard, SearchModal, UsageGuide, Modal, SegmentedControl, ResourceLinks(외부 학습자원 링크), viewer/{Sidebar,ContentPane,QuizPane}.
 - `app/lib/` — `data.ts`(kits, 가벼움) · `kit-content.ts`(items/stage_meta, 무거움 → 뷰어·검색만 동적 로드) · `quiz.ts`(개념 확인 OX, 뷰어 청크) · `design.ts`(단원색·단계색·교과아이콘) · `search.ts`(통합 검색) · `api.ts`(카운터) · `stats.ts`(시드).
 - `app/styles/tokens.css` — 디자인 토큰(edu-link index.css 계승) + 컴포넌트 스타일.
-- `content/kits/<id>.yaml` — **콘텐츠 정본**(꾸러미 하나 = 파일 하나). `content/_ref/` — 성취기준 기준표(2022 사회·과학), 마지막 영상 점검 기록.
+- `content/kits/<id>.yaml` — **콘텐츠 정본**(꾸러미 하나 = 파일 하나). `content/_ref/` — 성취기준 기준표(2022 사회·과학·도덕·실과·통합교과), 마지막 영상 점검 기록.
 - `scripts/` — `content.ts`(YAML 스키마·읽기·쓰기) · `transform.ts`(사이트 데이터 변환·검증) · `build-data.ts`(빌드) · `check.ts` · `report.ts` · `videos.ts` + `field-map`·`markdown`·`sanitize`·`types`. `gen-og.py`(OG 카드) · `seed-stats.ts`(D1 시드 SQL) · `once/`(1회용 전환 스크립트 기록).
 - `functions/` — `_middleware.ts`(꾸러미별 OG 메타 주입) · `api/kits/[id]/{stats,view,like}.ts` + `_shared.ts`(D1 카운터).
 

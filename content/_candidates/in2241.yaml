@@ -1,0 +1,122 @@
+# in2241 후보 기록 — 통합 2학년 2학기 4단원 「인물」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in2241 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 장영실·편경 영상은 이번에 찾지 못했다(검색 쿼터 소진).
+kit:
+  id: "in2241"
+  title: "4. 인물"
+  grade: 2
+  sem: "2학기"
+  subject: "통합"
+  unit: "4단원"
+  unit_no: 4
+  flow: "activity"
+  published: false
+  codes: ["[2바03-03]", "[2슬03-03]", "[2즐03-03]"]
+  core_idea: "우리 둘레와 옛날에는 고마운 인물이 많아요. 세종대왕처럼 사람들을 위해 일한 인물을 알고 본받으면 함께 사는 마음이 자라요."
+  core_question: "인물에게서 무엇을 배워 실천할까?"
+  stages:
+    - name: 생각열기
+      question: "우리 둘레에는 어떤 인물이 있을까?"
+    - name: 탐구하기
+      question: "인물은 무엇을 남겼을까?"
+    - name: 확장하기
+      question: "인물에게서 무엇을 배워 실천할까?"
+  concepts:
+    - "인물"
+    - "세종대왕"
+    - "한글"
+    - "장영실"
+    - "본받기"
+  source_notes: "정리본 통합2-2.국정.인물(주제 20차시 7~26: 세종대왕과 한글·음악·장영실) · 영상류: 주변 인물·편경 연주·무형유산 장인 영상 · 기관: 국가유산포털·국립한글박물관·국립국악원·국립중앙과학관·세종대왕기념사업회"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "세종대왕은 미래를 알고 있었을까?"
+    video_title: "세종대왕은 미래를 알고 있었을까? [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=HPPpiTuILz4
+    channel: "국립한글박물관"
+    channel_grade: public
+    duration: "2:33"
+    use: 수업 전
+    basis_code: "[2슬03-03]"
+    basis_lesson: "13차시 세종대왕과 한글"
+    desc: "세종대왕이 한글을 만든 까닭을 만화로 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 33초(2022). 만화로 즐기는 한글 이야기."
+  - cand_no: c02
+    stage: 탐구하기
+    title: "세종대왕과 함께 부르는 훈민정음가"
+    video_title: "[국립한글박물관] 세종대왕과 함께 쉽고 재미있게 따라 부르는 '훈민정음가'"
+    url: https://www.youtube.com/watch?v=Uvfzgvkpmfs
+    channel: "국립한글박물관"
+    channel_grade: public
+    duration: "2:10"
+    use: 수업 중
+    basis_code: "[2즐03-03]"
+    basis_lesson: "13~14차시 세종대왕과 한글·한글을 찾아서"
+    desc: "세종대왕과 함께 훈민정음 노래를 따라 불러요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 10초(2020). 우리나라(in1131)와 같은 영상."
+  - cand_no: c03
+    stage: 탐구하기
+    title: "ㄱ, ㄴ, ㄷ 이름은 누가 붙였을까요?"
+    video_title: "ㄱ,ㄴ,ㄷ 이름은 누가 누가 붙였을까요? [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=qhSONxqUSLA
+    channel: "국립한글박물관"
+    channel_grade: public
+    duration: "3:31"
+    use: 수업 중
+    basis_code: "[2슬03-03]"
+    basis_lesson: "14차시 한글을 찾아서"
+    desc: "한글 자음 이름을 지은 사람과 이야기를 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "3분 31초(2020)."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "조선 마지막 공주의 한글 사랑"
+    video_title: "조선 마지막 공주의 한글사랑 [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=MHbYUimQZII
+    channel: "국립한글박물관"
+    channel_grade: public
+    duration: "3:22"
+    use: 수업 후
+    basis_code: "[2바03-03]"
+    basis_lesson: "인물"
+    desc: "한글을 사랑한 조선 마지막 공주의 이야기를 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "3분 22초(2020). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c05
+    stage: 확장하기
+    title: "한글날이 10월 9일이 아니었다고?"
+    video_title: "한글날이 10월 9일이 아니었다고? [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=XhrJZWo5flw
+    channel: "국립한글박물관"
+    channel_grade: public
+    duration: "4:15"
+    use: 수업 후
+    basis_code: "[2바03-03]"
+    basis_lesson: "25차시 세종대왕의 흔적"
+    desc: "한글날이 언제 어떻게 정해졌는지 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "4분 15초 — 2학년 눈높이 확인. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c06
+    stage: 확장하기
+    title: "하늘의 별이 된 시인 윤동주"
+    video_title: "하늘의 별이 된 시인 윤동주 [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=zeTKlfzonPk
+    channel: "국립한글박물관"
+    channel_grade: public
+    duration: "5:23"
+    use: 수업 후
+    basis_code: "[2바03-03]"
+    basis_lesson: "인물"
+    desc: "시인 윤동주의 이야기를 알려 줘요."
+    verdict: 보류
+    note: "5분 23초 — 고학년용."

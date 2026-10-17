@@ -13,9 +13,9 @@ const ACTIVITY_STAGES = ["단원안내", "생각열기", "탐구하기", "탐구
 const KitSchema = z.object({
   id: z.string().regex(/^[A-Za-z0-9]{3,8}$/, "id는 3~8자 영숫자"),
   title: z.string().min(1),
-  grade: z.union([z.literal(3), z.literal(4), z.literal(5), z.literal(6)]),
+  grade: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(5), z.literal(6)]),
   sem: z.enum(["1학기", "2학기"]),
-  subject: z.enum(["사회", "과학", "도덕", "실과"]),
+  subject: z.enum(["사회", "과학", "도덕", "실과", "통합"]),
   unit: z.string().min(1),
   unit_no: z.number().int().positive(),
   flow: z.enum(["activity", "flow"]),
@@ -35,6 +35,7 @@ const ItemSchema = z.object({
   core_question: z.string().optional(),
   concepts: z.array(z.string()).optional(),
   concept_desc: z.string().optional(),
+  topics: z.array(z.string()).optional(), // 주제 태그(intro.topics) — 사이트는 아직 안 쓰고 카탈로그(catalog.ts)가 싣는다
   standard_code: z.string().optional(),
   standard_text: z.string().optional(),
   video_url: z.string().optional(),

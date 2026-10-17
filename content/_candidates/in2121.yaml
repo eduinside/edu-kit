@@ -1,0 +1,182 @@
+# in2121 후보 기록 — 통합 2학년 1학기 2단원 「자연」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in2121 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 
+kit:
+  id: "in2121"
+  title: "2. 자연"
+  grade: 2
+  sem: "1학기"
+  subject: "통합"
+  unit: "2단원"
+  unit_no: 2
+  flow: "activity"
+  codes: ["[2바01-04]", "[2슬01-04]", "[2즐01-04]"]
+  core_idea: "자연에는 사람, 동물, 식물이 함께 살아요. 서로 영향을 주고받으며 어울려 사는 자연을 아끼고 즐겨요."
+  core_question: "자연과 어떻게 어울려 살까?"
+  stages:
+    - name: 생각열기
+      question: "자연에는 무엇이 살고 있을까?"
+    - name: 탐구하기
+      question: "자연과 어떻게 어울려 살까?"
+    - name: 확장하기
+      question: "자연을 어떻게 지키고 느낄까?"
+  concepts:
+    - "자연"
+    - "생태"
+    - "동식물"
+    - "어울림"
+    - "숲"
+  source_notes: "정리본 통합2-1.국정.자연(주제 20차시 2~21) · 영상류: 사진·영상 자료 · 기관: 국립생태원·국립생물자원관·환경부·충주자연생태체험관"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "한여름에도 숲은 왜 시원할까요?"
+    video_title: "[어린이의 질문 27] 한여름에도 숲에 들어가면 시원한 이유가 궁금해요"
+    url: https://www.youtube.com/watch?v=NGW8eqFOKUw
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "2:39"
+    use: 수업 전
+    basis_code: "[2슬01-04]"
+    basis_lesson: "5차시 숲속을 걸어요"
+    desc: "한여름에도 숲속이 시원한 까닭을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 39초(2021). '어린이가 궁금해하는 과학'."
+  - cand_no: c02
+    stage: 생각열기
+    title: "자연의 소리를 들어요"
+    video_title: "[즐거운 환경 수업] 07. 자연아, 놀자! (자연 ASMR)"
+    url: https://www.youtube.com/watch?v=bgfnSxXUikY
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:59"
+    use: 수업 전
+    basis_code: "[2즐01-04]"
+    basis_lesson: "3~5차시"
+    desc: "자연이 들려주는 소리를 듣는 활동을 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 59초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c03
+    stage: 탐구하기
+    title: "학교 텃밭 가꾸기 (1)"
+    video_title: "[즐거운 환경 수업] 09. 학교 텃밭 가꾸기 1편"
+    url: https://www.youtube.com/watch?v=0I6p_cHqI9o
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:39"
+    use: 수업 중
+    basis_code: "[2바01-04]"
+    basis_lesson: "6차시 나도 농부야"
+    desc: "학교 텃밭을 어떻게 가꾸는지 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 39초(2022)."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "학교 텃밭 가꾸기 (2) — 장마철 관리"
+    video_title: "[즐거운 환경 수업] 10. 학교 텃밭 가꾸기 2편 (장마철 관리)"
+    url: https://www.youtube.com/watch?v=zo7KwYeomwE
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:43"
+    use: 수업 중
+    basis_code: "[2바01-04]"
+    basis_lesson: "6차시 나도 농부야"
+    desc: "장마철에 텃밭을 어떻게 돌볼지 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 43초(2022)."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "학교 텃밭 가꾸기 (3) — 텃밭 정리"
+    video_title: "[즐거운 환경 수업] 11. 학교텃밭 가꾸기 3편 (텃밭 정리하기)"
+    url: https://www.youtube.com/watch?v=OAtG-Jxm7vI
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:46"
+    use: 수업 중
+    basis_code: "[2바01-04]"
+    basis_lesson: "6차시 나도 농부야"
+    desc: "텃밭을 정리하는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 46초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "식물을 지키는 관리 방법"
+    video_title: "[생명존중교육] 식물을 지키는 관리 방법? ♥활동지 하단링크♥"
+    url: https://www.youtube.com/watch?v=a6pqxkvEDOQ
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "2:34"
+    use: 수업 중
+    basis_code: "[2슬01-04]"
+    basis_lesson: "9~11차시 땅 위 친구들"
+    desc: "식물을 어떻게 돌보고 지켜 줄지 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 생명존중교육 2분 34초(2023)."
+  - cand_no: c07
+    stage: 확장하기
+    title: "식물 사랑을 실천해요"
+    video_title: "[생명존중교육] 식물 사랑을 실천하는 방법? ♥활동지 하단링크♥"
+    url: https://www.youtube.com/watch?v=BmiofpWHroM
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "1:38"
+    use: 수업 후
+    basis_code: "[2바01-04]"
+    basis_lesson: "13차시 함께하면 행복해"
+    desc: "식물을 사랑하는 마음을 실천하는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 1분 38초(2023)."
+  - cand_no: c08
+    stage: 확장하기
+    title: "반려동물과 잘 지내는 방법"
+    video_title: "[생명존중교육] 반려동물과 잘 지내는 방법? ♥활동지 하단링크♥"
+    url: https://www.youtube.com/watch?v=C698WzCW8-c
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "1:33"
+    use: 수업 후
+    basis_code: "[2바01-04]"
+    basis_lesson: "13차시 함께하면 행복해"
+    desc: "반려동물과 사이좋게 지내는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 1분 33초(2023)."
+  - cand_no: c09
+    stage: 확장하기
+    title: "반려동물 에티켓"
+    video_title: "[생명존중교육] 반려동물 에티켓? ♥활동지 하단링크♥"
+    url: https://www.youtube.com/watch?v=cESwvGZX5Hs
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "3:24"
+    use: 수업 후
+    basis_code: "[2바01-04]"
+    basis_lesson: "13차시 함께하면 행복해"
+    desc: "반려동물과 함께할 때 지킬 예절을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 3분 24초(2023)."
+  - cand_no: c10
+    stage: 확장하기
+    title: "가을에 나뭇잎은 왜 색이 변할까요?"
+    video_title: "[어린이의 질문 20] 가을이 되면 나뭇잎의 색이 왜 변하는 거에요?"
+    url: https://www.youtube.com/watch?v=Z6T9pN7s_Mk
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "2:26"
+    use: 수업 후
+    basis_code: "[2슬01-04]"
+    basis_lesson: "자연"
+    desc: "가을에 나뭇잎 색이 변하는 까닭을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    note: "2분 26초(2021). 계절(in2211)에서도 쓸 수 있음."

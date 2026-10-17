@@ -4,7 +4,7 @@ import type { ItemType, Stage } from "../../scripts/types.ts";
 
 // 단원(unit_no)별 썸네일 팔레트 [from, to, accent] — 같은 단원은 같은 색.
 // 1단원 연두 → 2 하늘색 → 3 진한 청색 → 4 연보라 → 5 분홍 → 6 호박 → 7 청록 → 8 주황
-// (사회 ≤3단원·과학 ≤4단원, 도덕은 교과서 1~8단원, 실과는 영역 1~5)
+// (사회 ≤3단원·과학 ≤4단원, 도덕은 교과서 1~8단원, 실과는 영역 1~5, 통합은 학기 1~4단원)
 export const UNIT_PALETTES: [string, string, string][] = [
   ["#ecfccb", "#d9f99d", "#4d7c0f"], // 1단원 · 연두(라임)
   ["#e0f2fe", "#bae6fd", "#0369a1"], // 2단원 · 하늘색

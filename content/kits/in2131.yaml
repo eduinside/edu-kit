@@ -1,0 +1,156 @@
+id: in2131
+title: 3. 마을
+grade: 2
+sem: 1학기
+subject: 통합
+unit: 3단원
+unit_no: 3
+flow: activity
+sort_order: 1
+published: false
+intro:
+  core_idea: 마을에는 여러 곳과 여러 사람이 있고 서로 도우며 살아가요. 마을을 잘 알고 안전하게 다니며 내가 할 수 있는 일을 하면 마을이 더 좋아져요.
+  core_question: 우리 마을을 어떻게 알아보고, 마을을 위해 무엇을 할 수 있을까?
+  concepts:
+    - term: 마을
+      def: 집, 가게, 학교 같은 곳이 모여 있어 사람들이 함께 사는 곳이에요.
+    - term: 이웃
+      def: 가까이에 사는 사람들이에요.
+    - term: 우체국
+      def: 편지와 소포를 받아서 전해 주는 곳이에요.
+    - term: 소방서
+      def: 불이 났을 때 불을 끄고 사람을 도와주는 곳이에요.
+    - term: 약속
+      def: 서로 지키기로 한 말이에요.
+  standards:
+    - code: "[2바02-01]"
+      text: 공동체에서 내가 할 수 있는 일을 찾아보고 실천한다.
+    - code: "[2슬02-01]"
+      text: 우리가 살고 있는 마을과 사람들이 생활하는 모습을 살펴본다.
+    - code: "[2즐02-01]"
+      text: 내가 참여할 수 있는 문화 예술을 향유한다.
+stages:
+  - name: 생각열기
+    question: 우리 마을에는 어떤 곳과 사람이 있을까?
+  - name: 탐구하기
+    question: 마을을 어떻게 알아보고 안전하게 다닐까?
+  - name: 확장하기
+    question: 우리 마을을 위해 무엇을 할 수 있을까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 우체국은 어떤 일을 할까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=LkRuTZhHiT0
+    desc: 우체국이 어떤 곳이고 어떤 일을 하는지 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v2
+    stage: 생각열기
+    title: 우체국에서는 어떤 일을 할까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=lk5gkQ78K0U
+    desc: 편지와 소포를 받아서 전해 주는 우체국이 어떤 곳이고 어떤 일을 하는지 애니메이션으로 알려 줘요.
+    channel: 우체국
+  - key: v3
+    stage: 생각열기
+    title: 수성구 어린이회관 둘러보기
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=tn1MwKG77Ug
+    desc: 대구 수성구의 어린이회관을 기자와 함께 둘러보는 영상이에요.
+    channel: 수성TV At Suseong
+  - key: v4
+    stage: 생각열기
+    title: 한국잡월드 어린이체험관 가 보기
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=rh86uy4Yc84
+    desc: 어린이가 여러 직업을 체험해 볼 수 있는 한국잡월드 어린이체험관을 소개해요.
+    channel: 한국잡월드
+  - key: v5
+    stage: 생각열기
+    title: 아동 안전 지킴이집을 아시나요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ewLNBHs3Zfc
+    desc: 위험할 때 어린이가 달려가 도움을 청할 수 있는 마을의 안전한 곳을 알려 줘요.
+    channel: 행정안전부
+  - key: v6
+    stage: 탐구하기
+    title: 깜빡이는 초록불, 그냥 뛰어가도 될까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=7tF2a1D55MY
+    desc: 초록불이 깜빡일 때 길을 건너도 되는지 어린이 교통안전교육으로 알려 줘요.
+    channel: 한국교통안전공단 교통안전TV
+  - key: v7
+    stage: 탐구하기
+    title: 내리막길에서 킥보드를 타도 될까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=GzSkZF9XtqI
+    desc: 킥보드를 탈 때 내리막길이 왜 위험한지 알려 줘요.
+    channel: 한국교통안전공단 교통안전TV
+  - key: v8
+    stage: 탐구하기
+    title: 뒷자리에서도 안전띠를 매야 할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=GDdiz9MUXvM
+    desc: 자동차 뒷자리에서도 안전띠를 매야 하는 까닭을 알려 줘요.
+    channel: 한국교통안전공단 교통안전TV
+  - key: v9
+    stage: 탐구하기
+    title: 교통이와 배우는 지하철·전철 안전하게 타기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=nODXD6lDoHI
+    desc: 지하철과 전철을 안전하게 이용하는 방법을 알려 줘요.
+    channel: 한국교통안전공단 교통안전TV
+  - key: v10
+    stage: 탐구하기
+    title: 대중교통, 안전하게 이용해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=CgNjI-MKT-k
+    desc: 버스와 지하철 같은 대중교통을 안전하게 이용하는 방법을 알려 줘요.
+    channel: 행정안전부
+  - key: v11
+    stage: 탐구하기
+    title: 에스컬레이터 안전하게 타기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=hQo5bzpJWko
+    desc: 에스컬레이터를 탈 때 손잡이를 잡고 노란 선 안에 서는 것처럼 안전하게 타는 방법을 알려 줘요.
+    channel: 한국승강기안전공단[승강기 안전한TV]
+  - key: v12
+    stage: 탐구하기
+    title: 국민이·안전이와 에스컬레이터 안전하게 타기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=AqwSIGizsrc
+    desc: 행정안전부 캐릭터 국민이와 안전이가 에스컬레이터 안전하게 타는 방법을 알려 줘요.
+    channel: 행정안전부
+  - key: v13
+    stage: 확장하기
+    title: 우리 마을 책 나눔 축제
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=mqjvESYDnc4
+    desc: 대구 수성구 도서관에서 마을 사람들이 책을 나누는 축제 모습을 보여 줘요.
+    channel: 수성TV At Suseong
+  - key: v14
+    stage: 확장하기
+    title: 옹달샘 마을 축제
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=aqIvuufviDk
+    desc: 대구 수성구 마을 사람들이 함께하는 옹달샘 마을 축제 모습을 보여 줘요.
+    channel: 수성TV At Suseong
+quiz:
+  - statement: 마을에는 학교, 가게, 병원 같은 여러 곳이 있어요.
+    answer: O
+    explain: 마을에는 사람들이 쓰는 여러 곳이 있어요.
+  - statement: 우체국은 편지와 소포를 전해 줘요.
+    answer: O
+    explain: 집배원이 편지와 소포를 집까지 가져다줘요.
+  - statement: 소방서는 불이 났을 때 도와줘요.
+    answer: O
+    explain: 소방관이 불을 끄고 사람을 구해 줘요.
+  - statement: 마을 사람들은 서로 도우며 살아요.
+    answer: O
+    explain: 서로 도우면 마을이 더 좋아져요.
+  - statement: 마을은 나와 아무 상관이 없어요.
+    answer: X
+    explain: 마을은 나도 함께 사는 곳이에요.
+  - statement: 길을 건널 때는 신호를 보지 않아도 돼요.
+    answer: X
+    explain: 신호를 보고 좌우를 살펴요.
