@@ -161,7 +161,7 @@ for (const f of files) {
     adopted.sort((x, y) => stageIdx(x.stage) - stageIdx(y.stage));
     for (const c of adopted) {
       const body = {
-        stage: c.stage, title: c.title, use: c.use, url: c.url, video_title: c.video_title, desc: c.desc,
+        stage: c.stage, title: c.title, use: c.use, url: c.url, desc: c.desc, // video_title은 옮기지 않는다(check가 목차 제목 ≠ 영상 제목을 경고). 후보 파일에는 기록으로 남음
         start: c.start && c.start > 0 ? c.start : undefined,
         end: c.end && c.end > 0 ? c.end : undefined,
       };
