@@ -1,0 +1,386 @@
+# mo5251 후보 기록 — 도덕 5학년 2학기 5단원 「모두에게 인권을」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo5251 --dry
+# 2026-10-17 수집. 재생·임베드·연령·국내·길이는 YouTube Data API로 후보 전부 정상 확인. 영상 본문은 제목·설명·채널 성격 기준으로 판단했고 전부 시청한 것은 아님.
+# 새 채널(channels.yaml에 없음): 충남교육청 · my Mapo마포구 · 서울디자인재단 유니버설디자인 · 제주도TV·Jeju · 국립국어원 · 디지털교과서와 함께하는 우리학교 · 서귀포시장애인보조기기대여센터 — 채택 시 운영자에게 등급 질문.
+kit:
+  id: mo5251
+  title: "5. 모두에게 인권을"
+  grade: 5
+  sem: 2학기
+  subject: 도덕
+  unit: 5단원
+  unit_no: 5
+  flow: activity
+  codes: ["[6도03-01]"]
+  core_idea: "인권은 모든 사람이 사람답게 살 수 있도록 지켜져야 하는 소중한 권리이고, 다른 사람의 처지에 공감하며 차별하지 않는 태도가 인권을 지키는 힘이 돼요."
+  core_question: "모두의 인권을 지키려면 나는 어떤 말과 행동부터 바꿀 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "인권은 왜 소중하고, 어떻게 넓어져 왔을까?"
+    - name: 탐구하기
+      question: "어린이의 인권은 어떻게 지켜져야 하고, 우리 둘레의 인권 침해는 무엇일까?"
+    - name: 확장하기
+      question: "다른 사람의 처지에 공감하며 인권을 존중하는 모습은 어떤 걸까?"
+  concepts:
+    - "인권"
+    - "아동 권리"
+    - "차별"
+    - "인권 침해"
+    - "공감"
+    - "배리어 프리"
+  source_notes: "정리본 도덕5.국정.u5(1차시 인권의 흐름·존중할 까닭 → 2차시 어린이 인권·권리 선언 → 3차시 침해 행동·보호 안내문 → 4차시 공감·인권 존중) · 오개념: 내 인권만 앞세움, 어린이 특별 보호, 제한과 침해 구분 · cautions: 특정 친구 지목 금지, 피해 사진에 머물지 않기 · 지도서 영상 '불편 체험 디자이너'는 원 영상을 못 찾아 유니버설디자인 공공 영상으로 대신 찾음"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "세계인권선언의 탄생"
+    url: https://www.youtube.com/watch?v=Cqu-6LbXeZc
+    channel: "국가인권위원회"
+    channel_grade: public
+    duration: "7:19"
+    use: 수업 중
+    basis_code: "[6도03-01]"
+    basis_lesson: "1차시 인권이 넓어져 온 흐름"
+    desc: "세계인권선언이 만들어지기까지 인권이 넓어져 온 과정을 정리해 보여 줘요."
+    verdict: 추천
+    note: "유엔 제작 영상에 인권위가 자막을 붙임(2018). 8분 이내지만 어휘가 어려울 수 있어 5학년 눈높이는 운영자 확인."
+  - cand_no: c02
+    stage: 생각열기
+    title: "아동인권, 어린 아동이라면 괜찮다?"
+    url: https://www.youtube.com/watch?v=Lt7LicDC6MY
+    channel: "국가인권위원회"
+    channel_grade: public
+    duration: "2:18"
+    use: 수업 전
+    basis_code: "[6도03-01]"
+    basis_lesson: "1차시 인권 존중할 까닭"
+    desc: "어린이도 어른과 같은 사람이라는 점에서 아동 인권을 지켜야 한다고 짧게 알려 줘요."
+    verdict: 추천
+    note: "인권위 별별서포터즈(청년·학생) 제작(2019). 설명란에 인권침해 상담 전화 안내."
+  - cand_no: c03
+    stage: 생각열기
+    title: "학생인권 초등 1화 인권, 넌 누구"
+    url: https://www.youtube.com/watch?v=eN_fuoq3_Rk
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "3:25"
+    use: 수업 전
+    basis_code: "[6도03-01]"
+    basis_lesson: "1차시 인권 존중할 까닭"
+    desc: "인권이 무엇인지 초등학생 눈높이로 처음 만나 보는 서울시교육청 학생인권 시리즈 1화예요."
+    verdict: 추천
+    note: "서울시교육청 2019 시리즈(초등 1~8화). 서울 학교 맥락이지만 인권 개념은 공통."
+  - cand_no: c04
+    stage: 생각열기
+    title: "우리는 인권지킴이 지키 — 모두에게 소중한 인권편"
+    url: https://www.youtube.com/watch?v=EZ5Blq5qsFg
+    channel: "충남교육청"
+    channel_grade: edu
+    duration: "8:38"
+    use: 수업 중
+    basis_code: "[6도03-01]"
+    basis_lesson: "1차시 인권 존중할 까닭"
+    desc: "인권지킴이 캐릭터와 함께 모두에게 인권이 소중한 까닭을 알아보는 애니메이션이에요."
+    verdict: 확인필요
+    note: "8분 38초라 구간 지정(8~15분은 start/end 필수) — 시청 후 구간을 정하거나 제외. 새 채널(충남교육청)."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "학생인권 초등 8화 권리와 책임은 단짝 친구"
+    url: https://www.youtube.com/watch?v=ioVv14tO4-Q
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "5:10"
+    use: 수업 중
+    basis_code: "[6도03-01]"
+    basis_lesson: "오개념 '내 인권만 앞세움'"
+    desc: "내 권리를 지키려면 다른 사람의 권리와 책임도 함께 생각해야 한다는 이야기예요."
+    verdict: 추천
+    note: "정리본 오개념(내 인권만 앞세우기 쉬움)에 맞음."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "우리의 권리, 우리가 지켜요!(2분 수업 끝)"
+    url: https://www.youtube.com/watch?v=adu7ZVwplSM
+    channel: "전북수업샘터"
+    channel_grade: edu
+    duration: "3:15"
+    use: 수업 중
+    basis_code: "[6도03-01]"
+    basis_lesson: "2차시 어린이 인권"
+    desc: "인권이 무엇인지와 유엔 아동권리협약이 말하는 아동의 네 가지 권리를 알려 줘요."
+    verdict: 추천
+    note: "전북 교육 채널(channels.yaml에 edu로 이미 있음). 2022. 놀 권리 이야기 포함."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "우리 모두 권리가 있어요! 아동권리 교육영상"
+    url: https://www.youtube.com/watch?v=pgT8Z8EpKZo
+    channel: "my Mapo마포구"
+    channel_grade: public
+    duration: "6:44"
+    use: 수업 중
+    basis_code: "[6도03-01]"
+    basis_lesson: "2차시 어린이 인권·권리 선언"
+    desc: "마포구가 어린이를 위해 만든 아동 권리 교육 영상으로, 어린이에게 어떤 권리가 있는지 알려 줘요."
+    verdict: 추천
+    note: "마포구청 공식 방송(2023). 새 채널. 서울 지자체 제작."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "학생인권 초등 7화 차별일까 차이일까"
+    url: https://www.youtube.com/watch?v=e07Wnxts41w
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "3:19"
+    use: 수업 중
+    basis_code: "[6도03-01]"
+    basis_lesson: "3차시 인권 침해 행동 찾기"
+    desc: "다른 점을 차별로 보아야 할 때와 차이로 받아들일 때를 구분해 봐요."
+    verdict: 추천
+    note: "정리본 오개념(제한과 침해 구분)과 맞음."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "학생인권 초등 3화 다를까? 틀릴까?"
+    url: https://www.youtube.com/watch?v=hRjocQkE3UE
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "3:35"
+    use: 수업 중
+    basis_code: "[6도03-01]"
+    basis_lesson: "3차시 인권 침해 표현 찾기"
+    desc: "나와 다른 것을 틀렸다고 말하는 것과 다르다고 말하는 것의 차이를 알아봐요."
+    verdict: 추천
+  - cand_no: c10
+    stage: 탐구하기
+    title: "인권지킴이 지키 — 혐오와 차별편"
+    url: https://www.youtube.com/watch?v=g8xkO7AHJ3g
+    channel: "충남교육청"
+    channel_grade: edu
+    duration: "7:32"
+    use: 수업 중
+    basis_code: "[6도03-01]"
+    basis_lesson: "3차시 차별 표현 사례"
+    desc: "혐오와 차별이 왜 인권을 해치는지 보여 주는 인권 존중 학교용 애니메이션이에요."
+    verdict: 추천
+    note: "혐오 표현 장면이 나올 수 있어 수위는 운영자 확인. 새 채널."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "우리가 모두 어린이였음을 — 아동 인권"
+    url: https://www.youtube.com/watch?v=_s_mFxAS3L8
+    channel: "국가인권위원회"
+    channel_grade: public
+    duration: "4:52"
+    use: 수업 중
+    basis_code: "[6도03-01]"
+    basis_lesson: "2차시 어린이 인권"
+    desc: "어린이날을 맞아 어른들이 아동 인권을 어떻게 지켜야 할지 이야기 나누는 영상이에요."
+    verdict: 보류
+    note: "어른 대상 토크 성격으로 보임 — 5학년 눈높이 아님. 어린이 대상 영상(c06·c07)으로 충분하면 제외."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "혐오차별 예방 캠페인"
+    url: https://www.youtube.com/watch?v=MXI_WEYYGHU
+    channel: "국가인권위원회"
+    channel_grade: public
+    duration: "2:05"
+    use: 수업 후
+    basis_code: "[6도03-01]"
+    basis_lesson: "3차시 인권 침해 표현 찾기"
+    desc: "혐오와 차별을 지우면 사람이 보인다는 메시지의 공공 캠페인이에요."
+    verdict: 보류
+    note: "혐오 표현 장면 노출 여부 확인 필요. c10으로 충분하면 제외."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "혐오와 차별을 넘어 저마다의 빛깔로(마주캠페인)"
+    url: https://www.youtube.com/watch?v=26ZzM1VFj6Y
+    channel: "국가인권위원회"
+    channel_grade: public
+    duration: "0:58"
+    use: 수업 전
+    basis_code: "[6도03-01]"
+    basis_lesson: "3차시 인권 침해 표현 찾기"
+    desc: "차별을 넘어 저마다의 빛깔로 함께 살자는 짧은 인권 캠페인이에요."
+    verdict: 보류
+    note: "1분 미만 — 동기 유발용. 필요하면 추가."
+  - cand_no: c14
+    stage: 탐구하기
+    title: "인권애니메이션 따로 또 같이"
+    url: https://www.youtube.com/watch?v=fRGrGn9UgwU
+    channel: "서귀포시장애인보조기기대여센터"
+    channel_grade: public
+    duration: "3:38"
+    use: 수업 후
+    basis_code: "[6도03-01]"
+    basis_lesson: "3차시 인권 침해 행동 찾기"
+    desc: "장애인 당사자의 경험을 바탕으로 만든 인권 애니메이션이에요."
+    verdict: 확인필요
+    note: "제주 지역 복지센터가 올린 영상(모금회 지원 제작) — 채널 성격·등급과 장애 묘사 수위 확인 필요. 새 채널."
+  - cand_no: c15
+    stage: 확장하기
+    title: "어린이와 함께하는 이동약자 체험"
+    url: https://www.youtube.com/watch?v=49wYfBMPvhQ
+    channel: "서울디자인재단 유니버설디자인"
+    channel_grade: public
+    duration: "6:51"
+    use: 수업 중
+    basis_code: "[6도03-01]"
+    basis_lesson: "4차시 불편 체험·공감"
+    desc: "어린이가 이동하기 불편한 사람의 입장을 체험하며 모두를 위한 디자인을 생각해 봐요."
+    verdict: 추천
+    note: "지도서의 불편 체험 활동과 맞음. 어린이 출연 — 공공(서울디자인재단) 공식 채널이라 허용 범위. 새 채널."
+  - cand_no: c16
+    stage: 확장하기
+    title: "배리어프리 vs 유니버설디자인, 뭐가 다를까?"
+    url: https://www.youtube.com/watch?v=H8RZBc8HPzs
+    channel: "대한민국 대법원"
+    channel_grade: public
+    duration: "0:39"
+    use: 수업 전
+    basis_code: "[6도03-01]"
+    basis_lesson: "4차시 배리어 프리 이해"
+    desc: "장벽을 없애는 배리어 프리와 처음부터 모두를 생각하는 유니버설 디자인이 어떻게 다른지 짧게 알려 줘요."
+    verdict: 추천
+    note: "2026-08 영상. 1분 미만 — 수업 전 동기 유발용."
+  - cand_no: c17
+    stage: 확장하기
+    title: "유니버설디자인 — 돌이와 소리 가족의 외출(수어 포함)"
+    url: https://www.youtube.com/watch?v=Q9n090yWjpM
+    channel: "제주도TV·Jeju"
+    channel_grade: public
+    duration: "3:15"
+    use: 수업 후
+    basis_code: "[6도03-01]"
+    basis_lesson: "4차시 공감·배려"
+    desc: "누구나 편하게 쓸 수 있는 유니버설 디자인을 가족의 외출 이야기로 보여 주는 수어 포함 영상이에요."
+    verdict: 추천
+    note: "제주도 공식 방송(2022). 새 채널."
+  - cand_no: c18
+    stage: 확장하기
+    title: "학교에선 장애 이해 교육 — 공감 높인다"
+    url: https://www.youtube.com/watch?v=cPvzf0kHjnM
+    channel: "KBS뉴스 대구경북"
+    channel_grade: press
+    local: 대구
+    duration: "1:58"
+    use: 수업 후
+    basis_code: "[6도03-01]"
+    basis_lesson: "4차시 공감"
+    desc: "학교에서 장애 이해 교육으로 서로 공감하는 마음을 키우는 모습을 전하는 대구경북 뉴스예요."
+    verdict: 추천
+    note: "대구경북 지역 언론(2022). 장애인 차별 앵커 멘트 포함 — 피해 장면 없음."
+  - cand_no: c19
+    stage: 확장하기
+    title: "차별과 편견 넘어 공존, 그들이 우리가 되는 날"
+    url: https://www.youtube.com/watch?v=6spdl_MsgJk
+    channel: "TBC뉴스"
+    channel_grade: press
+    local: 대구
+    duration: "3:03"
+    use: 수업 후
+    basis_code: "[6도03-01]"
+    basis_lesson: "4차시 공감"
+    desc: "장애인과 다문화 이웃이 차별과 편견을 넘어 함께 사는 사회를 이야기하는 대구경북 뉴스예요."
+    verdict: 확인필요
+    note: "TBC(대구) 2026-04 보도. 설명란에 해시태그뿐이라 내용·피해 장면 여부를 확인해야 함."
+  - cand_no: c20
+    stage: 확장하기
+    title: "편견과 차별 — 휠체어 체험(VR)"
+    url: https://www.youtube.com/watch?v=KBK50p5vjzc
+    channel: "디지털교과서와 함께하는 우리학교"
+    channel_grade: edu
+    duration: "3:33"
+    use: 수업 후
+    basis_code: "[6도03-01]"
+    basis_lesson: "4차시 불편 체험"
+    desc: "휠체어를 탄 사람의 불편을 가상 현실로 체험해 편견과 차별 문제를 생각해 봐요."
+    verdict: 추천
+    note: "한국교육학술정보원(KERIS) 디지털교과서 연계 콘텐츠(2020). 새 채널."
+  - cand_no: c21
+    stage: 확장하기
+    title: "한국수어, 대한민국 농인의 공용어"
+    url: https://www.youtube.com/watch?v=QNRoTcnJWf0
+    channel: "국립국어원"
+    channel_grade: public
+    duration: "1:01"
+    use: 수업 전
+    basis_code: "[6도03-01]"
+    basis_lesson: "4차시 수어 사전 활동"
+    desc: "수어가 농인이 쓰는 우리나라의 공용어라는 것을 알려 주는 공공 영상이에요."
+    verdict: 추천
+    note: "지도서의 수어 사전 활동과 이어짐. 새 채널."
+  - cand_no: c22
+    stage: 확장하기
+    title: "한국수어 인식개선 홍보 영상"
+    url: https://www.youtube.com/watch?v=BjOPmIcC_fo
+    channel: "국립국어원"
+    channel_grade: public
+    duration: "1:30"
+    use: 수업 후
+    basis_code: "[6도03-01]"
+    basis_lesson: "4차시 공감"
+    desc: "한국수어에 대한 인식을 바꾸자는 국립국어원의 홍보 영상이에요."
+    verdict: 추천
+    note: "c21과 같은 채널. 둘 중 하나만 써도 됨."
+  - cand_no: c23
+    stage: 확장하기
+    title: "[대구인권로드] 우리는 모두 청소년이었지만"
+    url: https://www.youtube.com/watch?v=98TrV6MjHmo
+    channel: "국가인권위원회"
+    channel_grade: public
+    local: 대구
+    duration: "5:55"
+    use: 수업 후
+    basis_code: "[6도03-01]"
+    basis_lesson: "4차시 인권 존중 모습"
+    desc: "대구의 인권 의미가 있는 사건과 장소를 찾아가는 대구인권로드의 청소년 인권 편이에요."
+    verdict: 확인필요
+    note: "대구 지역성이 있으나 청소년 인권이라 5학년 눈높이 확인 필요."
+  - cand_no: c24
+    stage: 확장하기
+    title: "다름을 넘어 존중으로 — 첫 초등 인권 교과서"
+    url: https://www.youtube.com/watch?v=XRZ-snuvus8
+    channel: "EBS뉴스"
+    channel_grade: edu
+    duration: "9:53"
+    use: 배경지식
+    basis_code: "[6도03-01]"
+    basis_lesson: "교사용 배경"
+    desc: "학교 현장의 혐오 표현 문제와 처음 만들어진 초등 인권 교과서를 소개하는 뉴스예요."
+    verdict: 확인필요
+    note: "2026-08 영상. 9분 53초라 구간 필수, 학생용이 아니라 교사 배경지식으로만."
+  - cand_no: c25
+    stage: 확장하기
+    title: "모두가 누리는 휴식 — 유니버설디자인 전시·체험"
+    url: https://www.youtube.com/watch?v=pRR9EaY2_w0
+    channel: "한국장애인개발원"
+    channel_grade: public
+    duration: "2:30"
+    use: 수업 후
+    basis_code: "[6도03-01]"
+    basis_lesson: "4차시 배리어 프리"
+    desc: "유니버설디자인 전시·체험 행사의 현장을 담은 스케치 영상이에요."
+    verdict: 보류
+    note: "행사 스케치라 내용이 얕음. c15·c17로 충분하면 제외. 새 채널."
+  - cand_no: c26
+    stage: 확장하기
+    title: "세계 인권의 날을 아시나요?"
+    url: https://www.youtube.com/watch?v=94CVo4R6x_4
+    channel: "국가인권위원회"
+    channel_grade: public
+    duration: "2:43"
+    use: 수업 후
+    basis_code: "[6도03-01]"
+    basis_lesson: "4차시 인권 존중 모습"
+    desc: "학생 기자단이 세계 인권의 날을 소개하는 영상이에요."
+    verdict: 보류
+    note: "별별기자단 제작(인권위 공식 입장과 다를 수 있다는 안내 있음). 필요 없으면 제외."
+  - cand_no: c27
+    stage: 탐구하기
+    title: "부모를 위한 아동인권 — 아동의 놀이도 권리다"
+    url: https://www.youtube.com/watch?v=1aNYYg8IYI4
+    channel: "국가인권위원회"
+    channel_grade: public
+    duration: "5:21"
+    use: 배경지식
+    basis_code: "[6도03-01]"
+    basis_lesson: "2차시 어린이 인권"
+    desc: "아동의 놀이가 권리가 되려면 어떻게 해야 하는지 어른에게 설명하는 영상이에요."
+    verdict: 보류
+    note: "부모 대상이라 학생용 아님. 교사 배경지식으로만."
