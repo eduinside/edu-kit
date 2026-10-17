@@ -1,0 +1,200 @@
+id: pr5301
+title: 수송 수단·친환경 수송
+grade: 5
+sem: 2학기
+subject: 실과
+unit: 기술적 문제해결과 혁신
+unit_no: 3
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 수송은 사람과 물건을 한 곳에서 다른 곳으로 옮기는 일이고, 땅과 물과 하늘의 수송 수단은 사람들의 불편을 풀려는 발명으로 발달해 왔어요. 수송 수단은 움직이게 하고, 방향을 바꾸고, 멈추게 하는 장치로 이루어져 있고, 오늘날에는 환경을 지키는 친환경 에너지를 쓰는 수송 수단이 늘고 있어요.
+  core_question: 수송 수단은 어떻게 발달해 왔고, 어떤 장치로 움직이며, 환경을 지키려면 어떤 수송 수단을 만들어야 할까?
+  concepts:
+    - term: 수송 수단
+      def: 사람이나 물건을 한 곳에서 다른 곳으로 옮기는 탈것이에요. 땅, 물, 하늘에서 움직이는 자동차, 기차, 배, 비행기가 있어요.
+    - term: 구동 장치
+      def: 수송 수단을 움직이게 하는 장치예요. 자전거의 페달과 체인, 자동차의 엔진이나 모터가 여기에 들어가요.
+    - term: 조향 장치
+      def: 수송 수단의 방향을 바꾸는 장치예요. 자전거와 자동차의 핸들이 대표적이에요.
+    - term: 제동 장치
+      def: 움직이는 수송 수단의 속도를 줄이거나 멈추게 하는 장치예요. 브레이크가 대표적이에요.
+    - term: 친환경 수송 수단
+      def: 환경을 덜 오염시키는 에너지로 움직이는 수송 수단이에요. 전기차, 수소전기차, 태양광 자동차가 있어요.
+  standards:
+    - code: "[6실03-04]"
+      text: 수송의 의미와 수송 수단의 발달과정에 대한 이해를 바탕으로 생활 속 다양한 수송 수단을 탐색한다.
+    - code: "[6실03-05]"
+      text: 수송 수단의 구성 요소를 이해하고, 친환경 에너지를 적용한 다양한 수송 수단의 시제품을 만들어 수송기술의 가치를 인식한다.
+stages:
+  - 수송 수단
+  - 구동·조향·제동 장치
+  - 친환경 수송 수단
+  - 미래 수송 수단
+items:
+  - key: v1
+    stage: 수송 수단
+    title: 수송과 수송 수단
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=H46NVgJY5lI
+    desc: 수송이 무엇이고 수송 수단이 우리 생활에 어떤 쓸모가 있는지 짧게 알려 줘요.
+    channel: 아꿈선 초등3분과학
+  - key: v2
+    stage: 수송 수단
+    title: 현대인의 필수품 자동차의 역사
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=9N9ru8eYzpQ
+    desc: 바퀴와 말에서 자동차까지 땅 위 수송 수단이 바뀐 과정을 보여 줘요.
+    channel: YTN 사이언스
+  - key: v3
+    stage: 수송 수단
+    title: 산업발전의 중요한 역할, 철도의 역사
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=YDg7khWIDA0
+    desc: 철도가 처음 생겨 발달해 온 과정을 알려 줘요.
+    channel: YTN 사이언스
+  - key: v4
+    stage: 수송 수단
+    title: 인류와 함께 발전해온 배의 역사
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=rk1plpb6398
+    desc: 갈대배에서 오늘날의 배까지 물 위 수송 수단이 발달한 모습을 알려 줘요.
+    channel: YTN 사이언스
+  - key: v5
+    stage: 수송 수단
+    title: 새처럼 자유롭게 하늘을 날다, 비행기의 역사
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=QWzpOe2YM70
+    desc: 하늘을 날고 싶었던 인류의 도전과 비행기의 발달을 알려 줘요.
+    channel: YTN 사이언스
+  - key: v6
+    stage: 수송 수단
+    title: 세상을 잇는 선, 철도 연대기
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=pwMFvZTczRw
+    desc: 전차에서 고속철도까지 우리나라 철도가 발달해 온 이야기를 들려줘요.
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v7
+    stage: 구동·조향·제동 장치
+    title: 수송 수단의 기본 요소
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=9c6ERPSRT7o
+    desc: 수송 수단을 이루는 기본 요소를 짧게 정리해 줘요.
+    channel: 아꿈선 초등3분과학
+  - key: v8
+    stage: 구동·조향·제동 장치
+    title: 회전력의 전달, 기어
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=neMXMOjisJU
+    desc: 기어가 회전력을 전달하는 원리를 전시물로 보여 줘요.
+    channel: 국립부산과학관
+  - key: v9
+    stage: 구동·조향·제동 장치
+    title: 자전거 안전하게 점검, 관리하기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=4i-DKwudrtc
+    desc: 브레이크와 핸들 같은 자전거 부분을 안전하게 점검하는 방법을 알려 줘요.
+    channel: KTV  다큐
+  - key: v10
+    stage: 구동·조향·제동 장치
+    title: 자동차 바퀴의 과학, 바퀴는 왜 동그랗지?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=xcW2ItuB4jw
+    desc: 자동차 바퀴가 왜 둥글고 몇 개인지 같은 바퀴의 과학을 알려 줘요.
+    channel: 국립중앙과학관
+  - key: v11
+    stage: 친환경 수송 수단
+    title: 달리면서 환경을 보호하는 자동차가 있다?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=CgsD48sidUQ
+    desc: 전기차·수소차 같은 친환경차가 왜 필요한지 알려 줘요.
+    channel: 기후에너지환경부
+  - key: v12
+    stage: 친환경 수송 수단
+    title: 전기자동차와 일반자동차의 구조는 어떻게 다를까
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=JfcaErPei64
+    desc: 전기자동차와 휘발유 자동차의 구조 차이를 비교해 줘요.
+    channel: YTN 사이언스
+  - key: v13
+    stage: 친환경 수송 수단
+    title: 수소전기차는 어떻게 도로를 달리는 것일까
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=pUQkBOIt0KM
+    desc: 수소로 전기를 만들어 달리는 수소전기차의 원리를 알려 줘요.
+    channel: YTN 사이언스
+  - key: v14
+    stage: 친환경 수송 수단
+    title: 태양광에너지로 자동차를 움직여요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=xHemmDhkDs8
+    desc: 햇빛으로 전기를 만들어 자동차를 움직이는 전시물을 설명해요.
+    channel: 국립광주과학관
+  - key: v15
+    stage: 친환경 수송 수단
+    title: 재생에너지가 궁금하다! 태양광&풍력 편
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=F5E5ltqpF58
+    desc: 태양광과 풍력 에너지의 발전 원리와 설비를 알려 줘요.
+    channel: "한국에너지공단 : KEA(Korea Energy Agency)"
+  - key: v16
+    stage: 친환경 수송 수단
+    title: 친환경 선박이 떴다
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=KHGS8T1xKsM
+    desc: 바다 오염을 줄이는 친환경 선박을 소개해요.
+    channel: 해양수산부
+  - key: v17
+    stage: 친환경 수송 수단
+    title: 햇빛으로 축제를 밝혀라! 태양광 발전
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=9xldZkbH8p8
+    desc: 어린이 만화로 태양광 발전의 원리를 보여 줘요.
+    channel: 한국에너지기술연구원
+  - key: v18
+    stage: 미래 수송 수단
+    title: K-UAM이 가져올 미래 미리보기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=_XutdcHRBUk
+    desc: 도심 하늘을 나는 UAM 같은 미래 수송 수단을 소개해요.
+    channel: 국토교통부
+  - key: v19
+    stage: 미래 수송 수단
+    title: 하이퍼루프는 머스크의 아이디어일까 (1분 레일테크)
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=FfXYheE8jd0
+    desc: 하이퍼루프의 원리와 우리 기술을 철도기술연구원이 설명해요.
+    channel: KRRI한국철도기술연구원
+  - key: v20
+    stage: 미래 수송 수단
+    title: 다양한 기술이 들어간 무가선 트램
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=EdM_12Y_XGg
+    desc: 전선 없이 달리는 무가선 트램에 들어간 기술을 알려 줘요.
+    channel: YTN 사이언스
+quiz:
+  - statement: 수송 수단은 사람들의 불편을 풀려는 발명과 개선이 쌓여 발달해 왔다.
+    answer: O
+    explain: 하루아침에 생긴 것이 아니라 오랜 시간 고치고 발전시켜 왔어요.
+  - statement: 수송 수단은 땅 위에서 움직이는 것만을 뜻한다.
+    answer: X
+    explain: 땅뿐 아니라 물과 하늘에서 움직이는 배와 비행기도 수송 수단이에요.
+  - statement: 자전거에서 방향을 바꾸는 일을 하는 장치는 핸들이다.
+    answer: O
+    explain: 방향을 바꾸는 장치를 조향 장치라고 해요.
+  - statement: 브레이크는 수송 수단을 움직이게 하는 구동 장치이다.
+    answer: X
+    explain: 브레이크는 속도를 줄이거나 멈추게 하는 제동 장치예요.
+  - statement: 구동 장치, 조향 장치, 제동 장치는 서로 맞물려 일하므로 하나가 고장 나면 문제가 생긴다.
+    answer: O
+    explain: 움직이고 방향을 바꾸고 멈추는 일이 모두 제대로 되어야 안전해요.
+  - statement: 친환경 수송 수단은 모두 휘발유로 달린다.
+    answer: X
+    explain: 전기, 수소, 태양광 같은 환경을 덜 오염시키는 에너지를 써요.
+  - statement: 전기자동차는 엔진 대신 모터로 움직인다.
+    answer: O
+    explain: 전기로 모터를 돌려 바퀴를 굴려요.
+  - statement: 수송 수단이 발달하는 목적은 더 빨리 가는 것 하나뿐이다.
+    answer: X
+    explain: 빠르기뿐 아니라 안전, 편리, 환경까지 함께 생각하며 발달해요.

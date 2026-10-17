@@ -17,6 +17,7 @@
 - `docs/OPERATIONS.md` — **운영 절차·꾸러미 파일 형식·점검 항목**(작업 전에 읽을 것)
 - `docs/IMPROVEMENT_PLAN_claude-ops.md` — 전환 배경·운영자 결정·남은 개선(S1~S9)
 - `docs/FEATURE_PLAN_report.md`·`docs/FEATURE_PLAN_mix.md` — 문제 알리기(D1+메일)·모음(`/m/:id`, dgedu.link) 설계
+- `docs/EXPANSION_PLAN_moral-practical.md` — 도덕(3~6)·실과(5~6) 확장 영상 수집 계획(꾸러미 단위·id·수집 기준·시트 열 이름·일정, 2026-10-17 초안)
 - `docs/DEPLOY.md` — 배포 인프라(Pages 비밀 값: `RESEND_API_KEY`·`REPORT_EMAIL_TO`·`DGEDU_LINK_API_KEY`)
 - `docs/archive/` — 은퇴한 시트 시절 문서
 

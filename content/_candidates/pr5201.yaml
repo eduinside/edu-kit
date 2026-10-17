@@ -1,0 +1,379 @@
+# pr5201 후보 기록 — 실과 5학년 · 생활 자원·생활 공간 관리 ([6실02-01]·[6실02-02]·[6실02-10])
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- pr5201 --dry
+# 2026-10-17 야간 위임 수집. 후보 전부 ytcheck로 재생·임베드·연령·국내·길이·쇼츠 확인(임베드 차단 2편은 제외). 영상 본문은 제목·설명·채널 성격 기준이며 전부 시청한 것은 아님.
+# 분리배출은 제도·기준이 바뀌므로 최근(2021~) 영상 위주로 고름. 지도서가 가리킨 자원순환정보시스템·한국환경공단은 한국환경공단·국가환경교육센터 영상으로 확인.
+# 새 채널(channels.yaml에 없음): 동작구청 · 한국소비자원 — 등급 미분류(추정 public), 운영자 확인.
+kit:
+  id: pr5201
+  title: "생활 자원·생활 공간 관리"
+  grade: 5
+  sem: 2학기
+  subject: 실과
+  unit: 생활환경과 지속가능한 선택
+  unit_no: 2
+  flow: activity
+  sort_order: 1
+  codes: ["[6실02-01]", "[6실02-02]", "[6실02-10]"]
+  core_idea: "시간과 용돈 같은 생활 자원은 한정되어 있어서 계획을 세워 알맞게 써야 해요. 내가 지내는 공간도 정리 정돈과 청소, 쓰레기 분리배출로 깨끗하게 가꾸면 건강과 환경에 도움이 돼요."
+  core_question: "한정된 시간과 용돈을 어떻게 알뜰하게 쓰고, 내가 지내는 공간을 어떻게 쾌적하게 관리할 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "생활 자원은 무엇이고 왜 관리해야 할까?"
+    - name: 탐구하기1
+      question: "시간과 용돈을 어떻게 계획하고 쓸까?"
+    - name: 탐구하기2
+      question: "생활 공간을 어떻게 정리하고 쓰레기를 처리할까?"
+    - name: 확장하기
+      question: "생활 자원과 공간을 앞으로도 잘 관리하려면 어떻게 해야 할까?"
+  concepts:
+    - "생활 자원"
+    - "시간 관리"
+    - "용돈 관리"
+    - "정리 정돈"
+    - "분리배출"
+  source_notes: "정리본(천재 u5 · 비상 u3-1) 요지: 생활 자원은 한정(시간·용돈·지식·건강 같은 보이지 않는 것 포함) → 시간 관리(목표·계획·실천·평가)·용돈 계획과 기입장 → 정리·정돈·청소 순서와 쓰레기 분리배출 · 오개념: 자원은 눈에 보이는 물건뿐, 청소는 지저분할 때만, 용돈 관리=아끼기만, 정리와 정돈은 같은 말 · 유의: 분리배출 규칙은 지역마다 달라 사는 곳 기준 확인, 용돈이 없는 학생 배려, 청소 때 환기·마스크"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "희소성 — 갖고 싶은 건 많은데 자원은 한정돼요"
+    url: https://www.youtube.com/watch?v=gDanT7WjFPc
+    channel: "재정경제부"
+    channel_grade: public
+    duration: "2:55"
+    use: 수업 전
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 1차시 생활 자원은 한정됨"
+    desc: "자원은 한정되어 있어서 선택이 필요하다는 희소성의 뜻을 쉽게 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016 어린이 경제교실. 개념은 변하지 않음."
+  - cand_no: c02
+    stage: 생각열기
+    title: "기회비용 — 선택에는 대가가 따라요"
+    url: https://www.youtube.com/watch?v=HQozYIHMdCI
+    channel: "재정경제부"
+    channel_grade: public
+    duration: "4:18"
+    use: 수업 중
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 1차시 쓸모를 높이는 선택"
+    desc: "하나를 고르면 다른 하나를 포기해야 하는 기회비용을 예로 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016 어린이 경제교실 UP."
+  - cand_no: c03
+    stage: 생각열기
+    title: "합리적 소비생활 실천"
+    url: https://www.youtube.com/watch?v=LrfPpb1D7Ck
+    channel: "아꿈선 초등3분과학"
+    channel_grade: edu
+    duration: "2:22"
+    use: 수업 중
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 1·4차시 합리적 선택"
+    desc: "필요한 것을 따져 보고 알뜰하게 사는 합리적 소비를 짧게 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 교사 모임 채널(등급표 edu)."
+  - cand_no: c04
+    stage: 탐구하기1
+    title: "[실과 완전 정복] 시간관리"
+    url: https://www.youtube.com/watch?v=Kmym3SRXcx4
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:22"
+    use: 수업 중
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 3차시 목표·계획·실천·평가로 시간 관리"
+    desc: "모두에게 똑같이 주어진 시간을 효율적으로 쓰는 계획 세우기를 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 11."
+  - cand_no: c05
+    stage: 탐구하기1
+    title: "[실과 완전 정복] 용돈관리"
+    url: https://www.youtube.com/watch?v=OE2IhH5IXUU
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:24"
+    use: 수업 중
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 4차시 용돈 계획과 기입장"
+    desc: "용돈 관리가 왜 필요한지 알고 사용 계획을 세우는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 12."
+  - cand_no: c06
+    stage: 탐구하기1
+    title: "바람직한 용돈관리"
+    url: https://www.youtube.com/watch?v=lZRukFDM8h0
+    channel: "아꿈선 초등3분과학"
+    channel_grade: edu
+    duration: "4:01"
+    use: 수업 중
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 4차시 용돈 계획"
+    desc: "용돈을 어떻게 쓰고 기록하면 좋은지 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 교사 모임 채널(edu)."
+  - cand_no: c07
+    stage: 탐구하기1
+    title: "초등 슬기로운 생활금융 6차시 — 용돈 관리의 달인"
+    url: https://www.youtube.com/watch?v=x2A1wAOnXfM
+    channel: "금융감독원(Financial Supervisory Service)"
+    channel_grade: public
+    duration: "4:45"
+    use: 수업 중
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 4차시 용돈 관리"
+    desc: "금융감독원이 만든 초등 금융교육으로 용돈 관리의 중요성과 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 초등 금융교육 시리즈."
+  - cand_no: c08
+    stage: 탐구하기1
+    title: "내 용돈이 다 어디로 갔을까"
+    url: https://www.youtube.com/watch?v=HXRvRAVhPs4
+    channel: "재정경제부"
+    channel_grade: public
+    duration: "3:32"
+    use: 수업 후
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 4차시 용돈 기입장"
+    desc: "용돈을 기록하지 않으면 어디에 썼는지 모르게 되는 상황을 보여 주며 기록의 필요를 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 금쪽이 경제교실."
+  - cand_no: c09
+    stage: 탐구하기1
+    title: "소중한 내 용돈, 소비를 잘 하려면"
+    url: https://www.youtube.com/watch?v=3OKfSUaHvBM
+    channel: "재정경제부"
+    channel_grade: public
+    duration: "3:43"
+    use: 수업 중
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 4차시"
+    desc: "소득과 소비의 뜻을 알고 용돈을 잘 쓰는 방법을 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c07·c08과 내용이 겹침."
+  - cand_no: c10
+    stage: 탐구하기1
+    title: "KDI 경제 보드게임 용돈 받는 날"
+    url: https://www.youtube.com/watch?v=DDbrysPlb5s
+    channel: "KDI 경제교육·정보센터"
+    channel_grade: public
+    duration: "5:07"
+    use: 수업 중
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 4차시"
+    desc: "용돈 사용을 게임으로 익히는 방법을 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "임베드 차단(ytcheck)."
+  - cand_no: c11
+    stage: 탐구하기2
+    title: "[실과 완전 정복] 생활 공간 관리(내 교실)"
+    url: https://www.youtube.com/watch?v=QiQDp8mQlWY
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:39"
+    use: 수업 중
+    basis_code: "[6실02-10]"
+    basis_lesson: "정리본 5·6차시 정리 정돈과 청소"
+    desc: "교실 공간을 어떻게 정리하고 관리하면 좋은지 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 14."
+  - cand_no: c12
+    stage: 탐구하기2
+    title: "호흡기 감염병 예방을 위한 슬기로운 환기 수칙"
+    url: https://www.youtube.com/watch?v=FBC3pUHaPn8
+    channel: "질병관리청 아프지마TV"
+    channel_grade: public
+    duration: "0:30"
+    use: 수업 전
+    basis_code: "[6실02-10]"
+    basis_lesson: "정리본 5차시 쾌적하고 위생적인 공간 · 청소 때 환기"
+    desc: "실내 환기를 얼마나 자주 어떻게 하면 좋은지 짧게 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 30초 동기 유발용. 쇼츠 아님(ytcheck)."
+  - cand_no: c13
+    stage: 탐구하기2
+    title: "[실과 완전 정복] 분리배출"
+    url: https://www.youtube.com/watch?v=VTRylIk0d9s
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:55"
+    use: 수업 중
+    basis_code: "[6실02-10]"
+    basis_lesson: "정리본 7차시 쓰레기 분리배출"
+    desc: "쓰레기를 종류별로 나누어 버려 생활 공간을 쾌적하게 지키는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 18. 분리배출 규칙은 사는 곳 기준을 확인해야 함."
+  - cand_no: c14
+    stage: 탐구하기2
+    title: "알쏭달쏭 헷갈리는 쓰레기 분리배출 깨알상식"
+    url: https://www.youtube.com/watch?v=lliiwxe6quk
+    channel: "국가환경교육센터"
+    channel_grade: public
+    duration: "5:28"
+    use: 수업 중
+    basis_code: "[6실02-10]"
+    basis_lesson: "정리본 7차시 분리배출"
+    desc: "헷갈리기 쉬운 쓰레기의 올바른 분리배출 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 환경교육 공공기관."
+  - cand_no: c15
+    stage: 탐구하기2
+    title: "어린이 분리배출 교육동영상"
+    url: https://www.youtube.com/watch?v=UPPkxi2a9Ic
+    channel: "동작구청"
+    channel_grade: public
+    duration: "4:16"
+    use: 수업 중
+    basis_code: "[6실02-10]"
+    basis_lesson: "정리본 7차시 분리배출"
+    desc: "어린이가 분리배출 방법을 배우는 구청 제작 교육영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 지자체 제작. 새 채널(public 추정)."
+  - cand_no: c16
+    stage: 탐구하기2
+    title: "재활용쓰레기 처리과정"
+    url: https://www.youtube.com/watch?v=4CrtePlbkOQ
+    channel: "화성시 자원순환과"
+    channel_grade: public
+    duration: "2:59"
+    use: 수업 중
+    basis_code: "[6실02-10]"
+    basis_lesson: "정리본 7차시 쓰레기 처리 과정"
+    desc: "분리배출된 재활용 쓰레기가 처리되는 과정을 보여 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "임베드 차단(ytcheck)."
+  - cand_no: c17
+    stage: 탐구하기2
+    title: "분리배출표시제도 가이드"
+    url: https://www.youtube.com/watch?v=Y9epTHqF_Zs
+    channel: "한국환경공단"
+    channel_grade: public
+    duration: "4:50"
+    use: 수업 후
+    basis_code: "[6실02-10]"
+    basis_lesson: "정리본 7차시 분리배출"
+    desc: "포장재의 분리배출 표시를 읽는 방법을 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "성인 대상 제도 설명에 가까워 초등 눈높이 확인 필요."
+  - cand_no: c18
+    stage: 탐구하기2
+    title: "올바른 분리배출! DJ통키와 함께해요"
+    url: https://www.youtube.com/watch?v=RRCYWoscvjA
+    channel: "대구TV┃대구광역시 공식 유튜브"
+    channel_grade: public
+    local: 대구
+    duration: "2:54"
+    use: 수업 후
+    basis_code: "[6실02-10]"
+    basis_lesson: "정리본 7차시 분리배출"
+    desc: "대구시 방송에서 올바른 분리배출 상식을 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020, 성인 대상 방송 코너. 대구 사례지만 제도 변경 가능성."
+  - cand_no: c19
+    stage: 확장하기
+    title: "분리배출 응급실"
+    url: https://www.youtube.com/watch?v=DHmXzJJ6vQs
+    channel: "my Mapo마포구"
+    channel_grade: public
+    duration: "3:36"
+    use: 수업 후
+    basis_code: "[6실02-10]"
+    basis_lesson: "정리본 7차시 분리배출 실천"
+    desc: "잘못된 분리배출을 바로잡는 이야기를 담은 자원순환교육 영상 공모전 수상작이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025 공모전 수상작(마포구). 최근 제도 반영."
+  - cand_no: c20
+    stage: 확장하기
+    title: "[실과 완전 정복] 우리 집에서"
+    url: https://www.youtube.com/watch?v=acMMZh3qcVE
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "6:26"
+    use: 수업 후
+    basis_code: "[6실02-10]"
+    basis_lesson: "정리본 5~7차시 집에서 실천하는 정리·청소"
+    desc: "집에서 스스로 할 수 있는 집안일을 차근차근 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 20."
+  - cand_no: c21
+    stage: 확장하기
+    title: "[실과 완전 정복] 부엌에서"
+    url: https://www.youtube.com/watch?v=jtFCEnTI40c
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:32"
+    use: 수업 후
+    basis_code: "[6실02-10]"
+    basis_lesson: "정리본 5~7차시"
+    desc: "부엌에서 스스로 할 수 있는 기본적인 가정일을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 19."
+  - cand_no: c22
+    stage: 확장하기
+    title: "용돈을 저축해 보아요"
+    url: https://www.youtube.com/watch?v=ZWpPSAG92XA
+    channel: "재정경제부"
+    channel_grade: public
+    duration: "2:37"
+    use: 수업 후
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 4차시 용돈 쓰기·모으기"
+    desc: "용돈을 쓰기만 하지 않고 모으는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 금쪽이 경제교실."
+  - cand_no: c23
+    stage: 확장하기
+    title: "비합리적 소비란? 합리적인 소비자가 되는 법"
+    url: https://www.youtube.com/watch?v=tqBGB_IzrSY
+    channel: "KDI 경제교육·정보센터"
+    channel_grade: public
+    duration: "6:05"
+    use: 수업 후
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 1·4차시 합리적 선택"
+    desc: "생각 없이 쓰는 소비의 문제와 합리적 소비자가 되는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 6분 5초."
+  - cand_no: c24
+    stage: 확장하기
+    title: "[초등학생 소비자교육] 소비자 이야기 1편"
+    url: https://www.youtube.com/watch?v=ePx0rpXa1Qk
+    channel: "한국소비자원"
+    channel_grade: public
+    duration: "2:49"
+    use: 수업 후
+    basis_code: "[6실02-01]"
+    basis_lesson: "정리본 4차시"
+    desc: "한국소비자원이 초등학생에게 소비자의 권리와 역할을 알려 줘요."
+    verdict: 확인필요
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "소비자 권리 중심이라 생활 자원 단원과 맞는지 시청 확인 필요. 새 채널."

@@ -1,0 +1,176 @@
+id: pr5501
+title: 알고리즘·프로그래밍
+grade: 5
+sem: 2학기
+subject: 실과
+unit: 디지털 사회와 인공지능
+unit_no: 5
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 컴퓨터로 문제를 풀려면 먼저 해결 순서인 알고리즘을 짜고 순서도로 나타낸 뒤, 프로그래밍으로 컴퓨터가 알아듣는 명령으로 옮겨요. 프로그램은 입력·처리·출력과 변수를 쓰고 순차·선택·반복 구조를 짜 맞추어 만들어요.
+  core_question: 생활 속 문제를 컴퓨터로 풀려면 해결 순서를 어떻게 짜고, 어떤 구조로 프로그램을 만들까?
+  concepts:
+    - term: 알고리즘
+      def: 문제를 해결하는 방법을 순서대로 차근차근 적은 것이에요. 컴퓨터뿐 아니라 라면 끓이기처럼 생활 속 일에도 알고리즘이 있어요.
+    - term: 순서도
+      def: 알고리즘을 정해진 기호와 화살표로 나타낸 그림이에요. 일의 순서와 갈림길을 한눈에 볼 수 있어요.
+    - term: 프로그래밍
+      def: 알고리즘을 컴퓨터가 알아들을 수 있는 명령으로 바꾸어 프로그램을 만드는 일이에요. 블록을 쌓아 만드는 방법도 있어요.
+    - term: 입력·처리·출력
+      def: 프로그램이 값을 받고(입력), 계산하거나 바꾸고(처리), 결과를 보여 주는(출력) 세 단계예요.
+    - term: 변수
+      def: 값을 담아 두는 이름 붙은 상자예요. 담긴 값을 바꾸거나 계산에 쓸 수 있어요.
+    - term: 순차 구조
+      def: 명령을 쓰인 순서대로 위에서 아래로 하나씩 실행하는 구조예요.
+    - term: 선택 구조
+      def: 조건이 맞는지 따져서 맞으면 한쪽을, 맞지 않으면 다른 쪽을 실행하는 구조예요.
+    - term: 반복 구조
+      def: 같은 명령을 정해진 횟수만큼, 또는 조건이 될 때까지 되풀이해서 실행하는 구조예요.
+  standards:
+    - code: "[6실05-01]"
+      text: 컴퓨터를 활용한 생활 속 문제해결 사례를 탐색하고 일상생활 속 문제를 해결하기 위한 알고리즘을 다양한 방법으로 표현한다.
+    - code: "[6실05-02]"
+      text: 컴퓨터에게 명령하는 방법을 체험하고, 주어진 문제를 해결하는 프로그램을 작성한다.
+    - code: "[6실05-03]"
+      text: 실생활의 문제를 해결하는 프로그램을 협력하여 작성하고, 산출물을 타인과 공유한다.
+stages:
+  - 알고리즘
+  - 순서도
+  - 프로그래밍
+  - 변수
+  - 순차 구조
+  - 선택 구조
+  - 반복 구조
+items:
+  - key: v2
+    stage: 알고리즘
+    title: 도미노 놀이를 해요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=UG0HeJ2bjqA
+    desc: 도미노를 자동으로 세우는 기계를 통해 알고리즘이 무엇인지 쉽게 알려 줘요.
+    channel: 엔트리 공식 채널
+  - key: v3
+    stage: 알고리즘
+    title: 엄마의 심부름을 가요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_bXYugKgQAQ
+    desc: 심부름 길을 정하는 일을 예로 알고리즘 개념을 쉽게 배워요.
+    channel: 엔트리 공식 채널
+  - key: v4
+    stage: 순서도
+    title: 기계에 필요한 순서도 (국과대표)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=L7AM4CxFM-s
+    desc: 기계가 일하려면 순서도로 일의 순서를 알려 줘야 한다는 것을 보여 줘요.
+    channel: JTBC Entertainment
+  - key: v6
+    stage: 프로그래밍
+    title: 움직여! 엔트리봇 - 오브젝트
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=GjUGc8x565g
+    desc: 블록 코딩 도구에서 움직이는 대상인 오브젝트를 다루는 방법을 보여 줘요.
+    channel: 엔트리 공식 채널
+  - key: v7
+    stage: 프로그래밍
+    title: 커져라 엔트리봇 - 이벤트
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1pBK4xwwdqc
+    desc: 원하는 순간에 움직이거나 소리가 나게 하는 시작 블록을 소개해요.
+    channel: 엔트리 공식 채널
+  - key: v9
+    stage: 변수
+    title: 뚜앙코딩 변수풀이 1
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=R_LBLd68FUE
+    desc: 대구 선생님이 변수를 쓰는 블록 코딩 미션을 하나씩 풀어 줘요.
+    channel: 대구미래교육연구원
+  - key: v10
+    stage: 변수
+    title: 뚜앙코딩 변수풀이 2
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=3CSGwgkJvIo
+    desc: 변수 값이 바뀌는 다음 미션을 풀어 보며 변수를 연습해요.
+    channel: 대구미래교육연구원
+  - key: v11
+    stage: 변수
+    title: 엔트리 변수와 리스트 2-2
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=APdxS6iIg_M
+    desc: 변수 만들기와 쓰는 방법을 짧게 보여 줘요.
+    channel: EBS Learning
+  - key: v12
+    stage: 순차 구조
+    title: 엔트리봇 길찾기 게임으로 배우는 순차
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Og2EMi_uP4s
+    desc: 정해진 순서대로 블록을 이어 길을 찾으며 순차 구조의 원리를 배워요.
+    channel: 엔트리 공식 채널
+  - key: v13
+    stage: 순차 구조
+    title: 엔트리 순차 4-1
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=kkM2L6Szt3k
+    desc: 블록이 위에서 아래로 차례로 실행되는 순차 구조를 설명해요.
+    channel: EBS Learning
+  - key: v14
+    stage: 선택 구조
+    title: 엔트리봇 길찾기 게임으로 배우는 조건
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=TcN52QhrS1M
+    desc: 조건이 맞아야 문이 열리는 길찾기로 조건문 쓰는 법을 배워요.
+    channel: 엔트리 공식 채널
+  - key: v15
+    stage: 선택 구조
+    title: 뚜앙코딩 선택구조 풀이 6
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=iEC_IjFWWUQ
+    desc: 대구 선생님이 선택 구조가 필요한 미션을 풀어 줘요.
+    channel: 대구미래교육연구원
+  - key: v16
+    stage: 선택 구조
+    title: 뚜앙코딩 선택구조 풀이 8
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=RhNQt2i2ar0
+    desc: 조건에 따라 달라지는 미션을 풀어 보며 선택 구조를 연습해요.
+    channel: 대구미래교육연구원
+  - key: v17
+    stage: 반복 구조
+    title: 엔트리봇 길찾기 게임으로 배우는 반복
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=rUaM2RuKW6I
+    desc: 같은 블록을 여러 번 쓰지 않고 반복 블록으로 줄이는 방법을 배워요.
+    channel: 엔트리 공식 채널
+  - key: v18
+    stage: 반복 구조
+    title: 엔트리 반복 5-3
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-bLPWlAmBAE
+    desc: 블록을 되풀이해 실행하는 반복 구조를 보여 줘요.
+    channel: EBS Learning
+quiz:
+  - statement: 알고리즘은 컴퓨터에서만 쓰는 말이고 생활 속 일에는 쓰지 않는다.
+    answer: X
+    explain: 라면 끓이기나 길 찾기처럼 생활 속 일을 순서대로 정리한 것도 알고리즘이에요.
+  - statement: 순서도는 알고리즘을 정해진 기호와 화살표로 나타낸 그림이다.
+    answer: O
+    explain: 순서도를 보면 일의 순서와 갈림길을 한눈에 알 수 있어요.
+  - statement: 프로그래밍은 알고리즘을 컴퓨터가 알아들을 수 있는 명령으로 바꾸어 프로그램을 만드는 일이다.
+    answer: O
+    explain: 알고리즘을 먼저 짜고 그것을 컴퓨터의 명령으로 옮기는 것이 프로그래밍이에요.
+  - statement: 프로그램에서 값을 받는 단계는 처리이고 결과를 보여 주는 단계는 입력이다.
+    answer: X
+    explain: 값을 받는 단계는 입력이고 결과를 보여 주는 단계는 출력이에요. 처리는 그 사이에서 계산하거나 바꾸는 단계예요.
+  - statement: 변수는 값을 담아 두고 필요할 때 바꾸어 쓸 수 있는 이름 붙은 상자와 같다.
+    answer: O
+    explain: 변수에 담은 값은 바꾸거나 계산에 쓸 수 있어요.
+  - statement: 신호등 색에 따라 건너기와 멈추기를 다르게 하는 프로그램에는 선택 구조를 쓸 수 있다.
+    answer: O
+    explain: 조건에 따라 다른 명령을 실행하게 하는 구조가 선택 구조예요.
+  - statement: 같은 명령을 여러 번 되풀이해 실행하고 싶을 때는 선택 구조를 쓴다.
+    answer: X
+    explain: 같은 명령을 되풀이할 때는 반복 구조를 써요. 선택 구조는 조건에 따라 다른 명령을 실행해요.
+  - statement: 순차 구조에서는 컴퓨터가 명령의 순서를 마음대로 바꾸어 실행한다.
+    answer: X
+    explain: 순차 구조에서는 명령이 쓰인 순서대로 하나씩 실행돼요.

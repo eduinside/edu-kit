@@ -1,0 +1,492 @@
+# mo5271 후보 기록 — 도덕 5학년 2학기 7단원 「지구의 내일을 심는 우리」 (시범 첫 꾸러미)
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo5271 --dry
+# 2026-10-17 수집: 지도서 참고 자료 10편 + 대구 지역 언론·교육청·공공 채널 검색에서 20편.
+# 확인한 것: YouTube Data API(npm 외 스크립트)로 재생 가능·임베드 허용·연령 제한 없음·국내 재생·길이·게시일 30편 모두 정상.
+#           브라우저로 각 영상 페이지를 열어 제목·채널·설명·재생 시작을 봄. **영상 본문 전체를 시청한 것은 아님** — 판단은 제목·설명·길이·채널 성격 기준이고, 운영자가 추천 영상을 보며 최종 판정한다.
+kit:
+  id: mo5271
+  title: 7. 지구의 내일을 심는 우리
+  grade: 5
+  sem: 2학기
+  subject: 도덕
+  unit: 7단원
+  unit_no: 7
+  flow: activity
+  codes: ["[6도04-01]"]
+  core_idea: "지구 환경 위기의 원인은 사람의 활동에 있고, 여럿이 꾸준히 이어 가는 작은 실천이 위기를 이겨 내는 힘이 돼요."
+  core_question: "지구의 위기를 알게 된 우리는 오늘 무엇부터 실천할 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "지구는 지금 어떤 위기를 겪고 있을까?"
+    - name: 탐구하기
+      question: "위기의 뿌리는 어디에 있고, 사람들은 어떻게 이겨 내고 있을까?"
+    - name: 확장하기
+      question: "나의 작은 실천은 어떤 변화를 만들까?"
+  concepts:
+    - 기후 위기
+    - 탄소 중립
+    - 새 활용(업사이클링)
+    - 지속가능
+    - 실천
+  source_notes: "정리본 도덕5.국정.u7(4차시: 환경 위기 사례 조사 → 위기의 뿌리·희망 가치 → 위기 극복 모범 사례·실천 달력 → 실천 돌아보기) · 지도서 참고 자료 10편 · 오개념 '나 한 사람의 작은 실천은 소용없다' 주의"
+
+candidates:
+  # ── 지도서 참고 자료 10편(c01~c10) ──
+  - cand_no: c01
+    stage: 생각열기
+    title: 6차 대멸종은 진행 중
+    video_title: "\"이제 2년도 남지 않았다\"…\"6차 대멸종은 진행 중\" / 비머pick / 비디오머그"
+    url: https://www.youtube.com/watch?v=BXzEcJAIWeU
+    channel: 비디오머그 - VIDEOMUG
+    channel_grade: press
+    duration: "1:54"
+    use: 수업 전
+    basis_code: "[6도04-01]"
+    basis_lesson: 1차시 환경 위기 사례 조사
+    desc: 기후 위기의 골든타임이 얼마 남지 않았다는 경고를 전하는 뉴스 영상이에요.
+    verdict: 제외
+    reviewer: 운영자
+    note: "2023년 영상이라 '2025년 골든타임'이 이미 지난 시점이고, 시한을 강조해 불안·무력감을 줄 수 있음(정리본 cautions). 지도서 참고 자료지만 뺌."
+  - cand_no: c02
+    stage: 생각열기
+    title: 한국의 플라스틱 사용량은 얼마나 많을까
+    video_title: 세계적으로도 높은 한국의 플라스틱 사용량↑ 다큐 플러스(docuplus) 204회 | JTBC 220227 방송
+    url: https://www.youtube.com/watch?v=0atgNI9JPiQ
+    channel: JTBC Life
+    channel_grade: press
+    duration: "1:54"
+    use: 수업 전
+    basis_code: "[6도04-01]"
+    basis_lesson: 1차시 환경 위기 사례 조사
+    desc: 우리나라 사람이 쓰는 플라스틱의 양이 세계에서도 많은 편이라는 사실을 보여 줘요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 자료 해석형(OX 소재). 방송 클립이라 앞뒤 맥락 없이 짧음.
+  - cand_no: c03
+    stage: 탐구하기
+    title: 누가 지구를 뜨겁게 만들었나
+    video_title: 지식채널e - 탄소이야기1 누가 지구를 뜨겁게 만들었나?
+    url: https://www.youtube.com/watch?v=Af2an3IuNHw
+    channel: EBSCulture (EBS 교양)
+    channel_grade: edu
+    duration: "4:53"
+    use: 수업 중
+    basis_code: "[6도04-01]"
+    basis_lesson: 2차시 위기의 뿌리·희망 가치
+    desc: 지구가 뜨거워진 까닭이 사람이 내뿜은 탄소에 있다는 것과 탄소 중립이 무엇인지 설명해요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 지도서 참고 자료. 지식채널e 특유의 차분한 어조라 학년 눈높이는 운영자가 확인.
+  - cand_no: c04
+    stage: 탐구하기
+    title: 탄소 중립, 내가 먼저 실천해요
+    video_title: 탄소중립!🌍 내가 먼저 실천해요~!🙋
+    url: https://www.youtube.com/watch?v=cLYg_M5jo00
+    channel: 기후에너지환경부
+    channel_grade: public
+    duration: "2:13"
+    use: 수업 중
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 위기 극복 모범 사례
+    desc: 이산화탄소를 0으로 만드는 탄소 중립의 뜻과, 교실 불 끄기 같은 일상 속 탄소 줄이기를 알려 줘요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 공공 캠페인. 학교 장면이 나와 5학년 눈높이에 맞음.
+  - cand_no: c05
+    stage: 탐구하기
+    title: 버려지는 것들의 변신, 업사이클링
+    video_title: 버려지는 것들의 변신! 함께해요 업사이클링!
+    url: https://www.youtube.com/watch?v=7DlRLZxFDtc
+    channel: 기후에너지환경부
+    channel_grade: public
+    duration: "5:57"
+    use: 수업 중
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 위기 극복 모범 사례
+    desc: 버려지는 물건이 새 제품과 작품으로 다시 태어나는 업사이클링(새 활용) 사례를 보여 줘요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 2017년 방송 클립(채널A 굿모닝 원본 — 환경부 채널에 올라온 것). 사례가 오래됐을 수 있어 대구 사례(c15·c16)와 함께 보면 좋음.
+  - cand_no: c06
+    stage: 탐구하기
+    title: 환경을 생각하는 착한 발명
+    video_title: "[도레미와 가족들] ep1. 환경을 생각하는 착한 발명! 지구를 웃게 하는 친환경 발명품 3종세트(feat. 먹을 수 있는 식기, 고체 치약, 캡슐 세제)"
+    url: https://www.youtube.com/watch?v=0WVbeWF7ldM
+    channel: IP STORY CENTER
+    channel_grade: public
+    duration: "5:24"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 위기 극복 모범 사례
+    desc: 먹을 수 있는 식기, 고체 치약, 캡슐 세제처럼 플라스틱을 줄이는 친환경 발명품을 소개해요.
+    verdict: 제외
+    reviewer: 운영자
+    note: 특허청 IP STORY CENTER 가족극 형식. 설명란에 지식재산권 교육 홍보가 있고 제품 소개 성격이 있어 영상에 특정 상품 노출·홍보가 있는지 확인 필요. 실과 pr6301과 공유 가능.
+  - cand_no: c07
+    stage: 확장하기
+    title: 자연과 함께 숨 쉬는 생태 숲 학교
+    video_title: 자연과 함께 숨쉬는 경기 생태숲학교 ㅣ 경기도교육청
+    url: https://www.youtube.com/watch?v=IeTzPTseeFU
+    channel: 경기교육정책
+    channel_grade: edu
+    duration: "5:08"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 위기 극복 모범 사례
+    desc: 학교 안에 생태 숲을 만들어 학생들이 자연과 가까워지는 경기도 학교의 사례예요.
+    verdict: 제외
+    reviewer: 운영자
+    note: 채널 '경기교육정책'은 경기도교육청 공식 채널이라 edu로 분류하면 됨(channels.yaml에 없음). 기후 위기보다 생태 감수성 쪽이라 단원 초점이 약하고 경기 지역 사례. 대구 사례가 충분하면 제외.
+  - cand_no: c08
+    stage: 확장하기
+    title: 세계 지도자들의 자연을 위한 선언
+    video_title: 세계 지도자들의 자연을 위한 선언 (Endorsing the Leaders Pledge for Nature)
+    url: https://www.youtube.com/watch?v=CzMHzz-9W1U
+    channel: WWF-Korea
+    channel_grade: personal
+    duration: "2:14"
+    use: 배경지식
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 위기 극복 모범 사례
+    desc: 세계 여러 나라 정상이 생물 다양성을 되살리겠다고 약속한 선언을 소개해요.
+    verdict: 제외
+    reviewer: 운영자
+    note: 단체(personal) 채널이고 공공 대안(기후에너지환경부·국가환경교육센터)이 충분함. 주제도 기후보다 생물 다양성 정상 회의(2020)라 단원 초점과 거리가 있음.
+  - cand_no: c09
+    stage: 확장하기
+    title: 달리며 쓰레기 줍는 청년들, 플로깅
+    video_title: "\"우리 플로깅 할까요?\"...달리며 쓰레기 줍는 청년들 / YTN"
+    url: https://www.youtube.com/watch?v=Ej1Ks-9p2c8
+    channel: YTN
+    channel_grade: press
+    duration: "2:41"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 4차시 실천 돌아보기
+    desc: 달리면서 쓰레기를 줍는 플로깅에 청년들이 왜 빠졌는지 현장에서 들어 봐요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 현장 탐방 꼴, 선정성 없음. 대구 플로깅 보도는 검색해도 뉴스 채널에는 없었음(동구청 영상 c18은 1분 13초·홍보 우려) → 전국 뉴스로 둠.
+  - cand_no: c10
+    stage: 확장하기
+    title: 일회용품 줄이기는 헛수고일까
+    video_title: 종이컵, 일회용품 줄이기가 모두 헛수고라고요? 이 영상을 보고 나면 생각이 달라질지도 모릅니다. / 스브스뉴스
+    url: https://www.youtube.com/watch?v=n0c9GWTZRkI
+    channel: 스브스뉴스 SUBUSUNEWS
+    channel_grade: press
+    duration: "3:11"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 4차시 작은 실천의 효과
+    desc: 종이컵 사용을 조금만 줄여도 전체로 보면 큰 차이가 된다는 것을 숫자로 보여 줘요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 오개념 "한 사람의 실천은 소용없다" 바로잡기에 맞음.
+  # ── 공공·교육 채널(c11~c14, c23~c30) ──
+  - cand_no: c11
+    stage: 생각열기
+    title: 기후변화 — 어린이 초록세상(5·6학년)
+    url: https://www.youtube.com/watch?v=l9Eij2_hVWc
+    channel: 국가환경교육센터
+    channel_grade: public
+    duration: "5:09"
+    use: 수업 중
+    basis_code: "[6도04-01]"
+    basis_lesson: 1차시 환경 위기 사례 조사
+    desc: 초등 5·6학년 환경 교과서 자료로, 기후 변화가 무엇이고 왜 생기는지 차근차근 알려 줘요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 5·6학년 눈높이로 만든 공공 교육 자료(2020). 설명란에 환경교육포털 자료실 안내.
+  - cand_no: c12
+    stage: 탐구하기
+    title: 200년 동안 지구가 겪은 변화
+    video_title: 덕분에 45억 살 지구는 200년 동안 이런 변화를 겪었다 │지식채널e
+    url: https://www.youtube.com/watch?v=Amuwqzfqzzk
+    channel: EBS 지식채널e
+    channel_grade: edu
+    duration: "5:18"
+    use: 수업 중
+    basis_code: "[6도04-01]"
+    basis_lesson: 2차시 위기의 뿌리·희망 가치
+    desc: 증기 기관 이후 200년 사이 사람의 활동이 지구에 어떤 변화를 가져왔는지 되짚어 봐요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 위기의 뿌리가 사람의 활동에 있다는 점과 맞음. 5학년에게는 내용이 다소 어려울 수 있어 운영자가 눈높이 확인.
+  - cand_no: c13
+    stage: 탐구하기
+    title: 지구 온난화를 막는 저탄소 사회 — 어린이 초록세상(5·6학년)
+    url: https://www.youtube.com/watch?v=5KBnNfvBw64
+    channel: 국가환경교육센터
+    channel_grade: public
+    duration: "8:00"
+    use: 수업 중
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 위기 극복 모범 사례
+    desc: 지구 온난화를 막으려면 사회가 어떻게 달라져야 하는지, 저탄소 생활을 5·6학년 눈높이로 설명해요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 정확히 8분이라 상한. 길게 느껴지면 구간 지정(운영자 시청 후).
+  - cand_no: c14
+    stage: 탐구하기
+    title: 탄소 중립이 필요한 까닭
+    video_title: "[KDI 경제정보센터] e-경제정보리뷰: 탄소중립 개념편"
+    url: https://www.youtube.com/watch?v=WiM6VIey11A
+    channel: KDI 경제교육·정보센터
+    channel_grade: public
+    duration: "3:42"
+    use: 수업 중
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 위기 극복 모범 사례
+    desc: 지구 온난화에 맞서 왜 탄소 중립이 필요한지 개념부터 풀어 줘요.
+    verdict: 제외
+    reviewer: 운영자
+    note: 경제 정보 채널이라 어린이용 설명 수준인지 운영자 확인 필요. 이미 c03·c04·c13이 같은 개념을 다룸.
+  - cand_no: c25
+    stage: 생각열기
+    title: 지구를 지켜라!
+    url: https://www.youtube.com/watch?v=Qkgq5X7WJOI
+    channel: 한국환경공단
+    channel_grade: public
+    duration: "3:41"
+    use: 수업 전
+    basis_code: "[6도04-01]"
+    basis_lesson: 1차시 환경 위기 사례 조사
+    desc: 푸루와 그루 캐릭터와 함께 지구를 지키는 방법을 알아보는 어린이용 영상이에요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 어린이 캐릭터 애니 — 저학년에 가까운 말투일 수 있어 5학년 눈높이는 운영자 확인.
+  - cand_no: c26
+    stage: 생각열기
+    title: 조금 번거로워도, 오히려 좋아! 탄소 중립 생활 실천 [학교편]
+    url: https://www.youtube.com/watch?v=dCGJimZogos
+    channel: 기후에너지환경부
+    channel_grade: public
+    duration: "0:48"
+    use: 수업 전
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 실천 달력
+    desc: 학교에서 할 수 있는 탄소 중립 실천을 짧게 보여 주는 공공 캠페인이에요.
+    verdict: 제외
+    reviewer: 운영자
+    note: "쇼츠 — 운영자 지시(10/17)로 제외. (1분 미만 동기 유발용이었음)"
+  - cand_no: c27
+    stage: 확장하기
+    title: 온실가스 줄이는 생활 습관
+    video_title: "'함께 실천해요' 온실가스 줄이는 생활 습관 | 환경부"
+    url: https://www.youtube.com/watch?v=4fWjIfy4Lz8
+    channel: 기후에너지환경부
+    channel_grade: public
+    duration: "2:03"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 실천 달력
+    desc: 우리 집 온실가스 줄이기 요소를 스스로 점검하는 생활 습관을 알려 줘요.
+    verdict: 제외
+    reviewer: 운영자
+    note: 2018년 영상이라 수치·제도가 오래됐을 수 있음. c04·c26으로 충분하면 제외.
+  - cand_no: c28
+    stage: 생각열기
+    title: 지구의 위기, 지구 온난화
+    video_title: 최고다! 호기심딱지 시즌4 - 지구의 위기, 지구 온난화!
+    url: https://www.youtube.com/watch?v=BmadYeBpmDY
+    channel: EBS 키즈
+    channel_grade: edu
+    duration: "12:50"
+    use: 수업 중
+    basis_code: "[6도04-01]"
+    basis_lesson: 1차시 환경 위기 사례 조사
+    desc: 북극 이야기로 시작해 지구가 계속 더워지고 있는 까닭과 우리가 할 일을 알려 주는 EBS 키즈 애니메이션이에요.
+    verdict: 제외
+    reviewer: 운영자
+    note: 12분 50초라 구간(2~8분) 지정 필요 — 영상 전체를 보지 못해 구간을 못 정함. 시청 후 구간 정하거나 제외.
+  - cand_no: c29
+    stage: 확장하기
+    title: 기후 위기 시대, 미래세대 환경 교육 강화
+    url: https://www.youtube.com/watch?v=J4Hg7NEaiWM
+    channel: KBS뉴스 대구경북
+    channel_grade: press
+    local: 대구
+    duration: "1:56"
+    use: 배경지식
+    basis_code: "[6도04-01]"
+    basis_lesson: 1차시 환경 위기 사례 조사
+    desc: 기후 이변이 현실이 되면서 학교 환경 교육이 강화되는 흐름을 전하는 대구경북 뉴스예요.
+    verdict: 제외
+    reviewer: 운영자
+    note: 2022년 보도(교사용 배경). 울진 산불·태풍 힌남노 언급 — 재난 장면 포함 여부 확인 필요.
+  - cand_no: c30
+    stage: 탐구하기
+    title: 지구 탐험대와 함께하는 탄소 중립 훈련
+    video_title: "[기후변화/탄소중립] - [초등] 지구 탐험대와 함께하는 탄소중립 훈련"
+    url: https://www.youtube.com/watch?v=xi5o3TIu1Ik
+    channel: 경기도환경교육센터
+    channel_grade: public
+    duration: "5:18"
+    use: 수업 중
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 위기 극복 모범 사례
+    desc: 초등학생을 위한 이러닝 콘텐츠로, 탄소 중립을 훈련처럼 배워 봐요.
+    verdict: 제외
+    reviewer: 운영자
+    note: 설명란에 '저작권법에 따라 보호받는 저작물, 무단 전재·복제 금지' 경고가 있음 — 링크·임베드는 가능하나 운영자가 이용 조건을 판단. 경기도 센터(channels.yaml에 없음).
+  # ── 대구 지역(local: 대구) ──
+  - cand_no: c15
+    stage: 탐구하기
+    title: 한국업사이클센터 현장체험학습
+    video_title: "[즐거운 환경 수업] 20. 한국업사이클센터 현장체험학습"
+    url: https://www.youtube.com/watch?v=_niM7ZlV-aw
+    channel: 대구미래교육연구원
+    channel_grade: edu
+    local: 대구
+    duration: "4:40"
+    use: 수업 중
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 위기 극복 모범 사례
+    desc: 대구 초등 교사들이 만든 영상으로, 한국업사이클센터를 찾아가 새 활용 체험을 둘러봐요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 대구 교육연구기관 제작(두산초·화원초·함지초 교사). 센터 방문 안내 성격이라 학생 출연 장면 확인.
+  - cand_no: c16
+    stage: 탐구하기
+    title: 양말목으로 만드는 새 활용 공예
+    video_title: 탄소중립 '지금 우리는' 연경초등학교 양말목 공예
+    url: https://www.youtube.com/watch?v=WBWMBE96J2k
+    channel: ch B tv 대구
+    channel_grade: press
+    local: 대구
+    duration: "3:06"
+    use: 수업 중
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 위기 극복 모범 사례
+    desc: 헌 양말의 양말목으로 물건을 만드는 대구 연경초등학교의 새 활용 수업을 보도해요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 대구 지역 언론의 학교 탄소 중립 시리즈(2022). 학생이 나오는 보도 영상.
+  - cand_no: c17
+    stage: 탐구하기
+    title: 사람과 자연, 더불어 업사이클링
+    video_title: 220817 생방송 시시각각 사람과 자연, 더불어 업사이클링
+    url: https://www.youtube.com/watch?v=8nwBMyeXUZE
+    channel: 대구MBC Program
+    channel_grade: press
+    local: 대구
+    duration: "6:56"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 3차시 위기 극복 모범 사례
+    desc: 대구의 업사이클링 브랜드와 팝업스토어를 소개하며 착한 소비의 뜻을 알려 줘요.
+    verdict: 제외
+    reviewer: 운영자
+    note: 브랜드 상품 소개·판매 장면이 많으면 홍보 영상이라 제외 대상 — 시청 확인 필요. 6분 56초라 길이는 허용.
+  - cand_no: c18
+    stage: 확장하기
+    title: 지구 사랑 플로깅 — 동구 올레팔공산
+    video_title: 지구사랑의 실천 플로깅(동구 올레팔공산 2코스 한실골)
+    url: https://www.youtube.com/watch?v=gCEytAGFVok
+    channel: 대구 동구청 팔공TV
+    channel_grade: public
+    local: 대구
+    duration: "1:13"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 4차시 실천 돌아보기
+    desc: 대구 동구 팔공산 올레길에서 쓰레기를 주우며 걷는 플로깅 모습이에요.
+    verdict: 제외
+    reviewer: 운영자
+    note: 구청장 이름 해시태그가 붙은 구청 홍보 영상으로 보임 — 특정 인물 홍보 성격이면 제외. 대구 플로깅 영상이 이것뿐이라 보류로 둠.
+  - cand_no: c19
+    stage: 확장하기
+    title: 논공초등학교 제로웨이스트
+    video_title: "[B tv 대구뉴스]탄소중립 '지금 우리는' 논공초등학교 제로웨이스트"
+    url: https://www.youtube.com/watch?v=OyfMzmyMefU
+    channel: ch B tv 대구
+    channel_grade: press
+    local: 대구
+    duration: "3:28"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 4차시 실천 돌아보기
+    desc: 생활 속 쓰레기를 줄이는 제로 웨이스트를 실천하는 대구 논공초등학교 학생들의 모습이에요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 대구 지역 언론, 학교 실천 사례(2022).
+  - cand_no: c20
+    stage: 확장하기
+    title: 운암초등학교 나눔장터
+    video_title: 탄소중립 '지금 우리는' 운암초등학교 나눔장터
+    url: https://www.youtube.com/watch?v=ewQwtF2u4uY
+    channel: ch B tv 대구
+    channel_grade: press
+    local: 대구
+    duration: "4:02"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 4차시 실천 돌아보기
+    desc: 물건의 생산부터 폐기까지 탄소가 생긴다는 것을 알고 나눔장터를 여는 대구 운암초 학생들을 보도해요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 대구 지역 언론, 학교 실천 사례(2022). 물건 쓰임을 늘려 탄소를 줄인다는 관점.
+  - cand_no: c21
+    stage: 확장하기
+    title: 월촌초 환경 지킴이
+    video_title: 탄소중립 '지금 우리는' 월촌초 환경 지킴이
+    url: https://www.youtube.com/watch?v=Uxpe6LAcGM0
+    channel: ch B tv 대구
+    channel_grade: press
+    local: 대구
+    duration: "2:41"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 4차시 실천 돌아보기
+    desc: 환경 동아리가 교내 텃밭을 가꾸고 수확물을 나누는 대구 월촌초등학교의 실천을 보도해요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 대구 지역 언론, 학교 실천 사례(2022).
+  - cand_no: c22
+    stage: 확장하기
+    title: 탄소 줄이는 급식
+    video_title: "[청소년 리포트] 탄소 줄이는 급식···'환경·맛' 잡았다 | 대구MBC뉴스"
+    url: https://www.youtube.com/watch?v=PqFJZxEp9us
+    channel: 대구MBC뉴스
+    channel_grade: press
+    local: 대구
+    duration: "2:21"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 4차시 작은 실천의 효과
+    desc: 저탄소 친환경 식재료로 학교 급식을 바꾸어 탄소 배출을 줄이는 사례를 소개해요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 대구MBC 청소년 리포트(2026-06). 김천 고등학교 사례라 대구는 아님 — 급식이 5학년의 일상과 이어짐.
+  - cand_no: c23
+    stage: 확장하기
+    title: 기후 위기와 지속가능한 발전 — 함께 사는 세계시민
+    video_title: "[함께 사는 세계시민] 12. 기후위기와 지속가능한 발전"
+    url: https://www.youtube.com/watch?v=djR8MeuOYZs
+    channel: 대구미래교육연구원
+    channel_grade: edu
+    local: 대구
+    duration: "4:45"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 4차시 작은 실천의 효과
+    desc: 탄소 발자국을 생활 속에서 줄이는 실천으로 지속가능한 발전에 한 걸음 다가가 봐요.
+    verdict: 채택
+    reviewer: 운영자
+    note: 대구 교육연구기관 제작 세계시민 교재 연계 영상(2024).
+  - cand_no: c24
+    stage: 확장하기
+    title: 기후위기 우리가 나서야 할 때입니다 — 초등학생 연설
+    video_title: 기후위기 우리가 나서야 할 때입니다. (대구OO초 김OO학생)
+    url: https://www.youtube.com/watch?v=nPvOVcIiN7M
+    channel: 대구녹색학습원 공식채널
+    channel_grade: public
+    local: 대구
+    duration: "1:26"
+    use: 수업 후
+    basis_code: "[6도04-01]"
+    basis_lesson: 4차시 실천 돌아보기
+    desc: 대구의 한 초등학생이 기후 위기에 함께 나서자고 호소하는 연설 영상이에요.
+    verdict: 제외
+    reviewer: 운영자
+    note: 학생(이름 가림표기)이 출연하는 영상 — 공식 채널이라 §3-7 허용 범위지만 대구녹색학습원이 공공기관 소속인지(등급)와 초상권 동의 표기 확인 필요. channels.yaml에 없음.

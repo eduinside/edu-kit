@@ -1,0 +1,130 @@
+id: mo3251
+title: 5. 너와 나의 공감
+grade: 3
+sem: 2학기
+subject: 도덕
+unit: 5단원
+unit_no: 5
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 공감은 다른 사람의 마음을 헤아리고 함께 느끼려는 마음이에요. 듣기, 반응하기, 마음 말하기로 친구에게 공감을 전할 수 있지만, 사람마다 필요한 방법이 다르니 상대의 마음을 먼저 살펴야 해요.
+  core_question: 친구의 마음에 공감하려면 어떻게 듣고 말하고 행동해야 할까?
+  concepts:
+    - term: 공감
+      def: 다른 사람의 처지와 마음을 헤아리고, 그 사람이 느끼는 것을 함께 느껴 보려는 마음이에요.
+    - term: 감정
+      def: 기쁨, 슬픔, 화남, 두려움처럼 어떤 일을 겪을 때 마음속에서 느끼는 기분이에요.
+    - term: 경청
+      def: 다른 사람의 말을 끝까지 귀 기울여 주의 깊게 듣는 것이에요.
+    - term: 위로
+      def: 슬프거나 힘든 사람의 마음을 따뜻한 말과 행동으로 달래 주는 것이에요.
+    - term: 배려
+      def: 다른 사람의 처지와 마음을 헤아려 도움이 되도록 마음을 쓰는 것이에요. 상대가 어떤 도움을 바라는지 살펴보는 것에서 시작해요.
+  standards:
+    - code: "[4도02-03]"
+      text: 공감의 태도가 필요한 이유를 이해하고 도덕적 상상력을 바탕으로 대상과 상황에 따라 감정을 나누는 방법을 탐구하여 실천한다.
+stages:
+  - name: 생각열기
+    question: 공감이란 무엇이고 왜 필요할까?
+  - name: 탐구하기
+    question: 친구의 마음을 어떻게 알아차리고 공감하는 말과 행동을 할까?
+  - name: 확장하기
+    question: 공감하며 서로 마음을 나누려면 어떤 태도가 필요할까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 왜 공감은 중요할까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=JtZj29YDGuA
+    desc: 공감이 무엇이고 왜 중요한지 쉬운 이야기로 알려 줘요.
+    channel: 국가기초학력지원센터
+  - key: v2
+    stage: 생각열기
+    title: 마음이 그랬어
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=VXBxPKgEOZk
+    desc: 가장 친한 친구와 싸웠을 때 내 마음이 어땠는지 돌아보게 하는 그림책 동화예요.
+    channel: 국립어린이청소년도서관
+  - key: v3
+    stage: 생각열기
+    title: 다른 사람의 감정을 짐작해요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=UVzeznaA--E
+    desc: 다른 사람의 표정과 상황을 보고 마음을 짐작해 보는 방법을 짧게 알려 줘요.
+    channel: 국가기초학력지원센터
+  - key: v4
+    stage: 탐구하기
+    title: 친구의 마음을 이해할 수 있어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=bjlmMSBToak
+    desc: 친구의 마음을 이해하려면 어떻게 생각하고 살펴야 하는지 알려 줘요.
+    channel: 국가기초학력지원센터
+  - key: v5
+    stage: 탐구하기
+    title: 공감하며 대화해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-PtDNbUtySo
+    desc: 상대의 말을 듣고 반응하며 마음을 나누는 공감 대화 방법을 알려 줘요.
+    channel: 국가기초학력지원센터
+  - key: v6
+    stage: 탐구하기
+    title: 내 감정을 상황에 맞게 표현해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=U0P9wmSCrnU
+    desc: 내 마음을 상황에 맞게 표현하는 방법을 짧게 알려 줘요.
+    channel: 국가기초학력지원센터
+  - key: v7
+    stage: 탐구하기
+    title: 공감하는 대화하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Tu5GumFvR5g
+    desc: 기분 좋은 말과 상처 주는 말의 차이를 떠올리며 마음을 나누는 대화를 해 보자고 이끌어요.
+    channel: 울산광역시교육청
+  - key: v8
+    stage: 탐구하기
+    title: "[경청] 친구 말 듣기 평가"
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_5G0LyhjDtw
+    desc: 친구의 말을 귀 기울여 듣는 태도를 다룬 서울시 인성교육 애니메이션이에요.
+    channel: 서울시 인성교육 애니메이션
+  - key: v9
+    stage: 확장하기
+    title: "[배려] 체인지"
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Uwj-tq99vms
+    desc: 서로의 처지를 헤아려 배려하는 마음을 다룬 서울시 인성교육 애니메이션이에요.
+    channel: 서울시 인성교육 애니메이션
+  - key: v10
+    stage: 확장하기
+    title: 친구는 소중해
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=PrYfC6ALgCs
+    desc: 친구의 소중함과 서로를 아끼는 마음을 이야기하는 대구 교육기관의 영상이에요.
+    channel: 대구미래교육연구원
+quiz:
+  - statement: 공감은 다른 사람의 마음을 헤아리고 함께 느끼려는 마음이다.
+    answer: O
+    explain: 친구의 처지에서 생각해 보며 그 마음을 함께 느껴 보려는 것이 공감이에요.
+  - statement: 같은 일을 겪으면 사람은 모두 같은 감정을 느낀다.
+    answer: X
+    explain: 같은 일도 사람마다 느끼는 마음이 달라요. 그래서 상대의 마음을 살펴야 해요.
+  - statement: 공감은 듣기, 반응하기, 마음 말하기의 순서로 연습해 볼 수 있다.
+    answer: O
+    explain: 먼저 귀 기울여 듣고, 알맞게 반응하고, 내 마음을 말하면 공감을 전하기 쉬워요.
+  - statement: 공감은 슬프거나 화나는 일에만 필요하다.
+    answer: X
+    explain: 친구의 기쁜 일을 함께 기뻐하는 것도 공감이에요.
+  - statement: 친구가 필요로 하는 방법으로 도와야 참된 공감이 된다.
+    answer: O
+    explain: 내 방식이 아니라 친구가 바라는 도움을 살펴야 마음이 잘 전해져요.
+  - statement: 내가 좋아하는 방식으로 도와주기만 하면 언제나 상대에게 공감한 것이다.
+    answer: X
+    explain: 상대가 어떤 도움을 바라는지 먼저 살펴야 해요.
+  - statement: 친구의 말을 끝까지 귀 기울여 듣는 것은 공감하는 방법 중 하나이다.
+    answer: O
+    explain: 끝까지 들어 주면 친구는 자기 마음을 이해받는다고 느껴요.
+  - statement: 친구가 잘못된 행동을 해도 그대로 따라 하며 모두 공감해 주어야 한다.
+    answer: X
+    explain: 잘못된 행동까지 따라 하는 것은 공감이 아니에요. 마음은 헤아리되 바른 길을 함께 찾아요.

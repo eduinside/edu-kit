@@ -1,0 +1,175 @@
+id: pr5402
+title: 친환경 건설 구조물
+grade: 5
+sem: 2학기
+subject: 실과
+unit: 지속가능한 기술과 융합
+unit_no: 4
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 건설 기술은 사람이 살고 이용하는 건물과 시설을 짓는 기술이에요. 지붕과 벽, 바닥을 갖춘 건축 구조물과 다리, 터널 같은 토목 구조물이 있고, 요즘은 에너지와 자원을 아끼는 친환경 구조물도 많이 지어요.
+  core_question: 건설 기술은 우리 생활을 어떻게 편리하고 안전하게 하고, 환경까지 생각하는 구조물은 어떻게 지을까?
+  concepts:
+    - term: 건설 기술
+      def: 사람이 살고 생활하는 데 필요한 건물과 시설을 짓는 기술이에요. 집, 학교, 다리, 도로를 안전하고 튼튼하게 만들 때 쓰여요.
+    - term: 건축 구조물
+      def: 지붕과 벽, 바닥을 갖추고 사람이 그 안에서 생활하거나 일하는 구조물이에요. 집, 학교, 아파트가 그 예예요.
+    - term: 토목 구조물
+      def: 다리, 도로, 터널, 댐처럼 사람이 오가거나 물을 다루는 일을 돕는 구조물이에요. 건물처럼 지붕과 벽을 모두 갖추지 않은 경우가 많아요.
+    - term: 친환경 건설
+      def: 에너지와 자원을 아끼고 환경에 주는 피해를 줄이도록 구조물을 짓는 것이에요. 단열과 채광, 환기를 잘 살리거나 태양 에너지 같은 것을 쓰는 방법이 있어요.
+  standards:
+    - code: "[6실04-01]"
+      text: 친환경 건설 구조물을 이해하고, 생활 속 건설 구조물을 탐색하여 간단한 구조물을 체험하면서 건설기술에 대한 가치를 인식한다.
+stages:
+  - 건설 기술
+  - 건축 구조물
+  - 토목 구조물
+  - 친환경 건설
+items:
+  - key: v1
+    stage: 건설 기술
+    title: 역사, 문화, 기술이 담긴 다리의 역사
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=xEq4pxuf-mU
+    desc: 자연 재료로 만든 옛 다리에서 오늘날의 큰 다리까지 건설 기술이 어떻게 발전했는지 보여 줘요.
+    channel: YTN 사이언스
+  - key: v2
+    stage: 건설 기술
+    title: 고속도로 도로는 왜 콘크리트로 만들었을까
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=KdzonVmEIz8
+    desc: 도로를 콘크리트로 만드는 까닭을 아스팔트와 견주며 쉽게 설명해요.
+    channel: 국토교통부
+  - key: v3
+    stage: 건설 기술
+    title: 세계 최대 교량 어떻게 만들었을까
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=0LODoSVTv9w
+    desc: 바다 위에 다리 기둥을 세우는 방법을 쉽게 설명해요.
+    channel: 국토교통부
+  - key: v4
+    stage: 건축 구조물
+    title: 사람이 거주하기 좋은 한옥의 과학적 원리
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dngyl0VtBfE
+    desc: 한옥의 구조와 처마, 마당, 온돌이 살기 좋게 만들어진 까닭을 알려 줘요.
+    channel: YTN 사이언스
+  - key: v5
+    stage: 건축 구조물
+    title: 한옥에 숨겨진 과학적 원리 3가지
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Z55Ug-VKF8I
+    desc: 한옥의 마당, 부엌, 창, 처마에 담긴 과학 원리를 찾아봐요.
+    channel: EBS 컬렉션 - 사이언스
+  - key: v6
+    stage: 건축 구조물
+    title: 초고층 건물은 어떻게 서 있을까
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=8KOJyXrh7Fo
+    desc: 높은 건물이 무너지지 않고 서 있을 수 있는 구조와 기술을 설명해요.
+    channel: 국가과학기술연구회(nst)
+  - key: v7
+    stage: 토목 구조물
+    title: 교량 과학의 축소판, 한강의 다리
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=WGKZhZB4qPI
+    desc: 한강에 놓인 다리들에 쓰인 여러 가지 건설 공법을 소개해요.
+    channel: YTN 사이언스
+  - key: v8
+    stage: 토목 구조물
+    title: 다리는 어떻게 만들어지나
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=44JX83DuT6E
+    desc: 다리를 설계하는 과정을 회사 방문으로 보여 주고 미래의 다리를 이야기해요.
+    channel: YTN 사이언스
+  - key: v9
+    stage: 토목 구조물
+    title: 고속도로 터널은 어떻게 만들어질까
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tW7cS-ctztg
+    desc: 산을 뚫어 터널을 만드는 공사 과정을 짧게 보여 줘요.
+    channel: 국토교통부
+  - key: v10
+    stage: 토목 구조물
+    title: 보령해저터널은 어떻게 만들어졌을까
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6PV-J3ZMYTY
+    desc: 바닷속 80m 아래에 국내에서 가장 긴 터널을 어떻게 만들었는지 알려 줘요.
+    channel: 국토교통부
+  - key: v11
+    stage: 친환경 건설
+    title: 제로에너지건축물이란?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1GeBhDbmbfw
+    desc: 에너지를 아끼고 스스로 만들어 쓰는 건물이 무엇인지 설명해요.
+    channel: "한국에너지공단 : KEA(Korea Energy Agency)"
+  - key: v12
+    stage: 친환경 건설
+    title: 친환경 건축물을 알아볼까요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=6thKkue1wUk
+    desc: 친환경 건축물에서 에너지를 아끼는 방법을 모션그래픽으로 보여 줘요.
+    channel: 국가환경교육센터
+  - key: v13
+    stage: 친환경 건설
+    title: 건물 자체가 발전소 - 친환경 빌딩
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=21qj4wn0swQ
+    desc: 태양빛을 모아 전기를 만드는 친환경 건물을 보여 줘요.
+    channel: YTN 사이언스
+  - key: v14
+    stage: 친환경 건설
+    title: 사이클로이드 곡선을 적용한 한옥의 처마
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=YKJKAtPtj3s
+    desc: 한옥 처마가 여름에는 햇빛을 막고 겨울에는 햇빛을 들이는 원리를 알려 줘요.
+    channel: YTN 사이언스
+  - key: v15
+    stage: 친환경 건설
+    title: 재생에너지 도입한 친환경 건축물 서울시 청사
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=xBIXRvg7nu0
+    desc: 서울시 청사가 재생에너지를 도입해 에너지를 아끼는 모습을 소개해요.
+    channel: YTN 사이언스
+  - key: v16
+    stage: 친환경 건설
+    title: 미리 가 본 그린스마트 미래학교
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=FRkeJwXta8A
+    desc: 학교 건물을 친환경 시설로 바꾸는 그린스마트 미래학교를 미리 둘러봐요.
+    channel: 대구MBC뉴스
+  - key: v17
+    stage: 친환경 건설
+    title: 학생·지역민 함께하는 그린 스마트 스쿨
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=wHB5tORL6PI
+    desc: 네모난 학교를 지역과 함께 쓰는 친환경 학교 공간으로 바꾸는 이야기를 전해요.
+    channel: LG헬로비전 대구경북
+quiz:
+  - statement: 건축 구조물은 지붕과 벽, 바닥을 갖추고 사람이 그 안에서 생활하거나 일하는 구조물이다.
+    answer: O
+    explain: 집, 학교, 아파트처럼 사람이 안에서 활동하는 구조물이 건축 구조물이에요.
+  - statement: 다리와 터널은 건축 구조물에 속한다.
+    answer: X
+    explain: 다리와 터널은 사람이 오가는 길을 이어 주는 토목 구조물이에요.
+  - statement: 도로, 댐, 다리는 대표적인 토목 구조물이다.
+    answer: O
+    explain: 토목 구조물은 다리, 도로, 터널, 댐처럼 우리 생활을 돕는 시설이에요.
+  - statement: 친환경 건물은 태양 전지 같은 장치를 붙인 건물만을 말한다.
+    answer: X
+    explain: 단열과 채광, 환기로 에너지 낭비를 줄이는 구조도 친환경 건물에 포함돼요.
+  - statement: 한옥의 처마는 여름에는 햇빛을 막고 겨울에는 햇빛이 방 안까지 들어오게 돕는다.
+    answer: O
+    explain: 처마의 길이와 모양이 계절에 따라 들어오는 햇빛의 양을 조절해 줘요.
+  - statement: 옛날 사람들은 건설 기술을 전혀 쓰지 않고 건물을 지었다.
+    answer: X
+    explain: 옛날 사람들도 집과 다리를 짓는 건설 기술을 썼고, 시간이 지나며 점점 발전했어요.
+  - statement: 제로에너지 건축물은 에너지를 아끼고 직접 만들어서 쓰는 에너지를 크게 줄인 건물이다.
+    answer: O
+    explain: 단열을 높이고 건물이 에너지를 직접 만들어서 외부에서 받는 에너지를 줄여요.
+  - statement: 다리는 어디에서나 똑같은 모양과 방법으로 만든다.
+    answer: X
+    explain: 강과 바다의 깊이와 길이에 따라 여러 종류의 다리와 건설 방법이 쓰여요.

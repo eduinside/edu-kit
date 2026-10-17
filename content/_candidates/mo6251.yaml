@@ -1,0 +1,356 @@
+# mo6251 후보 기록 — 도덕 6학년 2학기 5단원 「통일 한반도의 어느 날」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo6251 --dry
+# 2026-10-17 수집(야간 위임). 재생·임베드·연령·국내·길이는 YouTube Data API(ytcheck)로 후보 전부 정상 확인. 영상 본문은 제목·설명·채널 성격 기준으로 판단했고 전부 시청한 것은 아님.
+# 국립평화통일민주교육원(public) 클립영상이 풍부해 중심으로 썼다. 가치 판단이 갈릴 수 있는 정치·정책 영상과 노래·공연 영상은 제외했다.
+# 새 채널(channels.yaml에 없음): 춘천MBC 프로그램 — 채택 시 운영자에게 등급 질문.
+kit:
+  id: mo6251
+  title: "5. 통일 한반도의 어느 날"
+  grade: 6
+  sem: 2학기
+  subject: 도덕
+  unit: 5단원
+  unit_no: 5
+  flow: activity
+  codes: ["[6도03-03]"]
+  core_idea: "통일은 땅과 제도를 합치는 일일 뿐 아니라 남북 사람들의 마음이 하나가 되는 일이에요. 남북이 같은 점과 다른 점을 이해하고 서로 존중하며 교류해 가는 것이 통일을 준비하는 첫걸음이에요."
+  core_question: "남북 사람들이 마음을 모아 통일을 준비하려면 우리는 무엇을 이해하고 실천해야 할까?"
+  stages:
+    - name: 생각열기
+      question: "통일이 된 한반도의 하루는 어떤 모습일까?"
+    - name: 탐구하기
+      question: "남북은 지금 어떤 점이 같고 다르며, 어떻게 이해하고 교류할 수 있을까?"
+    - name: 확장하기
+      question: "통일을 바라는 따뜻한 마음을 어떻게 실천할까?"
+  concepts:
+    - "통일"
+    - "분단"
+    - "이산가족"
+    - "남북 교류"
+    - "북한이탈주민"
+    - "평화"
+  source_notes: "정리본 도덕6.국정.u5(1차시 통일에 앞서 풀 과제·통일 뒤 하루 상상 일기 → 2차시 남북 주민이 함께 사는 마을 예화의 갈등과 해결 → 3차시 남북의 지금 진단·처방전과 통일 뒤 안내서 → 4차시 통일을 바라는 낱말·나만의 명언) · 오개념: 통일을 땅과 제도만 합치는 일로 여김(마음이 하나 되는 일도 포함), 남북은 다르기만 하다고 여김(같은 말과 역사도 나눔) · cautions: 통일 뒤 어려움은 솔직히 다루되 비관에 머물지 않기, 해외 동포도 힘을 보탤 수 있음, 학생마다 배경지식 차이가 큼 · 지도서가 가리킨 통일부UNITV·국립평화통일민주교육원 영상 일부를 후보로 확인. 정파적 주장·정상회담 정치 영상·통일 필요성을 한쪽으로 설득하는 영상은 제외하고 남북 이해·교류 공식 영상 위주로 골랐다."
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "마음으로 그리는 통일미래"
+    url: https://www.youtube.com/watch?v=ZpYcPkKhMac
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "2:23"
+    use: 수업 전
+    basis_code: "[6도03-03]"
+    basis_lesson: "1차시 통일된 뒤 하루 상상"
+    desc: "하나가 된 한반도의 미래를 마음으로 그려 보게 하는 통일교육 클립영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2019 제작, 초등 4·6학년 도덕 통일 단원 관련 교과로 안내된 영상."
+  - cand_no: c02
+    stage: 생각열기
+    title: "함께 상상해요, 통일된 우리나라"
+    url: https://www.youtube.com/watch?v=J7NyGX5rRXo
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "1:01"
+    use: 수업 전
+    basis_code: "[6도03-03]"
+    basis_lesson: "1차시 통일된 뒤 하루 상상"
+    desc: "통일된 우리나라의 모습을 함께 상상해 보자는 대학생 통일홍보영상 수상작이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 가리킨 영상(2021). 1분이라 동기 유발용."
+  - cand_no: c03
+    stage: 생각열기
+    title: "통일한국 미리보기 — 한반도통일미래센터"
+    url: https://www.youtube.com/watch?v=9Edapnpmlu8
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "7:17"
+    use: 수업 중
+    basis_code: "[6도03-03]"
+    basis_lesson: "1차시 통일된 뒤 하루 상상"
+    desc: "미래행 열차를 타고 통일 한국의 모습을 미리 둘러보는 체험 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 제작. 체험관 홍보 성격이 조금 있음."
+  - cand_no: c04
+    stage: 생각열기
+    title: "통일, 무엇이든 물어보세요"
+    url: https://www.youtube.com/watch?v=nNI5j0nOj5s
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "5:27"
+    use: 수업 중
+    basis_code: "[6도03-03]"
+    basis_lesson: "3차시 남북의 지금 진단"
+    desc: "통일이 되면 무엇이 좋아지는지, 남북이 통일을 위해 어떤 노력을 해 왔는지 대담 형식으로 알아봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2019 초등 6학년 도덕용 제작. 이후 남북 관계 변화는 교사가 보완."
+  - cand_no: c05
+    stage: 생각열기
+    title: "우리가 통일을 해야 하는 이유 — 학교 종이 통통통"
+    url: https://www.youtube.com/watch?v=UQ_GZ7lMHLI
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "7:40"
+    use: 수업 중
+    basis_code: "[6도03-03]"
+    basis_lesson: "1차시 통일에 앞서 풀 과제"
+    desc: "통일의 필요성을 여러 까닭으로 나누어 알아보는 통일교육 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "통일의 필요성을 설득하는 성격이라 관점이 한쪽으로 치우치지 않는지 확인 필요."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "남북 분단과 이산가족"
+    url: https://www.youtube.com/watch?v=dOXs5t3A5Dw
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "4:47"
+    use: 수업 중
+    basis_code: "[6도03-03]"
+    basis_lesson: "3차시 남북의 지금 진단"
+    desc: "남북 분단 때문에 가족과 헤어진 이산가족의 아픔과 가족의 뜻을 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 클립영상. 초등 3학년 도덕용으로 안내된 영상이라 6학년에는 쉬울 수 있음."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "북한 학생들의 학교 생활은 어떨까?"
+    url: https://www.youtube.com/watch?v=c_iaGi0LCm0
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "4:38"
+    use: 수업 중
+    basis_code: "[6도03-03]"
+    basis_lesson: "2차시 남북 주민의 같은 점과 다른 점"
+    desc: "북한 학생들이 보내는 하루를 보며 우리와 같은 점과 다른 점을 찾아봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 클립영상. 초등 1학년 슬기로운 생활용으로 안내된 영상이라 6학년에는 쉬울 수 있음."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "남북의 언어 들여다보기"
+    url: https://www.youtube.com/watch?v=AECE9y2R4qs
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "6:17"
+    use: 수업 중
+    basis_code: "[6도03-03]"
+    basis_lesson: "2차시 남북 주민의 같은 점과 다른 점"
+    desc: "분단이 오래되면서 달라진 남북의 낱말을 퀴즈로 알아봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 클립영상. 초등 4학년 국어용으로 안내됨."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "알쏭달쏭 북한말 이야기"
+    url: https://www.youtube.com/watch?v=u7rc75Y6weQ
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "4:45"
+    use: 수업 중
+    basis_code: "[6도03-03]"
+    basis_lesson: "2차시 남북 주민 함께 사는 마을"
+    desc: "북한 친구와 대화할 때 오해하기 쉬운 우리말과 북한말의 차이를 살펴봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 제작. 초등 1학년 슬기로운 생활용으로 안내된 영상이라 6학년에는 쉬울 수 있음."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "북한 평양 아이들이 즐기는 놀이"
+    url: https://www.youtube.com/watch?v=F2qctXqSP5Y
+    channel: "춘천MBC 프로그램"
+    channel_grade: press
+    duration: "3:44"
+    use: 수업 중
+    basis_code: "[6도03-03]"
+    basis_lesson: "2차시 남북 주민의 같은 점과 다른 점"
+    desc: "북한 아이들이 즐기는 놀이를 보며 우리 놀이와 닮은 점을 찾아봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "'세계의 놀이문화' 방송 일부(2019). 새 채널. 등급 미분류(추정)."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "남북의 민간교류, 마음의 벽을 허무는 음식"
+    url: https://www.youtube.com/watch?v=B1ZuzfTldKs
+    channel: "통일부UNITV"
+    channel_grade: public
+    duration: "7:08"
+    use: 수업 중
+    basis_code: "[6도03-03]"
+    basis_lesson: "3차시 남북 교류 영상"
+    desc: "남한의 기술과 북한의 지역 특성이 만나 이루어진 민간 교류 사례를 이야기해 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "통일부UNITV '너에게 꼭 들려주고 싶은 남북이야기' 시리즈(2022)."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "11년 동안 멈추지 않은 남북 어린이들의 축구 교류"
+    url: https://www.youtube.com/watch?v=pLfD4J9KTls
+    channel: "KBS News"
+    channel_grade: press
+    duration: "1:23"
+    use: 수업 중
+    basis_code: "[6도03-03]"
+    basis_lesson: "3차시 남북 교류 영상"
+    desc: "남북 유소년 축구단이 11년째 이어 온 교류를 짧게 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2018 보도 — 이후 교류 상황은 교사가 보완."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "북한이탈주민 친구들이 우리나라에 와서 신기했던 것은?"
+    url: https://www.youtube.com/watch?v=IV_sdhd1Xts
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "8:57"
+    use: 수업 중
+    basis_code: "[6도03-03]"
+    basis_lesson: "2차시 남북 주민 함께 사는 마을"
+    desc: "북한이탈주민 친구들의 이야기를 듣고 학교에서 어떻게 대할지 생각해 봐요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "8분 57초라 구간(start/end) 정하려면 본문 확인 필요. 초등 4학년 도덕(북한에서 온 친구 배려)용으로 안내됨. 내용은 이 단원 갈등 예화와 잘 맞음."
+  - cand_no: c14
+    stage: 탐구하기
+    title: "북한이탈주민 친구들의 이야기"
+    url: https://www.youtube.com/watch?v=5nIibCdJvsM
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "6:14"
+    use: 수업 후
+    basis_code: "[6도03-03]"
+    basis_lesson: "2차시 남북 주민 함께 사는 마을"
+    desc: "북한이탈주민 친구들이 겪은 어려움과 꿈에 귀 기울이며 공존을 생각해 봐요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "중학교 사회·도덕용(2019) 제작이라 초등 눈높이 확인 필요."
+  - cand_no: c15
+    stage: 탐구하기
+    title: "한반도 평화 100초 설명서"
+    url: https://www.youtube.com/watch?v=ZdrrV0FKYJM
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "2:13"
+    use: 수업 중
+    basis_code: "[6도03-03]"
+    basis_lesson: "3차시 남북의 지금 진단"
+    desc: "한반도 평화가 우리에게 가져다줄 이익을 100초 남짓에 설명해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "평화경제에 대한 설득 성격이라 관점이 갈릴 수 있음. 2020."
+  - cand_no: c16
+    stage: 확장하기
+    title: "마지막 소원 — 이산가족"
+    url: https://www.youtube.com/watch?v=b622iITs_f0
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "6:49"
+    use: 수업 후
+    basis_code: "[6도03-03]"
+    basis_lesson: "4차시 통일을 바라는 마음"
+    desc: "이산가족 어르신의 마지막 소원을 담은 통일교육 동영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "통통평화학교(교육부 등 공동 개발) 2020 출처."
+  - cand_no: c17
+    stage: 확장하기
+    title: "이혜리와 리혜리"
+    url: https://www.youtube.com/watch?v=Y0YFtVoUPw0
+    channel: "국립평화통일민주교육원"
+    channel_grade: public
+    duration: "6:33"
+    use: 수업 후
+    basis_code: "[6도03-03]"
+    basis_lesson: "2차시 남북 어린이 화합 동화"
+    desc: "남과 북의 어린이가 처음 만나 다름을 인정하고 진정한 친구가 되는 통일그림동화 애니메이션이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서의 남북 어린이 화합 동화 자리에 쓸 수 있음(2020)."
+  - cand_no: c18
+    stage: 확장하기
+    title: "슬기로운 초딩생활 — 통일부 어린이기자단"
+    url: https://www.youtube.com/watch?v=EI7l-MoDEwg
+    channel: "통일부UNITV"
+    channel_grade: public
+    duration: "3:05"
+    use: 수업 후
+    basis_code: "[6도03-03]"
+    basis_lesson: "4차시 통일을 바라는 마음"
+    desc: "통일부 어린이 기자단이 어떤 활동을 하는지 소개해 어린이가 통일을 위해 할 수 있는 일을 떠올리게 해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 기자단 모집 안내 성격이 조금 있음."
+  - cand_no: c19
+    stage: 확장하기
+    title: "분단의 아픔을 알린 '이산가족을 찾습니다'"
+    url: https://www.youtube.com/watch?v=bb0JeE7e9No
+    channel: "KBS News"
+    channel_grade: press
+    duration: "2:47"
+    use: 수업 후
+    basis_code: "[6도03-03]"
+    basis_lesson: "4차시 통일을 바라는 마음"
+    desc: "1983년 생방송으로 분단의 아픔을 세계에 알린 이산가족 찾기 방송을 되돌아봐요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c06·c16과 이산가족 내용이 겹침. 유네스코 기록유산 소개(2021)."
+  - cand_no: c20
+    stage: 확장하기
+    title: "분단의 세월도 막지 못한 모자 상봉"
+    url: https://www.youtube.com/watch?v=mSyEA8MdjQU
+    channel: "비디오머그 - VIDEOMUG"
+    channel_grade: press
+    duration: "5:11"
+    use: 수업 후
+    basis_code: "[6도03-03]"
+    basis_lesson: "4차시 통일을 바라는 마음"
+    desc: "금강산에서 이산가족이 다시 만나 눈물을 흘리는 모습을 보여 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 가리킨 영상(2018)이나 감정이 강하고 c16과 겹침."
+  - cand_no: c21
+    stage: 확장하기
+    title: "통일채널e — 현명한 미래"
+    url: https://www.youtube.com/watch?v=3efLDKnMeiU
+    channel: "통일부UNITV"
+    channel_grade: public
+    duration: "5:02"
+    use: 수업 후
+    basis_code: "[6도03-03]"
+    basis_lesson: "1차시 통일된 뒤 하루 상상"
+    desc: "통일 30년 뒤 우리에게 어떤 미래가 펼쳐질지 상상해 보는 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2014 제작, 전문가 예측 시나리오라 오래됨."
+  - cand_no: c22
+    stage: 확장하기
+    title: "남측예술단 평양공연 '봄이 온다'"
+    url: https://www.youtube.com/watch?v=fBF0IxfWQCk
+    channel: "통일부UNITV"
+    channel_grade: public
+    duration: "8:38"
+    use: 수업 후
+    basis_code: "[6도03-03]"
+    basis_lesson: "3차시 남북 교류 영상"
+    desc: "남측 예술단이 평양에서 공연한 모습을 전해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "공연 영상이고 8분이 넘음(2018)."
+  - cand_no: c23
+    stage: 확장하기
+    title: "2018 남북정상회담 평양을 가다"
+    url: https://www.youtube.com/watch?v=zcuc8upKKQk
+    channel: "통일부UNITV"
+    channel_grade: public
+    duration: "9:03"
+    use: 배경지식
+    basis_code: "[6도03-03]"
+    basis_lesson: "3차시 남북의 지금 진단"
+    desc: "정상회담에 동행한 대학생 기자가 회담 현장을 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "정치 행사 중심이고 9분이 넘음(2018)."

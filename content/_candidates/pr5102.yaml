@@ -1,0 +1,471 @@
+# pr5102 후보 기록 — 실과 5학년 · 균형 잡힌 식사·조리 ([6실01-04]·[6실02-05])
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- pr5102 --dry
+# 2026-10-17 야간 위임 수집(흐름형, 용어=단계). 후보 전부 ytcheck(YouTube Data API)로 재생·임베드·연령·국내·길이·쇼츠 확인. 영상 본문은 제목·설명·채널 성격 기준이며 전부 시청한 것은 아님.
+# 불·칼이 나오는 시범은 대구미래교육연구원(교육청 계열) 영상만 씀. 영양소·식품군은 식약처·교육청·보건소·급식관리지원센터 우선, 공공 영상이 없는 영양소 설명은 YTN 사이언스(언론).
+# 새 채널(channels.yaml에 없음): 대구학교급식TV · 대전서구어린이·사회복지급식관리지원센터 · 용산구어린이급식관리지원센터 · 평택·송탄보건소(몸마음 튼튼) · 시민건강놀이터 · 북적북적 즐거운 영양식생활 수업 레시피 · 콘텐츠 공작소 — 등급 미분류(추정), 운영자 확인.
+kit:
+  id: pr5102
+  title: "균형 잡힌 식사·조리"
+  grade: 5
+  sem: 1학기
+  subject: 실과
+  unit: 인간 발달과 주도적 삶
+  unit_no: 1
+  flow: flow
+  sort_order: 2
+  codes: ["[6실01-04]", "[6실02-05]"]
+  core_idea: "우리 몸에 필요한 영양소를 여러 식품군에서 골고루 얻어야 균형 잡힌 식사가 돼요. 찌기나 삶기 같은 건강한 조리법으로 위생과 안전을 지키며 간식이나 식사를 스스로 만들어 볼 수 있어요."
+  core_question: "균형 잡힌 식사를 위해 어떤 식품을 고르고, 어떻게 안전하게 조리할 수 있을까?"
+  stages:
+    - "영양소"
+    - "식품군"
+    - "균형 잡힌 식사"
+    - "간식"
+    - "조리"
+    - "위생과 안전"
+  concepts:
+    - "영양소"
+    - "식품군"
+    - "균형 잡힌 식사"
+    - "간식"
+    - "조리"
+    - "위생과 안전"
+  source_notes: "정리본(천재 u3 식생활 · 비상 u2-2·u3-2) 요지: 여섯 영양소가 몸에서 하는 일 → 식품 구성 자전거와 식품군 → 하루 식단·식습관 점검 → 조리 순서와 찌기·삶기·볶기·부치기, 좋은 간식 고르기 → 위생·안전(불·칼·알레르기) · 오개념: 영양소가 든 식품과 식품군은 다른 구분, 한 식품에 영양소가 여럿 들어 있음, 균형은 한 끼가 아니라 하루 기준, 건강한 조리법은 상대적 · 지도서가 가리킨 기관: 식품의약품안전처·식품안전나라·한국영양학회·농촌진흥청(영상은 식약처·교육청 채널에서 찾음). 출판사 실습 동영상은 쓰지 않음"
+
+candidates:
+  - cand_no: c01
+    stage: 영양소
+    title: "영양쌤이 알려주는 6대 영양소"
+    url: https://www.youtube.com/watch?v=LspLi79-XzE
+    channel: "서울특별시교육청교육연구정보원"
+    channel_grade: edu
+    duration: "7:49"
+    use: 수업 중
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 2차시 여섯 영양소가 하는 일"
+    desc: "영양교사가 여섯 영양소의 종류와 몸에서 하는 일을 차례로 설명해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 7분 49초(8분 이내)."
+  - cand_no: c02
+    stage: 영양소
+    title: "우리 몸에 필요한 5대 영양소"
+    url: https://www.youtube.com/watch?v=cmBAmQIYTGI
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "2:29"
+    use: 수업 전
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 2차시 영양소 종류"
+    desc: "우리 몸에 꼭 필요한 영양소의 종류와 효과를 짧게 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016. 5대 영양소 설명(교과서는 물까지 6대) — 수업에서 물을 더해 짚기. 공공·교육 채널에 짧은 영양소 소개가 없어 press 사용."
+  - cand_no: c03
+    stage: 영양소
+    title: "단백질은 우리 몸에 어떻게 좋을까"
+    url: https://www.youtube.com/watch?v=UPfqZtCSBWw
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "2:33"
+    use: 수업 중
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 2차시 영양소와 많이 든 식품 짝짓기"
+    desc: "단백질이 몸에서 하는 일과 단백질이 많이 든 식품을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016. 공공·교육 채널 대안 없어 press."
+  - cand_no: c04
+    stage: 영양소
+    title: "청소년 건강한 식생활 가이드 — 비타민·무기질"
+    url: https://www.youtube.com/watch?v=yZ-Rsgo7zVw
+    channel: "식품의약품안전처"
+    channel_grade: public
+    duration: "3:49"
+    use: 수업 중
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 2차시"
+    desc: "식품에 든 비타민과 무기질을 알아보는 식약처 가이드예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "청소년 대상 영상이라 5학년 눈높이인지 시청 확인 필요."
+  - cand_no: c05
+    stage: 식품군
+    title: "식품구성자전거 타고 건강나라로"
+    url: https://www.youtube.com/watch?v=ZLUU_GZq0_Y
+    channel: "대전서구어린이·사회복지급식관리지원센터"
+    channel_grade: public
+    duration: "6:09"
+    use: 수업 중
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 3차시 식품 구성 자전거와 식품군"
+    desc: "식품구성자전거의 바퀴와 식품군을 어린이 눈높이로 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 지자체 급식관리지원센터 영양교육. 새 채널(public 추정). 어린이집 대상일 수 있어 눈높이는 수업 중 확인."
+  - cand_no: c06
+    stage: 식품군
+    title: "골고루 먹어요 — 식품구성자전거"
+    url: https://www.youtube.com/watch?v=0Tmitn8Us5s
+    channel: "용산구어린이급식관리지원센터"
+    channel_grade: public
+    duration: "5:48"
+    use: 수업 중
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 3차시 식품군"
+    desc: "식품구성자전거로 여러 식품군을 골고루 먹는 까닭을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 지자체 센터 교육영상. 새 채널(public 추정)."
+  - cand_no: c07
+    stage: 식품군
+    title: "건강한 식단의 기본 공식, 식품구성자전거"
+    url: https://www.youtube.com/watch?v=YgHOY8JWLrY
+    channel: "평택·송탄보건소(몸마음 튼튼)"
+    channel_grade: public
+    duration: "4:25"
+    use: 수업 중
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 3차시 식품군과 하루 식단"
+    desc: "식품구성자전거를 기준으로 건강한 식단을 짜는 방법을 보건소 영양사가 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 보건소 제작. 새 채널(public 추정). 성인 대상 설명이 섞일 수 있어 시청 확인."
+  - cand_no: c08
+    stage: 식품군
+    title: "영양식생활교육 — 다양한 채소 과일"
+    url: https://www.youtube.com/watch?v=MJxAqmKBaUg
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:23"
+    use: 수업 중
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 3차시 식품군"
+    desc: "다양한 채소와 과일을 먹어야 하는 까닭과 색깔별 특징을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 대구 영양식생활교육 시리즈(초등 교재 기반)."
+  - cand_no: c09
+    stage: 식품군
+    title: "알기 쉬운 식품구성자전거"
+    url: https://www.youtube.com/watch?v=V2z6ujQn9h0
+    channel: "시민건강놀이터"
+    channel_grade: public
+    duration: "1:38"
+    use: 수업 전
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 3차시 식품군"
+    desc: "식품구성자전거가 무엇인지 1분 남짓에 정리해 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "운영 주체(시민건강놀이터) 불명확해 보류."
+  - cand_no: c10
+    stage: 식품군
+    title: "달려라, 식품구성자전거"
+    url: https://www.youtube.com/watch?v=usTAWggKlHU
+    channel: "북적북적 즐거운 영양식생활 수업 레시피"
+    channel_grade: edu
+    duration: "2:53"
+    use: 수업 중
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 3차시"
+    desc: "초등 5학년 식품구성자전거 단원용으로 만든 짧은 수업 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "강원학교식생활교육연구회(교사 모임) 채널로 보임 — 운영 주체 확인 필요. 내용은 5학년 단원에 딱 맞음."
+  - cand_no: c11
+    stage: 균형 잡힌 식사
+    title: "어린이 영양지수 균형편"
+    url: https://www.youtube.com/watch?v=76fKRWCxlzs
+    channel: "식품의약품안전처"
+    channel_grade: public
+    duration: "3:32"
+    use: 수업 중
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 4차시 균형 잡힌 식단·영양 지수"
+    desc: "어린이의 균형 잡힌 식생활이 무엇인지 식약처가 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 지도서가 가리킨 식약처 영양 지수 계열."
+  - cand_no: c12
+    stage: 균형 잡힌 식사
+    title: "어린이 영양지수 실천편"
+    url: https://www.youtube.com/watch?v=gt_Hxbm7cTA
+    channel: "식품의약품안전처"
+    channel_grade: public
+    duration: "3:47"
+    use: 수업 중
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 4차시 식습관 개선 계획"
+    desc: "안전하고 건강한 식생활을 실천하는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 식약처."
+  - cand_no: c13
+    stage: 균형 잡힌 식사
+    title: "영양식생활교육 — 건강습관 삼시세끼"
+    url: https://www.youtube.com/watch?v=2n2ZSRorz54
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "2:41"
+    use: 수업 후
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 4차시 식습관 점검"
+    desc: "하루 세 끼를 규칙적으로 먹는 건강한 식습관을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 대구 영양식생활교육."
+  - cand_no: c14
+    stage: 균형 잡힌 식사
+    title: "대구 영양상담 — 편식"
+    url: https://www.youtube.com/watch?v=43WH4-moils
+    channel: "대구학교급식TV"
+    channel_grade: edu
+    local: 대구
+    duration: "5:26"
+    use: 수업 후
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 4차시 식습관"
+    desc: "편식을 줄이는 방법을 영양교사가 안내해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "상담 형식으로 학생용인지 확인 필요. 새 채널."
+  - cand_no: c15
+    stage: 간식
+    title: "[실과 완전 정복] 건강한 간식 선택하기"
+    url: https://www.youtube.com/watch?v=iKEk2RFr5Z0
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:01"
+    use: 수업 중
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 6·4차시 좋은 간식 고르기"
+    desc: "맛과 영양을 함께 생각해 몸에 좋은 간식을 고르는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 시리즈 01."
+  - cand_no: c16
+    stage: 간식
+    title: "영양식생활교육 — 간식! 먹어야 할까?"
+    url: https://www.youtube.com/watch?v=NscxZqIQPXY
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "2:37"
+    use: 수업 전
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 4차시 식단에 빠진 영양소를 간식으로"
+    desc: "성장기에 간식이 왜 필요하고 어떻게 먹어야 하는지 묻고 답해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 대구 영양식생활교육."
+  - cand_no: c17
+    stage: 간식
+    title: "영양식생활교육 — 건강한 간식습관"
+    url: https://www.youtube.com/watch?v=GwJT4pYT8Ho
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "3:38"
+    use: 수업 중
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 4차시 간식"
+    desc: "건강한 간식을 고르고 먹는 습관을 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c15·c16과 내용이 겹침."
+  - cand_no: c18
+    stage: 간식
+    title: "어린이 영양지수 절제편"
+    url: https://www.youtube.com/watch?v=nNdQY-zv03s
+    channel: "식품의약품안전처"
+    channel_grade: public
+    duration: "3:06"
+    use: 수업 중
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 4차시 줄여야 할 식품"
+    desc: "당·나트륨 같이 줄여야 하는 식품과 줄이는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 식약처."
+  - cand_no: c19
+    stage: 간식
+    title: "영양식생활교육 — 영양표시 확인하기"
+    url: https://www.youtube.com/watch?v=MdDxCo1k6iI
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "2:41"
+    use: 수업 후
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 4차시 식품 포장 읽기"
+    desc: "식품 포장의 영양표시를 읽는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 대구 영양식생활교육."
+  - cand_no: c20
+    stage: 간식
+    title: "영양식생활교육 — 고열량 저영양 식품"
+    url: https://www.youtube.com/watch?v=BMacNfpFAQ4
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "3:23"
+    use: 수업 중
+    basis_code: "[6실01-04]"
+    basis_lesson: "정리본 4차시"
+    desc: "열량은 높고 영양은 적은 식품을 알아봐요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c18과 겹침."
+  - cand_no: c21
+    stage: 조리
+    title: "[실과 완전 정복] 건강 간식 만들기 1 — 찌기"
+    url: https://www.youtube.com/watch?v=XxgKuSkVia0
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:01"
+    use: 수업 중
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 7차시 감자·고구마 찌기"
+    desc: "수증기의 열로 식품을 익히는 찌기를 감자를 예로 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 가열·뜨거운 김 안전 안내가 나오는 대구 실과 영상 03."
+  - cand_no: c22
+    stage: 조리
+    title: "[실과 완전 정복] 건강 간식 만들기 2 — 삶기"
+    url: https://www.youtube.com/watch?v=b5E8pl-RuRM
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:09"
+    use: 수업 중
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 7차시 달걀 삶기"
+    desc: "물에 넣고 익히는 삶기를 달걀을 예로 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 04."
+  - cand_no: c23
+    stage: 조리
+    title: "[실과 완전 정복] 한 그릇 음식 만들기 2 — 볶음밥"
+    url: https://www.youtube.com/watch?v=bCe6pq4-KK0
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:07"
+    use: 수업 후
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 8차시 영양과 색을 생각한 한 끼"
+    desc: "재료를 썰고 볶아 볶음밥을 만드는 과정을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 실과 영상 07. 볶기 조리법."
+  - cand_no: c24
+    stage: 조리
+    title: "[실과 완전 정복] 건강 간식 만들기 3 — 샌드위치"
+    url: https://www.youtube.com/watch?v=kFGQ0zFaOwo
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:32"
+    use: 수업 후
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 8차시 한 끼 차리기"
+    desc: "불을 쓰지 않고 샌드위치로 건강한 간식을 만드는 방법을 보여 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c23과 겹치고 불 없는 조리라 후보로만 둠."
+  - cand_no: c25
+    stage: 조리
+    title: "[실과 완전 정복] 한 그릇 음식 만들기 1 — 비빔밥"
+    url: https://www.youtube.com/watch?v=mbMhQhjURBU
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:01"
+    use: 수업 중
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 8차시"
+    desc: "여러 식품군 재료를 한 그릇에 담는 비빔밥 만들기를 보여 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c23과 겹침."
+  - cand_no: c26
+    stage: 위생과 안전
+    title: "[실과 완전 정복] 실습 안전지도 및 썰기방법"
+    url: https://www.youtube.com/watch?v=V7rQnsiml1g
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "5:02"
+    use: 수업 전
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 7차시 실습 안전"
+    desc: "조리 실습 안전 수칙과 기본 썰기 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 칼·불 사용 전 안전 안내(정리본 유의점에 맞음)."
+  - cand_no: c27
+    stage: 위생과 안전
+    title: "영양식생활교육 — 식중독 예방 식품관리요령"
+    url: https://www.youtube.com/watch?v=26BqyMWmwcE
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "3:41"
+    use: 수업 중
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 위생 유의점"
+    desc: "식중독을 막기 위한 식품 보관과 관리 요령을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 대구 영양식생활교육."
+  - cand_no: c28
+    stage: 위생과 안전
+    title: "영양식생활교육 — 식중독 사례 및 원인식품"
+    url: https://www.youtube.com/watch?v=PF5oGbE4gfY
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "2:42"
+    use: 수업 중
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 위생 유의점"
+    desc: "식중독이 생긴 사례와 원인이 되는 식품을 살펴봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024. 대구 영양식생활교육."
+  - cand_no: c29
+    stage: 위생과 안전
+    title: "하츄핑과 함께 깨끗한 손 씻기"
+    url: https://www.youtube.com/watch?v=z83-LaXRqt0
+    channel: "식품의약품안전처"
+    channel_grade: public
+    duration: "0:41"
+    use: 수업 전
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 위생"
+    desc: "손에 있는 세균을 알아보고 손 씻는 방법을 보여 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "41초, 유아·저학년 캐릭터 영상이라 5학년에는 가볍게 보일 수 있음."
+  - cand_no: c30
+    stage: 위생과 안전
+    title: "확인해요 조리실습 전 주의사항"
+    url: https://www.youtube.com/watch?v=I5T6GpAEyZM
+    channel: "콘텐츠 공작소, 정보를 디자인하다"
+    channel_grade: personal
+    duration: "1:51"
+    use: 수업 전
+    basis_code: "[6실02-05]"
+    basis_lesson: "정리본 위생"
+    desc: "조리 실습 전에 지킬 점을 짧게 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "농림축산식품부 사업 제작사 채널(personal 추정) — 대구 영상 c26이 있어 보류. 새 채널."

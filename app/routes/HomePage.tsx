@@ -13,7 +13,8 @@ import type { Grade, Semester, Subject } from "../lib/data.ts";
 
 const GRADE_OPTIONS = [3, 4, 5, 6].map((g) => ({ key: String(g), label: `${g}학년` }));
 const SEM_OPTIONS = [{ key: "1학기", label: "1학기" }, { key: "2학기", label: "2학기" }];
-const SUBJECT_OPTIONS = [{ key: "사회", label: "사회" }, { key: "과학", label: "과학" }];
+const SUBJECTS: Subject[] = ["사회", "과학", "도덕", "실과"]; // 홈 화면 순서(첫 진입·폴백 우선순위도 이 순서)
+const SUBJECT_OPTIONS = SUBJECTS.map((s) => ({ key: s, label: s }));
 
 const labelStyle = { fontSize: 11, fontWeight: 800, color: "var(--color-slate-400)", letterSpacing: ".04em" } as const;
 const divider = { width: 1, height: 24, background: "var(--color-slate-100)" } as const;
@@ -21,10 +22,10 @@ const divider = { width: 1, height: 24, background: "var(--color-slate-100)" } a
 type Scope = { grade: Grade; sem: Semester; subject: Subject };
 const PREF_KEY = "edukit:lastScope";
 
-// 폴백 기본 조건: 자료가 있는(공개된) 조건 중 가장 앞선 것(학년↑ → 1학기 → 사회). 없으면 5/2학기/사회.
+// 폴백 기본 조건: 자료가 있는(공개된) 조건 중 가장 앞선 것(학년↑ → 1학기 → 교과 순서). 없으면 5/2학기/사회.
 const DEFAULT_SCOPE: Scope = (() => {
   const rank = (k: { grade: number; sem: Semester; subject: Subject }) =>
-    k.grade * 100 + (k.sem === "1학기" ? 0 : 10) + (k.subject === "사회" ? 0 : 1);
+    k.grade * 100 + (k.sem === "1학기" ? 0 : 10) + SUBJECTS.indexOf(k.subject);
   const pub = [...KITS.filter((k) => k.published)].sort((a, b) => rank(a) - rank(b));
   const f = pub[0];
   return f ? { grade: f.grade, sem: f.sem, subject: f.subject } : { grade: 5, sem: "2학기", subject: "사회" };
@@ -45,17 +46,17 @@ function loadPref(): Scope | null {
     const g = Number(p?.grade);
     if (![3, 4, 5, 6].includes(g)) return null;
     if (p?.sem !== "1학기" && p?.sem !== "2학기") return null;
-    if (p?.subject !== "사회" && p?.subject !== "과학") return null;
+    if (!SUBJECTS.includes(p?.subject)) return null;
     return { grade: g as Grade, sem: p.sem, subject: p.subject };
   } catch {
     return null;
   }
 }
 
-// 첫 진입(저장값 없음): 이번 달 학기 + 자료 있는 학년 중 무작위. 사회 우선, 없으면 과학, 그래도 없으면 폴백.
+// 첫 진입(저장값 없음): 이번 달 학기 + 자료 있는 학년 중 무작위. 사회 → 과학 → 도덕 → 실과 순으로 자료가 있는 첫 교과, 없으면 폴백.
 function randomDefaultByMonth(): Scope {
   const sem = semByMonth();
-  for (const subject of ["사회", "과학"] as Subject[]) {
+  for (const subject of SUBJECTS) {
     const grades = [...new Set(KITS.filter((k) => k.published && k.sem === sem && k.subject === subject).map((k) => k.grade))];
     if (grades.length) return { grade: grades[Math.floor(Math.random() * grades.length)]!, sem, subject };
   }

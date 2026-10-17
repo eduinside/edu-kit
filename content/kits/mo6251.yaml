@@ -1,0 +1,160 @@
+id: mo6251
+title: 5. 통일 한반도의 어느 날
+grade: 6
+sem: 2학기
+subject: 도덕
+unit: 5단원
+unit_no: 5
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 통일은 땅과 제도를 합치는 일일 뿐 아니라 남북 사람들의 마음이 하나가 되는 일이에요. 남북이 같은 점과 다른 점을 이해하고 서로 존중하며 교류해 가는 것이 통일을 준비하는 첫걸음이에요.
+  core_question: 남북 사람들이 마음을 모아 통일을 준비하려면 우리는 무엇을 이해하고 실천해야 할까?
+  concepts:
+    - term: 통일
+      def: 남북으로 나뉜 한반도가 하나의 나라가 되는 것이에요. 땅과 제도뿐 아니라 사람들의 마음도 하나가 되어야 해요.
+    - term: 분단
+      def: 하나였던 나라가 둘로 나뉘어 서로 자유롭게 오가지 못하는 상태를 말해요. 우리나라는 6.25 전쟁을 거치며 남과 북으로 갈라졌어요.
+    - term: 이산가족
+      def: 분단이나 전쟁 때문에 서로 헤어져 소식도 모르고 만나지 못하는 가족이에요.
+    - term: 남북 교류
+      def: 남한과 북한이 사람, 문화, 경제, 체육 같은 여러 분야에서 서로 오가며 만나고 협력하는 일이에요.
+    - term: 북한이탈주민
+      def: 북한을 떠나 우리나라에 와서 사는 사람들이에요. 같은 말을 쓰는 이웃으로 서로 존중하며 지내야 해요.
+    - term: 평화
+      def: 전쟁이나 폭력이 없고 서로의 권리와 안전이 존중되는 상태예요.
+  standards:
+    - code: "[6도03-03]"
+      text: 통일과정과 통일 이후 사회의 여러 가지 상황을 예상하고 바람직한 통일과정과 통일 국가의 사회상을 제시한다.
+stages:
+  - name: 생각열기
+    question: 통일이 된 한반도의 하루는 어떤 모습일까?
+  - name: 탐구하기
+    question: 남북은 지금 어떤 점이 같고 다르며, 어떻게 이해하고 교류할 수 있을까?
+  - name: 확장하기
+    question: 통일을 바라는 따뜻한 마음을 어떻게 실천할까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 마음으로 그리는 통일미래
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=ZpYcPkKhMac
+    desc: 하나가 된 한반도의 미래를 마음으로 그려 보게 하는 통일교육 클립영상이에요.
+    channel: 국립평화통일민주교육원
+  - key: v2
+    stage: 생각열기
+    title: 함께 상상해요, 통일된 우리나라
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=J7NyGX5rRXo
+    desc: 통일된 우리나라의 모습을 함께 상상해 보자는 대학생 통일홍보영상 수상작이에요.
+    channel: 국립평화통일민주교육원
+  - key: v3
+    stage: 생각열기
+    title: 통일한국 미리보기 — 한반도통일미래센터
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=9Edapnpmlu8
+    desc: 미래행 열차를 타고 통일 한국의 모습을 미리 둘러보는 체험 영상이에요.
+    channel: 국립평화통일민주교육원
+  - key: v4
+    stage: 생각열기
+    title: 통일, 무엇이든 물어보세요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=nNI5j0nOj5s
+    desc: 통일이 되면 무엇이 좋아지는지, 남북이 통일을 위해 어떤 노력을 해 왔는지 대담 형식으로 알아봐요.
+    channel: 국립평화통일민주교육원
+  - key: v5
+    stage: 탐구하기
+    title: 남북 분단과 이산가족
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dOXs5t3A5Dw
+    desc: 남북 분단 때문에 가족과 헤어진 이산가족의 아픔과 가족의 뜻을 생각해 봐요.
+    channel: 국립평화통일민주교육원
+  - key: v6
+    stage: 탐구하기
+    title: 북한 학생들의 학교 생활은 어떨까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=c_iaGi0LCm0
+    desc: 북한 학생들이 보내는 하루를 보며 우리와 같은 점과 다른 점을 찾아봐요.
+    channel: 국립평화통일민주교육원
+  - key: v7
+    stage: 탐구하기
+    title: 남북의 언어 들여다보기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=AECE9y2R4qs
+    desc: 분단이 오래되면서 달라진 남북의 낱말을 퀴즈로 알아봐요.
+    channel: 국립평화통일민주교육원
+  - key: v8
+    stage: 탐구하기
+    title: 알쏭달쏭 북한말 이야기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=u7rc75Y6weQ
+    desc: 북한 친구와 대화할 때 오해하기 쉬운 우리말과 북한말의 차이를 살펴봐요.
+    channel: 국립평화통일민주교육원
+  - key: v9
+    stage: 탐구하기
+    title: 북한 평양 아이들이 즐기는 놀이
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=F2qctXqSP5Y
+    desc: 북한 아이들이 즐기는 놀이를 보며 우리 놀이와 닮은 점을 찾아봐요.
+    channel: 춘천MBC 프로그램
+  - key: v10
+    stage: 탐구하기
+    title: 남북의 민간교류, 마음의 벽을 허무는 음식
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=B1ZuzfTldKs
+    desc: 남한의 기술과 북한의 지역 특성이 만나 이루어진 민간 교류 사례를 이야기해 줘요.
+    channel: 통일부UNITV
+  - key: v11
+    stage: 탐구하기
+    title: 11년 동안 멈추지 않은 남북 어린이들의 축구 교류
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=pLfD4J9KTls
+    desc: 남북 유소년 축구단이 11년째 이어 온 교류를 짧게 전해요.
+    channel: KBS News
+  - key: v12
+    stage: 확장하기
+    title: 마지막 소원 — 이산가족
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=b622iITs_f0
+    desc: 이산가족 어르신의 마지막 소원을 담은 통일교육 동영상이에요.
+    channel: 국립평화통일민주교육원
+  - key: v13
+    stage: 확장하기
+    title: 이혜리와 리혜리
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Y0YFtVoUPw0
+    desc: 남과 북의 어린이가 처음 만나 다름을 인정하고 진정한 친구가 되는 통일그림동화 애니메이션이에요.
+    channel: 국립평화통일민주교육원
+  - key: v14
+    stage: 확장하기
+    title: 슬기로운 초딩생활 — 통일부 어린이기자단
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=EI7l-MoDEwg
+    desc: 통일부 어린이 기자단이 어떤 활동을 하는지 소개해 어린이가 통일을 위해 할 수 있는 일을 떠올리게 해요.
+    channel: 통일부UNITV
+quiz:
+  - statement: 통일은 땅과 제도를 합치는 일만이 아니라 남북 사람들의 마음이 하나가 되는 일도 포함한다.
+    answer: O
+    explain: 통일을 준비할 때는 제도뿐 아니라 서로를 이해하고 존중하는 마음도 함께 키워야 해요.
+  - statement: 남한과 북한은 같은 점이 전혀 없고 다른 점만 있다.
+    answer: X
+    explain: 남북은 같은 말과 오랜 역사를 나누어 온 점이 있어서 같은 점과 다른 점을 함께 살펴봐야 해요.
+  - statement: 분단 때문에 서로 헤어져 만나지 못하는 가족을 이산가족이라고 한다.
+    answer: O
+    explain: 이산가족은 분단과 전쟁 때문에 소식도 모른 채 가족을 만나지 못하는 사람들이에요.
+  - statement: 남북은 분단된 뒤 오랜 시간이 지나도 낱말과 말투가 달라지지 않았다.
+    answer: X
+    explain: 오랫동안 떨어져 지내면서 낱말과 쓰임이 달라진 경우가 있어서 서로 이해하려는 노력이 필요해요.
+  - statement: 남북 교류는 체육, 문화, 경제 같은 여러 분야에서 서로 만나고 협력하는 일이다.
+    answer: O
+    explain: 남북 어린이 축구 교류처럼 서로 만나는 경험이 마음의 벽을 낮추는 데 도움이 돼요.
+  - statement: 북한이탈주민 친구는 우리와 다른 사람이므로 함께 어울리지 않는 것이 좋다.
+    answer: X
+    explain: 북한이탈주민도 같은 말을 쓰는 이웃이라서 서로 존중하고 배려하며 지내야 해요.
+  - statement: 우리나라는 6.25 전쟁을 거치며 남과 북으로 나뉘어 서로 자유롭게 오가지 못하게 되었다.
+    answer: O
+    explain: 6.25 전쟁 뒤로 남북이 나뉘어 지금까지 이어지고 있어요.
+  - statement: 통일 뒤에 생길 어려움은 말하지 않고 좋은 점만 이야기하는 것이 바람직한 통일 준비이다.
+    answer: X
+    explain: 통일 뒤 어려움도 솔직히 살펴보고 풀 방법을 함께 찾는 것이 바람직한 준비예요.

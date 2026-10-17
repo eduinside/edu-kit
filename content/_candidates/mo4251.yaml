@@ -1,0 +1,374 @@
+# mo4251 후보 기록 — 도덕 4학년 2학기 5단원 「바람직한 디지털 사회」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo4251 --dry
+# 2026-10-17 야간 위임 수집. 재생·임베드·연령·국내·길이·쇼츠 여부는 YouTube Data API로 후보 전부 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님. 지도서 인용 영상(저작권TV·한국인터넷진흥원 3편)은 원 채널에서 확인함. 정리본 유의점에 따라 자극적인 피해 사례·논쟁성 정책 뉴스는 뺌.
+# 새 채널(channels.yaml에 없음): 한국인터넷진흥원(KISA118) · 아름다운 디지털 세상 · 헤이대구 · 대구POL TV · 한국교육개발원, KEDI TV — 등급은 운영자에게 질문.
+kit:
+  id: mo4251
+  title: "5. 바람직한 디지털 사회"
+  grade: 4
+  sem: 2학기
+  subject: 도덕
+  unit: 5단원
+  unit_no: 5
+  flow: activity
+  codes: ["[4도03-02]"]
+  core_idea: "디지털 사회는 사이버 공간에서도 사람과 사람이 만나는 새로운 공동체라서 현실처럼 서로 지켜야 할 예절이 있어요. 저작권과 개인 정보를 지키고, 사이버 폭력을 하지 않으며 디지털 기기를 알맞게 쓰는 습관이 필요해요."
+  core_question: "바람직한 디지털 사회를 만들기 위해 나는 어떤 마음가짐과 습관을 실천할 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "디지털 사회에서도 사람 사이의 예절이 왜 필요할까?"
+    - name: 탐구하기
+      question: "새로운 기술에서 생기는 도덕 문제는 무엇이고 어떻게 해결할까?"
+    - name: 확장하기
+      question: "바람직한 디지털 사회를 위해 나의 디지털 사용 습관을 어떻게 바꿀까?"
+  concepts:
+    - "디지털 예절"
+    - "저작권"
+    - "개인 정보"
+    - "사이버 폭력"
+    - "스마트폰 과의존"
+  source_notes: "정리본 도덕4.국정.u5(1차시 디지털 사회 특징·사이버 예절 필요한 까닭 → 2차시 새 기술의 도덕 문제 사례·해결 방법 → 3차시 캠페인 계획·실천 → 4차시 디지털 사용 습관 점검·디지털 거리 두기) · 지도서 인용: 저작권TV 우리에게는 저작권이 있어요, 개인정보배움터·한국인터넷진흥원 초등학생용 3편, 성평등가족부 어린이 누리집 중독 자가 진단(누리집) · 오개념: 디지털 공간은 현실이 아니라 예절이 필요 없다, 복사해도 원본이 없어지지 않으니 괜찮다, 디지털 거리 두기는 기기를 아예 안 쓰는 것 · cautions: 자극적 사례 지양, 점검표로 낙인찍지 말 것, 기술 격차 헤아리기"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "[생명존중교육] 사이버 공간 속 예절"
+    url: https://www.youtube.com/watch?v=pTiuYp57bWM
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "1:45"
+    use: 수업 전
+    basis_code: "[4도03-02]"
+    basis_lesson: "1차시 사이버 예절이 필요한 까닭"
+    desc: "사이버 공간에서도 지켜야 할 예절이 무엇인지 짧게 알려 주는 대구 교육연구기관 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 사례, 1분대 동기 유발용. 제목 기준, 시청 확인 권장."
+  - cand_no: c02
+    stage: 생각열기
+    title: "헤이대구 정보통신 윤리교육 — 초등편"
+    url: https://www.youtube.com/watch?v=NEeOCYl-tYM
+    channel: "헤이대구"
+    channel_grade: public
+    local: 대구
+    duration: "1:05"
+    use: 수업 전
+    basis_code: "[4도03-02]"
+    basis_lesson: "1차시 사이버 예절"
+    desc: "사이버 폭력은 나도 피해자가 될 수 있다는 점을 짧게 알려 주는 대구 사례 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 설명란: 사이버 폭력, 나도 피해자가 될 수 있어! 운영 주체가 대구광역시 계열로 추정(채널 설명 없음) — 새 채널, 등급 미분류(추정)."
+  - cand_no: c03
+    stage: 생각열기
+    title: "우리에게는 저작권이 있어요"
+    url: https://www.youtube.com/watch?v=Cr_X_7hMHSk
+    channel: "저작권TV"
+    channel_grade: public
+    duration: "3:27"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "1차시 저작권 안내 영상(지도서)"
+    desc: "저작물과 저작권이 무엇이고 어떻게 활용하는지 초등학생 눈높이로 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 인용한 한국저작권위원회 영상(2022). 설명란: 초등학생 대상 마이크로러닝."
+  - cand_no: c04
+    stage: 생각열기
+    title: "개인정보보호 교육과정 초등학생용 ① 개인정보? 그게 뭐예요?"
+    url: https://www.youtube.com/watch?v=TMQEK5MAwFE
+    channel: "한국인터넷진흥원(KISA118)"
+    channel_grade: public
+    duration: "4:00"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "1차시 개인 정보 보호 영상(지도서)"
+    desc: "개인정보가 무엇이고 왜 중요한지 초등학생에게 알려 주는 한국인터넷진흥원 강의예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 인용한 영상(2019). 새 채널."
+  - cand_no: c05
+    stage: 생각열기
+    title: "개인 정보는 소중해 또깨비 가족"
+    url: https://www.youtube.com/watch?v=9vlW2w5TfV8
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "5:34"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "1차시·2차시 개인 정보"
+    desc: "경품을 받으려고 가족의 전화번호를 적어 주었다가 생긴 일을 보며 개인 정보가 왜 소중한지 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 설명란: 경품을 받으려고 아빠와 할아버지의 휴대전화 번호를 적어 준 상황."
+  - cand_no: c06
+    stage: 생각열기
+    title: "디지털 시민교육 — 디지털 미디어 예절"
+    url: https://www.youtube.com/watch?v=SdP-Fy4mqAE
+    channel: "경기도교육청TV"
+    channel_grade: edu
+    duration: "3:55"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "1차시 디지털 예절"
+    desc: "디지털 미디어를 쓸 때 지켜야 할 예절을 알려 주는 경기도교육청 디지털 시민교육 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 제목 기준."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "사이버폭력 사례 애니메이션 — 넌 빠져"
+    url: https://www.youtube.com/watch?v=TH_ZkLozlz4
+    channel: "아름다운 디지털 세상"
+    channel_grade: public
+    duration: "2:14"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "2차시 사이버 언어폭력 사례"
+    desc: "체육 시간의 실수 뒤 온라인에서 언어폭력이 생기는 사례를 보며 해결 방법을 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2019. 설명란: 체육시간 실수를 한 친구에 대한 사이버 언어폭력 사례. 새 채널(정보통신 윤리교육 계열로 추정) — 등급 미분류(추정). 피해 장면은 애니메이션."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "사이버폭력 사례 애니메이션 — 켜지말걸그랬어"
+    url: https://www.youtube.com/watch?v=l24YIXd_lGI
+    channel: "아름다운 디지털 세상"
+    channel_grade: public
+    duration: "2:01"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "2차시 아이디 도용 사례"
+    desc: "친구의 휴대폰 속 아이디를 도용했다가 생기는 일을 통해 사이버 도용이 왜 잘못인지 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2019. 설명란: 습득한 휴대폰으로 아이디를 도용하는 사례. 새 채널."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "개인정보보호 교육과정 초등학생용 ② 개인정보가 위험해요!"
+    url: https://www.youtube.com/watch?v=5bE8xmOzAfg
+    channel: "한국인터넷진흥원(KISA118)"
+    channel_grade: public
+    duration: "5:13"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "2차시 개인 정보 유출 사례(지도서)"
+    desc: "개인정보가 유출되는 사례와 유출됐을 때의 대응 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 인용한 영상(2019)."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "알기 쉬운 지식재산권 — 저작권(초등 고학년)"
+    url: https://www.youtube.com/watch?v=PtGLuX225V0
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "4:11"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "2차시 저작권을 지키는 방법"
+    desc: "학생이 알아야 할 저작권 상식을 쉽게 정리한 서울시교육청 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 설명란: 학생의 지식재산권 인식 개선용 홍보 동영상."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "사이버 언어폭력 예방교육 동영상"
+    url: https://www.youtube.com/watch?v=IVGaKrYHKwA
+    channel: "충남교육청"
+    channel_grade: edu
+    duration: "4:02"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "2차시 사이버 폭력의 해결"
+    desc: "사이버 공간에서 말로 상처 주는 일을 막는 방법을 알려 주는 충남교육청·충남경찰청 공동 제작 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 설명란: 충남교육청과 충남경찰청 공동 제작."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "사이버 학교폭력 예방교육"
+    url: https://www.youtube.com/watch?v=5C1D0S_vdQM
+    channel: "대구POL TV"
+    channel_grade: public
+    local: 대구
+    duration: "5:31"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "2차시 사이버 폭력 예방"
+    desc: "대구 경찰 채널에서 사이버 학교폭력을 막는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 설명란 없음. 제목·채널 기준 대구 사례. 새 채널(대구경찰청 계열로 추정), 시청 확인 권장."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "개인정보보호 교육과정 초등학생용 ③ 개인정보를 구해줘요!"
+    url: https://www.youtube.com/watch?v=wHJXWzS1uKg
+    channel: "한국인터넷진흥원(KISA118)"
+    channel_grade: public
+    duration: "5:37"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "2차시 개인 정보 보호 방법(지도서)"
+    desc: "개인정보를 지키는 방법과 침해를 신고하는 방법을 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 인용한 영상(2019). ①②와 같은 시리즈로 3편 모두 넣으면 분량이 치우쳐 보류."
+  - cand_no: c14
+    stage: 확장하기
+    title: "[초등학생] 1차시 스마트폰 과의존, 초등학생에게 묻다"
+    url: https://www.youtube.com/watch?v=HIT7ZgOEpoI
+    channel: "한국지능정보사회진흥원 스마트쉼센터"
+    channel_grade: public
+    duration: "5:45"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "4차시 디지털 사용 습관 점검"
+    desc: "초등학생에게 스마트폰 과의존이 무엇인지 묻고 답하며 내 사용 습관을 돌아보게 해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025. 과학기술정보통신부·한국지능정보사회진흥원 제작(설명란)."
+  - cand_no: c15
+    stage: 확장하기
+    title: "[대구MBC뉴스] 청소년 스마트폰 과의존 치유"
+    url: https://www.youtube.com/watch?v=PGpqqj6711c
+    channel: "대구MBC뉴스"
+    channel_grade: press
+    local: 대구
+    duration: "2:34"
+    use: 수업 후
+    basis_code: "[4도03-02]"
+    basis_lesson: "4차시 디지털 거리 두기"
+    desc: "청소년 스마트폰 과의존을 치유하는 프로그램을 소개하는 대구 지역 뉴스예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 대구 사례. 청소년 대상 치유 보도라 4학년에게는 사례 이해용, 시청 확인 권장."
+  - cand_no: c16
+    stage: 확장하기
+    title: "신중한 Enter, 디지털폭력 Esc — 캠페인"
+    url: https://www.youtube.com/watch?v=ySdb5OlFNtE
+    channel: "방송미디어통신위원회"
+    channel_grade: public
+    duration: "1:41"
+    use: 수업 후
+    basis_code: "[4도03-02]"
+    basis_lesson: "3차시 캠페인 예시"
+    desc: "디지털 폭력을 막기 위해 누르기 전에 한 번 더 생각하자는 캠페인 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 설명란: 디지털 폭력 확산 방지 캠페인. 캠페인 계획 활동의 예시."
+  - cand_no: c17
+    stage: 확장하기
+    title: "대구도 스마트폰 없는 학교 본격 추진"
+    url: https://www.youtube.com/watch?v=5uOYK1_Pp78
+    channel: "KBS뉴스 대구경북"
+    channel_grade: press
+    local: 대구
+    duration: "2:09"
+    use: 수업 후
+    basis_code: "[4도03-02]"
+    basis_lesson: "4차시"
+    desc: "수업 시간 스마트폰 사용 금지 법안 시행 뒤 대구 학교의 변화를 전해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2026. 정책 시행 뉴스로 '기기를 안 쓰는 것이 디지털 거리 두기'라는 오개념을 줄 수 있음. 대구 사례."
+  - cand_no: c18
+    stage: 확장하기
+    title: "스마트폰 과의존 예방 콘텐츠(초등학생) 정말 재미있어 보여서"
+    url: https://www.youtube.com/watch?v=aXAFOANTXUg
+    channel: "한국지능정보사회진흥원 스마트쉼센터"
+    channel_grade: public
+    duration: "8:38"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "4차시"
+    desc: "스마트폰에 빠져드는 모습을 그린 초등학생용 예방 애니메이션이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2018. 8분 38초로 길고 오래됨."
+  - cand_no: c19
+    stage: 확장하기
+    title: "인터넷 스마트폰 과의존 예방 교육 동동이와 송송이"
+    url: https://www.youtube.com/watch?v=HWHZoVEe6t0
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "10:35"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "4차시"
+    desc: "방학 중 생활안전으로 인터넷 과의존을 예방하는 교육 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "10분 35초로 구간 지정이 필요하나 본문을 못 봄. 대구 사례."
+  - cand_no: c20
+    stage: 탐구하기
+    title: "[학교폭력 실태조사] 언어폭력? 난 아닐거야"
+    url: https://www.youtube.com/watch?v=iFzpOlL00EA
+    channel: "한국교육개발원, KEDI TV"
+    channel_grade: edu
+    duration: "2:47"
+    use: 수업 전
+    basis_code: "[4도03-02]"
+    basis_lesson: "2차시"
+    desc: "학교폭력 실태조사 안내용으로 만든 초등용 언어폭력 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 학교폭력 실태조사 안내 목적이라 디지털 사회와는 거리가 있음."
+  - cand_no: c21
+    stage: 생각열기
+    title: "인터넷 윤리 3편 영원한 순간"
+    url: https://www.youtube.com/watch?v=J2gR01OPmxQ
+    channel: "방송미디어통신위원회"
+    channel_grade: public
+    duration: "6:16"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "2차시"
+    desc: "꿈을 이루는 순간 속에서 다른 사람에게 상처를 준 일은 없는지 돌아보게 하는 인터넷 윤리 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 대상 연령 불명(설명란: 여러분의 시간), 내용 확인 필요."
+  - cand_no: c22
+    stage: 생각열기
+    title: "세상의 모든 법칙 다이어트 (지도서 인용)"
+    url: https://www.youtube.com/watch?v=0MhfEeeRECA
+    channel: "EBSCulture (EBS 교양)"
+    channel_grade: edu
+    duration: "5:17"
+    use: 배경지식
+    basis_code: "[4도03-02]"
+    basis_lesson: "1차시 디지털 예절 영상 모음(지도서)"
+    desc: "떠벌림 효과를 설명하는 EBS 교양 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서 인용이나 다이어트 성공법 주제로 이 단원과 직접 관련이 약하고 성인 대상."
+  - cand_no: c23
+    stage: 탐구하기
+    title: "안전한 디지털 세상을 부탁해 — 쉬는 시간 10분 동안에 일어난 일"
+    url: https://www.youtube.com/watch?v=XLJ5WgKlxdU
+    channel: "EBSCulture (EBS 교양)"
+    channel_grade: edu
+    duration: "9:02"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "2차시"
+    desc: "학교 쉬는 시간의 디지털 사건을 웹뮤지컬로 보여 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "웹뮤지컬(노래 중심) 9분 길이."
+  - cand_no: c24
+    stage: 탐구하기
+    title: "악성댓글! 정말 알고 쓰시나요?! [교육부xKTV]"
+    url: https://www.youtube.com/watch?v=DHZiSc1Llts
+    channel: "교육부"
+    channel_grade: edu
+    duration: "5:29"
+    use: 수업 중
+    basis_code: "[4도03-02]"
+    basis_lesson: "2차시"
+    desc: "악성 댓글의 문제를 알려 주는 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "성인 대상 어조. 초등 눈높이 아님."

@@ -3,7 +3,7 @@
 
 export type Grade = 3 | 4 | 5 | 6;
 export type Semester = "1학기" | "2학기";
-export type Subject = "사회" | "과학";
+export type Subject = "사회" | "과학" | "도덕" | "실과";
 export type Flow = "activity" | "flow";
 export type ItemType = "intro" | "video" | "image" | "text";
 

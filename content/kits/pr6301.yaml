@@ -1,0 +1,196 @@
+id: pr6301
+title: 발명·지식 재산
+grade: 6
+sem: 1학기
+subject: 실과
+unit: 기술적 문제해결과 혁신
+unit_no: 3
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 발명은 필요한 물건이나 방법을 새로 만들거나 고쳐서 생활을 편리하게 바꾸는 일이에요. 생활 속 불편을 찾아 발명 기법으로 아이디어를 내어 만들어 보고, 특허 같은 지식 재산권이 발명을 지켜 주는 까닭을 알아 올바르게 활용해요.
+  core_question: 생활 속 불편을 해결하는 발명은 어떻게 하고, 내 발명과 남의 발명을 지키려면 무엇을 알아야 할까?
+  concepts:
+    - term: 발명
+      def: 필요한 물건이나 방법을 새로 만들어 내거나 고쳐서 더 쓸모 있게 만드는 일이에요. 이미 있던 것을 찾아내는 발견과는 달라요.
+    - term: 적정 기술
+      def: 그 지역의 환경과 형편에 맞게 적은 비용으로 쉽게 만들고 쓸 수 있는 기술이에요. 어려운 이웃을 돕는 데도, 환경 문제를 푸는 데도 쓰여요.
+    - term: 발명 기법
+      def: 새로운 아이디어를 쉽게 떠올리도록 도와주는 생각 방법이에요. 더하기, 빼기, 크기 바꾸기, 모양 바꾸기 같은 것이 있어요.
+    - term: 특허
+      def: 새롭고 쓸모 있는 발명을 한 사람이 정해진 기간 동안 그 발명을 혼자 쓸 수 있도록 나라가 주는 권리예요. 신청해서 등록해야 얻을 수 있어요.
+    - term: 지식 재산권
+      def: 사람의 생각과 노력으로 만든 발명, 글, 그림, 음악 같은 결과물에 대해 만든 사람이 가지는 권리예요. 특허권, 상표권, 저작권 같은 것이 있어요.
+  standards:
+    - code: "[6실03-01]"
+      text: 발명의 의미를 이해하고, 일상생활을 바꾼 발명품을 탐색하여 발명과 기술에 대한 중요성과 가치를 인식한다.
+    - code: "[6실03-02]"
+      text: 발명사고기법과 기술적 문제 해결 과정을 이해하고, 다양한 재료를 활용하여 생활 속 문제를 해결할 수 있는 창의적인 제품을 구상하고 만들어 봄으로써 실천적 태도를 갖는다.
+    - code: "[6실03-03]"
+      text: 발명과 특허의 관계를 이해하고, 특허 침해 사례를 통하여 지식재산권의 중요성을 인식하여 올바른 방법으로 활용한다.
+stages:
+  - 발명
+  - 적정 기술
+  - 발명 기법
+  - 특허
+  - 지식 재산권
+items:
+  - key: v1
+    stage: 발명
+    title: 나에게 발명은 무엇일까
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Qh94heYaQPs
+    desc: 선생님과 어린이들이 나에게 발명은 무엇인가를 저마다 이야기하는 짧은 영상이에요.
+    channel: 지식재산처
+  - key: v2
+    stage: 발명
+    title: 생활 속 발명품 알아보기 출근편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=0t0xeZHNIQU
+    desc: 아침에 집을 나서 출근하는 길에 만나는 물건 속에 숨은 발명품을 알려 줘요.
+    channel: 발명스토리_한국발명진흥회 KIPA
+  - key: v3
+    stage: 발명
+    title: 시원한 여름을 선물한 에어컨 발명
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ur0MPSQoGTg
+    desc: 인쇄 공장의 습도 문제를 풀려던 일에서 시작된 에어컨 발명 이야기를 담았어요.
+    channel: IP STORY CENTER
+  - key: v4
+    stage: 적정 기술
+    title: 적정기술은 무엇일까요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=yz3sKh0wPIk
+    desc: 사람을 돕는 기술인 적정기술의 뜻과 의미를 과학해설사가 쉽게 풀어 줘요.
+    channel: 국립대구과학관 Scientry
+  - key: v5
+    stage: 적정 기술
+    title: 적정기술에는 어떤 제품들이 있을까요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Mkv8qyHE9-E
+    desc: 삶을 편리하게 만드는 적정기술 제품의 여러 예를 소개해요.
+    channel: 국립대구과학관 Scientry
+  - key: v6
+    stage: 적정 기술
+    title: 초록보물찾기 4 적정기술
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1rNsUT4aBGI
+    desc: 초등 5~6학년 환경 체험 교재로 만든 영상으로 적정기술이 무엇이고 환경과 어떻게 이어지는지 알려 줘요.
+    channel: 제로서울
+  - key: v7
+    stage: 적정 기술
+    title: 소외 계층을 위한 적정기술 개발
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=E1Bgvj-N5V4
+    desc: 도움이 필요한 이웃을 위해 새로 만든 적정기술을 소개한 대구 뉴스예요.
+    channel: dgmbcnews
+  - key: v8
+    stage: 발명 기법
+    title: 발명 기법 알아보기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=iAT1cl-JxFM
+    desc: 발명의 뜻과 더하기, 빼기, 크기·모양 바꾸기 같은 발명 기법을 초등 눈높이로 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v9
+    stage: 발명 기법
+    title: TRIZ 발명 기법 1 - 분할
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=soFjNxWqQ1A
+    desc: 물건이나 공간을 여러 부분으로 나누어 쓰는 분할 발명 기법을 이야기로 보여 줘요.
+    channel: IP STORY CENTER
+  - key: v10
+    stage: 발명 기법
+    title: TRIZ 발명 기법 3 - 국소적 성질
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=RZJz60B3-Bg
+    desc: 장갑 손가락 끝만 성질을 바꾸어 장갑을 낀 채 스마트폰을 쓰게 한 예로 발명 기법을 알려 줘요.
+    channel: IP STORY CENTER
+  - key: v11
+    stage: 발명 기법
+    title: 일상의 불편함을 발명품으로
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Kh4tmecnkI4
+    desc: 스케이트보드, 분리수거 가위 등 일상의 불편을 풀어 낸 발명품을 보여 줘요.
+    channel: YTN 사이언스
+  - key: v12
+    stage: 특허
+    title: 발명과 특허제도의 유래 (만화)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=oC_obF-g4F0
+    desc: 특허 제도가 어떻게 생겼는지 만화로 알려 줘요.
+    channel: IP STORY CENTER
+  - key: v13
+    stage: 특허
+    title: 특허권, 출원에서 등록까지
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=G0ByBHEfyJ8
+    desc: 특허권을 얻기 위해 알아야 할 절차를 짧고 알기 쉽게 풀었어요.
+    channel: 지식재산처
+  - key: v14
+    stage: 특허
+    title: 웹캠에 담긴 특허 이야기 (갑.특.튀)
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=mrvpI7OoY2Q
+    desc: 일상에서 쓰는 웹캠 속에 어떤 특허가 숨어 있는지 브이로그로 보여 줘요.
+    channel: 지식재산처
+  - key: v15
+    stage: 지식 재산권
+    title: 알기 쉬운 지식재산권 - 저작권 (초등 고학년)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=PtGLuX225V0
+    desc: 초등 고학년 눈높이로 저작권이 무엇이고 왜 지켜야 하는지 알려 줘요.
+    channel: 서울시교육청TV
+  - key: v16
+    stage: 지식 재산권
+    title: 우리에게는 저작권이 있어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Cr_X_7hMHSk
+    desc: 초등학생을 위한 마이크로러닝 영상으로 내가 만든 창작물에도 저작권이 있음을 알려 줘요.
+    channel: 저작권TV
+  - key: v17
+    stage: 지식 재산권
+    title: 지식재산권 침해, 멈춰!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dxuOKroBcCw
+    desc: 지식재산권을 침해한 모습을 보여 주고 어떤 종류의 권리를 침해했는지 짚어 줘요.
+    channel: 국가지식재산위원회
+  - key: v18
+    stage: 지식 재산권
+    title: 지식재산권을 침해하셨습니다
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=AmpcYR4qKE0
+    desc: 창작물이 무단으로 복제당하는 마음을 창작물의 입장에서 풀어낸 짧은 영상이에요.
+    channel: 국가지식재산위원회
+  - key: v19
+    stage: 지식 재산권
+    title: 지식재산권 보호 캠페인 (초등)
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=VlS8ONZZVcY
+    desc: 지식재산권을 지키자는 마음을 짧은 캠페인으로 전해요.
+    channel: 서울시교육청TV
+quiz:
+  - statement: 발명은 필요한 물건이나 방법을 새로 만들거나 고쳐서 쓰는 일이다.
+    answer: O
+    explain: 발명은 생활에 필요한 것을 새롭게 만들거나 고치는 일이에요.
+  - statement: 땅속에 묻혀 있던 화석을 찾아낸 일은 발명에 속한다.
+    answer: X
+    explain: 이미 있던 것을 찾아낸 일은 발견이에요. 발명은 새로 만들거나 고치는 일이에요.
+  - statement: 적정 기술은 그 지역의 환경과 형편에 맞게 쓸 수 있도록 만든 기술이다.
+    answer: O
+    explain: 적정 기술은 사는 곳의 사정에 맞춰 적은 비용으로 쉽게 쓸 수 있는 기술이에요.
+  - statement: 가난한 지역 사람들만 쓸 수 있는 기술을 적정 기술이라고 한다.
+    answer: X
+    explain: 적정 기술은 환경 문제를 푸는 대안 기술로도 쓰여요. 어느 지역이든 형편에 맞으면 적정 기술이에요.
+  - statement: 더하기와 빼기, 크기 바꾸기는 아이디어를 떠올리는 발명 기법이다.
+    answer: O
+    explain: 물건에 무엇을 더하거나 빼고 크기를 바꿔 보면 새 아이디어가 나와요.
+  - statement: 특허는 발명을 하는 순간 신청하지 않아도 저절로 생긴다.
+    answer: X
+    explain: 특허권은 신청해서 심사를 거쳐 등록해야 얻을 수 있어요.
+  - statement: 특허를 받으면 정해진 기간 동안 다른 사람이 허락 없이 그 발명을 쓰지 못하게 할 수 있다.
+    answer: O
+    explain: 특허는 발명한 사람의 권리를 지켜 주고 허락 없이 따라 쓰는 침해를 막아 줘요.
+  - statement: 지식 재산권은 발명에만 해당하고 글이나 음악 같은 창작물은 해당하지 않는다.
+    answer: X
+    explain: 저작권처럼 글, 그림, 음악 같은 창작물을 지키는 권리도 지식 재산권에 들어가요.

@@ -1,11 +1,14 @@
-import { Search, FlaskConical, Film, Eye, Heart } from "lucide-react";
+import { Search, FlaskConical, HeartHandshake, Hammer, Film, Eye, Heart } from "lucide-react";
 import type { Kit } from "../lib/data.ts";
 import { unitPalette, thumbStyle } from "../lib/design.ts";
 import { statsFor } from "../lib/stats.ts";
 
+// 교과 아이콘: 사회 = 돋보기, 과학 = 플라스크, 도덕 = 마음 나눔, 실과 = 망치
+const SUBJECT_ICON = { 사회: Search, 과학: FlaskConical, 도덕: HeartHandshake, 실과: Hammer } as const;
+
 export default function KitCard({ kit, onOpen, stats }: { kit: Kit; onOpen: () => void; stats?: { views: number; likes: number } }) {
   const accent = unitPalette(kit.unit_no)[2]; // 단원별 색
-  const Icon = kit.subject === "과학" ? FlaskConical : Search; // 사회 = 돋보기(🔍)
+  const Icon = SUBJECT_ICON[kit.subject] ?? Search;
   const s = stats ?? statsFor(kit.id); // 라이브(홈에서 주입) 우선, 없으면 시드/0 폴백
 
   return (

@@ -1,0 +1,160 @@
+id: mo6261
+title: 6. 사랑, 우리를 넘어 세계로
+grade: 6
+sem: 2학기
+subject: 도덕
+unit: 6단원
+unit_no: 6
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 나라와 나라는 서로 이어져 있어서 멀리 있는 사람의 어려움도 우리와 무관하지 않아요. 인류애는 국경을 넘어 모든 사람을 같은 사람으로 여기고 돕는 마음이며, 작은 관심과 실천도 힘이 돼요.
+  core_question: 지구촌 이웃의 어려움을 돕기 위해 나는 어떤 마음과 행동을 할 수 있을까?
+  concepts:
+    - term: 인류애
+      def: 국경을 넘어 모든 사람을 같은 사람으로 여기고 아끼며 돕는 마음이에요.
+    - term: 국제 구호
+      def: 전쟁이나 지진 같은 큰 어려움을 겪는 다른 나라 사람들을 돕기 위해 구조대원, 물품, 성금을 보내는 일이에요.
+    - term: 공적 개발 원조
+      def: 정부나 공공기관이 어려운 나라가 잘살 수 있도록 돈, 기술, 교육을 도와주는 일이에요. 줄여서 ODA라고 해요.
+    - term: 세계시민
+      def: 내가 사는 나라뿐 아니라 지구촌 전체의 이웃과 문제를 함께 생각하고 책임을 나누는 사람이에요.
+    - term: 국제 기념일
+      def: 유엔 같은 국제기구가 중요한 문제를 알리려고 정한 날이에요. 세계 어린이의 날이 그 예예요.
+    - term: 연대
+      def: 다른 사람의 어려움을 남의 일로 여기지 않고 뜻을 모아 함께 돕고 나서는 것이에요.
+  standards:
+    - code: "[6도03-04]"
+      text: 다른 나라 사람들이 처한 여러 가지 상황을 종합적으로 이해하고 해결 방안을 탐구하며 인류애를 기른다.
+stages:
+  - name: 생각열기
+    question: 나라 사이는 어떻게 이어져 있고, 왜 서로 도와야 할까?
+  - name: 탐구하기
+    question: 다른 나라 어린이는 어떤 어려움을 겪고, 우리나라는 어떻게 도움을 주고받았을까?
+  - name: 확장하기
+    question: 지구촌 이웃을 돕는 실천에는 어떤 것이 있을까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 지구촌이 환호한 '13명의 멧돼지' 17일 만에 생환
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=N9ZTm5Q6uDI
+    desc: 태국 동굴에 갇혔던 소년 축구팀이 여러 나라의 도움으로 17일 만에 구조된 소식이에요.
+    channel: 연합뉴스 Yonhapnews
+  - key: v2
+    stage: 생각열기
+    title: 한국전쟁, '아빠'라 불린 튀르키예 군인들
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Inyr_4b1Auk
+    desc: 6·25 때 우리를 도운 튀르키예 군인과 한 아이의 그림을 통해 두 나라가 이어진 이야기를 전해요.
+    channel: SBS 뉴스
+  - key: v3
+    stage: 생각열기
+    title: 대한민국 긴급구호대 본격 활동 시작
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=4rePq81A4Eo
+    desc: 강진이 난 튀르키예에 우리나라 긴급구호대가 도착해 구조 활동을 시작한 소식이에요.
+    channel: " YTN"
+  - key: v4
+    stage: 생각열기
+    title: 세계시민교육이란?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=0q1BlM8_Dz8
+    desc: 세계시민교육이 무엇이고 왜 평화롭고 정의로운 미래를 만드는 데 필요한지 짧게 소개해요.
+    channel: GCED Online Campus
+  - key: v5
+    stage: 탐구하기
+    title: 원조받던 한국, 이제 원조하는 나라로!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=NryuS0TQWRw
+    desc: 6·25 전쟁 뒤 원조를 받던 우리나라가 이제는 다른 나라를 돕는 나라로 바뀐 과정을 알려 줘요.
+    channel: KTV 국민방송
+  - key: v6
+    stage: 탐구하기
+    title: 은혜를 갚는 대한민국 — 6·25 해외 참전국 ODA
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=y_-evWQ_F4E
+    desc: 6·25 때 우리를 도운 에티오피아, 콜롬비아, 필리핀에 이제 우리가 개발협력으로 보답하는 이야기예요.
+    channel: ODA Korea Official Channel
+  - key: v7
+    stage: 탐구하기
+    title: 울산 안착 1년 4개월, 아프간 아이들의 한국어 교실
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=gMW4y-lpx70
+    desc: 아프가니스탄에서 온 아이들이 울산에서 한국어를 배우며 적응해 가는 모습을 전해요.
+    channel: " YTN"
+  - key: v8
+    stage: 탐구하기
+    title: 세계 어린이의 날 — 파란나라를 보았니
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=op1kPGK0XFk
+    desc: 유엔 아동권리협약을 기념하는 세계 어린이의 날과 전 세계 어린이의 권리 상황을 전해요.
+    channel: EBS뉴스
+  - key: v9
+    stage: 탐구하기
+    title: ODA, 6살 어린이도 이해한다고? — knock knock knock
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6RHu1nwsLG0
+    desc: 도움을 받던 나라에서 도움을 주는 나라가 되기까지 이야기를 전래동화처럼 쉽게 들려줘요.
+    channel: 코이카 글로벌 서포터스 WeKO(KOICA Supporters)
+  - key: v10
+    stage: 확장하기
+    title: 달리며 세계 빈곤 아동 돕자 — 국제어린이마라톤
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=UvncPjUaw9A
+    desc: 참가비로 우간다 어린이를 돕는 국제어린이마라톤 대회 현장을 전해요.
+    channel: 연합뉴스TV
+  - key: v11
+    stage: 확장하기
+    title: 아이들은 나눔에 대하여 어떻게 생각하고 있을까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Jjr1wwdAE4s
+    desc: 아이들에게 나눔이 무엇인지 물어보는 보건복지부 나눔문화 확산 캠페인 영상이에요.
+    channel: 보건복지부TV
+  - key: v12
+    stage: 확장하기
+    title: 작지만 세상 바꿔요! 청소년 기부 확산
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=V5ZKxKMfjic
+    desc: 초등학생들이 책 읽고 받은 용돈을 기부하고, 고등학생들이 우간다 학교 짓기에 기부하는 사례를 전해요.
+    channel: KBS News
+  - key: v13
+    stage: 확장하기
+    title: 봉사도 하고 문화도 알려요 — 대구 학생 해외체험
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=eEOwQPJEZw4
+    desc: 대구교육청이 학생 해외 파견에서 한국 문화를 알리고 봉사 활동을 하는 방향으로 바꾼 소식이에요.
+    channel: KBS뉴스 대구경북
+  - key: v14
+    stage: 확장하기
+    title: 모두가 원하는 세상이 오다(ODA)
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Xro4C-CCcIY
+    desc: 우리의 관심이 누군가의 내일을 밝힌다는 메시지로 ODA를 알리는 국무조정실 홍보영상이에요.
+    channel: ODA Korea Official Channel
+quiz:
+  - statement: 인류애는 국경을 넘어 모든 사람을 같은 사람으로 여기고 돕는 마음이다.
+    answer: O
+    explain: 인류애는 사람이라면 누구나 가지는 공통점에서 출발해 서로를 돕는 마음이에요.
+  - statement: 멀리 있는 나라의 어려움은 우리와 아무 관계가 없어서 돕지 않아도 된다.
+    answer: X
+    explain: 나라 사이는 서로 이어져 있어서 멀리 있는 사람의 어려움도 우리와 이어져 있어요.
+  - statement: 우리나라도 6.25 전쟁 뒤에는 다른 나라의 도움을 받았다.
+    answer: O
+    explain: 원조를 받던 우리나라는 이제 개발도상국을 돕는 나라가 되었어요.
+  - statement: 지구촌 이웃을 돕는 일은 구호 단체만 할 수 있고 어린이의 작은 관심은 소용없다.
+    answer: X
+    explain: 관심을 갖고 나눔이나 기부를 실천하는 작은 행동도 큰 힘이 돼요.
+  - statement: 공적 개발 원조는 정부나 공공기관이 어려운 나라를 돈, 기술, 교육으로 돕는 일이다.
+    answer: O
+    explain: 공적 개발 원조는 줄여서 ODA라고 불러요.
+  - statement: 우리나라는 지금도 다른 나라의 도움을 받기만 하는 나라이다.
+    answer: X
+    explain: 원조를 받던 우리나라는 지금 개발도상국을 돕는 나라가 되었어요.
+  - statement: 세계 어린이의 날은 유엔 아동권리협약이 채택된 것을 기념해 정한 날이다.
+    answer: O
+    explain: 1989년 11월 20일에 채택된 유엔 아동권리협약을 기념해 정했어요.
+  - statement: 긴급구호대는 다른 나라에 큰 재난이 났을 때에도 우리나라 안에서만 활동한다.
+    answer: X
+    explain: 긴급구호대는 지진 같은 큰 재난이 난 다른 나라에 가서 구조 활동을 도와요.

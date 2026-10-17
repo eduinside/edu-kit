@@ -1,0 +1,199 @@
+id: pr6402
+title: 친환경 농업·미래 농업
+grade: 6
+sem: 2학기
+subject: 실과
+unit: 지속가능한 기술과 융합
+unit_no: 4
+flow: flow
+sort_order: 2
+published: true
+intro:
+  core_idea: 친환경 농업은 화학 비료와 농약을 줄이고 자연의 순환을 살려 환경을 지키면서 먹거리를 얻는 농사 방법이에요. 스마트팜 같은 첨단 기술과 농업·농촌이 하는 여러 가지 일, 미래 농업과 이어진 직업까지 알아보며 지속 가능한 농업의 미래를 생각해요.
+  core_question: 환경을 지키면서 먹거리를 얻는 농업은 어떻게 이루어지고, 앞으로의 농업은 어떻게 달라질까?
+  concepts:
+    - term: 지속 가능한 농업
+      def: 지금 먹거리를 얻으면서도 환경을 지켜 다음 세대도 계속 농사지을 수 있게 하는 농업이에요. 생산하고 이용하고 버려지는 것이 자연 속에서 다시 순환해요.
+    - term: 친환경 농업
+      def: 화학 비료와 농약을 줄이고 자연의 힘과 순환을 이용해 환경을 지키며 농사짓는 방법이에요. 오리 농법이나 우렁이 농법이 그 예예요.
+    - term: 친환경 인증
+      def: 친환경 농산물이 정해진 기준에 맞게 길러졌다고 나라가 확인해서 주는 표시예요. 유기농이나 무농약 같은 마크로 알아볼 수 있어요.
+    - term: 스마트팜
+      def: 센서와 정보 통신 기술로 온도, 습도, 물 같은 환경을 자동으로 관리하며 작물을 키우는 농장이에요. 멀리서 스마트폰으로도 살펴볼 수 있어요.
+    - term: 농업·농촌의 가치
+      def: 농업과 농촌은 먹거리를 만드는 일 말고도 환경을 지키고 지역 공동체와 전통문화를 이어 가는 여러 가지 일을 해요.
+    - term: 미래 농업 직업
+      def: 스마트농업 전문가나 농촌교육농장 플래너처럼 농업이 변하면서 새로 생기거나 달라지는 직업이에요.
+  standards:
+    - code: "[6실04-09]"
+      text: 동식물 자원의 친환경 농업 사례를 통해 지속가능한 농업이 순환되고 있음을 인식하고 농업의 미래가치를 인식한다.
+    - code: "[6실04-10]"
+      text: 생활 속에서 농업활동과 관련된 모습을 분석하고 이에 따른 농업활동을 체험하여 농업에 대한 관심을 두고 이를 생활 속에서 실천한다.
+    - code: "[6실04-11]"
+      text: 농업과 농촌의 다원적인 역할과 가치를 이해하고 미래 농업과 관련된 다양한 직업 세계를 탐색한다.
+stages:
+  - 지속 가능한 농업
+  - 친환경 농업
+  - 친환경 인증
+  - 스마트팜
+  - 농업·농촌의 가치
+  - 미래 농업 직업
+items:
+  - key: v1
+    stage: 지속 가능한 농업
+    title: 친환경 순환농법 - 친환경 농업편(벼)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Y5kypDROXms
+    desc: 친환경 인증을 받은 농가에서 벼농사가 자연의 순환 속에서 이루어지는 모습을 보여 줘요.
+    channel: 식생활교실
+  - key: v2
+    stage: 지속 가능한 농업
+    title: 친환경 순환농법 - 친환경 축산편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=DSXNPiBRq74
+    desc: 친환경 인증 농가에서 가축을 기르고 그 거름이 다시 농사에 쓰이는 순환 모습을 보여 줘요.
+    channel: 식생활교실
+  - key: v3
+    stage: 친환경 농업
+    title: 땅을 살리는 친환경 농업
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=20ij1o5N2MI
+    desc: 어린이 초록세상(초등 5~6학년) 교재 영상으로 땅을 살리는 친환경 농업을 알려 줘요.
+    channel: 국가환경교육센터
+  - key: v4
+    stage: 친환경 농업
+    title: 친환경농업 이야기 1화 - 지구를 지킬 팀을 만들어라
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=sTFFlXH1hPY
+    desc: 자연 친구들과 함께 친환경농업 여행을 떠나는 어린이용 애니메이션이에요.
+    channel: 농림수산식품교육문화정보원
+  - key: v5
+    stage: 친환경 농업
+    title: 오리를 활용해 병충해를 없애는 오리농법
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=EBxvk1jqzig
+    desc: 오리가 논에서 벌레를 잡아먹어 병충해를 줄이는 오리농법을 보여 줘요.
+    channel: MBClife
+  - key: v6
+    stage: 친환경 인증
+    title: 3분 스트리트 식품표시 파이터 9화 - 친환경 농산물 표시
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=t9gsyMGwzG4
+    desc: 친환경 농산물에 붙은 표시가 무슨 뜻인지 짧게 설명해요.
+    channel: 연수구 어린이·사회복지급식관리지원센터
+  - key: v7
+    stage: 친환경 인증
+    title: 친환경농산물인증제도란?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=8eJGn51VXdo
+    desc: 유기농, 무농약 같은 친환경농산물 인증이 어떤 제도인지 알려 줘요.
+    channel: 지구를 지키는 농부
+  - key: v8
+    stage: 스마트팜
+    title: "[신산업 진로체험] 미래농업 - 스마트팜 기술"
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=HVT1kwdBx8U
+    desc: 초등 신산업 진로체험 수업에 쓰는 짧은 영상으로 스마트팜 기술을 소개해요.
+    channel: 직능연KRIVET
+  - key: v9
+    stage: 스마트팜
+    title: 스마트 농업은 첨단 미래 농업
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=t6YyJelONCI
+    desc: 첨단 기술을 쓰는 스마트 농업이 무엇인지 초등 고학년 눈높이로 알려 줘요.
+    channel: 식생활교실
+  - key: v10
+    stage: 스마트팜
+    title: 농촌 소녀가 안내하는 쉬운 스마트팜
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=D8SueoUZLj8
+    desc: 젊은 영상 제작자가 스마트팜이 무엇이고 농사가 어떻게 바뀌는지 쉽게 안내해요.
+    channel: 농림수산식품교육문화정보원
+  - key: v11
+    stage: 스마트팜
+    title: "[달팜] 대구 최대 도심형 스마트팜"
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Z_Jxn9yEw80
+    desc: 대구 달서구에 문을 연 복층 도심형 스마트팜에서 채소가 자라는 모습을 보여 줘요.
+    channel: 달서TV
+  - key: v12
+    stage: 농업·농촌의 가치
+    title: 농업의 가치 중요성 및 환경과의 관계
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=f6Dv-hXuaJo
+    desc: 농업이 왜 중요한지, 환경과 어떻게 이어지는지 초등 고학년 눈높이로 알려 줘요.
+    channel: 식생활교실
+  - key: v13
+    stage: 농업·농촌의 가치
+    title: 우리의 먹을거리 지키기 식량안보
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ahVBo36G3UE
+    desc: 우리 농산물을 이용하는 것이 식량안보에 왜 중요한지 알려 줘요.
+    channel: 식생활교실
+  - key: v14
+    stage: 농업·농촌의 가치
+    title: 농업 다원가치 확산 캠페인 - 처음 알았습니다
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=mkF7somSpHc
+    desc: 농업과 농촌이 우리에게 주는 도움을 짧은 광고 영상으로 알려 줘요.
+    channel: 농림수산식품교육문화정보원
+  - key: v15
+    stage: 농업·농촌의 가치
+    title: 보고, 배우고, 가꾸고 - 대구 최초 도시농업체험장 개관
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=7NLuzKuF3oQ
+    desc: 어린이들이 화분을 만들며 농업을 체험하는 대구 도시농업체험장 소식이에요.
+    channel: ch B tv 대구
+  - key: v16
+    stage: 미래 농업 직업
+    title: "[신산업 진로체험] 미래농업 - 다양한 미래 농업 직업"
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=YYvY8QX4Njs
+    desc: 초등 신산업 진로체험 수업에서 다양한 미래 농업 직업을 소개해요.
+    channel: 직능연KRIVET
+  - key: v17
+    stage: 미래 농업 직업
+    title: 농생명산업 유망직업 - 스마트농업 전문가
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HTfwQ6-PyPE
+    desc: 스마트농업 전문가가 하는 일과 준비 과정을 소개해요.
+    channel: 농촌진흥청 농사로TV
+  - key: v18
+    stage: 미래 농업 직업
+    title: 농업과 관련된 직업이 이렇게나 많다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ThOoFc22smk
+    desc: 농업과 이어진 여러 직업을 알아보는 영상이에요.
+    channel: 교육부
+  - key: v19
+    stage: 미래 농업 직업
+    title: 제1호 스마트농업관리사, 미래 농업 이끈다
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ELbRFWsR0vQ
+    desc: 대구·경북에서 제1호 스마트농업관리사가 된 청년의 이야기를 전해요.
+    channel: TBC뉴스
+quiz:
+  - statement: 친환경 농업은 화학 비료와 농약을 줄이고 자연의 순환을 이용해 농사짓는 방법이다.
+    answer: O
+    explain: 친환경 농업은 땅과 물, 생물을 지키면서 먹거리를 얻는 방법이에요.
+  - statement: 오리 농법은 논에 농약을 많이 뿌려서 벌레를 없애는 방법이다.
+    answer: X
+    explain: 오리가 논에서 벌레와 잡초를 먹게 해서 농약을 줄이는 친환경 농법이에요.
+  - statement: 유기농과 무농약은 친환경 농산물 인증에 들어간다.
+    answer: O
+    explain: 나라가 정한 기준에 맞게 기른 농산물에 유기농, 무농약 같은 인증 마크를 줘요.
+  - statement: 스마트팜은 자동으로 관리하기 때문에 일손이 훨씬 더 많이 든다.
+    answer: X
+    explain: 스마트팜은 센서와 자동화로 관리해서 사람의 일손이 덜 들어요.
+  - statement: 스마트팜에서는 센서가 알려 준 온도와 습도에 맞춰 환경을 자동으로 조절할 수 있다.
+    answer: O
+    explain: 센서와 정보 통신 기술을 쓰면 작물이 자라기 좋은 환경을 자동으로 맞출 수 있어요.
+  - statement: 농업과 농촌은 먹거리를 만드는 일만 한다.
+    answer: X
+    explain: 농업과 농촌은 환경 보전, 지역 공동체, 전통문화 유지 같은 여러 일도 해요.
+  - statement: 식량 자급률은 우리나라에서 필요한 식량 가운데 우리나라에서 생산한 비율이다.
+    answer: O
+    explain: 식량 자급률이 낮으면 먹거리를 다른 나라에 많이 기대게 되어서 식량안보가 중요해져요.
+  - statement: 친환경 농업에서 쓰는 비료는 값이 싸고 양분이 바로 나와서 단점이 없다.
+    answer: X
+    explain: 친환경 비료는 값이 비싸거나 양분이 천천히 나올 수 있어서 쓰는 시기를 잘 맞춰야 해요.

@@ -1,0 +1,207 @@
+id: pr6201
+title: 식재료·밥상차림·식사 예절
+grade: 6
+sem: 1학기
+subject: 실과
+unit: 생활환경과 지속가능한 선택
+unit_no: 2
+flow: flow
+sort_order: 1
+published: true
+intro:
+  core_idea: 식재료가 어떻게 만들어지고 어떻게 고르는지 알고, 제철·지역 식재료와 여러 맛을 오감으로 경험하면 내 식사에 적용할 수 있어요. 우리나라 밥상차림의 기본을 이해하고 식사 예절을 지키며 함께 식사하면 먹는 즐거움이 더 커져요.
+  core_question: 식재료를 어떻게 고르고 맛보며, 우리 밥상을 어떻게 차려 예절 있게 함께 먹을 수 있을까?
+  concepts:
+    - term: 식품 표시와 인증
+      def: 식품 포장에 적힌 영양성분, 소비기한 같은 정보와 안전하고 좋은 식품임을 확인해 주는 인증 마크예요. 이것을 읽으면 식품을 똑똑하게 고를 수 있어요.
+    - term: 제철 식재료
+      def: 알맞은 계절에 가장 잘 자라서 맛과 영양이 풍부한 식재료예요. 가까운 지역에서 난 식재료는 이동 거리가 짧아 신선하고 환경에도 도움이 돼요.
+    - term: 식품군
+      def: 들어 있는 영양소가 비슷한 식품끼리 묶은 무리예요. 곡류, 고기·생선·달걀·콩류, 채소류, 과일류, 우유·유제품류로 나누고 골고루 먹으면 균형 잡힌 식사가 돼요.
+    - term: 다섯 가지 맛
+      def: 단맛, 짠맛, 신맛, 쓴맛, 감칠맛이에요. 혀뿐 아니라 눈, 코 같은 오감을 함께 쓰면 식재료의 맛을 더 잘 느낄 수 있어요.
+    - term: 밥상차림
+      def: 밥을 중심으로 국, 반찬, 김치를 함께 차리는 우리나라의 상차림이에요. 주식인 밥과 부식인 반찬을 고루 갖추는 것이 기본이에요.
+    - term: 식사 예절
+      def: 여럿이 함께 식사할 때 서로를 배려하며 지키는 약속이에요. 음식을 만든 사람에게 고마워하고 입에 음식을 넣은 채 말하지 않으며 다 먹은 뒤 정리하는 것이 있어요.
+    - term: 조리 안전
+      def: 음식을 만들 때 칼, 불, 뜨거운 물에 다치지 않고 손을 씻어 위생을 지키는 일이에요. 칼질할 때는 재료를 쥔 손끝을 안으로 말고 불을 쓸 때는 환기를 해요.
+  standards:
+    - code: "[6실02-04]"
+      text: 식재료 생산과 선택의 중요성을 인식하고 여러 식재료의 고유하고 다양한 맛을 경험하여 자신의 식사에 적용한다.
+    - code: "[6실02-06]"
+      text: 우리나라 밥상차림을 이해하고, 함께 식사하는 즐거움을 경험하면서 이 과정에서 식사 예절을 실천한다.
+stages:
+  - 식품 표시와 인증
+  - 제철 식재료
+  - 식품군
+  - 다섯 가지 맛
+  - 밥상차림
+  - 식사 예절
+  - 조리 안전
+items:
+  - key: v1
+    stage: 식품 표시와 인증
+    title: 영양 표시 읽고 나에게 맞는 식품 고르기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Wh5S1oPFdsU
+    desc: 식품 포장에 적힌 영양성분을 읽고 나에게 맞는 식품을 고르는 방법을 알려 줘요.
+    channel: 식품의약품안전처
+  - key: v2
+    stage: 식품 표시와 인증
+    title: 안전한 식품을 고르는 똑똑한 장보기 요령
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=aT3V26Z-1rs
+    desc: 장을 볼 때 HACCP, GAP 같은 인증 마크를 확인하는 요령을 알려 줘요.
+    channel: 식품의약품안전처
+  - key: v3
+    stage: 식품 표시와 인증
+    title: 소비기한이란?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=FHh_uYnKgm0
+    desc: 소비기한이 안전하게 먹을 수 있는 기간임을 어린이에게 알려 줘요.
+    channel: 식품의약품안전처
+  - key: v4
+    stage: 제철 식재료
+    title: 4계절 제철음식은 몸에 보약이다?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=FEDdu6v_wCA
+    desc: 제철 음식이 왜 맛과 영양이 좋은지 식물의 자라는 때와 연결해 알려 줘요.
+    channel: YTN 사이언스
+  - key: v5
+    stage: 제철 식재료
+    title: 겨울에 나는 과일은 오렌지? 바나나? 제철과일과 푸드 마일리지
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=nxcfJos0TaA
+    desc: 제철 과일을 먹으면 식재료가 이동한 거리가 줄어 환경에도 도움이 된다는 것을 알려 줘요.
+    channel: 서대문구청
+  - key: v6
+    stage: 제철 식재료
+    title: 푸드마일리지 — 넌 어디에서 왔니
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=02HSWwThv-c
+    desc: 식재료가 우리 식탁까지 이동한 거리를 푸드마일리지로 알아봐요.
+    channel: 국가환경교육센터
+  - key: v7
+    stage: 제철 식재료
+    title: 대구 로컬푸드 인기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=To9viVb8B28
+    desc: 대구에서 가까운 곳에서 난 신선한 농산물을 사는 로컬푸드 직매장이 인기라는 소식이에요.
+    channel: TBC
+  - key: v8
+    stage: 식품군
+    title: 어린이 영양지수 균형편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=76fKRWCxlzs
+    desc: 식품군을 고루 먹는 균형 잡힌 식생활이 어떤 것인지 알려 줘요.
+    channel: 식품의약품안전처
+  - key: v9
+    stage: 식품군
+    title: 건강한 식단의 기본 공식, 식품구성자전거
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=YgHOY8JWLrY
+    desc: 식품구성자전거로 여러 식품군을 고루 먹는 식단의 기본을 설명해요.
+    channel: 평택·송탄보건소(몸마음 튼튼)
+  - key: v10
+    stage: 다섯 가지 맛
+    title: 단맛 쓴맛 신맛 짠맛 감칠맛, 오미에 담긴 과학
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=DD9uI5GVZWo
+    desc: 혀의 미뢰가 단맛, 쓴맛, 신맛, 짠맛, 감칠맛의 다섯 가지 맛을 어떻게 느끼는지 알려 줘요.
+    channel: YTN 사이언스 투데이
+  - key: v11
+    stage: 다섯 가지 맛
+    title: 시각이 맛을 느끼는 데 영향을 미친다?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=TZcvoA6xWoE
+    desc: 맛은 혀뿐 아니라 눈으로 본 색깔과 냄새 같은 여러 감각이 함께 만든다는 실험을 보여 줘요.
+    channel: YTN 사이언스
+  - key: v12
+    stage: 밥상차림
+    title: 한국의 맛, 한식
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=VZRayNTGx2E
+    desc: 정성과 배려의 마음을 담은 한식의 아름다움을 보여 주는 한식진흥원 소개 영상이에요.
+    channel: 한식진흥원_ Korean Food Promotion Institute
+  - key: v13
+    stage: 밥상차림
+    title: 밥을 이용한 한 그릇 음식 만들기 — 비빔밥
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=mbMhQhjURBU
+    desc: 여러 재료를 준비해 맛과 영양을 한 그릇에 담은 비빔밥을 만드는 과정을 보여 줘요.
+    channel: 대구미래교육연구원
+  - key: v14
+    stage: 밥상차림
+    title: 세시풍속에 담긴 전통 음식 문화
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=AI8fthaU3to
+    desc: 계절과 명절에 따라 먹는 전통 음식에 담긴 뜻을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v15
+    stage: 식사 예절
+    title: 식사예절왕이 되는 비밀
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Kzpn2a-MP3Y
+    desc: 식사 전후와 식사 중에 지킬 예절을 어린이 눈높이로 알려 줘요.
+    channel: 용산구어린이급식관리지원센터
+  - key: v16
+    stage: 식사 예절
+    title: 숟가락·젓가락 올바르게 사용하자
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=mKHSrbiPXJo
+    desc: 숟가락과 젓가락을 바르게 쓰는 방법을 애니메이션으로 알려 줘요.
+    channel: 서울특별시교육청보건안전진흥원
+  - key: v17
+    stage: 식사 예절
+    title: 한국인의 밥상 — 젓가락질의 정석
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=AaN5x-PSed8
+    desc: 젓가락질이 서툴러도 밥은 잘 먹을 수 있다는 이야기로 식사 예절을 되돌아보게 해요.
+    channel: EBS 지식채널e
+  - key: v18
+    stage: 조리 안전
+    title: 실습 안전지도 및 썰기 방법
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=V7rQnsiml1g
+    desc: 안전하게 실습하는 방법과 가장 기본인 여러 가지 썰기 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v19
+    stage: 조리 안전
+    title: 가정안전 — 주방
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tQG10a2sSMk
+    desc: 주방에서 칼, 불, 뜨거운 물을 다룰 때 조심할 점을 어린이에게 알려 줘요.
+    channel: 소비자안전센터
+  - key: v20
+    stage: 조리 안전
+    title: 새학기 학교급식 식중독 예방
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=QbZcaMGn-vo
+    desc: 따뜻한 날씨에 식중독을 막는 요령을 알려 줘요.
+    channel: 식품의약품안전처
+quiz:
+  - statement: 식품 포장의 영양 표시를 읽으면 나에게 맞는 식품을 고르는 데 도움이 된다.
+    answer: O
+    explain: 영양 표시에는 영양성분이 적혀 있어서 먹는 양과 영양을 생각해 식품을 고를 수 있어요.
+  - statement: 소비기한은 가게에서 식품을 팔 수 있는 마지막 날을 뜻한다.
+    answer: X
+    explain: 소비기한은 식품을 안전하게 먹을 수 있는 기간이에요. 포장에서 꼭 확인해야 해요.
+  - statement: 제철 식재료는 알맞은 계절에 자라서 맛과 영양이 풍부한 편이다.
+    answer: O
+    explain: 제철에는 식재료가 가장 잘 자라서 맛과 영양이 좋고 값도 알맞은 경우가 많아요.
+  - statement: 푸드마일리지가 클수록 환경에 더 좋은 식재료이다.
+    answer: X
+    explain: 푸드마일리지는 식재료가 이동한 거리예요. 가까운 곳에서 난 식재료는 이동 거리가 짧아 환경에 도움이 돼요.
+  - statement: 칼로 재료를 자를 때는 재료를 쥔 손끝을 안으로 말아야 다치지 않는다.
+    answer: O
+    explain: 손끝을 안으로 말면 칼날에 손가락이 닿지 않아 안전해요.
+  - statement: 맛은 혀로만 느끼고 눈으로 본 색깔이나 코로 맡은 냄새는 맛과 관계없다.
+    answer: X
+    explain: 맛은 혀뿐 아니라 눈, 코 같은 여러 감각이 함께 만들어요.
+  - statement: 한식 밥상은 밥을 중심으로 국과 반찬을 차리고, 여러 식품군의 반찬을 담으면 영양 균형을 맞추기 쉽다.
+    answer: O
+    explain: 밥과 국, 반찬을 고루 갖추고 곡류, 채소류, 고기류 같은 식품군을 섞어 담으면 균형이 좋아져요.
+  - statement: 식사 예절은 어른만 지키면 되고 어린이는 지키지 않아도 된다.
+    answer: X
+    explain: 식사 예절은 함께 먹는 모든 사람이 서로를 배려하려고 지키는 약속이에요.

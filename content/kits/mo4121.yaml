@@ -1,0 +1,130 @@
+id: mo4121
+title: 2. 도덕적인 나
+grade: 4
+sem: 1학기
+subject: 도덕
+unit: 2단원
+unit_no: 2
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 도덕은 사람들이 서로 어울려 살아가며 지켜야 할 바른 생각과 행동이에요. 도덕적으로 행동하려면 다른 사람의 관점을 살펴 헤아리고, 내 생각과 말과 행동을 되돌아보는 노력이 필요해요.
+  core_question: 도덕적인 사람이 되려면 나는 어떤 마음으로 어떻게 행동해야 할까?
+  concepts:
+    - term: 도덕
+      def: 사람들이 서로 어울려 살아가며 지켜야 할 바른 생각과 행동이에요. 나와 다른 사람 모두가 편안하게 지내도록 도와줘요.
+    - term: 도덕적 행동
+      def: 옳고 바르다고 생각하는 것에 따라 다른 사람을 생각하며 하는 행동이에요. 칭찬이나 상을 바라지 않고 마음에서 우러나와 하는 것이 중요해요.
+    - term: 관점
+      def: 어떤 일을 바라보는 위치나 생각의 방향이에요. 같은 일도 사람마다 관점이 달라 다르게 느낄 수 있어요.
+    - term: 약속
+      def: 다른 사람과 앞으로 어떻게 하자고 미리 정해 두는 것이에요. 약속을 지키면 서로 믿음이 쌓여요.
+    - term: 성찰
+      def: 내 생각과 행동, 생활을 깊이 살펴보고 어떻게 더 나아질지 생각하는 것이에요.
+  standards:
+    - code: "[4도01-04]"
+      text: 다른 사람의 관점을 수용할 수 있는지를 도덕적으로 검토하고 도덕규범을 내면화하여 도덕적으로 행동할 수 있는 자세를 기른다.
+stages:
+  - name: 생각열기
+    question: 도덕이란 무엇이고, 우리 삶에 왜 필요할까?
+  - name: 탐구하기
+    question: 서로 다른 관점이 부딪힐 때 다른 사람의 입장을 어떻게 헤아리고 판단할까?
+  - name: 확장하기
+    question: 내 생각·말·행동을 되돌아보며 도덕적인 행동을 어떻게 실천할까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 질서 — 잠깐 줄을 서면
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=DRNyau1hDIY
+    desc: 질서를 지킬 때와 지키지 않을 때를 견주며 우리 삶에 도덕이 왜 필요한지 생각해 봐요.
+    channel: 서울시 인성교육 애니메이션
+  - key: v2
+    stage: 생각열기
+    title: 칭찬 왕이 될 거야! 또깨비 가족
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=klGU5HlQbDg
+    desc: 칭찬 스티커만 많이 받으면 좋은 걸까 묻는 이야기로 도덕적 행동이 무엇인지 생각해 봐요.
+    channel: EBS 키즈
+  - key: v3
+    stage: 탐구하기
+    title: 그만 좀 싸워! 또깨비 가족
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=SqDXr05fyPw
+    desc: 친한 친구들이 다투는 사이에 끼어 곤란해진 태양이를 보며 서로의 입장을 생각해 봐요.
+    channel: EBS 키즈
+  - key: v4
+    stage: 탐구하기
+    title: 갈등 상황을 해결하는 3가지 방법
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=tdzftrW-kJc
+    desc: 갈등이 생겼을 때 풀어 가는 세 가지 방법을 알려 주는 대구미래교육연구원 생명존중교육 영상이에요.
+    channel: 대구미래교육연구원
+  - key: v5
+    stage: 탐구하기
+    title: 존중 — 방과 후 함께 수업
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=d5gqOVOudSo
+    desc: 존중을 주제로 서로 다른 생각을 가진 친구들의 모습을 그린 애니메이션이에요.
+    channel: 서울시 인성교육 애니메이션
+  - key: v6
+    stage: 탐구하기
+    title: 경청 — 친구말 듣기평가
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_5G0LyhjDtw
+    desc: 친구의 말을 귀 기울여 듣는 태도가 왜 필요한지 보여 주는 애니메이션이에요.
+    channel: 서울시 인성교육 애니메이션
+  - key: v7
+    stage: 탐구하기
+    title: 친구의 마음을 이해할 수 있어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=bjlmMSBToak
+    desc: 친구의 마음을 이해하는 방법을 알려 주는 공감 수업 자료 영상이에요.
+    channel: 국가기초학력지원센터
+  - key: v8
+    stage: 확장하기
+    title: 책임 — 내 동생
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=eAXU7ot9qjM
+    desc: 책임을 주제로 내가 한 행동을 돌아보게 하는 애니메이션이에요.
+    channel: 서울시 인성교육 애니메이션
+  - key: v9
+    stage: 확장하기
+    title: 이기고 싶어! 또깨비 가족
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=H6qUUlmT0bg
+    desc: 늘 이기고 싶어 졌을 때 화를 참지 못하는 태양이의 모습을 돌아보게 하는 이야기예요.
+    channel: EBS 키즈
+  - key: v10
+    stage: 확장하기
+    title: 내가 더 행복해지는 선행 또깨비 가족
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=6Jq4sxTOuts
+    desc: 내가 한 착한 일이 다른 사람의 기쁨이 되면서 나도 행복해지는 이야기예요.
+    channel: EBS 키즈
+quiz:
+  - statement: 도덕은 사람들이 함께 살아가며 지켜야 할 바른 생각과 행동이다.
+    answer: O
+    explain: 도덕은 서로 어울려 살아가는 데 필요한 바른 생각과 행동이에요.
+  - statement: 도덕은 어른이 정해 준 규칙이라서 시키는 대로 따르기만 하면 된다.
+    answer: X
+    explain: 도덕은 함께 살아가기 위해 까닭을 스스로 생각하며 실천하는 것이에요.
+  - statement: 같은 일이라도 사람마다 관점이 달라서 다르게 생각할 수 있다.
+    answer: O
+    explain: 사람마다 바라보는 위치와 생각이 달라서 같은 일도 다르게 느낄 수 있어요.
+  - statement: 다른 사람의 관점을 받아들이려면 내 생각을 모두 버려야 한다.
+    answer: X
+    explain: 다른 사람의 관점을 이해하면서도 내 생각과 비교하며 따져 볼 수 있어요.
+  - statement: 도덕적인 행동은 칭찬을 받으려는 마음보다 마음에서 우러나와 하는 것이 중요하다.
+    answer: O
+    explain: 도덕적인 행동은 보상을 바라기보다 옳다고 생각해서 스스로 하는 것이 중요해요.
+  - statement: 도덕적으로 행동하면 나에게는 언제나 손해만 생긴다.
+    answer: X
+    explain: 도덕적인 행동은 다른 사람과 나 모두에게 믿음과 기쁨을 줄 수 있어요.
+  - statement: 성찰은 내 생각과 말과 행동을 되돌아보고 더 나은 방법을 찾는 일이다.
+    answer: O
+    explain: 성찰은 지나간 나를 살펴보고 앞으로 나아질 방법을 찾는 것이에요.
+  - statement: 어떤 상황에서든 도덕적인 행동의 정답은 하나뿐이다.
+    answer: X
+    explain: 상황과 관점에 따라 도덕적인 행동이 다르게 보일 수 있어서 까닭을 따져 보며 판단해요.

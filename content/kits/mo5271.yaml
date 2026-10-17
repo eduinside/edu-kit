@@ -1,0 +1,179 @@
+id: mo5271
+title: 7. 지구의 내일을 심는 우리
+grade: 5
+sem: 2학기
+subject: 도덕
+unit: 7단원
+unit_no: 7
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 지구 환경 위기의 원인은 사람의 활동에 있고, 여럿이 꾸준히 이어 가는 작은 실천이 위기를 이겨 내는 힘이 돼요.
+  core_question: 지구의 위기를 알게 된 우리는 오늘 무엇부터 실천할 수 있을까?
+  concepts:
+    - term: 기후 위기
+      def: 사람의 활동 때문에 지구의 기온과 날씨가 크게 달라져서 우리 삶과 자연이 위험해지는 일이에요. 요즘 더 자주 겪는 폭염과 큰 홍수가 그 모습이에요.
+    - term: 탄소 중립
+      def: 우리가 내보내는 이산화탄소의 양을, 숲이 흡수하거나 사람이 없애는 양과 똑같이 맞추어 실제로 늘어나는 양을 0으로 만드는 것이에요.
+    - term: 새 활용(업사이클링)
+      def: 버려질 물건을 그대로 다시 쓰는 데서 나아가 새로운 쓸모와 가치를 더해 다른 물건으로 만드는 일이에요. 헌 양말목으로 공예품을 만드는 것이 그 예예요.
+    - term: 지속가능
+      def: 지금 우리가 자원과 환경을 쓰면서도, 앞으로 올 사람들이 쓸 몫이 줄어들지 않게 이어 가는 것이에요.
+    - term: 실천
+      def: 실천은 알게 된 것을 생각으로만 그치지 않고 직접 행동으로 옮기는 것이에요. 지구를 위해 빈 교실 불을 끄거나 일회용품을 줄이는 일이 환경을 위한 실천이에요.
+  standards:
+    - code: "[6도04-01]"
+      text: 지구의 환경 위기 상황을 이해하고, 이를 극복하기 위한 다양한 방안을 찾아 자신의 일상에서 실천하고자 노력한다.
+stages:
+  - name: 생각열기
+    question: 지구는 지금 어떤 위기를 겪고 있을까?
+  - name: 탐구하기
+    question: 위기의 뿌리는 어디에 있고, 사람들은 어떻게 이겨 내고 있을까?
+  - name: 확장하기
+    question: 나의 작은 실천은 어떤 변화를 만들까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 한국의 플라스틱 사용량은 얼마나 많을까
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=0atgNI9JPiQ
+    desc: 우리나라 사람이 쓰는 플라스틱의 양이 세계에서도 많은 편이라는 사실을 보여 줘요.
+    channel: JTBC Life
+  - key: v2
+    stage: 생각열기
+    title: 기후변화 — 어린이 초록세상(5·6학년)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=l9Eij2_hVWc
+    desc: 초등 5·6학년 환경 교과서 자료로, 기후 변화가 무엇이고 왜 생기는지 차근차근 알려 줘요.
+    channel: 국가환경교육센터
+  - key: v3
+    stage: 생각열기
+    title: 지구를 지켜라!
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Qkgq5X7WJOI
+    desc: 푸루와 그루 캐릭터와 함께 지구를 지키는 방법을 알아보는 어린이용 영상이에요.
+    channel: 한국환경공단
+  - key: v5
+    stage: 탐구하기
+    title: 누가 지구를 뜨겁게 만들었나
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Af2an3IuNHw
+    desc: 지구가 뜨거워진 까닭이 사람이 내뿜은 탄소에 있다는 것과 탄소 중립이 무엇인지 설명해요.
+    channel: EBSCulture (EBS 교양)
+  - key: v6
+    stage: 탐구하기
+    title: 탄소 중립, 내가 먼저 실천해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=cLYg_M5jo00
+    desc: 이산화탄소를 0으로 만드는 탄소 중립의 뜻과, 교실 불 끄기 같은 일상 속 탄소 줄이기를 알려 줘요.
+    channel: 기후에너지환경부
+  - key: v7
+    stage: 탐구하기
+    title: 버려지는 것들의 변신, 업사이클링
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=7DlRLZxFDtc
+    desc: 버려지는 물건이 새 제품과 작품으로 다시 태어나는 업사이클링(새 활용) 사례를 보여 줘요.
+    channel: 기후에너지환경부
+  - key: v8
+    stage: 탐구하기
+    title: 200년 동안 지구가 겪은 변화
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Amuwqzfqzzk
+    desc: 증기 기관 이후 200년 사이 사람의 활동이 지구에 어떤 변화를 가져왔는지 되짚어 봐요.
+    channel: EBS 지식채널e
+  - key: v9
+    stage: 탐구하기
+    title: 지구 온난화를 막는 저탄소 사회 — 어린이 초록세상(5·6학년)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=5KBnNfvBw64
+    desc: 지구 온난화를 막으려면 사회가 어떻게 달라져야 하는지, 저탄소 생활을 5·6학년 눈높이로 설명해요.
+    channel: 국가환경교육센터
+  - key: v10
+    stage: 탐구하기
+    title: 한국업사이클센터 현장체험학습
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_niM7ZlV-aw
+    desc: 대구 초등 교사들이 만든 영상으로, 한국업사이클센터를 찾아가 새 활용 체험을 둘러봐요.
+    channel: 대구미래교육연구원
+  - key: v11
+    stage: 탐구하기
+    title: 양말목으로 만드는 새 활용 공예
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=WBWMBE96J2k
+    desc: 헌 양말의 양말목으로 물건을 만드는 대구 연경초등학교의 새 활용 수업을 보도해요.
+    channel: ch B tv 대구
+  - key: v12
+    stage: 확장하기
+    title: 달리며 쓰레기 줍는 청년들, 플로깅
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Ej1Ks-9p2c8
+    desc: 달리면서 쓰레기를 줍는 플로깅에 청년들이 왜 빠졌는지 현장에서 들어 봐요.
+    channel: " YTN"
+  - key: v13
+    stage: 확장하기
+    title: 일회용품 줄이기는 헛수고일까
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=n0c9GWTZRkI
+    desc: 종이컵 사용을 조금만 줄여도 전체로 보면 큰 차이가 된다는 것을 숫자로 보여 줘요.
+    channel: 스브스뉴스 SUBUSUNEWS
+  - key: v14
+    stage: 확장하기
+    title: 논공초등학교 제로웨이스트
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=OyfMzmyMefU
+    desc: 생활 속 쓰레기를 줄이는 제로 웨이스트를 실천하는 대구 논공초등학교 학생들의 모습이에요.
+    channel: ch B tv 대구
+  - key: v15
+    stage: 확장하기
+    title: 운암초등학교 나눔장터
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ewQwtF2u4uY
+    desc: 물건의 생산부터 폐기까지 탄소가 생긴다는 것을 알고 나눔장터를 여는 대구 운암초 학생들을 보도해요.
+    channel: ch B tv 대구
+  - key: v16
+    stage: 확장하기
+    title: 월촌초 환경 지킴이
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Uxpe6LAcGM0
+    desc: 환경 동아리가 교내 텃밭을 가꾸고 수확물을 나누는 대구 월촌초등학교의 실천을 보도해요.
+    channel: ch B tv 대구
+  - key: v17
+    stage: 확장하기
+    title: 탄소 줄이는 급식
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=PqFJZxEp9us
+    desc: 저탄소 친환경 식재료로 학교 급식을 바꾸어 탄소 배출을 줄이는 사례를 소개해요.
+    channel: 대구MBC뉴스
+  - key: v18
+    stage: 확장하기
+    title: 기후 위기와 지속가능한 발전 — 함께 사는 세계시민
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=djR8MeuOYZs
+    desc: 탄소 발자국을 생활 속에서 줄이는 실천으로 지속가능한 발전에 한 걸음 다가가 봐요.
+    channel: 대구미래교육연구원
+quiz:
+  - statement: 탄소 중립은 우리가 내보내는 이산화탄소의 양을 숲이 흡수하거나 사람이 없애는 양과 맞추어 실제로 늘어나는 양을 0으로 만드는 것이다.
+    answer: O
+    explain: 내보낸 만큼 흡수하거나 없애서, 더하고 뺀 결과가 0이 되게 하는 것이 탄소 중립이에요.
+  - statement: 기후 위기는 자연이 저절로 바뀐 탓이라서 사람의 활동과는 관계가 없다.
+    answer: X
+    explain: 기후 위기의 큰 원인은 에너지를 많이 쓰고 쓰레기를 많이 내놓는 사람의 활동이에요.
+  - statement: 헌 양말의 양말목으로 새로운 물건을 만드는 것처럼, 버려질 물건에 새로운 쓸모를 더하는 것을 새 활용이라고 한다.
+    answer: O
+    explain: 새 활용(업사이클링)은 버려질 물건에 새로운 쓸모와 가치를 더하는 일이에요.
+  - statement: 한 사람이 일회용품을 조금 줄이는 것은 전체로 보면 아무 차이도 만들지 못한다.
+    answer: X
+    explain: 한 사람의 실천은 작아 보여도 여럿이 꾸준히 이어 가면 큰 변화가 돼요.
+  - statement: 빈 교실의 불을 끄는 것처럼 학교에서도 탄소를 줄이는 일을 할 수 있다.
+    answer: O
+    explain: 빈 교실 불 끄기는 전기를 아껴 탄소를 줄이는 작은 실천이에요.
+  - statement: 물건이 만들어지고 버려지는 과정에서는 탄소가 생기지 않는다.
+    answer: X
+    explain: 물건을 만들고, 옮기고, 쓰고, 버리는 단계마다 탄소가 생겨요.
+  - statement: 플로깅은 달리거나 걸으면서 쓰레기를 줍는 활동이다.
+    answer: O
+    explain: 운동하면서 쓰레기를 주워 우리 둘레를 깨끗하게 만드는 실천이에요.
+  - statement: 지속가능한 발전은 지금 사람들이 자원을 마음껏 쓰고, 뒤에 올 사람들은 생각하지 않는 것이다.
+    answer: X
+    explain: 지속가능한 발전은 지금 사람도 앞으로 올 사람도 환경과 자원을 누릴 수 있게 이어 가는 것이에요.

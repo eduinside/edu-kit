@@ -1,0 +1,313 @@
+# pr6102 후보 기록 — 실과 6학년 인간 발달과 주도적 삶 「진로 발달 계획」 (성취기준 [6실01-07])
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- pr6102 --dry
+# 2026-10-17 수집(야간 위임). 재생·임베드·연령·국내·길이·쇼츠 여부는 후보 전부 YouTube Data API(ytcheck)로 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님.
+# 새 채널(channels.yaml에 없음) 후보: 한국고용정보원(feat.고용24) · 직능연KRIVET(한국직업능력연구원) · 한국잡월드 · 진로탄탄TV · 진로체험망 꿈길 — 채택·후보 채널 등급은 운영자에게 질문.
+# 커리어넷 공식 채널은 따로 찾지 못함(교사·개인 채널의 사용법 영상만 있어 제외). 특정 직업을 홍보하는 영상·학원/기업 진로 영상은 뺌.
+kit:
+  id: pr6102
+  title: "진로 발달 계획"
+  grade: 6
+  sem: 1학기
+  subject: 실과
+  unit: 인간 발달과 주도적 삶
+  unit_no: 1
+  flow: activity
+  codes: ["[6실01-07]"]
+  core_idea: "직업은 일 가운데 대가를 받고 꾸준히 하는 일로, 생계뿐 아니라 보람과 사회에 기여한다는 뜻도 있어요. 나의 흥미·적성·성격을 살펴 관심 직업을 조사하고, 단계별 진로 발달 계획을 세워 보면 앞날을 스스로 준비할 수 있어요."
+  core_question: "나의 흥미·적성·성격에 맞는 직업을 찾아 어떻게 진로 발달 계획을 세울 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "직업은 무엇이고 왜 필요할까?"
+    - name: 탐구하기
+      question: "내 흥미·적성·성격은 어떠하고 어떤 직업 정보를 찾을 수 있을까?"
+    - name: 확장하기
+      question: "직업을 얻기 위한 단계별 진로 발달 계획은 어떻게 세울까?"
+  concepts:
+    - "직업"
+    - "진로"
+    - "흥미"
+    - "적성"
+    - "성격"
+    - "진로 발달 계획"
+  source_notes: "정리본 실과6.천재이춘식.u1(4~8차시 일과 직업·적성 흥미 성격·직업 소개 카드·진로 계획) · 실과6.비상송.u5-2(직업의 뜻과 필요·흥미 적성 성격 검사·관심 직업 조사·진로 발달 계획서). 오개념: 일=직업, 직업은 돈 버는 수단뿐, 검사 결과가 길을 정해 줌·좋고 나쁜 유형, 특정 직업은 성별·학력으로 정해짐. 유의: 적성은 노력으로 키울 수 있음, 결과는 바뀔 수 있음. 지도서가 가리킨 공공 누리집 = 주니어 커리어넷·꿈길·고용24·한국고용정보원·한국직업능력연구원·한국잡월드(원문에 유튜브 주소 없음) → 공식 채널 직접 검색."
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "노동의 개념과 가치"
+    video_title: "(노동인권 애니메이션 #1)  노동의 개념과 가치"
+    url: https://www.youtube.com/watch?v=u3C5-ExIxvk
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "4:37"
+    use: 수업 중
+    basis_code: "[6실01-07]"
+    basis_lesson: "4차시 일과 직업의 뜻"
+    desc: "초등학생에게 일이 무엇이고 왜 가치 있는지 알려 주는 노동인권 애니메이션이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "서울시교육청 초등 노동인권 애니메이션 #1(2021). 일과 직업의 의미 이해와 연결."
+  - cand_no: c02
+    stage: 생각열기
+    title: "직업에 대한 편견과 차별 해소"
+    video_title: "(노동인권 애니메이션 #2) 직업에 대한 편견과 차별 해소"
+    url: https://www.youtube.com/watch?v=i4NDclt9cDQ
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "3:55"
+    use: 수업 중
+    basis_code: "[6실01-07]"
+    basis_lesson: "4차시 직업의 귀천·고정관념"
+    desc: "직업에 귀하고 천함이 없다는 것과 직업에 대한 편견을 없애는 방법을 애니메이션으로 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "서울시교육청 초등 노동인권 애니메이션 #2(2021). 정리본 오개념(직업에 귀천이 있다, 성별 고정관념)에 대응."
+  - cand_no: c03
+    stage: 생각열기
+    title: "미래직업의 비법을 찾아서"
+    url: https://www.youtube.com/watch?v=56GSu9IIE6E
+    channel: "직능연KRIVET"
+    channel_grade: public
+    duration: "1:02"
+    use: 수업 전
+    basis_code: "[6실01-07]"
+    basis_lesson: "4차시 직업 세계"
+    desc: "교육부와 한국직업능력연구원이 낸 미래 직업 가이드북의 직업들을 짧게 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 한국직업능력연구원 공식 채널. 1분 소개 영상이라 동기 유발용. 새 채널(직능연)."
+  - cand_no: c04
+    stage: 생각열기
+    title: "학업보다 적성, 어릴 때부터 진로교육"
+    video_title: "학업보다 적성…“어릴때부터 진로교육” / KBS  2023.05.08."
+    url: https://www.youtube.com/watch?v=DF3e2wSC2LQ
+    channel: "KBS뉴스 대구경북"
+    channel_grade: press
+    local: 대구
+    duration: "2:03"
+    use: 배경지식
+    basis_code: "[6실01-07]"
+    basis_lesson: "4차시 직업 세계의 변화"
+    desc: "새로운 직업이 생기고 인기 직업이 바뀌는 가운데 초등 때부터 진로교육을 강화한다는 소식이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 KBS 뉴스. 학생 대상이 아닌 정책 뉴스라 교사용 배경지식. 인기 직업 순위 수치는 쓰지 않음."
+  - cand_no: c05
+    stage: 생각열기
+    title: "진로·직업 체험해보세요"
+    url: https://www.youtube.com/watch?v=Vt9WlUOY1TI
+    channel: "dgmbcnews"
+    channel_grade: press
+    local: 대구
+    duration: "1:58"
+    use: 수업 전
+    basis_code: "[6실01-07]"
+    basis_lesson: "4차시 직업 세계"
+    desc: "대구 학생들이 진로·직업을 체험하는 소식을 전해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2017 대구MBC 뉴스로 오래됨."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "직업흥미검사 — 나와 같은 흥미 유형은?"
+    video_title: "[직업흥미검사]우리나라에 나와 같은 흥미유형은 얼마나 있을까?(직업흥미검사✍️)"
+    url: https://www.youtube.com/watch?v=xK4Dgeb_cnE
+    channel: "한국고용정보원(feat.고용24)"
+    channel_grade: public
+    duration: "3:20"
+    use: 수업 중
+    basis_code: "[6실01-07]"
+    basis_lesson: "5차시 흥미 유형 알아보기"
+    desc: "관심과 흥미를 6가지 유형으로 나누어 나에게 맞는 직업 분야를 안내하는 직업흥미검사를 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 한국고용정보원 공식 채널. 검사 결과는 선호 경향일 뿐이라는 유의점은 수업에서 덧붙임. 새 채널."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "나에게 맞는 직업정보 탐색하기"
+    url: https://www.youtube.com/watch?v=VI9pGnIUCnQ
+    channel: "한국고용정보원(feat.고용24)"
+    channel_grade: public
+    duration: "1:22"
+    use: 수업 중
+    basis_code: "[6실01-07]"
+    basis_lesson: "5~6차시 직업 정보 찾기"
+    desc: "넘쳐나는 직업 정보 가운데 나에게 필요한 정보를 찾는 순서를 짧게 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 한국고용정보원. 성인 취업 정보 중심일 수 있어 초등에서는 보조로 사용. 새 채널."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "커리어넷을 직접 체험해 보았다!"
+    url: https://www.youtube.com/watch?v=6phEzsYXT50
+    channel: "교육부"
+    channel_grade: edu
+    duration: "4:37"
+    use: 수업 중
+    basis_code: "[6실01-07]"
+    basis_lesson: "5~6차시 진로 탐색 누리집"
+    desc: "대학생과 초등 6학년 학생이 커리어넷에서 진로 검사와 직업 정보를 체험해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 교육부 국민서포터즈 제작. 지도서가 든 커리어넷 사용을 보여 줌(교육부 공식 채널 아동 출연)."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "사진작가가 궁금해요"
+    video_title: "2024 EBS디딤돌 - [진로취업] 14화. 사진작가가 궁금해요 (6~12세)"
+    url: https://www.youtube.com/watch?v=FpbA2oTwG_Y
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "7:03"
+    use: 수업 중
+    basis_code: "[6실01-07]"
+    basis_lesson: "6차시 직업 소개 카드 조사"
+    desc: "사진작가가 어떤 일을 하는 직업인지 알아보는 EBS 디딤돌 진로·취업 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2024 EBS 디딤돌(6~12세). 직업 하나를 조사해 소개하는 활동의 본보기. 특정 직업 홍보가 아닌 EBS 직업 소개 시리즈."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "크리에이터가 되고 싶다면"
+    video_title: "EBS디딤돌 - [진로/취업] 크리에이터가 되고 싶다면 (6~12세)"
+    url: https://www.youtube.com/watch?v=P3jBjNeRI3g
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "5:56"
+    use: 수업 중
+    basis_code: "[6실01-07]"
+    basis_lesson: "6차시 직업 소개 카드 조사"
+    desc: "크리에이터라는 직업이 하는 일과 되기 위해 할 일을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 EBS 디딤돌(6~12세) 직업 소개 시리즈."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "청소년 직업흥미검사 결과 해석 가이드"
+    video_title: "[직업흥미검사]청소년 직업흥미검사: 청소년을 위한 결과 해석 가이드"
+    url: https://www.youtube.com/watch?v=AeZAZe_e2ho
+    channel: "한국고용정보원(feat.고용24)"
+    channel_grade: public
+    duration: "6:45"
+    use: 배경지식
+    basis_code: "[6실01-07]"
+    basis_lesson: "5차시 흥미 검사 결과 이해"
+    desc: "청소년 직업흥미검사의 흥미 육각형 모형과 점수를 해석하는 방법을 설명해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025. 청소년(중·고) 대상 설명 수업 형식이라 초등은 교사 배경지식으로만 가능."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "직업정보 개발과정"
+    video_title: "[고용24] 직업선택의 시작! 직업정보 개발과정 편 [한국고용정보원x셀프메이드]"
+    url: https://www.youtube.com/watch?v=SDTZ2F6Wn5o
+    channel: "한국고용정보원(feat.고용24)"
+    channel_grade: public
+    duration: "6:14"
+    use: 배경지식
+    basis_code: "[6실01-07]"
+    basis_lesson: "6차시 직업 정보"
+    desc: "직업정보가 어떤 조사를 거쳐 만들어지는지 소개하는 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "성인 취업 준비 대상(2021)."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "모두의 진로 홍보영상(초등용)"
+    url: https://www.youtube.com/watch?v=kI-A05lkDis
+    channel: "진로탄탄TV"
+    channel_grade: public
+    duration: "2:14"
+    use: 배경지식
+    basis_code: "[6실01-07]"
+    basis_lesson: "5~8차시 초등 진로교육"
+    desc: "교육부와 시도교육청이 함께 만든 초등 진로교육 프로그램 '모두의 진로'를 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "프로그램 홍보 성격이라 학습 내용이 약함(2024). 새 채널."
+  - cand_no: c14
+    stage: 탐구하기
+    title: "한국잡월드 어린이체험관 처음 방문하신다면"
+    url: https://www.youtube.com/watch?v=rh86uy4Yc84
+    channel: "한국잡월드"
+    channel_grade: public
+    duration: "1:40"
+    use: 수업 후
+    basis_code: "[6실01-07]"
+    basis_lesson: "6차시 직업 체험"
+    desc: "한국잡월드 어린이체험관을 처음 방문할 때 입장 방법과 이동 순서를 안내해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "시설 이용 안내 영상(2023)이라 진로 내용은 없음. 새 채널."
+  - cand_no: c15
+    stage: 확장하기
+    title: "어디로 가야하죠 아저씨~ 꿈을 향한 길, 진로 로드맵"
+    video_title: "어디로 가야하죠 아저씨~♪ 꿈을 향한 길이 처음이라면?! 진로 로드맵! [교육부 국민 서포터즈]"
+    url: https://www.youtube.com/watch?v=Moo3_w0v_Rw
+    channel: "교육부"
+    channel_grade: edu
+    duration: "6:25"
+    use: 수업 중
+    basis_code: "[6실01-07]"
+    basis_lesson: "7~8차시 진로 발달 계획 세우기"
+    desc: "꿈을 이루기 위한 구체적인 계획을 세우는 방법으로 진로 로드맵을 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 교육부 국민서포터즈 제작. 진로 계획 세우기와 정확히 맞음. 청소년·성인 눈높이일 수 있어 시청 확인 권장."
+  - cand_no: c16
+    stage: 확장하기
+    title: "찾아가는 진로체험, 섬마을에서 미래의 꿈을 키워요"
+    url: https://www.youtube.com/watch?v=TQ0Kp6bDcl0
+    channel: "교육부"
+    channel_grade: edu
+    duration: "4:54"
+    use: 수업 후
+    basis_code: "[6실01-07]"
+    basis_lesson: "7차시 진로 체험·꿈 자랑"
+    desc: "섬마을 학교 학생들이 찾아온 진로체험으로 꿈을 키워 가는 모습을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 교육부 국민서포터즈 제작. 진로 체험이 진로 계획에 주는 도움을 볼 수 있음(교육부 공식 채널 학생 출연)."
+  - cand_no: c17
+    stage: 확장하기
+    title: "계획의 섬, 꿈을 향한 나만의 학습 플랜 세우기"
+    video_title: "[진로교육 메타버스]  초등 SET A 4 계획의 섬, 꿈을 향한 나만의 학습 플랜 세우기"
+    url: https://www.youtube.com/watch?v=8682dxPOdes
+    channel: "직능연KRIVET"
+    channel_grade: public
+    duration: "1:37"
+    use: 수업 중
+    basis_code: "[6실01-07]"
+    basis_lesson: "7~8차시 진로 발달 계획"
+    desc: "메타버스 진로교육 프로그램에서 꿈을 향한 나만의 학습 계획을 세우는 활동을 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 프로그램 소개 영상이라 계획 세우기 내용이 얼마나 담겼는지 시청 확인 필요."
+  - cand_no: c18
+    stage: 확장하기
+    title: "선배의 이름으로 꿈을 나눠요 — 청소년 진로 멘토 잡동사니"
+    video_title: "EBS 특집 넥스트 히어로 - 6화 선배의 이름으로 꿈을 나눠요 - 청소년 진로 멘토, 잡(JOB)동사니"
+    url: https://www.youtube.com/watch?v=J2uJaL1Z5l8
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "4:54"
+    use: 수업 후
+    basis_code: "[6실01-07]"
+    basis_lesson: "7차시 진로 멘토"
+    desc: "고등학생 진로 멘토 모임이 후배에게 진로 특강을 하는 모습을 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "고교생 대상 특강 소개(2020)라 초등 눈높이와 거리가 있음."
+  - cand_no: c19
+    stage: 생각열기
+    title: "쓸모없는 직업도 있나요?"
+    url: https://www.youtube.com/watch?v=OdHrfTf05gE
+    channel: "EBS 지식채널e"
+    channel_grade: edu
+    duration: "5:07"
+    use: 배경지식
+    basis_code: "[6실01-07]"
+    basis_lesson: "4차시 일과 직업"
+    desc: "일의 쓸모와 의미를 되묻는 지식채널e 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "성인 대상 비판적 노동 담론(불필요한 직업)이라 초등 직업 존중 메시지와 어긋날 수 있음(2023)."

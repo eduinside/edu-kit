@@ -1,0 +1,358 @@
+# mo6261 후보 기록 — 도덕 6학년 2학기 6단원 「사랑, 우리를 넘어 세계로」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo6261 --dry
+# 2026-10-17 수집(야간 위임). 재생·임베드·연령·국내·길이는 YouTube Data API(ytcheck)로 후보 전부 정상 확인(쇼츠 표시 2편은 제외). 영상 본문은 제목·설명·채널 성격 기준으로 판단했고 전부 시청한 것은 아님.
+# 외국 어린이의 어려움을 다룬 영상은 피해·빈곤 장면이 선정적일 수 있어 보수적으로 골랐다. 어린이 눈높이의 공공 영상이 적어 뉴스와 ODA·KOICA 공공 영상 중심.
+# 새 채널(channels.yaml에 없음): GCED Online Campus · ODA Korea Official Channel · 코이카 글로벌 서포터스 WeKO(KOICA Supporters) · KOICA 코이카 · WFK KOICA 해외봉사단 · GlobalVillage KOICA · 제주국제개발협력센터 — 채택 시 운영자에게 등급 질문.
+kit:
+  id: mo6261
+  title: "6. 사랑, 우리를 넘어 세계로"
+  grade: 6
+  sem: 2학기
+  subject: 도덕
+  unit: 6단원
+  unit_no: 6
+  flow: activity
+  codes: ["[6도03-04]"]
+  core_idea: "나라와 나라는 서로 이어져 있어서 멀리 있는 사람의 어려움도 우리와 무관하지 않아요. 인류애는 국경을 넘어 모든 사람을 같은 사람으로 여기고 돕는 마음이며, 작은 관심과 실천도 힘이 돼요."
+  core_question: "지구촌 이웃의 어려움을 돕기 위해 나는 어떤 마음과 행동을 할 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "나라 사이는 어떻게 이어져 있고, 왜 서로 도와야 할까?"
+    - name: 탐구하기
+      question: "다른 나라 어린이는 어떤 어려움을 겪고, 우리나라는 어떻게 도움을 주고받았을까?"
+    - name: 확장하기
+      question: "지구촌 이웃을 돕는 실천에는 어떤 것이 있을까?"
+  concepts:
+    - "인류애"
+    - "국제 구호"
+    - "공적 개발 원조"
+    - "세계시민"
+    - "국제 기념일"
+    - "연대"
+  source_notes: "정리본 도덕6.국정.u6(1차시 나라 사이 연결과 재난 구호 사례로 본 인류애 → 2차시 또래 외국 어린이가 겪는 문제 조사와 공감 → 3차시 외국 어린이를 도울 기념일 정하기·활동 계획 → 4차시 돕기 어려운 까닭을 넘어설 길과 실천 다짐) · 오개념: 외국 사람 돕기는 구호 단체에만 맡길 일, 인류애는 막연히 남을 돕는 일, 가까운 사람만 도우면 됨 · cautions: 특정 인종·국가에 대한 편견 주의, 우리나라도 예전에 도움을 받았다가 이제 돕는 나라가 되었음을 알리기, 사진·영상은 교사가 먼저 살피기 · 지도서가 가리킨 SBS 튀르키예 '아빠' 그림(c02)과 연합뉴스 태국 동굴 구조(c01)를 후보로 썼다. 외국 어린이의 어려움을 보여 주는 영상은 피해 장면이 많아 제외하거나 확인필요로 남기고, 기부 단체(NGO) 홍보 영상은 쓰지 않았다."
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "지구촌이 환호한 '13명의 멧돼지' 17일 만에 생환"
+    url: https://www.youtube.com/watch?v=N9ZTm5Q6uDI
+    channel: "연합뉴스 Yonhapnews"
+    channel_grade: press
+    duration: "1:43"
+    use: 수업 전
+    basis_code: "[6도03-04]"
+    basis_lesson: "1차시 재난 구호 사례"
+    desc: "태국 동굴에 갇혔던 소년 축구팀이 여러 나라의 도움으로 17일 만에 구조된 소식이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 가리킨 영상(2018)."
+  - cand_no: c02
+    stage: 생각열기
+    title: "한국전쟁, '아빠'라 불린 튀르키예 군인들"
+    url: https://www.youtube.com/watch?v=Inyr_4b1Auk
+    channel: "SBS 뉴스"
+    channel_grade: press
+    duration: "3:14"
+    use: 수업 중
+    basis_code: "[6도03-04]"
+    basis_lesson: "1차시 나라 사이의 연결"
+    desc: "6·25 때 우리를 도운 튀르키예 군인과 한 아이의 그림을 통해 두 나라가 이어진 이야기를 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 가리킨 영상(2023). 튀르키예 지진 소식이 함께 나옴."
+  - cand_no: c03
+    stage: 생각열기
+    title: "대한민국 긴급구호대 본격 활동 시작"
+    url: https://www.youtube.com/watch?v=4rePq81A4Eo
+    channel: "YTN"
+    channel_grade: press
+    duration: "1:38"
+    use: 수업 중
+    basis_code: "[6도03-04]"
+    basis_lesson: "1차시 재난 구호 사례"
+    desc: "강진이 난 튀르키예에 우리나라 긴급구호대가 도착해 구조 활동을 시작한 소식이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 보도. 지진 현장 장면은 교사가 먼저 확인."
+  - cand_no: c04
+    stage: 생각열기
+    title: "세계시민교육이란?"
+    url: https://www.youtube.com/watch?v=0q1BlM8_Dz8
+    channel: "GCED Online Campus"
+    channel_grade: public
+    duration: "1:25"
+    use: 수업 중
+    basis_code: "[6도03-04]"
+    basis_lesson: "1차시 인류애의 뜻과 필요"
+    desc: "세계시민교육이 무엇이고 왜 평화롭고 정의로운 미래를 만드는 데 필요한지 짧게 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "유네스코 아태교육원(APCEIU) 계열 온라인 캠퍼스(2019). 새 채널. 등급 미분류(추정)."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "원조받던 한국, 이제 원조하는 나라로!"
+    url: https://www.youtube.com/watch?v=NryuS0TQWRw
+    channel: "KTV 국민방송"
+    channel_grade: public
+    duration: "2:59"
+    use: 수업 중
+    basis_code: "[6도03-04]"
+    basis_lesson: "2차시 우리나라가 받은 도움"
+    desc: "6·25 전쟁 뒤 원조를 받던 우리나라가 이제는 다른 나라를 돕는 나라로 바뀐 과정을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2018 보도. 정리본 유의점(예전에 도움을 받았다가 돕는 나라가 됨)에 맞음."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "은혜를 갚는 대한민국 — 6·25 해외 참전국 ODA"
+    url: https://www.youtube.com/watch?v=y_-evWQ_F4E
+    channel: "ODA Korea Official Channel"
+    channel_grade: public
+    duration: "3:02"
+    use: 수업 중
+    basis_code: "[6도03-04]"
+    basis_lesson: "2차시 우리나라가 받은 도움"
+    desc: "6·25 때 우리를 도운 에티오피아, 콜롬비아, 필리핀에 이제 우리가 개발협력으로 보답하는 이야기예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "국무조정실 ODA 공식 채널(2022). 새 채널. 등급 미분류(추정)."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "울산 안착 1년 4개월, 아프간 아이들의 한국어 교실"
+    url: https://www.youtube.com/watch?v=gMW4y-lpx70
+    channel: "YTN"
+    channel_grade: press
+    duration: "2:56"
+    use: 수업 중
+    basis_code: "[6도03-04]"
+    basis_lesson: "2차시 외국 어린이에게 공감"
+    desc: "아프가니스탄에서 온 아이들이 울산에서 한국어를 배우며 적응해 가는 모습을 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 보도. 외국 어린이의 처지를 헤아리는 사례(특정 국가 편견 주의)."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "세계 어린이의 날 — 파란나라를 보았니"
+    url: https://www.youtube.com/watch?v=op1kPGK0XFk
+    channel: "EBS뉴스"
+    channel_grade: edu
+    duration: "2:59"
+    use: 수업 중
+    basis_code: "[6도03-04]"
+    basis_lesson: "3차시 국제 기념일"
+    desc: "유엔 아동권리협약을 기념하는 세계 어린이의 날과 전 세계 어린이의 권리 상황을 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 보도라 코로나19 시기 이야기가 섞임. 기념일을 정해 활동하는 3차시와 맞음."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "ODA, 6살 어린이도 이해한다고? — knock knock knock"
+    url: https://www.youtube.com/watch?v=6RHu1nwsLG0
+    channel: "코이카 글로벌 서포터스 WeKO(KOICA Supporters)"
+    channel_grade: public
+    duration: "2:31"
+    use: 수업 중
+    basis_code: "[6도03-04]"
+    basis_lesson: "2차시 우리나라가 받은 도움"
+    desc: "도움을 받던 나라에서 도움을 주는 나라가 되기까지 이야기를 전래동화처럼 쉽게 들려줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "KOICA 대학생 서포터즈 제작(2020). 새 채널. 등급 미분류(추정)."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "코이카 30년, 개발원조 30년"
+    url: https://www.youtube.com/watch?v=G0PJNikJCB4
+    channel: "YTN"
+    channel_grade: press
+    duration: "2:37"
+    use: 배경지식
+    basis_code: "[6도03-04]"
+    basis_lesson: "2차시 우리나라가 받은 도움"
+    desc: "국제사회의 원조를 받던 우리나라가 개발도상국을 돕는 나라로 거듭난 30년을 정리해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 보도, 어른 눈높이 배경 설명. c05와 겹침."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "나누미와 함께하는 대한민국 ODA 여행"
+    url: https://www.youtube.com/watch?v=6QWHiZzI4ow
+    channel: "GlobalVillage KOICA"
+    channel_grade: public
+    duration: "5:40"
+    use: 수업 중
+    basis_code: "[6도03-04]"
+    basis_lesson: "2차시 우리나라가 받은 도움"
+    desc: "시간여행자 나누미와 함께 대한민국의 과거·현재·미래를 여행하며 ODA를 알아보는 어린이용 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2013 제작이라 수치가 오래됐을 수 있음. 새 채널. 등급 미분류(추정)."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "꿈은 사치다, 방글라데시 아동노동"
+    url: https://www.youtube.com/watch?v=da2XMm-BPNc
+    channel: "KBS 세계는지금"
+    channel_grade: press
+    duration: "5:31"
+    use: 수업 중
+    basis_code: "[6도03-04]"
+    basis_lesson: "2차시 외국 어린이가 겪는 문제"
+    desc: "방글라데시 도시 공장에서 일하는 아이들의 모습을 보며 외국 어린이가 겪는 문제를 생각해 봐요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "아동 피해 장면 포함 여부와 자극 정도 확인 필요(2021)."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "세계 10명 중 1명 굶주려"
+    url: https://www.youtube.com/watch?v=rZ-VaaHyBsU
+    channel: "YTN"
+    channel_grade: press
+    duration: "2:00"
+    use: 수업 중
+    basis_code: "[6도03-04]"
+    basis_lesson: "2차시 외국 어린이가 겪는 문제"
+    desc: "전 세계에서 굶주림에 시달리는 사람이 늘어난 조사 결과를 전해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022 보도라 수치가 오래됨. 어린이 대상 내용 아님."
+  - cand_no: c14
+    stage: 탐구하기
+    title: "국제개발협력 및 SDGs — 세계시민교육 시리즈 1편"
+    url: https://www.youtube.com/watch?v=I4_LJ9BQKM4
+    channel: "KOICA 코이카"
+    channel_grade: public
+    duration: "7:40"
+    use: 배경지식
+    basis_code: "[6도03-04]"
+    basis_lesson: "1차시 인류애의 뜻과 필요"
+    desc: "국제개발협력과 지속가능발전목표가 무엇인지 소개하는 KOICA 세계시민교육 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "7분 40초, 학생 눈높이 확인 필요(2021). 새 채널. 등급 미분류(추정)."
+  - cand_no: c15
+    stage: 탐구하기
+    title: "아동 인권 — KOICA 세계시민교육"
+    url: https://www.youtube.com/watch?v=HCRkwUnh1_4
+    channel: "WFK KOICA 해외봉사단"
+    channel_grade: public
+    duration: "9:22"
+    use: 수업 중
+    basis_code: "[6도03-04]"
+    basis_lesson: "2차시 외국 어린이가 겪는 문제"
+    desc: "KOICA 해외봉사단원이 파라과이에서 본 아동 인권 이야기를 전하는 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "9분 22초라 구간 필요, 본문 확인 필요(2020). 새 채널. 등급 미분류(추정)."
+  - cand_no: c16
+    stage: 확장하기
+    title: "달리며 세계 빈곤 아동 돕자 — 국제어린이마라톤"
+    url: https://www.youtube.com/watch?v=UvncPjUaw9A
+    channel: "연합뉴스TV"
+    channel_grade: press
+    duration: "3:53"
+    use: 수업 후
+    basis_code: "[6도03-04]"
+    basis_lesson: "3차시 국제 기념일과 활동"
+    desc: "참가비로 우간다 어린이를 돕는 국제어린이마라톤 대회 현장을 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 보도. 참가비 기부 사례로 행사 홍보 성격이 조금 있음."
+  - cand_no: c17
+    stage: 확장하기
+    title: "아이들은 나눔에 대하여 어떻게 생각하고 있을까요?"
+    url: https://www.youtube.com/watch?v=Jjr1wwdAE4s
+    channel: "보건복지부TV"
+    channel_grade: public
+    duration: "1:01"
+    use: 수업 전
+    basis_code: "[6도03-04]"
+    basis_lesson: "4차시 나눔 실천 다짐"
+    desc: "아이들에게 나눔이 무엇인지 물어보는 보건복지부 나눔문화 확산 캠페인 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 1분 영상이라 동기 유발용."
+  - cand_no: c18
+    stage: 확장하기
+    title: "작지만 세상 바꿔요! 청소년 기부 확산"
+    url: https://www.youtube.com/watch?v=V5ZKxKMfjic
+    channel: "KBS News"
+    channel_grade: press
+    duration: "1:52"
+    use: 수업 후
+    basis_code: "[6도03-04]"
+    basis_lesson: "3차시 어린이 기부 실천 사례"
+    desc: "초등학생들이 책 읽고 받은 용돈을 기부하고, 고등학생들이 우간다 학교 짓기에 기부하는 사례를 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020 보도(제주). 기부 단체 이름이 나오지만 사례 중심."
+  - cand_no: c19
+    stage: 확장하기
+    title: "봉사도 하고 문화도 알려요 — 대구 학생 해외체험"
+    url: https://www.youtube.com/watch?v=eEOwQPJEZw4
+    channel: "KBS뉴스 대구경북"
+    channel_grade: press
+    local: 대구
+    duration: "1:58"
+    use: 수업 후
+    basis_code: "[6도03-04]"
+    basis_lesson: "3차시 어린이 기부 실천 사례"
+    desc: "대구교육청이 학생 해외 파견에서 한국 문화를 알리고 봉사 활동을 하는 방향으로 바꾼 소식이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구경북 지역 언론(2023). 주 대상이 중·고등학생."
+  - cand_no: c20
+    stage: 확장하기
+    title: "모두가 원하는 세상이 오다(ODA)"
+    url: https://www.youtube.com/watch?v=Xro4C-CCcIY
+    channel: "ODA Korea Official Channel"
+    channel_grade: public
+    duration: "3:48"
+    use: 수업 후
+    basis_code: "[6도03-04]"
+    basis_lesson: "4차시 나눔 실천 다짐"
+    desc: "우리의 관심이 누군가의 내일을 밝힌다는 메시지로 ODA를 알리는 국무조정실 홍보영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "정부 홍보영상(2025). 새 채널. 등급 미분류(추정)."
+  - cand_no: c21
+    stage: 확장하기
+    title: "한국의 ODA 역사"
+    url: https://www.youtube.com/watch?v=3TdoYjp04QI
+    channel: "제주국제개발협력센터"
+    channel_grade: public
+    duration: "3:37"
+    use: 수업 후
+    basis_code: "[6도03-04]"
+    basis_lesson: "2차시 우리나라가 받은 도움"
+    desc: "절대빈곤을 극복한 나라가 도움을 주는 나라가 된 한국의 ODA 역사를 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c05·c06과 겹침(2020). 새 채널. 등급 미분류(추정)."
+  - cand_no: c22
+    stage: 확장하기
+    title: "유네스코와 함께한 70년"
+    url: https://www.youtube.com/watch?v=1EpBO9vCogc
+    channel: "KTV 정책 K"
+    channel_grade: public
+    duration: "3:15"
+    use: 수업 후
+    basis_code: "[6도03-04]"
+    basis_lesson: "2차시 우리나라가 받은 도움"
+    desc: "유네스코의 도움으로 폐허를 딛고 일어선 우리나라가 이제 도움을 주는 나라가 된 이야기예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c05와 겹침(2020)."
+  - cand_no: c23
+    stage: 확장하기
+    title: "'작은 보탬이라도' 튀르키예 향한 마음들"
+    url: https://www.youtube.com/watch?v=4YI5lZOG-XE
+    channel: "대구MBC뉴스"
+    channel_grade: press
+    local: 대구
+    duration: "0:50"
+    use: 수업 후
+    basis_code: "[6도03-04]"
+    basis_lesson: "1차시 재난 구호 사례"
+    desc: "튀르키예 지진 피해를 돕는 대구 사람들의 마음을 전해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "쇼츠(세로 화면)로 표시되어 제외."
