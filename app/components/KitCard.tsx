@@ -1,10 +1,10 @@
-import { Search, FlaskConical, HeartHandshake, Hammer, Film, Eye, Heart } from "lucide-react";
+import { Search, FlaskConical, HeartHandshake, Hammer, Blocks, Film, Eye, Heart } from "lucide-react";
 import type { Kit } from "../lib/data.ts";
 import { unitPalette, thumbStyle } from "../lib/design.ts";
 import { statsFor } from "../lib/stats.ts";
 
-// 교과 아이콘: 사회 = 돋보기, 과학 = 플라스크, 도덕 = 마음 나눔, 실과 = 망치
-const SUBJECT_ICON = { 사회: Search, 과학: FlaskConical, 도덕: HeartHandshake, 실과: Hammer } as const;
+// 교과 아이콘: 사회 = 돋보기, 과학 = 플라스크, 도덕 = 마음 나눔, 실과 = 망치, 통합 = 쌓기나무
+const SUBJECT_ICON = { 사회: Search, 과학: FlaskConical, 도덕: HeartHandshake, 실과: Hammer, 통합: Blocks } as const;
 
 export default function KitCard({ kit, onOpen, stats }: { kit: Kit; onOpen: () => void; stats?: { views: number; likes: number } }) {
   const accent = unitPalette(kit.unit_no)[2]; // 단원별 색

@@ -11,9 +11,11 @@ import LikedKitsModal from "../components/LikedKitsModal.tsx";
 import { KITS } from "../lib/data.ts";
 import type { Grade, Semester, Subject } from "../lib/data.ts";
 
-const GRADE_OPTIONS = [3, 4, 5, 6].map((g) => ({ key: String(g), label: `${g}학년` }));
+const GRADE_OPTIONS = [1, 2, 3, 4, 5, 6].map((g) => ({ key: String(g), label: `${g}학년` }));
 const SEM_OPTIONS = [{ key: "1학기", label: "1학기" }, { key: "2학기", label: "2학기" }];
-const SUBJECTS: Subject[] = ["사회", "과학", "도덕", "실과"]; // 홈 화면 순서(첫 진입·폴백 우선순위도 이 순서)
+const SUBJECTS: Subject[] = ["사회", "과학", "도덕", "실과", "통합"]; // 홈 화면 순서(첫 진입·폴백 우선순위도 이 순서)
+// 1·2학년은 통합교과(바른·슬기로운·즐거운 생활) 하나뿐이고, 3~6학년에는 통합이 없다 — 학년과 교과가 어긋나는 선택은 짝을 맞춘다.
+const isLowerGrade = (g: number) => g <= 2;
 const SUBJECT_OPTIONS = SUBJECTS.map((s) => ({ key: s, label: s }));
 
 const labelStyle = { fontSize: 11, fontWeight: 800, color: "var(--color-slate-400)", letterSpacing: ".04em" } as const;
@@ -24,8 +26,9 @@ const PREF_KEY = "edukit:lastScope";
 
 // 폴백 기본 조건: 자료가 있는(공개된) 조건 중 가장 앞선 것(학년↑ → 1학기 → 교과 순서). 없으면 5/2학기/사회.
 const DEFAULT_SCOPE: Scope = (() => {
+  // 1·2학년 통합은 3~6학년 뒤로(폴백 기본값이 저학년이 되지 않게)
   const rank = (k: { grade: number; sem: Semester; subject: Subject }) =>
-    k.grade * 100 + (k.sem === "1학기" ? 0 : 10) + SUBJECTS.indexOf(k.subject);
+    (isLowerGrade(k.grade) ? k.grade + 10 : k.grade) * 100 + (k.sem === "1학기" ? 0 : 10) + SUBJECTS.indexOf(k.subject);
   const pub = [...KITS.filter((k) => k.published)].sort((a, b) => rank(a) - rank(b));
   const f = pub[0];
   return f ? { grade: f.grade, sem: f.sem, subject: f.subject } : { grade: 5, sem: "2학기", subject: "사회" };
@@ -44,9 +47,10 @@ function loadPref(): Scope | null {
     if (!raw) return null;
     const p = JSON.parse(raw);
     const g = Number(p?.grade);
-    if (![3, 4, 5, 6].includes(g)) return null;
+    if (![1, 2, 3, 4, 5, 6].includes(g)) return null;
     if (p?.sem !== "1학기" && p?.sem !== "2학기") return null;
     if (!SUBJECTS.includes(p?.subject)) return null;
+    if (isLowerGrade(g) !== (p.subject === "통합")) return null;
     return { grade: g as Grade, sem: p.sem, subject: p.subject };
   } catch {
     return null;
@@ -134,6 +138,11 @@ export default function HomePage() {
   function setFilter(patch: Record<string, string>, resetUnit = false) {
     const next = new URLSearchParams(params);
     for (const [k, v] of Object.entries(patch)) next.set(k, v);
+    // 학년↔교과 짝 맞추기: 1·2학년을 고르면 통합, 3~6학년에서 통합이 남으면 사회. 교과를 통합으로 바꾸면 1학년, 통합이 아닌 교과로 바꾸는데 저학년이면 3학년.
+    const g = Number(next.get("grade") ?? grade);
+    const sj = next.get("subject") ?? subject;
+    if (patch.grade !== undefined) next.set("subject", isLowerGrade(g) ? "통합" : sj === "통합" ? "사회" : sj);
+    else if (patch.subject !== undefined) next.set("grade", String(sj === "통합" ? (isLowerGrade(g) ? g : 1) : isLowerGrade(g) ? 3 : g));
     if (resetUnit) next.set("unit", "전체");
     setParams(next, { replace: true });
     // 사용자가 고른 조건을 저장 → 다음 접속 시 복원
