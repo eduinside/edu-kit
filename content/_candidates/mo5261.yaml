@@ -1,0 +1,259 @@
+# mo5261 후보 기록 — 도덕 5학년 2학기 6단원 「공동체를 정의롭게!」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo5261 --dry
+# 2026-10-17 수집. 재생·임베드·연령·국내·길이는 YouTube Data API로 후보 전부 정상 확인. 영상 본문은 제목·설명·채널 성격 기준으로 판단했고 전부 시청한 것은 아님.
+# 이 단원은 어린이용 공개 영상이 드물어 추천이 적다(규칙·정의 개념을 직접 설명하는 어린이용 공공 영상이 거의 없음). 스포츠 규칙 보완 사례는 개인(personal) 채널뿐.
+# 새 채널(channels.yaml에 없음): 국가기초학력지원센터 · 대구광역시교육청(있음) — 아래 후보 표시 참고. 채택 시 운영자에게 등급 질문.
+kit:
+  id: mo5261
+  title: "6. 공동체를 정의롭게!"
+  grade: 5
+  sem: 2학기
+  subject: 도덕
+  unit: 6단원
+  unit_no: 6
+  flow: activity
+  codes: ["[6도03-02]"]
+  core_idea: "공동체의 규칙은 구성원이 공정한 절차로 함께 만들고 써 보며 고쳐 가는 약속이고, 공정한 규칙과 이를 지키려는 마음이 정의로운 공동체의 바탕이 돼요."
+  core_question: "우리가 함께 지킬 규칙은 어떻게 만들어야 공정할까?"
+  stages:
+    - name: 생각열기
+      question: "공동체에는 규칙이 왜 필요할까?"
+    - name: 탐구하기
+      question: "공정한 규칙은 어떤 절차로 함께 만들고 고쳐 갈까?"
+    - name: 확장하기
+      question: "정의로운 공동체는 어떤 모습일까?"
+  concepts:
+    - "규칙"
+    - "공정"
+    - "합의"
+    - "다수결"
+    - "정의"
+    - "법"
+  source_notes: "정리본 도덕5.국정.u6(1차시 규칙이 필요한 까닭 → 2차시 공정한 절차로 학급 규칙 합의 → 3차시 규칙의 허점 찾아 고치기 → 4차시 정의로운 공동체 정의·법조인 일화) · 오개념: 규칙은 어른이 정해 줌, 한 번 정하면 완벽함, 다수결이면 늘 공정 · cautions: 규칙 적용받는 사람 처지에서 불이익 따지기, 갈등 경험에 머무르지 않기 · 지도서의 스포츠 판정 규칙 보완 사례·정의 개념 만화는 공개 영상을 못 찾음. 영상이 드문 단원이라 추천이 적음."
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "왜 규칙을 지켜야 할까요?"
+    url: https://www.youtube.com/watch?v=bSTssxJilRk
+    channel: "국가기초학력지원센터"
+    channel_grade: public
+    duration: "7:11"
+    use: 수업 중
+    basis_code: "[6도03-02]"
+    basis_lesson: "1차시 규칙이 필요한 까닭"
+    desc: "공동체에서 규칙을 왜 지켜야 하는지 책임 있는 행동과 공동체 의식의 관점에서 알아봐요."
+    verdict: 추천
+    note: "사회정서역량 자료(2022). 어느 학년 대상인지 설명이 없어 5학년 눈높이는 운영자 확인. 새 채널."
+  - cand_no: c02
+    stage: 생각열기
+    title: "학급에서 정한 규칙, 왜 안 지켜질까요"
+    url: https://www.youtube.com/watch?v=uwowGczLzPI
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "4:07"
+    use: 배경지식
+    basis_code: "[6도03-02]"
+    basis_lesson: "1차시 규칙이 필요한 까닭"
+    desc: "규칙을 어기는 학생이 생길 때 어떻게 지도할지 교사가 보는 협력학습 영상이에요."
+    verdict: 보류
+    note: "교사용(상과 벌을 일괄 적용하는 상황) — 학생 시청용이 아님. 2018년."
+  - cand_no: c03
+    stage: 생각열기
+    title: "학급 규칙, 넛지로 지켜요"
+    url: https://www.youtube.com/watch?v=qnpKfhOl9fQ
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "4:49"
+    use: 수업 후
+    basis_code: "[6도03-02]"
+    basis_lesson: "3차시 규칙 보완"
+    desc: "학급 규칙을 억지로 시키지 않고 슬쩍 마음을 움직이는 넛지로 지키는 방법을 보여 줘요."
+    verdict: 확인필요
+    note: "2018 교육방송 연구대회 출품작(교사 제작). 학생이 보기 알맞은지 시청 필요."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "모두가 함께 정하는 놀이터 민주주의"
+    url: https://www.youtube.com/watch?v=t5QGEqZ2Qn4
+    channel: "중앙선거관리위원회"
+    channel_grade: public
+    duration: "4:25"
+    use: 수업 중
+    basis_code: "[6도03-02]"
+    basis_lesson: "2차시 공정한 절차로 합의"
+    desc: "놀이터가 좁아 속상한 동물 친구들이 의견을 모아 함께 정하는 과정을 동화로 보여 줘요."
+    verdict: 추천
+    note: "중앙선거관리위원회 선거동화극장(2025). 규칙을 구성원이 함께 정하는 절차와 맞음."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "학교의 문제, 민주적으로 해결해요!"
+    url: https://www.youtube.com/watch?v=FhQpfrTJr8c
+    channel: "중앙선거관리위원회"
+    channel_grade: public
+    duration: "2:14"
+    use: 수업 중
+    basis_code: "[6도03-02]"
+    basis_lesson: "2차시 공정한 절차로 합의"
+    desc: "학교의 문제를 서로 의견을 나누고 민주적인 방법으로 해결하는 모습을 보여 줘요."
+    verdict: 추천
+    note: "2017 영상. 설명란은 제목뿐이라 장면 내용은 시청 확인 필요."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "다수결 원칙을 지키며 소수자를 보호하는 방법(선거톡톡)"
+    url: https://www.youtube.com/watch?v=tWpzSH9moUU
+    channel: "중앙선거관리위원회"
+    channel_grade: public
+    duration: "7:40"
+    use: 수업 중
+    basis_code: "[6도03-02]"
+    basis_lesson: "오개념 '다수결이면 늘 공정'"
+    desc: "다수결을 따르면서도 소수의 의견과 권리를 지키는 방법을 이야기해요."
+    verdict: 확인필요
+    note: "정리본 오개념(다수결이면 늘 공정)에 맞는 주제. 대상이 청소년·성인일 수 있어 눈높이 확인 필요. 7분 40초."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "진짜 법을 만드는 어린이들"
+    url: https://www.youtube.com/watch?v=VFx2lrznt-k
+    channel: "EBS뉴스"
+    channel_grade: edu
+    duration: "2:38"
+    use: 수업 중
+    basis_code: "[6도03-02]"
+    basis_lesson: "2~3차시 규칙 만들기"
+    desc: "어린이들이 직접 법을 만들어 보는 활동을 소개하는 뉴스예요."
+    verdict: 추천
+    note: "2018 뉴스G. 어린이가 규칙을 만들고 고치는 활동의 사례."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "존중과 합의, 어린이들이 만든 지방의회"
+    url: https://www.youtube.com/watch?v=vyN0N04qP28
+    channel: "ch B tv 대구"
+    channel_grade: press
+    local: 대구
+    duration: "3:04"
+    use: 수업 중
+    basis_code: "[6도03-02]"
+    basis_lesson: "2차시 공정한 절차로 합의"
+    desc: "대구 달서구의회에서 열린 어린이 열린 의회에서 아이들이 존중하고 합의하는 모습을 전해요."
+    verdict: 추천
+    note: "대구 지역 언론(2020). 어린이가 의회 절차를 몸으로 익히는 사례."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "학생 기본권을 침해하는 학교 규칙"
+    url: https://www.youtube.com/watch?v=JdiJKWVi0fE
+    channel: "dgmbcnews"
+    channel_grade: press
+    local: 대구
+    duration: "2:29"
+    use: 수업 후
+    basis_code: "[6도03-02]"
+    basis_lesson: "3차시 규칙 허점 찾기"
+    desc: "학교 규칙이 학생의 기본권을 지키고 있는지 따져 본 대구MBC 보도예요."
+    verdict: 확인필요
+    note: "2018 보도, 중·고등학교 두발·복장 규정 맥락일 가능성이 큼. 대구 지역성은 있으나 5학년 눈높이·논쟁성 확인 필요."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "학급 규칙 만들기 — 학교 자치와 민주주의"
+    url: https://www.youtube.com/watch?v=YRmrVPs34b4
+    channel: "1분 별책부록"
+    channel_grade: personal
+    duration: "1:39"
+    use: 수업 후
+    basis_code: "[6도03-02]"
+    basis_lesson: "2차시 학급 규칙"
+    desc: "초등 사회 교과서의 학급 규칙 정하기를 1분 안팎으로 정리한 영상이에요."
+    verdict: 보류
+    note: "개인 채널이고 공공 대안이 있어 제외 후보. 사회 4-2 내용이라 학년도 다름."
+  - cand_no: c11
+    stage: 확장하기
+    title: "왕의 재판에서 오늘의 법정까지 — 찰리와 함께 하는 재판 이야기 1화"
+    url: https://www.youtube.com/watch?v=VUxsjSP3hVs
+    channel: "대한민국 대법원"
+    channel_grade: public
+    duration: "5:24"
+    use: 수업 중
+    basis_code: "[6도03-02]"
+    basis_lesson: "4차시 정의로운 공동체"
+    desc: "옛날 왕의 재판부터 오늘날의 공정한 사법제도까지 재판이 어떻게 달라졌는지 알려 줘요."
+    verdict: 추천
+    note: "대법원 어린이용 시리즈(2026-04). 정의·공정 개념 연결은 영상 내용 확인 필요."
+  - cand_no: c12
+    stage: 확장하기
+    title: "법정의 숨은 원칙 — 찰리와 함께 하는 재판 이야기 2화"
+    url: https://www.youtube.com/watch?v=vFE7TVNJY1s
+    channel: "대한민국 대법원"
+    channel_grade: public
+    duration: "5:08"
+    use: 수업 중
+    basis_code: "[6도03-02]"
+    basis_lesson: "4차시 정의로운 공동체"
+    desc: "재판청구권, 공개재판, 삼권분립, 3심제처럼 우리를 지켜 주는 법정의 원칙을 알려 줘요."
+    verdict: 추천
+    note: "어휘가 어려울 수 있어 5학년 눈높이는 운영자 확인."
+  - cand_no: c13
+    stage: 확장하기
+    title: "재판은 모두 같지 않아요 — 찰리와 함께 하는 재판 이야기 3화"
+    url: https://www.youtube.com/watch?v=14ooRRXjqas
+    channel: "대한민국 대법원"
+    channel_grade: public
+    duration: "5:59"
+    use: 수업 후
+    basis_code: "[6도03-02]"
+    basis_lesson: "4차시 정의로운 공동체"
+    desc: "돈 문제를 다루는 민사 재판과 죄를 다루는 형사 재판이 어떻게 다른지 알려 줘요."
+    verdict: 보류
+    note: "단원 초점(규칙·정의)과 거리가 있음."
+  - cand_no: c14
+    stage: 확장하기
+    title: "판사님과의 두근두근 만남 — 찰리와 함께 하는 재판 이야기 4화"
+    url: https://www.youtube.com/watch?v=1lmsMiBYiXs
+    channel: "대한민국 대법원"
+    channel_grade: public
+    duration: "5:29"
+    use: 수업 후
+    basis_code: "[6도03-02]"
+    basis_lesson: "4차시 법조인 일화"
+    desc: "좋은 판사가 되기 위한 자세와 공정한 재판의 중요성을 판사님을 만나며 알려 줘요."
+    verdict: 추천
+    note: "지도서의 법조인 일화 읽을거리를 대신할 수 있음(법질서를 지키려 애쓰는 직업인 사례)."
+  - cand_no: c15
+    stage: 확장하기
+    title: "나는야! 어린이 판사! — 어린이 법 체험실"
+    url: https://www.youtube.com/watch?v=PPpRo2EFjxg
+    channel: "대한민국 대법원"
+    channel_grade: public
+    duration: "0:50"
+    use: 수업 전
+    basis_code: "[6도03-02]"
+    basis_lesson: "4차시 정의로운 공동체"
+    desc: "법원전시관 어린이 법 체험실을 소개하는 짧은 안내 영상이에요."
+    verdict: 보류
+    note: "시설 홍보 성격이고 1분 미만."
+  - cand_no: c16
+    stage: 확장하기
+    title: "오감만족 체험 패키지! 대구민주시민교육센터"
+    url: https://www.youtube.com/watch?v=tcUhMzZ_l-Q
+    channel: "대구광역시교육청"
+    channel_grade: edu
+    local: 대구
+    duration: "6:59"
+    use: 수업 후
+    basis_code: "[6도03-02]"
+    basis_lesson: "4차시 정의로운 공동체"
+    desc: "모의법정·모의선거 같은 대구민주시민교육센터의 체험 프로그램을 소개해요."
+    verdict: 확인필요
+    note: "대구 교육청 홍보 성격(체험 신청 안내) — 학생 시청용인지 교사 안내용인지 확인 필요. 2026-08."
+  - cand_no: c17
+    stage: 탐구하기
+    title: "스무 살이 된 어린이국회"
+    url: https://www.youtube.com/watch?v=LvdZ3guuFe0
+    channel: "국회 유튜브"
+    channel_grade: public
+    duration: "3:39"
+    use: 수업 후
+    basis_code: "[6도03-02]"
+    basis_lesson: "2차시 합의 절차"
+    desc: "20주년을 맞은 어린이국회에서 어린이들이 의회민주주의를 체험하는 모습을 소개해요."
+    verdict: 보류
+    note: "어린이국회 졸업생 회고 위주라 학생용 설명으로는 약함. 새 채널(국회 유튜브)."
