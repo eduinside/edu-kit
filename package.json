@@ -10,6 +10,7 @@
     "report": "tsx scripts/report.ts",
     "changes": "tsx scripts/changes.ts",
     "seed:stats": "tsx scripts/seed-stats.ts",
+    "import": "tsx scripts/import-candidates.ts",
     "og": "python scripts/gen-og.py",
     "predev": "npm run data",
     "dev": "vite",
