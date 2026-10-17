@@ -54,6 +54,13 @@ items:
     url: https://www.youtube.com/watch?v=kA6D4d5maMo
     desc: KBS TV동화 「행복한 세상」 가운데 성실의 힘을 이야기한 작품이에요.
     channel: "KBS HUMAN : 뭉클티비"
+  - key: v7
+    stage: 생각열기
+    title: 토끼와 거북이
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=_W9iNdhjnaE
+    desc: 끝까지 꾸준히 걷는 거북이의 이야기를 만화로 보여 줘요.
+    channel: EBS 키즈
   - key: v4
     stage: 탐구하기
     title: 약속을 지키는 마음
@@ -75,6 +82,20 @@ items:
     url: https://www.youtube.com/watch?v=gIIJu9eviDU
     desc: 김정호가 만든 대동여지도가 어떤 지도인지 보여 주는 영상이에요.
     channel: 국가유산채널(K-Heritage Channel)
+  - key: v8
+    stage: 확장하기
+    title: 편리하고 정확한 조선시대 지도 대동여지도
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=UVsDddU4o3s
+    desc: 큰별쌤이 대동여지도와 김정호를 소개하는 어린이 역사 프로그램이에요.
+    channel: KBSKids
+  - key: v9
+    stage: 확장하기
+    title: 스쿨랜드 틴틴인터뷰 이봉주
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=FQJVyKl2ex8
+    desc: 마라톤 선수 이봉주의 어린 시절과 도전을 인터뷰로 들어요.
+    channel: EBS 키즈
 quiz:
   - statement: 성실하게 사는 일의 값어치는 결과보다 과정의 정성과 노력에 있다.
     answer: O

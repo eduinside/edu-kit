@@ -89,6 +89,13 @@ items:
     url: https://www.youtube.com/watch?v=3Ah5gR60ic8
     desc: 이웃 어르신께 감사를 전하며 함께 어버이날을 보낸 이야기를 전해요.
     channel: KBS뉴스 대구경북
+  - key: v9
+    stage: 확장하기
+    title: 아빠와 함께한 계절
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=R34j7zObB-0
+    desc: 치매를 앓는 아버지와 함께한 계절을 사진으로 기록한 이야기를 지식채널e로 만나요.
+    channel: EBSCulture (EBS 교양)
 quiz:
   - statement: 가족의 모습과 행복의 모양은 집마다 다를 수 있다.
     answer: O

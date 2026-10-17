@@ -223,3 +223,19 @@ candidates:
     desc: "행복은 곁에 있는 가족이라는 메시지를 담은 짧은 영상이에요."
     verdict: 보류
     note: "대구 지역 매체 문화사업 홍보 영상(2016), 연인·부부 이야기가 섞임."
+  - cand_no: c15
+    stage: 확장하기
+    title: "아빠와 함께한 계절"
+    video_title: "지식채널e - 아빠와 함께한 계절"
+    url: https://www.youtube.com/watch?v=R34j7zObB-0
+    channel: "EBSCulture (EBS 교양)"
+    channel_grade: edu
+    duration: "4:28"
+    use: 수업 후
+    basis_code: "[4도02-01]"
+    basis_lesson: "4차시 소중한 순간"
+    desc: "치매를 앓는 아버지와 함께한 계절을 사진으로 기록한 이야기를 지식채널e로 만나요."
+    verdict: 채택
+    reviewer: 운영자
+    note: "운영자 지시(10/18)로 추가. 지도서 인용 영상이지만 치매 부모 이야기라 3학년에게 무거울 수 있어 교사의 사전 안내가 필요."
+
