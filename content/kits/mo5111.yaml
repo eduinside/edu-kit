@@ -1,0 +1,86 @@
+id: mo5111
+title: 1. 내 삶의 주인이 되는 나
+grade: 5
+sem: 1학기
+subject: 도덕
+unit: 1단원
+unit_no: 1
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 자주적인 삶은 내 마음대로 하는 것이 아니라, 스스로 생각해서 결정하고 그 결과에 책임을 지는 삶이에요. 작은 일부터 계획을 세워 실천하며 내 삶의 주인이 될 수 있어요.
+  core_question: 나는 내 삶의 주인으로서 오늘 무엇을 스스로 정하고 실천할 수 있을까?
+  concepts:
+    - term: 자주
+      def: 자주는 다른 사람에게 기대지 않고 스스로 생각해서 결정하고 행동하는 것이에요. 마음대로 하는 것과는 달라요.
+    - term: 결정
+      def: 여러 가지 가운데 무엇을 할지 스스로 생각해서 정하는 것이에요.
+    - term: 책임
+      def: 내가 한 결정과 행동의 결과를 피하지 않고 받아들이고, 잘못되었으면 바로잡으려고 애쓰는 것이에요.
+    - term: 계획
+      def: 무엇을, 언제, 어떻게 할지 미리 생각해서 정해 두는 것이에요. 작은 일부터 짧은 기간으로 세우면 지키기 쉬워요.
+    - term: 실천
+      def: 실천은 알게 된 것을 생각으로만 그치지 않고 직접 행동으로 옮기는 것이에요. 내가 세운 계획을 하루하루 지켜 가는 것도 실천이에요.
+  standards:
+    - code: "[6도01-01]"
+      text: 자주적인 삶에 대한 이해를 바탕으로 자신의 생활계획을 세우고 실천하여 주체적인 삶의 태도를 기른다.
+stages:
+  - name: 탐구하기
+    question: 자주적인 삶은 왜 필요하고, 어떻게 실천할까?
+  - name: 확장하기
+    question: 자주적으로 산 사람에게서 무엇을 본받을 수 있을까?
+items:
+  - key: v1
+    stage: 탐구하기
+    title: 학생이 이끄는 탐구 학습 — 천내초등학교
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=WLSuZ5XCMCY
+    desc: 대구 천내초등학교 학생들이 스스로 주제를 정해 탐구하는 학습을 전해요.
+    channel: ch B tv 대구
+  - key: v2
+    stage: 확장하기
+    title: 독립을 위해 만세를 외친 소녀, 유관순
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=qPREqBJ4osA
+    desc: 독립운동가 유관순이 스스로 선택하고 행동한 이야기를 독립기념관 교육콘텐츠로 만나요.
+    channel: 독립기념관 The Independence Hall of Korea
+  - key: v3
+    stage: 확장하기
+    title: 잊지 말아야 할 독립운동가 — 유관순
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=IklbsjwyYr8
+    desc: 이화학당 학생이던 유관순 열사와 친구들이 3·1운동에 참여한 이야기예요.
+    channel: 국가보훈부
+  - key: v4
+    stage: 확장하기
+    title: 산수화 걸작 한자리에 — 실경산수로 만나는 조선
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Yklr3ILY_PA
+    desc: 조선 화가 겸재 정선과 단원 김홍도가 우리 금수강산을 직접 보고 그린 실경산수화를 소개해요.
+    channel: KBS News
+quiz:
+  - statement: 자주는 다른 사람에게 기대지 않고 스스로 생각해서 결정하고 행동하는 것이다.
+    answer: O
+    explain: 자주적인 사람은 스스로 판단해서 정하고 행동해요.
+  - statement: 내 마음대로 하거나 고집을 부리는 것도 자주적인 삶이다.
+    answer: X
+    explain: 자주는 마음대로 하는 것이 아니라, 스스로 판단하고 그 결과에 책임지는 것이에요.
+  - statement: 자주적인 사람은 자기가 한 결정에 책임을 진다.
+    answer: O
+    explain: 결정과 책임은 함께여야 자주적인 삶이 돼요.
+  - statement: 친구들이 모두 하는 유행을 따르면 언제나 자주적인 선택이다.
+    answer: X
+    explain: 스스로 생각해서 고른 것이 아니라 남을 따라가기만 하면 자주적인 선택이 아니에요.
+  - statement: 실천 계획은 작은 일부터 짧은 기간으로 세우면 지켜 가기 쉽다.
+    answer: O
+    explain: 작고 짧은 계획부터 시작하면 꾸준히 실천하기 좋아요.
+  - statement: 어른이 시킨 일을 하면 모두 자주적이지 않은 행동이다.
+    answer: X
+    explain: 시킨 일이라도 까닭을 이해하고 스스로 판단해서 하면 자주적일 수 있어요.
+  - statement: 가족이나 친구 가운데에서도 자주적으로 사는 모습을 본받을 사람을 찾을 수 있다.
+    answer: O
+    explain: 본받을 사람은 위인뿐 아니라 가까운 가족이나 친구에게서도 찾을 수 있어요.
+  - statement: 자주적인 삶은 힘들기만 할 뿐 좋은 점은 없다.
+    answer: X
+    explain: 어려움도 있지만 내 삶을 스스로 이끌어 가는 보람과 성장이 있어요.
