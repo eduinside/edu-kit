@@ -1,0 +1,118 @@
+id: mo5261
+title: 6. 공동체를 정의롭게!
+grade: 5
+sem: 2학기
+subject: 도덕
+unit: 6단원
+unit_no: 6
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 공동체의 규칙은 구성원이 공정한 절차로 함께 만들고 써 보며 고쳐 가는 약속이고, 공정한 규칙과 이를 지키려는 마음이 정의로운 공동체의 바탕이 돼요.
+  core_question: 우리가 함께 지킬 규칙은 어떻게 만들어야 공정할까?
+  concepts:
+    - term: 규칙
+      def: 여럿이 함께 살아갈 때 서로 지키기로 약속한 것이에요. 규칙이 있으면 다툼을 줄이고 모두가 편하게 지낼 수 있어요.
+    - term: 공정
+      def: 어느 한쪽으로 치우치지 않고 모든 사람을 똑같은 기준으로 대하는 것이에요. 규칙을 만들고 지킬 때 꼭 필요한 마음가짐이에요.
+    - term: 합의
+      def: 서로 다른 생각을 가진 사람들이 이야기를 나누어 모두가 받아들일 수 있는 결론에 이르는 것이에요.
+    - term: 다수결
+      def: 여러 사람의 의견이 갈릴 때 더 많은 사람이 고른 쪽으로 정하는 방법이에요. 적은 수의 의견도 충분히 들어 본 뒤에 써야 해요.
+    - term: 정의
+      def: 모든 사람이 공정하게 대우받고 마땅한 권리를 누리는 것을 말해요. 정의로운 공동체에서는 규칙과 법이 모두에게 똑같이 적용돼요.
+    - term: 법
+      def: 나라가 정해 모든 국민이 지키도록 한 규칙이에요. 사람들의 권리를 지키고 사회의 질서를 유지하게 해 줘요.
+  standards:
+    - code: "[6도03-02]"
+      text: 정의에 관한 관심을 토대로 공동체 규칙의 중요성을 살펴보고 직접 공정한 규칙을 고안하며 기초적인 시민의식을 기른다.
+stages:
+  - name: 생각열기
+    question: 공동체에는 규칙이 왜 필요할까?
+  - name: 탐구하기
+    question: 공정한 규칙은 어떤 절차로 함께 만들고 고쳐 갈까?
+  - name: 확장하기
+    question: 정의로운 공동체는 어떤 모습일까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 왜 규칙을 지켜야 할까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=bSTssxJilRk
+    desc: 공동체에서 규칙을 왜 지켜야 하는지 책임 있는 행동과 공동체 의식의 관점에서 알아봐요.
+    channel: 국가기초학력지원센터
+  - key: v2
+    stage: 탐구하기
+    title: 모두가 함께 정하는 놀이터 민주주의
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=t5QGEqZ2Qn4
+    desc: 놀이터가 좁아 속상한 동물 친구들이 의견을 모아 함께 정하는 과정을 동화로 보여 줘요.
+    channel: 중앙선거관리위원회
+  - key: v3
+    stage: 탐구하기
+    title: 학교의 문제, 민주적으로 해결해요!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=FhQpfrTJr8c
+    desc: 학교의 문제를 서로 의견을 나누고 민주적인 방법으로 해결하는 모습을 보여 줘요.
+    channel: 중앙선거관리위원회
+  - key: v4
+    stage: 탐구하기
+    title: 진짜 법을 만드는 어린이들
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=VFx2lrznt-k
+    desc: 어린이들이 직접 법을 만들어 보는 활동을 소개하는 뉴스예요.
+    channel: EBS뉴스
+  - key: v5
+    stage: 탐구하기
+    title: 존중과 합의, 어린이들이 만든 지방의회
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=vyN0N04qP28
+    desc: 대구 달서구의회에서 열린 어린이 열린 의회에서 아이들이 존중하고 합의하는 모습을 전해요.
+    channel: ch B tv 대구
+  - key: v6
+    stage: 확장하기
+    title: 왕의 재판에서 오늘의 법정까지 — 찰리와 함께 하는 재판 이야기 1화
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=VUxsjSP3hVs
+    desc: 옛날 왕의 재판부터 오늘날의 공정한 사법제도까지 재판이 어떻게 달라졌는지 알려 줘요.
+    channel: 대한민국 대법원
+  - key: v7
+    stage: 확장하기
+    title: 법정의 숨은 원칙 — 찰리와 함께 하는 재판 이야기 2화
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=vFE7TVNJY1s
+    desc: 재판청구권, 공개재판, 삼권분립, 3심제처럼 우리를 지켜 주는 법정의 원칙을 알려 줘요.
+    channel: 대한민국 대법원
+  - key: v8
+    stage: 확장하기
+    title: 판사님과의 두근두근 만남 — 찰리와 함께 하는 재판 이야기 4화
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=1lmsMiBYiXs
+    desc: 좋은 판사가 되기 위한 자세와 공정한 재판의 중요성을 판사님을 만나며 알려 줘요.
+    channel: 대한민국 대법원
+quiz:
+  - statement: 공동체의 규칙은 어른이 정해 주는 것이라서 구성원이 함께 만들 수 없다.
+    answer: X
+    explain: 규칙은 구성원이 함께 이야기하고 합의해서 만들 수 있고, 써 보다가 고치기도 해요.
+  - statement: 규칙이 있으면 구성원 사이의 다툼을 줄이고 모두가 편하게 지낼 수 있다.
+    answer: O
+    explain: 규칙은 서로 지키기로 한 약속이라서 갈등을 줄이는 데 도움이 돼요.
+  - statement: 한 번 정한 규칙은 완벽하므로 고치면 안 된다.
+    answer: X
+    explain: 규칙을 써 보면서 허점이 보이면 더 공정하게 고칠 수 있어요.
+  - statement: 규칙을 만들 때는 그 규칙을 적용받는 사람의 처지에서 불이익이 없는지 살펴보아야 한다.
+    answer: O
+    explain: 공정한 규칙은 적용받는 모든 사람의 입장을 생각해서 만들어야 해요.
+  - statement: 다수결로 정하면 소수의 의견은 들어 보지 않아도 된다.
+    answer: X
+    explain: 다수결을 하더라도 적은 수의 의견을 충분히 듣고 존중한 뒤에 정해야 해요.
+  - statement: 합의는 서로 다른 생각을 가진 사람들이 이야기를 나누어 함께 받아들일 결론에 이르는 것이다.
+    answer: O
+    explain: 합의는 의견을 나누어 모두가 받아들일 수 있는 결론을 찾는 과정이에요.
+  - statement: 공정한 규칙은 모든 사람을 똑같은 기준으로 대하는 규칙이다.
+    answer: O
+    explain: 공정은 한쪽으로 치우치지 않고 모두에게 같은 기준을 적용하는 거예요.
+  - statement: 법은 나라가 정한 규칙이라서 사람들의 권리를 지키는 일과는 관계가 없다.
+    answer: X
+    explain: 법은 사람들의 권리를 지키고 사회의 질서를 유지하기 위해 만든 규칙이에요.
