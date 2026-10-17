@@ -1,0 +1,174 @@
+id: mo5251
+title: 5. 모두에게 인권을
+grade: 5
+sem: 2학기
+subject: 도덕
+unit: 5단원
+unit_no: 5
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 인권은 모든 사람이 사람답게 살 수 있도록 지켜져야 하는 소중한 권리이고, 다른 사람의 처지에 공감하며 차별하지 않는 태도가 인권을 지키는 힘이 돼요.
+  core_question: 모두의 인권을 지키려면 나는 어떤 말과 행동부터 바꿀 수 있을까?
+  concepts:
+    - term: 인권
+      def: 인권은 사람이라면 누구나 태어날 때부터 똑같이 가지는 소중한 권리예요. 나이, 성별, 피부색에 상관없이 모든 사람이 마땅히 누려야 해요.
+    - term: 아동 권리
+      def: 어린이가 건강하게 자라고, 보호받고, 자기 생각을 말하며 놀 수 있도록 정해 둔 어린이의 권리예요. 유엔 아동권리협약에 담겨 있어요.
+    - term: 차별
+      def: 성별, 나이, 장애, 나라 같은 이유로 어떤 사람을 정당한 까닭 없이 다르게 대하고 불리하게 하는 일이에요.
+    - term: 인권 침해
+      def: 인권 침해는 누군가의 소중한 권리를 함부로 무시하거나 빼앗는 것을 말해요. 차별을 받거나 부당하게 따돌림을 당하는 일이 여기에 해당해요.
+    - term: 공감
+      def: 다른 사람의 처지와 마음을 헤아리고, 그 사람이 느끼는 것을 함께 느껴 보려는 마음이에요.
+    - term: 배리어 프리
+      def: 장애가 있거나 몸이 불편한 사람도 어려움 없이 지낼 수 있도록 계단 같은 장벽을 없애는 것이에요.
+  standards:
+    - code: "[6도03-01]"
+      text: 인권과 관련된 다양한 사례를 살펴보고 인권에 관한 감수성을 길러 이를 실천하려는 의지를 함양한다.
+stages:
+  - name: 생각열기
+    question: 인권은 왜 소중하고, 어떻게 넓어져 왔을까?
+  - name: 탐구하기
+    question: 어린이의 인권은 어떻게 지켜져야 하고, 우리 둘레의 인권 침해는 무엇일까?
+  - name: 확장하기
+    question: 다른 사람의 처지에 공감하며 인권을 존중하는 모습은 어떤 걸까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 세계인권선언의 탄생
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Cqu-6LbXeZc
+    desc: 세계인권선언이 만들어지기까지 인권이 넓어져 온 과정을 정리해 보여 줘요.
+    channel: 국가인권위원회
+  - key: v2
+    stage: 생각열기
+    title: 아동인권, 어린 아동이라면 괜찮다?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Lt7LicDC6MY
+    desc: 어린이도 어른과 같은 사람이라는 점에서 아동 인권을 지켜야 한다고 짧게 알려 줘요.
+    channel: 국가인권위원회
+  - key: v3
+    stage: 생각열기
+    title: 학생인권 초등 1화 인권, 넌 누구
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=eN_fuoq3_Rk
+    desc: 인권이 무엇인지 초등학생 눈높이로 처음 만나 보는 서울시교육청 학생인권 시리즈 1화예요.
+    channel: 서울시교육청TV
+  - key: v4
+    stage: 탐구하기
+    title: 학생인권 초등 8화 권리와 책임은 단짝 친구
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ioVv14tO4-Q
+    desc: 내 권리를 지키려면 다른 사람의 권리와 책임도 함께 생각해야 한다는 이야기예요.
+    channel: 서울시교육청TV
+  - key: v5
+    stage: 탐구하기
+    title: 우리의 권리, 우리가 지켜요!(2분 수업 끝)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=adu7ZVwplSM
+    desc: 인권이 무엇인지와 유엔 아동권리협약이 말하는 아동의 네 가지 권리를 알려 줘요.
+    channel: 전북수업샘터
+  - key: v6
+    stage: 탐구하기
+    title: 우리 모두 권리가 있어요! 아동권리 교육영상
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=pgT8Z8EpKZo
+    desc: 마포구가 어린이를 위해 만든 아동 권리 교육 영상으로, 어린이에게 어떤 권리가 있는지 알려 줘요.
+    channel: my Mapo마포구
+  - key: v7
+    stage: 탐구하기
+    title: 학생인권 초등 7화 차별일까 차이일까
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=e07Wnxts41w
+    desc: 다른 점을 차별로 보아야 할 때와 차이로 받아들일 때를 구분해 봐요.
+    channel: 서울시교육청TV
+  - key: v8
+    stage: 탐구하기
+    title: 학생인권 초등 3화 다를까? 틀릴까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=hRjocQkE3UE
+    desc: 나와 다른 것을 틀렸다고 말하는 것과 다르다고 말하는 것의 차이를 알아봐요.
+    channel: 서울시교육청TV
+  - key: v9
+    stage: 탐구하기
+    title: 인권지킴이 지키 — 혐오와 차별편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=g8xkO7AHJ3g
+    desc: 혐오와 차별이 왜 인권을 해치는지 보여 주는 인권 존중 학교용 애니메이션이에요.
+    channel: 충남교육청
+  - key: v10
+    stage: 확장하기
+    title: 어린이와 함께하는 이동약자 체험
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=49wYfBMPvhQ
+    desc: 어린이가 이동하기 불편한 사람의 입장을 체험하며 모두를 위한 디자인을 생각해 봐요.
+    channel: 서울디자인재단 유니버설디자인
+  - key: v11
+    stage: 확장하기
+    title: 배리어프리 vs 유니버설디자인, 뭐가 다를까?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=H8RZBc8HPzs
+    desc: 장벽을 없애는 배리어 프리와 처음부터 모두를 생각하는 유니버설 디자인이 어떻게 다른지 짧게 알려 줘요.
+    channel: 대한민국 대법원
+  - key: v12
+    stage: 확장하기
+    title: 유니버설디자인 — 돌이와 소리 가족의 외출(수어 포함)
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Q9n090yWjpM
+    desc: 누구나 편하게 쓸 수 있는 유니버설 디자인을 가족의 외출 이야기로 보여 주는 수어 포함 영상이에요.
+    channel: 제주도TV·Jeju
+  - key: v13
+    stage: 확장하기
+    title: 학교에선 장애 이해 교육 — 공감 높인다
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=cPvzf0kHjnM
+    desc: 학교에서 장애 이해 교육으로 서로 공감하는 마음을 키우는 모습을 전하는 대구경북 뉴스예요.
+    channel: KBS뉴스 대구경북
+  - key: v14
+    stage: 확장하기
+    title: 편견과 차별 — 휠체어 체험(VR)
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=KBK50p5vjzc
+    desc: 휠체어를 탄 사람의 불편을 가상 현실로 체험해 편견과 차별 문제를 생각해 봐요.
+    channel: "디지털교과서와 함께하는 우리학교 "
+  - key: v15
+    stage: 확장하기
+    title: 한국수어, 대한민국 농인의 공용어
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=QNRoTcnJWf0
+    desc: 수어가 농인이 쓰는 우리나라의 공용어라는 것을 알려 주는 공공 영상이에요.
+    channel: 국립국어원
+  - key: v16
+    stage: 확장하기
+    title: 한국수어 인식개선 홍보 영상
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=BjOPmIcC_fo
+    desc: 한국수어에 대한 인식을 바꾸자는 국립국어원의 홍보 영상이에요.
+    channel: 국립국어원
+quiz:
+  - statement: 인권은 나이와 상관없이 사람이라면 누구나 가지는 소중한 권리이다.
+    answer: O
+    explain: 인권은 나이, 성별, 피부색에 상관없이 모든 사람이 똑같이 가지는 소중한 권리예요.
+  - statement: 어린이는 아직 어리기 때문에 어른이 가지는 인권을 가지지 못한다.
+    answer: X
+    explain: 어린이도 어른과 똑같은 사람이라서 인권이 있어요. 게다가 어린이는 특별히 보호받을 권리도 가져요.
+  - statement: 유엔 아동권리협약은 어린이의 권리를 지키기 위해 만들어졌다.
+    answer: O
+    explain: 유엔 아동권리협약은 어린이가 건강하게 자라고 보호받을 수 있도록 어린이의 권리를 정해 둔 약속이에요.
+  - statement: 내 인권을 지키는 일이 중요하니 다른 사람의 인권은 생각하지 않아도 된다.
+    answer: X
+    explain: 내 인권만큼 다른 사람의 인권도 소중해서, 서로의 권리를 함께 지켜야 해요.
+  - statement: 나와 다른 점을 '틀렸다'고 말하는 것은 상대를 존중하지 않는 말이 될 수 있다.
+    answer: O
+    explain: 다른 것은 틀린 것이 아니라 서로 다르다는 뜻이에요. '틀렸다'고 말하면 상대의 마음을 다치게 할 수 있어요.
+  - statement: 성별이나 나이, 장애 때문에 정당한 까닭 없이 사람을 다르게 대하는 것을 차별이라고 한다.
+    answer: O
+    explain: 정당한 까닭 없이 사람을 다르게 대하고 불리하게 하는 것이 차별이에요.
+  - statement: 배리어 프리는 몸이 불편한 사람이 쓰는 특별한 물건을 말한다.
+    answer: X
+    explain: 배리어 프리는 물건이 아니라, 계단 같은 장벽을 없애서 누구나 불편 없이 지내게 하는 것을 말해요.
+  - statement: 휠체어를 탄 사람의 입장을 체험해 보면 그 사람의 불편함을 더 잘 이해할 수 있다.
+    answer: O
+    explain: 직접 체험하면 불편함을 더 잘 알게 되고, 공감하는 마음도 커져요.
