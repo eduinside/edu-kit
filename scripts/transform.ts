@@ -15,7 +15,7 @@ const KitSchema = z.object({
   title: z.string().min(1),
   grade: z.union([z.literal(3), z.literal(4), z.literal(5), z.literal(6)]),
   sem: z.enum(["1학기", "2학기"]),
-  subject: z.enum(["사회", "과학"]),
+  subject: z.enum(["사회", "과학", "도덕", "실과"]),
   unit: z.string().min(1),
   unit_no: z.number().int().positive(),
   flow: z.enum(["activity", "flow"]),
