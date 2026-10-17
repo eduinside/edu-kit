@@ -104,7 +104,7 @@ for (const f of files) {
   const stageNames = kit.stages.map((s) => (typeof s === "string" ? s : s.name));
   if (new Set(stageNames).size !== stageNames.length) errors.push("단계 이름 중복");
   const standards: { code: string; text: string }[] = [];
-  const band = kit.grade <= 4 ? "3-4" : "5-6";
+  const band = kit.grade <= 2 ? "1-2" : kit.grade <= 4 ? "3-4" : "5-6";
   for (const code of kit.codes) {
     const r = refByCode.get(code);
     if (!r) { errors.push(`성취기준 ${code}가 기준표에 없음`); continue; }
