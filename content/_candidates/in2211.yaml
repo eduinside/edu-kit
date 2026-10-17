@@ -1,0 +1,107 @@
+# in2211 후보 기록 — 통합 2학년 2학기 1단원 「계절」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in2211 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 공공·교육 채널에 '계절' 주제 영상이 적어 공개를 보류하고 검색 쿼터가 풀린 뒤 보완한다.
+kit:
+  id: "in2211"
+  title: "1. 계절"
+  grade: 2
+  sem: "2학기"
+  subject: "통합"
+  unit: "1단원"
+  unit_no: 1
+  flow: "activity"
+  published: false
+  codes: ["[2바03-02]", "[2슬03-02]", "[2즐03-02]"]
+  core_idea: "봄, 여름, 가을, 겨울마다 날씨와 자연, 우리 생활이 달라져요. 계절의 변화를 알고 건강하게 지내며 계절을 즐길 수 있어요."
+  core_question: "계절이 바뀌면 우리 생활은 어떻게 달라질까?"
+  stages:
+    - name: 생각열기
+      question: "계절마다 무엇이 달라질까?"
+    - name: 탐구하기
+      question: "계절에 따라 생활은 어떻게 달라질까?"
+    - name: 확장하기
+      question: "계절을 건강하고 안전하게 즐기려면?"
+  concepts:
+    - "계절"
+    - "날씨"
+    - "절기"
+    - "감기"
+    - "변화"
+  source_notes: "정리본 통합2-2.국정.계절(주제 20차시 7~26) · 영상류: 동식물 사진·영상·일기 예보·감기·기침 예절 영상 · 기관: 기상청·보건복지부·EBS 키즈·국립중앙박물관"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "가을에 나뭇잎은 왜 색이 변할까요?"
+    video_title: "[어린이의 질문 20] 가을이 되면 나뭇잎의 색이 왜 변하는 거에요?"
+    url: https://www.youtube.com/watch?v=Z6T9pN7s_Mk
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "2:26"
+    use: 수업 전
+    basis_code: "[2슬03-02]"
+    basis_lesson: "13~15차시 계절은 무슨 색"
+    desc: "가을에 나뭇잎 색이 변하는 까닭을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "2분 26초(2021). 자연(in2121)과 같은 영상."
+  - cand_no: c02
+    stage: 생각열기
+    title: "추울 때 왜 입김이 나올까요?"
+    video_title: "[어린이의 질문 6] 왜 추울 때 입김이 나오나요?"
+    url: https://www.youtube.com/watch?v=IoXkZZfTwy4
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "2:58"
+    use: 수업 전
+    basis_code: "[2슬03-02]"
+    basis_lesson: "겨울"
+    desc: "추운 날 입김이 나오는 까닭을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "2분 58초(2021)."
+  - cand_no: c03
+    stage: 탐구하기
+    title: "동물들의 슬기로운 겨울 생활"
+    video_title: "동물들의 슬기로운 겨울 생활│키즈과학콘텐츠│키즈사이언스뉴스(KSN) 13화"
+    url: https://www.youtube.com/watch?v=jXA-7wuJgBI
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "3:42"
+    use: 수업 중
+    basis_code: "[2슬03-02]"
+    basis_lesson: "10차시 사계절 친구들"
+    desc: "동물들이 추운 겨울을 어떻게 보내는지 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "3분 42초(2022). 키즈사이언스뉴스 13화."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "한여름에도 숲은 왜 시원할까요?"
+    video_title: "[어린이의 질문 27] 한여름에도 숲에 들어가면 시원한 이유가 궁금해요"
+    url: https://www.youtube.com/watch?v=NGW8eqFOKUw
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "2:39"
+    use: 수업 중
+    basis_code: "[2슬03-02]"
+    basis_lesson: "여름"
+    desc: "한여름에도 숲속이 시원한 까닭을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "2분 39초(2021). 자연(in2121)과 같은 영상."
+  - cand_no: c05
+    stage: 확장하기
+    title: "감기와 독감"
+    video_title: "EBS디딤돌 - [건강/위생] 감기와 독감 (6~12세)"
+    url: https://www.youtube.com/watch?v=AYqWfVNFJwc
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "6:29"
+    use: 수업 후
+    basis_code: "[2바03-02]"
+    basis_lesson: "37차시 안전(감기)"
+    desc: "감기와 독감이 어떻게 다른지 알려 줘요."
+    verdict: 보류
+    note: "6분 29초(6~12세). 지도서가 가리킨 EBS 키즈 영상 — 안전·건강 차시라 주제 중심 지시로 보류."

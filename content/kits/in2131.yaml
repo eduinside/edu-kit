@@ -1,0 +1,79 @@
+id: in2131
+title: 3. 마을
+grade: 2
+sem: 1학기
+subject: 통합
+unit: 3단원
+unit_no: 3
+flow: activity
+sort_order: 1
+published: false
+intro:
+  core_idea: 마을에는 여러 곳과 여러 사람이 있고 서로 도우며 살아가요. 마을을 잘 알고 안전하게 다니며 내가 할 수 있는 일을 하면 마을이 더 좋아져요.
+  core_question: 우리 마을을 어떻게 알아보고, 마을을 위해 무엇을 할 수 있을까?
+  concepts:
+    - term: 마을
+      def: 집, 가게, 학교 같은 곳이 모여 있어 사람들이 함께 사는 곳이에요.
+    - term: 이웃
+      def: 가까이에 사는 사람들이에요.
+    - term: 우체국
+      def: 편지와 소포를 받아서 전해 주는 곳이에요.
+    - term: 소방서
+      def: 불이 났을 때 불을 끄고 사람을 도와주는 곳이에요.
+    - term: 약속
+      def: 서로 지키기로 한 말이에요.
+  standards:
+    - code: "[2바02-01]"
+      text: 공동체에서 내가 할 수 있는 일을 찾아보고 실천한다.
+    - code: "[2슬02-01]"
+      text: 우리가 살고 있는 마을과 사람들이 생활하는 모습을 살펴본다.
+    - code: "[2즐02-01]"
+      text: 내가 참여할 수 있는 문화 예술을 향유한다.
+stages:
+  - name: 생각열기
+    question: 우리 마을에는 어떤 곳과 사람이 있을까?
+  - name: 탐구하기
+    question: 마을을 어떻게 알아보고 안전하게 다닐까?
+  - name: 확장하기
+    question: 우리 마을을 위해 무엇을 할 수 있을까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 우체국은 어떤 일을 할까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=LkRuTZhHiT0
+    desc: 우체국이 어떤 곳이고 어떤 일을 하는지 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v2
+    stage: 생각열기
+    title: 소방서는 어떤 일을 할까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=J82sIo1LHhU
+    desc: 소방서가 어떤 곳이고 어떤 일을 하는지 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v3
+    stage: 생각열기
+    title: 우체국에서는 어떤 일을 할까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=lk5gkQ78K0U
+    desc: 편지와 소포를 받아서 전해 주는 우체국이 어떤 곳이고 어떤 일을 하는지 애니메이션으로 알려 줘요.
+    channel: 우체국
+quiz:
+  - statement: 마을에는 학교, 가게, 병원 같은 여러 곳이 있어요.
+    answer: O
+    explain: 마을에는 사람들이 쓰는 여러 곳이 있어요.
+  - statement: 우체국은 편지와 소포를 전해 줘요.
+    answer: O
+    explain: 집배원이 편지와 소포를 집까지 가져다줘요.
+  - statement: 소방서는 불이 났을 때 도와줘요.
+    answer: O
+    explain: 소방관이 불을 끄고 사람을 구해 줘요.
+  - statement: 마을 사람들은 서로 도우며 살아요.
+    answer: O
+    explain: 서로 도우면 마을이 더 좋아져요.
+  - statement: 마을은 나와 아무 상관이 없어요.
+    answer: X
+    explain: 마을은 나도 함께 사는 곳이에요.
+  - statement: 길을 건널 때는 신호를 보지 않아도 돼요.
+    answer: X
+    explain: 신호를 보고 좌우를 살펴요.

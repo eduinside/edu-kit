@@ -1,0 +1,35 @@
+id: in2231
+title: 3. 기억
+grade: 2
+sem: 2학기
+subject: 통합
+unit: 3단원
+unit_no: 3
+flow: activity
+sort_order: 1
+published: false
+intro:
+  core_idea: 지난 일을 되돌아보면 기억에 남는 경험과 자란 나를 알 수 있어요. 앞으로의 배움을 기대하며 새 학년을 준비해요.
+  core_question: 지난 한 해를 어떻게 돌아보고 다음 학년을 준비할까?
+  concepts:
+    - term: 기억
+    - term: 돌아보기
+    - term: 감사
+    - term: 성장
+    - term: 새 학년
+  standards:
+    - code: "[2바04-04]"
+      text: 지금까지의 생활 습관과 학습 습관을 되돌아본다.
+    - code: "[2슬04-04]"
+      text: 배운 것과 배울 것을 연결하며 앞으로의 배움을 상상한다.
+    - code: "[2즐04-04]"
+      text: 기억에 남는 경험을 떠올리며 의미를 부여한다.
+stages:
+  - name: 생각열기
+    question: 기억에 남는 일은 무엇일까?
+  - name: 탐구하기
+    question: 지나온 한 해를 어떻게 돌아볼까?
+  - name: 확장하기
+    question: 다음 학년을 어떻게 기다리고 준비할까?
+items: []
+quiz: []

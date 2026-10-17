@@ -1,0 +1,117 @@
+id: in1131
+title: 3. 우리나라
+grade: 1
+sem: 1학기
+subject: 통합
+unit: 3단원
+unit_no: 3
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 우리나라에는 태극기, 무궁화, 한글처럼 소중한 것이 많아요. 우리나라의 놀이와 노래, 명절을 알고 즐기면 우리나라를 더 사랑하게 돼요.
+  core_question: 우리나라의 소중한 것은 무엇일까?
+  concepts:
+    - term: 태극기
+      def: 우리나라를 나타내는 깃발이에요.
+    - term: 무궁화
+      def: 우리나라를 대표하는 꽃이에요.
+    - term: 한글
+      def: 세종대왕이 만든 우리나라 글자예요.
+    - term: 명절
+      def: 설날, 추석처럼 해마다 가족이 함께 즐기는 특별한 날이에요.
+    - term: 민요
+      def: 옛날부터 사람들이 불러 온 노래예요.
+  standards:
+    - code: "[2바02-02]"
+      text: 우리나라의 소중함을 알고 사랑하는 마음을 기른다.
+    - code: "[2슬02-02]"
+      text: 우리나라의 모습이나 문화를 조사한다.
+    - code: "[2즐02-02]"
+      text: 우리나라의 문화 예술을 즐긴다.
+stages:
+  - name: 생각열기
+    question: 우리나라는 어떤 모습일까?
+  - name: 탐구하기
+    question: 우리나라의 소중한 것들은 무엇일까?
+  - name: 확장하기
+    question: 우리나라를 어떻게 느끼고 즐길까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 태극기를 알고 있나요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=o8by9tP2J3k
+    desc: 태극기에 담긴 뜻을 알려 줘요.
+    channel: 국립평화통일민주교육원
+  - key: v2
+    stage: 생각열기
+    title: 무궁화는 어떻게 우리나라 꽃이 되었을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=2tjcqO2rVCw
+    desc: 무궁화가 어떻게 우리나라를 대표하는 꽃이 되었는지 어린이과학뉴스로 알려 줘요.
+    channel: 국립과천과학관
+  - key: v3
+    stage: 탐구하기
+    title: 세종대왕과 함께 부르는 훈민정음가
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Uvfzgvkpmfs
+    desc: 세종대왕과 함께 훈민정음 노래를 따라 불러요.
+    channel: 국립한글박물관
+  - key: v4
+    stage: 탐구하기
+    title: 세종대왕은 미래를 알고 있었을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HPPpiTuILz4
+    desc: 세종대왕이 한글을 만든 까닭을 만화로 알려 줘요.
+    channel: 국립한글박물관
+  - key: v5
+    stage: 탐구하기
+    title: ㄱ, ㄴ, ㄷ 이름은 누가 붙였을까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qhSONxqUSLA
+    desc: 한글 자음 이름이 어떻게 생겼는지 만화로 알려 줘요.
+    channel: 국립한글박물관
+  - key: v6
+    stage: 탐구하기
+    title: 추석에 즐기는 전통놀이
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Qpk4dfl0HBo
+    desc: 추석에 즐길 수 있는 전통놀이를 소개해요.
+    channel: 교육부
+  - key: v7
+    stage: 탐구하기
+    title: 교과서 속 우리 음악 — 아리랑
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=hKFxLkcqEpI
+    desc: 민요 아리랑을 소개하고 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v8
+    stage: 탐구하기
+    title: 탈, 춤으로 잇다 — 봉산탈춤
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=LqPlpOLEd7k
+    desc: 봉산탈춤의 탈과 춤을 보여 줘요.
+    channel: 국가유산청 Korea Heritage Service
+quiz:
+  - statement: 태극기는 우리나라를 나타내는 깃발이에요.
+    answer: O
+    explain: 태극기에는 우리나라의 뜻이 담겨 있어요.
+  - statement: 무궁화는 우리나라를 대표하는 꽃이에요.
+    answer: O
+    explain: 무궁화는 우리나라 꽃이에요.
+  - statement: 한글은 외국에서 들어온 글자예요.
+    answer: X
+    explain: 한글은 세종대왕이 만든 우리나라 글자예요.
+  - statement: 추석은 우리나라의 명절이에요.
+    answer: O
+    explain: 추석에는 가족이 모여 함께 지내요.
+  - statement: 아리랑은 다른 나라의 노래예요.
+    answer: X
+    explain: 아리랑은 우리나라 대표 민요예요.
+  - statement: 태극기는 마음대로 다른 모양과 색으로 그려도 돼요.
+    answer: X
+    explain: 태극기는 정해진 모양과 색으로 그려야 해요.
+  - statement: 한복은 우리나라 고유의 옷이에요.
+    answer: O
+    explain: 한복은 우리나라 사람들이 오래전부터 입어 온 옷이에요.

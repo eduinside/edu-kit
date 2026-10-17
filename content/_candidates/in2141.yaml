@@ -1,0 +1,144 @@
+# in2141 후보 기록 — 통합 2학년 1학기 4단원 「세계」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in2141 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 
+kit:
+  id: "in2141"
+  title: "4. 세계"
+  grade: 2
+  sem: "1학기"
+  subject: "통합"
+  unit: "4단원"
+  unit_no: 4
+  flow: "activity"
+  codes: ["[2바02-03]", "[2슬02-03]", "[2즐02-03]"]
+  core_idea: "세계에는 여러 나라가 있고 저마다 옷, 음식, 집, 놀이, 명절이 달라요. 다른 나라의 문화를 알고 존중하면 함께 살아가는 세계시민이 될 수 있어요."
+  core_question: "다른 나라의 문화를 어떻게 알아보고 존중할까?"
+  stages:
+    - name: 생각열기
+      question: "세계에는 어떤 나라가 있을까?"
+    - name: 탐구하기
+      question: "다른 나라는 어떻게 살아갈까?"
+    - name: 확장하기
+      question: "서로 다른 세계를 어떻게 존중할까?"
+  concepts:
+    - "세계"
+    - "문화"
+    - "다양성"
+    - "존중"
+    - "세계시민"
+  source_notes: "정리본 통합2-1.국정.세계(주제 20차시 2~21) · 영상류: 전통 모자·음식·놀이·민속춤·자랑거리·새해맞이 · 기관: 국립민속박물관·국가유산포털·교육부 공식 블로그"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "어디까지 가 봤니? 아시아"
+    video_title: "[어린이 교육홍보] '어디까지 가봤니?-아시아' 1분 홍보영상"
+    url: https://www.youtube.com/watch?v=R2U0gHWIU0s
+    channel: "국립민속박물관"
+    channel_grade: public
+    duration: "1:00"
+    use: 수업 전
+    basis_code: "[2슬02-03]"
+    basis_lesson: "4~6차시 사진으로 보는 세계·가고 싶은 나라"
+    desc: "아시아 여러 나라를 만나는 어린이박물관 전시를 소개해요."
+    verdict: 확인필요
+    note: "1분. 국립민속박물관 어린이박물관 홍보 영상 — 홍보 성격 확인."
+  - cand_no: c02
+    stage: 탐구하기
+    title: "세계의 학교 이야기"
+    video_title: "[다문화꾸러미] 꾸러미 별별 톡톡:학교편"
+    url: https://www.youtube.com/watch?v=nf7eERQ3QMg
+    channel: "국립민속박물관"
+    channel_grade: public
+    duration: "5:43"
+    use: 수업 중
+    basis_code: "[2슬02-03]"
+    basis_lesson: "6~7차시"
+    desc: "여러 나라 어린이의 학교 이야기를 알려 줘요."
+    verdict: 확인필요
+    note: "5분 43초(2021). 다문화꾸러미 별별 톡톡 학교편."
+  - cand_no: c03
+    stage: 탐구하기
+    title: "태국 음식을 즐겨요"
+    video_title: "맛있는 태국이야기2 - 함께 태국 음식을 즐겨요!"
+    url: https://www.youtube.com/watch?v=RAWCuxEpx4w
+    channel: "국립민속박물관"
+    channel_grade: public
+    duration: "6:48"
+    use: 수업 중
+    basis_code: "[2슬02-03]"
+    basis_lesson: "9~10차시 음식으로 만나는 세계"
+    desc: "태국의 음식 문화를 알려 줘요."
+    verdict: 확인필요
+    note: "6분 48초(2021)."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "세계 발명 말판"
+    video_title: "[전시연계교육] 제1화 \"세계발명말판\""
+    url: https://www.youtube.com/watch?v=G42Q_7votLs
+    channel: "국립민속박물관"
+    channel_grade: public
+    duration: "5:02"
+    use: 수업 후
+    basis_code: "[2슬02-03]"
+    basis_lesson: "14~15차시 세계의 놀이·장난감"
+    desc: "세계 여러 나라의 발명품을 말판 놀이로 알아봐요."
+    verdict: 확인필요
+    note: "5분 2초(2022)."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "다양한 문화를 만나요"
+    video_title: "[함께 사는 세계시민] 7. 다양한 문화를 만나요"
+    url: https://www.youtube.com/watch?v=Gv0d-SMYHv4
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:34"
+    use: 수업 중
+    basis_code: "[2슬02-03]"
+    basis_lesson: "18~19차시 세계의 자랑거리·서로 존중해요"
+    desc: "다양한 나라의 문화를 만나요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 「함께 사는 세계시민」 4분 34초 — 대상 학년 확인(5~6학년용일 수 있음)."
+  - cand_no: c06
+    stage: 확장하기
+    title: "모두를 포용하는 문화 다양성"
+    video_title: "[함께 사는 세계시민] 3. 모두를 포용하는 문화다양성"
+    url: https://www.youtube.com/watch?v=e6j0DWuSoBE
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:29"
+    use: 수업 후
+    basis_code: "[2바02-03]"
+    basis_lesson: "19차시 서로 존중해요"
+    desc: "서로 다른 문화를 존중하는 마음을 알려 줘요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 29초 — 대상 학년 확인."
+  - cand_no: c07
+    stage: 확장하기
+    title: "차이와 다양성을 존중해요"
+    video_title: "[함께 사는 세계시민] 5. 차이와 다양성을 존중해요"
+    url: https://www.youtube.com/watch?v=BdCD7K1SH6s
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "5:35"
+    use: 수업 후
+    basis_code: "[2바02-03]"
+    basis_lesson: "19차시 서로 존중해요"
+    desc: "서로 다른 점을 존중하는 방법을 알려 줘요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 35초 — 대상 학년 확인."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "세계의 시장 이야기"
+    video_title: "[다문화꾸러미] 꾸러미 별별 톡톡:시장편"
+    url: https://www.youtube.com/watch?v=dMfBTu3zCdA
+    channel: "국립민속박물관"
+    channel_grade: public
+    duration: "8:36"
+    use: 수업 후
+    basis_code: "[2슬02-03]"
+    basis_lesson: "9차시"
+    desc: "여러 나라의 시장 이야기를 알려 줘요."
+    verdict: 보류
+    note: "8분 36초 — 길이."

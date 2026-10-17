@@ -1,0 +1,81 @@
+id: in2211
+title: 1. 계절
+grade: 2
+sem: 2학기
+subject: 통합
+unit: 1단원
+unit_no: 1
+flow: activity
+sort_order: 1
+published: false
+intro:
+  core_idea: 봄, 여름, 가을, 겨울마다 날씨와 자연, 우리 생활이 달라져요. 계절의 변화를 알고 건강하게 지내며 계절을 즐길 수 있어요.
+  core_question: 계절이 바뀌면 우리 생활은 어떻게 달라질까?
+  concepts:
+    - term: 계절
+      def: 봄, 여름, 가을, 겨울처럼 날씨가 비슷하게 이어지는 한 해의 때예요.
+    - term: 날씨
+      def: 맑음, 비, 눈처럼 그날그날의 하늘과 공기의 모습이에요.
+    - term: 단풍
+      def: 가을에 나뭇잎이 빨갛고 노랗게 변한 것이에요.
+    - term: 입김
+      def: 추운 날 입에서 나온 따뜻한 숨이 하얗게 보이는 것이에요.
+  standards:
+    - code: "[2바03-02]"
+      text: 계절의 변화에 대응하며 생활한다.
+    - code: "[2슬03-02]"
+      text: 계절과 생활의 관계를 탐구한다.
+    - code: "[2즐03-02]"
+      text: 자연의 변화를 느끼며 놀이한다.
+stages:
+  - name: 생각열기
+    question: 계절마다 무엇이 달라질까?
+  - name: 탐구하기
+    question: 계절에 따라 생활은 어떻게 달라질까?
+  - name: 확장하기
+    question: 계절을 건강하고 안전하게 즐기려면?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 가을에 나뭇잎은 왜 색이 변할까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Z6T9pN7s_Mk
+    desc: 가을에 나뭇잎 색이 변하는 까닭을 알려 줘요.
+    channel: 국립어린이과학관
+  - key: v2
+    stage: 생각열기
+    title: 추울 때 왜 입김이 나올까요?
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=IoXkZZfTwy4
+    desc: 추운 날 입김이 나오는 까닭을 알려 줘요.
+    channel: 국립어린이과학관
+  - key: v3
+    stage: 탐구하기
+    title: 동물들의 슬기로운 겨울 생활
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=jXA-7wuJgBI
+    desc: 동물들이 추운 겨울을 어떻게 보내는지 알려 줘요.
+    channel: 국립어린이과학관
+  - key: v4
+    stage: 탐구하기
+    title: 한여름에도 숲은 왜 시원할까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=NGW8eqFOKUw
+    desc: 한여름에도 숲속이 시원한 까닭을 알려 줘요.
+    channel: 국립어린이과학관
+quiz:
+  - statement: 한 해에는 봄, 여름, 가을, 겨울 네 계절이 있어요.
+    answer: O
+    explain: 계절마다 날씨와 자연이 달라요.
+  - statement: 가을에는 나뭇잎 색이 변하는 나무가 많아요.
+    answer: O
+    explain: 가을에는 단풍이 들어요.
+  - statement: 겨울에는 일 년 중 날씨가 가장 더워요.
+    answer: X
+    explain: 겨울은 일 년 중 가장 추운 계절이에요.
+  - statement: 계절에 따라 입는 옷이 달라요.
+    answer: O
+    explain: 추울 때는 두꺼운 옷, 더울 때는 얇은 옷을 입어요.
+  - statement: 여름에는 두꺼운 패딩을 입어요.
+    answer: X
+    explain: 여름에는 시원한 옷을 입어요.

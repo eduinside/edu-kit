@@ -1,0 +1,162 @@
+# in1221 후보 기록 — 통합 1학년 2학기 2단원 「약속」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in1221 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 
+kit:
+  id: "in1221"
+  title: "2. 약속"
+  grade: 1
+  sem: "2학기"
+  subject: "통합"
+  unit: "2단원"
+  unit_no: 2
+  flow: "activity"
+  codes: ["[2바03-04]", "[2슬03-04]", "[2즐03-04]"]
+  core_idea: "지구와 모든 생명이 오래 살아가려면 물, 쓰레기, 동물을 아끼는 약속이 필요해요. 작은 실천을 함께하면 지구를 지킬 수 있어요."
+  core_question: "지구를 위해 우리가 지킬 약속은 무엇일까?"
+  stages:
+    - name: 생각열기
+      question: "지구와 우리를 위한 약속에는 무엇이 있을까?"
+    - name: 탐구하기
+      question: "물·쓰레기·동물을 지키려면 어떻게 할까?"
+    - name: 확장하기
+      question: "우리가 함께 지킬 약속은 무엇일까?"
+  concepts:
+    - "약속"
+    - "지구"
+    - "쓰레기"
+    - "아껴 쓰기"
+    - "분리배출"
+  source_notes: "정리본 통합1-2.국정.약속(주제 20차시 2~21) · 영상류: 물 부족·쓰레기 섬·동물 영상 · 기관: 환경부·한국환경공단·한국수자원공사·탄소중립포털"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "북극 얼음이 녹으면 북극곰은 사라질까요?"
+    video_title: "[어린이의 질문 26] 북극의 얼음이 녹아서 북극곰이 사라지게 되나요?"
+    url: https://www.youtube.com/watch?v=089-pUiYU_I
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "4:23"
+    use: 수업 전
+    basis_code: "[2즐03-04]"
+    basis_lesson: "6차시 지구가 뜨끈뜨끈"
+    desc: "지구가 따뜻해지면 북극의 얼음과 북극곰이 어떻게 되는지 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "4분 23초(2021). '어린이가 궁금해하는 과학'."
+  - cand_no: c02
+    stage: 생각열기
+    title: "지구가 아프대요"
+    video_title: "[놀이로 배우는 지구 이야기] 1. 지구가 아프대요"
+    url: https://www.youtube.com/watch?v=amQC1pxJpTk
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "6:03"
+    use: 수업 전
+    basis_code: "[2즐03-04]"
+    basis_lesson: "6차시 지구가 뜨끈뜨끈"
+    desc: "지구가 왜 아픈지 놀이로 알아봐요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 「놀이로 배우는 지구 이야기」 6분 3초 — 구간 지정."
+  - cand_no: c03
+    stage: 탐구하기
+    title: "다시 쓰고 새로 써요"
+    video_title: "[놀이로 배우는 지구 이야기] 2. 다시 쓰고 새로 써요"
+    url: https://www.youtube.com/watch?v=5D-K-__IyEY
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "5:53"
+    use: 수업 중
+    basis_code: "[2바03-04]"
+    basis_lesson: "8~10차시 일회용품·플라스틱"
+    desc: "물건을 다시 쓰고 새롭게 쓰는 방법을 알려 줘요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 53초."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "탄소 발자국을 줄여요"
+    video_title: "[놀이로 배우는 지구 이야기] 3. 탄소 발자국을 줄여요"
+    url: https://www.youtube.com/watch?v=wC9lOfGB_xo
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "5:00"
+    use: 수업 중
+    basis_code: "[2즐03-04]"
+    basis_lesson: "6차시"
+    desc: "생활 속에서 탄소 발자국을 줄이는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 5분."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "빗물을 저금해요"
+    video_title: "[놀이로 배우는 지구 이야기] 4. 빗물을 저금해요"
+    url: https://www.youtube.com/watch?v=tR0kQ5wYX1w
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "5:12"
+    use: 수업 중
+    basis_code: "[2바03-04]"
+    basis_lesson: "5차시 수도꼭지를 잠그면"
+    desc: "빗물을 모아 쓰며 물을 아끼는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 12초."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "저탄소 밥상을 차려요"
+    video_title: "[놀이로 배우는 지구 이야기] 5. 저탄소 밥상을 차려요"
+    url: https://www.youtube.com/watch?v=UWb-LWQdjXw
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "5:35"
+    use: 수업 중
+    basis_code: "[2슬03-04]"
+    basis_lesson: "12차시 음식들의 이야기"
+    desc: "지구를 덜 아프게 하는 밥상을 알려 줘요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 35초."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "교실에서 분리배출해요"
+    video_title: "[즐거운 환경 수업] 15. 지구를 위한 에티켓 (분리배출-교실편)"
+    url: https://www.youtube.com/watch?v=fEmIG63XuKE
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "5:04"
+    use: 수업 중
+    basis_code: "[2바03-04]"
+    basis_lesson: "10차시 이것도 플라스틱이야"
+    desc: "교실에서 쓰레기를 나누어 버리는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 4초(2022)."
+  - cand_no: c08
+    stage: 확장하기
+    title: "우리 반 당근마켓"
+    video_title: "[즐거운 환경 수업] 02. 우리반 당근마켓"
+    url: https://www.youtube.com/watch?v=fTDNDRvPreE
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:55"
+    use: 수업 후
+    basis_code: "[2바03-04]"
+    basis_lesson: "14차시 지구를 위한 소비"
+    desc: "쓰던 물건을 나누고 바꾸어 쓰는 활동을 보여 줘요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 55초."
+  - cand_no: c09
+    stage: 확장하기
+    title: "지구를 위한 다짐"
+    video_title: "[즐거운 환경 수업] 19. 지구를 위한 에티켓 (다짐편)"
+    url: https://www.youtube.com/watch?v=xc5vsryHXaI
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "5:32"
+    use: 수업 후
+    basis_code: "[2바03-04]"
+    basis_lesson: "20차시 서로서로 지켜요"
+    desc: "지구를 위한 실천을 다짐하는 시간을 보여 줘요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 32초."

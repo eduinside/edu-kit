@@ -1,0 +1,60 @@
+# in2231 후보 기록 — 통합 2학년 2학기 3단원 「기억」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in2231 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 공공·교육 채널에 '기억·돌아보기' 주제 영상이 거의 없어 공개를 보류하고 운영자와 방향(새 학년 준비·감사 나누기 등)을 정한다.
+kit:
+  id: "in2231"
+  title: "3. 기억"
+  grade: 2
+  sem: "2학기"
+  subject: "통합"
+  unit: "3단원"
+  unit_no: 3
+  flow: "activity"
+  codes: ["[2바04-04]", "[2슬04-04]", "[2즐04-04]"]
+  core_idea: "지난 일을 되돌아보면 기억에 남는 경험과 자란 나를 알 수 있어요. 앞으로의 배움을 기대하며 새 학년을 준비해요."
+  core_question: "지난 한 해를 어떻게 돌아보고 다음 학년을 준비할까?"
+  stages:
+    - name: 생각열기
+      question: "기억에 남는 일은 무엇일까?"
+    - name: 탐구하기
+      question: "지나온 한 해를 어떻게 돌아볼까?"
+    - name: 확장하기
+      question: "다음 학년을 어떻게 기다리고 준비할까?"
+  concepts:
+    - "기억"
+    - "돌아보기"
+    - "감사"
+    - "성장"
+    - "새 학년"
+  source_notes: "정리본 통합2-2.국정.기억(주제 20차시 7~26) · 영상류: 학급 활동 사진·동영상·동영상 편집 프로그램·응급 처치 뉴스(지도서가 가리키는 영상이 거의 없음)"
+
+candidates:
+  - cand_no: c01
+    stage: 탐구하기
+    title: "마음 속 감사를 나눠요"
+    video_title: "[사랑둥이들의 마음챙김 이야기] 5. 마음 속 감사를 나눠요(감사마음 비타민)"
+    url: https://www.youtube.com/watch?v=dppS1tOfTPE
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:52"
+    use: 수업 중
+    basis_code: "[2즐04-04]"
+    basis_lesson: "15차시 칭찬을 나눠요"
+    desc: "고마운 마음을 찾아 나누는 방법을 알려 줘요."
+    verdict: 확인필요
+    note: "4분 52초(2024). 대구미래교육연구원(교육청 산하, 표 edu)"
+  - cand_no: c02
+    stage: 탐구하기
+    title: "나는 얼마나 자랐을까?"
+    video_title: "[어린이의 질문 18] 왜 아빠는 더이상 안 커요?"
+    url: https://www.youtube.com/watch?v=ht56jePmlBw
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "3:41"
+    use: 수업 중
+    basis_code: "[2바04-04]"
+    basis_lesson: "12~13차시 2학년 생활을 돌아봐"
+    desc: "사람이 어떻게 자라는지 알려 줘요."
+    verdict: 확인필요
+    note: "3분 41초(2021). 주제와 거리가 있을 수 있음."

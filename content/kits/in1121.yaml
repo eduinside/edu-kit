@@ -1,0 +1,93 @@
+id: in1121
+title: 2. 사람들
+grade: 1
+sem: 1학기
+subject: 통합
+unit: 2단원
+unit_no: 2
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 내 둘레에는 가족, 이웃, 친구처럼 여러 사람이 있어요. 서로 고마운 마음을 나누고 돕고 배려하며 사이좋게 지낼 수 있어요.
+  core_question: 내 둘레 사람들과 어떻게 사이좋게 지낼까?
+  concepts:
+    - term: 가족
+      def: 나와 함께 살면서 서로 사랑하고 돌봐 주는 사람들이에요.
+    - term: 이웃
+      def: 가까이에 사는 사람들이에요.
+    - term: 고마움
+      def: 도움을 받아 기쁘고 감사한 마음이에요.
+    - term: 배려
+      def: 다른 사람의 마음을 생각해서 도와주는 것이에요.
+    - term: 인사
+      def: 사람을 만났을 때 반갑게 나누는 말과 몸짓이에요.
+  standards:
+    - code: "[2바01-03]"
+      text: 가족이나 주변 사람을 배려하며 관계를 맺는다.
+    - code: "[2슬01-03]"
+      text: 가족이나 주변 사람에게 관심을 갖고 함께 살아가는 모습을 탐구한다.
+    - code: "[2즐01-03]"
+      text: 가족이나 주변 사람과 소통하며 어울린다.
+stages:
+  - name: 생각열기
+    question: 내 둘레에는 어떤 사람들이 있을까?
+  - name: 탐구하기
+    question: 가족·이웃·고마운 사람과 어떻게 지낼까?
+  - name: 확장하기
+    question: 사람들과 서로 돕고 사이좋게 지내려면?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 먼저 인사했어요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=j9zbsVG_N7Q
+    desc: "'먼저 인사했어요' 이야기를 들려줘요."
+    channel: 대구미래교육연구원
+  - key: v2
+    stage: 탐구하기
+    title: 나누니까 행복해요 — 이웃 편
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=rvgp-UDA6V4
+    desc: 이웃과 나누고 도우면 왜 행복한지 이야기로 보여 줘요.
+    channel: EBS 키즈
+  - key: v3
+    stage: 탐구하기
+    title: 바르게 인사해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=mozQbyFrSBg
+    desc: 바른 인사 자세와 여러 상황에 맞는 인사 방법을 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v4
+    stage: 확장하기
+    title: 사이좋게 지내요 (1)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=16PQCeOuYi4
+    desc: "'난 상관 없어' 이야기를 듣고 내가 이야기 속 돼지라면 어떻게 할지 떠올려요."
+    channel: 대구미래교육연구원
+  - key: v5
+    stage: 확장하기
+    title: 사이좋게 지내요 (2)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=26WEe9vWQXc
+    desc: 괴롭힘을 당하는 친구의 마음을 생각하고 도울 방법을 떠올려요.
+    channel: 대구미래교육연구원
+quiz:
+  - statement: 가족의 모습은 집마다 다를 수 있어요.
+    answer: O
+    explain: 함께 사는 사람들이 모두 소중한 가족의 모습이에요.
+  - statement: 이웃은 가까이에 사는 사람들이에요.
+    answer: O
+    explain: 이웃과 인사하고 도우면 서로 즐거워요.
+  - statement: 어른을 만나면 반갑게 인사해요.
+    answer: O
+    explain: 인사는 마음을 전하는 좋은 방법이에요.
+  - statement: 고마운 사람은 특별한 일을 한 사람뿐이에요.
+    answer: X
+    explain: 농부처럼 우리를 도와주는 사람은 모두 고마운 사람이에요.
+  - statement: 친구가 힘들어 보여도 모른 척해야 해요.
+    answer: X
+    explain: 내가 도울 수 있는 일을 찾아 도와줘요.
+  - statement: 고운 말을 쓰면 서로 기분이 좋아져요.
+    answer: O
+    explain: 고운 말은 마음을 따뜻하게 해 줘요.

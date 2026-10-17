@@ -1,0 +1,93 @@
+id: in2111
+title: 1. 나
+grade: 2
+sem: 1학기
+subject: 통합
+unit: 1단원
+unit_no: 1
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 나는 소중하고 특별한 사람이에요. 몸과 마음을 건강하게 돌보고 좋은 습관을 가지면 멋지게 자랄 수 있어요.
+  core_question: 나는 어떤 사람이고 어떻게 자라고 있을까?
+  concepts:
+    - term: 나
+      def: 세상에서 하나뿐인 소중한 사람이에요.
+    - term: 위생
+      def: 깨끗하게 해서 병에 걸리지 않게 하는 것이에요.
+    - term: 성장
+      def: 몸과 마음이 자라는 것이에요.
+    - term: 감정
+      def: 기쁨, 슬픔, 화남 같은 마음의 느낌이에요.
+    - term: 습관
+      def: 여러 번 되풀이해서 몸에 밴 행동이에요.
+  standards:
+    - code: "[2바01-02]"
+      text: 나를 이해하고 존중하며 생활한다.
+    - code: "[2슬01-02]"
+      text: 나를 탐색하여 나에 대해 설명한다.
+    - code: "[2즐01-02]"
+      text: 놀이하며 내 몸의 움직임이나 감각을 느낀다.
+stages:
+  - name: 생각열기
+    question: 나는 어떤 사람일까?
+  - name: 탐구하기
+    question: 건강하고 멋진 나로 자라려면?
+  - name: 확장하기
+    question: 나의 꿈과 자랑을 어떻게 나눌까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 나를 소중히 여기는 방법 5가지
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HP9aYtHZ_XM
+    desc: 나를 소중하게 생각하는 마음을 키우는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v2
+    stage: 생각열기
+    title: 감정 표시판
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=JuZ1gzI9jAY
+    desc: 내 마음을 감정 표시판으로 나타내는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v3
+    stage: 생각열기
+    title: 마음 신호등으로 표현하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1Miffoy3lZI
+    desc: 화가 날 때 마음을 신호등으로 살피는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v4
+    stage: 탐구하기
+    title: 손 씻기와 기침 예절
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=M9MHkbCaF0Q
+    desc: 손을 깨끗이 씻고 기침할 때 예절을 지키는 방법을 알려 줘요.
+    channel: 질병관리청 아프지마TV
+  - key: v5
+    stage: 확장하기
+    title: 왜 아빠는 더 이상 안 클까요?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ht56jePmlBw
+    desc: 사람은 어떻게 자라고 언제까지 클까요? 질문에 답해 줘요.
+    channel: 국립어린이과학관
+quiz:
+  - statement: 밥을 먹기 전에는 손을 씻어요.
+    answer: O
+    explain: 손을 씻으면 세균이 줄어요.
+  - statement: 사람은 자라면서 키가 커져요.
+    answer: O
+    explain: 몸은 어릴 때 많이 자라요.
+  - statement: 화가 날 때는 친구를 때려도 돼요.
+    answer: X
+    explain: 숨을 크게 쉬고 말로 마음을 이야기해요.
+  - statement: 나는 소중한 사람이에요.
+    answer: O
+    explain: 나도 친구도 모두 소중해요.
+  - statement: 내 마음은 알아차리지 않고 숨기기만 하면 돼요.
+    answer: X
+    explain: 마음을 알아차리고 알맞게 말해요.
+  - statement: 이를 닦지 않아도 괜찮아요.
+    answer: X
+    explain: 이를 닦아야 충치를 막고 건강해져요.

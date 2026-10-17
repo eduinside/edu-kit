@@ -1,0 +1,163 @@
+# in2111 후보 기록 — 통합 2학년 1학기 1단원 「나」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in2111 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 
+kit:
+  id: "in2111"
+  title: "1. 나"
+  grade: 2
+  sem: "1학기"
+  subject: "통합"
+  unit: "1단원"
+  unit_no: 1
+  flow: "activity"
+  codes: ["[2바01-02]", "[2슬01-02]", "[2즐01-02]"]
+  core_idea: "나는 소중하고 특별한 사람이에요. 몸과 마음을 건강하게 돌보고 좋은 습관을 가지면 멋지게 자랄 수 있어요."
+  core_question: "나는 어떤 사람이고 어떻게 자라고 있을까?"
+  stages:
+    - name: 생각열기
+      question: "나는 어떤 사람일까?"
+    - name: 탐구하기
+      question: "건강하고 멋진 나로 자라려면?"
+    - name: 확장하기
+      question: "나의 꿈과 자랑을 어떻게 나눌까?"
+  concepts:
+    - "나"
+    - "건강"
+    - "위생"
+    - "성장"
+    - "마음"
+  source_notes: "정리본 통합2-1.국정.나(주제 20차시 2~21) · 영상류: 위생 습관 동영상(8차시)·걸음걸이·예방 영상 · 기관: 질병관리청·커리어넷·아이누리"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "나를 소중히 여기는 방법 5가지"
+    video_title: "[생명존중교육] 자아존중감을 높이는 5가지 방법? ♥활동지 하단링크♥"
+    url: https://www.youtube.com/watch?v=HP9aYtHZ_XM
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "2:29"
+    use: 수업 중
+    basis_code: "[2슬01-02]"
+    basis_lesson: "3차시 나만의 보물 상자"
+    desc: "나를 소중하게 생각하는 마음을 키우는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 생명존중교육 2분 29초(2023)."
+  - cand_no: c02
+    stage: 생각열기
+    title: "감정 표시판"
+    video_title: "[생명존중교육] 감정표시판? ♥활동지 하단링크♥"
+    url: https://www.youtube.com/watch?v=JuZ1gzI9jAY
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "2:24"
+    use: 수업 중
+    basis_code: "[2즐01-02]"
+    basis_lesson: "11~12차시 표정으로 말해요·마음 의자"
+    desc: "내 마음을 감정 표시판으로 나타내는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 2분 24초(2023)."
+  - cand_no: c03
+    stage: 생각열기
+    title: "마음 신호등으로 표현하기"
+    video_title: "[생명존중교육] 마음신호등으로 표현하기 ♥활동지 하단링크♥"
+    url: https://www.youtube.com/watch?v=1Miffoy3lZI
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "2:29"
+    use: 수업 중
+    basis_code: "[2즐01-02]"
+    basis_lesson: "13차시 화가 잔뜩 났어요"
+    desc: "화가 날 때 마음을 신호등으로 살피는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 2분 29초(2023)."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "손 씻기와 기침 예절"
+    video_title: "[질병관리본부X보물섬] 손씻기·기침예절 홍보영상"
+    url: https://www.youtube.com/watch?v=M9MHkbCaF0Q
+    channel: "질병관리청 아프지마TV"
+    channel_grade: public
+    duration: "3:01"
+    use: 수업 중
+    basis_code: "[2슬01-02]"
+    basis_lesson: "8차시 깨끗한 몸, 건강한 나"
+    desc: "손을 깨끗이 씻고 기침할 때 예절을 지키는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "3분 1초(2018). 질병관리청 아프지마TV(표 public)."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "아기상어와 손 씻어요"
+    video_title: "[코로나 예방 손씻기] 아기상어와 손씻어요 | 핑크퐁 X 보건복지부 | 아기상어 손씻기 챌린지#BabySharkHandWashChallenge | 핑크퐁! 인기동요"
+    url: https://www.youtube.com/watch?v=1A_gj_c0Krc
+    channel: "보건복지부TV"
+    channel_grade: public
+    duration: "1:25"
+    use: 수업 중
+    basis_code: "[2슬01-02]"
+    basis_lesson: "8차시 깨끗한 몸, 건강한 나"
+    desc: "아기상어와 함께 손 씻는 방법을 알려 줘요."
+    verdict: 확인필요
+    note: "1분 25초. 보건복지부TV(핑크퐁 협업) — 상업 캐릭터 협업 영상이라 허용 여부 확인."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "빙글빙글 돌면 왜 어지러울까요?"
+    video_title: "[어린이의 질문 22] 왜 빙글빙글 돌고 나면 어지러운가요?"
+    url: https://www.youtube.com/watch?v=FUkHdAIfXEU
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "5:04"
+    use: 수업 중
+    basis_code: "[2슬01-02]"
+    basis_lesson: "7차시 손 따라 발 따라"
+    desc: "몸을 돌리고 나면 왜 어지러운지 알려 줘요."
+    verdict: 확인필요
+    note: "5분 4초(2021)."
+  - cand_no: c07
+    stage: 확장하기
+    title: "왜 아빠는 더 이상 안 클까요?"
+    video_title: "[어린이의 질문 18] 왜 아빠는 더이상 안 커요?"
+    url: https://www.youtube.com/watch?v=ht56jePmlBw
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "3:41"
+    use: 수업 후
+    basis_code: "[2바01-02]"
+    basis_lesson: "17~18차시 이렇게 자랐어요·매일매일 자라요"
+    desc: "사람은 어떻게 자라고 언제까지 클까요? 질문에 답해 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "3분 41초(2021)."
+  - cand_no: c08
+    stage: 확장하기
+    title: "마음에 기쁨을 채워요"
+    video_title: "[사랑둥이들의 마음챙김 이야기] 4. 마음에 기쁨을 채워요(기쁜마음 비타민)"
+    url: https://www.youtube.com/watch?v=wT20GGZj034
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "5:34"
+    use: 수업 후
+    basis_code: "[2즐01-02]"
+    basis_lesson: "21차시 내 자랑 발표회"
+    desc: "기쁜 마음을 채우는 방법을 알려 줘요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 34초(2024) — 1학년 눈높이 확인."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "채소마다 색깔이 왜 다를까요?"
+    video_title: "[어린이의 질문 28] 왜 채소마다 색깔이 다른가요?"
+    url: https://www.youtube.com/watch?v=8vqG6Ovlqbo
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "3:47"
+    use: 수업 중
+    basis_code: "[2슬01-02]"
+    basis_lesson: "9차시 꼬르륵 냠냠 쿨쿨"
+    desc: "채소마다 색깔이 다른 까닭을 알려 줘요."
+    verdict: 보류
+    note: "3분 47초 — 나 단원 주제에서 멀음."

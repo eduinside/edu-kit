@@ -1,0 +1,147 @@
+# in2221 후보 기록 — 통합 2학년 2학기 2단원 「물건」 (바른 생활·슬기로운 생활·즐거운 생활)
+# 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in2221 --dry
+# 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 
+kit:
+  id: "in2221"
+  title: "2. 물건"
+  grade: 2
+  sem: "2학기"
+  subject: "통합"
+  unit: "2단원"
+  unit_no: 2
+  flow: "activity"
+  codes: ["[2바04-01]", "[2슬04-01]", "[2즐04-01]"]
+  core_idea: "생활 속 물건은 사람들이 불편함을 해결하려고 만든 것이에요. 쓰던 물건을 바꾸고 새로 만들어 보면 더 편리하고 안전한 물건이 돼요."
+  core_question: "불편한 것을 해결하는 물건을 어떻게 만들까?"
+  stages:
+    - name: 생각열기
+      question: "우리 둘레에는 어떤 물건이 있을까?"
+    - name: 탐구하기
+      question: "물건은 어떻게 쓰고 바꾸어 만들 수 있을까?"
+    - name: 확장하기
+      question: "더 편리하고 안전한 물건은 어떻게 만들까?"
+  concepts:
+    - "물건"
+    - "발명"
+    - "도구"
+    - "재활용"
+    - "아이디어"
+  source_notes: "정리본 통합2-2.국정.물건(주제 20차시 7~26) · 영상류: 재활용 악기·참고 영상·전기 없는 하루(한국전력) · 기관: 발명교육포털·국립민속박물관·YTN사이언스"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "전기 없는 하루"
+    video_title: "전기 없는 하루 [2019 미디어 콘텐츠 공모전 금상]"
+    url: https://www.youtube.com/watch?v=x0F3VEGrZt8
+    channel: "한국전력 KEPCO"
+    channel_grade: public
+    duration: "1:33"
+    use: 수업 전
+    basis_code: "[2슬04-01]"
+    basis_lesson: "12~13차시 어떤 발명품이 있을까요"
+    desc: "전기가 없으면 하루가 어떻게 달라지는지 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "1분 33초. 한국전력 공식 영상(2019 공모전 금상) — 지도서가 가리킨 영상. 채널 한국전력 KEPCO는 표에 없음(public 임시)."
+  - cand_no: c02
+    stage: 생각열기
+    title: "나의 오래된 물건 자랑 대회"
+    video_title: "[즐거운 환경 수업] 01. 나의 오래된 물건 자랑 대회"
+    url: https://www.youtube.com/watch?v=yigdnoBCMHk
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:32"
+    use: 수업 전
+    basis_code: "[2즐04-01]"
+    basis_lesson: "8~9차시"
+    desc: "오래 쓴 물건을 소개하며 물건의 소중함을 이야기해요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 32초(2022)."
+  - cand_no: c03
+    stage: 탐구하기
+    title: "세계의 잇템, 호미"
+    video_title: "[유아교육] 국립민속박물관이 추천하는 집콕놀이 2 세계의 잇템, 호미"
+    url: https://www.youtube.com/watch?v=q0PS9itA4Wk
+    channel: "국립민속박물관"
+    channel_grade: public
+    duration: "2:52"
+    use: 수업 중
+    basis_code: "[2슬04-01]"
+    basis_lesson: "12~13차시 무엇이 같거나 다를까요"
+    desc: "옛날부터 쓰던 농기구 호미를 알아봐요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "2분 52초(2021). 국립민속박물관(표 public)."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "돌아라 물레방아"
+    video_title: "[유아교육] 국립민속박물관이 추천하는 집콕놀이 3 돌아라 물레방아!"
+    url: https://www.youtube.com/watch?v=S_8_ahuDVRA
+    channel: "국립민속박물관"
+    channel_grade: public
+    duration: "3:57"
+    use: 수업 중
+    basis_code: "[2슬04-01]"
+    basis_lesson: "13차시 어떤 발명품이 있을까요"
+    desc: "물의 힘으로 도는 물레방아를 알아봐요."
+    verdict: 채택
+    reviewer: "운영자(10/17 일괄 승인 — 미리보기 확인 대기)"
+    note: "3분 57초(2021)."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "세계 발명 말판"
+    video_title: "[전시연계교육] 제1화 \"세계발명말판\""
+    url: https://www.youtube.com/watch?v=G42Q_7votLs
+    channel: "국립민속박물관"
+    channel_grade: public
+    duration: "5:02"
+    use: 수업 중
+    basis_code: "[2슬04-01]"
+    basis_lesson: "13차시"
+    desc: "세계의 발명품을 말판 놀이로 알아봐요."
+    verdict: 확인필요
+    note: "5분 2초(2022). 세계(in2141)에서도 후보."
+  - cand_no: c06
+    stage: 확장하기
+    title: "버리는 자투리로 모자이크"
+    video_title: "[즐거운 환경 수업] 03. 쓰레기 없는 미술 수업(자투리 모자이크)"
+    url: https://www.youtube.com/watch?v=8gNz5c00ePg
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:59"
+    use: 수업 후
+    basis_code: "[2즐04-01]"
+    basis_lesson: "15차시 종이로 놀아요"
+    desc: "버리는 자투리로 새 작품을 만들어요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 59초(2022)."
+  - cand_no: c07
+    stage: 확장하기
+    title: "병뚜껑으로 협동화"
+    video_title: "[즐거운 환경 수업] 04. 쓰레기 없는 미술 수업(병뚜껑 협동화)"
+    url: https://www.youtube.com/watch?v=JC9EsFTx13o
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:57"
+    use: 수업 후
+    basis_code: "[2즐04-01]"
+    basis_lesson: "22~23차시 장난감·악기를 만들고 싶어요"
+    desc: "병뚜껑으로 함께 그림을 만들어요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 57초(2022)."
+  - cand_no: c08
+    stage: 확장하기
+    title: "재활용 점토로 만들기"
+    video_title: "[즐거운 환경 수업] 06. 쓰레기 없는 미술 수업(재활용 점토)"
+    url: https://www.youtube.com/watch?v=mqd7cvEEMzM
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "5:30"
+    use: 수업 후
+    basis_code: "[2즐04-01]"
+    basis_lesson: "22~23차시"
+    desc: "재활용 점토로 새 물건을 만들어요."
+    verdict: 확인필요
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 30초(2022)."
