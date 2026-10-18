@@ -106,13 +106,41 @@ items:
     desc: 잠자리를 잡으며 부르던 전래동요를 애니메이션으로 들려줘요.
     channel: 국립국악원 National Gugak Center
   - key: v11
+    stage: 탐구하기
+    title: 폭염 대비 행동 요령
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=d9CA4wc6zXw
+    desc: 더운 여름에 몸을 지키는 행동 요령 여섯 가지를 알려 줘요.
+    channel: 행정안전부
+  - key: v12
+    stage: 탐구하기
+    title: 폭염·풍수해 안전 수칙
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=PghKhq1AwCY
+    desc: 여름철 더위와 비바람에 대비하는 안전 수칙을 알려 줘요.
+    channel: 경기도학교안전공제회
+  - key: v13
+    stage: 탐구하기
+    title: 비 오는 날 안전 수칙 노래
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=0ebSlbhELaI
+    desc: 비 오는 날 지킬 안전 수칙을 노래로 익혀요.
+    channel: 안전한TV
+  - key: v14
+    stage: 탐구하기
+    title: 손 씻기와 기침 예절
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=M9MHkbCaF0Q
+    desc: 감기를 막기 위해 손을 씻고 기침 예절을 지키는 방법을 알려 줘요.
+    channel: 질병관리청 아프지마TV
+  - key: v15
     stage: 확장하기
     title: 오동통 홍시야
     use: 수업 후
     url: https://www.youtube.com/watch?v=FGyG2ZxkVM4
     desc: 가을에 익는 홍시를 노래한 국악 동요예요.
     channel: 국립국악원 National Gugak Center
-  - key: v12
+  - key: v16
     stage: 확장하기
     title: 새봄맞이
     use: 수업 후

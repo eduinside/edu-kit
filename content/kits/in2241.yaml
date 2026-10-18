@@ -7,16 +7,21 @@ unit: 4단원
 unit_no: 4
 flow: activity
 sort_order: 1
-published: false
+published: true
 intro:
   core_idea: 지난 일을 되돌아보면 기억에 남는 경험과 자란 나를 알 수 있어요. 앞으로의 배움을 기대하며 새 학년을 준비해요.
   core_question: 지난 한 해를 어떻게 돌아보고 다음 학년을 준비할까?
   concepts:
     - term: 기억
+      def: 지난 일을 잊지 않고 마음속에 간직하는 것이에요.
     - term: 돌아보기
+      def: 지나온 일을 다시 떠올려 살펴보는 것이에요.
     - term: 감사
+      def: 고마운 마음을 느끼고 표현하는 것이에요.
     - term: 성장
+      def: 몸과 마음이 자라는 것이에요.
     - term: 새 학년
+      def: 한 학년이 끝나고 올라가는 다음 학년이에요.
   standards:
     - code: "[2바04-04]"
       text: 지금까지의 생활 습관과 학습 습관을 되돌아본다.
@@ -54,10 +59,39 @@ items:
     desc: 친구를 칭찬하는 메달을 만드는 방법을 알려 줘요.
     channel: 참쌤스쿨
   - key: v4
+    stage: 탐구하기
+    title: 게임·스마트폰 과의존 예방
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tOsy79CyJwM
+    desc: 게임과 스마트폰을 너무 오래 하지 않도록 예방하는 방법을 알려 줘요.
+    channel: 경상남도교육청 학생안전체험교육원
+  - key: v5
+    stage: 탐구하기
+    title: 게임·스마트폰 과의존 알아보기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=kKwOdk4lATQ
+    desc: 게임에 너무 빠졌을 때 나타나는 모습을 알려 줘요.
+    channel: 경상남도교육청 학생안전체험교육원
+  - key: v6
     stage: 확장하기
     title: 감사 편지를 쓰게 된다면?
     use: 수업 후
     url: https://www.youtube.com/watch?v=w3bPGXKgW-8
     desc: 고마운 사람에게 감사 편지를 쓰는 모습을 보여 줘요.
     channel: EBSCulture (EBS 교양)
-quiz: []
+quiz:
+  - statement: 지난 일을 돌아보면 내가 자란 모습을 알 수 있어요.
+    answer: O
+    explain: 지난 일을 떠올리면 달라진 나를 알 수 있어요.
+  - statement: 고마운 친구에게 칭찬을 나누면 서로 기분이 좋아져요.
+    answer: O
+    explain: 칭찬과 감사는 마음을 따뜻하게 해요.
+  - statement: 게임은 오래 할수록 몸에 좋아요.
+    answer: X
+    explain: 게임은 정해진 시간만큼만 해요.
+  - statement: 새 학년이 되면 아무것도 준비하지 않아도 돼요.
+    answer: X
+    explain: 새 학년을 기대하며 필요한 것을 미리 준비해요.
+  - statement: 기억에 남는 일은 사람마다 다를 수 있어요.
+    answer: O
+    explain: 저마다 소중하게 생각하는 기억이 달라요.

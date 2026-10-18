@@ -101,13 +101,27 @@ items:
     desc: 사라져 가는 생물을 지키기 위한 마지막 기회를 이야기해요.
     channel: 국립생물자원관
   - key: v10
+    stage: 탐구하기
+    title: 킥보드를 안전하게 타요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=GzSkZF9XtqI
+    desc: 킥보드를 탈 때 내리막길이 왜 위험한지, 보호 장구를 왜 써야 하는지 알려 줘요.
+    channel: 한국교통안전공단 교통안전TV
+  - key: v11
+    stage: 탐구하기
+    title: 작은 젤리도 조심해요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=DLxSwO4PdlE
+    desc: 작은 젤리 같은 간식을 먹을 때 조심할 점을 알려 줘요.
+    channel: 식품의약품안전처
+  - key: v12
     stage: 확장하기
     title: 우리 반 당근마켓
     use: 수업 후
     url: https://www.youtube.com/watch?v=fTDNDRvPreE
     desc: 쓰던 물건을 나누고 바꾸어 쓰는 활동을 보여 줘요.
     channel: 대구미래교육연구원
-  - key: v11
+  - key: v13
     stage: 확장하기
     title: 우리는 권리가 있어요
     use: 수업 후

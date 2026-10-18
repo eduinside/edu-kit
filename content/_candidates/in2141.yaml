@@ -156,7 +156,7 @@ candidates:
     basis_lesson: "19차시 서로 존중해요"
     desc: "다른 나라에서 온 친구도 소중한 친구라는 것을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "3분 12초(2023). 다누리(다문화가족지원포털) '유아동 대상 다문화 이해교육'. 채널 표에 없음(public 임시). 10/18 보완."
   - cand_no: c10
     stage: 탐구하기
@@ -171,7 +171,7 @@ candidates:
     basis_lesson: "19차시 서로 존중해요"
     desc: "여러 나라 문화가 어우러진 가족 이야기를 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "3분 56초(2023). 같은 시리즈. 10/18 보완."
   - cand_no: c11
     stage: 탐구하기
@@ -186,7 +186,7 @@ candidates:
     basis_lesson: "9차시 음식으로 만나는 세계"
     desc: "친구 나라의 음식을 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "2분 51초(2023). 같은 시리즈. 10/18 보완."
   - cand_no: c12
     stage: 생각열기
@@ -201,5 +201,35 @@ candidates:
     basis_lesson: "3차시 세계로 가는 기차놀이"
     desc: "열세 나라 놀이를 함께 즐기는 어린이날 행사를 소개해요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "1분(2025). 국립민속박물관(표 public). 지도서 3차시 '세계로 가는 기차놀이'와 같은 주제. 10/18 보완."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "식중독 예방 수칙"
+    video_title: "가을 나들이 철 식중독 예방 수칙, 꼭 기억하세요!"
+    url: https://www.youtube.com/watch?v=jSnzESnUWDI
+    channel: "식품의약품안전처"
+    channel_grade: public
+    duration: "4:11"
+    use: 수업 중
+    basis_code: "[2슬02-03]"
+    basis_lesson: "30차시 식중독을 예방해요"
+    desc: "식중독을 막기 위해 지킬 수칙을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "4분 11초(2025). 식품의약품안전처. 10/18 안전 차시 보강."
+  - cand_no: c14
+    stage: 탐구하기
+    title: "어린이 감염병 예방법"
+    video_title: "[안전 십장생] 6월에 조심해야 할 어린이 감염병 예방법"
+    url: https://www.youtube.com/watch?v=dvHeR0aGl-A
+    channel: "안전한TV"
+    channel_grade: public
+    duration: "1:01"
+    use: 수업 전
+    basis_code: "[2슬02-03]"
+    basis_lesson: "33차시 감염병은 예방이 최고"
+    desc: "감염병을 막기 위해 손 씻기 같은 예방법을 짧게 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "1분 1초(2018). 안전한TV '안전 십장생'. 10/18 안전 차시 보강."

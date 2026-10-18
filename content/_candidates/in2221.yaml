@@ -44,7 +44,7 @@ candidates:
     basis_lesson: "13차시 세종대왕과 한글"
     desc: "세종대왕이 한글을 만든 까닭을 만화로 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "2분 33초(2022). 만화로 즐기는 한글 이야기."
   - cand_no: c02
     stage: 탐구하기
@@ -59,7 +59,7 @@ candidates:
     basis_lesson: "13~14차시 세종대왕과 한글·한글을 찾아서"
     desc: "세종대왕과 함께 훈민정음 노래를 따라 불러요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "2분 10초(2020). 우리나라(in1131)와 같은 영상."
   - cand_no: c03
     stage: 탐구하기
@@ -74,7 +74,7 @@ candidates:
     basis_lesson: "14차시 한글을 찾아서"
     desc: "한글 자음 이름을 지은 사람과 이야기를 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "3분 31초(2020)."
   - cand_no: c04
     stage: 탐구하기
@@ -89,7 +89,7 @@ candidates:
     basis_lesson: "인물"
     desc: "한글을 사랑한 조선 마지막 공주의 이야기를 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "3분 22초(2020). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c05
     stage: 확장하기
@@ -104,7 +104,7 @@ candidates:
     basis_lesson: "25차시 세종대왕의 흔적"
     desc: "한글날이 언제 어떻게 정해졌는지 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "4분 15초 — 2학년 눈높이 확인. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c06
     stage: 확장하기
@@ -133,7 +133,7 @@ candidates:
     basis_lesson: "17~18차시 세종대왕과 장영실·나도 장영실처럼"
     desc: "조선 시대에 모두가 볼 수 있는 시계를 만든 장영실을 소개해요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "2분 18초(2026). 국립과천과학관 '과학관이 살아있다'(표 public). 10/18 보완."
   - cand_no: c08
     stage: 탐구하기
@@ -148,5 +148,50 @@ candidates:
     basis_lesson: "17~18차시 세종대왕과 장영실"
     desc: "장영실이 만든 자동 물시계 옥루를 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "1분 55초(2024). 국립중앙과학관(표 public). 10/18 보완."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "알약은 미리 까서 보관하지 않아요"
+    video_title: "알약 미리 까서 보관하지 마세요!😢 💊 [슬기로운 식약탐구생활]"
+    url: https://www.youtube.com/watch?v=I__an0kxILg
+    channel: "식품의약품안전처"
+    channel_grade: public
+    duration: "0:54"
+    use: 수업 전
+    basis_code: "[2슬03-03]"
+    basis_lesson: "38차시 약을 보관할 때는"
+    desc: "약을 바르게 보관하는 방법을 짧게 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "54초(2026). 식약처 '슬기로운 식약탐구생활'. 10/18 안전 차시 보강."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "등산·캠핑 안전 수칙"
+    video_title: "[다행 라이브] ⛰️ 다행이와 함께 알아보는 등산사고·캠핑 안전수칙!"
+    url: https://www.youtube.com/watch?v=6h_GWJ4N2eA
+    channel: "행정안전부"
+    channel_grade: public
+    duration: "4:53"
+    use: 수업 중
+    basis_code: "[2바03-03]"
+    basis_lesson: "36차시 등산을 할 때는"
+    desc: "산에 오를 때 지킬 안전 수칙을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "4분 53초(2025). 자연(in2121)과 같은 영상. 10/18 안전 차시 보강."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "미끄럼틀은 바르게 타요"
+    video_title: "[초등학교 안전사고사례]  미끄럼틀을 거꾸로 타지 말아요"
+    url: https://www.youtube.com/watch?v=I9tC98070mM
+    channel: "경기도학교안전공제회"
+    channel_grade: public
+    duration: "1:36"
+    use: 수업 중
+    basis_code: "[2즐03-03]"
+    basis_lesson: "35차시 안전하게 놀려면"
+    desc: "미끄럼틀을 거꾸로 타면 왜 위험한지 짧은 애니메이션으로 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "1분 36초(2023). 경기도학교안전공제회 초등학교 안전사고 사례. 10/18 안전 차시 보강. ※ 채널 등급 표에 없음 — 등급(public)은 임시, 운영자 확정."

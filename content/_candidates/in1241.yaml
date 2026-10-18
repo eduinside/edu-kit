@@ -43,7 +43,7 @@ candidates:
     basis_lesson: "2차시 그림책에서 만나는 이야기"
     desc: "견우와 직녀 이야기를 전시 동화로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "4분 59초(2022). 국립민속박물관 어린이박물관 전시동화(표 public)."
   - cand_no: c02
     stage: 생각열기
@@ -58,7 +58,7 @@ candidates:
     basis_lesson: "2차시 그림책에서 만나는 이야기"
     desc: "연오랑과 세오녀 이야기를 전시 동화로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "5분 7초(2022)."
   - cand_no: c03
     stage: 탐구하기
@@ -73,7 +73,7 @@ candidates:
     basis_lesson: "9차시 이야기 마법사"
     desc: "전래동화 호랑이와 곶감을 그림책으로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "5분 17초. EBS 키즈 '그림책 뿡뿡뿡' 전래동화."
   - cand_no: c04
     stage: 탐구하기
@@ -88,7 +88,7 @@ candidates:
     basis_lesson: "11차시 이야기를 들려줄게"
     desc: "전래동화 박박 바가지를 그림책으로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "5분 54초."
   - cand_no: c05
     stage: 탐구하기
@@ -103,7 +103,7 @@ candidates:
     basis_lesson: "11차시 이야기를 들려줄게"
     desc: "전래동화 세상에서 제일 큰 아이를 그림책으로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "5분 53초."
   - cand_no: c06
     stage: 확장하기
@@ -160,7 +160,7 @@ candidates:
     basis_lesson: "3차시 소원을 말해 봐"
     desc: "세 가지 소원을 엉뚱하게 써 버린 이야기를 그림책으로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "4분 12초(2023). EBS 키즈 '그림책 뿡뿡뿡' 세계명작. 10/18 보완."
   - cand_no: c10
     stage: 탐구하기
@@ -175,7 +175,7 @@ candidates:
     basis_lesson: "9~11차시 이야기 마법사"
     desc: "도깨비문 이야기를 국악과 함께 애니메이션 동화로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "4분 40초. 국립국악원 '창작국악동화 애니메이션'. 10/18 보완."
   - cand_no: c11
     stage: 탐구하기
@@ -190,7 +190,7 @@ candidates:
     basis_lesson: "9~11차시 이야기 마법사"
     desc: "노란 병아리 이야기를 국악과 함께 애니메이션 동화로 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "4분 27초. 10/18 보완."
   - cand_no: c12
     stage: 확장하기
@@ -205,5 +205,20 @@ candidates:
     basis_lesson: "12~13차시 노래를 불러 봐"
     desc: "도깨비 구름 이야기를 노래로 들려주는 국악 동요예요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "2분 44초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 2018 창작국악동요제 대상. 10/18 보완."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "도서관에 가요"
+    video_title: "[1학년이 되었어요] 07. 도서관에 가요"
+    url: https://www.youtube.com/watch?v=HoWSOejOwt8
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    duration: "4:31"
+    use: 수업 중
+    basis_code: "[2바04-03]"
+    basis_lesson: "30차시 도서관에 왔어요"
+    desc: "도서관에서 지킬 점과 책을 빌리고 반납하는 방법을 알아봐요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "4분 31초(2022). 학교(in1111)와 같은 영상. 10/18 안전 차시 보강."

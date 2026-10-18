@@ -92,20 +92,41 @@ items:
     desc: 기계로 움직이는 신기한 조각 작품을 어린이에게 소개해요.
     channel: 국립현대미술관 MMCA
   - key: v9
+    stage: 탐구하기
+    title: 진드기를 막는 옷 입기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=nC6m1Oh7y_4
+    desc: 가을 바깥 놀이 때 진드기에 물리지 않게 옷 입는 방법을 알려 줘요.
+    channel: 질병관리청 아프지마TV
+  - key: v10
+    stage: 탐구하기
+    title: 말과 글로 상처 주지 않아요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=pTiuYp57bWM
+    desc: 온라인에서도 상처 주지 않는 말과 글을 쓰는 예절을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v11
+    stage: 탐구하기
+    title: 영상 보는 습관 돌아보기 (과의존 예방)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tOsy79CyJwM
+    desc: 스마트폰·영상을 너무 오래 보지 않도록 예방하는 방법을 알려 줘요.
+    channel: 경상남도교육청 학생안전체험교육원
+  - key: v12
     stage: 확장하기
     title: 땅속 통로를 만들 수 있을까요?
     use: 수업 후
     url: https://www.youtube.com/watch?v=u8ibthFl3Uo
     desc: 차가 막힐 때 땅속 통로로 빨리 갈 수 있는지 알아봐요.
     channel: 국립어린이과학관
-  - key: v10
+  - key: v13
     stage: 확장하기
     title: 개미장에 도깨비다
     use: 수업 후
     url: https://www.youtube.com/watch?v=3XouUZFnKGU
     desc: 개미 시장에 도깨비가 나타난 상상을 노래해요.
     channel: 국립국악원 National Gugak Center
-  - key: v11
+  - key: v14
     stage: 확장하기
     title: 상상 속 동물 그리기
     use: 수업 후

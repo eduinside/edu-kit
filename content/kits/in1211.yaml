@@ -92,6 +92,34 @@ items:
     desc: 키가 잘 자라도록 돕는 건강한 생활 습관 일곱 가지를 알려 줘요.
     channel: 제주특별자치도교육청
   - key: v9
+    stage: 탐구하기
+    title: 집 안에서 안전하게 생활하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qMpSI0457hY
+    desc: 집 안 곳곳에서 생길 수 있는 사고와 예방법을 만화로 알려 줘요.
+    channel: 안전한TV
+  - key: v10
+    stage: 탐구하기
+    title: 지진이 나면 이렇게 해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=7UlVox6ejRc
+    desc: 지진이 났을 때 몸을 지키고 대피하는 방법을 만화로 알려 줘요.
+    channel: 안전한TV
+  - key: v11
+    stage: 탐구하기
+    title: 지진 안전 노래 — 쿵쿵 흔들흔들
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=0hYoNT60o8g
+    desc: 지진 때 지킬 행동을 노래로 익혀요.
+    channel: 행정안전부
+  - key: v12
+    stage: 탐구하기
+    title: 어린이 교통안전 수칙
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=jdUyvJw3HaA
+    desc: 길을 건너기 전에 멈추고 좌우를 살피는 교통안전 수칙을 짚어 줘요.
+    channel: 행정안전부
+  - key: v13
     stage: 확장하기
     title: 아름다운 우리말 잠노래
     use: 수업 후

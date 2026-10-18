@@ -108,27 +108,48 @@ items:
     desc: 부지런한 개미 친구들을 노래한 국악 동요예요.
     channel: 국립국악원 National Gugak Center
   - key: v11
+    stage: 탐구하기
+    title: 황사와 미세먼지 안전 수칙
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=fzXv67DU5fw
+    desc: 황사와 미세먼지가 심한 날 지킬 수칙을 만화로 알려 줘요.
+    channel: 안전한TV
+  - key: v12
+    stage: 탐구하기
+    title: 진드기 — 털고 씻고 확인하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=eYkWJ87QIoA
+    desc: 바깥 활동 뒤 옷을 털고 씻고 몸을 살펴 진드기를 막는 방법을 알려 줘요.
+    channel: 질병관리청 아프지마TV
+  - key: v13
+    stage: 탐구하기
+    title: 등산·캠핑 안전 수칙
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6h_GWJ4N2eA
+    desc: 산에 오르거나 캠핑할 때 지킬 안전 수칙을 알려 줘요.
+    channel: 행정안전부
+  - key: v14
     stage: 확장하기
     title: 식물 사랑을 실천해요
     use: 수업 후
     url: https://www.youtube.com/watch?v=BmiofpWHroM
     desc: 식물을 사랑하는 마음을 실천하는 방법을 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v12
+  - key: v15
     stage: 확장하기
     title: 반려동물과 잘 지내는 방법
     use: 수업 후
     url: https://www.youtube.com/watch?v=C698WzCW8-c
     desc: 반려동물과 사이좋게 지내는 방법을 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v13
+  - key: v16
     stage: 확장하기
     title: 반려동물 에티켓
     use: 수업 후
     url: https://www.youtube.com/watch?v=cESwvGZX5Hs
     desc: 반려동물과 함께할 때 지킬 예절을 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v14
+  - key: v17
     stage: 확장하기
     title: 가을에 나뭇잎은 왜 색이 변할까요?
     use: 수업 후

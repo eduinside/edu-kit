@@ -7,7 +7,7 @@ unit: 4단원
 unit_no: 4
 flow: activity
 sort_order: 1
-published: false
+published: true
 intro:
   core_idea: 세계에는 여러 나라가 있고 저마다 옷, 음식, 집, 놀이, 명절이 달라요. 다른 나라의 문화를 알고 존중하면 함께 살아가는 세계시민이 될 수 있어요.
   core_question: 다른 나라의 문화를 어떻게 알아보고 존중할까?
@@ -63,6 +63,20 @@ items:
     url: https://www.youtube.com/watch?v=SmfuiWrVeUw
     desc: 친구 나라의 음식을 알아봐요.
     channel: 다문화가족지원포털다누리
+  - key: v5
+    stage: 탐구하기
+    title: 식중독 예방 수칙
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=jSnzESnUWDI
+    desc: 식중독을 막기 위해 지킬 수칙을 알려 줘요.
+    channel: 식품의약품안전처
+  - key: v6
+    stage: 탐구하기
+    title: 어린이 감염병 예방법
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=dvHeR0aGl-A
+    desc: 감염병을 막기 위해 손 씻기 같은 예방법을 짧게 알려 줘요.
+    channel: 안전한TV
 quiz:
   - statement: 나라마다 옷, 음식, 놀이가 달라요.
     answer: O

@@ -95,68 +95,110 @@ items:
     channel: 대구미래교육연구원
   - key: v9
     stage: 탐구하기
+    title: 실내에서는 천천히 걸어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ZT2HjtUVvf0
+    desc: 교실이나 복도에서 뛰면 왜 위험한지 애니메이션으로 보여 주고 천천히 걷자고 알려 줘요.
+    channel: 경기도학교안전공제회
+  - key: v10
+    stage: 탐구하기
+    title: 점심시간에 안전하게 지내요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6cRybFyD384
+    desc: 점심시간에 급식실과 교실에서 다치지 않게 지내는 방법을 애니메이션으로 알려 줘요.
+    channel: 경기도학교안전공제회
+  - key: v11
+    stage: 탐구하기
+    title: 쉬는 시간에 안전하게 지내요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_Tb3y0NA3B0
+    desc: 쉬는 시간에 친구들과 놀 때 다치지 않게 지내는 방법을 애니메이션으로 알려 줘요.
+    channel: 경기도학교안전공제회
+  - key: v12
+    stage: 탐구하기
     title: 1학년 급식 식사 예절
     use: 수업 중
     url: https://www.youtube.com/watch?v=9aeKp0V5M_E
     desc: 학교 급식을 받고 먹고 치우는 차례와 식사 예절을 1학년 어린이에게 알려 줘요.
     channel: 부산광역시교육청 영양교육체험센터
-  - key: v10
+  - key: v13
+    stage: 탐구하기
+    title: 길을 안전하게 걸어요 (보행 안전)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=CURYE_jLc-Q
+    desc: 도로와 횡단보도에서 생기는 사고를 막으려면 어떻게 걸어야 하는지 알려 줘요.
+    channel: 경상남도교육청 학생안전체험교육원
+  - key: v14
+    stage: 탐구하기
+    title: 깜빡이는 초록불, 그냥 뛰어가도 될까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=7tF2a1D55MY
+    desc: 초록불이 깜빡일 때 길을 건너도 되는지 어린이 교통안전교육으로 알려 줘요.
+    channel: 한국교통안전공단 교통안전TV
+  - key: v15
+    stage: 탐구하기
+    title: 안전한 등하굣길
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=iKO19X2f6QI
+    desc: 학교에 오가는 길에서 지킬 안전 수칙을 짧게 알려 줘요.
+    channel: 행정안전부
+  - key: v16
     stage: 확장하기
     title: 나를 소개해요 (1)
     use: 수업 중
     url: https://www.youtube.com/watch?v=hVkCJpWb1_Q
     desc: "'숲 속 학교의 자기소개' 이야기를 듣고 나를 소개하는 방법을 떠올려요."
     channel: 대구미래교육연구원
-  - key: v11
+  - key: v17
     stage: 확장하기
     title: 나를 소개해요 (2)
     use: 수업 중
     url: https://www.youtube.com/watch?v=vXJR_TPLrEc
     desc: 친구에게 나를 소개하는 방법과 친구의 발표를 잘 듣는 방법을 알아봐요.
     channel: 대구미래교육연구원
-  - key: v12
+  - key: v18
     stage: 확장하기
     title: 바르게 인사해요 (1)
     use: 수업 전
     url: https://www.youtube.com/watch?v=j9zbsVG_N7Q
     desc: "'먼저 인사했어요' 이야기를 들려줘요."
     channel: 대구미래교육연구원
-  - key: v13
+  - key: v19
     stage: 확장하기
     title: 바르게 인사해요 (2)
     use: 수업 중
     url: https://www.youtube.com/watch?v=mozQbyFrSBg
     desc: 바른 인사 자세와 여러 상황에 맞는 인사 방법을 알아봐요.
     channel: 대구미래교육연구원
-  - key: v14
+  - key: v20
     stage: 확장하기
     title: 약속해요 (1)
     use: 수업 중
     url: https://www.youtube.com/watch?v=U8Fy5a5-Jb8
     desc: "'꼭 꼭 약속해' 노래를 배우고 짝과 함께 율동을 해 봐요."
     channel: 대구미래교육연구원
-  - key: v15
+  - key: v21
     stage: 확장하기
     title: 약속해요 (3)
     use: 수업 중
     url: https://www.youtube.com/watch?v=dgy00I2cCfI
     desc: 바르고 고운 말 '주사위 말판 놀이' 방법을 알아봐요.
     channel: 대구미래교육연구원
-  - key: v16
+  - key: v22
     stage: 확장하기
     title: 사이좋게 지내요 (1)
     use: 수업 중
     url: https://www.youtube.com/watch?v=26WEe9vWQXc
     desc: "'난 상관 없어' 이야기를 듣고 내가 이야기 속 돼지라면 어떻게 할지 떠올려요."
     channel: 대구미래교육연구원
-  - key: v17
+  - key: v23
     stage: 확장하기
     title: 사이좋게 지내요 (2)
     use: 수업 중
     url: https://www.youtube.com/watch?v=16PQCeOuYi4
     desc: 괴롭힘을 당하는 친구의 마음을 생각하고 도울 방법을 떠올려요.
     channel: 대구미래교육연구원
-  - key: v18
+  - key: v24
     stage: 확장하기
     title: 친구와 놀아요
     use: 수업 후

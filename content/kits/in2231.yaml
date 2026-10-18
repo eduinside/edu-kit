@@ -66,13 +66,34 @@ items:
     desc: 물의 힘으로 도는 물레방아를 알아봐요.
     channel: 국립민속박물관
   - key: v5
+    stage: 탐구하기
+    title: 전기를 안전하게 사용해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-cKhmBQHUqc
+    desc: 전기를 쓸 때 위험한 행동과 안전한 방법을 만화로 알려 줘요.
+    channel: 안전한TV
+  - key: v6
+    stage: 탐구하기
+    title: 불이 나면 이렇게 해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=YZlIuw45364
+    desc: 불이 나지 않게 막는 법과 불이 났을 때 대피하는 법을 만화로 알려 줘요.
+    channel: 안전한TV
+  - key: v7
+    stage: 탐구하기
+    title: 실내에서는 천천히 걸어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ZT2HjtUVvf0
+    desc: 교실이나 복도에서 뛰면 왜 위험한지 애니메이션으로 보여 줘요.
+    channel: 경기도학교안전공제회
+  - key: v8
     stage: 확장하기
     title: 버리는 자투리로 모자이크
     use: 수업 후
     url: https://www.youtube.com/watch?v=8gNz5c00ePg
     desc: 버리는 자투리로 새 작품을 만들어요.
     channel: 대구미래교육연구원
-  - key: v6
+  - key: v9
     stage: 확장하기
     title: 병뚜껑으로 협동화
     use: 수업 후

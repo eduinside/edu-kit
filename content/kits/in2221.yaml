@@ -78,6 +78,27 @@ items:
     desc: 장영실이 만든 자동 물시계 옥루를 보여 줘요.
     channel: 국립중앙과학관
   - key: v7
+    stage: 탐구하기
+    title: 알약은 미리 까서 보관하지 않아요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=I__an0kxILg
+    desc: 약을 바르게 보관하는 방법을 짧게 알려 줘요.
+    channel: 식품의약품안전처
+  - key: v8
+    stage: 탐구하기
+    title: 등산·캠핑 안전 수칙
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6h_GWJ4N2eA
+    desc: 산에 오를 때 지킬 안전 수칙을 알려 줘요.
+    channel: 행정안전부
+  - key: v9
+    stage: 탐구하기
+    title: 미끄럼틀은 바르게 타요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=I9tC98070mM
+    desc: 미끄럼틀을 거꾸로 타면 왜 위험한지 짧은 애니메이션으로 알려 줘요.
+    channel: 경기도학교안전공제회
+  - key: v10
     stage: 확장하기
     title: 한글날이 10월 9일이 아니었다고?
     use: 수업 후

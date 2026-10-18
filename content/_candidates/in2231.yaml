@@ -44,7 +44,7 @@ candidates:
     basis_lesson: "12~13차시 어떤 발명품이 있을까요"
     desc: "전기가 없으면 하루가 어떻게 달라지는지 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "1분 33초. 한국전력 공식 영상(2019 공모전 금상) — 지도서가 가리킨 영상. 채널 한국전력 KEPCO는 표에 없음(public 임시)."
   - cand_no: c02
     stage: 생각열기
@@ -59,7 +59,7 @@ candidates:
     basis_lesson: "8~9차시"
     desc: "오래 쓴 물건을 소개하며 물건의 소중함을 이야기해요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 32초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c03
     stage: 탐구하기
@@ -74,7 +74,7 @@ candidates:
     basis_lesson: "12~13차시 무엇이 같거나 다를까요"
     desc: "옛날부터 쓰던 농기구 호미를 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "2분 52초(2021). 국립민속박물관(표 public)."
   - cand_no: c04
     stage: 탐구하기
@@ -89,7 +89,7 @@ candidates:
     basis_lesson: "13차시 어떤 발명품이 있을까요"
     desc: "물의 힘으로 도는 물레방아를 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "3분 57초(2021)."
   - cand_no: c05
     stage: 탐구하기
@@ -118,7 +118,7 @@ candidates:
     basis_lesson: "15차시 종이로 놀아요"
     desc: "버리는 자투리로 새 작품을 만들어요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 59초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c07
     stage: 확장하기
@@ -133,7 +133,7 @@ candidates:
     basis_lesson: "22~23차시 장난감·악기를 만들고 싶어요"
     desc: "병뚜껑으로 함께 그림을 만들어요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 57초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c08
     stage: 확장하기
@@ -149,3 +149,48 @@ candidates:
     desc: "재활용 점토로 새 물건을 만들어요."
     verdict: 보류
     note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 30초(2022). 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "전기를 안전하게 사용해요"
+    video_title: "[만화로 알아보는 안전수칙] 국민이 안전이와 함께하는 안전하게 전기 사용하기"
+    url: https://www.youtube.com/watch?v=-cKhmBQHUqc
+    channel: "안전한TV"
+    channel_grade: public
+    duration: "2:34"
+    use: 수업 중
+    basis_code: "[2바04-01]"
+    basis_lesson: "36차시 전기를 안전하게"
+    desc: "전기를 쓸 때 위험한 행동과 안전한 방법을 만화로 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "2분 34초(2016). 안전한TV(행정안전부 운영) '만화로 알아보는 안전수칙'(국민이·안전이). 탐험(in1141)과 같은 영상. 10/18 안전 차시 보강."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "불이 나면 이렇게 해요"
+    video_title: "[만화로 알아보는 안전수칙] 국민이 안전이와 함께하는 화재 안전수칙"
+    url: https://www.youtube.com/watch?v=YZlIuw45364
+    channel: "안전한TV"
+    channel_grade: public
+    duration: "2:59"
+    use: 수업 중
+    basis_code: "[2슬04-01]"
+    basis_lesson: "37차시 화재는 예방이 최고"
+    desc: "불이 나지 않게 막는 법과 불이 났을 때 대피하는 법을 만화로 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "2분 59초(2016). 안전한TV(행정안전부 운영) '만화로 알아보는 안전수칙'(국민이·안전이). 10/18 안전 차시 보강."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "실내에서는 천천히 걸어요"
+    video_title: "초등학교 안전사고 사례 애니메이션(2021) - 실내에선 천천히 걸어요"
+    url: https://www.youtube.com/watch?v=ZT2HjtUVvf0
+    channel: "경기도학교안전공제회"
+    channel_grade: public
+    duration: "1:09"
+    use: 수업 중
+    basis_code: "[2바04-01]"
+    basis_lesson: "35차시 실내에서 안전하게"
+    desc: "교실이나 복도에서 뛰면 왜 위험한지 애니메이션으로 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "1분 9초(2021). 학교(in1111)와 같은 영상. 10/18 안전 차시 보강. ※ 채널 등급 표에 없음 — 등급(public)은 임시, 운영자 확정."

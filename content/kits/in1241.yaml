@@ -94,6 +94,13 @@ items:
     desc: 노란 병아리 이야기를 국악과 함께 애니메이션 동화로 들려줘요.
     channel: 국립국악원 National Gugak Center
   - key: v9
+    stage: 탐구하기
+    title: 도서관에 가요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HoWSOejOwt8
+    desc: 도서관에서 지킬 점과 책을 빌리고 반납하는 방법을 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v10
     stage: 확장하기
     title: 도깨비 구름 비장군
     use: 수업 후

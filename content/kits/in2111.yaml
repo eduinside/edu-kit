@@ -101,13 +101,27 @@ items:
     desc: 키가 잘 자라도록 돕는 건강한 생활 습관을 알려 줘요.
     channel: 제주특별자치도교육청
   - key: v10
+    stage: 탐구하기
+    title: 장난과 괴롭힘은 달라요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=TYLlUVvcjxI
+    desc: 친구가 싫어하는 장난은 괴롭힘이라는 것을 짧은 애니메이션으로 알려 줘요.
+    channel: 경기도학교안전공제회
+  - key: v11
+    stage: 탐구하기
+    title: 채수로 수프를 만들어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_nXkA_BlPMI
+    desc: 채소 국물로 몸에 좋은 수프를 만드는 과정을 보여 줘요.
+    channel: 식품의약품안전처
+  - key: v12
     stage: 확장하기
     title: 왜 아빠는 더 이상 안 클까요?
     use: 수업 후
     url: https://www.youtube.com/watch?v=ht56jePmlBw
     desc: 사람은 어떻게 자라고 언제까지 클까요? 질문에 답해 줘요.
     channel: 국립어린이과학관
-  - key: v11
+  - key: v13
     stage: 확장하기
     title: 도토리 키재기
     use: 수업 후
