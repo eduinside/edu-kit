@@ -6,8 +6,8 @@ import YAML from "yaml";
 import { ROOT, KITS_DIR, KitDocSchema, kitToYaml } from "../content.ts";
 
 const data = JSON.parse(readFileSync(resolve(ROOT, "scripts/once/2026-10-17-integrated-terms-quiz.json"), "utf8")) as Record<string, { concepts: { term: string; def: string }[]; quiz: { statement: string; answer: "O" | "X"; explain?: string }[] }>;
-const PUBLISHED = new Set(["in1111", "in1121", "in1131", "in1141", "in1231", "in2111", "in2121"]);
-const ids = ["in1111", "in1121", "in1131", "in1141", "in1211", "in1221", "in1231", "in1241", "in2111", "in2121", "in2131", "in2141", "in2211", "in2221", "in2231", "in2241"];
+const PUBLISHED = new Set(["in1111", "in1121", "in1131", "in1141", "in1241", "in2111", "in2121"]);
+const ids = ["in1111", "in1121", "in1131", "in1141", "in1211", "in1221", "in1241", "in1231", "in2111", "in2121", "in2131", "in2141", "in2211", "in2231", "in2241", "in2221"];
 for (const id of ids) {
   const path = resolve(KITS_DIR, `${id}.yaml`);
   const doc = KitDocSchema.parse(YAML.parse(readFileSync(path, "utf8")));

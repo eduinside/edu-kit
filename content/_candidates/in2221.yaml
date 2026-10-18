@@ -1,10 +1,10 @@
-# in2221 후보 기록 — 통합 2학년 2학기 2단원 「물건」 (바른 생활·슬기로운 생활·즐거운 생활)
+# in2221 후보 기록 — 통합 2학년 2학기 2단원 「인물」 (바른 생활·슬기로운 생활·즐거운 생활)
 # 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in2221 --dry
 # 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
-# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 장영실·편경 영상은 이번에 찾지 못했다(검색 쿼터 소진).
 kit:
   id: "in2221"
-  title: "2. 물건"
+  title: "2. 인물"
   grade: 2
   sem: "2학기"
   subject: "통합"
@@ -12,140 +12,141 @@ kit:
   unit_no: 2
   flow: "activity"
   published: false
-  codes: ["[2바04-01]", "[2슬04-01]", "[2즐04-01]"]
-  core_idea: "생활 속 물건은 사람들이 불편함을 해결하려고 만든 것이에요. 쓰던 물건을 바꾸고 새로 만들어 보면 더 편리하고 안전한 물건이 돼요."
-  core_question: "불편한 것을 해결하는 물건을 어떻게 만들까?"
+  codes: ["[2바03-03]", "[2슬03-03]", "[2즐03-03]"]
+  core_idea: "우리 둘레와 옛날에는 고마운 인물이 많아요. 세종대왕처럼 사람들을 위해 일한 인물을 알고 본받으면 함께 사는 마음이 자라요."
+  core_question: "인물에게서 무엇을 배워 실천할까?"
   stages:
     - name: 생각열기
-      question: "우리 둘레에는 어떤 물건이 있을까?"
+      question: "우리 둘레에는 어떤 인물이 있을까?"
     - name: 탐구하기
-      question: "물건은 어떻게 쓰고 바꾸어 만들 수 있을까?"
+      question: "인물은 무엇을 남겼을까?"
     - name: 확장하기
-      question: "더 편리하고 안전한 물건은 어떻게 만들까?"
+      question: "인물에게서 무엇을 배워 실천할까?"
   concepts:
-    - "물건"
-    - "발명"
-    - "도구"
-    - "재활용"
-    - "아이디어"
-  source_notes: "정리본 통합2-2.국정.물건(주제 20차시 7~26) · 영상류: 재활용 악기·참고 영상·전기 없는 하루(한국전력) · 기관: 발명교육포털·국립민속박물관·YTN사이언스"
+    - "인물"
+    - "세종대왕"
+    - "한글"
+    - "장영실"
+    - "본받기"
+  source_notes: "정리본 통합2-2.국정.인물(주제 20차시 7~26: 세종대왕과 한글·음악·장영실) · 영상류: 주변 인물·편경 연주·무형유산 장인 영상 · 기관: 국가유산포털·국립한글박물관·국립국악원·국립중앙과학관·세종대왕기념사업회"
 
 candidates:
   - cand_no: c01
     stage: 생각열기
-    title: "전기 없는 하루"
-    video_title: "전기 없는 하루 [2019 미디어 콘텐츠 공모전 금상]"
-    url: https://www.youtube.com/watch?v=x0F3VEGrZt8
-    channel: "한국전력 KEPCO"
+    title: "세종대왕은 미래를 알고 있었을까?"
+    video_title: "세종대왕은 미래를 알고 있었을까? [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=HPPpiTuILz4
+    channel: "국립한글박물관"
     channel_grade: public
-    duration: "1:33"
+    duration: "2:33"
     use: 수업 전
-    basis_code: "[2슬04-01]"
-    basis_lesson: "12~13차시 어떤 발명품이 있을까요"
-    desc: "전기가 없으면 하루가 어떻게 달라지는지 보여 줘요."
+    basis_code: "[2슬03-03]"
+    basis_lesson: "13차시 세종대왕과 한글"
+    desc: "세종대왕이 한글을 만든 까닭을 만화로 알려 줘요."
     verdict: 채택
     reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "1분 33초. 한국전력 공식 영상(2019 공모전 금상) — 지도서가 가리킨 영상. 채널 한국전력 KEPCO는 표에 없음(public 임시)."
+    note: "2분 33초(2022). 만화로 즐기는 한글 이야기."
   - cand_no: c02
-    stage: 생각열기
-    title: "나의 오래된 물건 자랑 대회"
-    video_title: "[즐거운 환경 수업] 01. 나의 오래된 물건 자랑 대회"
-    url: https://www.youtube.com/watch?v=yigdnoBCMHk
-    channel: "대구미래교육연구원"
-    channel_grade: edu
-    duration: "4:32"
-    use: 수업 전
-    basis_code: "[2즐04-01]"
-    basis_lesson: "8~9차시"
-    desc: "오래 쓴 물건을 소개하며 물건의 소중함을 이야기해요."
+    stage: 탐구하기
+    title: "세종대왕과 함께 부르는 훈민정음가"
+    video_title: "[국립한글박물관] 세종대왕과 함께 쉽고 재미있게 따라 부르는 '훈민정음가'"
+    url: https://www.youtube.com/watch?v=Uvfzgvkpmfs
+    channel: "국립한글박물관"
+    channel_grade: public
+    duration: "2:10"
+    use: 수업 중
+    basis_code: "[2즐03-03]"
+    basis_lesson: "13~14차시 세종대왕과 한글·한글을 찾아서"
+    desc: "세종대왕과 함께 훈민정음 노래를 따라 불러요."
     verdict: 채택
     reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 32초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+    note: "2분 10초(2020). 우리나라(in1131)와 같은 영상."
   - cand_no: c03
     stage: 탐구하기
-    title: "세계의 잇템, 호미"
-    video_title: "[유아교육] 국립민속박물관이 추천하는 집콕놀이 2 세계의 잇템, 호미"
-    url: https://www.youtube.com/watch?v=q0PS9itA4Wk
-    channel: "국립민속박물관"
+    title: "ㄱ, ㄴ, ㄷ 이름은 누가 붙였을까요?"
+    video_title: "ㄱ,ㄴ,ㄷ 이름은 누가 누가 붙였을까요? [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=qhSONxqUSLA
+    channel: "국립한글박물관"
     channel_grade: public
-    duration: "2:52"
+    duration: "3:31"
     use: 수업 중
-    basis_code: "[2슬04-01]"
-    basis_lesson: "12~13차시 무엇이 같거나 다를까요"
-    desc: "옛날부터 쓰던 농기구 호미를 알아봐요."
+    basis_code: "[2슬03-03]"
+    basis_lesson: "14차시 한글을 찾아서"
+    desc: "한글 자음 이름을 지은 사람과 이야기를 알려 줘요."
     verdict: 채택
     reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "2분 52초(2021). 국립민속박물관(표 public)."
+    note: "3분 31초(2020)."
   - cand_no: c04
     stage: 탐구하기
-    title: "돌아라 물레방아"
-    video_title: "[유아교육] 국립민속박물관이 추천하는 집콕놀이 3 돌아라 물레방아!"
-    url: https://www.youtube.com/watch?v=S_8_ahuDVRA
-    channel: "국립민속박물관"
+    title: "조선 마지막 공주의 한글 사랑"
+    video_title: "조선 마지막 공주의 한글사랑 [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=MHbYUimQZII
+    channel: "국립한글박물관"
     channel_grade: public
-    duration: "3:57"
-    use: 수업 중
-    basis_code: "[2슬04-01]"
-    basis_lesson: "13차시 어떤 발명품이 있을까요"
-    desc: "물의 힘으로 도는 물레방아를 알아봐요."
+    duration: "3:22"
+    use: 수업 후
+    basis_code: "[2바03-03]"
+    basis_lesson: "인물"
+    desc: "한글을 사랑한 조선 마지막 공주의 이야기를 알려 줘요."
     verdict: 채택
     reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "3분 57초(2021)."
+    note: "3분 22초(2020). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c05
-    stage: 탐구하기
-    title: "세계 발명 말판"
-    video_title: "[전시연계교육] 제1화 \"세계발명말판\""
-    url: https://www.youtube.com/watch?v=G42Q_7votLs
-    channel: "국립민속박물관"
+    stage: 확장하기
+    title: "한글날이 10월 9일이 아니었다고?"
+    video_title: "한글날이 10월 9일이 아니었다고? [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=XhrJZWo5flw
+    channel: "국립한글박물관"
     channel_grade: public
-    duration: "5:02"
-    use: 수업 중
-    basis_code: "[2슬04-01]"
-    basis_lesson: "13차시"
-    desc: "세계의 발명품을 말판 놀이로 알아봐요."
-    verdict: 보류
-    note: "5분 2초(2022). 세계(in2141)에서도 후보. 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
+    duration: "4:15"
+    use: 수업 후
+    basis_code: "[2바03-03]"
+    basis_lesson: "25차시 세종대왕의 흔적"
+    desc: "한글날이 언제 어떻게 정해졌는지 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "4분 15초 — 2학년 눈높이 확인. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c06
     stage: 확장하기
-    title: "버리는 자투리로 모자이크"
-    video_title: "[즐거운 환경 수업] 03. 쓰레기 없는 미술 수업(자투리 모자이크)"
-    url: https://www.youtube.com/watch?v=8gNz5c00ePg
-    channel: "대구미래교육연구원"
-    channel_grade: edu
-    duration: "4:59"
+    title: "하늘의 별이 된 시인 윤동주"
+    video_title: "하늘의 별이 된 시인 윤동주 [만화로 즐기는 한글 이야기]"
+    url: https://www.youtube.com/watch?v=zeTKlfzonPk
+    channel: "국립한글박물관"
+    channel_grade: public
+    duration: "5:23"
     use: 수업 후
-    basis_code: "[2즐04-01]"
-    basis_lesson: "15차시 종이로 놀아요"
-    desc: "버리는 자투리로 새 작품을 만들어요."
-    verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 59초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
-  - cand_no: c07
-    stage: 확장하기
-    title: "병뚜껑으로 협동화"
-    video_title: "[즐거운 환경 수업] 04. 쓰레기 없는 미술 수업(병뚜껑 협동화)"
-    url: https://www.youtube.com/watch?v=JC9EsFTx13o
-    channel: "대구미래교육연구원"
-    channel_grade: edu
-    duration: "4:57"
-    use: 수업 후
-    basis_code: "[2즐04-01]"
-    basis_lesson: "22~23차시 장난감·악기를 만들고 싶어요"
-    desc: "병뚜껑으로 함께 그림을 만들어요."
-    verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 57초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
-  - cand_no: c08
-    stage: 확장하기
-    title: "재활용 점토로 만들기"
-    video_title: "[즐거운 환경 수업] 06. 쓰레기 없는 미술 수업(재활용 점토)"
-    url: https://www.youtube.com/watch?v=mqd7cvEEMzM
-    channel: "대구미래교육연구원"
-    channel_grade: edu
-    duration: "5:30"
-    use: 수업 후
-    basis_code: "[2즐04-01]"
-    basis_lesson: "22~23차시"
-    desc: "재활용 점토로 새 물건을 만들어요."
+    basis_code: "[2바03-03]"
+    basis_lesson: "인물"
+    desc: "시인 윤동주의 이야기를 알려 줘요."
     verdict: 보류
-    note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 30초(2022). 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
+    note: "5분 23초 — 고학년용."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "공공 시계를 만든 장영실"
+    video_title: "조선판 공공 시계를 만든 장영실이 나타났다! | 과학관이 살아있다 EP.03"
+    url: https://www.youtube.com/watch?v=W3OxK7DIy0g
+    channel: "국립과천과학관"
+    channel_grade: public
+    duration: "2:18"
+    use: 수업 중
+    basis_code: "[2슬03-03]"
+    basis_lesson: "17~18차시 세종대왕과 장영실·나도 장영실처럼"
+    desc: "조선 시대에 모두가 볼 수 있는 시계를 만든 장영실을 소개해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 18초(2026). 국립과천과학관 '과학관이 살아있다'(표 public). 10/18 보완."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "자동 물시계 옥루"
+    video_title: "조선시대 최첨단 자동 물시계, 옥루"
+    url: https://www.youtube.com/watch?v=Rd8LaR9Txow
+    channel: "국립중앙과학관"
+    channel_grade: public
+    duration: "1:55"
+    use: 수업 중
+    basis_code: "[2슬03-03]"
+    basis_lesson: "17~18차시 세종대왕과 장영실"
+    desc: "장영실이 만든 자동 물시계 옥루를 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 55초(2024). 국립중앙과학관(표 public). 10/18 보완."

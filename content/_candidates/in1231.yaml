@@ -1,209 +1,198 @@
-# in1231 후보 기록 — 통합 1학년 2학기 3단원 「이야기」 (바른 생활·슬기로운 생활·즐거운 생활)
+# in1231 후보 기록 — 통합 1학년 2학기 3단원 「상상」 (바른 생활·슬기로운 생활·즐거운 생활)
 # 양식: docs/EXPANSION_PLAN_integrated-12.md §5-1 · 검사: npm run import -- in1231 --dry
 # 2026-10-17 수집. 후보는 YouTube Data API로 재생·임베드·연령·국내·길이·쇼츠를 확인했다(검색 쿼터 소진 뒤에는 채널 재생목록·업로드 목록으로 수집). 본문은 제목·설명·채널 성격·길이로 1차 선별했고 전부 시청한 것은 아니다.
-# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 
+# 운영자 지시(10/17): 통합 16단원은 주제 중심 — 안전·놀이·활동 시범 영상은 보류. 공공·교육 채널에 '상상' 주제 영상이 거의 없어 공개를 보류하고 검색 쿼터가 풀린 뒤 보완한다.
 kit:
   id: "in1231"
-  title: "3. 이야기"
+  title: "3. 상상"
   grade: 1
   sem: "2학기"
   subject: "통합"
   unit: "3단원"
   unit_no: 3
   flow: "activity"
-  codes: ["[2바04-03]", "[2슬04-03]", "[2즐04-03]"]
-  core_idea: "이야기는 소원과 마음을 나누게 해 줘요. 이야기를 듣고 만들고 공연하면 서로의 생각을 더 잘 알 수 있어요."
-  core_question: "이야기로 우리 마음을 어떻게 나눌까?"
+  published: false
+  codes: ["[2바04-02]", "[2슬04-02]", "[2즐04-02]"]
+  core_idea: "상상하면 새로운 생각과 물건을 떠올릴 수 있어요. 상상한 것을 그림, 소리, 몸으로 표현하면 모두와 함께 즐길 수 있어요."
+  core_question: "상상한 것을 어떻게 표현할까?"
   stages:
     - name: 생각열기
-      question: "이야기에는 어떤 힘이 있을까?"
+      question: "상상하면 무엇이 달라질까?"
     - name: 탐구하기
-      question: "이야기를 어떻게 듣고 만들까?"
+      question: "상상한 것을 어떻게 표현할까?"
     - name: 확장하기
-      question: "내가 만든 이야기를 어떻게 나눌까?"
+      question: "상상이 우리 생활을 어떻게 바꿀까?"
   concepts:
-    - "이야기"
-    - "소원"
-    - "전래동화"
-    - "공연"
-    - "인형극"
-  source_notes: "정리본 통합1-2.국정.이야기(주제 20차시 2~21) · 영상류: 동화 구연·인형극·공연 영상 · 기관: 국립어린이청소년도서관·서울시교육청·제주도교육청"
+    - "상상"
+    - "표현"
+    - "발명"
+    - "창의"
+    - "놀이"
+  source_notes: "정리본 통합1-2.국정.상상(주제 20차시 2~21) · 영상류: 무료 음악 만들기 누리집·마임 영상(공공 영상 거의 없음)"
 
 candidates:
   - cand_no: c01
     stage: 생각열기
-    title: "견우와 직녀"
-    video_title: "[어린이 동화] \"견우와 직녀\" 우리 이제 만나요 전시동화"
-    url: https://www.youtube.com/watch?v=PXzOlQ7JTs4
-    channel: "국립민속박물관"
+    title: "하늘을 나는 자동차를 만날 수 있을까?"
+    video_title: "[어린이의 질문4] 하늘을 나는 자동차는 언제 만날 수 있을까요?"
+    url: https://www.youtube.com/watch?v=8qtRXdCNLyo
+    channel: "국립어린이과학관"
     channel_grade: public
-    duration: "4:59"
+    duration: "3:03"
     use: 수업 전
-    basis_code: "[2슬04-03]"
-    basis_lesson: "2차시 그림책에서 만나는 이야기"
-    desc: "견우와 직녀 이야기를 전시 동화로 들려줘요."
+    basis_code: "[2슬04-02]"
+    basis_lesson: "8차시 여기저기에서 본다면"
+    desc: "하늘을 나는 자동차를 언제 만날 수 있을지 과학자가 답해 줘요."
     verdict: 채택
     reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "4분 59초(2022). 국립민속박물관 어린이박물관 전시동화(표 public)."
+    note: "3분 3초(2021). '어린이가 궁금해하는 과학'."
   - cand_no: c02
     stage: 생각열기
-    title: "연오랑과 세오녀"
-    video_title: "[어린이 동화] \"연오랑 세오녀\" 우리 이제 만나요 전시동화"
-    url: https://www.youtube.com/watch?v=elAs5rfzpzU
-    channel: "국립민속박물관"
+    title: "타임머신을 만들 수 있을까요?"
+    video_title: "[어린이의 질문 7] 타임머신을 만들 수 있나요?"
+    url: https://www.youtube.com/watch?v=NSGfetOD5jw
+    channel: "국립어린이과학관"
     channel_grade: public
-    duration: "5:07"
+    duration: "2:29"
     use: 수업 전
-    basis_code: "[2슬04-03]"
-    basis_lesson: "2차시 그림책에서 만나는 이야기"
-    desc: "연오랑과 세오녀 이야기를 전시 동화로 들려줘요."
+    basis_code: "[2슬04-02]"
+    basis_lesson: "13차시 우리 반에 공룡이 나타난다면"
+    desc: "타임머신을 만들 수 있는지 어린이의 질문에 답해 줘요."
     verdict: 채택
     reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "5분 7초(2022)."
+    note: "2분 29초(2021)."
   - cand_no: c03
-    stage: 탐구하기
-    title: "호랑이와 곶감"
-    video_title: "[그림책 뿡뿡뿡] 호랑이와 곶감｜전래동화｜EBS"
-    url: https://www.youtube.com/watch?v=sfqfetfKtcs
-    channel: "EBS 키즈"
-    channel_grade: edu
-    duration: "5:17"
-    use: 수업 중
-    basis_code: "[2슬04-03]"
-    basis_lesson: "9차시 이야기 마법사"
-    desc: "전래동화 호랑이와 곶감을 그림책으로 들려줘요."
+    stage: 확장하기
+    title: "땅속 통로를 만들 수 있을까요?"
+    video_title: "[어린이의 질문 11] 차들이 막힐 때 빨리 가는 땅 속 통로를 만들 수 있나요?"
+    url: https://www.youtube.com/watch?v=u8ibthFl3Uo
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "2:05"
+    use: 수업 후
+    basis_code: "[2슬04-02]"
+    basis_lesson: "20차시 우리들의 놀이터를 만든다면"
+    desc: "차가 막힐 때 땅속 통로로 빨리 갈 수 있는지 알아봐요."
     verdict: 채택
     reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "5분 17초. EBS 키즈 '그림책 뿡뿡뿡' 전래동화."
+    note: "2분 5초(2021)."
   - cand_no: c04
     stage: 탐구하기
-    title: "박박 바가지"
-    video_title: "[그림책 뿡뿡뿡] 박박 바가지｜전래동화｜EBS"
-    url: https://www.youtube.com/watch?v=O4mmICombYI
-    channel: "EBS 키즈"
+    title: "하늘거울로 놀아요"
+    video_title: "[즐거운 환경 수업] 08. 자연아, 놀자! (하늘거울)"
+    url: https://www.youtube.com/watch?v=qXbtNvr_IxQ
+    channel: "대구미래교육연구원"
     channel_grade: edu
-    duration: "5:54"
-    use: 수업 중
-    basis_code: "[2슬04-03]"
-    basis_lesson: "11차시 이야기를 들려줄게"
-    desc: "전래동화 박박 바가지를 그림책으로 들려줘요."
-    verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "5분 54초."
-  - cand_no: c05
-    stage: 탐구하기
-    title: "세상에서 제일 큰 아이"
-    video_title: "[그림책 뿡뿡뿡] 세상에서 제일 큰 아이｜전래동화｜EBS"
-    url: https://www.youtube.com/watch?v=wwDqKj712NY
-    channel: "EBS 키즈"
-    channel_grade: edu
-    duration: "5:53"
-    use: 수업 중
-    basis_code: "[2슬04-03]"
-    basis_lesson: "11차시 이야기를 들려줄게"
-    desc: "전래동화 세상에서 제일 큰 아이를 그림책으로 들려줘요."
-    verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "5분 53초."
-  - cand_no: c06
-    stage: 확장하기
-    title: "복 타러 간 총각"
-    video_title: "[그림책 뿡뿡뿡] 복 타러 간 총각｜전래동화｜EBS"
-    url: https://www.youtube.com/watch?v=ZKihKu_4sOY
-    channel: "EBS 키즈"
-    channel_grade: edu
-    duration: "6:50"
-    use: 수업 후
-    basis_code: "[2슬04-03]"
-    basis_lesson: "3~4차시 소원을 말해 봐"
-    desc: "소원을 이루려고 길을 떠나는 총각 이야기를 그림책으로 들려줘요."
-    verdict: 보류
-    note: "6분 50초. 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
-  - cand_no: c07
-    stage: 확장하기
-    title: "찍찍 찍서방"
-    video_title: "어린이날 온라인 큰 잔치 샌드아트 구연동화 5편 - 찍찍 찍서방"
-    url: https://www.youtube.com/watch?v=hPQXYIfMtHI
-    channel: "국립어린이청소년도서관"
-    channel_grade: public
-    duration: "6:20"
-    use: 수업 후
-    basis_code: "[2슬04-03]"
-    basis_lesson: "11차시 이야기를 들려줄게"
-    desc: "샌드아트로 구연동화 '찍찍 찍서방'을 들려줘요."
-    verdict: 보류
-    note: "6분 20초(2020). 국립어린이청소년도서관 공식 채널(어린이날 큰 잔치). 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택). ※ 채널 등급 표에 없음 — 등급(public)은 임시, 운영자 확정."
-  - cand_no: c08
-    stage: 확장하기
-    title: "바리공주"
-    video_title: "[어린이 동화] \"바리공주\" 우리 이제 만나요 전시동화"
-    url: https://www.youtube.com/watch?v=51cM2IWuk4c
-    channel: "국립민속박물관"
-    channel_grade: public
-    duration: "7:28"
-    use: 수업 후
-    basis_code: "[2슬04-03]"
-    basis_lesson: "이야기"
-    desc: "바리공주 이야기를 전시 동화로 들려줘요."
-    verdict: 보류
-    note: "7분 28초 — 내용이 1학년에게 무거울 수 있음."
-  - cand_no: c09
-    stage: 생각열기
-    title: "어리석은 소원"
-    video_title: "[그림책 뿡뿡뿡] 어리석은 소원｜세계명작｜EBS"
-    url: https://www.youtube.com/watch?v=Uh6uUYrk8VE
-    channel: "EBS 키즈"
-    channel_grade: edu
-    duration: "4:12"
-    use: 수업 전
-    basis_code: "[2슬04-03]"
-    basis_lesson: "3차시 소원을 말해 봐"
-    desc: "세 가지 소원을 엉뚱하게 써 버린 이야기를 그림책으로 들려줘요."
-    verdict: 채택
-    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "4분 12초(2023). EBS 키즈 '그림책 뿡뿡뿡' 세계명작. 10/18 보완."
-  - cand_no: c10
-    stage: 탐구하기
-    title: "열려라, 활짝! 도깨비문"
-    video_title: "[창작국악동화 애니메이션] 열려라, 활짝! 도깨비문!"
-    url: https://www.youtube.com/watch?v=cNbJ3eveI-4
-    channel: "국립국악원 National Gugak Center"
-    channel_grade: public
     duration: "4:40"
     use: 수업 중
-    basis_code: "[2슬04-03]"
-    basis_lesson: "9~11차시 이야기 마법사"
-    desc: "도깨비문 이야기를 국악과 함께 애니메이션 동화로 들려줘요."
+    basis_code: "[2즐04-02]"
+    basis_lesson: "6~10차시"
+    desc: "하늘거울로 하늘을 다르게 보는 놀이를 보여 줘요."
     verdict: 채택
     reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "4분 40초. 국립국악원 '창작국악동화 애니메이션'. 10/18 보완."
-  - cand_no: c11
+    note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 40초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c05
     stage: 탐구하기
-    title: "날아라 훨훨, 노란 삐약이"
-    video_title: "[창작국악동화 애니메이션] 날아라 훨훨, 노란 삐약이!"
-    url: https://www.youtube.com/watch?v=SC3TZeBi7js
+    title: "나는 가야금이 될 거야"
+    video_title: "[국악동요 애니메이션] 360° VR 영상: ”나는 가야금이 될거야“  (노래 부르기 ver)"
+    url: https://www.youtube.com/watch?v=a1xdetcctkw
     channel: "국립국악원 National Gugak Center"
     channel_grade: public
-    duration: "4:27"
+    duration: "2:09"
     use: 수업 중
-    basis_code: "[2슬04-03]"
-    basis_lesson: "9~11차시 이야기 마법사"
-    desc: "노란 병아리 이야기를 국악과 함께 애니메이션 동화로 들려줘요."
+    basis_code: "[2즐04-02]"
+    basis_lesson: "11차시 물건이 악기가 된다면"
+    desc: "가야금이 되고 싶은 마음을 노래한 국악 동요를 애니메이션으로 들려줘요."
     verdict: 채택
     reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "4분 27초. 10/18 보완."
-  - cand_no: c12
-    stage: 확장하기
-    title: "도깨비 구름 비장군"
-    video_title: "[종이인형 애니메이션] 도깨비 구름 비장군 (2018년 창작국악동요제 대상 수상작)"
-    url: https://www.youtube.com/watch?v=0QraJZDP548
+    note: "2분 9초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "딱따구리 집짓기"
+    video_title: "[국악동요 애니메이션] 360° VR 영상: ”딱따구리 집짓기“ (노래 부르기 ver)"
+    url: https://www.youtube.com/watch?v=fOQqnWC7v-g
     channel: "국립국악원 National Gugak Center"
     channel_grade: public
-    duration: "2:44"
-    use: 수업 후
-    basis_code: "[2즐04-03]"
-    basis_lesson: "12~13차시 노래를 불러 봐"
-    desc: "도깨비 구름 이야기를 노래로 들려주는 국악 동요예요."
+    duration: "1:49"
+    use: 수업 중
+    basis_code: "[2즐04-02]"
+    basis_lesson: "14차시 내가 음악을 만든다면"
+    desc: "딱따구리가 나무에 집을 짓는 모습을 노래한 국악 동요예요."
     verdict: 채택
     reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
-    note: "2분 44초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 2018 창작국악동요제 대상. 10/18 보완."
+    note: "1분 49초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c07
+    stage: 생각열기
+    title: "그랬으면 좋겠네"
+    video_title: "[종이인형 애니메이션] 그랬으면 좋겠네 (2018년 창작국악동요제 우수상 수상작)"
+    url: https://www.youtube.com/watch?v=QxrdhJAWIb4
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "2:19"
+    use: 수업 전
+    basis_code: "[2즐04-02]"
+    basis_lesson: "2차시 그림책으로 만나는 상상"
+    desc: "이랬으면 좋겠다는 상상을 노래한 국악 동요를 종이인형 애니메이션으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 19초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c08
+    stage: 확장하기
+    title: "개미장에 도깨비다"
+    video_title: "[국악동요 애니메이션] 창작국악동요 EP07 - 개미장에 도깨비다"
+    url: https://www.youtube.com/watch?v=3XouUZFnKGU
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:33"
+    use: 수업 후
+    basis_code: "[2즐04-02]"
+    basis_lesson: "19차시 무엇이든 바꿀 수 있다면"
+    desc: "개미 시장에 도깨비가 나타난 상상을 노래해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 33초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "일그러진 그림"
+    video_title: "[놀러ON과학] 일그러진 그림(2021 신규 전시품)"
+    url: https://www.youtube.com/watch?v=dZJXNP23BK8
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "3:50"
+    use: 수업 중
+    basis_code: "[2슬04-02]"
+    basis_lesson: "8차시 여기저기에서 본다면"
+    desc: "보는 곳에 따라 다르게 보이는 신기한 그림을 소개해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "3분 50초(2021). 국립어린이과학관 '놀러ON과학'. 10/18 보완."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "움직이는 조각"
+    video_title: "어린이를 위한 집에서 만나는 미술관 | 최우람 작가 | Art Museum at Home for Children | Choe U-Ram"
+    url: https://www.youtube.com/watch?v=TPDT101sVV0
+    channel: "국립현대미술관 MMCA"
+    channel_grade: public
+    duration: "4:14"
+    use: 수업 중
+    basis_code: "[2즐04-02]"
+    basis_lesson: "7차시 장난감이 춤을 춘다면"
+    desc: "기계로 움직이는 신기한 조각 작품을 어린이에게 소개해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "4분 14초(2022). 국립현대미술관 MMCA(공식, 표에 없음 — public 임시). 10/18 보완."
+  - cand_no: c11
+    stage: 확장하기
+    title: "상상 속 동물 그리기"
+    video_title: "(2분수업 끝_미술) 상상속의 괴물 그리기"
+    url: https://www.youtube.com/watch?v=q1AYS3SGb-M
+    channel: "전북수업샘터"
+    channel_grade: edu
+    duration: "2:10"
+    use: 수업 후
+    basis_code: "[2슬04-02]"
+    basis_lesson: "9차시 새로운 동물이 나타난다면"
+    desc: "상상 속 동물을 그리는 방법을 짧게 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 10초(2022). 전북수업샘터(표 edu). 10/18 보완."
