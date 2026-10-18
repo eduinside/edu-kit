@@ -1,5 +1,5 @@
 id: in2231
-title: 3. 기억
+title: 3. 물건
 grade: 2
 sem: 2학기
 subject: 통합
@@ -7,43 +7,115 @@ unit: 3단원
 unit_no: 3
 flow: activity
 sort_order: 1
-published: false
+published: true
 intro:
-  core_idea: 지난 일을 되돌아보면 기억에 남는 경험과 자란 나를 알 수 있어요. 앞으로의 배움을 기대하며 새 학년을 준비해요.
-  core_question: 지난 한 해를 어떻게 돌아보고 다음 학년을 준비할까?
+  core_idea: 생활 속 물건은 사람들이 불편함을 해결하려고 만든 것이에요. 쓰던 물건을 바꾸고 새로 만들어 보면 더 편리하고 안전한 물건이 돼요.
+  core_question: 불편한 것을 해결하는 물건을 어떻게 만들까?
   concepts:
-    - term: 기억
-    - term: 돌아보기
-    - term: 감사
-    - term: 성장
-    - term: 새 학년
+    - term: 물건
+      def: 우리가 쓰려고 만든 것이에요.
+    - term: 도구
+      def: 일을 쉽게 하려고 쓰는 물건이에요.
+    - term: 발명
+      def: 새로운 물건이나 방법을 처음 만들어 내는 것이에요.
+    - term: 재활용
+      def: 쓰고 난 물건을 다시 쓰거나 새 물건으로 만드는 것이에요.
+    - term: 아이디어
+      def: 새로운 생각이에요.
   standards:
-    - code: "[2바04-04]"
-      text: 지금까지의 생활 습관과 학습 습관을 되돌아본다.
-    - code: "[2슬04-04]"
-      text: 배운 것과 배울 것을 연결하며 앞으로의 배움을 상상한다.
-    - code: "[2즐04-04]"
-      text: 기억에 남는 경험을 떠올리며 의미를 부여한다.
+    - code: "[2바04-01]"
+      text: 모두를 위한 생활환경을 만드는 데 참여한다.
+    - code: "[2슬04-01]"
+      text: 생활도구의 모양이나 기능을 탐색하고 바꾸어본다.
+    - code: "[2즐04-01]"
+      text: 주변의 물건을 활용하여 놀잇감을 만든다.
 stages:
   - name: 생각열기
-    question: 기억에 남는 일은 무엇일까?
+    question: 우리 둘레에는 어떤 물건이 있을까?
   - name: 탐구하기
-    question: 지나온 한 해를 어떻게 돌아볼까?
+    question: 물건은 어떻게 쓰고 바꾸어 만들 수 있을까?
   - name: 확장하기
-    question: 다음 학년을 어떻게 기다리고 준비할까?
+    question: 더 편리하고 안전한 물건은 어떻게 만들까?
 items:
   - key: v1
-    stage: 탐구하기
-    title: 마음 속 감사를 나눠요
-    use: 수업 중
-    url: https://www.youtube.com/watch?v=dppS1tOfTPE
-    desc: 고마운 마음을 찾아 나누는 방법을 알려 줘요.
-    channel: 대구미래교육연구원
+    stage: 생각열기
+    title: 전기 없는 하루
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=x0F3VEGrZt8
+    desc: 전기가 없으면 하루가 어떻게 달라지는지 보여 줘요.
+    channel: 한국전력 KEPCO
   - key: v2
+    stage: 생각열기
+    title: 나의 오래된 물건 자랑 대회
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=yigdnoBCMHk
+    desc: 오래 쓴 물건을 소개하며 물건의 소중함을 이야기해요.
+    channel: 대구미래교육연구원
+  - key: v3
     stage: 탐구하기
-    title: 나는 얼마나 자랐을까?
+    title: 세계의 잇템, 호미
     use: 수업 중
-    url: https://www.youtube.com/watch?v=ht56jePmlBw
-    desc: 사람이 어떻게 자라는지 알려 줘요.
-    channel: 국립어린이과학관
-quiz: []
+    url: https://www.youtube.com/watch?v=q0PS9itA4Wk
+    desc: 옛날부터 쓰던 농기구 호미를 알아봐요.
+    channel: 국립민속박물관
+  - key: v4
+    stage: 탐구하기
+    title: 돌아라 물레방아
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=S_8_ahuDVRA
+    desc: 물의 힘으로 도는 물레방아를 알아봐요.
+    channel: 국립민속박물관
+  - key: v5
+    stage: 탐구하기
+    title: 전기를 안전하게 사용해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-cKhmBQHUqc
+    desc: 전기를 쓸 때 위험한 행동과 안전한 방법을 만화로 알려 줘요.
+    channel: 안전한TV
+  - key: v6
+    stage: 탐구하기
+    title: 불이 나면 이렇게 해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=YZlIuw45364
+    desc: 불이 나지 않게 막는 법과 불이 났을 때 대피하는 법을 만화로 알려 줘요.
+    channel: 안전한TV
+  - key: v7
+    stage: 탐구하기
+    title: 실내에서는 천천히 걸어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ZT2HjtUVvf0
+    desc: 교실이나 복도에서 뛰면 왜 위험한지 애니메이션으로 보여 줘요.
+    channel: 경기도학교안전공제회
+  - key: v8
+    stage: 확장하기
+    title: 버리는 자투리로 모자이크
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=8gNz5c00ePg
+    desc: 버리는 자투리로 새 작품을 만들어요.
+    channel: 대구미래교육연구원
+  - key: v9
+    stage: 확장하기
+    title: 병뚜껑으로 협동화
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=JC9EsFTx13o
+    desc: 병뚜껑으로 함께 그림을 만들어요.
+    channel: 대구미래교육연구원
+quiz:
+  - statement: 불편한 것을 해결하려고 발명품이 만들어져요.
+    answer: O
+    explain: 필요에서 발명이 시작돼요.
+  - statement: 호미는 농사에 쓰는 도구예요.
+    answer: O
+    explain: 호미는 땅을 파고 김을 매는 도구예요.
+  - statement: 쓰던 물건은 바꾸어 만들 수 없어요.
+    answer: X
+    explain: 다른 모양으로 바꾸어 다시 쓸 수 있어요.
+  - statement: 전기가 없으면 하루 생활이 불편해져요.
+    answer: O
+    explain: 전기로 쓰는 물건이 많기 때문이에요.
+  - statement: 병뚜껑으로 새 작품을 만들 수 있어요.
+    answer: O
+    explain: 버리는 물건도 새로운 작품이 돼요.
+  - statement: 물건은 무엇이든 한 번 쓰고 버려야 해요.
+    answer: X
+    explain: 오래 쓰고 다시 쓰면 쓰레기가 줄어요.

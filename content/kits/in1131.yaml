@@ -81,7 +81,7 @@ items:
     channel: 교육부
   - key: v7
     stage: 탐구하기
-    title: 교과서 속 우리 음악 — 아리랑
+    title: 아리랑
     use: 수업 중
     url: https://www.youtube.com/watch?v=hKFxLkcqEpI
     desc: 민요 아리랑을 소개하고 들려줘요.
@@ -122,11 +122,67 @@ items:
     desc: 우리나라 문화유산의 멋진 장면을 모아 보여 줘요.
     channel: 국가유산채널(K-Heritage Channel)
   - key: v13
+    stage: 탐구하기
+    title: 대문놀이
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=hZfP8ImeEIs
+    desc: 대문놀이 전래동요를 애니메이션으로 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v14
+    stage: 탐구하기
+    title: 깍둑깍둑 깍두기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=3qpt4LLvyHs
+    desc: 깍두기를 담그는 모습을 노래한 전래동요를 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v15
+    stage: 탐구하기
+    title: 메주가 주렁주렁
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=1NlTiugEgwg
+    desc: 메주를 매다는 우리 음식 문화를 국악 동요로 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v16
+    stage: 탐구하기
+    title: 밀양아리랑
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=igwkrY24068
+    desc: 흥겨운 밀양아리랑을 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v17
+    stage: 탐구하기
+    title: 진도아리랑
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=60HYk8hNZk4
+    desc: 진도아리랑을 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v18
+    stage: 탐구하기
+    title: 안전하게 물놀이하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=A9127Tow9Vw
+    desc: 물놀이를 할 때 지킬 안전 수칙을 만화로 알려 줘요.
+    channel: 안전한TV
+  - key: v19
+    stage: 탐구하기
+    title: 어린이 야외 활동 안전 수칙
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=ipIF507mz1Y
+    desc: 밖에서 활동할 때 지킬 안전 수칙을 짧게 알려 줘요.
+    channel: 안전한TV
+  - key: v20
     stage: 확장하기
     title: 소고춤
     use: 수업 후
     url: https://www.youtube.com/watch?v=1gkmUB8GRlo
     desc: 소고를 들고 추는 소고춤을 보여 줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v21
+    stage: 확장하기
+    title: 에헤라디야
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=haMDLMqriU4
+    desc: 흥겨운 창작 국악 동요를 종이인형 애니메이션으로 들려줘요.
     channel: 국립국악원 National Gugak Center
 quiz:
   - statement: 태극기는 우리나라를 나타내는 깃발이에요.

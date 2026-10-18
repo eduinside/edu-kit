@@ -39,126 +39,168 @@ stages:
 items:
   - key: v1
     stage: 생각열기
-    title: 1학년이 되었어요 1 — 궁금해요
+    title: 궁금해요
     use: 수업 전
     url: https://www.youtube.com/watch?v=HIBr2VnjDPU
     desc: 학교와 교실을 둘러보고 바르게 앉는 방법을 알아봐요.
     channel: 대구미래교육연구원
   - key: v2
     stage: 생각열기
-    title: 1학년이 되었어요 6 — 둘러봐요
+    title: 둘러봐요
     use: 수업 중
     url: https://www.youtube.com/watch?v=W8OMfibO-Wg
     desc: 우리 학교 이곳저곳과 여러 특별실의 이름과 쓰임을 알아봐요.
     channel: 대구미래교육연구원
   - key: v3
     stage: 생각열기
-    title: 1학년이 되었어요 7 — 도서관에 가요
+    title: 도서관에 가요
     use: 수업 중
     url: https://www.youtube.com/watch?v=HoWSOejOwt8
     desc: 도서관에서 지킬 점과 책을 빌리고 반납하는 방법을 알아봐요.
     channel: 대구미래교육연구원
   - key: v4
     stage: 생각열기
-    title: 두근두근 학교생활 7 — 올바른 공용 공간 사용
+    title: 올바른 공용 공간 사용
     use: 수업 중
     url: https://www.youtube.com/watch?v=P3wtMXoFneM
     desc: 복도·계단 같은 공용 공간을 바르게 쓰는 방법을 알려 줘요.
     channel: 대구미래교육연구원
   - key: v5
     stage: 탐구하기
-    title: 1학년이 되었어요 2 — 맛있게 먹어요
+    title: 맛있게 먹어요
     use: 수업 중
     url: https://www.youtube.com/watch?v=7MwsHfiGCpk
     desc: 식사 전에 할 일과 급식실을 바르게 쓰는 방법, 뒷정리하는 방법을 알아봐요.
     channel: 대구미래교육연구원
   - key: v6
     stage: 탐구하기
-    title: 1학년이 되었어요 4 — 깨끗하게 사용해요
+    title: 깨끗하게 사용해요
     use: 수업 중
     url: https://www.youtube.com/watch?v=mepFFrf3vrc
     desc: 화장실을 깨끗하게 사용하는 방법을 알아봐요.
     channel: 대구미래교육연구원
   - key: v7
     stage: 탐구하기
-    title: 1학년이 되었어요 3 — 정리를 잘해요
+    title: 정리를 잘해요
     use: 수업 중
     url: https://www.youtube.com/watch?v=Y5Tso0H4vKU
     desc: 책상, 사물함, 책장 같은 교실 곳곳을 정리하는 방법을 알아봐요.
     channel: 대구미래교육연구원
   - key: v8
     stage: 탐구하기
-    title: 1학년이 되었어요 8 — 차례를 지켜요
+    title: 차례를 지켜요
     use: 수업 중
     url: https://www.youtube.com/watch?v=wHYwXq0dL20
     desc: 차렷, 앞으로 나란히, 옆으로 나란히 서는 방법을 따라 해 봐요.
     channel: 대구미래교육연구원
   - key: v9
     stage: 탐구하기
+    title: 실내에서는 천천히 걸어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ZT2HjtUVvf0
+    desc: 교실이나 복도에서 뛰면 왜 위험한지 애니메이션으로 보여 주고 천천히 걷자고 알려 줘요.
+    channel: 경기도학교안전공제회
+  - key: v10
+    stage: 탐구하기
+    title: 점심시간에 안전하게 지내요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6cRybFyD384
+    desc: 점심시간에 급식실과 교실에서 다치지 않게 지내는 방법을 애니메이션으로 알려 줘요.
+    channel: 경기도학교안전공제회
+  - key: v11
+    stage: 탐구하기
+    title: 쉬는 시간에 안전하게 지내요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=_Tb3y0NA3B0
+    desc: 쉬는 시간에 친구들과 놀 때 다치지 않게 지내는 방법을 애니메이션으로 알려 줘요.
+    channel: 경기도학교안전공제회
+  - key: v12
+    stage: 탐구하기
     title: 1학년 급식 식사 예절
     use: 수업 중
     url: https://www.youtube.com/watch?v=9aeKp0V5M_E
     desc: 학교 급식을 받고 먹고 치우는 차례와 식사 예절을 1학년 어린이에게 알려 줘요.
     channel: 부산광역시교육청 영양교육체험센터
-  - key: v10
+  - key: v13
+    stage: 탐구하기
+    title: 길을 안전하게 걸어요 (보행 안전)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=CURYE_jLc-Q
+    desc: 도로와 횡단보도에서 생기는 사고를 막으려면 어떻게 걸어야 하는지 알려 줘요.
+    channel: 경상남도교육청 학생안전체험교육원
+  - key: v14
+    stage: 탐구하기
+    title: 깜빡이는 초록불, 그냥 뛰어가도 될까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=7tF2a1D55MY
+    desc: 초록불이 깜빡일 때 길을 건너도 되는지 어린이 교통안전교육으로 알려 줘요.
+    channel: 한국교통안전공단 교통안전TV
+  - key: v15
+    stage: 탐구하기
+    title: 안전한 등하굣길
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=iKO19X2f6QI
+    desc: 학교에 오가는 길에서 지킬 안전 수칙을 짧게 알려 줘요.
+    channel: 행정안전부
+  - key: v16
     stage: 확장하기
-    title: 1학년이 되었어요 9 — 나를 소개해요 (1)
+    title: 나를 소개해요 (1)
     use: 수업 중
     url: https://www.youtube.com/watch?v=hVkCJpWb1_Q
     desc: "'숲 속 학교의 자기소개' 이야기를 듣고 나를 소개하는 방법을 떠올려요."
     channel: 대구미래교육연구원
-  - key: v11
+  - key: v17
     stage: 확장하기
-    title: 1학년이 되었어요 10 — 나를 소개해요 (2)
+    title: 나를 소개해요 (2)
     use: 수업 중
     url: https://www.youtube.com/watch?v=vXJR_TPLrEc
     desc: 친구에게 나를 소개하는 방법과 친구의 발표를 잘 듣는 방법을 알아봐요.
     channel: 대구미래교육연구원
-  - key: v12
+  - key: v18
     stage: 확장하기
-    title: 1학년이 되었어요 11 — 바르게 인사해요 (1)
+    title: 바르게 인사해요 (1)
     use: 수업 전
     url: https://www.youtube.com/watch?v=j9zbsVG_N7Q
     desc: "'먼저 인사했어요' 이야기를 들려줘요."
     channel: 대구미래교육연구원
-  - key: v13
+  - key: v19
     stage: 확장하기
-    title: 1학년이 되었어요 12 — 바르게 인사해요 (2)
+    title: 바르게 인사해요 (2)
     use: 수업 중
     url: https://www.youtube.com/watch?v=mozQbyFrSBg
     desc: 바른 인사 자세와 여러 상황에 맞는 인사 방법을 알아봐요.
     channel: 대구미래교육연구원
-  - key: v14
+  - key: v20
     stage: 확장하기
-    title: 1학년이 되었어요 13 — 약속해요 (1)
+    title: 약속해요 (1)
     use: 수업 중
     url: https://www.youtube.com/watch?v=U8Fy5a5-Jb8
     desc: "'꼭 꼭 약속해' 노래를 배우고 짝과 함께 율동을 해 봐요."
     channel: 대구미래교육연구원
-  - key: v15
+  - key: v21
     stage: 확장하기
-    title: 1학년이 되었어요 15 — 약속해요 (3)
+    title: 약속해요 (3)
     use: 수업 중
     url: https://www.youtube.com/watch?v=dgy00I2cCfI
     desc: 바르고 고운 말 '주사위 말판 놀이' 방법을 알아봐요.
     channel: 대구미래교육연구원
-  - key: v16
+  - key: v22
     stage: 확장하기
-    title: 1학년이 되었어요 16 — 사이좋게 지내요 (1)
+    title: 사이좋게 지내요 (1)
     use: 수업 중
     url: https://www.youtube.com/watch?v=26WEe9vWQXc
     desc: "'난 상관 없어' 이야기를 듣고 내가 이야기 속 돼지라면 어떻게 할지 떠올려요."
     channel: 대구미래교육연구원
-  - key: v17
+  - key: v23
     stage: 확장하기
-    title: 1학년이 되었어요 17 — 사이좋게 지내요 (2)
+    title: 사이좋게 지내요 (2)
     use: 수업 중
     url: https://www.youtube.com/watch?v=16PQCeOuYi4
     desc: 괴롭힘을 당하는 친구의 마음을 생각하고 도울 방법을 떠올려요.
     channel: 대구미래교육연구원
-  - key: v18
+  - key: v24
     stage: 확장하기
-    title: 1학년이 되었어요 21 — 친구와 놀아요
+    title: 친구와 놀아요
     use: 수업 후
     url: https://www.youtube.com/watch?v=s4i2tfNno-c
     desc: 놀이할 때 지킬 규칙을 알고 친구들과 할 수 있는 놀이를 따라 해 봐요.

@@ -7,7 +7,7 @@ unit: 2단원
 unit_no: 2
 flow: activity
 sort_order: 1
-published: false
+published: true
 intro:
   core_idea: 지구와 모든 생명이 오래 살아가려면 물, 쓰레기, 동물을 아끼는 약속이 필요해요. 작은 실천을 함께하면 지구를 지킬 수 있어요.
   core_question: 지구를 위해 우리가 지킬 약속은 무엇일까?
@@ -45,33 +45,89 @@ items:
     desc: 지구가 따뜻해지면 북극의 얼음과 북극곰이 어떻게 되는지 알려 줘요.
     channel: 국립어린이과학관
   - key: v2
+    stage: 생각열기
+    title: 아기 펭귄의 집이 사라졌어요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=OETgiDYiG84
+    desc: 지구가 따뜻해져 집을 잃은 아기 펭귄 이야기를 들려줘요.
+    channel: 해양수산부
+  - key: v3
+    stage: 생각열기
+    title: 어린이들이 생각하는 바다 쓰레기
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=iJzCP0jWWb4
+    desc: 어린이들이 바다 쓰레기에 대해 생각을 이야기해요.
+    channel: 해양수산부
+  - key: v4
     stage: 탐구하기
     title: 탄소 발자국을 줄여요
     use: 수업 중
     url: https://www.youtube.com/watch?v=wC9lOfGB_xo
     desc: 생활 속에서 탄소 발자국을 줄이는 방법을 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v3
+  - key: v5
     stage: 탐구하기
     title: 빗물을 저금해요
     use: 수업 중
     url: https://www.youtube.com/watch?v=tR0kQ5wYX1w
     desc: 빗물을 모아 쓰며 물을 아끼는 방법을 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v4
+  - key: v6
     stage: 탐구하기
     title: 교실에서 분리배출해요
     use: 수업 중
     url: https://www.youtube.com/watch?v=fEmIG63XuKE
     desc: 교실에서 쓰레기를 나누어 버리는 방법을 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v5
+  - key: v7
+    stage: 탐구하기
+    title: 미래를 만드는 물 절약 생활 습관
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Wku8nPRG6qg
+    desc: 생활 속에서 물을 아끼는 습관을 알려 줘요.
+    channel: K-water 한국수자원공사 Official
+  - key: v8
+    stage: 탐구하기
+    title: 버려진 플라스틱 빨대의 나비효과
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=TxZtHAJF3X4
+    desc: 아름다운 바닷속에 쌓인 쓰레기와 플라스틱 빨대가 바다 생물에게 주는 영향을 알려 줘요.
+    channel: 해양수산부
+  - key: v9
+    stage: 탐구하기
+    title: 생물 다양성 — 마지막 기회
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=WPTw6FfJ5pQ
+    desc: 사라져 가는 생물을 지키기 위한 마지막 기회를 이야기해요.
+    channel: 국립생물자원관
+  - key: v10
+    stage: 탐구하기
+    title: 킥보드를 안전하게 타요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=GzSkZF9XtqI
+    desc: 킥보드를 탈 때 내리막길이 왜 위험한지, 보호 장구를 왜 써야 하는지 알려 줘요.
+    channel: 한국교통안전공단 교통안전TV
+  - key: v11
+    stage: 탐구하기
+    title: 작은 젤리도 조심해요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=DLxSwO4PdlE
+    desc: 작은 젤리 같은 간식을 먹을 때 조심할 점을 알려 줘요.
+    channel: 식품의약품안전처
+  - key: v12
     stage: 확장하기
     title: 우리 반 당근마켓
     use: 수업 후
     url: https://www.youtube.com/watch?v=fTDNDRvPreE
     desc: 쓰던 물건을 나누고 바꾸어 쓰는 활동을 보여 줘요.
     channel: 대구미래교육연구원
+  - key: v13
+    stage: 확장하기
+    title: 우리는 권리가 있어요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=S2SLTBPfZi0
+    desc: 어린이에게 어떤 권리가 있는지 알려 줘요.
+    channel: 의왕시
 quiz:
   - statement: 양치할 때 물을 틀어 놓으면 물이 낭비돼요.
     answer: O

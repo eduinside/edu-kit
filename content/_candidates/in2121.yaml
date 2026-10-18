@@ -43,7 +43,7 @@ candidates:
     basis_lesson: "5차시 숲속을 걸어요"
     desc: "한여름에도 숲속이 시원한 까닭을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "2분 39초(2021). '어린이가 궁금해하는 과학'."
   - cand_no: c02
     stage: 생각열기
@@ -58,7 +58,7 @@ candidates:
     basis_lesson: "3~5차시"
     desc: "자연이 들려주는 소리를 듣는 활동을 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 59초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c03
     stage: 탐구하기
@@ -73,7 +73,7 @@ candidates:
     basis_lesson: "6차시 나도 농부야"
     desc: "학교 텃밭을 어떻게 가꾸는지 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 39초(2022)."
   - cand_no: c04
     stage: 탐구하기
@@ -88,7 +88,7 @@ candidates:
     basis_lesson: "6차시 나도 농부야"
     desc: "장마철에 텃밭을 어떻게 돌볼지 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 43초(2022)."
   - cand_no: c05
     stage: 탐구하기
@@ -103,7 +103,7 @@ candidates:
     basis_lesson: "6차시 나도 농부야"
     desc: "텃밭을 정리하는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 46초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c06
     stage: 탐구하기
@@ -118,7 +118,7 @@ candidates:
     basis_lesson: "9~11차시 땅 위 친구들"
     desc: "식물을 어떻게 돌보고 지켜 줄지 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 생명존중교육 2분 34초(2023)."
   - cand_no: c07
     stage: 확장하기
@@ -133,7 +133,7 @@ candidates:
     basis_lesson: "13차시 함께하면 행복해"
     desc: "식물을 사랑하는 마음을 실천하는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 1분 38초(2023)."
   - cand_no: c08
     stage: 확장하기
@@ -148,7 +148,7 @@ candidates:
     basis_lesson: "13차시 함께하면 행복해"
     desc: "반려동물과 사이좋게 지내는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 1분 33초(2023)."
   - cand_no: c09
     stage: 확장하기
@@ -163,7 +163,7 @@ candidates:
     basis_lesson: "13차시 함께하면 행복해"
     desc: "반려동물과 함께할 때 지킬 예절을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 3분 24초(2023)."
   - cand_no: c10
     stage: 확장하기
@@ -178,5 +178,110 @@ candidates:
     basis_lesson: "자연"
     desc: "가을에 나뭇잎 색이 변하는 까닭을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
     note: "2분 26초(2021). 계절(in2211)에서도 쓸 수 있음."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "강낭콩"
+    video_title: "[국악동요 애니메이션] 창작국악동요 EP04 - 강낭콩"
+    url: https://www.youtube.com/watch?v=dkhT4ruf2pc
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:24"
+    use: 수업 중
+    basis_code: "[2바01-04]"
+    basis_lesson: "6차시 나도 농부야"
+    desc: "강낭콩이 자라는 모습을 노래한 국악 동요예요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "1분 24초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "달팽이"
+    video_title: "[국악동요 애니메이션] 창작국악동요 EP09 - 달팽이"
+    url: https://www.youtube.com/watch?v=8R-NFSSPoNs
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "2:04"
+    use: 수업 중
+    basis_code: "[2즐01-04]"
+    basis_lesson: "9차시 땅 위 친구들"
+    desc: "느릿느릿 달팽이를 노래한 국악 동요예요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "2분 4초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c13
+    stage: 생각열기
+    title: "누구의 꼬리일까"
+    video_title: "[국악동요 애니메이션] 창작국악동요 EP03 - 누구의 꼬리일까"
+    url: https://www.youtube.com/watch?v=_vThE-z8Dmg
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:11"
+    use: 수업 전
+    basis_code: "[2슬01-04]"
+    basis_lesson: "12차시 난 네가 궁금해"
+    desc: "여러 동물의 꼬리를 맞혀 보는 국악 동요예요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "1분 11초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c14
+    stage: 탐구하기
+    title: "개미 친구들"
+    video_title: "[국악동요 애니메이션] 창작국악동요 EP06 - 개미친구들"
+    url: https://www.youtube.com/watch?v=UNzTqMquyWQ
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:07"
+    use: 수업 중
+    basis_code: "[2즐01-04]"
+    basis_lesson: "9차시 땅 위 친구들"
+    desc: "부지런한 개미 친구들을 노래한 국악 동요예요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "1분 7초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c15
+    stage: 탐구하기
+    title: "황사와 미세먼지 안전 수칙"
+    video_title: "[만화로 알아보는 안전수칙] 국민이 안전이와 함께하는 황사와 미세먼지 안전수칙"
+    url: https://www.youtube.com/watch?v=fzXv67DU5fw
+    channel: "안전한TV"
+    channel_grade: public
+    duration: "2:53"
+    use: 수업 중
+    basis_code: "[2슬01-04]"
+    basis_lesson: "33차시 미세 먼지로부터 안전하게"
+    desc: "황사와 미세먼지가 심한 날 지킬 수칙을 만화로 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "2분 53초(2016). 안전한TV(행정안전부 운영) '만화로 알아보는 안전수칙'(국민이·안전이). 10/18 안전 차시 보강."
+  - cand_no: c16
+    stage: 탐구하기
+    title: "진드기 — 털고 씻고 확인하기"
+    video_title: "진드기 예방수칙 3. 털고 씻고 확인하기"
+    url: https://www.youtube.com/watch?v=eYkWJ87QIoA
+    channel: "질병관리청 아프지마TV"
+    channel_grade: public
+    duration: "1:47"
+    use: 수업 중
+    basis_code: "[2슬01-04]"
+    basis_lesson: "32차시 야외에서 안전하게"
+    desc: "바깥 활동 뒤 옷을 털고 씻고 몸을 살펴 진드기를 막는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "1분 47초(2026). 질병관리청 진드기 예방수칙 3. 10/18 안전 차시 보강."
+  - cand_no: c17
+    stage: 탐구하기
+    title: "등산·캠핑 안전 수칙"
+    video_title: "[다행 라이브] ⛰️ 다행이와 함께 알아보는 등산사고·캠핑 안전수칙!"
+    url: https://www.youtube.com/watch?v=6h_GWJ4N2eA
+    channel: "행정안전부"
+    channel_grade: public
+    duration: "4:53"
+    use: 수업 중
+    basis_code: "[2바01-04]"
+    basis_lesson: "31차시 야영장에서 안전하게"
+    desc: "산에 오르거나 캠핑할 때 지킬 안전 수칙을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙·10/18 안전 보강 지시 — 미리보기 확인)"
+    note: "4분 53초(2025). 행정안전부 '다행 라이브'. 10/18 안전 차시 보강."

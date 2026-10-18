@@ -45,34 +45,76 @@ items:
     desc: "'먼저 인사했어요' 이야기를 들려줘요."
     channel: 대구미래교육연구원
   - key: v2
+    stage: 생각열기
+    title: 모습은 달라도 우리는 모두 가족
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=-xIPAKG0Chc
+    desc: 가족의 모습은 저마다 달라도 모두 소중한 가족이라는 것을 보여 줘요.
+    channel: 국가인권위원회
+  - key: v3
+    stage: 생각열기
+    title: 엄마 냄새
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=c1xH9xgXQfM
+    desc: 엄마 냄새를 떠올리는 창작 국악 동요를 종이인형 애니메이션으로 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v4
     stage: 탐구하기
-    title: 나누니까 행복해요 — 이웃 편
+    title: 나누니까 행복해요(이웃 편)
     use: 수업 중
     url: https://www.youtube.com/watch?v=rvgp-UDA6V4
     desc: 이웃과 나누고 도우면 왜 행복한지 이야기로 보여 줘요.
     channel: EBS 키즈
-  - key: v3
+  - key: v5
     stage: 탐구하기
     title: 바르게 인사해요
     use: 수업 중
     url: https://www.youtube.com/watch?v=mozQbyFrSBg
     desc: 바른 인사 자세와 여러 상황에 맞는 인사 방법을 알아봐요.
     channel: 대구미래교육연구원
-  - key: v4
+  - key: v6
+    stage: 탐구하기
+    title: 기침 예절과 손 씻기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ohbB49BbYT8
+    desc: 기침할 때 지킬 예절과 손 씻는 방법을 알려 줘요.
+    channel: 질병관리청 아프지마TV
+  - key: v7
+    stage: 탐구하기
+    title: 어린이 유괴 예방 안전 수칙
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6NqgBD-ezFQ
+    desc: 낯선 사람이 따라오라고 할 때 거절하고 도움을 청하는 방법을 알려 줘요.
+    channel: 행정안전부
+  - key: v8
+    stage: 탐구하기
+    title: 아동 안전 지킴이집을 아시나요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ewLNBHs3Zfc
+    desc: 위험할 때 달려가 도움을 청할 수 있는 아동 안전 지킴이집을 알려 줘요.
+    channel: 행정안전부
+  - key: v9
+    stage: 탐구하기
+    title: 불이 나면 이렇게 대피해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qgv2NW-RAzw
+    desc: 불이 났을 때 어린이가 어떻게 대피해야 하는지 알려 줘요.
+    channel: 소방청TV
+  - key: v10
     stage: 확장하기
     title: 사이좋게 지내요 (1)
     use: 수업 중
     url: https://www.youtube.com/watch?v=16PQCeOuYi4
     desc: "'난 상관 없어' 이야기를 듣고 내가 이야기 속 돼지라면 어떻게 할지 떠올려요."
     channel: 대구미래교육연구원
-  - key: v5
+  - key: v11
     stage: 확장하기
     title: 사이좋게 지내요 (2)
     use: 수업 중
     url: https://www.youtube.com/watch?v=26WEe9vWQXc
     desc: 괴롭힘을 당하는 친구의 마음을 생각하고 도울 방법을 떠올려요.
     channel: 대구미래교육연구원
-  - key: v6
+  - key: v12
     stage: 확장하기
     title: 마음 속 감사를 나눠요
     use: 수업 후

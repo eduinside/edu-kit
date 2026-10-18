@@ -7,7 +7,7 @@ unit: 1단원
 unit_no: 1
 flow: activity
 sort_order: 1
-published: false
+published: true
 intro:
   core_idea: 봄, 여름, 가을, 겨울마다 날씨와 자연, 우리 생활이 달라져요. 계절의 변화를 알고 건강하게 지내며 계절을 즐길 수 있어요.
   core_question: 계절이 바뀌면 우리 생활은 어떻게 달라질까?
@@ -50,19 +50,103 @@ items:
     desc: 추운 날 입김이 나오는 까닭을 알려 줘요.
     channel: 국립어린이과학관
   - key: v3
+    stage: 생각열기
+    title: 한국의 사계
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=CY2VXqEpXzQ
+    desc: 봄·여름·가을·겨울의 아름다운 우리나라 풍경을 말 없이 보여 줘요.
+    channel: EBS 컬렉션 - 사이언스
+  - key: v4
+    stage: 생각열기
+    title: 사계절 풍경
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=bCb5sa3kyDY
+    desc: 수목원의 봄·여름·가을·겨울 풍경을 보여 줘요.
+    channel: 국립수목원
+  - key: v5
     stage: 탐구하기
     title: 동물들의 슬기로운 겨울 생활
     use: 수업 중
     url: https://www.youtube.com/watch?v=jXA-7wuJgBI
     desc: 동물들이 추운 겨울을 어떻게 보내는지 알려 줘요.
     channel: 국립어린이과학관
-  - key: v4
+  - key: v6
     stage: 탐구하기
     title: 한여름에도 숲은 왜 시원할까요?
     use: 수업 중
     url: https://www.youtube.com/watch?v=NGW8eqFOKUw
     desc: 한여름에도 숲속이 시원한 까닭을 알려 줘요.
     channel: 국립어린이과학관
+  - key: v7
+    stage: 탐구하기
+    title: 24절기의 비밀 — 봄
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=qJ6Vhids-pc
+    desc: 24절기 가운데 봄의 절기를 짧게 보여 줘요.
+    channel: EBSDocumentary (EBS 다큐)
+  - key: v8
+    stage: 탐구하기
+    title: 24절기 — 하지
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=EZweTzzwz9Q
+    desc: 낮이 가장 긴 날, 하지를 알려 줘요.
+    channel: 국립민속박물관
+  - key: v9
+    stage: 탐구하기
+    title: 날씨야 고마워
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=iJRP3G7khkQ
+    desc: 날씨가 우리 생활에 주는 고마움을 짧게 보여 줘요.
+    channel: 대한민국 기상청
+  - key: v10
+    stage: 탐구하기
+    title: 잠자리 꽁꽁
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tWFeXRPWxhY
+    desc: 잠자리를 잡으며 부르던 전래동요를 애니메이션으로 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v11
+    stage: 탐구하기
+    title: 폭염 대비 행동 요령
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=d9CA4wc6zXw
+    desc: 더운 여름에 몸을 지키는 행동 요령 여섯 가지를 알려 줘요.
+    channel: 행정안전부
+  - key: v12
+    stage: 탐구하기
+    title: 폭염·풍수해 안전 수칙
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=PghKhq1AwCY
+    desc: 여름철 더위와 비바람에 대비하는 안전 수칙을 알려 줘요.
+    channel: 경기도학교안전공제회
+  - key: v13
+    stage: 탐구하기
+    title: 비 오는 날 안전 수칙 노래
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=0ebSlbhELaI
+    desc: 비 오는 날 지킬 안전 수칙을 노래로 익혀요.
+    channel: 안전한TV
+  - key: v14
+    stage: 탐구하기
+    title: 손 씻기와 기침 예절
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=M9MHkbCaF0Q
+    desc: 감기를 막기 위해 손을 씻고 기침 예절을 지키는 방법을 알려 줘요.
+    channel: 질병관리청 아프지마TV
+  - key: v15
+    stage: 확장하기
+    title: 오동통 홍시야
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=FGyG2ZxkVM4
+    desc: 가을에 익는 홍시를 노래한 국악 동요예요.
+    channel: 국립국악원 National Gugak Center
+  - key: v16
+    stage: 확장하기
+    title: 새봄맞이
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=Ppo2v3k1VHA
+    desc: 새봄을 맞이하는 마음을 노래한 국악 동요예요.
+    channel: 국립국악원 National Gugak Center
 quiz:
   - statement: 한 해에는 봄, 여름, 가을, 겨울 네 계절이 있어요.
     answer: O

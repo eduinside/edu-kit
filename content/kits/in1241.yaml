@@ -1,5 +1,5 @@
 id: in1241
-title: 4. 상상
+title: 4. 이야기
 grade: 1
 sem: 2학기
 subject: 통합
@@ -7,75 +7,122 @@ unit: 4단원
 unit_no: 4
 flow: activity
 sort_order: 1
-published: false
+published: true
 intro:
-  core_idea: 상상하면 새로운 생각과 물건을 떠올릴 수 있어요. 상상한 것을 그림, 소리, 몸으로 표현하면 모두와 함께 즐길 수 있어요.
-  core_question: 상상한 것을 어떻게 표현할까?
+  core_idea: 이야기는 소원과 마음을 나누게 해 줘요. 이야기를 듣고 만들고 공연하면 서로의 생각을 더 잘 알 수 있어요.
+  core_question: 이야기로 우리 마음을 어떻게 나눌까?
   concepts:
-    - term: 상상
-      def: 눈앞에 없는 것을 머릿속으로 떠올리는 것이에요.
-    - term: 표현
-      def: 생각이나 느낌을 그림, 몸짓, 소리로 나타내는 것이에요.
-    - term: 발명
-      def: 새로운 물건이나 방법을 처음 만들어 내는 것이에요.
-    - term: 창의
-      def: 새롭고 재미있는 생각이에요.
+    - term: 이야기
+      def: 사람이나 동물이 겪은 일을 말이나 글로 들려주는 것이에요.
+    - term: 소원
+      def: 이루고 싶은 바람이에요.
+    - term: 전래동화
+      def: 옛날부터 전해 내려오는 이야기예요.
+    - term: 인형극
+      def: 인형이 나와서 이야기를 보여 주는 공연이에요.
+    - term: 공연
+      def: 여러 사람 앞에서 노래나 연극 같은 것을 보여 주는 것이에요.
   standards:
-    - code: "[2바04-02]"
-      text: 다양한 생각이나 의견에 대해 개방적인 태도를 형성한다.
-    - code: "[2슬04-02]"
-      text: 상상한 것을 다양한 매체와 재료로 구현한다.
-    - code: "[2즐04-02]"
-      text: 자유롭게 상상하며 놀이한다.
+    - code: "[2바04-03]"
+      text: 여럿이 하는 활동에 관심을 갖고 자발적으로 협력한다.
+    - code: "[2슬04-03]"
+      text: 경험한 것 중에서 관심 있는 주제를 정하고 조사한다.
+    - code: "[2즐04-03]"
+      text: 생각이나 느낌을 살려 전시나 공연 활동을 한다.
 stages:
   - name: 생각열기
-    question: 상상하면 무엇이 달라질까?
+    question: 이야기에는 어떤 힘이 있을까?
   - name: 탐구하기
-    question: 상상한 것을 어떻게 표현할까?
+    question: 이야기를 어떻게 듣고 만들까?
   - name: 확장하기
-    question: 상상이 우리 생활을 어떻게 바꿀까?
+    question: 내가 만든 이야기를 어떻게 나눌까?
 items:
   - key: v1
     stage: 생각열기
-    title: 하늘을 나는 자동차를 만날 수 있을까?
+    title: 견우와 직녀
     use: 수업 전
-    url: https://www.youtube.com/watch?v=8qtRXdCNLyo
-    desc: 하늘을 나는 자동차를 언제 만날 수 있을지 과학자가 답해 줘요.
-    channel: 국립어린이과학관
+    url: https://www.youtube.com/watch?v=PXzOlQ7JTs4
+    desc: 견우와 직녀 이야기를 전시 동화로 들려줘요.
+    channel: 국립민속박물관
   - key: v2
     stage: 생각열기
-    title: 타임머신을 만들 수 있을까요?
+    title: 연오랑과 세오녀
     use: 수업 전
-    url: https://www.youtube.com/watch?v=NSGfetOD5jw
-    desc: 타임머신을 만들 수 있는지 어린이의 질문에 답해 줘요.
-    channel: 국립어린이과학관
+    url: https://www.youtube.com/watch?v=elAs5rfzpzU
+    desc: 연오랑과 세오녀 이야기를 전시 동화로 들려줘요.
+    channel: 국립민속박물관
   - key: v3
-    stage: 탐구하기
-    title: 하늘거울로 놀아요
-    use: 수업 중
-    url: https://www.youtube.com/watch?v=qXbtNvr_IxQ
-    desc: 하늘거울로 하늘을 다르게 보는 놀이를 보여 줘요.
-    channel: 대구미래교육연구원
+    stage: 생각열기
+    title: 어리석은 소원
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Uh6uUYrk8VE
+    desc: 세 가지 소원을 엉뚱하게 써 버린 이야기를 그림책으로 들려줘요.
+    channel: EBS 키즈
   - key: v4
+    stage: 탐구하기
+    title: 호랑이와 곶감
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=sfqfetfKtcs
+    desc: 전래동화 호랑이와 곶감을 그림책으로 들려줘요.
+    channel: EBS 키즈
+  - key: v5
+    stage: 탐구하기
+    title: 박박 바가지
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=O4mmICombYI
+    desc: 전래동화 박박 바가지를 그림책으로 들려줘요.
+    channel: EBS 키즈
+  - key: v6
+    stage: 탐구하기
+    title: 세상에서 제일 큰 아이
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=wwDqKj712NY
+    desc: 전래동화 세상에서 제일 큰 아이를 그림책으로 들려줘요.
+    channel: EBS 키즈
+  - key: v7
+    stage: 탐구하기
+    title: 열려라, 활짝! 도깨비문
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=cNbJ3eveI-4
+    desc: 도깨비문 이야기를 국악과 함께 애니메이션 동화로 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v8
+    stage: 탐구하기
+    title: 날아라 훨훨, 노란 삐약이
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=SC3TZeBi7js
+    desc: 노란 병아리 이야기를 국악과 함께 애니메이션 동화로 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v9
+    stage: 탐구하기
+    title: 도서관에 가요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HoWSOejOwt8
+    desc: 도서관에서 지킬 점과 책을 빌리고 반납하는 방법을 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v10
     stage: 확장하기
-    title: 땅속 통로를 만들 수 있을까요?
+    title: 도깨비 구름 비장군
     use: 수업 후
-    url: https://www.youtube.com/watch?v=u8ibthFl3Uo
-    desc: 차가 막힐 때 땅속 통로로 빨리 갈 수 있는지 알아봐요.
-    channel: 국립어린이과학관
+    url: https://www.youtube.com/watch?v=0QraJZDP548
+    desc: 도깨비 구름 이야기를 노래로 들려주는 국악 동요예요.
+    channel: 국립국악원 National Gugak Center
 quiz:
-  - statement: 상상은 머릿속으로 떠올려 보는 것이에요.
+  - statement: 전래동화는 옛날부터 전해 내려오는 이야기예요.
     answer: O
-    explain: 눈에 보이지 않아도 생각으로 그려 볼 수 있어요.
-  - statement: 상상한 것을 그림으로 그릴 수 있어요.
+    explain: 여러 사람이 입으로 전해 온 이야기예요.
+  - statement: 이야기를 들을 때는 끝까지 귀 기울여 들어요.
     answer: O
-    explain: 그림, 몸짓, 소리로 나타낼 수 있어요.
-  - statement: 상상한 것은 몸으로 표현할 수 없어요.
+    explain: 끝까지 들어야 이야기의 마음을 알 수 있어요.
+  - statement: 공연을 볼 때는 큰 소리로 떠들어도 돼요.
     answer: X
-    explain: 몸짓으로도 표현할 수 있어요.
-  - statement: 상상에는 한 가지 정답만 있어요.
-    answer: X
-    explain: 상상은 사람마다 달라서 정해진 답이 없어요.
-  - statement: 상상한 것을 노래로 나타낼 수 있어요.
+    explain: 다른 사람이 볼 수 있게 조용히 봐요.
+  - statement: 인형극은 인형으로 이야기를 보여 줘요.
     answer: O
-    explain: 소리와 노래로도 표현할 수 있어요.
+    explain: 인형이 말하고 움직이며 이야기를 들려줘요.
+  - statement: 소원은 이루고 싶은 마음이에요.
+    answer: O
+    explain: 소원을 말로 표현해 볼 수 있어요.
+  - statement: 이야기는 책으로만 들을 수 있어요.
+    answer: X
+    explain: 말, 노래, 인형극 같은 여러 방법이 있어요.
