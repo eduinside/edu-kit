@@ -1,0 +1,165 @@
+id: mo4271
+title: 7. 자연은 소중해요
+grade: 4
+sem: 2학기
+subject: 도덕
+unit: 7단원
+unit_no: 7
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 사람도 자연을 이루는 한 구성원이라서 자연과 서로 도우며 함께 살아가야 해요. 기후 위기와 쓰레기 같은 환경 문제는 나와 이어져 있고, 작은 실천도 모이면 큰 차이를 만들 수 있어요.
+  core_question: 사람과 자연이 함께 살아가기 위해 오늘 나는 어떤 실천을 할 수 있을까?
+  concepts:
+    - term: 공존
+      def: 서로 해치지 않고 함께 어울려 살아가는 것이에요. 사람과 자연도 서로 돕고 공존해야 해요.
+    - term: 기후 위기
+      def: 사람의 활동 때문에 지구의 기온과 날씨가 크게 달라져서 우리 삶과 자연이 위험해지는 일이에요. 요즘 더 자주 겪는 폭염과 큰 홍수가 그 모습이에요.
+    - term: 탄소 중립
+      def: 우리가 내보내는 이산화탄소의 양을, 숲이 흡수하거나 사람이 없애는 양과 똑같이 맞추어 실제로 늘어나는 양을 0으로 만드는 것이에요.
+    - term: 분리배출
+      def: 쓰고 난 물건을 종이, 플라스틱, 유리처럼 종류별로 나누어 버리는 것이에요. 바르게 나누어 버리면 다시 쓰기 쉬워져요.
+    - term: 멸종 위기종
+      def: 지구에서 완전히 사라질 위험에 놓인 생물이에요. 사는 곳이 사라지거나 환경이 변하면 그 수가 크게 줄 수 있어요.
+  standards:
+    - code: "[4도04-02]"
+      text: 인간과 자연이 함께 살아야 하는 이유를 이해하고 공생을 위한 구체적인 실천 계획을 세우며 생태 감수성을 기른다.
+stages:
+  - name: 생각열기
+    question: 사람과 자연은 왜 함께 살아가야 할까?
+  - name: 탐구하기
+    question: 기후 위기는 무엇이고, 작은 행동과 분리배출로 어떻게 줄일 수 있을까?
+  - name: 확장하기
+    question: 멸종 위기 생물과 공존하려면 어떤 마음과 실천이 필요할까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 인간도 멸종될 수 있습니다
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=MqUCO-UZCCo
+    desc: 생물다양성이 줄어들면 사람도 위험해질 수 있다는 점을 짧게 알려 주는 공익 영상이에요.
+    channel: 한국환경공단
+  - key: v2
+    stage: 생각열기
+    title: 생물들의 보금자리
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=C7iBsq7kLXU
+    desc: 초등 3·4학년을 위해 만든 환경교육 영상으로 생물들이 사는 보금자리를 알아봐요.
+    channel: 국가환경교육센터
+  - key: v3
+    stage: 생각열기
+    title: 생물다양성과 사라진 친구들
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=jbstGSxjASU
+    desc: 생물다양성의 뜻과 중요성, 줄어드는 원인과 회복 노력을 알려 줘요.
+    channel: 국립생물자원관
+  - key: v4
+    stage: 탐구하기
+    title: 지구를 기후변화 위기에서 구하는 법
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=3a09fWMlj4Y
+    desc: 우리의 작은 행동이 기후변화 위기에서 지구를 구할 수 있다는 점을 알려 줘요.
+    channel: 기후에너지환경부
+  - key: v5
+    stage: 탐구하기
+    title: 일상 속 소소하게 할 수 있는 물 절약 방법
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=KNvrjPZ0imQ
+    desc: 생활 속에서 물을 아끼는 작은 방법을 알려 줘요.
+    channel: 기후에너지환경부
+  - key: v6
+    stage: 탐구하기
+    title: 낭비 없는 식생활, 줄일수록 좋아요!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=RXIvsuU1GIs
+    desc: 먹을 만큼만 준비해 음식물 쓰레기를 줄이는 방법을 알려 줘요.
+    channel: 기후에너지환경부
+  - key: v7
+    stage: 탐구하기
+    title: 생활 속에서 전기절약 실천하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=x3iy315chyc
+    desc: 작은 전기 절약 행동이 모여 환경에 큰 도움이 된다는 것을 알려 줘요.
+    channel: 기후에너지환경부
+  - key: v8
+    stage: 탐구하기
+    title: 저탄소 생활
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=ro5F5Xb97TI
+    desc: 초등 3·4학년을 위한 환경교육 영상으로 탄소를 줄이는 생활을 알아봐요.
+    channel: 국가환경교육센터
+  - key: v9
+    stage: 탐구하기
+    title: 기후위기 환경교육 영상
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=L7WY7Nm0WjA
+    desc: 대구녹색학습원이 환경교육용으로 만든 기후위기 관련 영상이에요.
+    channel: 대구녹색학습원 공식채널
+  - key: v10
+    stage: 탐구하기
+    title: 할아버지와 손녀가 함께하는 분리배출
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=hFnEnUdlr0w
+    desc: 할아버지와 손녀를 따라 하며 분리배출 방법을 익히는 어린이 환경교육 영상이에요.
+    channel: 한국환경공단
+  - key: v11
+    stage: 탐구하기
+    title: 아름다운 바다 속 쓰레기 — 버려진 빨대의 나비효과
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=TxZtHAJF3X4
+    desc: 버려진 플라스틱 빨대가 바다 생물에게 어떤 영향을 주는지 어린이 해양교육으로 알려 줘요.
+    channel: 해양수산부
+  - key: v12
+    stage: 확장하기
+    title: 멸종위기종이 사라진다면 인간도 큰일난다고?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=EEvBV8mBG9o
+    desc: 멸종위기종을 왜 보호해야 하는지 사람과 연결해 설명해 줘요.
+    channel: 국립생태원
+  - key: v13
+    stage: 확장하기
+    title: 멸종위기 야생생물 저어새 이야기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=1mFMs73r1qE
+    desc: 멸종위기 야생생물인 저어새의 삶과 처지를 알려 줘요.
+    channel: 국립생태원
+  - key: v14
+    stage: 확장하기
+    title: 습지 생태학습관 자연체험 여행
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=KSrpUNrVpb4
+    desc: 대구 달성습지생태학습관에서 우리 지역 자연을 체험하는 모습을 소개해요.
+    channel: "달성사이다 : 대구광역시 달성군"
+  - key: v15
+    stage: 확장하기
+    title: 학교에서 실천하는 제로웨이스트
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=OyfMzmyMefU
+    desc: 대구의 한 초등학교에서 쓰레기를 줄이는 제로웨이스트 활동을 하는 모습을 전해요.
+    channel: ch B tv 대구
+quiz:
+  - statement: 사람도 자연을 이루는 한 구성원이다.
+    answer: O
+    explain: 사람도 자연의 한 구성원이라서 자연과 함께 어울려 살아가야 해요.
+  - statement: 자연은 사람이 마음껏 쓰고 바꿔도 되는 도구일 뿐이다.
+    answer: X
+    explain: 사람도 자연의 구성원이므로 서로 해치지 않고 함께 살아가야 해요.
+  - statement: 사람의 활동으로 늘어난 온실가스는 지구의 기온을 높이는 원인이 된다.
+    answer: O
+    explain: 온실가스가 많아지면 지구가 더워지고 기후 위기로 이어져요.
+  - statement: 환경 문제는 먼 나라의 일이라서 우리 생활과 관계가 없다.
+    answer: X
+    explain: 자연이 망가지면 우리의 삶도 힘들어지기 때문에 환경 문제는 나와 이어져 있어요.
+  - statement: 물과 전기를 아끼고 음식물 쓰레기를 줄이는 작은 행동도 지구를 지키는 데 도움이 된다.
+    answer: O
+    explain: 작은 실천이 모이면 환경에 큰 도움이 돼요.
+  - statement: 분리배출은 종류와 상관없이 한 봉투에 담아 버려도 된다.
+    answer: X
+    explain: 종이, 플라스틱, 유리처럼 종류별로 나누어 버려야 다시 쓸 수 있어요.
+  - statement: 서식지가 사라지거나 환경이 변하면 멸종 위기에 놓이는 생물이 생길 수 있다.
+    answer: O
+    explain: 사는 곳이 사라지거나 환경이 변하면 생물의 수가 크게 줄어들 수 있어요.
+  - statement: 한 사람의 작은 실천은 너무 작아서 아무 소용이 없다.
+    answer: X
+    explain: 작은 행동이 모이면 큰 차이를 만들 수 있어요.

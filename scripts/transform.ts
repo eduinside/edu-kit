@@ -35,6 +35,7 @@ const ItemSchema = z.object({
   core_question: z.string().optional(),
   concepts: z.array(z.string()).optional(),
   concept_desc: z.string().optional(),
+  topics: z.array(z.string()).optional(), // 주제 태그(intro.topics) — 사이트는 아직 안 쓰고 카탈로그(catalog.ts)가 싣는다
   standard_code: z.string().optional(),
   standard_text: z.string().optional(),
   video_url: z.string().optional(),

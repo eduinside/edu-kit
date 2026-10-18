@@ -1,0 +1,139 @@
+id: pr6102
+title: 진로 발달 계획
+grade: 6
+sem: 1학기
+subject: 실과
+unit: 인간 발달과 주도적 삶
+unit_no: 1
+flow: activity
+sort_order: 2
+published: true
+intro:
+  core_idea: 직업은 일 가운데 대가를 받고 꾸준히 하는 일로, 생계뿐 아니라 보람과 사회에 기여한다는 뜻도 있어요. 나의 흥미·적성·성격을 살펴 관심 직업을 조사하고, 단계별 진로 발달 계획을 세워 보면 앞날을 스스로 준비할 수 있어요.
+  core_question: 나의 흥미·적성·성격에 맞는 직업을 찾아 어떻게 진로 발달 계획을 세울 수 있을까?
+  concepts:
+    - term: 직업
+      def: 일 가운데 대가를 받고 일정 기간 이어서 하는 일이에요. 직업은 생활에 필요한 돈을 벌게 해 주고 보람과 사회에 보탬이 된다는 뜻도 있어요.
+    - term: 진로
+      def: 자신의 흥미와 능력, 가치에 따라 앞으로 선택하고 발전시켜 갈 삶과 일의 방향이에요.
+    - term: 흥미
+      def: 어떤 일이나 활동에 마음이 끌리고 재미를 느끼는 것이에요. 좋아하는 활동을 살펴보면 나에게 맞는 직업의 힌트를 얻을 수 있어요.
+    - term: 적성
+      def: 어떤 일을 잘해 낼 수 있는 소질이나 능력이에요. 적성은 노력하면 키울 수도 있어요.
+    - term: 성격
+      def: 생각하고 행동하는 나만의 방식이에요. 성격에는 좋고 나쁜 유형이 없고 직업마다 필요한 성격도 여러 가지예요.
+    - term: 진로 발달 계획
+      def: 내가 되고 싶은 직업을 얻기 위해 단계별로 무엇을 준비할지 정리한 계획이에요. 진로 발달 계획은 언제든 고칠 수 있어요.
+  standards:
+    - code: "[6실01-07]"
+      text: 직업의 필요성을 이해하고 적성, 흥미, 성격에 따라 진로 발달 계획을 세우고 주도적으로 탐색한다.
+stages:
+  - name: 생각열기
+    question: 직업은 무엇이고 왜 필요할까?
+  - name: 탐구하기
+    question: 내 흥미·적성·성격은 어떠하고 어떤 직업 정보를 찾을 수 있을까?
+  - name: 확장하기
+    question: 직업을 얻기 위한 단계별 진로 발달 계획은 어떻게 세울까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 노동의 개념과 가치
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=u3C5-ExIxvk
+    desc: 초등학생에게 일이 무엇이고 왜 가치 있는지 알려 주는 노동인권 애니메이션이에요.
+    channel: 서울시교육청TV
+  - key: v2
+    stage: 생각열기
+    title: 직업에 대한 편견과 차별 해소
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=i4NDclt9cDQ
+    desc: 직업에 귀하고 천함이 없다는 것과 직업에 대한 편견을 없애는 방법을 애니메이션으로 알려 줘요.
+    channel: 서울시교육청TV
+  - key: v3
+    stage: 생각열기
+    title: 미래직업의 비법을 찾아서
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=56GSu9IIE6E
+    desc: 교육부와 한국직업능력연구원이 낸 미래 직업 가이드북의 직업들을 짧게 소개해요.
+    channel: 직능연KRIVET
+  - key: v4
+    stage: 생각열기
+    title: 학업보다 적성, 어릴 때부터 진로교육
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=DF3e2wSC2LQ
+    desc: 새로운 직업이 생기고 인기 직업이 바뀌는 가운데 초등 때부터 진로교육을 강화한다는 소식이에요.
+    channel: KBS뉴스 대구경북
+  - key: v5
+    stage: 탐구하기
+    title: 직업흥미검사 — 나와 같은 흥미 유형은?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=xK4Dgeb_cnE
+    desc: 관심과 흥미를 6가지 유형으로 나누어 나에게 맞는 직업 분야를 안내하는 직업흥미검사를 소개해요.
+    channel: 한국고용정보원(feat.고용24)
+  - key: v6
+    stage: 탐구하기
+    title: 나에게 맞는 직업정보 탐색하기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=VI9pGnIUCnQ
+    desc: 넘쳐나는 직업 정보 가운데 나에게 필요한 정보를 찾는 순서를 짧게 알려 줘요.
+    channel: 한국고용정보원(feat.고용24)
+  - key: v7
+    stage: 탐구하기
+    title: 커리어넷을 직접 체험해 보았다!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=6phEzsYXT50
+    desc: 대학생과 초등 6학년 학생이 커리어넷에서 진로 검사와 직업 정보를 체험해 봐요.
+    channel: 교육부
+  - key: v8
+    stage: 탐구하기
+    title: 사진작가가 궁금해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=FpbA2oTwG_Y
+    desc: 사진작가가 어떤 일을 하는 직업인지 알아보는 EBS 디딤돌 진로·취업 영상이에요.
+    channel: EBS 키즈
+  - key: v9
+    stage: 탐구하기
+    title: 크리에이터가 되고 싶다면
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=P3jBjNeRI3g
+    desc: 크리에이터라는 직업이 하는 일과 되기 위해 할 일을 알려 줘요.
+    channel: EBS 키즈
+  - key: v10
+    stage: 확장하기
+    title: 어디로 가야하죠 아저씨~ 꿈을 향한 길, 진로 로드맵
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Moo3_w0v_Rw
+    desc: 꿈을 이루기 위한 구체적인 계획을 세우는 방법으로 진로 로드맵을 소개해요.
+    channel: 교육부
+  - key: v11
+    stage: 확장하기
+    title: 찾아가는 진로체험, 섬마을에서 미래의 꿈을 키워요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=TQ0Kp6bDcl0
+    desc: 섬마을 학교 학생들이 찾아온 진로체험으로 꿈을 키워 가는 모습을 보여 줘요.
+    channel: 교육부
+quiz:
+  - statement: 직업은 일 가운데 대가를 받고 일정 기간 이어서 하는 일이다.
+    answer: O
+    explain: 직업은 일 가운데 대가를 받으며 꾸준히 이어서 하는 일을 말해요.
+  - statement: 일과 직업은 같은 것이라서 모든 일이 직업이다.
+    answer: X
+    explain: 일 가운데 대가를 받고 이어서 하는 일이 직업이에요. 대가 없이 하는 가정일도 소중한 일이에요.
+  - statement: 직업은 돈을 버는 일뿐 아니라 보람과 사회에 보탬이 된다는 뜻도 있다.
+    answer: O
+    explain: 직업을 통해 보람을 느끼고 사회에 기여할 수도 있어요.
+  - statement: 어떤 직업은 귀하고 어떤 직업은 천하다.
+    answer: X
+    explain: 모든 직업은 사회에 꼭 필요하고 소중해요. 직업에는 귀하고 천함이 없어요.
+  - statement: 흥미, 적성, 성격을 살펴보면 나에게 어울리는 직업을 찾는 데 도움이 된다.
+    answer: O
+    explain: 나를 알아야 나에게 맞는 직업과 진로를 생각해 볼 수 있어요.
+  - statement: 검사에서 나온 나의 유형은 평생 바뀌지 않고 나의 길을 정해 준다.
+    answer: X
+    explain: 검사 결과는 지금의 선호 경향이에요. 앞으로 달라질 수 있고 나의 길을 정해 주지 않아요.
+  - statement: 진로 발달 계획서에는 직업을 얻기 위해 단계별로 할 일을 구체적으로 쓴다.
+    answer: O
+    explain: 목표를 이루기 위해 단계마다 해야 할 일을 정리하면 실천하기 쉬워요.
+  - statement: 여자만 할 수 있는 직업과 남자만 할 수 있는 직업이 따로 있다.
+    answer: X
+    explain: 직업은 성별로 정해지지 않아요. 흥미와 적성, 노력에 따라 누구나 선택할 수 있어요.

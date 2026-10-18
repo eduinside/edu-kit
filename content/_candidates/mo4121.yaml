@@ -1,0 +1,286 @@
+# mo4121 후보 기록 — 도덕 4학년 1학기 2단원 「도덕적인 나」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo4121 --dry
+# 2026-10-17 야간 위임 수집. 재생·임베드·연령·국내·길이·쇼츠 여부는 YouTube Data API로 후보 전부 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님. 이 단원은 지도서가 가리키는 영상이 없어 공공·교육 채널의 인성교육 영상을 주제별로 골랐음.
+# 새 채널(channels.yaml에 없음): 서울시 인성교육 애니메이션 — 등급은 운영자에게 질문.
+kit:
+  id: mo4121
+  title: "2. 도덕적인 나"
+  grade: 4
+  sem: 1학기
+  subject: 도덕
+  unit: 2단원
+  unit_no: 2
+  flow: activity
+  codes: ["[4도01-04]"]
+  core_idea: "도덕은 사람들이 서로 어울려 살아가며 지켜야 할 바른 생각과 행동이에요. 도덕적으로 행동하려면 다른 사람의 관점을 살펴 헤아리고, 내 생각과 말과 행동을 되돌아보는 노력이 필요해요."
+  core_question: "도덕적인 사람이 되려면 나는 어떤 마음으로 어떻게 행동해야 할까?"
+  stages:
+    - name: 생각열기
+      question: "도덕이란 무엇이고, 우리 삶에 왜 필요할까?"
+    - name: 탐구하기
+      question: "서로 다른 관점이 부딪힐 때 다른 사람의 입장을 어떻게 헤아리고 판단할까?"
+    - name: 확장하기
+      question: "내 생각·말·행동을 되돌아보며 도덕적인 행동을 어떻게 실천할까?"
+  concepts:
+    - "도덕"
+    - "도덕적 행동"
+    - "관점"
+    - "약속"
+    - "성찰"
+  source_notes: "정리본 도덕4.국정.u2(1차시 도덕의 뜻·필요한 까닭 → 2차시 약속과 배려처럼 관점이 부딪힐 때 다른 관점 살피기 → 3차시 귀하게 여기는 도덕적 행동 조사·실천 다짐 → 4차시 생각·말·행동 성찰·표어) · 지도서 인용: 한국버츄프로젝트 가치 카드(누리집, 영상 아님) · 오개념: 도덕은 어른이 정해 준 규칙, 도덕적 행동은 하나의 답, 관점을 받아들이면 내 생각을 버리는 것, 도덕적이면 손해 · cautions: 도덕 뜻을 교사가 못 박지 말 것, 다른 관점은 비판적으로 따져 볼 것, 성찰은 긍정적 성장에 초점"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "질서 — 잠깐 줄을 서면"
+    url: https://www.youtube.com/watch?v=DRNyau1hDIY
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: edu
+    duration: "5:35"
+    use: 수업 중
+    basis_code: "[4도01-04]"
+    basis_lesson: "1차시 도덕이 필요한 까닭"
+    desc: "질서를 지킬 때와 지키지 않을 때를 견주며 우리 삶에 도덕이 왜 필요한지 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 제작 기관이 설명란에 없음(서울시 교육 계열로 추정) — 등급 미분류(추정). 내용은 제목 기준."
+  - cand_no: c02
+    stage: 생각열기
+    title: "칭찬 왕이 될 거야! 또깨비 가족"
+    url: https://www.youtube.com/watch?v=klGU5HlQbDg
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "7:01"
+    use: 수업 중
+    basis_code: "[4도01-04]"
+    basis_lesson: "1차시 도덕적 행동의 뜻"
+    desc: "칭찬 스티커만 많이 받으면 좋은 걸까 묻는 이야기로 도덕적 행동이 무엇인지 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 설명란: 칭찬 스티커와 좋은 일의 까닭을 묻는 내용."
+  - cand_no: c03
+    stage: 생각열기
+    title: "생명존중교육 — 마음신호등"
+    url: https://www.youtube.com/watch?v=hyxfx79P3E4
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "1:11"
+    use: 수업 전
+    basis_code: "[4도01-04]"
+    basis_lesson: "1차시 도덕과 마음"
+    desc: "마음을 신호등 색으로 나타내 보는 대구미래교육연구원의 짧은 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 도덕과의 연결이 약하고 내용이 설명란에 없음."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "그만 좀 싸워! 또깨비 가족"
+    url: https://www.youtube.com/watch?v=SqDXr05fyPw
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "6:51"
+    use: 수업 중
+    basis_code: "[4도01-04]"
+    basis_lesson: "2차시 관점이 부딪힐 때"
+    desc: "친한 친구들이 다투는 사이에 끼어 곤란해진 태양이를 보며 서로의 입장을 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 설명란: 노을이와 보보의 다툼 사이에 낀 태양이."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "갈등 상황을 해결하는 3가지 방법"
+    url: https://www.youtube.com/watch?v=tdzftrW-kJc
+    channel: "대구미래교육연구원"
+    channel_grade: edu
+    local: 대구
+    duration: "2:29"
+    use: 수업 전
+    basis_code: "[4도01-04]"
+    basis_lesson: "2차시 관점이 부딪힐 때"
+    desc: "갈등이 생겼을 때 풀어 가는 세 가지 방법을 알려 주는 대구미래교육연구원 생명존중교육 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 대구 교육연구기관 제작. 제목 기준, 시청 확인 권장."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "존중 — 방과 후 함께 수업"
+    url: https://www.youtube.com/watch?v=d5gqOVOudSo
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: edu
+    duration: "6:03"
+    use: 수업 중
+    basis_code: "[4도01-04]"
+    basis_lesson: "2차시 다른 사람의 관점 받아들이기"
+    desc: "존중을 주제로 서로 다른 생각을 가진 친구들의 모습을 그린 애니메이션이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 등급 미분류(추정). 내용은 제목 기준."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "경청 — 친구말 듣기평가"
+    url: https://www.youtube.com/watch?v=_5G0LyhjDtw
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: edu
+    duration: "4:23"
+    use: 수업 중
+    basis_code: "[4도01-04]"
+    basis_lesson: "2차시 다른 사람의 말과 관점 헤아리기"
+    desc: "친구의 말을 귀 기울여 듣는 태도가 왜 필요한지 보여 주는 애니메이션이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 등급 미분류(추정). 내용은 제목 기준."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "친구의 마음을 이해할 수 있어요"
+    url: https://www.youtube.com/watch?v=bjlmMSBToak
+    channel: "국가기초학력지원센터"
+    channel_grade: edu
+    duration: "4:52"
+    use: 수업 중
+    basis_code: "[4도01-04]"
+    basis_lesson: "2차시 다른 사람의 입장 헤아리기"
+    desc: "친구의 마음을 이해하는 방법을 알려 주는 공감 수업 자료 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 설명란은 공감·사회정서역량 자료 안내. 제목 기준."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "양보 — 만약에"
+    url: https://www.youtube.com/watch?v=h3JuXpM4zHg
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: edu
+    duration: "3:17"
+    use: 수업 중
+    basis_code: "[4도01-04]"
+    basis_lesson: "2차시 약속과 배려 사이"
+    desc: "양보를 주제로 입장을 바꿔 생각해 보게 하는 애니메이션이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "mo4131 배려 꾸러미에서 쓰도록 남김. 등급 미분류(추정)."
+  - cand_no: c10
+    stage: 확장하기
+    title: "책임 — 내 동생"
+    url: https://www.youtube.com/watch?v=eAXU7ot9qjM
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: edu
+    duration: "4:46"
+    use: 수업 후
+    basis_code: "[4도01-04]"
+    basis_lesson: "4차시 내 행동 되돌아보기"
+    desc: "책임을 주제로 내가 한 행동을 돌아보게 하는 애니메이션이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 등급 미분류(추정). 내용은 제목 기준."
+  - cand_no: c11
+    stage: 확장하기
+    title: "이기고 싶어! 또깨비 가족"
+    url: https://www.youtube.com/watch?v=H6qUUlmT0bg
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "5:17"
+    use: 수업 후
+    basis_code: "[4도01-04]"
+    basis_lesson: "4차시 내 감정과 말·행동 성찰"
+    desc: "늘 이기고 싶어 졌을 때 화를 참지 못하는 태양이의 모습을 돌아보게 하는 이야기예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 설명란: 졌을 때 화가 나는 마음을 주체하지 못하는 태양이."
+  - cand_no: c12
+    stage: 확장하기
+    title: "내가 더 행복해지는 선행 또깨비 가족"
+    url: https://www.youtube.com/watch?v=6Jq4sxTOuts
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "6:31"
+    use: 수업 후
+    basis_code: "[4도01-04]"
+    basis_lesson: "3차시·4차시 도덕적 행동 실천"
+    desc: "내가 한 착한 일이 다른 사람의 기쁨이 되면서 나도 행복해지는 이야기예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 설명란: 나의 착한 마음이 다른 사람에게 기쁨이 된다면?"
+  - cand_no: c13
+    stage: 확장하기
+    title: "용서 — 가시"
+    url: https://www.youtube.com/watch?v=-UkH_NLvxcg
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: edu
+    duration: "4:53"
+    use: 수업 후
+    basis_code: "[4도01-04]"
+    basis_lesson: "4차시 성찰"
+    desc: "용서를 주제로 마음의 가시를 돌아보게 하는 애니메이션이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "주제가 용서라 성찰과 거리가 있음."
+  - cand_no: c14
+    stage: 생각열기
+    title: "소유 — 가치 같이"
+    url: https://www.youtube.com/watch?v=30aNJiXujCM
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: edu
+    duration: "6:53"
+    use: 수업 중
+    basis_code: "[4도01-04]"
+    basis_lesson: "1차시"
+    desc: "가치를 함께 나누는 이야기를 다루는 애니메이션이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "주제가 단원과 맞는지 제목만으로 판단하기 어려움."
+  - cand_no: c15
+    stage: 생각열기
+    title: "도덕송 도덕이란 과연 무엇일까"
+    url: https://www.youtube.com/watch?v=HbGQAMjkAYY
+    channel: "퀘남준"
+    channel_grade: personal
+    duration: "2:21"
+    use: 수업 전
+    basis_code: "[4도01-04]"
+    basis_lesson: "1차시"
+    desc: "도덕의 뜻을 노래로 소개한 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "노래 중심 개인 채널."
+  - cand_no: c16
+    stage: 생각열기
+    title: "세상의 모든 법칙 도덕적인 사람이 이기적인 행동을 하는 이유는"
+    url: https://www.youtube.com/watch?v=Le06jhhs8lk
+    channel: "EBSCulture (EBS 교양)"
+    channel_grade: edu
+    duration: "4:54"
+    use: 배경지식
+    basis_code: "[4도01-04]"
+    basis_lesson: "1차시"
+    desc: "도덕적인 사람이 때로 이기적으로 행동하는 이유를 설명하는 교양 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "성인 대상 심리 교양. 초등 눈높이 아님."
+  - cand_no: c17
+    stage: 생각열기
+    title: "인성 교육 애니메이션 존중편"
+    url: https://www.youtube.com/watch?v=xu-zUGODNjs
+    channel: "참쌤스쿨"
+    channel_grade: personal
+    duration: "3:44"
+    use: 수업 중
+    basis_code: "[4도01-04]"
+    basis_lesson: "2차시"
+    desc: "초록우산 어린이재단 인성 애니메이션을 소개한 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "개인 교사 채널의 재게시. 원 제작 기관 채널이 아님."
+  - cand_no: c18
+    stage: 탐구하기
+    title: "학생용 역지사지 공존형 토론수업 방법 안내"
+    url: https://www.youtube.com/watch?v=ZPkRQG045T8
+    channel: "서울시교육청TV"
+    channel_grade: edu
+    duration: "9:04"
+    use: 배경지식
+    basis_code: "[4도01-04]"
+    basis_lesson: "2차시 관점 살피기"
+    desc: "입장을 바꿔 생각하는 토론 수업 방법을 안내하는 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "교사·학생용 토론 수업 방법 안내로 9분 길이, 초등 4학년 자료로 맞지 않음."

@@ -1,0 +1,158 @@
+id: mo4261
+title: 6. 통일로 가는 한 걸음
+grade: 4
+sem: 2학기
+subject: 도덕
+unit: 6단원
+unit_no: 6
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 한반도는 하나였다가 나뉘어서 이산가족을 비롯한 많은 사람이 지금도 아픔을 겪고 있어요. 서로 이해하고 화해하며 평화롭게 하나가 되는 길을 찾고, 생활 속에서 작은 실천을 해 나가는 것이 통일로 가는 걸음이에요.
+  core_question: 분단의 아픔을 이해하고 평화로운 통일을 위해 나는 무엇을 할 수 있을까?
+  concepts:
+    - term: 분단
+      def: 하나였던 나라가 둘로 나뉘어 서로 자유롭게 오가지 못하는 상태를 말해요. 우리나라는 6.25 전쟁을 거치며 남과 북으로 갈라졌어요.
+    - term: 이산가족
+      def: 분단이나 전쟁 때문에 남쪽과 북쪽으로 헤어져 서로 만나지 못하는 가족이에요.
+    - term: 통일
+      def: 남과 북으로 나뉜 한반도가 다시 하나의 나라가 되는 것이에요. 서로 이해하고 평화로운 방법으로 이루어 가야 해요.
+    - term: 평화
+      def: 전쟁이나 폭력이 없고 서로의 권리와 안전이 존중되는 상태예요.
+    - term: 남북 교류
+      def: 남한과 북한이 서로 오가며 만나고 문화, 체육, 경제 같은 여러 분야에서 함께하는 일이에요.
+  standards:
+    - code: "[4도03-03]"
+      text: 통일의 필요성을 이해하고, 통일 감수성을 길러 바람직한 통일의 방향을 모색한다.
+stages:
+  - name: 생각열기
+    question: 한반도는 어떻게 나뉘었고, 분단은 어떤 아픔을 남겼을까?
+  - name: 탐구하기
+    question: 통일은 왜 필요하고, 어떤 방법으로 이루어 가야 할까?
+  - name: 확장하기
+    question: 남북이 서로 이해하며 통일을 준비하는 생활 속 실천에는 무엇이 있을까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 우리는 언제부터 분단국가였을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=kdkWC74a2o8
+    desc: 할아버지와 할머니의 어린 시절을 떠올리며 우리나라가 언제 어떻게 나뉘었는지 알아봐요.
+    channel: 국립평화통일민주교육원
+  - key: v2
+    stage: 생각열기
+    title: 남북 분단과 이산가족
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dOXs5t3A5Dw
+    desc: 가족을 영영 볼 수 없다면 어떨까 생각하며 분단이 남긴 이산가족의 아픔을 알아봐요.
+    channel: 국립평화통일민주교육원
+  - key: v3
+    stage: 생각열기
+    title: 이산가족 마지막 소원
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=b622iITs_f0
+    desc: 이산가족이 가족을 만나고 싶어 하는 마지막 소원을 담은 통일교육 영상이에요.
+    channel: 국립평화통일민주교육원
+  - key: v4
+    stage: 생각열기
+    title: 이산가족을 찾습니다 — 분단의 아픔을 알린 방송
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=bb0JeE7e9No
+    desc: 1983년 이산가족 찾기 방송이 세계에 분단의 아픔을 알린 이야기를 전해요.
+    channel: KBS News
+  - key: v5
+    stage: 탐구하기
+    title: 우리가 통일을 해야 하는 이유
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=UQ_GZ7lMHLI
+    desc: 통일이 왜 필요한지 낱말 풀이로 알아보는 통일교육원 어린이 프로그램이에요.
+    channel: 국립평화통일민주교육원
+  - key: v6
+    stage: 탐구하기
+    title: 독일은 어떻게 통일했을까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=J5AivH_jO8k
+    desc: 통일이 된 한국을 상상해 보며 독일이 어떻게 통일했는지 알아봐요.
+    channel: 국립평화통일민주교육원
+  - key: v7
+    stage: 탐구하기
+    title: 통일을 위한 여러 가지 노력들
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=l7L5mUuz9og
+    desc: 지금까지 통일을 이루기 위해 해 온 여러 노력을 알아봐요.
+    channel: 국립평화통일민주교육원
+  - key: v8
+    stage: 탐구하기
+    title: 이혜리와 리혜리
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Y0YFtVoUPw0
+    desc: 남과 북의 어린이가 다름을 인정하고 진정한 친구가 되는 통일 그림동화 애니메이션이에요.
+    channel: 국립평화통일민주교육원
+  - key: v9
+    stage: 탐구하기
+    title: 화해하고 협력하는 이야기 — 통일을 생각해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=4YP_vQIuZtg
+    desc: 뽀로로와 크롱의 화해 이야기를 통해 남북이 서로 협력하는 통일을 생각해 봐요.
+    channel: 국립평화통일민주교육원
+  - key: v10
+    stage: 탐구하기
+    title: 비무장지대 수달의 꿈
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=fF8lA1-cQFE
+    desc: DMZ에서 힘들게 살아가는 수달의 모습을 통해 한반도의 평화와 통일을 바라는 이야기예요.
+    channel: 국립평화통일민주교육원
+  - key: v11
+    stage: 확장하기
+    title: 응답하라! 남북한 추억의 놀이
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=6Q3eN5P6asI
+    desc: 남과 북이 함께 즐기는 추억의 골목 놀이를 소개하며 서로 닮은 점을 찾아봐요.
+    channel: 통일부UNITV
+  - key: v12
+    stage: 확장하기
+    title: 북한 학생들의 학교 생활은 어떨까?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=c_iaGi0LCm0
+    desc: 북한 학생들의 하루를 보며 우리와 같은 점과 다른 점을 찾아봐요.
+    channel: 국립평화통일민주교육원
+  - key: v13
+    stage: 확장하기
+    title: 통일, 무엇이든 물어보세요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=nNI5j0nOj5s
+    desc: 레고 캐릭터가 나오는 스톱모션 대담쇼로 통일에 대한 궁금증을 풀어 줘요.
+    channel: 국립평화통일민주교육원
+  - key: v14
+    stage: 확장하기
+    title: 통일교육주간 학교 현장 이야기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=BqTN7s9X3JY
+    desc: 대구의 한 초등학교에서 통일교육주간에 한 활동을 보여 줘요.
+    channel: 대구장산초등학교
+quiz:
+  - statement: 6.25 전쟁을 거치며 우리나라는 남과 북으로 나뉜 상태가 이어지고 있다.
+    answer: O
+    explain: 한반도는 6.25 전쟁을 거치며 남과 북으로 나뉘었고 분단이 이어지고 있어요.
+  - statement: 분단은 오래전에 끝난 일이라 지금은 그 아픔이 남아 있지 않다.
+    answer: X
+    explain: 이산가족을 비롯해 분단의 아픔은 지금도 이어지는 현실이에요.
+  - statement: 이산가족은 분단 때문에 남쪽과 북쪽으로 헤어져 만나지 못하는 가족이다.
+    answer: O
+    explain: 분단과 전쟁으로 가족이 헤어져 서로 만나지 못하는 아픔이 있어요.
+  - statement: 통일은 먼 나라 어른들의 일이어서 어린이의 삶과는 관계가 없다.
+    answer: X
+    explain: 통일은 나의 자유로운 이동과 안전, 꿈을 펼칠 무대와도 이어지는 일이에요.
+  - statement: 통일은 남과 북이 서로 이해하며 평화로운 방법으로 이루어 가야 한다.
+    answer: O
+    explain: 평화롭게 서로를 이해하며 이루는 통일이 바람직해요.
+  - statement: 남북 관계는 친구 사이 다툼처럼 단순해서 사과 한마디면 풀린다.
+    answer: X
+    explain: 남북 관계는 훨씬 복잡하고 민감해서 오랜 시간 서로 이해하려는 노력이 필요해요.
+  - statement: 독일은 동독과 서독으로 나뉘어 있다가 통일을 이룬 나라이다.
+    answer: O
+    explain: 독일은 나뉘었다가 통일을 이룬 사례로 통일을 이해하는 데 도움이 돼요.
+  - statement: 남한과 북한은 전통 놀이에서 닮은 점이 전혀 없다.
+    answer: X
+    explain: 제기차기나 팽이치기처럼 남과 북이 함께 즐기는 놀이가 있어서 닮은 점을 찾을 수 있어요.

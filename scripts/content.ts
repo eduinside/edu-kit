@@ -64,6 +64,9 @@ export const KitDocSchema = z.object({
     core_idea: z.string().min(1),
     core_question: z.string().min(1),
     concepts: z.array(ConceptSchema).default([]),
+    // 주제 태그(선택) 3~10개 — content/_ref/topics.yaml의 어휘만(check가 목록 밖을 오류로). 수업나래가 3단계 활동 주제로
+    // 다른 교과·단원 수업에도 이 꾸러미 영상을 붙일 때 맞춘다(dge-narae docs/plans/KIT-TOPIC-MATCH-PLAN.md)
+    topics: z.array(z.string().min(1)).min(3).max(10).optional(),
     standards: z.array(StandardSchema).min(1),
   }).strict(),
   stages: z.array(StageSchema), // 영상을 비워 둔 꾸러미는 빈 목록
@@ -128,6 +131,7 @@ export function toSheetRows(docs: KitDoc[]): { kits: Row[]; items: Row[]; stage_
       core_idea: d.intro.core_idea, core_question: d.intro.core_question,
       concepts: terms.length ? terms.join(" ; ") : undefined,
       concept_desc: anyDef ? d.intro.concepts.map((c) => c.def ?? "").join(" ; ") : undefined,
+      topics: d.intro.topics,
       standard_code: d.intro.standards.map((s) => s.code).join(" ; "),
       standard_text: d.intro.standards.map((s) => s.text).join(" ; "),
     });

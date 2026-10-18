@@ -4,6 +4,7 @@
 
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import YAML from "yaml";
 import { ROOT, loadKitDocs, toSheetRows, stageName, type KitDoc } from "./content.ts";
 import { transform } from "./transform.ts";
 import { extractVideoId } from "./field-map.ts";
@@ -33,6 +34,11 @@ const ref = JSON.parse(readFileSync(resolve(ROOT, "content/_ref/standards-2022.j
   standards: { code: string; subject: string; gradeBand: string; text: string }[];
 };
 const refByCode = new Map(ref.standards.map((s) => [s.code, s]));
+
+// ── 3-1. 주제 태그 어휘(content/_ref/topics.yaml) — 수업나래 주제 후보가 읽는다. 목록 밖 태그는 오류(어휘에 먼저 더한다)
+const topicRef = YAML.parse(readFileSync(resolve(ROOT, "content/_ref/topics.yaml"), "utf8")) as { groups: { name: string; tags: string[] }[] };
+const TOPIC_VOCAB = new Set(topicRef.groups.flatMap((g) => g.tags));
+let noTopics = 0;
 const bandOf = (grade: number) => (grade <= 2 ? "1-2" : grade <= 4 ? "3-4" : "5-6");
 const loose = (s: string) => s.replace(/[⋅․•∙]/g, "·").replace(/\s+/g, "").replace(/[.。]$/, "");
 const tight = (s: string) => s.replace(/\s+/g, " ").trim();
@@ -70,6 +76,14 @@ for (const d of docs) {
   if (missingDef) warn(K, `핵심 용어 풀이 없음 ${missingDef}/${terms.length} — 사이트에서 용어를 눌러도 풀이가 안 나옴`);
   const dupTerm = terms.filter((t, i) => terms.indexOf(t) !== i);
   if (dupTerm.length) warn(K, `핵심 용어 중복: ${[...new Set(dupTerm)].join(", ")}`);
+
+  // 주제 태그
+  const topics = d.intro.topics ?? [];
+  if (!topics.length) { noTopics++; warn(K, "주제 태그 없음(intro.topics) — 수업나래가 활동 주제로 이 꾸러미 영상을 붙이지 못함(낱말 겹침만)"); }
+  const unknownTopic = topics.filter((t) => !TOPIC_VOCAB.has(t));
+  if (unknownTopic.length) err(K, `어휘(content/_ref/topics.yaml)에 없는 주제 태그: ${unknownTopic.join(", ")}`);
+  const dupTopic = topics.filter((t, i) => topics.indexOf(t) !== i);
+  if (dupTopic.length) warn(K, `주제 태그 중복: ${[...new Set(dupTopic)].join(", ")}`);
 
   // 단계·영상
   const stageNames = d.stages.map(stageName);
@@ -144,6 +158,7 @@ const nVideos = docs.reduce((a, d) => a + d.items.length, 0);
 const reused = [...videoKits.values()].filter((s) => s.size > 1).length;
 console.log(`\n── 요약: 꾸러미 ${docs.length} · 영상 ${nVideos} · 퀴즈 ${docs.reduce((a, d) => a + d.quiz.length, 0)}`);
 console.log(`   ✗ 오류 ${nErr} · ⚠ 경고 ${nWarn}`);
+console.log(`   · 주제 태그 없는 꾸러미 ${noTopics}(어휘 ${TOPIC_VOCAB.size}개 태그)`);
 let lastCheck = "기록 없음";
 try {
   const vc = JSON.parse(readFileSync(resolve(ROOT, "content/_ref/video-check.json"), "utf8")) as { date: string; mode: string };

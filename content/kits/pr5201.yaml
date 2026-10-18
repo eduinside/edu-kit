@@ -1,0 +1,178 @@
+id: pr5201
+title: 생활 자원·생활 공간 관리
+grade: 5
+sem: 2학기
+subject: 실과
+unit: 생활환경과 지속가능한 선택
+unit_no: 2
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 시간과 용돈 같은 생활 자원은 한정되어 있어서 계획을 세워 알맞게 써야 해요. 내가 지내는 공간도 정리 정돈과 청소, 쓰레기 분리배출로 깨끗하게 가꾸면 건강과 환경에 도움이 돼요.
+  core_question: 한정된 시간과 용돈을 어떻게 알뜰하게 쓰고, 내가 지내는 공간을 어떻게 쾌적하게 관리할 수 있을까?
+  concepts:
+    - term: 생활 자원
+      def: 생활에 쓰이는 시간, 용돈, 물건, 지식, 건강, 협동심 같은 것들을 말해요. 눈에 보이지 않는 것도 있고, 양이 한정되어 있어요.
+    - term: 시간 관리
+      def: 하루나 일주일의 시간을 목표를 정하고 계획을 세워 알맞게 쓰는 일이에요. 중요한 일을 먼저 하면 도움이 돼요.
+    - term: 용돈 관리
+      def: 한정된 용돈을 계획을 세워 쓰고 기입장에 적어 점검하는 일이에요. 꼭 필요한 것을 먼저 고르는 것이 중요해요.
+    - term: 정리 정돈
+      def: 정리는 필요 없는 것을 줄이는 일이고, 정돈은 쓰기 쉽게 제자리에 놓는 일이에요. 둘을 함께 하면 공간이 깨끗해져요.
+    - term: 분리배출
+      def: 쓰레기를 종류별로 나누어 정해진 방법으로 버리는 일이에요. 잘 나누어 버리면 재활용할 수 있어요.
+  standards:
+    - code: "[6실02-01]"
+      text: 시간이나 용돈과 같은 생활자원이 제한되어 있음을 이해하고, 생활자원의 사용가치를 높이는 방법을 탐색한다.
+    - code: "[6실02-02]"
+      text: 생활자원 관리의 필요성을 인식하고, 생활자원의 합리적인 보관과 활용방법을 익힌다.
+    - code: "[6실02-10]"
+      text: 자신의 생활공간을 쾌적하고 위생적으로 관리하는 것의 중요성을 알고, 정리정돈과 청소 및 쓰레기 처리의 방법을 익혀 실천한다.
+stages:
+  - name: 생각열기
+    question: 생활 자원은 무엇이고 왜 관리해야 할까?
+  - name: 탐구하기1
+    question: 시간과 용돈을 어떻게 계획하고 쓸까?
+  - name: 탐구하기2
+    question: 생활 공간을 어떻게 정리하고 쓰레기를 처리할까?
+  - name: 확장하기
+    question: 생활 자원과 공간을 앞으로도 잘 관리하려면 어떻게 해야 할까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 희소성 — 갖고 싶은 건 많은데 자원은 한정돼요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=gDanT7WjFPc
+    desc: 자원은 한정되어 있어서 선택이 필요하다는 희소성의 뜻을 쉽게 알려 줘요.
+    channel: 재정경제부
+  - key: v2
+    stage: 생각열기
+    title: 합리적 소비생활 실천
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=LrfPpb1D7Ck
+    desc: 필요한 것을 따져 보고 알뜰하게 사는 합리적 소비를 짧게 알려 줘요.
+    channel: 아꿈선 초등3분과학
+  - key: v3
+    stage: 탐구하기1
+    title: 시간 관리
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Kmym3SRXcx4
+    desc: 모두에게 똑같이 주어진 시간을 효율적으로 쓰는 계획 세우기를 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v4
+    stage: 탐구하기1
+    title: 용돈 관리
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=OE2IhH5IXUU
+    desc: 용돈 관리가 왜 필요한지 알고 사용 계획을 세우는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v5
+    stage: 탐구하기1
+    title: 바람직한 용돈관리
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=lZRukFDM8h0
+    desc: 용돈을 어떻게 쓰고 기록하면 좋은지 알려 줘요.
+    channel: 아꿈선 초등3분과학
+  - key: v6
+    stage: 탐구하기1
+    title: 용돈 관리의 달인
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=x2A1wAOnXfM
+    desc: 금융감독원이 만든 초등 금융교육으로 용돈 관리의 중요성과 방법을 알려 줘요.
+    channel: 금융감독원(Financial Supervisory Service)
+  - key: v7
+    stage: 탐구하기2
+    title: 생활 공간 관리 (내 교실)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=QiQDp8mQlWY
+    desc: 교실 공간을 어떻게 정리하고 관리하면 좋은지 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v8
+    stage: 탐구하기2
+    title: 호흡기 감염병 예방을 위한 슬기로운 환기 수칙
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=FBC3pUHaPn8
+    desc: 실내 환기를 얼마나 자주 어떻게 하면 좋은지 짧게 알려 줘요.
+    channel: 질병관리청 아프지마TV
+  - key: v9
+    stage: 탐구하기2
+    title: 분리배출 방법
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=VTRylIk0d9s
+    desc: 쓰레기를 종류별로 나누어 버려 생활 공간을 쾌적하게 지키는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v10
+    stage: 탐구하기2
+    title: 알쏭달쏭 헷갈리는 쓰레기 분리배출 깨알상식
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=lliiwxe6quk
+    desc: 헷갈리기 쉬운 쓰레기의 올바른 분리배출 방법을 알려 줘요.
+    channel: 국가환경교육센터
+  - key: v11
+    stage: 탐구하기2
+    title: 어린이 분리배출 교육동영상
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=UPPkxi2a9Ic
+    desc: 어린이가 분리배출 방법을 배우는 구청 제작 교육영상이에요.
+    channel: 동작구청
+  - key: v12
+    stage: 확장하기
+    title: 분리배출 응급실
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=DHmXzJJ6vQs
+    desc: 잘못된 분리배출을 바로잡는 이야기를 담은 자원순환교육 영상 공모전 수상작이에요.
+    channel: my Mapo마포구
+  - key: v13
+    stage: 확장하기
+    title: 우리 집에서 스스로 하는 집안일
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=acMMZh3qcVE
+    desc: 집에서 스스로 할 수 있는 집안일을 차근차근 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v14
+    stage: 확장하기
+    title: 부엌에서 스스로 하는 가정일
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=jtFCEnTI40c
+    desc: 부엌에서 스스로 할 수 있는 기본적인 가정일을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v15
+    stage: 확장하기
+    title: 용돈을 저축해 보아요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ZWpPSAG92XA
+    desc: 용돈을 쓰기만 하지 않고 모으는 방법을 알려 줘요.
+    channel: 재정경제부
+  - key: v16
+    stage: 확장하기
+    title: 비합리적 소비란? 합리적인 소비자가 되는 법
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=tqBGB_IzrSY
+    desc: 생각 없이 쓰는 소비의 문제와 합리적 소비자가 되는 방법을 알려 줘요.
+    channel: KDI 경제교육·정보센터
+quiz:
+  - statement: 시간과 용돈은 한정되어 있어서 계획을 세워 쓰는 것이 좋다.
+    answer: O
+    explain: 한정된 자원은 어떻게 쓰느냐에 따라 쓸모가 크게 달라져요.
+  - statement: 생활 자원은 돈과 물건처럼 눈에 보이는 것만 해당한다.
+    answer: X
+    explain: 시간, 지식, 건강, 협동심처럼 눈에 보이지 않는 것도 생활 자원이에요.
+  - statement: 시간 관리는 목표를 정하고 계획과 실천, 평가의 순서로 해 볼 수 있다.
+    answer: O
+    explain: 평가까지 하면 다음 계획을 더 잘 세울 수 있어요.
+  - statement: 용돈 관리는 무조건 쓰지 않고 아끼는 것을 뜻한다.
+    answer: X
+    explain: 꼭 필요한 것과 갖고 싶은 것을 가려 우선순위에 따라 쓰는 것이 용돈 관리예요.
+  - statement: 용돈 기입장을 쓰면 용돈을 어디에 썼는지 알고 다음 계획에 쓸 수 있다.
+    answer: O
+    explain: 쓴 돈을 적어 두면 쓰임새를 돌아보고 고칠 수 있어요.
+  - statement: 정리와 정돈은 똑같은 뜻이다.
+    answer: X
+    explain: 정리는 필요 없는 것을 줄이는 일이고, 정돈은 쓰기 쉽게 제자리에 놓는 일이에요.
+  - statement: 청소할 때는 창문을 열어 환기하는 것이 좋다.
+    answer: O
+    explain: 먼지를 줄이고 공기를 맑게 하려고 환기를 해요.
+  - statement: 쓰레기는 종류와 상관없이 한 봉투에 담아 버려도 재활용된다.
+    answer: X
+    explain: 재활용하려면 종류별로 나누어 정해진 방법으로 버려야 해요.

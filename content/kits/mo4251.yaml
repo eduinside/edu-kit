@@ -1,0 +1,165 @@
+id: mo4251
+title: 5. 바람직한 디지털 사회
+grade: 4
+sem: 2학기
+subject: 도덕
+unit: 5단원
+unit_no: 5
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 디지털 사회는 사이버 공간에서도 사람과 사람이 만나는 새로운 공동체라서 현실처럼 서로 지켜야 할 예절이 있어요. 저작권과 개인 정보를 지키고, 사이버 폭력을 하지 않으며 디지털 기기를 알맞게 쓰는 습관이 필요해요.
+  core_question: 바람직한 디지털 사회를 만들기 위해 나는 어떤 마음가짐과 습관을 실천할 수 있을까?
+  concepts:
+    - term: 디지털 예절
+      def: 인터넷과 스마트폰 같은 디지털 공간에서 다른 사람을 존중하며 지켜야 할 바른 태도예요. 화면 너머에도 사람이 있다는 것을 기억하는 것이에요.
+    - term: 저작권
+      def: 글, 그림, 음악, 영상처럼 누군가가 만든 창작물을 만든 사람이 가지는 권리예요. 다른 사람의 창작물을 함부로 가져다 쓰면 안 돼요.
+    - term: 개인 정보
+      def: 이름, 전화번호, 주소처럼 나를 알아볼 수 있게 하는 정보예요. 함부로 알려 주면 나쁜 일에 쓰일 수 있어서 소중히 지켜야 해요.
+    - term: 사이버 폭력
+      def: 인터넷이나 스마트폰에서 말, 글, 사진 등으로 다른 사람에게 상처를 주고 괴롭히는 일이에요. 화면 속에서도 마음은 아플 수 있어요.
+    - term: 스마트폰 과의존
+      def: 스마트폰 없이는 불안하거나 사용을 스스로 조절하기 어려워서 생활에 문제가 생기는 상태예요. 알맞게 쓰는 습관으로 줄일 수 있어요.
+  standards:
+    - code: "[4도03-02]"
+      text: 디지털 사회에서 발생하는 다양한 문제를 살펴보고, 해결 방안을 탐구하여 정보통신 윤리에 대한 민감성을 기른다.
+stages:
+  - name: 생각열기
+    question: 디지털 사회에서도 사람 사이의 예절이 왜 필요할까?
+  - name: 탐구하기
+    question: 새로운 기술에서 생기는 도덕 문제는 무엇이고 어떻게 해결할까?
+  - name: 확장하기
+    question: 바람직한 디지털 사회를 위해 나의 디지털 사용 습관을 어떻게 바꿀까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 사이버 공간 속 예절
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=pTiuYp57bWM
+    desc: 사이버 공간에서도 지켜야 할 예절이 무엇인지 짧게 알려 주는 대구 교육연구기관 영상이에요.
+    channel: 대구미래교육연구원
+  - key: v2
+    stage: 생각열기
+    title: 정보통신 윤리교육 — 초등편
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=NEeOCYl-tYM
+    desc: 사이버 폭력은 나도 피해자가 될 수 있다는 점을 짧게 알려 주는 대구 사례 영상이에요.
+    channel: 헤이대구
+  - key: v3
+    stage: 생각열기
+    title: 우리에게는 저작권이 있어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Cr_X_7hMHSk
+    desc: 저작물과 저작권이 무엇이고 어떻게 활용하는지 초등학생 눈높이로 알려 줘요.
+    channel: 저작권TV
+  - key: v4
+    stage: 생각열기
+    title: 개인정보? 그게 뭐예요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=TMQEK5MAwFE
+    desc: 개인정보가 무엇이고 왜 중요한지 초등학생에게 알려 주는 한국인터넷진흥원 강의예요.
+    channel: 한국인터넷진흥원(KISA118)
+  - key: v5
+    stage: 생각열기
+    title: 개인 정보는 소중해
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=9vlW2w5TfV8
+    desc: 경품을 받으려고 가족의 전화번호를 적어 주었다가 생긴 일을 보며 개인 정보가 왜 소중한지 생각해 봐요.
+    channel: EBS 키즈
+  - key: v6
+    stage: 생각열기
+    title: 디지털 시민교육 — 디지털 미디어 예절
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=SdP-Fy4mqAE
+    desc: 디지털 미디어를 쓸 때 지켜야 할 예절을 알려 주는 경기도교육청 디지털 시민교육 영상이에요.
+    channel: 경기도교육청TV
+  - key: v7
+    stage: 탐구하기
+    title: 사이버폭력 이야기 — 넌 빠져
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=TH_ZkLozlz4
+    desc: 체육 시간의 실수 뒤 온라인에서 언어폭력이 생기는 사례를 보며 해결 방법을 생각해 봐요.
+    channel: 아름다운 디지털 세상
+  - key: v8
+    stage: 탐구하기
+    title: 사이버폭력 이야기 — 켜지 말걸 그랬어
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=l24YIXd_lGI
+    desc: 친구의 휴대폰 속 아이디를 도용했다가 생기는 일을 통해 사이버 도용이 왜 잘못인지 생각해 봐요.
+    channel: 아름다운 디지털 세상
+  - key: v9
+    stage: 탐구하기
+    title: 개인정보가 위험해요!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=5bE8xmOzAfg
+    desc: 개인정보가 유출되는 사례와 유출됐을 때의 대응 방법을 알려 줘요.
+    channel: 한국인터넷진흥원(KISA118)
+  - key: v10
+    stage: 탐구하기
+    title: 저작권, 알기 쉽게 (초등 고학년)
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=PtGLuX225V0
+    desc: 학생이 알아야 할 저작권 상식을 쉽게 정리한 서울시교육청 영상이에요.
+    channel: 서울시교육청TV
+  - key: v11
+    stage: 탐구하기
+    title: 사이버 언어폭력 예방교육
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=IVGaKrYHKwA
+    desc: 사이버 공간에서 말로 상처 주는 일을 막는 방법을 알려 주는 충남교육청·충남경찰청 공동 제작 영상이에요.
+    channel: 충남교육청
+  - key: v12
+    stage: 탐구하기
+    title: 사이버 학교폭력 예방교육
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=5C1D0S_vdQM
+    desc: 대구 경찰 채널에서 사이버 학교폭력을 막는 방법을 알려 줘요.
+    channel: 대구POL TV
+  - key: v13
+    stage: 확장하기
+    title: 스마트폰 과의존, 초등학생에게 묻다
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HIT7ZgOEpoI
+    desc: 초등학생에게 스마트폰 과의존이 무엇인지 묻고 답하며 내 사용 습관을 돌아보게 해요.
+    channel: 한국지능정보사회진흥원 스마트쉼센터
+  - key: v14
+    stage: 확장하기
+    title: 청소년 스마트폰 과의존 치유
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=PGpqqj6711c
+    desc: 청소년 스마트폰 과의존을 치유하는 프로그램을 소개하는 대구 지역 뉴스예요.
+    channel: 대구MBC뉴스
+  - key: v15
+    stage: 확장하기
+    title: 신중하게 누르고 디지털폭력은 멈추기 — 캠페인
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ySdb5OlFNtE
+    desc: 디지털 폭력을 막기 위해 누르기 전에 한 번 더 생각하자는 캠페인 영상이에요.
+    channel: 방송미디어통신위원회
+quiz:
+  - statement: 디지털 공간에서도 화면 너머에 사람이 있으므로 서로 지켜야 할 예절이 있다.
+    answer: O
+    explain: 디지털 공간도 사람과 사람이 만나는 곳이라 예절이 필요해요.
+  - statement: 인터넷은 현실이 아니므로 말을 함부로 해도 예절을 어기는 것이 아니다.
+    answer: X
+    explain: 인터넷에서도 사람과 사람이 만나기 때문에 예절을 지켜야 해요.
+  - statement: 다른 사람이 만든 그림이나 영상을 허락 없이 가져다 쓰면 저작권을 해칠 수 있다.
+    answer: O
+    explain: 창작물을 만든 사람의 권리를 지키려면 허락을 받거나 쓸 수 있는 자료인지 확인해야 해요.
+  - statement: 내려받거나 복사해도 원본이 그대로이니 만든 사람의 권리를 해치지 않는다.
+    answer: X
+    explain: 원본이 그대로여도 허락 없이 쓰면 만든 사람의 권리를 해쳐요.
+  - statement: 이름, 전화번호, 주소는 개인 정보라서 함부로 알려 주지 않는 것이 좋다.
+    answer: O
+    explain: 개인 정보가 알려지면 나쁜 일에 쓰일 수 있어서 소중히 지켜야 해요.
+  - statement: 화면으로 친구에게 한 험담은 직접 말하지 않았으니 사이버 폭력이 아니다.
+    answer: X
+    explain: 화면으로 한 말도 상대에게 상처를 주면 사이버 폭력이에요.
+  - statement: 디지털 거리 두기는 디지털 기기를 알맞게 쓰고 지나친 의존을 줄이는 일이다.
+    answer: O
+    explain: 디지털 거리 두기는 필요한 만큼 알맞게 쓰며 지나친 의존을 줄이는 노력이에요.
+  - statement: 디지털 거리 두기는 디지털 기기를 아예 쓰지 않는 것을 말한다.
+    answer: X
+    explain: 기기를 아예 쓰지 않는 것이 아니라 알맞게 쓰고 지나친 의존을 줄이는 일이에요.

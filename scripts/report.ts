@@ -43,6 +43,7 @@ for (const [id, a] of [...after].sort(([x], [y]) => x.localeCompare(y))) {
   if (J(a.intro.standards) !== J(b.intro.standards)) out.push(`성취기준: ${b.intro.standards.map((s) => s.code).join(", ")} → ${a.intro.standards.map((s) => s.code).join(", ")}${J(b.intro.standards.map((s) => s.code)) === J(a.intro.standards.map((s) => s.code)) ? " (원문 수정)" : ""}`);
   if (J(a.intro.concepts) !== J(b.intro.concepts)) out.push(`핵심 개념·풀이 수정 (풀이 있는 용어 ${b.intro.concepts.filter((c) => c.def).length} → ${a.intro.concepts.filter((c) => c.def).length}/${a.intro.concepts.length})`);
   if (a.intro.core_idea !== b.intro.core_idea || a.intro.core_question !== b.intro.core_question) out.push(`핵심 아이디어·질문 수정`);
+  if (J(a.intro.topics ?? []) !== J(b.intro.topics ?? [])) out.push(`주제 태그: ${(b.intro.topics ?? []).join(", ") || "(없음)"} → ${(a.intro.topics ?? []).join(", ") || "(없음)"}`);
   if (J(a.stages) !== J(b.stages)) out.push(`단계: ${b.stages.map(stageName).join(", ")} → ${a.stages.map(stageName).join(", ")}`);
 
   const bi = new Map(b.items.map((i) => [i.key, i])), ai = new Map(a.items.map((i) => [i.key, i]));

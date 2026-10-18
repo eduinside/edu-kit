@@ -33,7 +33,7 @@ stages:
 items:
   - key: v1
     stage: 탐구하기
-    title: 학생이 이끄는 탐구 학습 — 천내초등학교
+    title: 학생이 이끄는 탐구 학습
     use: 수업 후
     url: https://www.youtube.com/watch?v=WLSuZ5XCMCY
     desc: 대구 천내초등학교 학생들이 스스로 주제를 정해 탐구하는 학습을 전해요.

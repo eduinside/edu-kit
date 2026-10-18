@@ -48,6 +48,7 @@ export function buildCatalog(docs: KitDoc[], grades: Map<string, Grade>) {
       standards: d.intro.standards.map((s) => ({ code: dash(s.code), text: s.text })),
       coreQuestion: d.intro.core_question,
       concepts: d.intro.concepts.map((c) => c.term),
+      topics: d.intro.topics ?? [], // 주제 태그 — 수업나래 3단계 주제 후보(KIT_TOPIC_CANDIDATES)가 맞춘다
       stages: d.stages.map(stageName),
     })),
     items: kits.flatMap((d) => d.items

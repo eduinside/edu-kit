@@ -1,0 +1,331 @@
+# mo6131 후보 기록 — 도덕 6학년 1학기 3단원 「인공지능 로봇 그리고 나」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo6131 --dry
+# 2026-10-17 수집(야간 위임). 재생·임베드·연령·국내·길이는 YouTube Data API(ytcheck)로 후보 전부 정상 확인(쇼츠 표시 2편은 제외). 영상 본문은 제목·설명·채널 성격 기준으로 판단했고 전부 시청한 것은 아님.
+# 어린이용 AI 윤리 원칙 해설은 공공 영상이 드물고, 가치 판단 논쟁(트롤리 딜레마 등)은 제외했다.
+# 새 채널(channels.yaml에 없음): KISDI 정보통신정책연구원 · NIA한국지능정보사회진흥원 · 소프트웨어야 놀자 · 헤이대구 · KBS대구(쇼츠라 제외) — 채택 시 운영자에게 등급 질문.
+kit:
+  id: mo6131
+  title: "3. 인공지능 로봇 그리고 나"
+  grade: 6
+  sem: 1학기
+  subject: 도덕
+  unit: 3단원
+  unit_no: 3
+  flow: activity
+  codes: ["[6도02-03]"]
+  core_idea: "인공지능 로봇은 이미 우리 생활 곳곳에서 쓰이고 있어요. 로봇은 스스로 마음을 느끼는 존재가 아니라 사람이 만든 기계이므로, 로봇과의 관계에서 생기는 문제를 막으려면 지켜야 할 원칙과 바르게 쓰는 책임이 필요해요."
+  core_question: "인공지능 로봇과 올바른 관계를 맺으려면 어떤 원칙을 지켜야 할까?"
+  stages:
+    - name: 생각열기
+      question: "로봇은 어디에 쓰이고, 우리와 어떤 관계를 맺을까?"
+    - name: 탐구하기
+      question: "인공지능 로봇이 일으킨 문제는 무엇이고, 어떤 원칙이 필요할까?"
+    - name: 확장하기
+      question: "미래의 로봇은 어떤 좋은 점과 걱정을 가져올까?"
+  concepts:
+    - "인공지능"
+    - "로봇"
+    - "윤리 원칙"
+    - "책임"
+    - "개인정보"
+    - "자율주행차"
+  source_notes: "정리본 도덕6.국정.u3(1차시 로봇의 쓰임에 따른 관계·로봇이 친구가 될지 따져 보기 → 2차시 로봇이 일으킨 문제 사례와 지켜야 할 원칙 → 3차시 인형·반려동물과 견주며 로봇 바르게 쓰는 법 → 4차시 미래 로봇의 좋은 점과 걱정·상상 체험) · 오개념: 로봇이 스스로 생각하고 마음을 느낌, 영화 속 로봇을 지금 기술로 착각, 로봇 문제는 기술이 알아서 풀거나 안 만들면 됨 · cautions: 생성형 인공지능은 14세 미만 이용 제한이 많아 깊이 다루지 않기, 로봇을 지나치게 사람처럼 그리지 말고 지금 있는 로봇 중심, 기술의 앞날을 무조건 나쁘게만 보지 않기 · 지도서가 가리킨 KBS 집사 로봇 영상(c02)을 후보로 씀. 윤리 원칙을 어린이용으로 풀어 준 공공 영상은 드물어 해당 단계는 배경지식 위주."
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "K-로봇을 직접 보고 체험하는 어린이 로봇행사"
+    url: https://www.youtube.com/watch?v=C88AyzUMJTI
+    channel: "연합뉴스TV"
+    channel_grade: press
+    duration: "1:31"
+    use: 수업 전
+    basis_code: "[6도02-03]"
+    basis_lesson: "1차시 로봇 박람회 뉴스"
+    desc: "가족이 함께 로봇을 직접 조종하고 만들어 보며 체험하는 어린이 로봇행사를 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023 보도. 지도서의 로봇 박람회 뉴스 영상 대신 쓸 수 있는 공개 영상."
+  - cand_no: c02
+    stage: 생각열기
+    title: "집사가 된 AI 로봇 — 반려부터 노동까지"
+    url: https://www.youtube.com/watch?v=h9nQNPXPWig
+    channel: "KBS News"
+    channel_grade: press
+    duration: "2:12"
+    use: 수업 중
+    basis_code: "[6도02-03]"
+    basis_lesson: "1차시 로봇의 쓰임과 관계"
+    desc: "세계 가전 박람회에 나온 집사 로봇, 농업용 로봇처럼 생활 속으로 들어오는 로봇들을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 가리킨 영상(2025.01)."
+  - cand_no: c03
+    stage: 생각열기
+    title: "아이와 대화하고 춤추는 돌봄 AI 로봇"
+    url: https://www.youtube.com/watch?v=6uemBagZNG4
+    channel: "연합뉴스TV"
+    channel_grade: press
+    duration: "2:16"
+    use: 수업 중
+    basis_code: "[6도02-03]"
+    basis_lesson: "1차시 로봇의 쓰임과 관계"
+    desc: "혼자 있는 아이와 대화하고 춤추며 돌봄 공백을 메우는 인공지능 로봇을 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021 보도."
+  - cand_no: c04
+    stage: 생각열기
+    title: "말하는 AI 장난감, 정말 친구가 될 수 있을까?"
+    url: https://www.youtube.com/watch?v=UD3dNEQNfes
+    channel: "EBS 지식채널e"
+    channel_grade: edu
+    duration: "5:01"
+    use: 수업 중
+    basis_code: "[6도02-03]"
+    basis_lesson: "1차시 로봇이 친구가 될까"
+    desc: "언제든 대답해 주는 AI 장난감이 아이의 친구가 될 수 있는지 친구의 조건을 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지식채널e(2026.09). 로봇이 친구가 될지 따지는 활동에 맞음."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "친구보다 친구 같은 AI"
+    url: https://www.youtube.com/watch?v=PjsbS3iFzk4
+    channel: "MBCNEWS"
+    channel_grade: press
+    duration: "3:00"
+    use: 수업 중
+    basis_code: "[6도02-03]"
+    basis_lesson: "3차시 로봇을 바르게 쓰는 법"
+    desc: "AI를 사람처럼 느끼며 의존하는 어린 학생들의 모습과 그에 따른 걱정을 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "MBC 뉴스데스크(2026.03). 대화형 AI 중심이라 로봇 단원과는 조금 거리가 있고 초등생 출연 보도."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "완전 자율주행 딜레마 — 윤리 문제도 성큼"
+    url: https://www.youtube.com/watch?v=KTXMduDzyeo
+    channel: "KBS News"
+    channel_grade: press
+    duration: "3:14"
+    use: 수업 중
+    basis_code: "[6도02-03]"
+    basis_lesson: "2차시 AI가 일으킨 문제 사례"
+    desc: "운전자 없이 달리는 자율주행차가 늘면서 사고가 났을 때의 책임 같은 윤리 문제가 생긴다는 보도예요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "KBS 보도(2026.02). 책임·원칙 논의의 사례."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "인공지능 윤리기준이란"
+    url: https://www.youtube.com/watch?v=XtH2GUW8CO8
+    channel: "KISDI 정보통신정책연구원"
+    channel_grade: public
+    duration: "5:17"
+    use: 배경지식
+    basis_code: "[6도02-03]"
+    basis_lesson: "2차시 지켜야 할 원칙"
+    desc: "국가 인공지능 윤리기준이 무엇이고 일반 사람이 왜 알아야 하는지 설명해 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "일반 이용자 대상 해설(2024). 학생용이 아니라 교사용 배경지식. 등급 미분류(추정)."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "인공지능 윤리 (AI Ethics)"
+    url: https://www.youtube.com/watch?v=rABDGSJm8tg
+    channel: "소프트웨어야 놀자"
+    channel_grade: personal
+    duration: "2:21"
+    use: 수업 중
+    basis_code: "[6도02-03]"
+    basis_lesson: "2차시 지켜야 할 원칙"
+    desc: "데이터를 다루고 인공지능을 만들 때 주의할 점을 짧게 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "채널 성격(운영 주체)과 눈높이 확인 필요. 2020. 등급 미분류(추정)."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "NIA 국가 인공지능 사업추진 윤리원칙 기념영상"
+    url: https://www.youtube.com/watch?v=1m2wkOjGmv0
+    channel: "NIA한국지능정보사회진흥원"
+    channel_grade: public
+    duration: "1:26"
+    use: 배경지식
+    basis_code: "[6도02-03]"
+    basis_lesson: "2차시 지켜야 할 원칙"
+    desc: "공공기관이 인공지능 사업을 추진할 때 지킬 윤리원칙을 만들었다고 알리는 기념 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "기관 홍보 성격이고 학생용이 아님. 등급 미분류(추정)."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "인공지능과 윤리 — 선을 넘는 과학자들"
+    url: https://www.youtube.com/watch?v=Wohx5kz_Yxs
+    channel: "국립과천과학관"
+    channel_grade: public
+    duration: "1:15"
+    use: 수업 중
+    basis_code: "[6도02-03]"
+    basis_lesson: "2차시 지켜야 할 원칙"
+    desc: "인공지능의 그림자와 빛을 두 학자가 짧게 이야기해 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "1분대 소개 영상이라 내용이 얕음."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "생성형 AI 활용 시 주의할 점"
+    url: https://www.youtube.com/watch?v=IdmMEgDAVQQ
+    channel: "방송미디어통신위원회"
+    channel_grade: public
+    duration: "1:39"
+    use: 수업 중
+    basis_code: "[6도02-03]"
+    basis_lesson: "2차시 지켜야 할 원칙"
+    desc: "생성형 AI를 쓸 때 확인해야 할 윤리 점검 사항을 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "정리본 유의점(생성형 AI는 14세 미만 이용 제한이 많아 깊이 다루지 않음)에 어긋날 수 있음."
+  - cand_no: c12
+    stage: 탐구하기
+    title: "트롤리 딜레마, 당신의 선택은?"
+    url: https://www.youtube.com/watch?v=xms3OOi6uHM
+    channel: "EBSCulture (EBS 교양)"
+    channel_grade: edu
+    duration: "4:58"
+    use: 수업 후
+    basis_code: "[6도02-03]"
+    basis_lesson: "2차시 AI가 일으킨 문제 사례"
+    desc: "브레이크가 고장 난 트롤리 상황에서 어떻게 선택할지 묻는 딜레마를 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "관점이 갈리는 가치 판단 논쟁이라 제외 쪽. 2017."
+  - cand_no: c13
+    stage: 확장하기
+    title: "집안부터 전장까지, 로봇에게 맡겨도 될까?"
+    url: https://www.youtube.com/watch?v=8mAKjyl0F7s
+    channel: "EBS 지식채널e"
+    channel_grade: edu
+    duration: "5:10"
+    use: 수업 중
+    basis_code: "[6도02-03]"
+    basis_lesson: "4차시 미래 로봇의 좋은 점과 걱정"
+    desc: "집안일을 돕는 로봇부터 전장에 쓰이는 로봇까지, 로봇에게 어디까지 맡길지 생각해 봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지식채널e(2026.04). 군사 로봇 사례(지도서 4차시)에 맞음."
+  - cand_no: c14
+    stage: 확장하기
+    title: "월 71만 원 가사도우미 로봇"
+    url: https://www.youtube.com/watch?v=vzo4BMmVbyY
+    channel: "KBS News"
+    channel_grade: press
+    duration: "1:16"
+    use: 수업 중
+    basis_code: "[6도02-03]"
+    basis_lesson: "4차시 가사 로봇 뉴스"
+    desc: "집안일을 도와주는 가정용 휴머노이드 로봇이 곧 나온다는 소식을 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025.11 보도, 가격·출시 정보는 당시 기준. 지도서의 가사 로봇 뉴스 대체."
+  - cand_no: c15
+    stage: 확장하기
+    title: "대구 최초 어르신 돌봄 로봇 도입"
+    url: https://www.youtube.com/watch?v=ecwWtPt6IFA
+    channel: "ch B tv 대구"
+    channel_grade: press
+    local: 대구
+    duration: "2:37"
+    use: 수업 후
+    basis_code: "[6도02-03]"
+    basis_lesson: "4차시 미래 로봇의 좋은 점과 걱정"
+    desc: "대구 달서구가 어르신의 대화와 신체활동을 돕는 돌봄 로봇을 처음 도입한 소식이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구 지역 언론(2023)."
+  - cand_no: c16
+    stage: 확장하기
+    title: "AI 돌봄 로봇 첫선"
+    url: https://www.youtube.com/watch?v=UxP30zUq8Ro
+    channel: "TBC뉴스"
+    channel_grade: press
+    duration: "2:03"
+    use: 수업 후
+    basis_code: "[6도02-03]"
+    basis_lesson: "4차시 미래 로봇의 좋은 점과 걱정"
+    desc: "돌봄 인력이 부족한 상황에서 AI 돌봄 로봇이 도움이 될 수 있다는 기대를 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "TBC(대구경북 방송) 2025.12 보도. 로봇이 도입된 지역은 미확인."
+  - cand_no: c17
+    stage: 확장하기
+    title: "학교에 들어온 로봇·AI, 장애 벽 넘는다"
+    url: https://www.youtube.com/watch?v=OcXSTUMj5VY
+    channel: "KBS뉴스 대구경북"
+    channel_grade: press
+    local: 대구
+    duration: "2:14"
+    use: 수업 후
+    basis_code: "[6도02-03]"
+    basis_lesson: "4차시 미래 로봇의 좋은 점과 걱정"
+    desc: "학교에 들어온 로봇과 인공지능이 장애 학생의 어려움을 덜어 주는 모습을 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구경북 지역 언론(2025.07)."
+  - cand_no: c18
+    stage: 확장하기
+    title: "홀로 지내던 노인들 곁의 꼬마 로봇 친구 '아비'"
+    url: https://www.youtube.com/watch?v=2H56GKYEZrQ
+    channel: "KBS News"
+    channel_grade: press
+    duration: "1:19"
+    use: 수업 후
+    basis_code: "[6도02-03]"
+    basis_lesson: "4차시 미래 로봇의 좋은 점과 걱정"
+    desc: "외로운 어르신들 곁에서 대화를 나누는 노인 케어 로봇의 모습을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "호주 요양원 사례(2025.07)."
+  - cand_no: c19
+    stage: 확장하기
+    title: "헤이대구 진로교육 — 로봇 윤리 학자"
+    url: https://www.youtube.com/watch?v=pRpIYV4VEbs
+    channel: "헤이대구"
+    channel_grade: public
+    local: 대구
+    duration: "1:33"
+    use: 수업 후
+    basis_code: "[6도02-03]"
+    basis_lesson: "4차시 미래 로봇의 좋은 점과 걱정"
+    desc: "로봇 윤리 학자가 어떤 일을 하는 사람인지 알아봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "대구 청소년 진로 콘텐츠(2022)로 보임 — 운영 주체 확인 필요. 등급 미분류(추정)."
+  - cand_no: c20
+    stage: 확장하기
+    title: "로봇은 왜 사람처럼 만들까?"
+    url: https://www.youtube.com/watch?v=Ssf8khl_7Lw
+    channel: "EBS 지식채널e"
+    channel_grade: edu
+    duration: "5:55"
+    use: 수업 후
+    basis_code: "[6도02-03]"
+    basis_lesson: "4차시 미래 로봇의 좋은 점과 걱정"
+    desc: "SF 작가와 로봇공학자가 사람을 닮은 로봇이 두려운 존재인지 이야기 나눠요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "성인 대담 형식이라 학생 눈높이 확인 필요. 정리본 유의점(로봇을 지나치게 사람처럼 그리지 않기)과 맞는지 검토."
+  - cand_no: c21
+    stage: 확장하기
+    title: "변기 청소도 문제없는 가사 노동 로봇 서비스"
+    url: https://www.youtube.com/watch?v=STXAeWAQOgQ
+    channel: "MBCNEWS"
+    channel_grade: press
+    duration: "0:49"
+    use: 수업 전
+    basis_code: "[6도02-03]"
+    basis_lesson: "4차시 가사 로봇 뉴스"
+    desc: "가정에서 청소를 대신해 주는 휴머노이드 로봇 서비스를 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "1분 미만, c14와 겹침."

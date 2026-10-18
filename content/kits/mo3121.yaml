@@ -1,0 +1,123 @@
+id: mo3121
+title: 2. 성실하게 사는 삶
+grade: 3
+sem: 1학기
+subject: 도덕
+unit: 2단원
+unit_no: 2
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 성실은 맡은 일과 나와 한 약속을 정성을 다해 끝까지 해내는 마음과 태도예요. 결과보다 과정의 정성과 노력이 중요하고, 계획을 세워 꾸준히 실천하면 나 자신과 한 약속을 지킬 수 있어요.
+  core_question: 나는 어떤 목표와 계획으로 하루를 성실하게 보내고, 그 약속을 끝까지 지킬 수 있을까?
+  concepts:
+    - term: 성실
+      def: 맡은 일이나 나와 한 약속을 정성을 다해 끝까지 해내려는 마음과 태도예요.
+    - term: 정성
+      def: 어떤 일을 할 때 온 마음을 기울여 꼼꼼하게 하려는 마음이에요.
+    - term: 인내
+      def: 힘들고 지루해도 참고 견디는 것이에요.
+    - term: 최선
+      def: 내가 할 수 있는 힘을 모두 다하는 것이에요.
+    - term: 계획
+      def: 해야 할 일을 언제 어떻게 할지 미리 정해 두는 것이에요.
+  standards:
+    - code: "[4도01-03]"
+      text: 성실한 생활의 모범 사례를 탐색하고 시간 관리를 위한 생활을 계획하여 지속적인 자기 성장을 모색한다.
+stages:
+  - name: 생각열기
+    question: 성실하다는 것은 무엇이고, 왜 성실하게 살아야 할까?
+  - name: 탐구하기
+    question: 성실하게 하루를 보내려면 어떤 계획과 실천이 필요할까?
+  - name: 확장하기
+    question: 성실하게 살아간 사람들에게서 무엇을 배울 수 있을까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 개미와 베짱이
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=NOnttjfPbFs
+    desc: 열심히 일하는 개미와 놀기만 하는 베짱이를 견주며 맡은 일을 대하는 태도를 생각해 보는 그림책 영상이에요.
+    channel: EBS 키즈
+  - key: v2
+    stage: 생각열기
+    title: 개미와 베짱이 이야기 함께 읽기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=e09ssbaWuM0
+    desc: 개미와 베짱이 이야기를 함께 살펴보고 어린이들이 느낀 점을 나누는 영상이에요.
+    channel: EBS 키즈
+  - key: v3
+    stage: 생각열기
+    title: 성실이라는 무기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=kA6D4d5maMo
+    desc: KBS TV동화 「행복한 세상」 가운데 성실의 힘을 이야기한 작품이에요.
+    channel: "KBS HUMAN : 뭉클티비"
+  - key: v7
+    stage: 생각열기
+    title: 토끼와 거북이
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=_W9iNdhjnaE
+    desc: 끝까지 꾸준히 걷는 거북이의 이야기를 만화로 보여 줘요.
+    channel: EBS 키즈
+  - key: v4
+    stage: 탐구하기
+    title: 약속을 지키는 마음
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=EDX9oCX3n6Y
+    desc: 누가 보지 않아도 약속을 지키는 마음을 다룬 서울시 인성교육 애니메이션이에요.
+    channel: 서울시 인성교육 애니메이션
+  - key: v5
+    stage: 탐구하기
+    title: 맡은 일에 책임을 다해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=eAXU7ot9qjM
+    desc: 맡은 일에 책임을 다하는 마음을 다룬 서울시 인성교육 애니메이션이에요.
+    channel: 서울시 인성교육 애니메이션
+  - key: v6
+    stage: 확장하기
+    title: 정확한 지도를 만든 김정호
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=gIIJu9eviDU
+    desc: 김정호가 만든 대동여지도가 어떤 지도인지 보여 주는 영상이에요.
+    channel: 국가유산채널(K-Heritage Channel)
+  - key: v8
+    stage: 확장하기
+    title: 편리하고 정확한 조선시대 지도 대동여지도
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=UVsDddU4o3s
+    desc: 큰별쌤이 대동여지도와 김정호를 소개하는 어린이 역사 프로그램이에요.
+    channel: KBSKids
+  - key: v9
+    stage: 확장하기
+    title: 마라톤 선수 이봉주 이야기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=FQJVyKl2ex8
+    desc: 마라톤 선수 이봉주의 어린 시절과 도전을 인터뷰로 들어요.
+    channel: EBS 키즈
+quiz:
+  - statement: 성실하게 사는 일의 값어치는 결과보다 과정의 정성과 노력에 있다.
+    answer: O
+    explain: 결과가 어떻든 정성을 다해 노력한 과정이 소중해요.
+  - statement: 성실하게 노력하면 언제나 바라는 결과가 그대로 따라온다.
+    answer: X
+    explain: 결과는 바라는 대로 되지 않을 수도 있어요. 성실의 값어치는 과정의 정성과 노력에 있어요.
+  - statement: 하루 목표를 세우고 구체적인 실천 계획을 짜면 성실하게 지내는 데 도움이 된다.
+    answer: O
+    explain: 무엇을 언제 할지 분명히 정하면 꾸준히 실천하기 쉬워요.
+  - statement: 보는 사람이 없을 때는 나와 한 약속을 지키지 않아도 괜찮다.
+    answer: X
+    explain: 나와 한 약속도 소중해요. 누가 보지 않아도 스스로 지키는 것이 성실이에요.
+  - statement: 인내와 정성, 최선은 서로 어울려 성실한 삶을 만든다.
+    answer: O
+    explain: 참고 견디는 마음에 정성과 최선이 더해질 때 성실하게 해낼 수 있어요.
+  - statement: 성실은 힘든 일을 그저 참고 버티기만 하는 것이다.
+    answer: X
+    explain: 성실은 참는 데 그치지 않고 정성을 다해 최선으로 해내는 마음이에요.
+  - statement: 맡은 일을 대충 하면 나중에 다시 해야 하거나 다른 사람이 어려워질 수 있다.
+    answer: O
+    explain: 맡은 일을 정성껏 해야 나도 다른 사람도 편해져요.
+  - statement: 계획은 무리가 되더라도 최대한 빽빽하게 짜야 가장 좋다.
+    answer: X
+    explain: 계획은 내가 해낼 수 있도록 구체적이고 무리 없게 세워야 꾸준히 지킬 수 있어요.

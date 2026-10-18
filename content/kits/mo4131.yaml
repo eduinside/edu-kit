@@ -1,0 +1,123 @@
+id: mo4131
+title: 3. 배려하는 우리
+grade: 4
+sem: 1학기
+subject: 도덕
+unit: 3단원
+unit_no: 3
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 배려는 상대가 필요로 하는 것이 무엇인지 헤아려 따뜻하게 도와주고 살펴 주는 마음과 행동이에요. 가까운 친구뿐 아니라 집, 학교, 동네의 여러 사람에게 배려를 이어 가면 모두가 더 행복해져요.
+  core_question: 내 주변 사람들이 필요로 하는 배려를 찾아 어떻게 실천할 수 있을까?
+  concepts:
+    - term: 배려
+      def: 다른 사람의 처지와 마음을 헤아려 도움이 되도록 마음을 쓰는 것이에요. 상대가 필요로 하는 것이 무엇인지 먼저 생각해야 해요.
+    - term: 양보
+      def: 내 자리나 차례, 물건을 다른 사람에게 먼저 내어 주는 것이에요. 상대가 필요로 할 때 하면 배려가 돼요.
+    - term: 공감
+      def: 다른 사람의 처지와 마음을 헤아리고, 그 사람이 느끼는 것을 함께 느껴 보려는 마음이에요.
+    - term: 존중
+      def: 나와 생각이나 느낌이 다른 친구의 마음도 소중하게 여기고 함부로 대하지 않는 태도예요. 다른 사람의 이야기를 끝까지 들어 주는 것도 존중이에요.
+    - term: 교통약자
+      def: 버스나 지하철 같은 대중교통을 이용할 때 이동에 도움이 필요한 사람이에요. 어르신, 임산부, 몸이 불편한 사람, 어린아이와 함께 다니는 사람이 있어요.
+  standards:
+    - code: "[4도02-02]"
+      text: 친구 사이의 배려에 대한 올바른 이해를 바탕으로 일상생활에서 배려에 기반한 도덕적 관계를 맺을 수 있는 방안을 탐색한다.
+stages:
+  - name: 생각열기
+    question: 친구 사이에 배려는 왜 필요할까?
+  - name: 탐구하기
+    question: 집·학교·동네에서 누구에게 어떤 배려를 어떻게 실천할까?
+  - name: 확장하기
+    question: 배려하는 마음을 어떻게 가꾸고 앞으로 이어 갈까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 배려는 언제 필요할까?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Zor16s9tQZs
+    desc: 배려가 어떤 마음인지 이야기로 알아보고 언제 배려가 필요한지 생각해 봐요.
+    channel: EBS 키즈
+  - key: v2
+    stage: 생각열기
+    title: 배려 — 체인지
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Uwj-tq99vms
+    desc: 배려를 주제로 서로의 처지를 바꿔 생각해 보게 하는 애니메이션이에요.
+    channel: 서울시 인성교육 애니메이션
+  - key: v3
+    stage: 생각열기
+    title: 친구는 소중해
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=PrYfC6ALgCs
+    desc: 친구가 왜 소중한지 생각해 보는 대구미래교육연구원 생명존중교육 영상이에요.
+    channel: 대구미래교육연구원
+  - key: v4
+    stage: 탐구하기
+    title: 양보 — 만약에
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=h3JuXpM4zHg
+    desc: 양보를 주제로 입장을 바꿔 생각해 보게 하는 애니메이션이에요.
+    channel: 서울시 인성교육 애니메이션
+  - key: v5
+    stage: 탐구하기
+    title: 배려가 필요해! 초등학생이 만든 영상
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=PfDwHNreWZk
+    desc: 초등학생들이 만든 영상으로 배려가 필요한 장면을 보여 줘요.
+    channel: 경남교육미디어센터
+  - key: v6
+    stage: 탐구하기
+    title: 층간소음 죄송 전했더니 아래층 10살이 보낸 답장
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=IivyWPpLq0Y
+    desc: 윗집이 미안한 마음을 전하자 아래층 어린이가 따뜻한 답장을 보낸 이웃 사연이에요.
+    channel: SBS 뉴스
+  - key: v7
+    stage: 탐구하기
+    title: 모두가 안전한 지하철 — 교통약자 배려
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=LpMBZg3yHW8
+    desc: 지하철에서 몸이 불편한 사람과 임산부 같은 교통약자를 어떻게 배려할지 알려 줘요.
+    channel: 사통팔달 DTRO TV - 대구교통공사 공식 유튜브
+  - key: v8
+    stage: 확장하기
+    title: 초등생들의 아름다운 달리기 넘어진 친구 먼저
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=ABu1y0vGlAk
+    desc: 초등학교 운동회에서 넘어진 친구를 먼저 챙긴 아이들의 모습을 전하는 뉴스예요.
+    channel: 연합뉴스TV
+  - key: v9
+    stage: 확장하기
+    title: 우리 아파트 어린이 근황
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=KruoByElOtI
+    desc: 한 해를 마무리하며 이웃에게 감사 편지와 선물을 나눈 어린이의 사연이에요.
+    channel: SBS 뉴스
+quiz:
+  - statement: 배려는 상대가 필요로 하는 것이 무엇인지 생각해서 하는 것이다.
+    answer: O
+    explain: 배려는 내가 좋은 것보다 상대가 필요로 하는 것이 기준이에요.
+  - statement: 내가 좋다고 생각하는 것을 해 주면 언제나 상대에게 배려가 된다.
+    answer: X
+    explain: 상대가 필요로 하는 것이 기준이라서 내 생각대로 해 주면 배려가 되지 않을 수 있어요.
+  - statement: 배려는 가까운 친구뿐 아니라 집, 학교, 동네의 여러 사람에게 실천할 수 있다.
+    answer: O
+    explain: 집과 학교, 동네의 누구에게나 배려를 이어 갈 수 있어요.
+  - statement: 배려는 하는 사람이 일방적으로 베푸는 것이라서 받는 사람의 반응은 중요하지 않다.
+    answer: X
+    explain: 배려는 받는 사람의 반응과 고마움 표현이 이어질 때 서로 완성돼요.
+  - statement: 버스나 지하철에서 임산부와 어르신 같은 교통약자에게 자리를 양보하는 것은 배려이다.
+    answer: O
+    explain: 이동에 도움이 필요한 사람에게 자리를 내어 주는 것은 배려하는 행동이에요.
+  - statement: 상대가 도움을 거절해도 무조건 도와주어야 참된 배려이다.
+    answer: X
+    explain: 상대가 원하지 않거나 안전에 문제가 될 때는 도움을 강요하지 않는 것도 배려예요.
+  - statement: 비밀 친구 활동처럼 친구가 필요로 하는 것을 찾아 남몰래 도와주는 것도 배려이다.
+    answer: O
+    explain: 친구가 필요한 것을 헤아려 조용히 도와주는 것도 배려의 한 모습이에요.
+  - statement: 배려는 몸이 불편한 사람에게만 필요하고 친구 사이에는 필요하지 않다.
+    answer: X
+    explain: 친구 사이에서도 서로의 마음을 헤아리는 배려가 필요해요.

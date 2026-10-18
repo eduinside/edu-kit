@@ -1,0 +1,373 @@
+# mo4271 후보 기록 — 도덕 4학년 2학기 7단원 「자연은 소중해요」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo4271 --dry
+# 2026-10-17 야간 위임 수집. 재생·임베드·연령·국내·길이·쇼츠 여부는 YouTube Data API로 후보 전부 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님. 지도서가 인용한 기후에너지환경부 영상 3편은 원 채널에서 확인함. 공공 채널(국립생태원·국립생물자원관·국가환경교육센터·한국환경공단)을 먼저 모았고, 개인 채널·환경단체 영상은 뺌.
+# 새 채널(channels.yaml에 없음): 대구환경교육센터(후보 보류만) — 채택 영상은 모두 기존 등급 채널. 대구 지역 후보 중 B tv 대구(press)·달성사이다(public)·대구녹색학습원 공식채널(edu)은 이미 등급이 있음.
+kit:
+  id: mo4271
+  title: "7. 자연은 소중해요"
+  grade: 4
+  sem: 2학기
+  subject: 도덕
+  unit: 7단원
+  unit_no: 7
+  flow: activity
+  codes: ["[4도04-02]"]
+  core_idea: "사람도 자연을 이루는 한 구성원이라서 자연과 서로 도우며 함께 살아가야 해요. 기후 위기와 쓰레기 같은 환경 문제는 나와 이어져 있고, 작은 실천도 모이면 큰 차이를 만들 수 있어요."
+  core_question: "사람과 자연이 함께 살아가기 위해 오늘 나는 어떤 실천을 할 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "사람과 자연은 왜 함께 살아가야 할까?"
+    - name: 탐구하기
+      question: "기후 위기는 무엇이고, 작은 행동과 분리배출로 어떻게 줄일 수 있을까?"
+    - name: 확장하기
+      question: "멸종 위기 생물과 공존하려면 어떤 마음과 실천이 필요할까?"
+  concepts:
+    - "공존"
+    - "기후 위기"
+    - "탄소 중립"
+    - "분리배출"
+    - "멸종 위기종"
+  source_notes: "정리본 도덕4.국정.u7(1차시 자연을 보는 세 관점·사람과 자연이 함께 살아야 하는 까닭 → 2차시 기후 위기의 뜻과 심각성·지구 지킴이 활동 → 3차시 작은 행동의 힘·분리배출·쓰레기 줄이기 → 4차시 멸종 위기종·생명 존중과 공존) · 지도서 인용: 기후에너지환경부 영상 3편(물 절약·낭비 없는 식생활·전기 절약), 한국환경보전원·환경통계포털·국립생태원 누리집 · 오개념: 환경 문제는 먼 나라 일, 자연은 마음껏 쓰는 도구, 작은 실천은 소용없음 · cautions: 쓰레기 속 아이를 불쌍해하는 데 그치지 말고 까닭을 생각, 실천은 쉬운 일로, 분리배출은 기준과 방법을 정확히"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "한국환경공단 — 인간도 멸종될 수 있습니다"
+    url: https://www.youtube.com/watch?v=MqUCO-UZCCo
+    channel: "한국환경공단"
+    channel_grade: public
+    duration: "1:54"
+    use: 수업 전
+    basis_code: "[4도04-02]"
+    basis_lesson: "1차시 사람도 자연의 구성원"
+    desc: "생물다양성이 줄어들면 사람도 위험해질 수 있다는 점을 짧게 알려 주는 공익 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016 업로드, 설명란: 생물다양성에 대한 질문으로 시작. 1분대 동기 유발용."
+  - cand_no: c02
+    stage: 생각열기
+    title: "어린이 초록나라 2. 생물들의 보금자리 (초등 3·4학년)"
+    url: https://www.youtube.com/watch?v=C7iBsq7kLXU
+    channel: "국가환경교육센터"
+    channel_grade: public
+    duration: "6:57"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "1차시 사람과 자연이 함께 사는 까닭"
+    desc: "초등 3·4학년을 위해 만든 환경교육 영상으로 생물들이 사는 보금자리를 알아봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 환경교육포털 초록나라 시리즈(초등 3·4학년용, 제목 표기)."
+  - cand_no: c03
+    stage: 생각열기
+    title: "[생물다양성 교육] 생물다양성과 사라진 친구들"
+    url: https://www.youtube.com/watch?v=jbstGSxjASU
+    channel: "국립생물자원관"
+    channel_grade: public
+    duration: "6:39"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "1차시 생물 다양성"
+    desc: "생물다양성의 뜻과 중요성, 줄어드는 원인과 회복 노력을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 설명란: 생물다양성 개념·중요성·감소 원인·회복 노력."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "지구를 기후변화 위기에서 구하는 법"
+    url: https://www.youtube.com/watch?v=3a09fWMlj4Y
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "1:27"
+    use: 수업 전
+    basis_code: "[4도04-02]"
+    basis_lesson: "2차시 기후 위기를 막는 작은 행동"
+    desc: "우리의 작은 행동이 기후변화 위기에서 지구를 구할 수 있다는 점을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 설명란: 우리의 작은 행동이 지구를 위기에서 구할 수 있음."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "일상 속 소소하게 할 수 있는 물 절약 방법"
+    url: https://www.youtube.com/watch?v=KNvrjPZ0imQ
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "1:57"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "2차시 지구 지킴이 활동(지도서)"
+    desc: "생활 속에서 물을 아끼는 작은 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 인용한 영상(2020)."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "낭비 없는 식생활, 줄일수록 좋아요!"
+    url: https://www.youtube.com/watch?v=RXIvsuU1GIs
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "2:07"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "2차시·3차시 음식물 쓰레기 줄이기(지도서)"
+    desc: "먹을 만큼만 준비해 음식물 쓰레기를 줄이는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 인용한 영상(2015 업로드). 수치는 영상 안에 있어 오래된 통계일 수 있음, 시청 확인 권장."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "생활 속에서 전기절약 실천하기"
+    url: https://www.youtube.com/watch?v=x3iy315chyc
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "2:01"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "2차시 지구 지킴이 활동(지도서)"
+    desc: "작은 전기 절약 행동이 모여 환경에 큰 도움이 된다는 것을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "지도서가 인용한 영상(2020). 설명란: 작은 행동들이 모여 큰 도움이 됨."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "어린이 초록나라 12. 저탄소 생활 (초등 3·4학년)"
+    url: https://www.youtube.com/watch?v=ro5F5Xb97TI
+    channel: "국가환경교육센터"
+    channel_grade: public
+    duration: "5:30"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "2차시 탄소를 줄이는 생활"
+    desc: "초등 3·4학년을 위한 환경교육 영상으로 탄소를 줄이는 생활을 알아봐요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 환경교육포털 초록나라 시리즈(초등 3·4학년용, 제목 표기)."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "2021 그린벨 환경교육 영상(기후위기편)"
+    url: https://www.youtube.com/watch?v=L7WY7Nm0WjA
+    channel: "대구녹색학습원 공식채널"
+    channel_grade: edu
+    local: 대구
+    duration: "4:36"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "2차시 기후 위기"
+    desc: "대구녹색학습원이 환경교육용으로 만든 기후위기 관련 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 설명란이 짧아(기후위기 관련) 시청 확인 권장. 대구 사례."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "(어린이 환경교육용) 할아버지와 손녀가 함께하는 분리배출"
+    url: https://www.youtube.com/watch?v=hFnEnUdlr0w
+    channel: "한국환경공단"
+    channel_grade: public
+    duration: "7:51"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "3차시 분리배출"
+    desc: "할아버지와 손녀를 따라 하며 분리배출 방법을 익히는 어린이 환경교육 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 설명란: 어린이 여러분 분리배출 방법 알고 있나요? 7분대라 길이 상한 근처. 분리배출 기준은 개정될 수 있으니 시청 확인 권장."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "아름다운 바다 속 쓰레기 — 버려진 빨대의 나비효과"
+    url: https://www.youtube.com/watch?v=TxZtHAJF3X4
+    channel: "해양수산부"
+    channel_grade: public
+    duration: "4:56"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "3차시 작은 행동의 힘"
+    desc: "버려진 플라스틱 빨대가 바다 생물에게 어떤 영향을 주는지 어린이 해양교육으로 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 설명란: 어린이 해양교육. 쓰레기 속 아이를 불쌍해하는 데 그치지 않고 까닭을 묻는 정리본 유의점과 맞음."
+  - cand_no: c12
+    stage: 확장하기
+    title: "[국립생태원] 멸종위기종이 사라진다면 인간도 큰일난다고?"
+    url: https://www.youtube.com/watch?v=EEvBV8mBG9o
+    channel: "국립생태원"
+    channel_grade: public
+    duration: "5:27"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "4차시 멸종 위기종과 공존"
+    desc: "멸종위기종을 왜 보호해야 하는지 사람과 연결해 설명해 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 설명란: 멸종위기종을 보호해야 하는 까닭."
+  - cand_no: c13
+    stage: 확장하기
+    title: "[국립생태원] 멸종위기 야생생물 저어새 이야기"
+    url: https://www.youtube.com/watch?v=1mFMs73r1qE
+    channel: "국립생태원"
+    channel_grade: public
+    duration: "6:27"
+    use: 수업 후
+    basis_code: "[4도04-02]"
+    basis_lesson: "4차시 멸종 위기 동물의 처지"
+    desc: "멸종위기 야생생물인 저어새의 삶과 처지를 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020."
+  - cand_no: c14
+    stage: 확장하기
+    title: "대구 자연체험 여행 — 달성습지생태학습관"
+    url: https://www.youtube.com/watch?v=KSrpUNrVpb4
+    channel: "달성사이다 : 대구광역시 달성군"
+    channel_grade: public
+    local: 대구
+    duration: "2:06"
+    use: 수업 후
+    basis_code: "[4도04-02]"
+    basis_lesson: "4차시 우리 지역 생태 보전"
+    desc: "대구 달성습지생태학습관에서 우리 지역 자연을 체험하는 모습을 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025. 대구 사례, 달성군 공식 채널."
+  - cand_no: c15
+    stage: 확장하기
+    title: "[B tv 대구뉴스] 탄소중립 지금 우리는 — 논공초등학교 제로웨이스트"
+    url: https://www.youtube.com/watch?v=OyfMzmyMefU
+    channel: "ch B tv 대구"
+    channel_grade: press
+    local: 대구
+    duration: "3:28"
+    use: 수업 후
+    basis_code: "[4도04-02]"
+    basis_lesson: "3차시·4차시 학교에서 쓰레기 줄이기 실천"
+    desc: "대구의 한 초등학교에서 쓰레기를 줄이는 제로웨이스트 활동을 하는 모습을 전해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 대구 지역 언론, 학생 출연 학교 사례."
+  - cand_no: c16
+    stage: 확장하기
+    title: "[국립생태원] 함께 살아갈 우리 생물 남생이"
+    url: https://www.youtube.com/watch?v=fsQ-nJpkZ3A
+    channel: "국립생태원"
+    channel_grade: public
+    duration: "3:01"
+    use: 수업 후
+    basis_code: "[4도04-02]"
+    basis_lesson: "4차시 멸종 위기종"
+    desc: "멸종위기 야생생물 Ⅱ급 남생이를 외래종 거북과 견주어 알아봐요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. c13과 같은 멸종위기종 사례라 중복을 피해 보류."
+  - cand_no: c17
+    stage: 탐구하기
+    title: "환경탐정 푸루 점점 더 뜨거워지는 지구"
+    url: https://www.youtube.com/watch?v=eLDHWRrDkoc
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "6:18"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "2차시 기후 위기"
+    desc: "어린이에게 기후변화와 지구온난화를 알려 주는 애니메이션이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2014 업로드로 오래됨. 설명이 일반 개념이라 수치 문제는 적으나 최신 용어(기후 위기)와 다름."
+  - cand_no: c18
+    stage: 탐구하기
+    title: "푸루와 함께하는 슬기로운 분리배출 생활"
+    url: https://www.youtube.com/watch?v=CsKjT_2_ASQ
+    channel: "한국환경공단"
+    channel_grade: public
+    duration: "2:20"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "3차시 분리배출"
+    desc: "일부 바뀌는 분리배출표시제도를 푸루와 함께 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 2022년 제도 변경 안내라 현재 기준과 다를 수 있음."
+  - cand_no: c19
+    stage: 확장하기
+    title: "[내가GREEN지구] 음식물 쓰레기 줄이려면?"
+    url: https://www.youtube.com/watch?v=KuwNdoSvPN0
+    channel: "KBS뉴스 대구경북"
+    channel_grade: press
+    local: 대구
+    duration: "5:16"
+    use: 수업 후
+    basis_code: "[4도04-02]"
+    basis_lesson: "3차시 쓰레기 줄이기"
+    desc: "음식물 쓰레기를 줄이는 생활 속 방법을 알아보는 대구경북 방송 코너예요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 5분 16초, 어른 눈높이 뉴스 코너. 대구 사례."
+  - cand_no: c20
+    stage: 확장하기
+    title: "[2025 기후위기 대응 영상공모전] 작은 실천으로 막는 기후위기"
+    url: https://www.youtube.com/watch?v=EH9mVuoJtAw
+    channel: "대구환경교육센터"
+    channel_grade: public
+    local: 대구
+    duration: "2:06"
+    use: 수업 후
+    basis_code: "[4도04-02]"
+    basis_lesson: "3차시 작은 행동의 힘"
+    desc: "대구환경교육센터 영상공모전 수상작으로 작은 실천이 기후위기를 막는다는 내용이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2025. 공모전 수상작으로 제작자 정보를 알 수 없음. 새 채널(등급 미분류, 추정 public). 대구 사례."
+  - cand_no: c21
+    stage: 탐구하기
+    title: "[초등] 북극곰 이야기"
+    url: https://www.youtube.com/watch?v=797POfEgU_s
+    channel: "국가환경교육센터"
+    channel_grade: public
+    duration: "2:04"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "2차시 기후 위기"
+    desc: "탄소중립 학교 만들기 교재의 2차시용 북극곰 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 특수아동 대상 교재의 영상 자료(설명란), 눈높이 확인 필요."
+  - cand_no: c22
+    stage: 탐구하기
+    title: "함께해요 환경사랑"
+    url: https://www.youtube.com/watch?v=SP19UPKNBLE
+    channel: "한국환경공단"
+    channel_grade: public
+    duration: "8:58"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "1차시"
+    desc: "환경을 사랑하는 마음을 담은 애니메이션이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "8분 58초로 길고 내용 확인 불가."
+  - cand_no: c23
+    stage: 탐구하기
+    title: "북극곰이 북극곰을 잡아먹는다?"
+    url: https://www.youtube.com/watch?v=9W1H_IXSyZw
+    channel: "극지연구소"
+    channel_grade: public
+    duration: "2:22"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "2차시"
+    desc: "북극곰의 먹이 활동을 다루는 영상이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "제목이 자극적이고 기후 위기와의 연결이 분명하지 않음."
+  - cand_no: c24
+    stage: 탐구하기
+    title: "기후변화와 멸종 — 여섯 번째 대멸종 위기"
+    url: https://www.youtube.com/watch?v=ZD80-fZDfyo
+    channel: "환경운동연합"
+    channel_grade: personal
+    duration: "2:44"
+    use: 수업 중
+    basis_code: "[4도04-02]"
+    basis_lesson: "2차시"
+    desc: "기후위기로 멸종이 빨라진다는 교육용 애니메이션이에요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "환경단체(NGO) 영상. 공공 영상이 충분해 제외."

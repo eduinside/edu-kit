@@ -1,0 +1,148 @@
+id: pr6101
+title: 가정생활·가정일
+grade: 6
+sem: 1학기
+subject: 실과
+unit: 인간 발달과 주도적 삶
+unit_no: 1
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 가족은 저마다 모습과 바라는 것이 달라서, 서로를 배려하고 돌보는 마음이 건강한 가정생활의 바탕이 돼요. 가정일은 한 사람의 몫이 아니라 가족 모두가 나누어 하는 일이고, 내가 할 수 있는 일을 꾸준히 해 보면 그 가치를 알게 돼요.
+  core_question: 가족 모두가 행복하려면 서로를 어떻게 배려하고 돌보며, 나는 어떤 가정일을 맡아 실천할 수 있을까?
+  concepts:
+    - term: 가족
+      def: 서로 아끼고 돌보며 함께 생활하는 사람들이에요. 함께 사는 사람의 수나 모습은 집마다 달라도 모두 가족이에요.
+    - term: 가정생활
+      def: 가족이 한집에서 먹고 자고 쉬고 일하며 함께 살아가는 모든 생활이에요. 가족이 서로 돕고 일을 나누면 건강한 가정생활을 만들 수 있어요.
+    - term: 배려
+      def: 다른 사람의 처지와 마음을 헤아려 도움이 되도록 마음을 쓰는 것이에요. 가족마다 바라는 것이 다르다는 것을 알면 서로 배려할 수 있어요.
+    - term: 돌봄
+      def: 도움이 필요한 사람을 살피고 보살피는 일이에요. 어린 동생이나 아픈 가족, 연세 드신 가족을 보살피는 것이 돌봄이에요.
+    - term: 가정일
+      def: 가정생활을 이어 가기 위해 하는 일이에요. 청소, 빨래, 요리, 정리 정돈처럼 가족 모두가 나누어 해요.
+  standards:
+    - code: "[6실01-03]"
+      text: 건강한 가정생활을 위해 가족원 모두에게 다양한 요구가 있음을 이해하여 서로에 대한 배려와 돌봄을 실천한다.
+    - code: "[6실01-06]"
+      text: 가정일을 수행하는 과정에서 일의 가치와 중요성을 이해하고, 가정생활을 유지하는 데 필요한 가정일의 종류를 탐색한다.
+stages:
+  - name: 생각열기
+    question: 가족의 모습은 어떻게 다르고, 가정생활은 왜 소중할까?
+  - name: 탐구하기1
+    question: 가족마다 바라는 것이 다름을 알고 서로를 배려하고 돌보려면 어떻게 해야 할까?
+  - name: 탐구하기2
+    question: 가정일에는 어떤 것이 있고, 가정일은 왜 가치 있고 중요한 일일까?
+  - name: 확장하기
+    question: 가정일을 안전하게 꾸준히 실천하고 앞으로 가정일은 어떻게 달라질까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 행복이라는 같은 이야기
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=6HDwVX0lnVE
+    desc: 저마다 다른 모습의 가족이 하루를 마치고 집에서 행복한 이야기를 만들어 가는 모습을 보여 줘요.
+    channel: 한국건강가정진흥원
+  - key: v2
+    stage: 생각열기
+    title: 모습은 달라도 우리는 모두 가족이에요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=-xIPAKG0Chc
+    desc: 함께 사는 모습이 서로 다른 가족을 소개하며 모습이 달라도 모두 가족임을 알려 줘요.
+    channel: 국가인권위원회
+  - key: v3
+    stage: 생각열기
+    title: 모든 가족이 행복한 우리 동네, 가족센터가 응원해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=igu-T8lZPCY
+    desc: 1인 가구, 맞벌이, 조손, 다문화처럼 다양한 가족의 행복을 돕는 가족센터를 소개해요.
+    channel: 대구TV┃대구광역시 공식 유튜브
+  - key: v4
+    stage: 탐구하기1
+    title: 가족 곁에 가족센터! 나의 곁에 가족센터!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=iAw3LZGhY2U
+    desc: 전국 가족센터가 부모교육, 가족 상담, 아이돌봄 같은 도움을 어떻게 주는지 알려 줘요.
+    channel: 한국건강가정진흥원
+  - key: v5
+    stage: 탐구하기2
+    title: 집안일 해본 아이와 안 해본 아이
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Xtq_yFuoqG0
+    desc: 집안일을 해 본 아이와 안 해 본 아이의 차이를 살펴보며 가정일을 함께하는 일의 뜻을 생각해 봐요.
+    channel: EBS
+  - key: v6
+    stage: 탐구하기2
+    title: 집안일의 가치는 얼마일까요?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=-pSCy3QzJrs
+    desc: 통계청이 음식 준비, 빨래, 청소 같은 집안일의 가치를 금액으로 따져 본 발표를 전해요.
+    channel: KBS News
+  - key: v7
+    stage: 탐구하기2
+    title: 스스로 하는 가정일 — 부엌에서
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=jtFCEnTI40c
+    desc: 밥을 먹기 위해 요리를 하는 부엌에서 스스로 할 수 있는 기본적인 가정일을 알려 줘요.
+    channel: 대구미래교육연구원
+  - key: v8
+    stage: 탐구하기2
+    title: 스스로 하는 가정일 — 우리 집에서
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=acMMZh3qcVE
+    desc: 집안일이 끝이 없다고 느껴지는 까닭을 짚고 나부터 실천할 수 있는 집안일을 차근차근 알아봐요.
+    channel: 대구미래교육연구원
+  - key: v9
+    stage: 확장하기
+    title: 가정안전 — 주방
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=tQG10a2sSMk
+    desc: 주방에서 칼, 불, 뜨거운 물을 다룰 때 조심할 점을 어린이에게 알려 줘요.
+    channel: 소비자안전센터
+  - key: v10
+    stage: 확장하기
+    title: 가정안전 — 거실
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=X_7LR-VJV6A
+    desc: 집 안 거실에서 일어나기 쉬운 사고와 조심할 점을 어린이에게 알려 줘요.
+    channel: 소비자안전센터
+  - key: v11
+    stage: 확장하기
+    title: 집사가 된 인공지능 로봇 — 반려부터 노동까지
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=h9nQNPXPWig
+    desc: 세계 가전 박람회에서 집안일을 돕는 집사 로봇이 소개된 소식을 전해요.
+    channel: KBS News
+  - key: v12
+    stage: 확장하기
+    title: 스스로 하는 가정일 — 분리배출
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=VTRylIk0d9s
+    desc: 하루에도 많이 나오는 쓰레기를 분리배출해서 생활 공간을 쾌적하게 지키는 방법을 알려 줘요.
+    channel: 대구미래교육연구원
+quiz:
+  - statement: 가족의 모습은 집마다 달라도 서로 아끼고 돌보며 함께 사는 사람들은 모두 가족이다.
+    answer: O
+    explain: 함께 사는 사람의 수나 모습이 달라도 서로 아끼고 돌보는 사람들은 가족이에요.
+  - statement: 가족은 반드시 부모와 자녀가 함께 사는 모습이어야 한다.
+    answer: X
+    explain: 한부모, 조손, 다문화 가족처럼 가족의 형태는 다양해요. 서로 존중하며 돌보는 것이 더 중요해요.
+  - statement: 가족마다 바라는 것이 다를 수 있으니 서로의 요구를 헤아려 배려하면 가정생활이 건강해진다.
+    answer: O
+    explain: 서로의 요구를 이해하고 배려와 돌봄을 실천하면 가족 모두가 편안해져요.
+  - statement: 가정일은 한 사람이 맡아서 하고 나머지 가족은 도와주기만 하면 된다.
+    answer: X
+    explain: 가정일은 가족 모두의 일이에요. 각자 형편에 맞게 나누어 함께 해야 해요.
+  - statement: 청소, 빨래, 요리, 정리 정돈은 가정생활을 유지하는 데 필요한 가정일이다.
+    answer: O
+    explain: 이런 일들이 모여 가족이 편안하게 생활할 수 있어요.
+  - statement: 집안일에는 남자가 하는 일과 여자가 하는 일이 따로 정해져 있다.
+    answer: X
+    explain: 가정일은 성별로 정해진 것이 아니에요. 누구나 할 수 있는 일을 나누어 해요.
+  - statement: 칼이나 뜨거운 물을 쓰는 가정일을 할 때는 다치지 않게 안전 수칙을 지켜야 한다.
+    answer: O
+    explain: 불, 칼, 뜨거운 물은 다칠 수 있어서 조심해서 다루고 어른과 함께 해야 해요.
+  - statement: 청소 로봇 같은 기계가 있으면 가정일은 완전히 없어진다.
+    answer: X
+    explain: 기계가 도와도 가정일은 사라지지 않고 모습이 바뀔 뿐이에요. 기계를 관리하는 일이 새로 생겨요.

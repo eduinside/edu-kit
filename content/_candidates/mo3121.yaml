@@ -1,0 +1,185 @@
+# mo3121 후보 기록 — 도덕 3학년 1학기 2단원 「성실하게 사는 삶」
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- mo3121 --dry
+# 2026-10-17 야간 수집(위임). 재생·임베드·연령·국내·길이·쇼츠 여부는 ytcheck로 확인. 영상 본문은 제목·설명·채널 성격 기준이고 전부 시청한 것은 아님.
+# 수집 한계: 성실 주제의 공공·교육기관 어린이용 영상이 드물다. 지도서가 인용한 EBS 지식채널e 「2등 전문가 이봉주」 등은 공식 채널에서 찾지 못했고(비공식 재게시본만 있음) 제외했다.
+# 새 채널(channels.yaml에 없음): KBS HUMAN : 뭉클티비 · 서울시 인성교육 애니메이션 · 국가유산채널 — 등급은 운영자에게 질문.
+kit:
+  id: mo3121
+  title: "2. 성실하게 사는 삶"
+  grade: 3
+  sem: 1학기
+  subject: 도덕
+  unit: 2단원
+  unit_no: 2
+  flow: activity
+  codes: ["[4도01-03]"]
+  core_idea: "성실은 맡은 일과 나와 한 약속을 정성을 다해 끝까지 해내는 마음과 태도예요. 결과보다 과정의 정성과 노력이 중요하고, 계획을 세워 꾸준히 실천하면 나 자신과 한 약속을 지킬 수 있어요."
+  core_question: "나는 어떤 목표와 계획으로 하루를 성실하게 보내고, 그 약속을 끝까지 지킬 수 있을까?"
+  stages:
+    - name: 생각열기
+      question: "성실하다는 것은 무엇이고, 왜 성실하게 살아야 할까?"
+    - name: 탐구하기
+      question: "성실하게 하루를 보내려면 어떤 계획과 실천이 필요할까?"
+    - name: 확장하기
+      question: "성실하게 살아간 사람들에게서 무엇을 배울 수 있을까?"
+  concepts:
+    - "성실"
+    - "정성"
+    - "인내"
+    - "최선"
+    - "계획"
+  source_notes: "정리본 도덕3.국정.u2(1차시 성실의 뜻·성실해야 할 까닭 → 2차시 하루 목표·실천 계획 일주일 지키기 → 3차시 계획이 어긋난 경험·역할놀이 → 4차시 성실한 삶의 사례·자신과의 약속) · 지도서 인용: 성실 주제 영상 3편(EBS 지식채널e 등, 원 채널 재게시본 확인 못 함 → 같은 주제의 공식 채널 영상으로 대체) · 오개념: 성실하면 늘 좋은 결과, 성실은 참고 버티는 것, 보는 사람 없으면 약속 어겨도 됨 · cautions: 인내·정성·최선을 엮어 다루기, 결과보다 과정"
+
+candidates:
+  - cand_no: c01
+    stage: 생각열기
+    title: "개미와 베짱이"
+    url: https://www.youtube.com/watch?v=NOnttjfPbFs
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "4:15"
+    use: 수업 전
+    basis_code: "[4도01-03]"
+    basis_lesson: "1차시 성실의 뜻과 성실해야 할 까닭"
+    desc: "열심히 일하는 개미와 놀기만 하는 베짱이를 견주며 맡은 일을 대하는 태도를 생각해 보는 그림책 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "EBS 그림책 뿡뿡뿡(2023). 이솝 우화."
+  - cand_no: c02
+    stage: 생각열기
+    title: "개미와 베짱이 이야기 함께 읽기"
+    url: https://www.youtube.com/watch?v=e09ssbaWuM0
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "7:54"
+    use: 수업 중
+    basis_code: "[4도01-03]"
+    basis_lesson: "1차시 성실의 뜻과 성실해야 할 까닭"
+    desc: "개미와 베짱이 이야기를 함께 살펴보고 어린이들이 느낀 점을 나누는 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "EBS 똑똑 문해력 박사 6화(2023)."
+  - cand_no: c03
+    stage: 생각열기
+    title: "성실이라는 무기"
+    url: https://www.youtube.com/watch?v=kA6D4d5maMo
+    channel: "KBS HUMAN : 뭉클티비"
+    channel_grade: press
+    duration: "5:03"
+    use: 수업 중
+    basis_code: "[4도01-03]"
+    basis_lesson: "1차시 성실한 사람의 모습"
+    desc: "KBS TV동화 「행복한 세상」 가운데 성실의 힘을 이야기한 작품이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2002년 방영 TV동화 재게시(2020). 제목으로 선정했고 설명란이 비어 있어 본문 미시청 — 아침에 내용 확인 요망. 등급 미분류(추정)."
+  - cand_no: c04
+    stage: 탐구하기
+    title: "약속을 지키는 마음"
+    url: https://www.youtube.com/watch?v=EDX9oCX3n6Y
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: public
+    duration: "5:16"
+    use: 수업 중
+    basis_code: "[4도01-03]"
+    basis_lesson: "2차시 나와 한 약속 지키기"
+    desc: "누가 보지 않아도 약속을 지키는 마음을 다룬 서울시 인성교육 애니메이션이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "제목 [약속] 투명인간(2021). 설명란이 비어 있어 본문 미시청 — 아침에 내용 확인 요망. 등급 미분류(추정)."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "맡은 일에 책임을 다해요"
+    url: https://www.youtube.com/watch?v=eAXU7ot9qjM
+    channel: "서울시 인성교육 애니메이션"
+    channel_grade: public
+    duration: "4:46"
+    use: 수업 중
+    basis_code: "[4도01-03]"
+    basis_lesson: "3차시 맡은 일을 끝까지 하기"
+    desc: "맡은 일에 책임을 다하는 마음을 다룬 서울시 인성교육 애니메이션이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "제목 [책임] 내 동생(2021). 설명란이 비어 있어 본문 미시청 — 아침에 내용 확인 요망. 등급 미분류(추정)."
+  - cand_no: c06
+    stage: 확장하기
+    title: "정확한 지도를 만든 김정호"
+    url: https://www.youtube.com/watch?v=gIIJu9eviDU
+    channel: "국가유산채널(K-Heritage Channel)"
+    channel_grade: public
+    duration: "4:35"
+    use: 수업 후
+    basis_code: "[4도01-03]"
+    basis_lesson: "4차시 성실한 삶의 사례(지도 제작자)"
+    desc: "김정호가 만든 대동여지도가 어떤 지도인지 보여 주는 영상이에요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2017. 지도서 읽을거리(지도 제작자 이야기)와 연결. 성실 자체를 설명하는 영상은 아니라 수업에서 교사가 연결. 등급 미분류(추정)."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "꼴찌의 달리기"
+    url: https://www.youtube.com/watch?v=71dYfnUK58A
+    channel: "KBS HUMAN : 뭉클티비"
+    channel_grade: press
+    duration: "5:02"
+    use: 수업 중
+    basis_code: "[4도01-03]"
+    basis_lesson: "3차시 끝까지 해내기"
+    desc: "KBS TV동화 「행복한 세상」의 한 편이에요."
+    verdict: 확인필요
+    note: "제목만 보고 고름, 설명란 비어 있음 — 내용 확인 전에는 채택하지 않음."
+  - cand_no: c08
+    stage: 확장하기
+    title: "편리하고 정확한 조선시대 지도 대동여지도"
+    url: https://www.youtube.com/watch?v=UVsDddU4o3s
+    channel: "KBSKids"
+    channel_grade: press
+    duration: "9:25"
+    use: 수업 후
+    basis_code: "[4도01-03]"
+    basis_lesson: "4차시 성실한 삶의 사례(지도 제작자)"
+    desc: "큰별쌤이 대동여지도와 김정호를 소개하는 어린이 역사 프로그램이에요."
+    verdict: 채택
+    reviewer: 운영자
+    note: "운영자 지시(10/18)로 채택 — 8분 초과, 구간(start/end) 미지정. 시청 뒤 핵심 구간을 정하면 좋음. 이전 메모: 9분 25초 — 구간을 정해야 하는데 본문 못 봄."
+  - cand_no: c09
+    stage: 확장하기
+    title: "스쿨랜드 틴틴인터뷰 이봉주"
+    url: https://www.youtube.com/watch?v=FQJVyKl2ex8
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "12:19"
+    use: 수업 후
+    basis_code: "[4도01-03]"
+    basis_lesson: "4차시 성실한 삶의 사례(마라토너)"
+    desc: "마라톤 선수 이봉주의 어린 시절과 도전을 인터뷰로 들어요."
+    verdict: 채택
+    reviewer: 운영자
+    note: "운영자 지시(10/18)로 채택 — 8분 초과, 구간(start/end) 미지정. 시청 뒤 핵심 구간을 정하면 좋음. 이전 메모: 12분 19초 — 구간 필요, 본문 못 봄. 지도서가 인용한 이봉주 사례와 연결됨(2014)."
+  - cand_no: c10
+    stage: 생각열기
+    title: "토끼와 거북이"
+    url: https://www.youtube.com/watch?v=_W9iNdhjnaE
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "9:00"
+    use: 수업 전
+    basis_code: "[4도01-03]"
+    basis_lesson: "1차시 성실의 뜻"
+    desc: "끝까지 꾸준히 걷는 거북이의 이야기를 만화로 보여 줘요."
+    verdict: 채택
+    reviewer: 운영자
+    note: "운영자 지시(10/18)로 채택 — 8분 초과, 구간(start/end) 미지정. 시청 뒤 핵심 구간을 정하면 좋음. 이전 메모: 9분(구간 미지정), 본문 못 봄. 성실보다 승패 이야기로 읽힐 수 있음."
+  - cand_no: c11
+    stage: 생각열기
+    title: "이야기 마법사, 조앤 롤링"
+    url: https://www.youtube.com/watch?v=_qwR5OJt4-4
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "8:32"
+    use: 수업 중
+    basis_code: "[4도01-03]"
+    basis_lesson: "4차시 성실한 삶의 사례"
+    desc: "작가 조앤 롤링의 이야기를 들려주는 유치원 프로그램이에요."
+    verdict: 보류
+    note: "유치원 대상 프로그램이라 3학년 눈높이와 거리가 있음."

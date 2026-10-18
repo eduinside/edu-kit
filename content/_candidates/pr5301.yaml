@@ -1,0 +1,452 @@
+# pr5301 후보 기록 — 실과 5학년 · 수송 수단·친환경 수송 ([6실03-04]·[6실03-05])
+# 양식: docs/EXPANSION_PLAN_moral-practical.md §5-1 · 검사: npm run import -- pr5301 --dry
+# 2026-10-17 야간 위임 수집(흐름형, 용어=단계). 후보 전부 ytcheck로 재생·임베드·연령·국내·길이·쇼츠 확인. 영상 본문은 제목·설명·채널 성격 기준이며 전부 시청한 것은 아님.
+# 수집 한계: 구동·조향·제동 장치를 초등 눈높이로 설명한 공공·교육 영상이 거의 없어(대부분 자동차 정비 채널·기업 채널) 아꿈선·과학관·행안부 영상으로 3편만 채움. 수송 수단의 역사는 공공 영상이 없어 YTN 사이언스(언론)를 사용.
+# 새 채널(channels.yaml에 없음): 한국에너지공단 · 한국에너지기술연구원 · 한국자동차환경협회(후보에만) — 등급 미분류(추정 public), 운영자 확인.
+kit:
+  id: pr5301
+  title: "수송 수단·친환경 수송"
+  grade: 5
+  sem: 2학기
+  subject: 실과
+  unit: 기술적 문제해결과 혁신
+  unit_no: 3
+  flow: flow
+  sort_order: 1
+  codes: ["[6실03-04]", "[6실03-05]"]
+  core_idea: "수송은 사람과 물건을 한 곳에서 다른 곳으로 옮기는 일이고, 땅과 물과 하늘의 수송 수단은 사람들의 불편을 풀려는 발명으로 발달해 왔어요. 수송 수단은 움직이게 하고, 방향을 바꾸고, 멈추게 하는 장치로 이루어져 있고, 오늘날에는 환경을 지키는 친환경 에너지를 쓰는 수송 수단이 늘고 있어요."
+  core_question: "수송 수단은 어떻게 발달해 왔고, 어떤 장치로 움직이며, 환경을 지키려면 어떤 수송 수단을 만들어야 할까?"
+  stages:
+    - "수송 수단"
+    - "구동·조향·제동 장치"
+    - "친환경 수송 수단"
+    - "미래 수송 수단"
+  concepts:
+    - "수송 수단"
+    - "구동 장치"
+    - "조향 장치"
+    - "제동 장치"
+    - "친환경 수송 수단"
+  source_notes: "정리본(천재 u4 수송 · 비상 u4-1·u4-2) 요지: 수송의 뜻과 땅·물·하늘 수송 수단이 옛날부터 미래까지 바뀐 모습 → 자전거·자동차의 구동·조향·제동 장치(구성 요소) → 태양광·풍력 같은 친환경 에너지로 달리는 시제품 만들기 → 수송 기술의 가치 · 오개념: 수송 수단은 하루아침에 생긴 게 아니라 발명과 개선이 쌓임, 수송 수단의 발달 목적은 빠르기만이 아니라 안전·편리·환경, 구성 요소는 서로 맞물려 일함 · 유의: 가위·칼 안전, 태양광은 햇빛 아래 확인. 지도서가 가리킨 한국자동차환경협회 영상은 협회 채널에서 찾지 못해 환경부·YTN·과학관 영상으로 대체. 출판사 실습 동영상은 쓰지 않음"
+
+candidates:
+  - cand_no: c01
+    stage: 수송 수단
+    title: "수송과 수송 수단"
+    url: https://www.youtube.com/watch?v=H46NVgJY5lI
+    channel: "아꿈선 초등3분과학"
+    channel_grade: edu
+    duration: "2:39"
+    use: 수업 전
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 1차시 수송의 뜻과 수송 수단의 쓸모"
+    desc: "수송이 무엇이고 수송 수단이 우리 생활에 어떤 쓸모가 있는지 짧게 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 교사 모임 채널(등급표 edu)."
+  - cand_no: c02
+    stage: 수송 수단
+    title: "현대인의 필수품 자동차의 역사"
+    url: https://www.youtube.com/watch?v=9N9ru8eYzpQ
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "4:32"
+    use: 수업 중
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 2차시 땅 수송 수단의 변화"
+    desc: "바퀴와 말에서 자동차까지 땅 위 수송 수단이 바뀐 과정을 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016. 공공·교육 채널에 수송 수단 역사 영상이 없어 press 사용."
+  - cand_no: c03
+    stage: 수송 수단
+    title: "산업발전의 중요한 역할, 철도의 역사"
+    url: https://www.youtube.com/watch?v=YDg7khWIDA0
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "4:15"
+    use: 수업 중
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 2차시 땅 수송 수단의 변화"
+    desc: "철도가 처음 생겨 발달해 온 과정을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016. press 사용."
+  - cand_no: c04
+    stage: 수송 수단
+    title: "인류와 함께 발전해온 배의 역사"
+    url: https://www.youtube.com/watch?v=rk1plpb6398
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "4:02"
+    use: 수업 중
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 2차시 물 수송 수단의 변화"
+    desc: "갈대배에서 오늘날의 배까지 물 위 수송 수단이 발달한 모습을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016. press 사용."
+  - cand_no: c05
+    stage: 수송 수단
+    title: "새처럼 자유롭게 하늘을 날다, 비행기의 역사"
+    url: https://www.youtube.com/watch?v=QWzpOe2YM70
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "3:51"
+    use: 수업 중
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 2차시 하늘 수송 수단의 변화"
+    desc: "하늘을 날고 싶었던 인류의 도전과 비행기의 발달을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2016. press 사용."
+  - cand_no: c06
+    stage: 수송 수단
+    title: "세상을 잇는 선, 철도 연대기"
+    url: https://www.youtube.com/watch?v=pwMFvZTczRw
+    channel: "EBSDocumentary (EBS 다큐)"
+    channel_grade: edu
+    duration: "5:04"
+    use: 배경지식
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 2차시 수송 수단의 발달"
+    desc: "전차에서 고속철도까지 우리나라 철도가 발달해 온 이야기를 들려줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. EBS×국토연구원(국토교통부 지원)."
+  - cand_no: c07
+    stage: 수송 수단
+    title: "다양한 배의 종류"
+    url: https://www.youtube.com/watch?v=SoZso6u5E_w
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "3:16"
+    use: 수업 중
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 2차시"
+    desc: "상선·군함·어선 같은 배의 종류와 기능을 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c04와 겹침."
+  - cand_no: c08
+    stage: 수송 수단
+    title: "우리나라의 교통수단"
+    url: https://www.youtube.com/watch?v=xv73uF-c3NI
+    channel: "철도산업정보센터"
+    channel_grade: public
+    duration: "1:04"
+    use: 수업 전
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 1차시"
+    desc: "우리나라의 교통수단을 1분 남짓에 훑어봐요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2018, 내용이 얕고 채널 성격 불분명."
+  - cand_no: c09
+    stage: 구동·조향·제동 장치
+    title: "수송 수단의 기본 요소"
+    url: https://www.youtube.com/watch?v=9c6ERPSRT7o
+    channel: "아꿈선 초등3분과학"
+    channel_grade: edu
+    duration: "2:41"
+    use: 수업 중
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 3차시 구동·조향·제동 장치"
+    desc: "수송 수단을 이루는 기본 요소를 짧게 정리해 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 교사 모임 채널(edu)."
+  - cand_no: c10
+    stage: 구동·조향·제동 장치
+    title: "회전력의 전달, 기어"
+    url: https://www.youtube.com/watch?v=neMXMOjisJU
+    channel: "국립부산과학관"
+    channel_grade: public
+    duration: "2:36"
+    use: 수업 중
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 3차시 구동 장치"
+    desc: "기어가 회전력을 전달하는 원리를 전시물로 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 어린이과학관 전시 해설."
+  - cand_no: c11
+    stage: 구동·조향·제동 장치
+    title: "자전거 안전하게 점검, 관리하기"
+    url: https://www.youtube.com/watch?v=4i-DKwudrtc
+    channel: "KTV  다큐"
+    channel_grade: public
+    duration: "3:16"
+    use: 수업 후
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 3차시 조향·제동 장치 점검"
+    desc: "브레이크와 핸들 같은 자전거 부분을 안전하게 점검하는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 행정안전부 제작."
+  - cand_no: c12
+    stage: 구동·조향·제동 장치
+    title: "자동차 바퀴의 과학, 바퀴는 왜 동그랗지?"
+    url: https://www.youtube.com/watch?v=xcW2ItuB4jw
+    channel: "국립중앙과학관"
+    channel_grade: public
+    duration: "5:47"
+    use: 수업 후
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 3차시 구동 장치"
+    desc: "자동차 바퀴가 왜 둥글고 몇 개인지 같은 바퀴의 과학을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 과학관TV."
+  - cand_no: c13
+    stage: 구동·조향·제동 장치
+    title: "자전거를 탈 땐 안전수칙을 꼭 지켜요"
+    url: https://www.youtube.com/watch?v=5YwvjjELuRU
+    channel: "한국교통안전공단 교통안전TV"
+    channel_grade: public
+    duration: "3:39"
+    use: 수업 후
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 3차시"
+    desc: "어린이 자전거 안전수칙을 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "안전수칙 중심이라 구성 요소와는 거리가 있음."
+  - cand_no: c14
+    stage: 친환경 수송 수단
+    title: "달리면서 환경을 보호하는 자동차가 있다?"
+    url: https://www.youtube.com/watch?v=CgsD48sidUQ
+    channel: "기후에너지환경부"
+    channel_grade: public
+    duration: "3:44"
+    use: 수업 중
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 4차시 친환경 수송 수단"
+    desc: "전기차·수소차 같은 친환경차가 왜 필요한지 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2019. 환경부 제작. 번호판·지원 제도 설명은 달라졌을 수 있어 수업에서 최신 확인."
+  - cand_no: c15
+    stage: 친환경 수송 수단
+    title: "전기자동차와 일반자동차의 구조는 어떻게 다를까"
+    url: https://www.youtube.com/watch?v=JfcaErPei64
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "3:34"
+    use: 수업 중
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 4차시 친환경 에너지 수송 수단"
+    desc: "전기자동차와 휘발유 자동차의 구조 차이를 비교해 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2018. press 사용."
+  - cand_no: c16
+    stage: 친환경 수송 수단
+    title: "수소전기차는 어떻게 도로를 달리는 것일까"
+    url: https://www.youtube.com/watch?v=pUQkBOIt0KM
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "3:19"
+    use: 수업 중
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 4차시 친환경 에너지 수송 수단"
+    desc: "수소로 전기를 만들어 달리는 수소전기차의 원리를 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. press 사용."
+  - cand_no: c17
+    stage: 친환경 수송 수단
+    title: "태양광에너지로 자동차를 움직여요"
+    url: https://www.youtube.com/watch?v=xHemmDhkDs8
+    channel: "국립광주과학관"
+    channel_grade: public
+    duration: "3:22"
+    use: 수업 중
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 4차시 태양광 자동차 만들기"
+    desc: "햇빛으로 전기를 만들어 자동차를 움직이는 전시물을 설명해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 국립과학관 전시 해설."
+  - cand_no: c18
+    stage: 친환경 수송 수단
+    title: "지구를 위한 친환경 에너지 4총사"
+    url: https://www.youtube.com/watch?v=WlzGRwaCJ2I
+    channel: "국립부산과학관"
+    channel_grade: public
+    duration: "3:15"
+    use: 수업 전
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 4차시"
+    desc: "풍력·파력·태양열·수소자동차 같은 친환경 에너지를 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c17과 겹치고 에너지 소개 위주. 후보로만 보관."
+  - cand_no: c19
+    stage: 친환경 수송 수단
+    title: "재생에너지가 궁금하다! 태양광&풍력 편"
+    url: https://www.youtube.com/watch?v=F5E5ltqpF58
+    channel: "한국에너지공단 : KEA(Korea Energy Agency)"
+    channel_grade: public
+    duration: "4:31"
+    use: 배경지식
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 4차시 태양광·풍력"
+    desc: "태양광과 풍력 에너지의 발전 원리와 설비를 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2020. 한국에너지공단. 새 채널(public 추정). 시제품(태양광·풍력 자동차) 배경 원리."
+  - cand_no: c20
+    stage: 친환경 수송 수단
+    title: "친환경 선박이 떴다"
+    url: https://www.youtube.com/watch?v=KHGS8T1xKsM
+    channel: "해양수산부"
+    channel_grade: public
+    duration: "3:40"
+    use: 수업 후
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 4차시 친환경 수송 수단(물)"
+    desc: "바다 오염을 줄이는 친환경 선박을 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2021. 해양수산부 '똑똑한 연구소'."
+  - cand_no: c21
+    stage: 친환경 수송 수단
+    title: "전기차의 구조와 종류"
+    url: https://www.youtube.com/watch?v=S5jdDoeL3Gs
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "4:11"
+    use: 수업 중
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 4차시"
+    desc: "전기차 부품이 적고 빈 곳이 많은 까닭과 종류를 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c15와 겹침."
+  - cand_no: c22
+    stage: 친환경 수송 수단
+    title: "수소전기차의 구조와 핵심부품"
+    url: https://www.youtube.com/watch?v=sEX_sFXco4E
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "3:45"
+    use: 수업 중
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 4차시"
+    desc: "수소전기차의 핵심 부품을 알려 줘요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "c16과 겹침."
+  - cand_no: c23
+    stage: 친환경 수송 수단
+    title: "친환경 자동차 충전소를 주목하라"
+    url: https://www.youtube.com/watch?v=-GHMS4ViqEo
+    channel: "한국환경공단"
+    channel_grade: public
+    duration: "5:28"
+    use: 수업 후
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 4차시"
+    desc: "친환경 자동차 충전소를 보도 형식으로 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "SBS Biz 보도 형식의 홍보 성격이라 보류."
+  - cand_no: c24
+    stage: 친환경 수송 수단
+    title: "[2018 교육방송 연구대회] 친환경 자동차의 미래! 수소 전기차"
+    url: https://www.youtube.com/watch?v=gPYTXom3yXs
+    channel: "EBS 키즈"
+    channel_grade: edu
+    duration: "6:58"
+    use: 수업 후
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 4차시"
+    desc: "연구대회 출품 영상으로 수소 전기차를 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2018, 제작 주체·정확성 확인 필요."
+  - cand_no: c25
+    stage: 친환경 수송 수단
+    title: "햇빛으로 축제를 밝혀라! 태양광 발전"
+    url: https://www.youtube.com/watch?v=9xldZkbH8p8
+    channel: "한국에너지기술연구원"
+    channel_grade: public
+    duration: "6:52"
+    use: 수업 후
+    basis_code: "[6실03-05]"
+    basis_lesson: "정리본 4차시 태양광"
+    desc: "어린이 만화로 태양광 발전의 원리를 보여 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2026-09. 에너지 히어로즈 시리즈. 새 채널(public 추정)."
+  - cand_no: c26
+    stage: 미래 수송 수단
+    title: "K-UAM이 가져올 미래 미리보기"
+    url: https://www.youtube.com/watch?v=_XutdcHRBUk
+    channel: "국토교통부"
+    channel_grade: public
+    duration: "2:44"
+    use: 수업 후
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 2차시 미래 수송 수단 상상"
+    desc: "도심 하늘을 나는 UAM 같은 미래 수송 수단을 소개해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2023. 국토교통부."
+  - cand_no: c27
+    stage: 미래 수송 수단
+    title: "하이퍼루프는 머스크의 아이디어일까 (1분 레일테크)"
+    url: https://www.youtube.com/watch?v=FfXYheE8jd0
+    channel: "KRRI한국철도기술연구원"
+    channel_grade: public
+    duration: "3:19"
+    use: 수업 후
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 2차시 미래 수송 수단"
+    desc: "하이퍼루프의 원리와 우리 기술을 철도기술연구원이 설명해요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2022. 어른 대상 설명이 섞여 있어 눈높이는 수업에서 안내."
+  - cand_no: c28
+    stage: 미래 수송 수단
+    title: "다양한 기술이 들어간 무가선 트램"
+    url: https://www.youtube.com/watch?v=EdM_12Y_XGg
+    channel: "YTN 사이언스"
+    channel_grade: press
+    duration: "2:35"
+    use: 수업 후
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 2차시 미래 수송 수단"
+    desc: "전선 없이 달리는 무가선 트램에 들어간 기술을 알려 줘요."
+    verdict: 채택
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "2019. 대구 도시철도 트램 사례와 연결 가능. press 사용."
+  - cand_no: c29
+    stage: 미래 수송 수단
+    title: "하늘 나는 차, 현실이 된다? K-UAM 이야기"
+    url: https://www.youtube.com/watch?v=DSdcEcI8ciQ
+    channel: "국토교통부"
+    channel_grade: public
+    duration: "7:00"
+    use: 수업 후
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 2차시"
+    desc: "K-UAM 상용화 이야기를 자세히 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "정책 홍보 성격에 7분, c26으로 충분."
+  - cand_no: c30
+    stage: 미래 수송 수단
+    title: "Hyper Tube 하이퍼튜브"
+    url: https://www.youtube.com/watch?v=NkHF6qozQGk
+    channel: "KRRI한국철도기술연구원"
+    channel_grade: public
+    duration: "4:23"
+    use: 수업 후
+    basis_code: "[6실03-04]"
+    basis_lesson: "정리본 2차시"
+    desc: "1,000km로 달리는 자기부상열차 하이퍼튜브를 소개해요."
+    verdict: 제외
+    reviewer: 야간위임(운영자 아침 검수)
+    note: "영어 영상([Eng]) — 한국어 자막 여부 확인 필요."

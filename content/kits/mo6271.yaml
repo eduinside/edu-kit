@@ -1,0 +1,167 @@
+id: mo6271
+title: 7. 우리 모두의 미래를 위한 선택
+grade: 6
+sem: 2학기
+subject: 도덕
+unit: 7단원
+unit_no: 7
+flow: activity
+sort_order: 1
+published: true
+intro:
+  core_idea: 지속가능한 삶은 지금의 편리함만 보지 않고 다음 세대도 살아갈 수 있도록 환경·경제·사회가 함께 발전하게 선택하는 거예요. 지금 세대에게는 미래 세대의 권리를 지킬 책임이 있고, 작은 실천이 모여 변화를 만들어요.
+  core_question: 지금의 편리함과 미래 세대의 권리 사이에서 우리는 어떤 선택을 해야 할까?
+  concepts:
+    - term: 지속가능한 발전
+      def: 지금 세대의 필요를 채우면서도 다음 세대가 쓸 자연과 자원을 해치지 않도록 환경, 경제, 사회가 함께 발전하는 것이에요.
+    - term: 미래 세대
+      def: 지금은 어리거나 아직 태어나지 않았지만 앞으로 이 지구에서 살아갈 다음 세대 사람들이에요.
+    - term: 지속가능발전목표
+      def: 지구촌 모두가 함께 잘 살 수 있도록 유엔이 2030년까지 이루기로 한 17가지 목표예요. 줄여서 SDGs라고 해요.
+    - term: 기후 위기
+      def: 사람의 활동 때문에 지구의 기온과 날씨가 크게 달라져서 우리 삶과 자연이 위험해지는 일이에요. 요즘 더 자주 겪는 폭염과 큰 홍수가 그 모습이에요.
+    - term: 탄소 중립
+      def: 우리가 내보내는 이산화탄소의 양을, 숲이 흡수하거나 사람이 없애는 양과 똑같이 맞추어 실제로 늘어나는 양을 0으로 만드는 것이에요.
+    - term: 책임
+      def: 내가 한 결정과 행동의 결과를 피하지 않고 받아들이고, 잘못되었으면 바로잡으려고 애쓰는 것이에요.
+  standards:
+    - code: "[6도04-02]"
+      text: 지속가능한 삶의 의미를 탐구하고 미래 세대에 대한 책임을 강화하여 자연의 다양성을 존중하고 생산성을 유지할 수 있는 미래를 위한 실천 방안을 찾는다.
+stages:
+  - name: 생각열기
+    question: 지속가능한 삶이란 어떤 삶일까?
+  - name: 탐구하기
+    question: 지금 세대는 미래 세대에게 어떤 책임이 있을까?
+  - name: 확장하기
+    question: 미래 세대를 위해 오늘 내가 할 수 있는 실천은 무엇일까?
+items:
+  - key: v1
+    stage: 생각열기
+    title: 국가 지속가능발전목표
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=GJZXJaZx0WQ
+    desc: 환경, 경제, 사회가 함께 발전해야 한다는 국가 지속가능발전목표가 무엇인지 소개해요.
+    channel: 기후에너지환경부
+  - key: v2
+    stage: 생각열기
+    title: 지속가능발전교육이란
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=B7P3ojRQI8Y
+    desc: 지속가능발전, 지속가능발전목표, 이를 배우는 교육의 개념을 쉽게 풀어 줘요.
+    channel: 유네스코한국위원회 - KNCU
+  - key: v3
+    stage: 생각열기
+    title: 잘 먹고 잘 사는 법 — 지속가능발전목표
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=b_g8uI3svDw
+    desc: 펭수와 범이가 사람·번영·환경·평화를 지키며 함께 잘 사는 법을 알려 줘요.
+    channel: 기후에너지환경부
+  - key: v4
+    stage: 생각열기
+    title: 지구를 구하는 지속가능발전교육 실천 캠페인
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=2f33pTcfiQY
+    desc: 지속가능발전교육이 무엇인지 짧게 소개하고 실천 행동으로 이어지게 하는 교육청 캠페인 영상이에요.
+    channel: 세종시교육청
+  - key: v5
+    stage: 생각열기
+    title: 달콤 기후 만들기
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=YJ-zO_Zplqs
+    desc: 베이커리타운이 점점 더워지는 까닭을 찾고 탄소 배출을 줄이는 노력을 알아보는 애니메이션이에요.
+    channel: 대한민국 기상청
+  - key: v6
+    stage: 탐구하기
+    title: 빌려 쓴 걸 망가뜨려서 돌려주진 않잖아요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=FXrsw2vQPuU
+    desc: 먼 미래에 온전한 지구를 돌려주기 위해 일상의 작은 것부터 바꿔 가자는 환경부 영상이에요.
+    channel: 기후에너지환경부
+  - key: v7
+    stage: 탐구하기
+    title: 기후 위기 시대, 미래세대 환경 교육 강화
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=J4Hg7NEaiWM
+    desc: 대구 초등학생들이 곤충 체험과 기후 위기 수업으로 생활 속 환경 실천을 배우는 모습을 전해요.
+    channel: KBS뉴스 대구경북
+  - key: v8
+    stage: 탐구하기
+    title: 기후위기 환경교육 영상
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=L7WY7Nm0WjA
+    desc: 대구녹색학습원이 환경교육용으로 만든 기후 위기 영상 자료예요.
+    channel: 대구녹색학습원 공식채널
+  - key: v9
+    stage: 탐구하기
+    title: 공유지의 비극
+    use: 배경지식
+    url: https://www.youtube.com/watch?v=0_RBRFv3fDk
+    desc: 모두가 함께 쓰는 자원을 각자 욕심껏 쓰면 어떻게 되는지 쉬운 사례로 설명해요.
+    channel: "EBSi "
+  - key: v10
+    stage: 탐구하기
+    title: 누가 지구를 뜨겁게 만들었나?
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Af2an3IuNHw
+    desc: 탄소중립이 무엇이고 지구가 뜨거워진 까닭이 무엇인지 한 번에 정리해 줘요.
+    channel: EBSCulture (EBS 교양)
+  - key: v11
+    stage: 탐구하기
+    title: 내일을 지킬 수 있는 우리들의 소비
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=jyjMyS1-API
+    desc: "'아무것도 사지 않는 날'을 통해 올바른 소비와 지구를 지키는 선택을 생각해 봐요."
+    channel: 국가환경교육센터
+  - key: v12
+    stage: 확장하기
+    title: 탄소중립! 내가 먼저 실천해요
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=cLYg_M5jo00
+    desc: 탄소중립이 무엇인지 알고 우리가 먼저 실천할 수 있는 일을 알려 줘요.
+    channel: 기후에너지환경부
+  - key: v13
+    stage: 확장하기
+    title: 일상에서 할 수 있는 일회용품 줄이기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=PurCvlOpgGE
+    desc: 대구에서 식당과 사무실이 일회용품을 줄이려고 하는 작은 실천을 소개해요.
+    channel: ch B tv 대구
+  - key: v14
+    stage: 확장하기
+    title: 다회용기로 환경 지키기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=WkAJ0idh_BU
+    desc: 축제와 행사에서 다회용기를 빌려주고 거두어 씻어 쓰는 대구의 사회적경제기업 이야기예요.
+    channel: KBS뉴스 대구경북
+  - key: v15
+    stage: 확장하기
+    title: 자전거로 실천하는 학교
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=_hJm9C28hXA
+    desc: 대구진월초 5·6학년이 자전거를 타고 쓰레기를 주우며 탄소중립을 실천하는 모습을 전해요.
+    channel: ch B tv 대구
+quiz:
+  - statement: 지속가능한 발전은 지금 세대의 필요를 채우면서 다음 세대가 쓸 자연과 자원도 지키는 발전이다.
+    answer: O
+    explain: 지금의 편리함만 보지 않고 다음 세대도 살아갈 수 있게 선택하는 거예요.
+  - statement: 지속가능한 발전은 자연을 보호하는 것만 뜻하고 경제와 사회의 발전은 포함하지 않는다.
+    answer: X
+    explain: 환경뿐 아니라 경제와 사회도 함께 발전해야 지속가능한 발전이에요.
+  - statement: 아직 태어나지 않은 미래 세대에게도 살기 좋은 환경에서 살아갈 권리가 있다.
+    answer: O
+    explain: 지금 세대가 쓰는 자원과 환경은 미래 세대가 이어서 살아갈 터전이에요.
+  - statement: 기후 위기는 옛날 사람들이 만든 일이라서 지금 우리와는 상관이 없다.
+    answer: X
+    explain: 지금 우리의 생활도 이산화탄소를 내보내 기후 위기에 영향을 주기 때문에 우리에게도 책임이 있어요.
+  - statement: 지속가능발전목표(SDGs)는 유엔이 2030년까지 이루기로 한 17가지 목표이다.
+    answer: O
+    explain: 빈곤, 교육, 기후 행동, 평화 같은 지구촌의 여러 목표를 담고 있어요.
+  - statement: 탄소 중립은 내보내는 이산화탄소의 양과 흡수하거나 없애는 양을 같게 맞추는 것이다.
+    answer: O
+    explain: 그렇게 하면 실제로 늘어나는 이산화탄소의 양이 0이 돼요.
+  - statement: 일회용품을 쓰지 않는 작은 실천은 한 사람이 해도 아무 변화를 만들지 못한다.
+    answer: X
+    explain: 작은 실천이 모이면 쓰레기를 줄이고 환경을 지키는 큰 변화를 만들 수 있어요.
+  - statement: 함께 쓰는 자원을 각자 마음껏 쓰면 자원이 바닥나도 모두에게 아무 문제가 없다.
+    answer: X
+    explain: 함께 쓰는 자원을 각자 마음껏 쓰면 자원이 바닥나 모두가 어려워질 수 있어요.
