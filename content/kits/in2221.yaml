@@ -7,7 +7,7 @@ unit: 2단원
 unit_no: 2
 flow: activity
 sort_order: 1
-published: false
+published: true
 intro:
   core_idea: 생활 속 물건은 사람들이 불편함을 해결하려고 만든 것이에요. 쓰던 물건을 바꾸고 새로 만들어 보면 더 편리하고 안전한 물건이 돼요.
   core_question: 불편한 것을 해결하는 물건을 어떻게 만들까?

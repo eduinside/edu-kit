@@ -44,7 +44,7 @@ candidates:
     basis_lesson: "6차시 지구가 뜨끈뜨끈"
     desc: "지구가 따뜻해지면 북극의 얼음과 북극곰이 어떻게 되는지 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "4분 23초(2021). '어린이가 궁금해하는 과학'."
   - cand_no: c02
     stage: 생각열기
@@ -87,7 +87,7 @@ candidates:
     basis_lesson: "6차시"
     desc: "생활 속에서 탄소 발자국을 줄이는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 5분."
   - cand_no: c05
     stage: 탐구하기
@@ -102,7 +102,7 @@ candidates:
     basis_lesson: "5차시 수도꼭지를 잠그면"
     desc: "빗물을 모아 쓰며 물을 아끼는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 12초."
   - cand_no: c06
     stage: 탐구하기
@@ -131,7 +131,7 @@ candidates:
     basis_lesson: "10차시 이것도 플라스틱이야"
     desc: "교실에서 쓰레기를 나누어 버리는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 4초(2022)."
   - cand_no: c08
     stage: 확장하기
@@ -146,7 +146,7 @@ candidates:
     basis_lesson: "14차시 지구를 위한 소비"
     desc: "쓰던 물건을 나누고 바꾸어 쓰는 활동을 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 55초. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c09
     stage: 확장하기
@@ -162,3 +162,93 @@ candidates:
     desc: "지구를 위한 실천을 다짐하는 시간을 보여 줘요."
     verdict: 보류
     note: "대구미래교육연구원(교육청 산하, 표 edu) 5분 32초. 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "미래를 만드는 물 절약 생활 습관"
+    video_title: "[일반 부문 우수상] 미래를 만드는 물절약 생활습관"
+    url: https://www.youtube.com/watch?v=Wku8nPRG6qg
+    channel: "K-water 한국수자원공사 Official"
+    channel_grade: public
+    duration: "1:58"
+    use: 수업 중
+    basis_code: "[2바03-04]"
+    basis_lesson: "5차시 수도꼭지를 잠그면"
+    desc: "생활 속에서 물을 아끼는 습관을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 58초(2020). K-water 한국수자원공사(표 public) 공모전 수상작. 10/18 보완."
+  - cand_no: c11
+    stage: 탐구하기
+    title: "버려진 플라스틱 빨대의 나비효과"
+    video_title: "아름다운 바다 속에 이렇게 많은 쓰레기가 있다고? 버려진 플라스틱 빨대의 나비효과 [어린이 해양교육]"
+    url: https://www.youtube.com/watch?v=TxZtHAJF3X4
+    channel: "해양수산부"
+    channel_grade: public
+    duration: "4:56"
+    use: 수업 중
+    basis_code: "[2즐03-04]"
+    basis_lesson: "7차시 바다를 부탁해"
+    desc: "아름다운 바닷속에 쌓인 쓰레기와 플라스틱 빨대가 바다 생물에게 주는 영향을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "4분 56초(2022). 해양수산부 '어린이 해양교육'. 10/18 보완."
+  - cand_no: c12
+    stage: 생각열기
+    title: "아기 펭귄의 집이 사라졌어요"
+    video_title: "아기 펭귄의 집이 갑자기 사라졌다고?! [어린이 해양교육]"
+    url: https://www.youtube.com/watch?v=OETgiDYiG84
+    channel: "해양수산부"
+    channel_grade: public
+    duration: "4:55"
+    use: 수업 전
+    basis_code: "[2즐03-04]"
+    basis_lesson: "6차시 지구가 뜨끈뜨끈"
+    desc: "지구가 따뜻해져 집을 잃은 아기 펭귄 이야기를 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "4분 55초(2022). 해양수산부 '어린이 해양교육'. 10/18 보완."
+  - cand_no: c13
+    stage: 생각열기
+    title: "어린이들이 생각하는 바다 쓰레기"
+    video_title: "아이들이 생각하는 해양쓰레기"
+    url: https://www.youtube.com/watch?v=iJzCP0jWWb4
+    channel: "해양수산부"
+    channel_grade: public
+    duration: "1:50"
+    use: 수업 전
+    basis_code: "[2슬03-04]"
+    basis_lesson: "7차시 바다를 부탁해"
+    desc: "어린이들이 바다 쓰레기에 대해 생각을 이야기해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 50초(2021). 해양수산부(어린이 출연 — 공식 채널). 10/18 보완."
+  - cand_no: c14
+    stage: 탐구하기
+    title: "생물 다양성 — 마지막 기회"
+    video_title: "[생물다양성 교육] 마지막 기회"
+    url: https://www.youtube.com/watch?v=WPTw6FfJ5pQ
+    channel: "국립생물자원관"
+    channel_grade: public
+    duration: "2:53"
+    use: 수업 중
+    basis_code: "[2바03-04]"
+    basis_lesson: "13차시 동물들이 사라져요"
+    desc: "사라져 가는 생물을 지키기 위한 마지막 기회를 이야기해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 53초(2022). 국립생물자원관(표 public). 10/18 보완."
+  - cand_no: c15
+    stage: 확장하기
+    title: "우리는 권리가 있어요"
+    video_title: "우리는 권리가 있어요 「아동권리 영상제작 공모전」 입상작ㅣ최우수상 황상현"
+    url: https://www.youtube.com/watch?v=S2SLTBPfZi0
+    channel: "의왕시"
+    channel_grade: public
+    duration: "3:55"
+    use: 수업 후
+    basis_code: "[2즐03-04]"
+    basis_lesson: "17차시 난 어린이예요"
+    desc: "어린이에게 어떤 권리가 있는지 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "3분 55초(2021). 의왕시 아동권리 영상 공모전 최우수작. 채널 의왕시는 표에 없음(public 임시). 10/18 보완."

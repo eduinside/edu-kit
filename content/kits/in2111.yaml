@@ -59,26 +59,61 @@ items:
     desc: 화가 날 때 마음을 신호등으로 살피는 방법을 알려 줘요.
     channel: 대구미래교육연구원
   - key: v4
+    stage: 생각열기
+    title: 내 마음을 말해요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=9lSoWNxqX9A
+    desc: 내 마음을 알아차리고 말로 나타내는 방법을 알려 줘요.
+    channel: 세종시교육청
+  - key: v5
     stage: 탐구하기
     title: 손 씻기와 기침 예절
     use: 수업 중
     url: https://www.youtube.com/watch?v=M9MHkbCaF0Q
     desc: 손을 깨끗이 씻고 기침할 때 예절을 지키는 방법을 알려 줘요.
     channel: 질병관리청 아프지마TV
-  - key: v5
+  - key: v6
     stage: 탐구하기
     title: 아기상어와 손 씻어요
     use: 수업 중
     url: https://www.youtube.com/watch?v=1A_gj_c0Krc
     desc: 아기상어와 함께 손 씻는 방법을 알려 줘요.
     channel: 보건복지부TV
-  - key: v6
+  - key: v7
+    stage: 탐구하기
+    title: 꼬르륵 냠냠
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=KKwU_-Y4tDM
+    desc: 배고플 때 꼬르륵, 맛있게 먹는 냠냠을 노래한 국악 동요예요.
+    channel: 국립국악원 National Gugak Center
+  - key: v8
+    stage: 탐구하기
+    title: 화가 날 땐 고! 고! 고!
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=HW0aNTJri9Y
+    desc: 화가 날 때 마음을 가라앉히는 방법을 알려 줘요.
+    channel: 세종시교육청
+  - key: v9
+    stage: 탐구하기
+    title: 키 성장과 건강한 생활 습관
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=zQ9Fs67dqQw
+    desc: 키가 잘 자라도록 돕는 건강한 생활 습관을 알려 줘요.
+    channel: 제주특별자치도교육청
+  - key: v10
     stage: 확장하기
     title: 왜 아빠는 더 이상 안 클까요?
     use: 수업 후
     url: https://www.youtube.com/watch?v=ht56jePmlBw
     desc: 사람은 어떻게 자라고 언제까지 클까요? 질문에 답해 줘요.
     channel: 국립어린이과학관
+  - key: v11
+    stage: 확장하기
+    title: 도토리 키재기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=jUoPNGplixw
+    desc: 도토리들이 키를 재 보는 국악 동요를 종이인형 애니메이션으로 들려줘요.
+    channel: 국립국악원 National Gugak Center
 quiz:
   - statement: 밥을 먹기 전에는 손을 씻어요.
     answer: O

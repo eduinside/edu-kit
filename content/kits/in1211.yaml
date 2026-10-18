@@ -7,7 +7,7 @@ unit: 1단원
 unit_no: 1
 flow: activity
 sort_order: 1
-published: false
+published: true
 intro:
   core_idea: 하루는 낮과 밤으로 이어지고 우리는 아침부터 밤까지 규칙적으로 생활해요. 건강하게 지내고 소중히 보내면 하루가 즐거워져요.
   core_question: 나의 하루를 어떻게 건강하고 알차게 보낼까?
@@ -43,19 +43,61 @@ items:
     desc: 낮과 밤이 왜 생기는지 어린이의 질문에 과학자가 답해 줘요.
     channel: 국립어린이과학관
   - key: v2
+    stage: 생각열기
+    title: 부엉부엉
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=5G0WvlYPOBE
+    desc: 밤에 우는 부엉이를 노래한 전래동요를 애니메이션으로 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v3
+    stage: 생각열기
+    title: 조각난 달님
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=wCzI8lmZxpA
+    desc: 밤하늘의 달을 노래한 국악 동요를 애니메이션으로 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v4
     stage: 탐구하기
     title: 마음에 숨쉬기가 필요해요
     use: 수업 후
     url: https://www.youtube.com/watch?v=soR6kRn8Odo
     desc: 편안한 마음을 위해 숨 쉬는 방법을 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v3
+  - key: v5
     stage: 탐구하기
     title: 손 씻기 6단계
     use: 수업 후
     url: https://www.youtube.com/watch?v=wd6XR9Q1IM8
     desc: 손을 씻는 순서 여섯 단계를 보여 줘요.
     channel: 질병관리청 아프지마TV
+  - key: v6
+    stage: 탐구하기
+    title: 꼬르륵 냠냠
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=KKwU_-Y4tDM
+    desc: 배고플 때 꼬르륵, 맛있게 먹는 냠냠을 노래한 국악 동요를 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v7
+    stage: 탐구하기
+    title: 일찍 자고 싶어요
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=4ZM4mHy40dc
+    desc: 일찍 자는 것이 왜 중요한지 짧게 알려 줘요.
+    channel: EBS뉴스
+  - key: v8
+    stage: 탐구하기
+    title: 키 성장과 건강한 생활 습관
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=zQ9Fs67dqQw
+    desc: 키가 잘 자라도록 돕는 건강한 생활 습관 일곱 가지를 알려 줘요.
+    channel: 제주특별자치도교육청
+  - key: v9
+    stage: 확장하기
+    title: 아름다운 우리말 잠노래
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=G31rCnPyWSM
+    desc: 잠자기 전에 부르는 우리말 잠노래에 맞춰 율동해요.
+    channel: 국립국악원 National Gugak Center
 quiz:
   - statement: 지구가 돌면서 낮과 밤이 생겨요.
     answer: O

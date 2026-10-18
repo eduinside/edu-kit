@@ -52,55 +52,83 @@ items:
     desc: 자연이 들려주는 소리를 듣는 활동을 보여 줘요.
     channel: 대구미래교육연구원
   - key: v3
+    stage: 생각열기
+    title: 누구의 꼬리일까
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=_vThE-z8Dmg
+    desc: 여러 동물의 꼬리를 맞혀 보는 국악 동요예요.
+    channel: 국립국악원 National Gugak Center
+  - key: v4
     stage: 탐구하기
     title: 학교 텃밭 가꾸기 (1)
     use: 수업 중
     url: https://www.youtube.com/watch?v=0I6p_cHqI9o
     desc: 학교 텃밭을 어떻게 가꾸는지 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v4
+  - key: v5
     stage: 탐구하기
     title: 학교 텃밭 가꾸기 (2) — 장마철 관리
     use: 수업 중
     url: https://www.youtube.com/watch?v=zo7KwYeomwE
     desc: 장마철에 텃밭을 어떻게 돌볼지 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v5
+  - key: v6
     stage: 탐구하기
     title: 학교 텃밭 가꾸기 (3) — 텃밭 정리
     use: 수업 중
     url: https://www.youtube.com/watch?v=OAtG-Jxm7vI
     desc: 텃밭을 정리하는 방법을 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v6
+  - key: v7
     stage: 탐구하기
     title: 식물을 지키는 관리 방법
     use: 수업 중
     url: https://www.youtube.com/watch?v=a6pqxkvEDOQ
     desc: 식물을 어떻게 돌보고 지켜 줄지 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v7
+  - key: v8
+    stage: 탐구하기
+    title: 강낭콩
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dkhT4ruf2pc
+    desc: 강낭콩이 자라는 모습을 노래한 국악 동요예요.
+    channel: 국립국악원 National Gugak Center
+  - key: v9
+    stage: 탐구하기
+    title: 달팽이
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=8R-NFSSPoNs
+    desc: 느릿느릿 달팽이를 노래한 국악 동요예요.
+    channel: 국립국악원 National Gugak Center
+  - key: v10
+    stage: 탐구하기
+    title: 개미 친구들
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=UNzTqMquyWQ
+    desc: 부지런한 개미 친구들을 노래한 국악 동요예요.
+    channel: 국립국악원 National Gugak Center
+  - key: v11
     stage: 확장하기
     title: 식물 사랑을 실천해요
     use: 수업 후
     url: https://www.youtube.com/watch?v=BmiofpWHroM
     desc: 식물을 사랑하는 마음을 실천하는 방법을 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v8
+  - key: v12
     stage: 확장하기
     title: 반려동물과 잘 지내는 방법
     use: 수업 후
     url: https://www.youtube.com/watch?v=C698WzCW8-c
     desc: 반려동물과 사이좋게 지내는 방법을 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v9
+  - key: v13
     stage: 확장하기
     title: 반려동물 에티켓
     use: 수업 후
     url: https://www.youtube.com/watch?v=cESwvGZX5Hs
     desc: 반려동물과 함께할 때 지킬 예절을 알려 줘요.
     channel: 대구미래교육연구원
-  - key: v10
+  - key: v14
     stage: 확장하기
     title: 가을에 나뭇잎은 왜 색이 변할까요?
     use: 수업 후

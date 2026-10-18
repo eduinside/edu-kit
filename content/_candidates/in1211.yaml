@@ -44,7 +44,7 @@ candidates:
     basis_lesson: "4차시 하늘의 하루"
     desc: "낮과 밤이 왜 생기는지 어린이의 질문에 과학자가 답해 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "2분 8초(2021). '어린이가 궁금해하는 과학'."
   - cand_no: c02
     stage: 탐구하기
@@ -59,7 +59,7 @@ candidates:
     basis_lesson: "7차시 마음의 하루"
     desc: "편안한 마음을 위해 숨 쉬는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "4분 58초(2024). 마음챙김 이야기 1편 — 1학년 눈높이 확인. 대구미래교육연구원(교육청 산하, 표 edu) 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c03
     stage: 탐구하기
@@ -74,5 +74,95 @@ candidates:
     basis_lesson: "6차시 건강한 하루"
     desc: "손을 씻는 순서 여섯 단계를 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "50초 짧은 영상 — 안전·건강 차시. 운영자 확정(10/17): 마을·계절·하루는 공공 안전 영상 일부 승격."
+  - cand_no: c04
+    stage: 생각열기
+    title: "부엉부엉"
+    video_title: "[국악동요 애니메이션] 전래동요 EP09 - 부엉부엉"
+    url: https://www.youtube.com/watch?v=5G0WvlYPOBE
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:00"
+    use: 수업 전
+    basis_code: "[2즐03-01]"
+    basis_lesson: "4차시 하늘의 하루"
+    desc: "밤에 우는 부엉이를 노래한 전래동요를 애니메이션으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c05
+    stage: 생각열기
+    title: "조각난 달님"
+    video_title: "[국악동요 애니메이션] 창작국악동요 EP05 - 조각난 달님"
+    url: https://www.youtube.com/watch?v=wCzI8lmZxpA
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:44"
+    use: 수업 전
+    basis_code: "[2즐03-01]"
+    basis_lesson: "4차시 하늘의 하루"
+    desc: "밤하늘의 달을 노래한 국악 동요를 애니메이션으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 44초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 탐험(in1141)과 같은 영상. 10/18 보완."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "꼬르륵 냠냠"
+    video_title: "[국악동요 애니메이션] 창작국악동요 EP01 - 꼬르륵 냠냠"
+    url: https://www.youtube.com/watch?v=KKwU_-Y4tDM
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "2:25"
+    use: 수업 중
+    basis_code: "[2바03-01]"
+    basis_lesson: "11차시 하루 세 번"
+    desc: "배고플 때 꼬르륵, 맛있게 먹는 냠냠을 노래한 국악 동요를 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 25초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c07
+    stage: 탐구하기
+    title: "일찍 자고 싶어요"
+    video_title: "[뉴스G] 일찍 자고 싶어요"
+    url: https://www.youtube.com/watch?v=4ZM4mHy40dc
+    channel: "EBS뉴스"
+    channel_grade: edu
+    duration: "2:49"
+    use: 수업 중
+    basis_code: "[2슬03-01]"
+    basis_lesson: "14차시 하루의 마무리"
+    desc: "일찍 자는 것이 왜 중요한지 짧게 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 49초(2016). EBS뉴스 '뉴스G'(표 edu) — 어른 대상 지식 클립일 수 있음, 미리보기에서 눈높이 확인. 10/18 보완."
+  - cand_no: c08
+    stage: 탐구하기
+    title: "키 성장과 건강한 생활 습관"
+    video_title: "[골고루 키쑤욱] 8. 키 성장과 7가지 건강생활습관"
+    url: https://www.youtube.com/watch?v=zQ9Fs67dqQw
+    channel: "제주특별자치도교육청"
+    channel_grade: edu
+    duration: "1:10"
+    use: 수업 중
+    basis_code: "[2즐03-01]"
+    basis_lesson: "6차시 건강한 하루"
+    desc: "키가 잘 자라도록 돕는 건강한 생활 습관 일곱 가지를 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 10초(2023). 제주특별자치도교육청 '골고루 키쑤욱'. 10/18 보완."
+  - cand_no: c09
+    stage: 확장하기
+    title: "아름다운 우리말 잠노래"
+    video_title: "[국악동요에 맞춰 율동하기] 15. 아름다운 우리말 잠노래(안무자_이화인 / 율동_거제시 소년소녀 합창단 )"
+    url: https://www.youtube.com/watch?v=G31rCnPyWSM
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "2:15"
+    use: 수업 후
+    basis_code: "[2즐03-01]"
+    basis_lesson: "15차시 자장가"
+    desc: "잠자기 전에 부르는 우리말 잠노래에 맞춰 율동해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 15초. 국립국악원 '국악 동요 율동'(합창단 어린이 출연 — 공식 채널). 10/18 보완."

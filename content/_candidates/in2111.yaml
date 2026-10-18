@@ -43,7 +43,7 @@ candidates:
     basis_lesson: "3차시 나만의 보물 상자"
     desc: "나를 소중하게 생각하는 마음을 키우는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 생명존중교육 2분 29초(2023)."
   - cand_no: c02
     stage: 생각열기
@@ -58,7 +58,7 @@ candidates:
     basis_lesson: "11~12차시 표정으로 말해요·마음 의자"
     desc: "내 마음을 감정 표시판으로 나타내는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 2분 24초(2023)."
   - cand_no: c03
     stage: 생각열기
@@ -73,7 +73,7 @@ candidates:
     basis_lesson: "13차시 화가 잔뜩 났어요"
     desc: "화가 날 때 마음을 신호등으로 살피는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 2분 29초(2023)."
   - cand_no: c04
     stage: 탐구하기
@@ -88,7 +88,7 @@ candidates:
     basis_lesson: "8차시 깨끗한 몸, 건강한 나"
     desc: "손을 깨끗이 씻고 기침할 때 예절을 지키는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "3분 1초(2018). 질병관리청 아프지마TV(표 public)."
   - cand_no: c05
     stage: 탐구하기
@@ -103,7 +103,7 @@ candidates:
     basis_lesson: "8차시 깨끗한 몸, 건강한 나"
     desc: "아기상어와 함께 손 씻는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "1분 25초. 보건복지부TV(핑크퐁 협업) — 상업 캐릭터 협업 영상이라 허용 여부 확인. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c06
     stage: 탐구하기
@@ -132,7 +132,7 @@ candidates:
     basis_lesson: "17~18차시 이렇게 자랐어요·매일매일 자라요"
     desc: "사람은 어떻게 자라고 언제까지 클까요? 질문에 답해 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "3분 41초(2021)."
   - cand_no: c08
     stage: 확장하기
@@ -162,3 +162,78 @@ candidates:
     desc: "채소마다 색깔이 다른 까닭을 알려 줘요."
     verdict: 보류
     note: "3분 47초 — 나 단원 주제에서 멀음."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "꼬르륵 냠냠"
+    video_title: "[국악동요 애니메이션] 창작국악동요 EP01 - 꼬르륵 냠냠"
+    url: https://www.youtube.com/watch?v=KKwU_-Y4tDM
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "2:25"
+    use: 수업 중
+    basis_code: "[2즐01-02]"
+    basis_lesson: "9차시 꼬르륵 냠냠 쿨쿨"
+    desc: "배고플 때 꼬르륵, 맛있게 먹는 냠냠을 노래한 국악 동요예요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 25초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 지도서 9차시 이름과 같은 노래. 10/18 보완."
+  - cand_no: c11
+    stage: 확장하기
+    title: "도토리 키재기"
+    video_title: "[종이인형 애니메이션] 도토리 키재기 (2018년 창작국악동요제 우수상 수상작)"
+    url: https://www.youtube.com/watch?v=jUoPNGplixw
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "2:19"
+    use: 수업 후
+    basis_code: "[2즐01-02]"
+    basis_lesson: "17~18차시 이렇게 자랐어요·매일매일 자라요"
+    desc: "도토리들이 키를 재 보는 국악 동요를 종이인형 애니메이션으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 19초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c12
+    stage: 생각열기
+    title: "내 마음을 말해요"
+    video_title: "내마음을 말해요 [인성교육]"
+    url: https://www.youtube.com/watch?v=9lSoWNxqX9A
+    channel: "세종시교육청"
+    channel_grade: edu
+    duration: "4:05"
+    use: 수업 중
+    basis_code: "[2슬01-02]"
+    basis_lesson: "11차시 표정으로 말해요"
+    desc: "내 마음을 알아차리고 말로 나타내는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "4분 5초(2023). 세종시교육청 인성교육 영상. 10/18 보완."
+  - cand_no: c13
+    stage: 탐구하기
+    title: "화가 날 땐 고! 고! 고!"
+    video_title: "화가 날 땐 고!고!고![인성교육]"
+    url: https://www.youtube.com/watch?v=HW0aNTJri9Y
+    channel: "세종시교육청"
+    channel_grade: edu
+    duration: "4:14"
+    use: 수업 중
+    basis_code: "[2바01-02]"
+    basis_lesson: "13차시 화가 잔뜩 났어요"
+    desc: "화가 날 때 마음을 가라앉히는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "4분 14초(2022). 세종시교육청 인성교육 영상. 10/18 보완."
+  - cand_no: c14
+    stage: 탐구하기
+    title: "키 성장과 건강한 생활 습관"
+    video_title: "[골고루 키쑤욱] 8. 키 성장과 7가지 건강생활습관"
+    url: https://www.youtube.com/watch?v=zQ9Fs67dqQw
+    channel: "제주특별자치도교육청"
+    channel_grade: edu
+    duration: "1:10"
+    use: 수업 중
+    basis_code: "[2슬01-02]"
+    basis_lesson: "9차시 꼬르륵 냠냠 쿨쿨"
+    desc: "키가 잘 자라도록 돕는 건강한 생활 습관을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 10초(2023). 하루(in1211)와 같은 영상. 10/18 보완."

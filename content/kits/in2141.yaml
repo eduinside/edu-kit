@@ -34,7 +34,35 @@ stages:
     question: 다른 나라는 어떻게 살아갈까?
   - name: 확장하기
     question: 서로 다른 세계를 어떻게 존중할까?
-items: []
+items:
+  - key: v1
+    stage: 생각열기
+    title: 세계로 가는 놀이 기차
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Z5XXX-FxE9Y
+    desc: 열세 나라 놀이를 함께 즐기는 어린이날 행사를 소개해요.
+    channel: 국립민속박물관
+  - key: v2
+    stage: 탐구하기
+    title: 소중한 내 친구
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=La3cP2h6xd0
+    desc: 다른 나라에서 온 친구도 소중한 친구라는 것을 알려 줘요.
+    channel: 다문화가족지원포털다누리
+  - key: v3
+    stage: 탐구하기
+    title: 특별한 가족
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=CopfNDfuBkY
+    desc: 여러 나라 문화가 어우러진 가족 이야기를 들려줘요.
+    channel: 다문화가족지원포털다누리
+  - key: v4
+    stage: 탐구하기
+    title: 내 친구 나라의 음식
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=SmfuiWrVeUw
+    desc: 친구 나라의 음식을 알아봐요.
+    channel: 다문화가족지원포털다누리
 quiz:
   - statement: 나라마다 옷, 음식, 놀이가 달라요.
     answer: O

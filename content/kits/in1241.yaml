@@ -7,7 +7,7 @@ unit: 4단원
 unit_no: 4
 flow: activity
 sort_order: 1
-published: false
+published: true
 intro:
   core_idea: 상상하면 새로운 생각과 물건을 떠올릴 수 있어요. 상상한 것을 그림, 소리, 몸으로 표현하면 모두와 함께 즐길 수 있어요.
   core_question: 상상한 것을 어떻게 표현할까?
@@ -50,19 +50,68 @@ items:
     desc: 타임머신을 만들 수 있는지 어린이의 질문에 답해 줘요.
     channel: 국립어린이과학관
   - key: v3
+    stage: 생각열기
+    title: 그랬으면 좋겠네
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=QxrdhJAWIb4
+    desc: 이랬으면 좋겠다는 상상을 노래한 국악 동요를 종이인형 애니메이션으로 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v4
     stage: 탐구하기
     title: 하늘거울로 놀아요
     use: 수업 중
     url: https://www.youtube.com/watch?v=qXbtNvr_IxQ
     desc: 하늘거울로 하늘을 다르게 보는 놀이를 보여 줘요.
     channel: 대구미래교육연구원
-  - key: v4
+  - key: v5
+    stage: 탐구하기
+    title: 나는 가야금이 될 거야
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=a1xdetcctkw
+    desc: 가야금이 되고 싶은 마음을 노래한 국악 동요를 애니메이션으로 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v6
+    stage: 탐구하기
+    title: 딱따구리 집짓기
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=fOQqnWC7v-g
+    desc: 딱따구리가 나무에 집을 짓는 모습을 노래한 국악 동요예요.
+    channel: 국립국악원 National Gugak Center
+  - key: v7
+    stage: 탐구하기
+    title: 일그러진 그림
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=dZJXNP23BK8
+    desc: 보는 곳에 따라 다르게 보이는 신기한 그림을 소개해요.
+    channel: 국립어린이과학관
+  - key: v8
+    stage: 탐구하기
+    title: 움직이는 조각
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=TPDT101sVV0
+    desc: 기계로 움직이는 신기한 조각 작품을 어린이에게 소개해요.
+    channel: 국립현대미술관 MMCA
+  - key: v9
     stage: 확장하기
     title: 땅속 통로를 만들 수 있을까요?
     use: 수업 후
     url: https://www.youtube.com/watch?v=u8ibthFl3Uo
     desc: 차가 막힐 때 땅속 통로로 빨리 갈 수 있는지 알아봐요.
     channel: 국립어린이과학관
+  - key: v10
+    stage: 확장하기
+    title: 개미장에 도깨비다
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=3XouUZFnKGU
+    desc: 개미 시장에 도깨비가 나타난 상상을 노래해요.
+    channel: 국립국악원 National Gugak Center
+  - key: v11
+    stage: 확장하기
+    title: 상상 속 동물 그리기
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=q1AYS3SGb-M
+    desc: 상상 속 동물을 그리는 방법을 짧게 알려 줘요.
+    channel: 전북수업샘터
 quiz:
   - statement: 상상은 머릿속으로 떠올려 보는 것이에요.
     answer: O

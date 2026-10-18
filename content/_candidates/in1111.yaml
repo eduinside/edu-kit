@@ -35,7 +35,7 @@ kit:
 candidates:
   - cand_no: c01
     stage: 생각열기
-    title: "1학년이 되었어요 1 — 궁금해요"
+    title: "궁금해요"
     video_title: "[1학년이 되었어요] 01. 궁금해요"
     url: https://www.youtube.com/watch?v=HIBr2VnjDPU
     channel: "대구미래교육연구원"
@@ -46,11 +46,11 @@ candidates:
     basis_lesson: "2~3차시 학교가 궁금해요"
     desc: "학교와 교실을 둘러보고 바르게 앉는 방법을 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c02
     stage: 생각열기
-    title: "1학년이 되었어요 6 — 둘러봐요"
+    title: "둘러봐요"
     video_title: "[1학년이 되었어요] 06. 둘러봐요"
     url: https://www.youtube.com/watch?v=W8OMfibO-Wg
     channel: "대구미래교육연구원"
@@ -61,11 +61,11 @@ candidates:
     basis_lesson: "33차시 학교 나들이"
     desc: "우리 학교 이곳저곳과 여러 특별실의 이름과 쓰임을 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c03
     stage: 생각열기
-    title: "1학년이 되었어요 7 — 도서관에 가요"
+    title: "도서관에 가요"
     video_title: "[1학년이 되었어요] 07. 도서관에 가요"
     url: https://www.youtube.com/watch?v=HoWSOejOwt8
     channel: "대구미래교육연구원"
@@ -76,11 +76,11 @@ candidates:
     basis_lesson: "34차시 도서관에 가 볼까요"
     desc: "도서관에서 지킬 점과 책을 빌리고 반납하는 방법을 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c04
     stage: 탐구하기
-    title: "1학년이 되었어요 2 — 맛있게 먹어요"
+    title: "맛있게 먹어요"
     video_title: "[1학년이 되었어요] 02. 맛있게 먹어요"
     url: https://www.youtube.com/watch?v=7MwsHfiGCpk
     channel: "대구미래교육연구원"
@@ -91,11 +91,11 @@ candidates:
     basis_lesson: "5차시 급식은 이렇게"
     desc: "식사 전에 할 일과 급식실을 바르게 쓰는 방법, 뒷정리하는 방법을 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c05
     stage: 탐구하기
-    title: "1학년이 되었어요 4 — 깨끗하게 사용해요"
+    title: "깨끗하게 사용해요"
     video_title: "[1학년이 되었어요] 04. 깨끗하게 사용해요"
     url: https://www.youtube.com/watch?v=mepFFrf3vrc
     channel: "대구미래교육연구원"
@@ -106,11 +106,11 @@ candidates:
     basis_lesson: "4차시 화장실은 이렇게"
     desc: "화장실을 깨끗하게 사용하는 방법을 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c06
     stage: 탐구하기
-    title: "1학년이 되었어요 3 — 정리를 잘해요"
+    title: "정리를 잘해요"
     video_title: "[1학년이 되었어요] 03. 정리를 잘해요"
     url: https://www.youtube.com/watch?v=Y5Tso0H4vKU
     channel: "대구미래교육연구원"
@@ -121,11 +121,11 @@ candidates:
     basis_lesson: "7차시 자리 정리는 이렇게"
     desc: "책상, 사물함, 책장 같은 교실 곳곳을 정리하는 방법을 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c07
     stage: 탐구하기
-    title: "1학년이 되었어요 8 — 차례를 지켜요"
+    title: "차례를 지켜요"
     video_title: "[1학년이 되었어요] 08. 차례를 지켜요"
     url: https://www.youtube.com/watch?v=wHYwXq0dL20
     channel: "대구미래교육연구원"
@@ -136,11 +136,11 @@ candidates:
     basis_lesson: "6차시 실내에서는 이렇게"
     desc: "차렷, 앞으로 나란히, 옆으로 나란히 서는 방법을 따라 해 봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c08
     stage: 확장하기
-    title: "1학년이 되었어요 9 — 나를 소개해요 (1)"
+    title: "나를 소개해요 (1)"
     video_title: "[1학년이 되었어요] 09. 나를 소개해요 (1)"
     url: https://www.youtube.com/watch?v=hVkCJpWb1_Q
     channel: "대구미래교육연구원"
@@ -151,11 +151,11 @@ candidates:
     basis_lesson: "27~28차시 짝꿍이 생겼어요·모여라 우리 반"
     desc: "'숲 속 학교의 자기소개' 이야기를 듣고 나를 소개하는 방법을 떠올려요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c09
     stage: 확장하기
-    title: "1학년이 되었어요 10 — 나를 소개해요 (2)"
+    title: "나를 소개해요 (2)"
     video_title: "[1학년이 되었어요] 10. 나를 소개해요 (2)"
     url: https://www.youtube.com/watch?v=vXJR_TPLrEc
     channel: "대구미래교육연구원"
@@ -166,11 +166,11 @@ candidates:
     basis_lesson: "27~28차시 짝꿍이 생겼어요·모여라 우리 반"
     desc: "친구에게 나를 소개하는 방법과 친구의 발표를 잘 듣는 방법을 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c10
     stage: 확장하기
-    title: "1학년이 되었어요 11 — 바르게 인사해요 (1)"
+    title: "바르게 인사해요 (1)"
     video_title: "[1학년이 되었어요] 11. 바르게 인사해요 (1)"
     url: https://www.youtube.com/watch?v=j9zbsVG_N7Q
     channel: "대구미래교육연구원"
@@ -181,11 +181,11 @@ candidates:
     basis_lesson: "30차시 이렇게 말해요"
     desc: "'먼저 인사했어요' 이야기를 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c11
     stage: 확장하기
-    title: "1학년이 되었어요 12 — 바르게 인사해요 (2)"
+    title: "바르게 인사해요 (2)"
     video_title: "[1학년이 되었어요] 12. 바르게 인사해요 (2)"
     url: https://www.youtube.com/watch?v=mozQbyFrSBg
     channel: "대구미래교육연구원"
@@ -196,11 +196,11 @@ candidates:
     basis_lesson: "30차시 이렇게 말해요"
     desc: "바른 인사 자세와 여러 상황에 맞는 인사 방법을 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "5분 39초로 5분을 조금 넘음. 대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c12
     stage: 확장하기
-    title: "1학년이 되었어요 13 — 약속해요 (1)"
+    title: "약속해요 (1)"
     video_title: "[1학년이 되었어요] 13. 약속해요 (1)"
     url: https://www.youtube.com/watch?v=U8Fy5a5-Jb8
     channel: "대구미래교육연구원"
@@ -211,11 +211,11 @@ candidates:
     basis_lesson: "37차시 함께 약속해요"
     desc: "'꼭 꼭 약속해' 노래를 배우고 짝과 함께 율동을 해 봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "노래·율동 영상 — 교육청 제작이라 음원 문제 없음. 대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c13
     stage: 확장하기
-    title: "1학년이 되었어요 15 — 약속해요 (3)"
+    title: "약속해요 (3)"
     video_title: "[1학년이 되었어요] 15. 약속해요 (3)"
     url: https://www.youtube.com/watch?v=dgy00I2cCfI
     channel: "대구미래교육연구원"
@@ -226,11 +226,11 @@ candidates:
     basis_lesson: "30·37차시"
     desc: "바르고 고운 말 '주사위 말판 놀이' 방법을 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c14
     stage: 확장하기
-    title: "1학년이 되었어요 16 — 사이좋게 지내요 (1)"
+    title: "사이좋게 지내요 (1)"
     video_title: "[1학년이 되었어요] 17. 사이좋게 지내요 (2)"
     url: https://www.youtube.com/watch?v=26WEe9vWQXc
     channel: "대구미래교육연구원"
@@ -241,11 +241,11 @@ candidates:
     basis_lesson: "29차시 친구가 좋아"
     desc: "'난 상관 없어' 이야기를 듣고 내가 이야기 속 돼지라면 어떻게 할지 떠올려요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c15
     stage: 확장하기
-    title: "1학년이 되었어요 17 — 사이좋게 지내요 (2)"
+    title: "사이좋게 지내요 (2)"
     video_title: "[1학년이 되었어요] 16. 사이좋게 지내요 (1)"
     url: https://www.youtube.com/watch?v=16PQCeOuYi4
     channel: "대구미래교육연구원"
@@ -256,11 +256,11 @@ candidates:
     basis_lesson: "29차시 친구가 좋아"
     desc: "괴롭힘을 당하는 친구의 마음을 생각하고 도울 방법을 떠올려요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "괴롭힘을 다루는 내용이라 1학년에게 무섭지 않은지 미리보기에서 확인. 대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내."
   - cand_no: c16
     stage: 확장하기
-    title: "1학년이 되었어요 21 — 친구와 놀아요"
+    title: "친구와 놀아요"
     video_title: "[1학년이 되었어요] 21. 친구와 놀아요"
     url: https://www.youtube.com/watch?v=s4i2tfNno-c
     channel: "대구미래교육연구원"
@@ -271,11 +271,11 @@ candidates:
     basis_lesson: "29차시 친구가 좋아"
     desc: "놀이할 때 지킬 규칙을 알고 친구들과 할 수 있는 놀이를 따라 해 봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "놀이 방법 중심이라 주제와 거리가 있을 수 있음. 대구미래교육연구원 재생목록 '1학년이 되었어요'(운영자 지정, 2022, 31편 전부 4~5분 이내). 교육청 산하 공식 채널(표 edu). 유튜브 설명은 '~을 알아봅시다/따라해 봅시다' 활동 안내. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c17
     stage: 탐구하기
-    title: "1학년이 되었어요 5 — 깨끗하게 씻어요"
+    title: "깨끗하게 씻어요"
     video_title: "[1학년이 되었어요] 05. 깨끗하게 씻어요"
     url: https://www.youtube.com/watch?v=omI7m7l4zJA
     channel: "대구미래교육연구원"
@@ -289,7 +289,7 @@ candidates:
     note: "건강 습관 — 주제 밖."
   - cand_no: c18
     stage: 확장하기
-    title: "1학년이 되었어요 14 — 약속해요 (2)"
+    title: "약속해요 (2)"
     video_title: "[1학년이 되었어요] 14. 약속해요 (2)"
     url: https://www.youtube.com/watch?v=hJcDADZf5Hw
     channel: "대구미래교육연구원"
@@ -303,7 +303,7 @@ candidates:
     note: "놀이 방법 영상."
   - cand_no: c19
     stage: 확장하기
-    title: "1학년이 되었어요 18 — 교실에서 놀아요"
+    title: "교실에서 놀아요"
     video_title: "[1학년이 되었어요] 18. 교실에서 놀아요"
     url: https://www.youtube.com/watch?v=5ey1RwM3ZYo
     channel: "대구미래교육연구원"
@@ -317,7 +317,7 @@ candidates:
     note: "놀이 방법 영상."
   - cand_no: c20
     stage: 탐구하기
-    title: "1학년이 되었어요 19 — 안전하게 건너요 (1)"
+    title: "안전하게 건너요 (1)"
     video_title: "[1학년이 되었어요] 19. 안전하게 건너요 (1)"
     url: https://www.youtube.com/watch?v=QCliDbazKTU
     channel: "대구미래교육연구원"
@@ -331,7 +331,7 @@ candidates:
     note: "안전 차시 영상 — 주제 중심 지시로 보류."
   - cand_no: c21
     stage: 탐구하기
-    title: "1학년이 되었어요 20 — 안전하게 건너요 (2)"
+    title: "안전하게 건너요 (2)"
     video_title: "[1학년이 되었어요] 20. 안전하게 건너요 (2)"
     url: https://www.youtube.com/watch?v=wW71srqDG4M
     channel: "대구미래교육연구원"
@@ -345,7 +345,7 @@ candidates:
     note: "안전 차시 영상 — 주제 중심 지시로 보류."
   - cand_no: c22
     stage: 탐구하기
-    title: "1학년이 되었어요 22 — 따라 그려요 (1)"
+    title: "따라 그려요 (1)"
     video_title: "[1학년이 되었어요] 22. 따라 그려요 (1)"
     url: https://www.youtube.com/watch?v=IZCc-SVfazA
     channel: "대구미래교육연구원"
@@ -359,7 +359,7 @@ candidates:
     note: "그리기·만들기 활동 시범."
   - cand_no: c23
     stage: 탐구하기
-    title: "1학년이 되었어요 23 — 따라 그려요 (2)"
+    title: "따라 그려요 (2)"
     video_title: "[1학년이 되었어요] 23. 따라 그려요 (2)"
     url: https://www.youtube.com/watch?v=3WpoZZTFykI
     channel: "대구미래교육연구원"
@@ -373,7 +373,7 @@ candidates:
     note: "그리기·만들기 활동 시범."
   - cand_no: c24
     stage: 탐구하기
-    title: "1학년이 되었어요 24 — 스스로 준비해요 (1)"
+    title: "스스로 준비해요 (1)"
     video_title: "[1학년이 되었어요] 24. 스스로 준비해요 (1)"
     url: https://www.youtube.com/watch?v=_XQ5jn3D3K0
     channel: "대구미래교육연구원"
@@ -387,7 +387,7 @@ candidates:
     note: "가방 준비 — 후순위."
   - cand_no: c25
     stage: 탐구하기
-    title: "1학년이 되었어요 25 — 스스로 준비해요 (2)"
+    title: "스스로 준비해요 (2)"
     video_title: "[1학년이 되었어요] 25. 스스로 준비해요 (2)"
     url: https://www.youtube.com/watch?v=6P5CN95-uR0
     channel: "대구미래교육연구원"
@@ -401,7 +401,7 @@ candidates:
     note: "가방 준비 — 후순위."
   - cand_no: c26
     stage: 탐구하기
-    title: "1학년이 되었어요 26 — 오려 붙여요 (1)"
+    title: "오려 붙여요 (1)"
     video_title: "[1학년이 되었어요] 26. 오려 붙여요 (1)"
     url: https://www.youtube.com/watch?v=9_vVQovsz8s
     channel: "대구미래교육연구원"
@@ -415,7 +415,7 @@ candidates:
     note: "그리기·만들기 활동 시범."
   - cand_no: c27
     stage: 탐구하기
-    title: "1학년이 되었어요 27 — 오려 붙여요 (2)"
+    title: "오려 붙여요 (2)"
     video_title: "[1학년이 되었어요] 27. 오려 붙여요 (2)"
     url: https://www.youtube.com/watch?v=Fs5d3OwgO7Q
     channel: "대구미래교육연구원"
@@ -429,7 +429,7 @@ candidates:
     note: "그리기·만들기 활동 시범."
   - cand_no: c28
     stage: 탐구하기
-    title: "1학년이 되었어요 28 — 혼자서도 잘해요 (1)"
+    title: "혼자서도 잘해요 (1)"
     video_title: "[1학년이 되었어요] 28. 혼자서도 잘해요 (1)"
     url: https://www.youtube.com/watch?v=YnllqgCeDD0
     channel: "대구미래교육연구원"
@@ -443,7 +443,7 @@ candidates:
     note: "집 생활 — 학교 주제 밖."
   - cand_no: c29
     stage: 탐구하기
-    title: "1학년이 되었어요 29 — 혼자서도 잘해요 (2)"
+    title: "혼자서도 잘해요 (2)"
     video_title: "[1학년이 되었어요] 29. 혼자서도 잘해요 (2)"
     url: https://www.youtube.com/watch?v=nCGDhxQZmls
     channel: "대구미래교육연구원"
@@ -457,7 +457,7 @@ candidates:
     note: "집 생활 — 학교 주제 밖."
   - cand_no: c30
     stage: 탐구하기
-    title: "1학년이 되었어요 30 — 따로 모아요 (1)"
+    title: "따로 모아요 (1)"
     video_title: "[1학년이 되었어요] 30. 따로 모아요 (1)"
     url: https://www.youtube.com/watch?v=j7dsGtNp0DU
     channel: "대구미래교육연구원"
@@ -471,7 +471,7 @@ candidates:
     note: "쓰레기 분리 — 학교 주제 밖."
   - cand_no: c31
     stage: 탐구하기
-    title: "1학년이 되었어요 31 — 따로 모아요 (2)"
+    title: "따로 모아요 (2)"
     video_title: "[1학년이 되었어요] 31. 따로 모아요 (2)"
     url: https://www.youtube.com/watch?v=J528v3TAmL4
     channel: "대구미래교육연구원"
@@ -485,7 +485,7 @@ candidates:
     note: "쓰레기 분리 — 학교 주제 밖."
   - cand_no: c32
     stage: 생각열기
-    title: "두근두근 학교생활 2 — 즐거운 교실 생활"
+    title: "즐거운 교실 생활"
     video_title: "[두근두근 학교생활] 2. 즐거운 교실 생활"
     url: https://www.youtube.com/watch?v=rAFNco-lQoY
     channel: "대구미래교육연구원"
@@ -499,7 +499,7 @@ candidates:
     note: "6분 2초 — 구간 지정 필요. 대구미래교육연구원 재생목록 '두근두근 학교생활(2024)' 12편 중 하나(2022 개정 교육과정 시기 최신 시리즈). 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
   - cand_no: c33
     stage: 생각열기
-    title: "두근두근 학교생활 7 — 올바른 공용 공간 사용"
+    title: "올바른 공용 공간 사용"
     video_title: "[두근두근 학교생활] 7. 올바른 공용공간 사용"
     url: https://www.youtube.com/watch?v=P3wtMXoFneM
     channel: "대구미래교육연구원"
@@ -510,11 +510,11 @@ candidates:
     basis_lesson: "33차시 학교 나들이"
     desc: "복도·계단 같은 공용 공간을 바르게 쓰는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "'1학년이 되었어요' 6편과 겹칠 수 있음. 대구미래교육연구원 재생목록 '두근두근 학교생활(2024)' 12편 중 하나(2022 개정 교육과정 시기 최신 시리즈). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c34
     stage: 확장하기
-    title: "두근두근 학교생활 10 — 즐거운 음악·미술 수업"
+    title: "즐거운 음악·미술 수업"
     video_title: "[두근두근 학교생활] 10. 즐거운 음악, 미술 수업"
     url: https://www.youtube.com/watch?v=OSVwx70atIg
     channel: "대구미래교육연구원"
@@ -528,7 +528,7 @@ candidates:
     note: "5분 36초. 대구미래교육연구원 재생목록 '두근두근 학교생활(2024)' 12편 중 하나(2022 개정 교육과정 시기 최신 시리즈). 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
   - cand_no: c35
     stage: 탐구하기
-    title: "두근두근 학교생활 3 — 올바른 화장실 사용"
+    title: "올바른 화장실 사용"
     video_title: "[두근두근 학교생활] 3. 올바른 화장실 사용"
     url: https://www.youtube.com/watch?v=PO1tvw4AmFM
     channel: "대구미래교육연구원"
@@ -542,7 +542,7 @@ candidates:
     note: "2022 시리즈 04와 같은 주제(중복). 대구미래교육연구원 재생목록 '두근두근 학교생활(2024)' 12편 중 하나(2022 개정 교육과정 시기 최신 시리즈)."
   - cand_no: c36
     stage: 탐구하기
-    title: "두근두근 학교생활 4 — 올바른 급식실 사용"
+    title: "올바른 급식실 사용"
     video_title: "[두근두근 학교생활] 4. 올바른 급식실 사용"
     url: https://www.youtube.com/watch?v=cmdBMHQ6WwU
     channel: "대구미래교육연구원"
@@ -556,7 +556,7 @@ candidates:
     note: "2022 시리즈 02와 같은 주제(중복). 대구미래교육연구원 재생목록 '두근두근 학교생활(2024)' 12편 중 하나(2022 개정 교육과정 시기 최신 시리즈)."
   - cand_no: c37
     stage: 생각열기
-    title: "두근두근 학교생활 9 — 올바른 도서관 사용"
+    title: "올바른 도서관 사용"
     video_title: "[두근두근 학교생활] 9. 올바른 도서관 사용"
     url: https://www.youtube.com/watch?v=qJ5yotLaYy4
     channel: "대구미래교육연구원"
@@ -570,7 +570,7 @@ candidates:
     note: "2022 시리즈 07과 같은 주제(중복). 대구미래교육연구원 재생목록 '두근두근 학교생활(2024)' 12편 중 하나(2022 개정 교육과정 시기 최신 시리즈)."
   - cand_no: c38
     stage: 탐구하기
-    title: "두근두근 학교생활 5 — 깨끗이 청소하는 법"
+    title: "깨끗이 청소하는 법"
     video_title: "[두근두근 학교생활] 5. 깨끗이 청소하는 법"
     url: https://www.youtube.com/watch?v=XwwnaZHnzgU
     channel: "대구미래교육연구원"
@@ -584,7 +584,7 @@ candidates:
     note: "청소 — 후순위. 대구미래교육연구원 재생목록 '두근두근 학교생활(2024)' 12편 중 하나(2022 개정 교육과정 시기 최신 시리즈)."
   - cand_no: c39
     stage: 탐구하기
-    title: "두근두근 학교생활 1 — 등굣길 안전"
+    title: "등굣길 안전"
     video_title: "[두근두근 학교생활] 1. 등굣길 안전"
     url: https://www.youtube.com/watch?v=Id-kmoS8VqQ
     channel: "대구미래교육연구원"
@@ -598,7 +598,7 @@ candidates:
     note: "안전 차시 영상 — 주제 중심 지시로 보류. 대구미래교육연구원 재생목록 '두근두근 학교생활(2024)' 12편 중 하나(2022 개정 교육과정 시기 최신 시리즈)."
   - cand_no: c40
     stage: 탐구하기
-    title: "두근두근 학교생활 6 — 비 오는 날 안전"
+    title: "비 오는 날 안전"
     video_title: "[두근두근 학교생활] 6. 비 오는 날 안전"
     url: https://www.youtube.com/watch?v=BHOrscZ7dxU
     channel: "대구미래교육연구원"
@@ -612,7 +612,7 @@ candidates:
     note: "안전 차시 영상. 대구미래교육연구원 재생목록 '두근두근 학교생활(2024)' 12편 중 하나(2022 개정 교육과정 시기 최신 시리즈)."
   - cand_no: c41
     stage: 탐구하기
-    title: "두근두근 학교생활 8 — 올바른 강당·운동장 사용"
+    title: "올바른 강당·운동장 사용"
     video_title: "[두근두근 학교생활] 8. 올바른 강당, 운동장 사용"
     url: https://www.youtube.com/watch?v=C8IXz7UwXbo
     channel: "대구미래교육연구원"
@@ -626,7 +626,7 @@ candidates:
     note: "안전·놀이 차시 영상. 대구미래교육연구원 재생목록 '두근두근 학교생활(2024)' 12편 중 하나(2022 개정 교육과정 시기 최신 시리즈)."
   - cand_no: c42
     stage: 탐구하기
-    title: "두근두근 학교생활 11 — 안전한 과학실 사용"
+    title: "안전한 과학실 사용"
     video_title: "[두근두근 학교생활] 11. 안전한 과학실 사용"
     url: https://www.youtube.com/watch?v=c1LYTiXzOrY
     channel: "대구미래교육연구원"
@@ -640,7 +640,7 @@ candidates:
     note: "1학년 단원과 거리가 있음. 대구미래교육연구원 재생목록 '두근두근 학교생활(2024)' 12편 중 하나(2022 개정 교육과정 시기 최신 시리즈)."
   - cand_no: c43
     stage: 탐구하기
-    title: "두근두근 학교생활 12 — 올바른 정보기기 사용"
+    title: "올바른 정보기기 사용"
     video_title: "[두근두근 학교생활] 12. 올바른 정보기기 사용"
     url: https://www.youtube.com/watch?v=LmupD7q6Kaw
     channel: "대구미래교육연구원"
@@ -819,8 +819,8 @@ candidates:
     basis_lesson: "5차시 급식은 이렇게"
     desc: "학교 급식을 받고 먹고 치우는 차례와 식사 예절을 1학년 어린이에게 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
-    note: "2분 22초. 부산광역시교육청 영양교육체험센터 영상(2024). 부산 지역 학교 모습이 나올 수 있음 — 미리보기에서 확인. ※ 채널 등급 표에 없음 — 등급(edu)은 임시, 운영자 확정."
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 22초. 부산광역시교육청 영양교육체험센터 영상(2024). 부산 지역 학교 모습이 나올 수 있음 — 미리보기에서 확인."
   - cand_no: c56
     stage: 탐구하기
     title: "학교 급식 알아보기"
@@ -963,7 +963,7 @@ candidates:
     note: "8분 1초 — 구간 지정 필요(핵심 3~4분). 국가기초학력지원센터 영상. 지도서 31차시가 직접 가리킨 영상('국가기초학력지원센터 공식 영상 채널에서 검색'). 5분 초과 또는 출처 불명 — 보류(운영자 확정 10/17: 5분 이하·공공·교육만 채택)."
   - cand_no: c66
     stage: 확장하기
-    title: "존중탐험대 — 귀 기울여 존중해요"
+    title: "귀 기울여 존중해요"
     video_title: "존중탐험대 『EP3.귀 기울여 RESPECT』"
     url: https://www.youtube.com/watch?v=BMUyRS4TuIo
     channel: "부산광역시교육청"
@@ -977,7 +977,7 @@ candidates:
     note: "3분 10초(2021). 부산광역시교육청 존중교육 애니메이션 시리즈 — 대상 학년이 1학년인지 확인. 대상 학년이 1학년인지 확인되지 않음 — 5~6학년 수준일 수 있어 보류(운영자 10/17: 수준 다른 영상 제외). ※ 채널 등급 표에 없음 — 등급(edu)은 임시, 운영자 확정."
   - cand_no: c67
     stage: 확장하기
-    title: "존중탐험대 — 작은 것도 존중해요"
+    title: "작은 것도 존중해요"
     video_title: "존중탐험대 『EP2.작은 것도 RESPECT』"
     url: https://www.youtube.com/watch?v=8G_Wqm9bcDs
     channel: "부산광역시교육청"
@@ -991,7 +991,7 @@ candidates:
     note: "3분 48초(2021). 부산광역시교육청 존중탐험대 EP2 — 대상 학년 확인. 대상 학년이 1학년인지 확인되지 않음 — 5~6학년 수준일 수 있어 보류(운영자 10/17: 수준 다른 영상 제외). ※ 채널 등급 표에 없음 — 등급(edu)은 임시, 운영자 확정."
   - cand_no: c68
     stage: 확장하기
-    title: "존중탐험대 — 나부터 존중해요"
+    title: "나부터 존중해요"
     video_title: "존중탐험대 『EP1.나부터 RESPECT』"
     url: https://www.youtube.com/watch?v=UcegLL0KNXU
     channel: "부산광역시교육청"

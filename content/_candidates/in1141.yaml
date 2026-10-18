@@ -43,7 +43,7 @@ candidates:
     basis_lesson: "4~5차시 어디로 갈까요"
     desc: "우주에서 먹고 자고 생활하는 모습을 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "2분 29초(2022). 국립어린이과학관(표 public)."
   - cand_no: c02
     stage: 생각열기
@@ -58,7 +58,7 @@ candidates:
     basis_lesson: "7차시 무엇을 타고 갈까"
     desc: "우리나라가 만든 우주 로켓 누리호가 하늘로 날아오르는 모습을 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "2분 17초(2023). 한국항공우주연구원 공식 채널(표 public)."
   - cand_no: c03
     stage: 생각열기
@@ -73,7 +73,7 @@ candidates:
     basis_lesson: "7차시 무엇을 타고 갈까"
     desc: "누리호가 새벽 하늘로 날아가는 모습을 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "1분 29초(2025). 같은 채널."
   - cand_no: c04
     stage: 탐구하기
@@ -88,7 +88,7 @@ candidates:
     basis_lesson: "16~18차시 궁금한 것을 찾아볼까"
     desc: "깊은 바닷속에 사는 신기한 생물을 어린이 해양교육 영상으로 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "5분 36초(2022). 해양수산부 공식 채널(표 public)."
   - cand_no: c05
     stage: 탐구하기
@@ -103,7 +103,7 @@ candidates:
     basis_lesson: "16~18차시 궁금한 것을 찾아볼까"
     desc: "남극과 북극에 사는 동물을 소개해요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "3분 50초(2021). 극지연구소 공식 채널(표 public)."
   - cand_no: c06
     stage: 탐구하기
@@ -118,7 +118,7 @@ candidates:
     basis_lesson: "6차시 탐험가를 만나 볼까"
     desc: "우리나라 사람이 100년 전에 남극을 탐험한 이야기를 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "1분 49초(2020). 극지연구소."
   - cand_no: c07
     stage: 탐구하기
@@ -161,7 +161,7 @@ candidates:
     basis_lesson: "11~12차시 내가 도착한 세상"
     desc: "외계인이 정말 있는지 궁금한 질문에 과학자가 답해 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "2분 45초(2021). '어린이가 궁금해하는 과학'."
   - cand_no: c10
     stage: 확장하기
@@ -176,7 +176,7 @@ candidates:
     basis_lesson: "11~12차시 내가 도착한 세상"
     desc: "다른 행성에 생명체가 사는지 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "3분 4초(2021)."
   - cand_no: c11
     stage: 확장하기
@@ -192,3 +192,33 @@ candidates:
     desc: "약을 바르게 먹는 방법을 알려 줘요."
     verdict: 보류
     note: "안전 차시 영상 — 주제 중심 지시로 보류."
+  - cand_no: c12
+    stage: 생각열기
+    title: "조각난 달님"
+    video_title: "[국악동요 애니메이션] 창작국악동요 EP05 - 조각난 달님"
+    url: https://www.youtube.com/watch?v=wCzI8lmZxpA
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:44"
+    use: 수업 전
+    basis_code: "[2즐02-04]"
+    basis_lesson: "4~5차시 어디로 갈까·그곳으로 가면"
+    desc: "밤하늘의 달을 상상하는 국악 동요를 애니메이션으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 44초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c13
+    stage: 확장하기
+    title: "바다 친구"
+    video_title: "[종이인형 애니메이션] 바다 친구 (2018년 창작국악동요제 우수상 수상작)"
+    url: https://www.youtube.com/watch?v=6lF7pf-WlBY
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "2:19"
+    use: 수업 후
+    basis_code: "[2즐02-04]"
+    basis_lesson: "13~15차시 누가 있을까·어떤 소리가 들릴까"
+    desc: "바닷속 친구들을 노래한 국악 동요를 종이인형 애니메이션으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 19초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."

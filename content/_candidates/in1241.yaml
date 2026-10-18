@@ -44,7 +44,7 @@ candidates:
     basis_lesson: "8차시 여기저기에서 본다면"
     desc: "하늘을 나는 자동차를 언제 만날 수 있을지 과학자가 답해 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "3분 3초(2021). '어린이가 궁금해하는 과학'."
   - cand_no: c02
     stage: 생각열기
@@ -59,7 +59,7 @@ candidates:
     basis_lesson: "13차시 우리 반에 공룡이 나타난다면"
     desc: "타임머신을 만들 수 있는지 어린이의 질문에 답해 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "2분 29초(2021)."
   - cand_no: c03
     stage: 확장하기
@@ -74,7 +74,7 @@ candidates:
     basis_lesson: "20차시 우리들의 놀이터를 만든다면"
     desc: "차가 막힐 때 땅속 통로로 빨리 갈 수 있는지 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "2분 5초(2021)."
   - cand_no: c04
     stage: 탐구하기
@@ -89,5 +89,110 @@ candidates:
     basis_lesson: "6~10차시"
     desc: "하늘거울로 하늘을 다르게 보는 놀이를 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 40초(2022). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c05
+    stage: 탐구하기
+    title: "나는 가야금이 될 거야"
+    video_title: "[국악동요 애니메이션] 360° VR 영상: ”나는 가야금이 될거야“  (노래 부르기 ver)"
+    url: https://www.youtube.com/watch?v=a1xdetcctkw
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "2:09"
+    use: 수업 중
+    basis_code: "[2즐04-02]"
+    basis_lesson: "11차시 물건이 악기가 된다면"
+    desc: "가야금이 되고 싶은 마음을 노래한 국악 동요를 애니메이션으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 9초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c06
+    stage: 탐구하기
+    title: "딱따구리 집짓기"
+    video_title: "[국악동요 애니메이션] 360° VR 영상: ”딱따구리 집짓기“ (노래 부르기 ver)"
+    url: https://www.youtube.com/watch?v=fOQqnWC7v-g
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:49"
+    use: 수업 중
+    basis_code: "[2즐04-02]"
+    basis_lesson: "14차시 내가 음악을 만든다면"
+    desc: "딱따구리가 나무에 집을 짓는 모습을 노래한 국악 동요예요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 49초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c07
+    stage: 생각열기
+    title: "그랬으면 좋겠네"
+    video_title: "[종이인형 애니메이션] 그랬으면 좋겠네 (2018년 창작국악동요제 우수상 수상작)"
+    url: https://www.youtube.com/watch?v=QxrdhJAWIb4
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "2:19"
+    use: 수업 전
+    basis_code: "[2즐04-02]"
+    basis_lesson: "2차시 그림책으로 만나는 상상"
+    desc: "이랬으면 좋겠다는 상상을 노래한 국악 동요를 종이인형 애니메이션으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 19초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c08
+    stage: 확장하기
+    title: "개미장에 도깨비다"
+    video_title: "[국악동요 애니메이션] 창작국악동요 EP07 - 개미장에 도깨비다"
+    url: https://www.youtube.com/watch?v=3XouUZFnKGU
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:33"
+    use: 수업 후
+    basis_code: "[2즐04-02]"
+    basis_lesson: "19차시 무엇이든 바꿀 수 있다면"
+    desc: "개미 시장에 도깨비가 나타난 상상을 노래해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 33초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c09
+    stage: 탐구하기
+    title: "일그러진 그림"
+    video_title: "[놀러ON과학] 일그러진 그림(2021 신규 전시품)"
+    url: https://www.youtube.com/watch?v=dZJXNP23BK8
+    channel: "국립어린이과학관"
+    channel_grade: public
+    duration: "3:50"
+    use: 수업 중
+    basis_code: "[2슬04-02]"
+    basis_lesson: "8차시 여기저기에서 본다면"
+    desc: "보는 곳에 따라 다르게 보이는 신기한 그림을 소개해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "3분 50초(2021). 국립어린이과학관 '놀러ON과학'. 10/18 보완."
+  - cand_no: c10
+    stage: 탐구하기
+    title: "움직이는 조각"
+    video_title: "어린이를 위한 집에서 만나는 미술관 | 최우람 작가 | Art Museum at Home for Children | Choe U-Ram"
+    url: https://www.youtube.com/watch?v=TPDT101sVV0
+    channel: "국립현대미술관 MMCA"
+    channel_grade: public
+    duration: "4:14"
+    use: 수업 중
+    basis_code: "[2즐04-02]"
+    basis_lesson: "7차시 장난감이 춤을 춘다면"
+    desc: "기계로 움직이는 신기한 조각 작품을 어린이에게 소개해요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "4분 14초(2022). 국립현대미술관 MMCA(공식, 표에 없음 — public 임시). 10/18 보완."
+  - cand_no: c11
+    stage: 확장하기
+    title: "상상 속 동물 그리기"
+    video_title: "(2분수업 끝_미술) 상상속의 괴물 그리기"
+    url: https://www.youtube.com/watch?v=q1AYS3SGb-M
+    channel: "전북수업샘터"
+    channel_grade: edu
+    duration: "2:10"
+    use: 수업 후
+    basis_code: "[2슬04-02]"
+    basis_lesson: "9차시 새로운 동물이 나타난다면"
+    desc: "상상 속 동물을 그리는 방법을 짧게 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 10초(2022). 전북수업샘터(표 edu). 10/18 보완."

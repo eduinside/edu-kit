@@ -7,7 +7,7 @@ unit: 3단원
 unit_no: 3
 flow: activity
 sort_order: 1
-published: false
+published: true
 intro:
   core_idea: 마을에는 여러 곳과 여러 사람이 있고 서로 도우며 살아가요. 마을을 잘 알고 안전하게 다니며 내가 할 수 있는 일을 하면 마을이 더 좋아져요.
   core_question: 우리 마을을 어떻게 알아보고, 마을을 위해 무엇을 할 수 있을까?
@@ -53,7 +53,7 @@ items:
     channel: 우체국
   - key: v3
     stage: 생각열기
-    title: 수성구 어린이회관 둘러보기
+    title: 어린이회관 둘러보기
     use: 수업 전
     url: https://www.youtube.com/watch?v=tn1MwKG77Ug
     desc: 대구 수성구의 어린이회관을 기자와 함께 둘러보는 영상이에요.
@@ -73,68 +73,89 @@ items:
     desc: 위험할 때 어린이가 달려가 도움을 청할 수 있는 마을의 안전한 곳을 알려 줘요.
     channel: 행정안전부
   - key: v6
+    stage: 생각열기
+    title: 마을의 작은도서관에 같이 가요
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=mnDk1XbsehI
+    desc: 마을 사람들이 함께 쓰는 작은도서관을 소개해요.
+    channel: EBS뉴스
+  - key: v7
     stage: 탐구하기
     title: 깜빡이는 초록불, 그냥 뛰어가도 될까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=7tF2a1D55MY
     desc: 초록불이 깜빡일 때 길을 건너도 되는지 어린이 교통안전교육으로 알려 줘요.
     channel: 한국교통안전공단 교통안전TV
-  - key: v7
+  - key: v8
     stage: 탐구하기
     title: 내리막길에서 킥보드를 타도 될까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=GzSkZF9XtqI
     desc: 킥보드를 탈 때 내리막길이 왜 위험한지 알려 줘요.
     channel: 한국교통안전공단 교통안전TV
-  - key: v8
+  - key: v9
     stage: 탐구하기
     title: 뒷자리에서도 안전띠를 매야 할까?
     use: 수업 중
     url: https://www.youtube.com/watch?v=GDdiz9MUXvM
     desc: 자동차 뒷자리에서도 안전띠를 매야 하는 까닭을 알려 줘요.
     channel: 한국교통안전공단 교통안전TV
-  - key: v9
+  - key: v10
     stage: 탐구하기
     title: 교통이와 배우는 지하철·전철 안전하게 타기
     use: 수업 중
     url: https://www.youtube.com/watch?v=nODXD6lDoHI
     desc: 지하철과 전철을 안전하게 이용하는 방법을 알려 줘요.
     channel: 한국교통안전공단 교통안전TV
-  - key: v10
+  - key: v11
     stage: 탐구하기
     title: 대중교통, 안전하게 이용해요
     use: 수업 중
     url: https://www.youtube.com/watch?v=CgNjI-MKT-k
     desc: 버스와 지하철 같은 대중교통을 안전하게 이용하는 방법을 알려 줘요.
     channel: 행정안전부
-  - key: v11
+  - key: v12
     stage: 탐구하기
     title: 에스컬레이터 안전하게 타기
     use: 수업 중
     url: https://www.youtube.com/watch?v=hQo5bzpJWko
     desc: 에스컬레이터를 탈 때 손잡이를 잡고 노란 선 안에 서는 것처럼 안전하게 타는 방법을 알려 줘요.
     channel: 한국승강기안전공단[승강기 안전한TV]
-  - key: v12
+  - key: v13
     stage: 탐구하기
     title: 국민이·안전이와 에스컬레이터 안전하게 타기
     use: 수업 중
     url: https://www.youtube.com/watch?v=AqwSIGizsrc
     desc: 행정안전부 캐릭터 국민이와 안전이가 에스컬레이터 안전하게 타는 방법을 알려 줘요.
     channel: 행정안전부
-  - key: v13
+  - key: v14
+    stage: 탐구하기
+    title: 도서관이 된 마을
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=iU7_iKnaqwM
+    desc: 마을 사람들이 힘을 모아 도서관을 만든 마을을 소개해요.
+    channel: 문화포털
+  - key: v15
     stage: 확장하기
     title: 우리 마을 책 나눔 축제
     use: 수업 후
     url: https://www.youtube.com/watch?v=mqjvESYDnc4
     desc: 대구 수성구 도서관에서 마을 사람들이 책을 나누는 축제 모습을 보여 줘요.
     channel: 수성TV At Suseong
-  - key: v14
+  - key: v16
     stage: 확장하기
     title: 옹달샘 마을 축제
     use: 수업 후
     url: https://www.youtube.com/watch?v=aqIvuufviDk
     desc: 대구 수성구 마을 사람들이 함께하는 옹달샘 마을 축제 모습을 보여 줘요.
     channel: 수성TV At Suseong
+  - key: v17
+    stage: 확장하기
+    title: 장 서는 날
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=W4d-p6WBUZM
+    desc: 장이 서는 날의 마을 모습을 노래한 국악 동요에 맞춰 율동해요.
+    channel: 국립국악원 National Gugak Center
 quiz:
   - statement: 마을에는 학교, 가게, 병원 같은 여러 곳이 있어요.
     answer: O

@@ -43,7 +43,7 @@ candidates:
     basis_lesson: "5차시 태극기가 펄럭"
     desc: "태극기에 담긴 뜻을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "4분 18초(2022). 국립평화통일민주교육원 공식 채널(표 public)."
   - cand_no: c02
     stage: 생각열기
@@ -58,7 +58,7 @@ candidates:
     basis_lesson: "6차시 무궁화가 활짝"
     desc: "무궁화가 어떻게 우리나라를 대표하는 꽃이 되었는지 어린이과학뉴스로 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "4분 45초(2023). 국립과천과학관 어린이과학뉴스(표 public)."
   - cand_no: c03
     stage: 탐구하기
@@ -73,7 +73,7 @@ candidates:
     basis_lesson: "10차시 우리 한글"
     desc: "세종대왕과 함께 훈민정음 노래를 따라 불러요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "2분 10초(2020). 국립한글박물관(표 public)."
   - cand_no: c04
     stage: 탐구하기
@@ -88,7 +88,7 @@ candidates:
     basis_lesson: "10차시 우리 한글"
     desc: "세종대왕이 한글을 만든 까닭을 만화로 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "2분 33초(2022). 만화로 즐기는 한글 이야기 시리즈."
   - cand_no: c05
     stage: 탐구하기
@@ -103,7 +103,7 @@ candidates:
     basis_lesson: "10차시 우리 한글"
     desc: "한글 자음 이름이 어떻게 생겼는지 만화로 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "3분 31초(2020). 낱말 '자음'이 1학년에게 어려울 수 있음."
   - cand_no: c06
     stage: 탐구하기
@@ -118,11 +118,11 @@ candidates:
     basis_lesson: "14차시 우리나라 명절"
     desc: "추석에 즐길 수 있는 전통놀이를 소개해요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "5분 3초(2019). 교육부 공식 채널(표 edu). 아동 출연."
   - cand_no: c07
     stage: 탐구하기
-    title: "교과서 속 우리 음악 — 아리랑"
+    title: "아리랑"
     video_title: "교과서 속 우리음악: 민요 '아리랑'"
     url: https://www.youtube.com/watch?v=hKFxLkcqEpI
     channel: "국립국악원 National Gugak Center"
@@ -133,7 +133,7 @@ candidates:
     basis_lesson: "15차시 우리나라 민요"
     desc: "민요 아리랑을 소개하고 들려줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "1분 30초(2016). 국립국악원 공식 채널."
   - cand_no: c08
     stage: 탐구하기
@@ -148,7 +148,7 @@ candidates:
     basis_lesson: "15차시 우리나라 민요"
     desc: "소고가 어떤 악기인지 알아봐요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 「얼씨구, 국악 여행」 4분 11초 — 1학년 눈높이·악기 준비 확인. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c09
     stage: 탐구하기
@@ -163,7 +163,7 @@ candidates:
     basis_lesson: "15차시 우리나라 민요"
     desc: "소고를 어떻게 치는지 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "대구미래교육연구원(교육청 산하, 표 edu) 4분 27초. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c10
     stage: 탐구하기
@@ -178,7 +178,7 @@ candidates:
     basis_lesson: "16차시 우리나라 탈춤"
     desc: "봉산탈춤의 탈과 춤을 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "2분 2초(2025). 국가유산청 공식 채널(표 public). 유명인 출연 영상이라 1학년 눈높이 확인."
   - cand_no: c11
     stage: 탐구하기
@@ -193,7 +193,7 @@ candidates:
     basis_lesson: "16차시 우리나라 탈춤"
     desc: "사자 탈을 쓰고 추는 사자춤을 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "2분 12초(2020). EBS 키즈 '뭐든지 뮤직박스' — 예능 성격 확인. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c12
     stage: 확장하기
@@ -208,7 +208,7 @@ candidates:
     basis_lesson: "15~16차시"
     desc: "소고를 들고 추는 소고춤을 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "4분 7초(2017). 국립국악원 '어린이를 위한 국악 동영상'. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c13
     stage: 확장하기
@@ -265,5 +265,95 @@ candidates:
     basis_lesson: "9~18차시 우리나라 문양·한옥·한복"
     desc: "우리나라 문화유산의 멋진 장면을 모아 보여 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "3분 18초(2023). 국가유산채널(표 public). 영어 제목 — 대화 없이 영상 중심인지 미리보기에서 확인(운영자 허용 10/17). 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c17
+    stage: 탐구하기
+    title: "대문놀이"
+    video_title: "[국악동요 애니메이션] 전래동요 EP10 - 대문놀이"
+    url: https://www.youtube.com/watch?v=hZfP8ImeEIs
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:06"
+    use: 수업 중
+    basis_code: "[2즐02-02]"
+    basis_lesson: "13차시 우리나라 놀이"
+    desc: "대문놀이 전래동요를 애니메이션으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 6초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 지도서 13차시 대문놀이와 같은 노래. 10/18 보완."
+  - cand_no: c18
+    stage: 탐구하기
+    title: "깍둑깍둑 깍두기"
+    video_title: "[국악동요 애니메이션] 전래동요 EP02 - 깍둑깍둑 깍두기"
+    url: https://www.youtube.com/watch?v=3qpt4LLvyHs
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:23"
+    use: 수업 중
+    basis_code: "[2슬02-02]"
+    basis_lesson: "11차시 우리나라 음식"
+    desc: "깍두기를 담그는 모습을 노래한 전래동요를 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 23초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c19
+    stage: 탐구하기
+    title: "메주가 주렁주렁"
+    video_title: "[국악동요 애니메이션] 창작국악동요 EP02 - 메주가 주렁주렁"
+    url: https://www.youtube.com/watch?v=1NlTiugEgwg
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:30"
+    use: 수업 중
+    basis_code: "[2슬02-02]"
+    basis_lesson: "11차시 우리나라 음식"
+    desc: "메주를 매다는 우리 음식 문화를 국악 동요로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 30초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."
+  - cand_no: c20
+    stage: 탐구하기
+    title: "밀양아리랑"
+    video_title: "교과서 속 우리음악: 민요 '밀양아리랑'"
+    url: https://www.youtube.com/watch?v=igwkrY24068
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "2:31"
+    use: 수업 중
+    basis_code: "[2즐02-02]"
+    basis_lesson: "15차시 우리나라 민요(두 아리랑 견주기)"
+    desc: "흥겨운 밀양아리랑을 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 31초. 국립국악원 '교과서 속 우리음악'. 10/18 보완."
+  - cand_no: c21
+    stage: 탐구하기
+    title: "진도아리랑"
+    video_title: "교과서 속 우리음악: 민요 '진도아리랑'"
+    url: https://www.youtube.com/watch?v=60HYk8hNZk4
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "1:51"
+    use: 수업 중
+    basis_code: "[2즐02-02]"
+    basis_lesson: "15차시 우리나라 민요(두 아리랑 견주기)"
+    desc: "진도아리랑을 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "1분 51초. 10/18 보완."
+  - cand_no: c22
+    stage: 확장하기
+    title: "에헤라디야"
+    video_title: "[종이인형 애니메이션] 에헤라디야 (2018년 창작국악동요제 우수상 수상작)"
+    url: https://www.youtube.com/watch?v=haMDLMqriU4
+    channel: "국립국악원 National Gugak Center"
+    channel_grade: public
+    duration: "2:06"
+    use: 수업 후
+    basis_code: "[2즐02-02]"
+    basis_lesson: "21차시 그림으로 하나 되는 우리"
+    desc: "흥겨운 창작 국악 동요를 종이인형 애니메이션으로 들려줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "2분 6초. 국립국악원 '국악동요 애니메이션'(1~2분 노래, 대화 없음). 10/18 보완."

@@ -7,7 +7,7 @@ unit: 4단원
 unit_no: 4
 flow: activity
 sort_order: 1
-published: false
+published: true
 intro:
   core_idea: 우리 둘레와 옛날에는 고마운 인물이 많아요. 세종대왕처럼 사람들을 위해 일한 인물을 알고 본받으면 함께 사는 마음이 자라요.
   core_question: 인물에게서 무엇을 배워 실천할까?
@@ -64,6 +64,20 @@ items:
     desc: 한글을 사랑한 조선 마지막 공주의 이야기를 알려 줘요.
     channel: 국립한글박물관
   - key: v5
+    stage: 탐구하기
+    title: 공공 시계를 만든 장영실
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=W3OxK7DIy0g
+    desc: 조선 시대에 모두가 볼 수 있는 시계를 만든 장영실을 소개해요.
+    channel: 국립과천과학관
+  - key: v6
+    stage: 탐구하기
+    title: 자동 물시계 옥루
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=Rd8LaR9Txow
+    desc: 장영실이 만든 자동 물시계 옥루를 보여 줘요.
+    channel: 국립중앙과학관
+  - key: v7
     stage: 확장하기
     title: 한글날이 10월 9일이 아니었다고?
     use: 수업 후

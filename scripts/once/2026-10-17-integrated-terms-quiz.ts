@@ -13,7 +13,7 @@ for (const id of ids) {
   const doc = KitDocSchema.parse(YAML.parse(readFileSync(path, "utf8")));
   const d = data[id];
   if (d) { doc.intro.concepts = d.concepts; doc.quiz = d.quiz; }
-  doc.published = PUBLISHED.has(id) && doc.items.length > 0; // 운영자 확정(10/17): 이 7개만 공개
+  doc.published = PUBLISHED.has(id) || doc.items.length >= 5; // 운영자 확정(10/17): 7개 공개 + 보완(10/18) 뒤 영상 5편 이상이면 공개
   writeFileSync(path, kitToYaml(doc), "utf8");
   console.log(id, `영상 ${doc.items.length} · 용어 ${doc.intro.concepts.length} · 퀴즈 ${doc.quiz.length} · ${doc.published ? "공개" : "비공개 초안"}`);
 }

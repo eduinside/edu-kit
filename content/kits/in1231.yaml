@@ -52,26 +52,54 @@ items:
     desc: 연오랑과 세오녀 이야기를 전시 동화로 들려줘요.
     channel: 국립민속박물관
   - key: v3
+    stage: 생각열기
+    title: 어리석은 소원
+    use: 수업 전
+    url: https://www.youtube.com/watch?v=Uh6uUYrk8VE
+    desc: 세 가지 소원을 엉뚱하게 써 버린 이야기를 그림책으로 들려줘요.
+    channel: EBS 키즈
+  - key: v4
     stage: 탐구하기
     title: 호랑이와 곶감
     use: 수업 중
     url: https://www.youtube.com/watch?v=sfqfetfKtcs
     desc: 전래동화 호랑이와 곶감을 그림책으로 들려줘요.
     channel: EBS 키즈
-  - key: v4
+  - key: v5
     stage: 탐구하기
     title: 박박 바가지
     use: 수업 중
     url: https://www.youtube.com/watch?v=O4mmICombYI
     desc: 전래동화 박박 바가지를 그림책으로 들려줘요.
     channel: EBS 키즈
-  - key: v5
+  - key: v6
     stage: 탐구하기
     title: 세상에서 제일 큰 아이
     use: 수업 중
     url: https://www.youtube.com/watch?v=wwDqKj712NY
     desc: 전래동화 세상에서 제일 큰 아이를 그림책으로 들려줘요.
     channel: EBS 키즈
+  - key: v7
+    stage: 탐구하기
+    title: 열려라, 활짝! 도깨비문
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=cNbJ3eveI-4
+    desc: 도깨비문 이야기를 국악과 함께 애니메이션 동화로 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v8
+    stage: 탐구하기
+    title: 날아라 훨훨, 노란 삐약이
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=SC3TZeBi7js
+    desc: 노란 병아리 이야기를 국악과 함께 애니메이션 동화로 들려줘요.
+    channel: 국립국악원 National Gugak Center
+  - key: v9
+    stage: 확장하기
+    title: 도깨비 구름 비장군
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=0QraJZDP548
+    desc: 도깨비 구름 이야기를 노래로 들려주는 국악 동요예요.
+    channel: 국립국악원 National Gugak Center
 quiz:
   - statement: 전래동화는 옛날부터 전해 내려오는 이야기예요.
     answer: O

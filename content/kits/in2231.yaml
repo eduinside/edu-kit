@@ -46,4 +46,18 @@ items:
     url: https://www.youtube.com/watch?v=ht56jePmlBw
     desc: 사람이 어떻게 자라는지 알려 줘요.
     channel: 국립어린이과학관
+  - key: v3
+    stage: 탐구하기
+    title: 번쩍번쩍 칭찬 메달
+    use: 수업 중
+    url: https://www.youtube.com/watch?v=FMa8Un2tVrY
+    desc: 친구를 칭찬하는 메달을 만드는 방법을 알려 줘요.
+    channel: 참쌤스쿨
+  - key: v4
+    stage: 확장하기
+    title: 감사 편지를 쓰게 된다면?
+    use: 수업 후
+    url: https://www.youtube.com/watch?v=w3bPGXKgW-8
+    desc: 고마운 사람에게 감사 편지를 쓰는 모습을 보여 줘요.
+    channel: EBSCulture (EBS 교양)
 quiz: []

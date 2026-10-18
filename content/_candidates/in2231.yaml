@@ -44,7 +44,7 @@ candidates:
     basis_lesson: "15차시 칭찬을 나눠요"
     desc: "고마운 마음을 찾아 나누는 방법을 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "4분 52초(2024). 대구미래교육연구원(교육청 산하, 표 edu) 운영자 확정(10/17): 5분 이하·공공·교육 채널."
   - cand_no: c02
     stage: 탐구하기
@@ -59,5 +59,35 @@ candidates:
     basis_lesson: "12~13차시 2학년 생활을 돌아봐"
     desc: "사람이 어떻게 자라는지 알려 줘요."
     verdict: 채택
-    reviewer: "운영자(10/17 확정 — 미리보기 확인)"
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
     note: "3분 41초(2021). 주제와 거리가 있을 수 있음. 운영자 확정(10/17): 5분 이하·공공·교육 채널."
+  - cand_no: c03
+    stage: 탐구하기
+    title: "번쩍번쩍 칭찬 메달"
+    video_title: "[샘스토리X참쌤스쿨X아티버셜] 번쩍번쩍 칭찬메달"
+    url: https://www.youtube.com/watch?v=FMa8Un2tVrY
+    channel: "참쌤스쿨"
+    channel_grade: edu
+    duration: "3:17"
+    use: 수업 중
+    basis_code: "[2바04-04]"
+    basis_lesson: "16차시 우리 반 시상식"
+    desc: "친구를 칭찬하는 메달을 만드는 방법을 알려 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "3분 17초(2020). 참쌤스쿨(표 edu). 10/18 보완."
+  - cand_no: c04
+    stage: 확장하기
+    title: "감사 편지를 쓰게 된다면?"
+    video_title: "[EBS x 초록우산어린이재단] 실험카메라, 갑자기 감사편지를 쓰게 된다면?"
+    url: https://www.youtube.com/watch?v=w3bPGXKgW-8
+    channel: "EBSCulture (EBS 교양)"
+    channel_grade: edu
+    duration: "3:49"
+    use: 수업 후
+    basis_code: "[2즐04-04]"
+    basis_lesson: "15차시 칭찬을 나눠요"
+    desc: "고마운 사람에게 감사 편지를 쓰는 모습을 보여 줘요."
+    verdict: 채택
+    reviewer: "운영자(10/17 확정 규칙 — 미리보기 확인)"
+    note: "3분 49초(2020). EBS 교양(표 edu)·초록우산 협업 — 미리보기에서 눈높이 확인. 10/18 보완."
