@@ -2,6 +2,7 @@ import { Search, FlaskConical, HeartHandshake, Hammer, Blocks, Film, Eye, Heart 
 import type { Kit } from "../lib/data.ts";
 import { unitPalette, thumbStyle } from "../lib/design.ts";
 import { statsFor } from "../lib/stats.ts";
+import { prefetchKit } from "../lib/kit-content.ts";
 
 // 교과 아이콘: 사회 = 돋보기, 과학 = 플라스크, 도덕 = 마음 나눔, 실과 = 망치, 통합 = 쌓기나무
 const SUBJECT_ICON = { 사회: Search, 과학: FlaskConical, 도덕: HeartHandshake, 실과: Hammer, 통합: Blocks } as const;
@@ -17,6 +18,10 @@ export default function KitCard({ kit, onOpen, stats }: { kit: Kit; onOpen: () =
       role="button"
       tabIndex={0}
       onClick={onOpen}
+      // 누르기 전에 그 꾸러미 콘텐츠(수 KB)를 미리 받아 둔다
+      onMouseEnter={() => prefetchKit(kit.id)}
+      onFocus={() => prefetchKit(kit.id)}
+      onTouchStart={() => prefetchKit(kit.id)}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();

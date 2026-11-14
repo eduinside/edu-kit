@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ArrowUp, ArrowDown, X, Link2, Check, ExternalLink, Layers } from "lucide-react";
 import Modal from "./Modal.tsx";
 import { getKit } from "../lib/data.ts";
-import { ITEMS } from "../lib/kit-content.ts";
+import { loadVideos, useLoaded } from "../lib/kit-content.ts";
 import { useBasket, setBasket, mixUrl, shortenMix, qrSrc, MAX_MIX, type Shortened } from "../lib/mix.ts";
 
 // 모음 만들기 창 — 담은 영상 순서 바꾸기·빼기 + 제목·안내 → 모음 주소(?i=, 저장 없음) + 짧은 주소·QR. 무거운 영상 목록을 쓰므로 지연 로드.
@@ -15,7 +15,11 @@ export default function MixBuilderModal({ open, onClose }: { open: boolean; onCl
   const [made, setMade] = useState<Shortened | null>(null);
   const [copied, setCopied] = useState<string | null>(null);
 
-  const byRef = new Map(ITEMS.filter((i) => i.type === "video").map((i) => [`${i.kit_id}/${i.item_key}`, i]));
+  // 담은 영상이 든 꾸러미 파일만 받는다. 순서 바꾸기·빼기로는 다시 받지 않게 꾸러미 목록을 키로 쓴다.
+  const kitKey = [...new Set(basket.map((r) => r.split("/")[0]))].sort().join(",");
+  const videos = useLoaded(open ? kitKey : null, () => loadVideos(basket));
+  const loading = videos.status !== "ready";
+  const byRef = videos.status === "ready" ? videos.data : new Map();
   const rows = basket.map((r) => ({ r, it: byRef.get(r) }));
 
   const move = (i: number, d: -1 | 1) => {
@@ -102,10 +106,10 @@ export default function MixBuilderModal({ open, onClose }: { open: boolean; onCl
                 {rows.map(({ r, it }, i) => {
                   const kit = it && getKit(it.kit_id);
                   return (
-                    <li key={r} style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 10px", borderRadius: 11, border: "1px solid var(--color-slate-100)", background: "#fff", opacity: it ? 1 : 0.55 }}>
+                    <li key={r} style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 10px", borderRadius: 11, border: "1px solid var(--color-slate-100)", background: "#fff", opacity: it || loading ? 1 : 0.55 }}>
                       <span style={{ width: 20, textAlign: "right", fontSize: 12, fontWeight: 800, color: "var(--color-slate-400)" }}>{i + 1}</span>
                       <span style={{ flex: 1, minWidth: 0 }}>
-                        <span style={{ display: "block", fontSize: 10.5, fontWeight: 700, color: "var(--color-slate-400)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{kit ? `${kit.grade}학년 ${kit.subject} · ${kit.title}` : "꾸러미에서 빠진 영상"}</span>
+                        <span style={{ display: "block", fontSize: 10.5, fontWeight: 700, color: "var(--color-slate-400)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{kit ? `${kit.grade}학년 ${kit.subject} · ${kit.title}` : videos.status === "loading" ? "불러오는 중…" : videos.status === "error" ? "불러오지 못했어요" : "꾸러미에서 빠진 영상"}</span>
                         <span style={{ display: "block", fontSize: 13.5, fontWeight: 700, color: "var(--color-ink)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{it?.title ?? r}</span>
                       </span>
                       <button type="button" onClick={() => move(i, -1)} disabled={i === 0} aria-label="위로" style={iconBtn}><ArrowUp size={14} /></button>

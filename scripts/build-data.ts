@@ -6,6 +6,7 @@ import { resolve } from "node:path";
 import { ROOT, loadKitDocs, toSheetRows } from "./content.ts";
 import { transform } from "./transform.ts";
 import { buildCatalog, loadChannelGrades } from "./catalog.ts";
+import { writeSiteContent } from "./site-content.ts";
 
 const OUT = resolve(ROOT, "data");
 
@@ -29,6 +30,13 @@ writeFileSync(resolve(OUT, "items.json"), JSON.stringify(out.items, null, 2) + "
 writeFileSync(resolve(OUT, "stage_meta.json"), JSON.stringify(out.stageMeta, null, 2) + "\n");
 writeFileSync(resolve(OUT, "quiz.json"), JSON.stringify(out.quiz, null, 2) + "\n");
 
+// 사이트용 꾸러미별 콘텐츠·검색 색인(public/k/) — 뷰어는 연 꾸러미 몫만 받는다
+const site = writeSiteContent(ROOT, out);
+if (Object.keys(site.kits).length !== out.kits.length) {
+  console.error(`✗ [data] 꾸러미 콘텐츠 파일 ${Object.keys(site.kits).length}개 ≠ 꾸러미 ${out.kits.length}개`);
+  process.exit(1);
+}
+
 // 공개 카탈로그(수업나래가 받아 감) — public/에 두면 vite가 dist/로 복사한다 → kit.dgedu.link/catalog.json
 const catalog = buildCatalog(loaded.map((k) => k.doc), channels.grades);
 writeFileSync(resolve(ROOT, "public/catalog.json"), JSON.stringify(catalog) + "\n");
@@ -38,4 +46,5 @@ console.log(`✓ items: ${out.items.length}`);
 console.log(`✓ stage_meta: ${out.stageMeta.length}`);
 console.log(`✓ quiz: ${out.quiz.length}`);
 console.log(`✓ catalog: 꾸러미 ${catalog.kits.length} · 영상 ${catalog.items.length} (${catalog.version.hash})`);
-console.log(`→ data/kits.json · items.json · stage_meta.json · quiz.json · public/catalog.json`);
+console.log(`✓ site: 꾸러미 파일 ${Object.keys(site.kits).length} · 검색 색인 search.${site.search}.json`);
+console.log(`→ data/kits.json · items.json · stage_meta.json · quiz.json · content-index.json · public/catalog.json · public/k/`);

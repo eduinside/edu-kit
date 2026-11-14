@@ -37,9 +37,9 @@ npm run typecheck
 ```
 
 ### 구조
-- `app/routes/{HomePage,ViewerPage}.tsx` — 홈 갤러리 / 뷰어. ViewerPage는 `React.lazy`로 분리(무거운 items.json 지연 로드).
+- `app/routes/{HomePage,ViewerPage}.tsx` — 홈 갤러리 / 뷰어. ViewerPage는 `React.lazy`로 분리. 콘텐츠는 연 꾸러미 몫(`public/k/<id>.<hash>.json`)만 받는다(2026-11-14).
 - `app/components/*` — KitCard, SearchModal, UsageGuide, Modal, SegmentedControl, ResourceLinks(외부 학습자원 링크), viewer/{Sidebar,ContentPane,QuizPane}.
-- `app/lib/` — `data.ts`(kits, 가벼움) · `kit-content.ts`(items/stage_meta, 무거움 → 뷰어·검색만 동적 로드) · `quiz.ts`(개념 확인 OX, 뷰어 청크) · `design.ts`(단원색·단계색·교과아이콘) · `search.ts`(통합 검색) · `api.ts`(카운터) · `stats.ts`(시드).
+- `app/lib/` — `data.ts`(kits, 가벼움) · `kit-content.ts`(꾸러미별 콘텐츠·검색 색인 받기 — `public/k/`, 해시 목록 `data/content-index.json`) · `quiz.ts`(개념 확인 OX) · `design.ts`(단원색·단계색·교과아이콘) · `search.ts`(통합 검색) · `api.ts`(카운터) · `stats.ts`(시드).
 - `app/styles/tokens.css` — 디자인 토큰(edu-link index.css 계승) + 컴포넌트 스타일.
 - `content/kits/<id>.yaml` — **콘텐츠 정본**(꾸러미 하나 = 파일 하나). `content/_ref/` — 성취기준 기준표(2022 사회·과학·도덕·실과·통합교과), 마지막 영상 점검 기록.
 - `scripts/` — `content.ts`(YAML 스키마·읽기·쓰기) · `transform.ts`(사이트 데이터 변환·검증) · `build-data.ts`(빌드) · `check.ts` · `report.ts` · `videos.ts` + `field-map`·`markdown`·`sanitize`·`types`. `gen-og.py`(OG 카드) · `seed-stats.ts`(D1 시드 SQL) · `once/`(1회용 전환 스크립트 기록).
@@ -49,7 +49,7 @@ npm run typecheck
 - **홈**: 학년·학기·교과·단원 필터(URL 쿼리 딥링크). 기본값=접속 월 기준 학기 + 자료 있는 학년 랜덤, 최근 선택 localStorage 복원. 카드 썸네일은 단원(unit_no)별 색. 통합 검색(단원/영상/성취기준 그룹).
 - **뷰어**: 핵심어 그룹 목차 사이드바 + 본문(intro 문서형 / 영상 영화관 모드 + lite-youtube 파사드 / 이미지 / 위지윅). 조회수·좋아요·링크복사. 없는 id는 랜딩으로 리다이렉트.
   - **핵심 용어 설명**: intro의 용어 칩 탭 → 바로 아래 설명 패널 토글(한 번에 하나). 꾸러미 파일 `intro.concepts[].def` → 빌드가 `concept_defs` 산출. 풀이 없는 용어는 비탭.
-  - **개념 확인 OX 퀴즈**: 단원 마지막 가상 화면(`/:kitId/_quiz`). 풀에서 2문제 무작위(진입·다시풀기마다 다른 조합), O/X 채점·해설. 풀 2개 미만이면 화면 미노출. 데이터는 꾸러미 파일 `quiz` → `data/quiz.json`.
+  - **개념 확인 OX 퀴즈**: 단원 마지막 가상 화면(`/:kitId/_quiz`). 풀에서 2문제 무작위(진입·다시풀기마다 다른 조합), O/X 채점·해설. 풀 2개 미만이면 화면 미노출. 데이터는 꾸러미 파일 `quiz` → `data/quiz.json` → 꾸러미별 콘텐츠 파일(`public/k/`).
   - **모음(맞춤 목록)**: 영상마다 「＋ 모음에 담기」 → 「모음 n」 → 제목·안내 → `kit.dgedu.link/m/<id>` + dgedu.link 짧은 주소·QR. 모음 화면은 같은 뷰어(고른 순서, 단원 이름표). 수업나래도 같은 API로 만든다. [docs/FEATURE_PLAN_mix.md](docs/FEATURE_PLAN_mix.md)
   - **문제 알리기**: 영상 화면 머리의 「문제 알리기」 → 이유·메모 → D1 `edukit_reports` + 운영자 알림 메일(Resend, 하루 상한). 처리 절차 [docs/OPERATIONS.md](docs/OPERATIONS.md) §3-7.
   - **외부 학습자원 링크**(`ResourceLinks`): 에듀맵스·개념튼튼 ON싹(새 창). 홈 푸터 + 퀴즈 완료 화면 하단.

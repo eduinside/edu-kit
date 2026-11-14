@@ -35,7 +35,7 @@ export interface ViewerShellProps {
   sidebarNote?: string;                   // 모음 안내 글
   reportTarget: (item: Item) => ReportTarget | null;
   videoActions?: (item: Item) => ReactNode; // 영상 머리의 추가 단추(모음에 담기 등)
-  emptyMessage?: string;
+  emptyMessage?: ReactNode;               // 불러오는 중·실패(다시 시도 단추) 등
 }
 
 export default function ViewerShell(p: ViewerShellProps) {

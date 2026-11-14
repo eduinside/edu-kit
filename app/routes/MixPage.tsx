@@ -4,7 +4,8 @@ import { Link2, Check, QrCode } from "lucide-react";
 import ViewerShell from "../components/viewer/ViewerShell.tsx";
 import Modal from "../components/Modal.tsx";
 import { getKit, type Item, type Stage } from "../lib/data.ts";
-import { ITEMS, type ViewerGroup } from "../lib/kit-content.ts";
+import { loadVideos, useLoaded, type ViewerGroup } from "../lib/kit-content.ts";
+import { loadMessage } from "../components/viewer/LoadMessage.tsx";
 import { getMix, mixQuery, parseMixQuery, qrSrc, type MixData } from "../lib/mix.ts";
 
 // 모음 뷰어 — 교사가 고른 영상만, 고른 순서대로. 같은 단원에서 이어지는 영상끼리 단원 이름표로 묶는다.
@@ -33,12 +34,15 @@ export default function MixPage() {
   const mix = queryMode ? queryMix : stored;
   const itemId = queryMode ? new URLSearchParams(search).get("v") ?? undefined : pathItem;
 
+  // 모음에 든 꾸러미 파일만 받는다(public/k/). 키는 모음 항목 목록.
+  const videos = useLoaded(mix ? mix.items.join(",") : null, () => loadVideos(mix?.items ?? []));
+  const byRef = videos.status === "ready" ? videos.data : null;
+
   // 모음 항목 → 뷰어 묶음. 꾸러미에서 빠진 영상은 건너뛴다.
   const { groups, origin } = useMemo(() => {
     const origin = new Map<string, { kitId: string; key: string }>();
     const groups: ViewerGroup[] = [];
-    if (!mix) return { groups, origin };
-    const byRef = new Map(ITEMS.filter((i) => i.type === "video").map((i) => [`${i.kit_id}/${i.item_key}`, i]));
+    if (!mix || !byRef) return { groups, origin };
     let n = 0;
     for (const r of mix.items) {
       const it = byRef.get(r);
@@ -52,7 +56,7 @@ export default function MixPage() {
       else groups.push({ stage: kit.title as Stage, question: null, sort_order: groups.length + 1, items: [item] });
     }
     return { groups, origin };
-  }, [mix]);
+  }, [mix, byRef]);
 
   const count = groups.reduce((a, g) => a + g.items.length, 0);
   // 주소 모음은 보는 영상(v)만 뺀 지금 주소가 곧 모음 주소다
@@ -88,6 +92,7 @@ export default function MixPage() {
   const status = failed ? "모음을 불러오지 못했어요. 잠시 뒤 다시 열어 주세요."
     : mix === undefined ? "모음을 불러오는 중…"
     : mix === null ? (queryMode ? "모음 주소가 올바르지 않아요." : "이 모음을 찾을 수 없어요.")
+    : videos.status !== "ready" ? loadMessage(videos, "모음 영상을")
     : count === 0 ? "이 모음의 영상을 찾을 수 없어요."
     : undefined;
 

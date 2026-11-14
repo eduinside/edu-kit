@@ -33,6 +33,8 @@ Thumbs.db
 /data/items.json
 /data/stage_meta.json
 /data/quiz.json
+/data/content-index.json
+/public/k/
 /public/catalog.json
 /db/seed-stats.sql
 

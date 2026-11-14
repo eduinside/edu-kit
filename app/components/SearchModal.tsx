@@ -15,13 +15,21 @@ const SCOPE_BADGE: Record<string, { bg: string; color: string }> = {
 export default function SearchModal({ open, onClose }: { open: boolean; onClose: () => void }) {
   const navigate = useNavigate();
   const [q, setQ] = useState("");
-  // search.ts(무거운 items 포함)는 모달 열 때 동적 로드 → 홈 번들에서 분리 유지
+  // search.ts와 검색 색인(public/k/search.*.json)은 모달 열 때 받는다 → 홈 번들에서 분리 유지
   const [fn, setFn] = useState<((q: string) => SearchResults) | null>(null);
+  const [failed, setFailed] = useState(false);
+  const [attempt, setAttempt] = useState(0);
 
   useEffect(() => {
-    if (open) import("../lib/search.ts").then((m) => setFn(() => m.search));
-    else setQ("");
-  }, [open]);
+    if (!open) { setQ(""); return; }
+    if (fn) return;
+    let cancelled = false;
+    setFailed(false);
+    Promise.all([import("../lib/search.ts"), import("../lib/kit-content.ts").then((m) => m.loadSearchIndex())])
+      .then(([m, idx]) => { if (!cancelled) setFn(() => (query: string) => m.search(query, idx)); })
+      .catch(() => { if (!cancelled) setFailed(true); });
+    return () => { cancelled = true; };
+  }, [open, fn, attempt]);
 
   const res = useMemo(() => (fn && q.trim() ? fn(q) : EMPTY), [fn, q]);
   const sections = SCOPES.map((s) => ({ scope: s, items: res[s] })).filter((s) => s.items.length);
@@ -48,7 +56,12 @@ export default function SearchModal({ open, onClose }: { open: boolean; onClose:
       <div style={{ padding: "8px 12px 14px", minHeight: 120 }}>
         {!q.trim() ? null : res.total === 0 ? (
           <div style={{ textAlign: "center", padding: "36px 20px", fontSize: 13, fontWeight: 600, color: "var(--color-slate-400)" }}>
-            {!fn ? "검색 준비 중…" : `"${q.trim()}"에 대한 결과가 없어요.`}
+            {failed ? (
+              <>
+                검색 자료를 불러오지 못했어요.{" "}
+                <button type="button" onClick={() => setAttempt((a) => a + 1)} style={{ border: "none", background: "none", padding: 0, font: "inherit", color: "var(--color-brand-600)", textDecoration: "underline", cursor: "pointer" }}>다시 시도</button>
+              </>
+            ) : !fn ? "검색 준비 중…" : `"${q.trim()}"에 대한 결과가 없어요.`}
           </div>
         ) : (
           sections.map((sec, si) => (
