@@ -21,13 +21,24 @@
     <meta name="twitter:title" content="수업꾸러미 · kit.dgedu.link" />
     <meta name="twitter:description" content="학년·학기·교과·단원으로 찾는 수업 콘텐츠 꾸러미" />
     <meta name="twitter:image" content="https://kit.dgedu.link/og/default.png" />
-    <!-- Google tag (gtag.js) — GA4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5EFTFW9BT2"></script>
+    <!-- Google tag (gtag.js) — GA4. 명령은 바로 대기열(dataLayer)에 넣고, 스크립트(약 180KB)는 화면이 다 뜬 뒤
+         한가할 때 받는다(dic과 같은 방식). 처음 연 주소를 page_location으로 고정해 GA가 뜨기 전에
+         다른 화면으로 넘어가도 첫 방문 주소가 바뀌지 않게 한다. -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-5EFTFW9BT2');
+      gtag('config', 'G-5EFTFW9BT2', { page_location: location.href });
+      window.addEventListener('load', function () {
+        var load = function () {
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-5EFTFW9BT2';
+          document.head.appendChild(s);
+        };
+        if ('requestIdleCallback' in window) requestIdleCallback(load, { timeout: 3000 });
+        else setTimeout(load, 1500);
+      });
     </script>
   </head>
   <body>

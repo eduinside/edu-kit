@@ -170,7 +170,7 @@ export default function HomePage() {
       {/* 헤더 */}
       <div className="glassmorphism" style={{ position: "sticky", top: 0, zIndex: 30, height: 58, display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0 24px" }}>
         <Link to="/" aria-label="수업꾸러미 홈" style={{ display: "flex", alignItems: "center", gap: 11, textDecoration: "none", color: "inherit" }}>
-          <img src="/logo.png" width={30} height={30} alt="수업꾸러미 로고" style={{ display: "block", borderRadius: 8 }} />
+          <img src="/logo-64.png" width={30} height={30} alt="수업꾸러미 로고" style={{ display: "block", borderRadius: 8 }} />
           <span style={{ fontWeight: 900, fontSize: 18, letterSpacing: "-.02em" }}>수업꾸러미</span>
         </Link>
         <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
