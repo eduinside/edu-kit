@@ -1,14 +1,12 @@
-// 개념 확인 OX 퀴즈 — 뷰어 전용(quiz.json). kit-content.ts와 마찬가지로 ViewerPage(lazy)만 import해
-// 홈 번들에 섞이지 않게 분리. quiz.json은 빌드 산출물(prebuild=build-data가 content/kits/*.yaml에서 생성).
-import quiz from "../../data/quiz.json";
+// 개념 확인 OX 퀴즈 — 문제는 꾸러미 콘텐츠 파일(kit-content.ts loadKit)에 같이 들어 있다.
 import type { QuizItem } from "../../scripts/types.ts";
+import type { KitContent } from "./kit-content.ts";
 
 export type { QuizItem };
-export const QUIZ = quiz as QuizItem[];
 
 /** 한 꾸러미의 OX 문제 풀(정렬). 2개 미만이면 퀴즈 화면 미노출(호출부에서 판정). */
-export function getQuiz(kitId: string): QuizItem[] {
-  return QUIZ.filter((q) => q.kit_id === kitId).sort((a, b) => a.sort_order - b.sort_order);
+export function quizOf(content: KitContent): QuizItem[] {
+  return [...content.quiz].sort((a, b) => a.sort_order - b.sort_order);
 }
 
 /** 풀에서 무작위 2문제(Fisher–Yates). 접속/다시풀기마다 다른 조합 — 풀 5~8개 권장. */

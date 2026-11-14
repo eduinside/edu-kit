@@ -20,7 +20,7 @@
 | `npm run report` | 변경 보고서 — 작업본을 `origin/main`과 꾸러미별로 비교. 기준을 바꾸려면 `npm run report -- <커밋>` |
 | `npm run videos` | 영상 점검(§3-4). 결과를 YAML의 `channel`·`status`에 적는다. 꾸러미만: `npm run videos -- so4111` |
 | `npm run changes -- <기준> <이름> [사유.json]` | **변경 문서** — 기준 커밋과 지금을 비교해 `docs/changes/<이름>.md`(요약)·`.csv`(전체 행, 엑셀용)를 만든다. 큰 정리·협업 반영을 배포할 때 같은 커밋에 넣는다 |
-| `npm run data` | YAML → `data/*.json`(빌드·개발 서버가 자동으로 돌림). 형식 오류가 있으면 실패 |
+| `npm run data` | YAML → `data/*.json` + 사이트용 꾸러미별 파일 `public/k/<id>.<hash>.json`·검색 색인(빌드·개발 서버가 자동으로 돌림). 형식 오류가 있으면 실패 |
 | `npm run og` | 꾸러미 공유 카드(`public/og/<id>.png`). **새 꾸러미·제목 변경 때만**, 결과를 같은 커밋에 |
 | `npm run dev` / `npm run build` | 로컬 확인 / 배포 빌드 |
 

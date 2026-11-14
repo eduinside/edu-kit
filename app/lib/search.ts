@@ -1,8 +1,8 @@
 // 통합 검색(스코프별 그룹): 단원(제목·핵심용어) / 영상(제목·설명) / 성취기준(단원 성취기준).
-// 무거운 items.json을 끌어오므로 SearchModal에서 동적 import → 홈 번들에서 분리 유지.
+// 검색 색인(public/k/search.<hash>.json, kit-content.ts loadSearchIndex)은 검색 창을 열 때 받는다.
 import { KITS } from "./data.ts";
-import { ITEMS } from "./kit-content.ts";
-import type { Kit, Item } from "./data.ts";
+import type { Kit } from "./data.ts";
+import type { SearchIndex } from "./kit-content.ts";
 
 export interface SearchResult {
   href: string; // /:kitId 또는 /:kitId/:itemKey
@@ -21,14 +21,14 @@ const norm = (s: unknown) => String(s ?? "").toLowerCase();
 const crumbOf = (k: Kit) => `초등 ${k.grade}학년 · ${k.sem} · ${k.subject}`;
 const cut = (s: string, n = 90) => (s.length > n ? s.slice(0, n) + "…" : s);
 
-export function search(query: string): SearchResults {
+export function search(query: string, index: SearchIndex): SearchResults {
   const q = query.trim().toLowerCase();
   if (!q) return { 단원: [], 영상: [], 성취기준: [], total: 0 };
 
   const pub = KITS.filter((k) => k.published);
   const pubById = new Map<string, Kit>(pub.map((k) => [k.id, k]));
-  const introByKit = new Map<string, Item>();
-  for (const it of ITEMS) if (it.type === "intro" && pubById.has(it.kit_id)) introByKit.set(it.kit_id, it);
+  const introByKit = new Map<string, SearchIndex["intros"][number]>();
+  for (const it of index.intros) if (pubById.has(it.kit_id)) introByKit.set(it.kit_id, it);
 
   const 단원: SearchResult[] = [];
   const 성취기준: SearchResult[] = [];
@@ -54,8 +54,7 @@ export function search(query: string): SearchResults {
 
   // 영상: 제목 또는 설명
   const 영상: SearchResult[] = [];
-  for (const it of ITEMS) {
-    if (it.type !== "video") continue;
+  for (const it of index.videos) {
     const k = pubById.get(it.kit_id);
     if (!k) continue;
     const vt = it.video_title || it.title || "";

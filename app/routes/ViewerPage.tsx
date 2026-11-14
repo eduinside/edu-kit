@@ -1,10 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useParams, Navigate, useSearchParams } from "react-router-dom";
 import { Link2, Eye, Heart, Check, Plus } from "lucide-react";
 import ViewerShell from "../components/viewer/ViewerShell.tsx";
 import { getKit } from "../lib/data.ts";
-import { getGroups } from "../lib/kit-content.ts";
-import { getQuiz } from "../lib/quiz.ts";
+import { groupsOf, loadKit, useLoaded } from "../lib/kit-content.ts";
+import { quizOf } from "../lib/quiz.ts";
+import { loadMessage } from "../components/viewer/LoadMessage.tsx";
 import { flowLabel } from "../lib/design.ts";
 import { statsFor } from "../lib/stats.ts";
 import { postView, postLike, type Stats } from "../lib/api.ts";
@@ -20,6 +21,11 @@ export default function ViewerPage() {
   const [stats, setStats] = useState<Stats>(() => ({ ...statsFor(kitId), liked: false }));
   const basket = useBasket();
   const [full, setFull] = useState(false);
+  // 꾸러미 콘텐츠는 연 꾸러미 몫만 받는다(public/k/<id>.<hash>.json)
+  const content = useLoaded(getKit(kitId) ? kitId : null, () => loadKit(kitId));
+  const ready = content.status === "ready" ? content.data : null;
+  const groups = useMemo(() => (ready ? groupsOf(ready) : []), [ready]);
+  const quiz = useMemo(() => (ready ? quizOf(ready) : []), [ready]);
 
   // 진입 시 조회수 집계 + 라이브 stats 수신. Functions 미가동(dev)이면 시드 유지.
   useEffect(() => {
@@ -71,14 +77,15 @@ export default function ViewerPage() {
       crumb={`초등 ${kit.grade}학년 · ${kit.sem} · ${kit.subject}`}
       title={kit.title}
       hl={hl}
-      groups={getGroups(kitId)}
+      groups={groups}
       flowLabel={flowLabel(kit.flow)}
       itemKey={itemId}
       onSelect={(k) => navigate(`/${kitId}/${k}`)}
       onBack={() => navigate("/")}
       docTitle={(head) => `${head ? head + " · " : ""}${kit.title} · 수업꾸러미`}
       topRight={topRight}
-      quiz={getQuiz(kitId)}
+      quiz={quiz}
+      emptyMessage={loadMessage(content, "꾸러미를")}
       quizKey={kitId}
       reportTarget={(item) => ({ kitId, kitTitle: kit.title, itemKey: item.item_key })}
       videoActions={(item) => {

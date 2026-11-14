@@ -3,7 +3,7 @@ import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { MessageCircleQuestion, Layers } from "lucide-react";
 import { useBasket } from "./lib/mix.ts";
 import HomePage from "./routes/HomePage.tsx";
-// 뷰어는 지연 로드 — 무거운 items.json(~600KB)을 홈 번들에서 분리
+// 뷰어는 지연 로드 — 뷰어 코드(영상 플레이어 등)를 홈 번들에서 분리. 콘텐츠는 꾸러미별 파일(kit-content.ts)
 const ViewerPage = lazy(() => import("./routes/ViewerPage.tsx"));
 const MixPage = lazy(() => import("./routes/MixPage.tsx"));
 const MixBuilderModal = lazy(() => import("./components/MixBuilderModal.tsx"));

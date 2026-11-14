@@ -2,3 +2,7 @@
 # 기본값(4시간 뒤 서버에 다시 확인)이면 재방문 때마다 엣지까지 왕복이 생긴다(edu-link docs/design-unify-plan.md §3-1).
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
+
+# 꾸러미별 콘텐츠·검색 색인 — 파일 이름에 내용 해시(scripts/site-content.ts)
+/k/*
+  Cache-Control: public, max-age=31536000, immutable
